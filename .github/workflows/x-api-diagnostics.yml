@@ -1,0 +1,59 @@
+name: X API diagnostics
+run-name: X API diagnostics (${{ inputs.auth_mode }})
+
+on:
+  workflow_dispatch:
+    inputs:
+      auth_mode:
+        description: Credential type to validate
+        required: true
+        default: auto
+        type: choice
+        options:
+          - auto
+          - app_only
+          - user_context
+
+permissions:
+  contents: read
+
+concurrency:
+  group: x-api-diagnostics
+  cancel-in-progress: false
+
+jobs:
+  diagnostics:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+      X_USER_ACCESS_TOKEN: ${{ secrets.X_USER_ACCESS_TOKEN }}
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run unit tests
+        run: PYTHONPATH=src python -m unittest discover -s tests -v
+
+      - name: Check X API access
+        run: >-
+          python scripts/check_x_api.py
+          --auth-mode "${{ inputs.auth_mode }}"
+          --github-summary
+          --json-output artifacts/x-api-diagnostics.json
+          --markdown-output artifacts/x-api-diagnostics.md
+
+      - name: Upload diagnostic report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: x-api-diagnostics
+          path: artifacts/
+          if-no-files-found: warn
+          retention-days: 7

@@ -1,0 +1,31 @@
+schema_version = 1
+
+[x_api]
+base_url = "https://api.x.com"
+timeout_seconds = 20
+# auto prefers X_USER_ACCESS_TOKEN when both credential variables are present.
+# Use app_only or user_context to require one particular credential type.
+auth_mode = "auto"
+app_token_env = "X_BEARER_TOKEN"
+user_token_env = "X_USER_ACCESS_TOKEN"
+operator_username = "madhugogineni97"
+require_identity_match = true
+
+[checks]
+# Every enabled public check is one API request. authenticated_user is skipped
+# for app-only credentials because an app has no user identity.
+authenticated_user = true
+operator_lookup = true
+recent_posts = true
+following = true
+recent_search = true
+
+[checks.limits]
+recent_posts = 5
+following = 10
+recent_search = 10
+
+[checks.search]
+# Keep the diagnostic query intentionally simple. Topic collectors will own the
+# richer production queries later.
+query = "AI"
