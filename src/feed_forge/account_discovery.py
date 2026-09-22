@@ -45,6 +45,7 @@ class PoolConfig:
 class DiscoveryConfig:
     base_url: str
     timeout_seconds: float
+    app_token_env: str
     user_token_env: str
     oauth1_consumer_key_env: str
     oauth1_consumer_secret_env: str
@@ -191,6 +192,7 @@ def load_discovery_config(path: Path) -> DiscoveryConfig:
     config = DiscoveryConfig(
         base_url=_string(x_api, "base_url").rstrip("/"),
         timeout_seconds=_number(x_api, "timeout_seconds"),
+        app_token_env=_string(x_api, "app_token_env"),
         user_token_env=_string(x_api, "user_token_env"),
         oauth1_consumer_key_env=_string(x_api, "oauth1_consumer_key_env"),
         oauth1_consumer_secret_env=_string(x_api, "oauth1_consumer_secret_env"),
@@ -275,10 +277,14 @@ def resolve_discovery_authentication(
         return DiscoveryAuthentication(
             mode="oauth2_user_context", token=user_token, transport=transport
         )
+    app_token = environment.get(config.app_token_env, "").strip()
+    if app_token:
+        return DiscoveryAuthentication(
+            mode="app_only", token=app_token, transport=transport
+        )
     raise ConfigurationError(
-        "Account discovery needs user-context authentication. Set all four "
-        "OAuth 1.0a variables or set "
-        f"{config.user_token_env} to a currently valid OAuth 2.0 access token."
+        "No X credential is available. Set all four OAuth 1.0a variables, set "
+        f"{config.user_token_env}, or set {config.app_token_env}."
     )
 
 
@@ -821,6 +827,7 @@ def _validate_config(config: DiscoveryConfig) -> None:
     if parsed.scheme != "https" or parsed.hostname not in ALLOWED_API_HOSTS:
         raise ConfigurationError("x_api.base_url must be an official HTTPS X API host")
     environment_names = (
+        config.app_token_env,
         config.user_token_env,
         config.oauth1_consumer_key_env,
         config.oauth1_consumer_secret_env,

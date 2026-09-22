@@ -91,6 +91,13 @@ class AccountDiscoveryTests(unittest.TestCase):
                 {"X_API_KEY": "key", "X_USER_ACCESS_TOKEN": "oauth2-token"},
             )
 
+    def test_app_bearer_is_safe_fallback(self) -> None:
+        authentication = resolve_discovery_authentication(
+            self.config, {"X_BEARER_TOKEN": "app-token"}
+        )
+        self.assertEqual("app_only", authentication.mode)
+        self.assertEqual("app-token", authentication.token)
+
     def test_discovery_searches_then_profiles_then_checks_timeline(self) -> None:
         search_post = post(
             "p1",

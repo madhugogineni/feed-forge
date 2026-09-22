@@ -7,6 +7,7 @@ timezone = "Asia/Kolkata"
 [x_api]
 base_url = "https://api.x.com"
 timeout_seconds = 20
+app_token_env = "X_BEARER_TOKEN"
 user_token_env = "X_USER_ACCESS_TOKEN"
 oauth1_consumer_key_env = "X_API_KEY"
 oauth1_consumer_secret_env = "X_API_KEY_SECRET"

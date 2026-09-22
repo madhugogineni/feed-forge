@@ -96,10 +96,10 @@ individual-verification filters, scoring weights, and API prices. The loader
 rejects a configuration whose worst-case returned resources would exceed the
 configured US$0.50 run limit. The current envelope is US$0.475.
 
-Account discovery requires user context so the profile lookup can request
-relationship status and reject accounts the operator already follows. For the
-unattended daily workflow, use the OAuth 1.0a credentials generated in the X
-Developer Console:
+Account discovery uses user context when available so the profile lookup can
+request relationship status and reject accounts the operator already follows.
+For the unattended daily workflow, use the OAuth 1.0a credentials generated in
+the X Developer Console:
 
 ```bash
 export X_API_KEY='...'
@@ -115,6 +115,12 @@ that it normally expires after two hours unless the authorization used the
 `offline.access` scope and the application implements refresh-token handling.
 The daily workflow therefore prefers the long-lived OAuth 1.0a credentials when
 both forms are present.
+
+For initial testing, the existing app-only `X_BEARER_TOKEN` is also accepted.
+Public discovery and relevance checks still run, but X cannot return a
+user-relative following relationship to an app-only token. Those candidates are
+therefore labeled `needs_follow_check` instead of `recommended`; the script does
+not pretend that their follow status is known.
 
 The **Daily account discovery** workflow runs at 00:30 UTC, which is 06:00
 Asia/Kolkata throughout the year. It also supports manual execution, publishes
