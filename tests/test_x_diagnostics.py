@@ -6,7 +6,7 @@ from datetime import UTC, datetime
 from pathlib import Path
 from typing import Mapping
 
-from feed_forge.x_api import ApiResponse
+from feed_forge.x_api import ApiResponse, OAuth1Transport
 from feed_forge.x_diagnostics import (
     ConfigurationError,
     Credential,
@@ -208,6 +208,21 @@ class XDiagnosticsTests(unittest.TestCase):
             config_path.write_text(source, encoding="utf-8")
             with self.assertRaisesRegex(ConfigurationError, "official X API host"):
                 load_config(config_path)
+
+    def test_oauth1_signer_matches_rfc_5849_example(self) -> None:
+        signer = OAuth1Transport(
+            consumer_key="dpf43f3p2l4k3l03",
+            consumer_secret="kd94hf93k423kf44",
+            access_token="nnch734d00sl2jdk",
+            access_token_secret="pfkkdhi9sl3r4s00",
+            timestamp=lambda: 1191242096,
+            nonce=lambda: "kllo9940pd9333jh",
+        )
+        header = signer.authorization_header(
+            "GET",
+            "http://photos.example.net/photos?file=vacation.jpg&size=original",
+        )
+        self.assertIn("oauth_signature=\"tR3%2BTy81lMeYAr%2FFid0kMTYa%2FWM%3D\"", header)
 
 
 if __name__ == "__main__":

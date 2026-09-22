@@ -81,15 +81,16 @@ The supplied editorial material is preserved under `docs/reference/`.
 2. Discover and score a niche using interest, expertise, source availability,
    audience activity, and room for a distinct point of view.
 3. Discover 15–30 not-already-followed accounts in each pilot pool: peers at
-   approximately 100–500 followers, growing creators around 1,000–10,000, and
+   approximately 100–1,000 followers, growing creators around 1,000–10,000, and
    high-reach accounts at 100,000+. Maintain a short relationship list too.
 4. Collect recent source items and public posts, normalize them, deduplicate
    them, and record collection time and provenance.
 5. Rank opportunities by relevance, freshness, evidence quality, ability to add
    value, and relationship potential.
 6. Verify the claims that will appear in a draft.
-7. Every six hours, produce a review queue in the configured voice with five
-   new post ideas and approximately twelve ranked reply opportunities.
+7. Once daily at 06:00 Asia/Kolkata, produce a review queue in the configured
+   voice with five new post ideas and approximately twelve ranked reply
+   opportunities.
 8. Let the user edit, approve, and publish manually.
 9. Emit a self-contained recommendation artifact. Persistent activity and
    outcome tracking are deferred until the experiment proves they are useful.

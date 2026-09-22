@@ -18,11 +18,13 @@ Maintain three discovery pools, with 15–30 accounts in each pool:
 
 | Pool | Initial follower range | Purpose |
 |---|---:|---|
-| Peers | Approximately 100–500 | Build reciprocal relationships with people at a similar stage |
+| Peers | Approximately 100–1,000 | Build reciprocal relationships with people at a similar stage |
 | Growing creators | Approximately 1,000–10,000, centered near 5,000 | Find active niche creators who are still likely to notice thoughtful replies |
 | Beasts | 100,000+ | Join high-reach conversations early and earn discovery |
 
-The system must prioritize accounts the user does not already follow. Each
+The system must prioritize accounts the user does not already follow. Discovery
+recommendations must be verified individual accounts; exclude organizations,
+government accounts, publications, and brand accounts. Each
 suggestion must include:
 
 - Handle, display name, follower count, and follow status.
@@ -30,6 +32,14 @@ suggestion must include:
 - Recent activity and evidence that it receives genuine engagement.
 - Which pool it belongs to and why it is worth following or monitoring.
 - Discovery date and last-checked time so stale accounts can be retired.
+
+For a typical 20-account pool, target eight accounts focused on AI, coding
+agents, or Indian AI builders; four focused on consumer technology, gadgets, or
+telecom; four focused on Indian credit cards, payments, or fintech; two focused
+on Indian fitness; and two crossover accounts. Consumer technology, gadgets,
+and telecom accounts need not be India-specific. Scale these allocations
+proportionally when a pool contains 15–30 accounts, without weakening relevance
+or verification requirements to fill a quota.
 
 Follower ranges are starting filters, not permanent labels. Refresh counts and
 reclassify accounts when they cross a boundary. Exclude inactive, low-quality,
@@ -47,7 +57,7 @@ Prioritize topics in this order:
 
 1. AI with clear relevance to India, including models, tools, coding agents,
    jobs, launches, and practical use.
-2. Consumer technology and gadgets relevant to India.
+2. Consumer technology, gadgets, and telecom; these need not be India-specific.
 3. Fitness creators and conversations in India.
 4. The Indian credit-card, rewards, deals, and payments community.
 5. Current events in India that fit the account and are nonpolitical.
@@ -70,9 +80,10 @@ user. Do not generate generic praise, restate the post, or fabricate experience.
 
 ## Goal 3: generate original post ideas from current information
 
-Run the opportunity pipeline every six hours. Each run should produce five new,
-non-duplicative original post ideas using RSS/Atom feeds, official newsrooms,
-regulators, first-party product pages, and other permitted sources.
+Run the opportunity pipeline once daily at 06:00 Asia/Kolkata. Each run should
+produce five new, non-duplicative original post ideas using RSS/Atom feeds,
+official newsrooms, regulators, first-party product pages, and other permitted
+sources.
 
 Post ideas should favor AI, technology, Indian current events, fitness, and the
 Indian credit-card community while still using the broader interests in the
@@ -103,7 +114,7 @@ The 70/30 recommendation mix intentionally favors replies. The system should
 also favor repeated, genuine interaction with peer and growing accounts over
 one-off comments on only the largest accounts.
 
-## Six-hour run output
+## Daily run output
 
 Each run should produce one compact, reviewable artifact containing:
 
@@ -150,7 +161,7 @@ live data.
 
 ### Operational quality
 
-- Complete a run every six hours or surface a visible failure.
+- Complete a run daily at 06:00 Asia/Kolkata or surface a visible failure.
 - Deduplicate post ideas, profiles, source items, and reply targets within each
   run. Cross-run repetition is acceptable during the stateless experiment.
 - Preserve a traceable path from source to opportunity and draft inside each
@@ -194,8 +205,13 @@ or dependency on a previous run's artifact.
   source items, social posts, evidence, opportunities, and drafts.
 - Produce versioned JSON records as the canonical output; render Markdown from
   those records for human review.
-- Fetch the current followed-account list during each run so discovery can
-  exclude handles the user already follows without storing prior state.
+- Search current posts first, shortlist their authors locally, and look up only
+  the shortlisted profiles and finalist timelines. Use authenticated
+  relationship fields when available to exclude already-followed candidates
+  without downloading the entire following list on every run.
+- Enforce a configurable projected X API read-cost ceiling of US$0.50 per run.
+  Stop before a request that would exceed the ceiling and report partial
+  results rather than overspending.
 
 ### Phase 2: discovery and collection
 
@@ -216,7 +232,8 @@ or dependency on a previous run's artifact.
 
 ### Phase 4: scheduling and learning
 
-- Schedule the pipeline every six hours with visible failure reporting.
+- Schedule the pipeline daily at 06:00 Asia/Kolkata with visible failure
+  reporting.
 - Add manual `workflow_dispatch` inputs for testing different configuration
   values without changing code.
 - Use GitHub artifacts and job summaries for review while the workflow is being

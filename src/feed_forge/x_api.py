@@ -2,13 +2,17 @@
 
 from __future__ import annotations
 
+import base64
+import hashlib
+import hmac
 import json
+import secrets
 import time
 import urllib.error
 import urllib.parse
 import urllib.request
 from dataclasses import dataclass
-from typing import Any, Mapping, Protocol
+from typing import Any, Callable, Mapping, Protocol
 
 
 RATE_LIMIT_HEADERS = (
@@ -77,6 +81,88 @@ class UrllibTransport:
             )
 
 
+class OAuth1Transport:
+    """Sign GET requests with OAuth 1.0a HMAC-SHA1 user context."""
+
+    def __init__(
+        self,
+        *,
+        consumer_key: str,
+        consumer_secret: str,
+        access_token: str,
+        access_token_secret: str,
+        transport: Transport | None = None,
+        timestamp: Callable[[], int] | None = None,
+        nonce: Callable[[], str] | None = None,
+    ) -> None:
+        self._consumer_key = consumer_key
+        self._consumer_secret = consumer_secret
+        self._access_token = access_token
+        self._access_token_secret = access_token_secret
+        self._transport = transport or UrllibTransport()
+        self._timestamp = timestamp or (lambda: int(time.time()))
+        self._nonce = nonce or (lambda: secrets.token_hex(16))
+
+    def get(
+        self,
+        url: str,
+        *,
+        headers: Mapping[str, str],
+        timeout_seconds: float,
+    ) -> ApiResponse:
+        signed_headers = dict(headers)
+        signed_headers["Authorization"] = self.authorization_header("GET", url)
+        return self._transport.get(
+            url, headers=signed_headers, timeout_seconds=timeout_seconds
+        )
+
+    def authorization_header(self, method: str, url: str) -> str:
+        oauth_parameters = {
+            "oauth_consumer_key": self._consumer_key,
+            "oauth_nonce": self._nonce(),
+            "oauth_signature_method": "HMAC-SHA1",
+            "oauth_timestamp": str(self._timestamp()),
+            "oauth_token": self._access_token,
+            "oauth_version": "1.0",
+        }
+        parsed = urllib.parse.urlsplit(url)
+        signature_parameters = list(
+            urllib.parse.parse_qsl(parsed.query, keep_blank_values=True)
+        )
+        signature_parameters.extend(oauth_parameters.items())
+        normalized_parameters = "&".join(
+            f"{_oauth_quote(key)}={_oauth_quote(value)}"
+            for key, value in sorted(
+                signature_parameters,
+                key=lambda pair: (_oauth_quote(pair[0]), _oauth_quote(pair[1])),
+            )
+        )
+        base_url = urllib.parse.urlunsplit(
+            (parsed.scheme.lower(), parsed.netloc.lower(), parsed.path or "/", "", "")
+        )
+        signature_base = "&".join(
+            (
+                _oauth_quote(method.upper()),
+                _oauth_quote(base_url),
+                _oauth_quote(normalized_parameters),
+            )
+        )
+        signing_key = (
+            f"{_oauth_quote(self._consumer_secret)}&"
+            f"{_oauth_quote(self._access_token_secret)}"
+        )
+        digest = hmac.new(
+            signing_key.encode("utf-8"),
+            signature_base.encode("utf-8"),
+            hashlib.sha1,
+        ).digest()
+        oauth_parameters["oauth_signature"] = base64.b64encode(digest).decode("ascii")
+        return "OAuth " + ", ".join(
+            f'{_oauth_quote(key)}="{_oauth_quote(value)}"'
+            for key, value in sorted(oauth_parameters.items())
+        )
+
+
 class XApiClient:
     def __init__(
         self,
@@ -141,3 +227,7 @@ def _normalize_headers(headers: Any) -> dict[str, str]:
 
 def _elapsed_ms(started: float) -> int:
     return round((time.monotonic() - started) * 1000)
+
+
+def _oauth_quote(value: Any) -> str:
+    return urllib.parse.quote(str(value), safe="~-._")

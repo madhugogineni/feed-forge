@@ -10,9 +10,9 @@ It does not post or engage automatically.
 ## Status
 
 The repository is in the foundation phase. The project goal, operating
-boundaries, and imported editorial reference material are documented. The first
-executable slice is an X API diagnostic; collection and recommendation stages
-have not been implemented yet.
+boundaries, and imported editorial reference material are documented. X API
+diagnostics and the first cost-bounded account-discovery stage are executable;
+reply and original-post recommendation stages have not been implemented yet.
 
 ## Start here
 
@@ -82,3 +82,48 @@ Run the deterministic test suite without network access:
 ```bash
 PYTHONPATH=src python3 -m unittest discover -s tests -v
 ```
+
+## Discover accounts
+
+Account discovery searches current posts, ranks their authors locally, looks up
+only a shortlist of profiles, and inspects recent posts for the best finalists.
+It never follows an account or writes to X.
+
+The pilot configuration is in
+[`config/account_discovery.toml`](config/account_discovery.toml). It contains
+the query families, expanded keyword taxonomy, 100–1,000 peer band, topic mix,
+individual-verification filters, scoring weights, and API prices. The loader
+rejects a configuration whose worst-case returned resources would exceed the
+configured US$0.50 run limit. The current envelope is US$0.475.
+
+Account discovery requires user context so the profile lookup can request
+relationship status and reject accounts the operator already follows. For the
+unattended daily workflow, use the OAuth 1.0a credentials generated in the X
+Developer Console:
+
+```bash
+export X_API_KEY='...'
+export X_API_KEY_SECRET='...'
+export X_ACCESS_TOKEN='...'
+export X_ACCESS_TOKEN_SECRET='...'
+python3 scripts/discover_accounts.py
+```
+
+Add those same four names as GitHub Actions secrets. An OAuth 2.0
+`X_USER_ACCESS_TOKEN` is also accepted for local or manual runs, but X documents
+that it normally expires after two hours unless the authorization used the
+`offline.access` scope and the application implements refresh-token handling.
+The daily workflow therefore prefers the long-lived OAuth 1.0a credentials when
+both forms are present.
+
+The **Daily account discovery** workflow runs at 00:30 UTC, which is 06:00
+Asia/Kolkata throughout the year. It also supports manual execution, publishes
+the Markdown report to the job summary, and retains the JSON and Markdown
+artifacts for 90 days. GitHub scheduled workflows are best-effort and can begin
+later than their cron time during periods of high load.
+
+The current stage remains stateless: retained artifacts provide a review
+history but are not inputs to later runs. Durable cross-run deduplication,
+accept/reject feedback, and outcome measurement require a persistent history
+store and are deliberately deferred until the live recommendations have been
+evaluated.

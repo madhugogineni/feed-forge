@@ -1,0 +1,146 @@
+schema_version = 1
+
+[operator]
+username = "madhugogineni97"
+timezone = "Asia/Kolkata"
+
+[x_api]
+base_url = "https://api.x.com"
+timeout_seconds = 20
+user_token_env = "X_USER_ACCESS_TOKEN"
+oauth1_consumer_key_env = "X_API_KEY"
+oauth1_consumer_secret_env = "X_API_KEY_SECRET"
+oauth1_access_token_env = "X_ACCESS_TOKEN"
+oauth1_access_token_secret_env = "X_ACCESS_TOKEN_SECRET"
+
+[budget]
+# The collector refuses to start a request whose worst-case returned resources
+# would take the projected run cost above this amount.
+max_estimated_cost_usd = 0.50
+post_read_usd = 0.005
+user_read_usd = 0.010
+
+[discovery]
+search_results_per_query = 10
+profile_lookup_limit = 15
+timeline_finalist_limit = 5
+timeline_posts_per_finalist = 5
+require_verified = true
+# X verification types identifying organizations or governments are rejected.
+excluded_verified_types = ["business", "government"]
+exclude_organization_accounts = true
+exclude_already_followed = true
+minimum_recent_relevant_posts = 3
+
+[pools.peers]
+minimum_followers = 100
+maximum_followers = 1000
+target_count = 20
+
+[pools.growing]
+minimum_followers = 1001
+maximum_followers = 10000
+target_count = 20
+
+[pools.beasts]
+minimum_followers = 100000
+target_count = 20
+
+[topic_mix]
+ai_agents_builders = 8
+consumer_tech = 4
+credit_cards = 4
+fitness = 2
+crossover = 2
+
+[scoring]
+topic_fit = 0.35
+keyword_depth = 0.20
+freshness = 0.15
+conversation_potential = 0.15
+india_signal = 0.05
+quality = 0.10
+
+[filters]
+negative_keywords = [
+  "giveaway",
+  "airdrop",
+  "follow for follow",
+  "f4f",
+  "crypto pump",
+  "memecoin",
+  "political party",
+  "election campaign",
+]
+organization_keywords = [
+  "official account",
+  "official handle",
+  "newsroom",
+  "publication",
+  "media company",
+  "customer support",
+  "customer care",
+]
+
+# Four searches x ten Posts cap the search stage at $0.20. Related phrases are
+# packed into query families so broader coverage does not mean more requests.
+[[queries]]
+name = "ai_agents_builders"
+topic = "ai_agents_builders"
+query = '(AI OR LLM OR "coding agent" OR "AI agent" OR agentic OR Codex OR "Claude Code" OR Cursor OR Windsurf OR Copilot OR MCP OR RAG OR inference OR multimodal OR evals OR embeddings OR "AI startup" OR "AI builder") is:verified -is:retweet -is:nullcast'
+
+[[queries]]
+name = "consumer_tech"
+topic = "consumer_tech"
+query = '(iPhone OR Android OR Pixel OR Samsung OR OnePlus OR laptop OR gadget OR wearables OR telecom OR broadband OR 5G OR Jio OR Airtel OR NFC OR eSIM) is:verified -is:retweet -is:nullcast'
+
+[[queries]]
+name = "credit_cards"
+topic = "credit_cards"
+query = '("credit card" OR #ccgeeks OR "reward points" OR cashback OR lounge OR devaluation OR forex OR UPI OR NPCI OR RBI OR Scapia OR "Axis Atlas" OR "Diners Black" OR Amex) is:verified -is:retweet -is:nullcast'
+
+[[queries]]
+name = "fitness_crossover"
+topic = "fitness"
+query = '(((fitness OR gym OR strength OR running OR protein OR nutrition OR workout) (India OR Indian OR Bengaluru OR Hyderabad OR Mumbai OR Delhi)) OR "AI jobs" OR "Indian IT" OR "tech career" OR "travel rewards" OR "tech deals") is:verified -is:retweet -is:nullcast'
+
+[keywords.ai_agents_builders]
+terms = [
+  "ai", "llm", "large language model", "coding agent", "ai agent", "agentic",
+  "codex", "claude code", "cursor", "windsurf", "copilot", "mcp",
+  "model context protocol", "rag", "inference", "multimodal", "evals",
+  "embeddings", "openai", "anthropic", "gemini", "deepmind", "grok",
+  "xai", "llama", "mistral", "perplexity", "ai startup", "ai builder",
+]
+
+[keywords.consumer_tech]
+terms = [
+  "iphone", "android", "pixel", "samsung", "oneplus", "laptop", "gadget",
+  "wearable", "smartwatch", "headphones", "telecom", "broadband", "5g",
+  "jio", "airtel", "nfc", "esim", "app", "software", "hardware",
+]
+
+[keywords.credit_cards]
+terms = [
+  "credit card", "ccgeeks", "reward points", "cashback", "lounge",
+  "devaluation", "forex", "upi", "npci", "rbi", "scapia", "axis atlas",
+  "diners black", "amex", "hdfc", "fintech", "payments",
+]
+
+[keywords.fitness]
+terms = [
+  "fitness", "gym", "strength", "running", "walking", "protein",
+  "nutrition", "workout", "exercise", "marathon", "hypertrophy", "health",
+]
+
+[keywords.crossover]
+terms = [
+  "india", "indian", "startup", "founder", "builder", "developer", "saas",
+  "travel", "personal finance", "career", "jobs", "deal", "launch",
+]
+
+[india_signals]
+terms = [
+  "india", "indian", "bengaluru", "bangalore", "hyderabad", "mumbai",
+  "delhi", "chennai", "pune", "gurugram", "noida", "upi", "npci", "rbi",
+]
