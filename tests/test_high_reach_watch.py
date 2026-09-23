@@ -56,6 +56,7 @@ class HighReachWatchTests(unittest.TestCase):
         self.assertEqual("preview", report["status"])
         self.assertEqual([], report["posts"])
         self.assertIn("no X API calls", render_watch_markdown(report))
+        self.assertIn("[@IndiaToday](https://x.com/IndiaToday)", render_watch_markdown(report))
 
     def test_live_qualifies_profiles_and_ranks_only_fresh_relevant_english_posts(self) -> None:
         transport = FakeTransport([

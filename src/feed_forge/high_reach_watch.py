@@ -377,7 +377,10 @@ def render_watch_markdown(report: Mapping[str, Any]) -> str:
     else:
         lines.extend(["Preview only; no X API calls or charges were made.", "", "## Seed accounts", ""])
         for lane in report["lanes"]:
-            lines.append(f"- {lane['name']}: " + ", ".join("@" + h for h in lane["seed_handles"]))
+            lines.append(
+                f"- {lane['name']}: "
+                + ", ".join(f"[@{handle}](https://x.com/{handle})" for handle in lane["seed_handles"])
+            )
     if report["warnings"]:
         lines.extend(["", "## Warnings", ""])
         lines.extend(f"- {warning}" for warning in report["warnings"])
