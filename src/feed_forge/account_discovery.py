@@ -53,6 +53,7 @@ class DiscoveryConfig:
     oauth1_access_token_secret_env: str
     operator_username: str
     timezone: str
+    cadence: str
     max_cost_usd: float
     post_read_usd: float
     user_read_usd: float
@@ -153,6 +154,7 @@ def load_discovery_config(path: Path) -> DiscoveryConfig:
         raise ConfigurationError("schema_version must be 1")
 
     operator = _table(raw, "operator")
+    execution = _table(raw, "execution")
     x_api = _table(raw, "x_api")
     budget = _table(raw, "budget")
     discovery = _table(raw, "discovery")
@@ -202,6 +204,7 @@ def load_discovery_config(path: Path) -> DiscoveryConfig:
         ),
         operator_username=_string(operator, "username").lstrip("@"),
         timezone=_string(operator, "timezone"),
+        cadence=_string(execution, "cadence"),
         max_cost_usd=_number(budget, "max_estimated_cost_usd"),
         post_read_usd=_number(budget, "post_read_usd"),
         user_read_usd=_number(budget, "user_read_usd"),
@@ -469,7 +472,7 @@ def run_account_discovery(
         "generated_at": generated_at.isoformat().replace("+00:00", "Z"),
         "operator_username": config.operator_username,
         "authentication": {"mode": authentication_mode},
-        "schedule": {"cadence": "daily", "local_time": "06:00", "timezone": config.timezone},
+        "schedule": {"cadence": config.cadence, "timezone": config.timezone},
         "policy": {
             "verified_required": config.require_verified,
             "excluded_verified_types": sorted(config.excluded_verified_types),
@@ -508,11 +511,11 @@ def render_discovery_markdown(report: Mapping[str, Any]) -> str:
     summary = report["summary"]
     cost = report["cost"]
     lines = [
-        "# Daily X account discovery",
+        "# X account discovery",
         "",
         f"- Generated: `{report['generated_at']}`",
         f"- Operator: `@{report['operator_username']}`",
-        "- Schedule: `06:00 Asia/Kolkata` daily",
+        f"- Invocation cadence: `{report['schedule']['cadence']}`",
         (
             f"- Result: {summary['recommended']} recommended, "
             f"{summary['needs_review']} needs review, "
@@ -872,6 +875,8 @@ def _validate_config(config: DiscoveryConfig) -> None:
     )
     if any(not name.isidentifier() for name in environment_names):
         raise ConfigurationError("X credential environment names must be identifiers")
+    if config.cadence not in {"manual", "daily"}:
+        raise ConfigurationError("execution.cadence must be manual or daily")
     if not 0 < config.max_cost_usd <= 10:
         raise ConfigurationError("budget.max_estimated_cost_usd must be between 0 and 10")
     if config.search_results_per_query < 10 or config.search_results_per_query > 100:

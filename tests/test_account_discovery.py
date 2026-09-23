@@ -71,8 +71,9 @@ class AccountDiscoveryTests(unittest.TestCase):
         self.assertEqual((100, 1000), (peers.minimum_followers, peers.maximum_followers))
         self.assertEqual(10, peers.target_count)
         self.assertEqual(0.5, self.config.max_cost_usd)
+        self.assertEqual("manual", self.config.cadence)
 
-    def test_oauth1_credentials_are_preferred_for_scheduled_user_context(self) -> None:
+    def test_oauth1_credentials_are_preferred_for_workflow_user_context(self) -> None:
         authentication = resolve_discovery_authentication(
             self.config,
             {

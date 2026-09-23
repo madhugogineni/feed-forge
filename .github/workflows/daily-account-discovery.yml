@@ -1,16 +1,13 @@
-name: Daily account discovery
+name: Account discovery
 
 on:
-  schedule:
-    # 00:30 UTC is 06:00 Asia/Kolkata year-round.
-    - cron: "30 0 * * *"
   workflow_dispatch:
 
 permissions:
   contents: read
 
 concurrency:
-  group: daily-account-discovery
+  group: account-discovery
   cancel-in-progress: false
 
 jobs:
@@ -44,7 +41,7 @@ jobs:
           --json-output artifacts/account-discovery.json
           --markdown-output artifacts/account-discovery.md
 
-      - name: Upload daily report
+      - name: Upload report
         if: always()
         uses: actions/upload-artifact@v4
         with:

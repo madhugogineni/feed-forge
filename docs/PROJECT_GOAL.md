@@ -79,10 +79,11 @@ user. Do not generate generic praise, restate the post, or fabricate experience.
 
 ## Goal 3: generate original post ideas from current information
 
-Run the opportunity pipeline once daily at 06:00 Asia/Kolkata. Each run should
-produce five new, non-duplicative original post ideas using RSS/Atom feeds,
-official newsrooms, regulators, first-party product pages, and other permitted
-sources.
+During the initial experiment, run the opportunity pipeline only when the user
+explicitly requests it. Each run should produce five new, non-duplicative
+original post ideas using RSS/Atom feeds, official newsrooms, regulators,
+first-party product pages, and other permitted sources. A daily 06:00
+Asia/Kolkata schedule is a later target, not an active trigger.
 
 Post ideas should favor AI, technology, Indian current events, fitness, and the
 Indian credit-card community while still using the broader interests in the
@@ -161,7 +162,8 @@ live data.
 
 ### Operational quality
 
-- Complete a run daily at 06:00 Asia/Kolkata or surface a visible failure.
+- Complete explicitly requested runs and surface visible failures. Automated
+  scheduling is paused during the initial experiment.
 - Deduplicate post ideas, profiles, source items, and reply targets within each
   run. Cross-run repetition is acceptable during the stateless experiment.
 - Preserve a traceable path from source to opportunity and draft inside each
@@ -232,8 +234,8 @@ or dependency on a previous run's artifact.
 
 ### Phase 4: scheduling and learning
 
-- Schedule the pipeline daily at 06:00 Asia/Kolkata with visible failure
-  reporting.
+- After the manual experiment is validated, schedule the pipeline daily at
+  06:00 Asia/Kolkata with visible failure reporting.
 - Add manual `workflow_dispatch` inputs for testing different configuration
   values without changing code.
 - Use GitHub artifacts and job summaries for review while the workflow is being
