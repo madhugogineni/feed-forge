@@ -60,14 +60,14 @@ id = "india_developments"
 label = "India developments"
 lane = "review"
 match_any = ["India", "Indian", "Bharat", "central government"]
-feed_ids = ["indian_express_india"]
+feed_ids = []
 
 [[topics]]
 id = "telangana_hyderabad"
 label = "Telangana and Hyderabad developments"
 lane = "review"
 match_any = ["Telangana", "Hyderabad", "Secunderabad", "Cyberabad", "GHMC", "HMDA", "Hyderabad Metro", "Patancheru", "Sangareddy", "Warangal"]
-feed_ids = ["indian_express_hyderabad", "hindu_telangana", "hindu_hyderabad"]
+feed_ids = ["hindu_telangana", "hindu_hyderabad"]
 
 [[topics]]
 id = "local_practical"
@@ -193,21 +193,6 @@ url = "https://news.google.com/rss/search?q=%22boAt%22+OR+%22Noise+smartwatch%22
 id = "medianama"
 name = "MediaNama"
 url = "https://www.medianama.com/feed/"
-
-[[feeds]]
-id = "indian_express_india"
-name = "Indian Express India"
-url = "https://indianexpress.com/section/india/feed/"
-
-[[feeds]]
-id = "indian_express_world"
-name = "Indian Express World"
-url = "https://indianexpress.com/section/world/feed/"
-
-[[feeds]]
-id = "indian_express_hyderabad"
-name = "Indian Express Hyderabad"
-url = "https://indianexpress.com/section/cities/hyderabad/feed/"
 
 [[feeds]]
 id = "hindu_telangana"

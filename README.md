@@ -176,6 +176,8 @@ claim against the closest primary source before a factual draft is ready.
 The report keeps article links, timestamps, match reasons, and per-feed health.
 An unavailable or malformed feed is shown as failed; old or empty feeds are
 shown separately. Any source failure exits nonzero after writing the reports.
+Indian Express feeds were excluded after returning HTTP 403 from a GitHub
+Actions runner; the workflow does not try to bypass publisher access controls.
 
 The **Topic radar** GitHub Actions workflow runs daily at approximately
 06:00 Asia/Kolkata and can also be started manually. It places the known-topic
