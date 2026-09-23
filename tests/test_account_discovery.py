@@ -186,6 +186,42 @@ class AccountDiscoveryTests(unittest.TestCase):
             {item["reason"] for item in report["rejections"]},
         )
 
+    def test_null_connection_status_is_reported_as_unknown(self) -> None:
+        search_post = post(
+            "p1",
+            "u1",
+            "Building a coding agent with an LLM, MCP, evals and inference",
+        )
+        profile = {
+            "id": "u1",
+            "username": "individual_builder",
+            "name": "Individual Builder",
+            "description": "I build AI developer tools",
+            "verified": True,
+            "verified_type": "blue",
+            "connection_status": None,
+            "public_metrics": {"followers_count": 1000, "following_count": 120},
+        }
+        timeline = [
+            post(str(index), "u1", "AI coding agent with MCP and LLM evals")
+            for index in range(5)
+        ]
+        transport = FakeTransport(
+            [response([search_post])]
+            + [response([]) for _ in range(3)]
+            + [response([profile]), response(timeline)]
+        )
+
+        report = run_account_discovery(
+            self.config,
+            "secret",
+            transport=transport,
+            now=FIXED_NOW,
+        )
+
+        self.assertEqual(1, report["summary"]["needs_follow_check"])
+        self.assertEqual("unknown", report["candidates"][0]["follow_status"])
+
     def test_budget_rejects_an_oversized_reservation(self) -> None:
         budget = CostBudget(0.50)
         with self.assertRaisesRegex(DiscoveryError, "Cost budget would be exceeded"):

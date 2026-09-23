@@ -674,12 +674,13 @@ def _qualify_profile(
     if pool is None:
         return None, "outside_follower_pools"
 
-    statuses = profile.get("connection_status")
-    relationship_known = isinstance(statuses, list)
+    raw_statuses = profile.get("connection_status")
+    relationship_known = isinstance(raw_statuses, list)
+    statuses = raw_statuses if relationship_known else ()
     status_values = {
         str(value).casefold()
         for value in statuses
-        if isinstance(statuses, list) and isinstance(value, str)
+        if isinstance(value, str)
     }
     already_followed = bool({"following", "following_requested"} & status_values)
     if config.exclude_already_followed and already_followed:
