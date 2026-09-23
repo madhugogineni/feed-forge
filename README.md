@@ -13,7 +13,9 @@ The repository is in the foundation phase. The project goal, operating
 boundaries, and imported editorial reference material are documented. X API
 diagnostics and the first cost-bounded account-discovery stage are executable;
 the public-feed topic radar is executable. Reply and original-post
-recommendation stages have not been implemented yet.
+recommendation stages have not been implemented yet. A separate high-reach
+watch can preview candidate accounts or make a manual, cost-capped live scan
+for recent posts to review.
 
 ## Start here
 
@@ -188,3 +190,44 @@ table and recent headlines in the job summary and uploads both reports as
 run artifacts for 30 days. Its workflow is independent of the manual-only,
 cost-bounded account-discovery workflow. GitHub's scheduled jobs may run a
 little later than the configured time.
+
+## Watch high-reach accounts and fresh posts
+
+The high-reach watch is separate from individual account discovery. It seeds
+English-language Indian news accounts and global tech/AI publications. A live
+run first checks each account's current verification status and follower count,
+then searches recent posts from qualifying accounts. The Indian news lane
+requires 100,000+ followers; the global tech/AI lane is configured for
+150,000–750,000 followers, including accounts near 200,000. Seed handles are
+candidates, not claims of current eligibility. Follow status remains unknown
+without user-context access.
+
+Run a free preview first:
+
+```bash
+python3 scripts/watch_high_reach.py
+```
+
+To make paid read requests, set `X_BEARER_TOKEN` and explicitly use `--live`.
+The **High-reach watch** GitHub Actions workflow is manual-only; its `live`
+input defaults to false. With the current 12 handles, the configured
+worst-case estimate is US$0.32 under a US$0.50 cap: 12 user resources and up
+to 40 post resources. These are estimates based on the configured per-resource
+rates in [X's pay-per-use pricing](https://docs.x.com/x-api/getting-started/pricing);
+the X Developer Console is authoritative. Malformed or partial API
+responses stop the run visibly. A failed run can still incur charges for
+resources already returned, so there is no zero-cost guarantee for live mode.
+
+The report includes qualifying account links, current follower counts,
+verification flags, and a ranked list of fresh English original posts with
+post URL, age, text, relevance cues, and score components. This is a review
+queue, not verified news or a ready-to-publish reply. It never follows or
+replies automatically. Political and tragic posts are excluded by initial
+phrase filters, but the user must still review every suggestion for fit.
+Searches use X's documented [recent-search `from:` and `lang:` operators](https://docs.x.com/x-api/posts/search/integrate/operators).
+They are grouped to limit cost, so a high-volume account can crowd out
+another account in the same group; that is a known MVP limitation.
+
+Configuration is in
+[`config/high_reach_watch.toml`](config/high_reach_watch.toml). The stage is
+stateless and its JSON/Markdown artifacts are retained for 90 days.

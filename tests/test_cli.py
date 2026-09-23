@@ -11,6 +11,19 @@ from feed_forge.cli import main
 
 
 class CliTests(unittest.TestCase):
+    def test_high_reach_preview_writes_reports_without_x_credentials(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            with patch.dict(os.environ, {}, clear=True):
+                exit_code = main([
+                    "watch-high-reach", "--json-output", str(root / "watch.json"),
+                    "--markdown-output", str(root / "watch.md"),
+                ])
+            report = json.loads((root / "watch.json").read_text(encoding="utf-8"))
+            self.assertEqual(0, exit_code)
+            self.assertEqual("preview", report["status"])
+            self.assertEqual(0, report["cost"]["estimated_returned_usd"])
+
     def test_topic_radar_writes_github_summary_without_x_credentials(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

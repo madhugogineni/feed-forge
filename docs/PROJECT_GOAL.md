@@ -24,7 +24,10 @@ Start with 10 recommendations in each of three discovery pools, for 30 total:
 
 The system must prioritize accounts the user does not already follow. Discovery
 recommendations must be verified individual accounts; exclude organizations,
-government accounts, publications, and brand accounts. Each
+government accounts, publications, and brand accounts in this relationship lane.
+The separate high-reach watch lane may include verified newsrooms and technology
+publications because its purpose is to find timely posts for manual replies, not
+to recommend peers or imply a reciprocal relationship. Each
 suggestion must include:
 
 - Handle, display name, follower count, and follow status.
@@ -71,6 +74,15 @@ Freshness matters. Rank beast-account posts most aggressively in their first
 45 minutes, peer and growing-creator posts in their first two hours, and known
 relationship targets within six hours. These are ranking preferences rather
 than reasons to invent weak replies when no strong opportunity exists.
+
+The high-reach watch starts with configured candidate handles: English-language
+Indian news channels/publications at 100,000+ followers and global technology/AI
+publications roughly around 200,000 followers. A live run verifies the current
+count and verification status before searching recent posts from qualifying
+accounts. The watch is manual-only while paid X read costs and relevance are
+being evaluated; its preview mode makes no X calls. Posts are links for human
+review, not verified claims or ready-to-publish replies. Political or tragic
+news is not a reply target for the pilot, even when collected as news context.
 
 A useful reply adds at least one of the following: a specific reaction, a
 relevant fact, a correction, a practical India-specific angle, simple verified

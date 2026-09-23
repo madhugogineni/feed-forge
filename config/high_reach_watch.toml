@@ -1,0 +1,44 @@
+schema_version = 1
+
+[x_api]
+base_url = "https://api.x.com"
+timeout_seconds = 20
+token_env = "X_BEARER_TOKEN"
+
+[budget]
+# Worst case: 12 user resources + four searches x 10 posts = $0.32.
+max_estimated_cost_usd = 0.50
+user_read_usd = 0.010
+post_read_usd = 0.005
+
+[scan]
+batch_size = 3
+posts_per_batch = 10
+maximum_post_age_minutes = 180
+priority_age_minutes = 45
+output_limit = 12
+language = "en"
+
+[lanes.india_news]
+minimum_followers = 100000
+handles = ["IndiaToday", "NDTV", "CNNnews18", "TimesNow", "ThePrintIndia", "IndianExpress", "timesofindia", "livemint"]
+
+[lanes.global_tech_ai]
+minimum_followers = 150000
+maximum_followers = 750000
+handles = ["TheRundownAI", "9to5Google", "Techmeme", "AndroidPolice"]
+
+[relevance]
+# These are editorial cues for human review, not assertions that a post is true.
+phrases = [
+  "artificial intelligence", "AI model", "AI tools", "AI development",
+  "Google Gemini", "OpenAI", "Anthropic", "Nvidia", "Apple Music",
+  "YouTube Music", "Samsung", "Xiaomi", "Tesla", "new smartphone",
+  "software update", "consumer technology", "credit card", "UPI payment",
+  "digital payments", "Hyderabad", "Telangana", "Indian startup",
+  "Indian brand", "product launch", "data privacy", "cybersecurity",
+]
+excluded_phrases = [
+  "election campaign", "political party", "party leader", "vote for",
+  "murder", "rape", "terror attack", "death toll", "communal violence",
+]

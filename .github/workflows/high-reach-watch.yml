@@ -1,0 +1,46 @@
+name: High-reach watch
+
+on:
+  workflow_dispatch:
+    inputs:
+      live:
+        description: "Make paid X API read calls (projected maximum $0.32 with current config)"
+        type: boolean
+        required: true
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: high-reach-watch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run unit tests
+        run: PYTHONPATH=src python -m unittest discover -s tests -v
+      - name: Scan high-reach accounts
+        run: >-
+          python scripts/watch_high_reach.py
+          --github-summary
+          --json-output artifacts/high-reach-watch.json
+          --markdown-output artifacts/high-reach-watch.md
+          ${{ inputs.live && '--live' || '' }}
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: high-reach-watch-${{ github.run_id }}
+          path: artifacts/
+          if-no-files-found: warn
+          retention-days: 90

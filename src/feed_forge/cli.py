@@ -24,6 +24,12 @@ from .topic_feeds import (
     load_topic_feed_config,
     render_topics_markdown,
 )
+from .high_reach_watch import (
+    WatchError,
+    load_watch_config,
+    render_watch_markdown,
+    run_watch,
+)
 from .x_diagnostics import (
     ConfigurationError,
     load_config,
@@ -103,6 +109,15 @@ def build_parser() -> argparse.ArgumentParser:
     topics.add_argument("--json-output", type=Path, default=Path("artifacts/topic-radar.json"))
     topics.add_argument("--markdown-output", type=Path, default=Path("artifacts/topic-radar.md"))
     topics.add_argument("--github-summary", action="store_true")
+    watch = subparsers.add_parser(
+        "watch-high-reach",
+        help="Preview or run a cost-capped scan of verified high-reach accounts.",
+    )
+    watch.add_argument("--config", type=Path, default=Path("config/high_reach_watch.toml"))
+    watch.add_argument("--json-output", type=Path, default=Path("artifacts/high-reach-watch.json"))
+    watch.add_argument("--markdown-output", type=Path, default=Path("artifacts/high-reach-watch.md"))
+    watch.add_argument("--github-summary", action="store_true")
+    watch.add_argument("--live", action="store_true", help="Make paid X API read calls.")
     return parser
 
 
@@ -114,7 +129,32 @@ def main(argv: Sequence[str] | None = None) -> int:
         return _discover_accounts(args)
     if args.command == "collect-topics":
         return _collect_topics(args)
+    if args.command == "watch-high-reach":
+        return _watch_high_reach(args)
     return 2
+
+
+def _watch_high_reach(args: argparse.Namespace) -> int:
+    try:
+        config = load_watch_config(args.config)
+        report = run_watch(config, live=args.live, token=os.environ.get(config.token_env))
+    except WatchError as error:
+        report = {
+            "schema_version": "feed-forge/high-reach-watch-failure/v1",
+            "generated_at": datetime.now(UTC).isoformat(),
+            "status": "failed",
+            "error": str(error),
+        }
+        markdown = f"# High-reach watch\n\nStatus: **failed**\n\n{error}\n"
+        exit_code = 2
+    else:
+        markdown = render_watch_markdown(report)
+        exit_code = 0
+    _write_text(args.json_output, json.dumps(report, indent=2, sort_keys=True) + "\n")
+    _write_text(args.markdown_output, markdown)
+    _append_github_summary(markdown, args.github_summary)
+    print(markdown)
+    return exit_code
 
 
 def _check_x_api(args: argparse.Namespace) -> int:
