@@ -53,7 +53,7 @@ id = "credit_cards_payments"
 label = "Credit cards, rewards and payments"
 lane = "review"
 match_any = ["credit card", "card rewards", "reward points", "cashback", "airport lounge", "UPI", "payment app", "digital payments", "RBI card"]
-feed_ids = ["cardinsider"]
+feed_ids = []
 
 [[topics]]
 id = "india_developments"
@@ -245,9 +245,9 @@ name = "Electrek"
 url = "https://electrek.co/feed/"
 
 [[feeds]]
-id = "cardinsider"
-name = "Card Insider"
-url = "https://cardinsider.com/feed/"
+id = "google_news_credit_cards"
+name = "Google News — Indian credit cards"
+url = "https://news.google.com/rss/search?q=%22credit+card%22+India+OR+%22reward+points%22+India+OR+%22card+cashback%22+India&hl=en-IN&gl=IN&ceid=IN%3Aen"
 
 [[feeds]]
 id = "livefromalounge"

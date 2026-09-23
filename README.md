@@ -178,6 +178,8 @@ An unavailable or malformed feed is shown as failed; old or empty feeds are
 shown separately. Any source failure exits nonzero after writing the reports.
 Indian Express feeds were excluded after returning HTTP 403 from a GitHub
 Actions runner; the workflow does not try to bypass publisher access controls.
+Card Insider likewise returned HTTP 415 on the hosted runner and was replaced
+with a Google News RSS search for Indian credit-card coverage.
 
 The **Topic radar** GitHub Actions workflow runs daily at approximately
 06:00 Asia/Kolkata, on changes to topic-radar code/configuration, and can also
