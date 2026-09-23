@@ -2,6 +2,16 @@ name: Topic radar
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/topic-radar.yml
+      - config/topic_feeds.toml
+      - scripts/collect_topics.py
+      - src/feed_forge/cli.py
+      - src/feed_forge/topic_feeds.py
+      - tests/test_topic_feeds.py
+      - tests/test_cli.py
   schedule:
     # 06:00 Asia/Kolkata. GitHub schedules can start a little late.
     - cron: "30 0 * * *"
