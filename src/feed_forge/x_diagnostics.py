@@ -8,13 +8,21 @@ import tomllib
 from dataclasses import dataclass
 from datetime import UTC, datetime
 from pathlib import Path
-from typing import Any, Mapping
+from typing import Any, Literal, Mapping
 from urllib.parse import urlparse
 
-from .x_api import ApiResponse, Transport, XApiClient, rate_limit_from_headers
+from .x_api import (
+    ApiResponse,
+    ResponseStructureError,
+    Transport,
+    XApiClient,
+    parse_x_response,
+    public_api_errors,
+    rate_limit_from_headers,
+)
 
 
-REPORT_SCHEMA_VERSION = "feed-forge/x-api-diagnostics/v1"
+REPORT_SCHEMA_VERSION = "feed-forge/x-api-diagnostics/v2"
 ALLOWED_API_HOSTS = {"api.x.com", "api.twitter.com"}
 USERNAME_PATTERN = re.compile(r"^[A-Za-z0-9_]{1,15}$")
 AUTH_MODES = {"auto", "app_only", "user_context"}
@@ -142,8 +150,13 @@ def run_diagnostics(
                 endpoint="GET /2/users/me",
                 response=response,
                 observation=identity,
+                data_kind="object",
             )
             authenticated_username = identity.get("username")
+            if result["status"] == "passed" and not _has_user_identity(identity):
+                _mark_unexpected_response(
+                    result, "Expected string data.id and data.username fields."
+                )
             if (
                 result["status"] == "passed"
                 and config.require_identity_match
@@ -187,18 +200,17 @@ def run_diagnostics(
             endpoint="GET /2/users/by/username/:username",
             response=response,
             observation=observation,
+            data_kind="object",
         )
         if result["status"] == "passed":
             observed_id = observation.get("id")
-            if isinstance(observed_id, str) and observed_id:
+            if _has_user_identity(observation):
+                assert isinstance(observed_id, str)
                 operator_id = observed_id
             else:
-                result["status"] = "failed"
-                result["summary"] = "The endpoint succeeded but returned no user ID."
-                result["error"] = {
-                    "category": "unexpected_response",
-                    "detail": "Expected data.id in the X API response.",
-                }
+                _mark_unexpected_response(
+                    result, "Expected string data.id and data.username fields."
+                )
         checks.append(result)
 
     dependent_checks = (
@@ -245,6 +257,7 @@ def run_diagnostics(
                 endpoint=endpoint,
                 response=response,
                 observation=_collection_observation(response),
+                data_kind="array",
             )
         )
 
@@ -265,6 +278,7 @@ def run_diagnostics(
                 endpoint="GET /2/tweets/search/recent",
                 response=response,
                 observation=_collection_observation(response),
+                data_kind="array",
             )
         )
 
@@ -400,8 +414,18 @@ def _result(
     endpoint: str,
     response: ApiResponse,
     observation: Mapping[str, Any],
+    data_kind: Literal["object", "array"],
 ) -> dict[str, Any]:
-    passed = response.status is not None and 200 <= response.status < 300
+    http_succeeded = response.status is not None and 200 <= response.status < 300
+    structure_error: str | None = None
+    api_errors: list[dict[str, Any]] = []
+    if http_succeeded:
+        try:
+            envelope = parse_x_response(response, data_kind=data_kind)
+            api_errors = public_api_errors(envelope.errors)
+        except ResponseStructureError as error:
+            structure_error = str(error)
+    passed = http_succeeded and structure_error is None and not api_errors
     result: dict[str, Any] = {
         "name": name,
         "endpoint": endpoint,
@@ -415,8 +439,23 @@ def _result(
         ),
         "rate_limit": rate_limit_from_headers(response.headers),
         "observation": dict(observation) if passed else {},
+        "api_errors": api_errors,
     }
-    if not passed:
+    if structure_error is not None:
+        result["summary"] = "HTTP success with an invalid X response structure."
+        result["error"] = {
+            "category": "unexpected_response",
+            "detail": structure_error,
+        }
+    elif api_errors:
+        result["summary"] = (
+            f"HTTP success with {len(api_errors)} API error(s) in the response."
+        )
+        result["error"] = {
+            "category": "partial_response",
+            "detail": "X returned one or more documented errors with the response.",
+        }
+    elif not passed:
         result["error"] = _error_details(response)
     return result
 
@@ -506,6 +545,20 @@ def _user_observation(response: ApiResponse) -> dict[str, Any]:
             dict(public_metrics) if isinstance(public_metrics, Mapping) else {}
         ),
     }
+
+
+def _has_user_identity(observation: Mapping[str, Any]) -> bool:
+    return all(
+        isinstance(observation.get(field), str) and bool(observation.get(field))
+        for field in ("id", "username")
+    )
+
+
+def _mark_unexpected_response(result: dict[str, Any], detail: str) -> None:
+    result["status"] = "failed"
+    result["summary"] = "The endpoint succeeded but returned incomplete user data."
+    result["observation"] = {}
+    result["error"] = {"category": "unexpected_response", "detail": detail}
 
 
 def _collection_observation(response: ApiResponse) -> dict[str, Any]:

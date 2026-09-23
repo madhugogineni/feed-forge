@@ -200,6 +200,67 @@ class XDiagnosticsTests(unittest.TestCase):
         self.assertIn("operator_lookup", markdown)
         self.assertNotIn(SECRET, markdown)
 
+    def test_malformed_success_is_a_failed_check(self) -> None:
+        transport = FakeTransport(
+            [
+                response(200, {"data": []}),
+                response(200, {"data": [], "meta": {"result_count": 0}}),
+            ]
+        )
+        report = run_diagnostics(
+            self.config,
+            Credential("app_only", "X_BEARER_TOKEN", SECRET),
+            transport=transport,
+            now=FIXED_NOW,
+        )
+
+        lookup = report["checks"][1]
+        self.assertEqual("failed", lookup["status"])
+        self.assertEqual("unexpected_response", lookup["error"]["category"])
+        self.assertTrue(report["checks"][2]["dependency_failed"])
+        self.assertTrue(report["checks"][3]["dependency_failed"])
+
+    def test_success_with_api_errors_is_not_silently_passed(self) -> None:
+        transport = FakeTransport(
+            [
+                response(
+                    200,
+                    {
+                        "data": {
+                            "id": "123",
+                            "username": "madhugogineni97",
+                        }
+                    },
+                ),
+                response(200, {"data": [], "meta": {"result_count": 0}}),
+                response(
+                    200,
+                    {
+                        "data": [],
+                        "errors": [
+                            {
+                                "status": 403,
+                                "title": "Forbidden",
+                                "detail": "Partial response",
+                            }
+                        ],
+                    },
+                ),
+                response(200, {"data": [], "meta": {"result_count": 0}}),
+            ]
+        )
+        report = run_diagnostics(
+            self.config,
+            Credential("app_only", "X_BEARER_TOKEN", SECRET),
+            transport=transport,
+            now=FIXED_NOW,
+        )
+
+        following = next(check for check in report["checks"] if check["name"] == "following")
+        self.assertEqual("failed", following["status"])
+        self.assertEqual("partial_response", following["error"]["category"])
+        self.assertEqual(403, following["api_errors"][0]["status"])
+
     def test_rejects_non_x_api_host_to_protect_token(self) -> None:
         source = Path("config/x_api_checks.toml").read_text(encoding="utf-8")
         source = source.replace("https://api.x.com", "https://example.com")

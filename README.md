@@ -96,6 +96,15 @@ individual-verification filters, scoring weights, and API prices. The loader
 rejects a configuration whose worst-case returned resources would exceed the
 configured US$0.50 run limit. The current envelope is US$0.475.
 
+Successful X responses are validated against the documented API v2 envelope
+before their data is used. Single-user lookups require a `data` object;
+searches, timelines, following lists, and batch user lookups require a `data`
+array or a documented empty-result form. Optional `errors`, `includes`, and
+`meta` members are type-checked, partial errors are retained in the report, and
+malformed successful responses stop the run instead of being mistaken for an
+empty result. HTTP and network failures remain visible failures rather than
+fabricated data.
+
 Account discovery uses user context when available so the profile lookup can
 request relationship status and reject accounts the operator already follows.
 For the GitHub workflow, use the OAuth 1.0a credentials generated in
@@ -120,7 +129,9 @@ For initial testing, the existing app-only `X_BEARER_TOKEN` is also accepted.
 Public discovery and relevance checks still run, but X cannot return a
 user-relative following relationship to an app-only token. Those candidates are
 therefore labeled `needs_follow_check` instead of `recommended`; the script does
-not pretend that their follow status is known.
+not pretend that their follow status is known. It also skips paid timeline reads
+for any candidate whose relationship status is unknown, because that candidate
+cannot become review-ready until the follow check is resolved.
 
 The **Account discovery** workflow is manual-only during the initial experiment.
 Run it from GitHub Actions only when a live test is requested. It publishes the

@@ -12,7 +12,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 from dataclasses import dataclass
-from typing import Any, Callable, Mapping, Protocol
+from typing import Any, Callable, Literal, Mapping, Protocol
 
 
 RATE_LIMIT_HEADERS = (
@@ -29,6 +29,18 @@ class ApiResponse:
     headers: Mapping[str, str]
     duration_ms: int
     network_error: str | None = None
+
+
+class ResponseStructureError(ValueError):
+    """Raised when a successful X response violates its documented envelope."""
+
+
+@dataclass(frozen=True)
+class XResponseEnvelope:
+    data: Mapping[str, Any] | tuple[Mapping[str, Any], ...]
+    errors: tuple[Mapping[str, Any], ...]
+    includes: Mapping[str, Any]
+    meta: Mapping[str, Any]
 
 
 class Transport(Protocol):
@@ -209,6 +221,92 @@ def rate_limit_from_headers(headers: Mapping[str, str]) -> dict[str, int | None]
     return values
 
 
+def parse_x_response(
+    response: ApiResponse,
+    *,
+    data_kind: Literal["object", "array"],
+) -> XResponseEnvelope:
+    """Validate and normalize a successful X API v2 response envelope.
+
+    X documents primary-resource lookup responses as ``data: object`` and
+    collection responses as ``data: object[]``. Both forms may also contain an
+    ``errors`` array, an ``includes`` object, and a ``meta`` object. Collection
+    endpoints can omit or null ``data`` when no resources were returned.
+    """
+
+    if response.status is None or not 200 <= response.status < 300:
+        raise ResponseStructureError("cannot parse a non-successful response")
+    if not isinstance(response.body, Mapping):
+        raise ResponseStructureError("response body must be a JSON object")
+
+    errors = _object_array(response.body.get("errors"), "errors")
+    includes = _optional_object(response.body.get("includes"), "includes")
+    meta = _optional_object(response.body.get("meta"), "meta")
+    result_count = meta.get("result_count")
+    if result_count is not None and (
+        not isinstance(result_count, int)
+        or isinstance(result_count, bool)
+        or result_count < 0
+    ):
+        raise ResponseStructureError("meta.result_count must be a non-negative integer")
+
+    raw_data = response.body.get("data")
+    if data_kind == "object":
+        if not isinstance(raw_data, Mapping):
+            raise ResponseStructureError("data must be a JSON object")
+        data: Mapping[str, Any] | tuple[Mapping[str, Any], ...] = raw_data
+    else:
+        if raw_data is None:
+            if result_count not in {None, 0}:
+                raise ResponseStructureError(
+                    "data is missing but meta.result_count is not zero"
+                )
+            if result_count is None and not errors:
+                raise ResponseStructureError(
+                    "collection response must contain data, errors, or meta.result_count"
+                )
+            items: tuple[Mapping[str, Any], ...] = ()
+        elif isinstance(raw_data, list):
+            if any(not isinstance(item, Mapping) for item in raw_data):
+                raise ResponseStructureError("every data item must be a JSON object")
+            items = tuple(raw_data)
+        else:
+            raise ResponseStructureError("data must be a JSON array")
+        if result_count is not None and result_count != len(items):
+            raise ResponseStructureError(
+                "meta.result_count must match the number of returned data items"
+            )
+        data = items
+
+    return XResponseEnvelope(
+        data=data,
+        errors=errors,
+        includes=includes,
+        meta=meta,
+    )
+
+
+def public_api_errors(
+    errors: tuple[Mapping[str, Any], ...],
+) -> list[dict[str, Any]]:
+    """Retain documented error provenance without copying arbitrary payloads."""
+
+    allowed = (
+        "status",
+        "title",
+        "detail",
+        "type",
+        "resource_type",
+        "resource_id",
+        "parameter",
+        "value",
+    )
+    return [
+        {key: error.get(key) for key in allowed if key in error}
+        for error in errors
+    ]
+
+
 def _decode_body(raw_body: bytes) -> Any:
     if not raw_body:
         return None
@@ -217,6 +315,22 @@ def _decode_body(raw_body: bytes) -> Any:
         return json.loads(text)
     except json.JSONDecodeError:
         return {"non_json_response": text[:500]}
+
+
+def _object_array(value: Any, field: str) -> tuple[Mapping[str, Any], ...]:
+    if value is None:
+        return ()
+    if not isinstance(value, list) or any(not isinstance(item, Mapping) for item in value):
+        raise ResponseStructureError(f"{field} must be a JSON array of objects")
+    return tuple(value)
+
+
+def _optional_object(value: Any, field: str) -> Mapping[str, Any]:
+    if value is None:
+        return {}
+    if not isinstance(value, Mapping):
+        raise ResponseStructureError(f"{field} must be a JSON object")
+    return value
 
 
 def _normalize_headers(headers: Any) -> dict[str, str]:

@@ -15,14 +15,17 @@ from urllib.parse import urlparse
 from .x_api import (
     ApiResponse,
     OAuth1Transport,
+    ResponseStructureError,
     Transport,
     XApiClient,
+    parse_x_response,
+    public_api_errors,
     rate_limit_from_headers,
 )
 from .x_diagnostics import ALLOWED_API_HOSTS, ConfigurationError
 
 
-REPORT_SCHEMA_VERSION = "feed-forge/account-discovery/v1"
+REPORT_SCHEMA_VERSION = "feed-forge/account-discovery/v2"
 WORD_PATTERN = re.compile(r"[a-z0-9+#]+")
 
 
@@ -329,9 +332,13 @@ def run_account_discovery(
                 ),
             },
         )
-        posts = _response_items(response, f"search:{query.name}")
+        posts, response_errors = _response_items(response, f"search:{query.name}")
         budget.record_returned(len(posts))
-        requests.append(_request_record(f"search:{query.name}", response, len(posts)))
+        requests.append(
+            _request_record(
+                f"search:{query.name}", response, len(posts), response_errors
+            )
+        )
         for post in posts:
             author_id = post.get("author_id")
             if not isinstance(author_id, str) or not author_id:
@@ -380,9 +387,11 @@ def run_account_discovery(
                 ),
             },
         )
-        users = _response_items(response, "profile_lookup")
+        users, response_errors = _response_items(response, "profile_lookup")
         budget.record_returned(len(users))
-        requests.append(_request_record("profile_lookup", response, len(users)))
+        requests.append(
+            _request_record("profile_lookup", response, len(users), response_errors)
+        )
         profiles = {
             str(user.get("id")): user for user in users if isinstance(user.get("id"), str)
         }
@@ -401,8 +410,20 @@ def run_account_discovery(
         qualified.append(result)
 
     qualified.sort(key=lambda item: (-item["search_score"], item["username"].casefold()))
+    for candidate in qualified:
+        if candidate["follow_status"] != "unknown":
+            continue
+        candidate["status"] = "needs_follow_check"
+        candidate["timeline"] = None
+        candidate["recent_posts"] = []
+
+    timeline_eligible = [
+        candidate
+        for candidate in qualified
+        if candidate["follow_status"] == "not_following"
+    ]
     finalists = _select_by_topic_mix(
-        tuple(qualified), config.timeline_finalist_limit, config.topic_mix
+        tuple(timeline_eligible), config.timeline_finalist_limit, config.topic_mix
     )
     for candidate in finalists:
         budget.reserve(
@@ -419,10 +440,17 @@ def run_account_discovery(
                 "tweet.fields": "id,text,author_id,created_at,lang,public_metrics",
             },
         )
-        posts = _response_items(response, f"timeline:@{candidate['username']}")
+        posts, response_errors = _response_items(
+            response, f"timeline:@{candidate['username']}"
+        )
         budget.record_returned(len(posts))
         requests.append(
-            _request_record(f"timeline:@{candidate['username']}", response, len(posts))
+            _request_record(
+                f"timeline:@{candidate['username']}",
+                response,
+                len(posts),
+                response_errors,
+            )
         )
         relevant_posts = [
             post
@@ -445,7 +473,7 @@ def run_account_discovery(
 
     finalist_ids = {candidate["id"] for candidate in finalists}
     for candidate in qualified:
-        if candidate["id"] in finalist_ids:
+        if candidate["id"] in finalist_ids or "status" in candidate:
             continue
         candidate["status"] = "profile_qualified"
         candidate["timeline"] = None
@@ -620,7 +648,7 @@ def _score_post(
     public_metrics = post.get("public_metrics")
     metrics = public_metrics if isinstance(public_metrics, Mapping) else {}
     engagement = sum(
-        int(metrics.get(name, 0) or 0)
+        _nonnegative_int(metrics.get(name))
         for name in (
             "reply_count",
             "like_count",
@@ -672,20 +700,24 @@ def _qualify_profile(
 
     metrics = profile.get("public_metrics")
     metrics = metrics if isinstance(metrics, Mapping) else {}
-    followers = int(metrics.get("followers_count", 0) or 0)
+    followers = _nonnegative_int(metrics.get("followers_count"))
     pool = _pool_for_followers(followers, config.pools)
     if pool is None:
         return None, "outside_follower_pools"
 
     raw_statuses = profile.get("connection_status")
-    relationship_known = isinstance(raw_statuses, list)
+    relationship_known = isinstance(raw_statuses, list) and all(
+        isinstance(value, str) for value in raw_statuses
+    )
     statuses = raw_statuses if relationship_known else ()
     status_values = {
         str(value).casefold()
         for value in statuses
         if isinstance(value, str)
     }
-    already_followed = bool({"following", "following_requested"} & status_values)
+    already_followed = bool(
+        {"following", "follow_request_sent", "following_requested"} & status_values
+    )
     if config.exclude_already_followed and already_followed:
         return None, "already_followed"
     follow_status = (
@@ -700,7 +732,7 @@ def _qualify_profile(
             "description": description,
             "location": profile.get("location"),
             "followers_count": followers,
-            "following_count": int(metrics.get("following_count", 0) or 0),
+            "following_count": _nonnegative_int(metrics.get("following_count")),
             "verified": profile.get("verified") is True,
             "verified_type": profile.get("verified_type"),
             "follow_status": follow_status,
@@ -727,26 +759,35 @@ def _looks_like_organization(
     return any(keyword.casefold() in text for keyword in keywords)
 
 
-def _response_items(response: ApiResponse, operation: str) -> list[Mapping[str, Any]]:
+def _response_items(
+    response: ApiResponse, operation: str
+) -> tuple[list[Mapping[str, Any]], list[dict[str, Any]]]:
     if response.status is None or not 200 <= response.status < 300:
         detail = "network error" if response.status is None else f"HTTP {response.status}"
         raise DiscoveryError(f"{operation} failed: {detail}")
-    if not isinstance(response.body, Mapping):
-        raise DiscoveryError(f"{operation} returned a non-object response")
-    data = response.body.get("data", [])
-    if data is None:
-        return []
-    if not isinstance(data, list):
-        raise DiscoveryError(f"{operation} returned invalid data")
-    return [item for item in data if isinstance(item, Mapping)]
+    try:
+        envelope = parse_x_response(response, data_kind="array")
+    except ResponseStructureError as error:
+        raise DiscoveryError(
+            f"{operation} returned an invalid X response: {error}"
+        ) from error
+    if not isinstance(envelope.data, tuple):
+        raise AssertionError("array response parser returned non-array data")
+    return list(envelope.data), public_api_errors(envelope.errors)
 
 
-def _request_record(operation: str, response: ApiResponse, count: int) -> dict[str, Any]:
+def _request_record(
+    operation: str,
+    response: ApiResponse,
+    count: int,
+    api_errors: Sequence[Mapping[str, Any]],
+) -> dict[str, Any]:
     return {
         "operation": operation,
         "http_status": response.status,
         "duration_ms": response.duration_ms,
         "returned_resources": count,
+        "api_errors": [dict(error) for error in api_errors],
         "rate_limit": rate_limit_from_headers(response.headers),
     }
 
@@ -850,6 +891,12 @@ def _freshness_score(created_at: Any, now: datetime | None) -> float:
     current = now or datetime.now(UTC)
     age_hours = max(0.0, (current.astimezone(UTC) - created.astimezone(UTC)).total_seconds() / 3600)
     return max(0.0, 100.0 - age_hours * 4.0)
+
+
+def _nonnegative_int(value: Any) -> int:
+    if not isinstance(value, int) or isinstance(value, bool) or value < 0:
+        return 0
+    return value
 
 
 def _pool_for_followers(followers: int, pools: Sequence[PoolConfig]) -> str | None:

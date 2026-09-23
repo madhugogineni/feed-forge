@@ -7,6 +7,7 @@ import json
 import os
 import sys
 from dataclasses import replace
+from datetime import UTC, datetime
 from pathlib import Path
 from typing import Sequence
 
@@ -141,21 +142,39 @@ def _discover_accounts(args: argparse.Namespace) -> int:
             authentication_mode=authentication.mode,
         )
     except (ConfigurationError, DiscoveryError) as error:
+        failure = {
+            "schema_version": "feed-forge/account-discovery-failure/v1",
+            "generated_at": datetime.now(UTC).isoformat().replace("+00:00", "Z"),
+            "status": "failed",
+            "error": {
+                "category": (
+                    "configuration"
+                    if isinstance(error, ConfigurationError)
+                    else "discovery"
+                ),
+                "detail": str(error),
+            },
+        }
+        markdown = (
+            "# X account discovery\n\n"
+            "- Status: `failed`\n"
+            f"- Category: `{failure['error']['category']}`\n"
+            f"- Detail: {failure['error']['detail']}\n"
+        )
+        _write_text(
+            args.json_output, json.dumps(failure, indent=2, sort_keys=True) + "\n"
+        )
+        _write_text(args.markdown_output, markdown)
+        _append_github_summary(markdown, args.github_summary)
         print(f"Account discovery failed: {error}", file=sys.stderr)
+        print(f"JSON failure report: {args.json_output}", file=sys.stderr)
+        print(f"Markdown failure report: {args.markdown_output}", file=sys.stderr)
         return 2
 
     markdown = render_discovery_markdown(report)
     _write_text(args.json_output, json.dumps(report, indent=2, sort_keys=True) + "\n")
     _write_text(args.markdown_output, markdown)
-    if args.github_summary:
-        summary_path = os.environ.get("GITHUB_STEP_SUMMARY")
-        if summary_path:
-            with Path(summary_path).open("a", encoding="utf-8") as summary_file:
-                summary_file.write(markdown)
-        else:
-            print(
-                "GITHUB_STEP_SUMMARY is not set; skipped job summary.", file=sys.stderr
-            )
+    _append_github_summary(markdown, args.github_summary)
 
     print(markdown)
     print(f"JSON report: {args.json_output}")
@@ -166,6 +185,17 @@ def _discover_accounts(args: argparse.Namespace) -> int:
 def _write_text(path: Path, content: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(content, encoding="utf-8")
+
+
+def _append_github_summary(markdown: str, enabled: bool) -> None:
+    if not enabled:
+        return
+    summary_path = os.environ.get("GITHUB_STEP_SUMMARY")
+    if summary_path:
+        with Path(summary_path).open("a", encoding="utf-8") as summary_file:
+            summary_file.write(markdown)
+    else:
+        print("GITHUB_STEP_SUMMARY is not set; skipped job summary.", file=sys.stderr)
 
 
 if __name__ == "__main__":

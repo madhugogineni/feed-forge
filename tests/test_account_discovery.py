@@ -203,14 +203,10 @@ class AccountDiscoveryTests(unittest.TestCase):
             "connection_status": None,
             "public_metrics": {"followers_count": 1000, "following_count": 120},
         }
-        timeline = [
-            post(str(index), "u1", "AI coding agent with MCP and LLM evals")
-            for index in range(5)
-        ]
         transport = FakeTransport(
             [response([search_post])]
             + [response([]) for _ in range(3)]
-            + [response([profile]), response(timeline)]
+            + [response([profile])]
         )
 
         report = run_account_discovery(
@@ -221,7 +217,107 @@ class AccountDiscoveryTests(unittest.TestCase):
         )
 
         self.assertEqual(1, report["summary"]["needs_follow_check"])
+        candidate = report["candidates"][0]
+        self.assertEqual("unknown", candidate["follow_status"])
+        self.assertEqual("needs_follow_check", candidate["status"])
+        self.assertIsNone(candidate["timeline"])
+        self.assertEqual([], candidate["recent_posts"])
+        self.assertEqual(5, len(transport.urls))
+        self.assertFalse(any("/tweets" in url for url in transport.urls[4:]))
+
+    def test_invalid_connection_status_item_is_unknown_and_skips_timeline(self) -> None:
+        search_post = post("p1", "u1", "AI coding agent with MCP and LLM evals")
+        profile = {
+            "id": "u1",
+            "username": "individual_builder",
+            "name": "Individual Builder",
+            "description": "I build AI developer tools",
+            "verified": True,
+            "verified_type": "blue",
+            "connection_status": [None],
+            "public_metrics": {"followers_count": 1000},
+        }
+        transport = FakeTransport(
+            [response([search_post])]
+            + [response([]) for _ in range(3)]
+            + [response([profile])]
+        )
+
+        report = run_account_discovery(
+            self.config, "secret", transport=transport, now=FIXED_NOW
+        )
+
         self.assertEqual("unknown", report["candidates"][0]["follow_status"])
+        self.assertEqual("needs_follow_check", report["candidates"][0]["status"])
+        self.assertEqual(5, len(transport.urls))
+
+    def test_follow_request_sent_is_excluded(self) -> None:
+        search_post = post("p1", "u1", "AI coding agent with MCP and LLM evals")
+        profile = {
+            "id": "u1",
+            "username": "pending_person",
+            "name": "Pending Person",
+            "description": "AI builder",
+            "verified": True,
+            "verified_type": "blue",
+            "connection_status": ["follow_request_sent"],
+            "public_metrics": {"followers_count": 500},
+        }
+        transport = FakeTransport(
+            [response([search_post])]
+            + [response([]) for _ in range(3)]
+            + [response([profile])]
+        )
+
+        report = run_account_discovery(
+            self.config, "secret", transport=transport, now=FIXED_NOW
+        )
+
+        self.assertEqual([], report["candidates"])
+        self.assertEqual("already_followed", report["rejections"][0]["reason"])
+
+    def test_batch_lookup_partial_errors_are_retained(self) -> None:
+        search_post = post("p1", "missing", "AI coding agent with MCP and LLM evals")
+        partial = ApiResponse(
+            status=200,
+            body={
+                "errors": [
+                    {
+                        "status": 404,
+                        "title": "Not Found Error",
+                        "resource_id": "missing",
+                    }
+                ]
+            },
+            headers={},
+            duration_ms=3,
+        )
+        transport = FakeTransport(
+            [response([search_post])] + [response([]) for _ in range(3)] + [partial]
+        )
+
+        report = run_account_discovery(
+            self.config, "secret", transport=transport, now=FIXED_NOW
+        )
+
+        self.assertEqual("profile_not_returned", report["rejections"][0]["reason"])
+        self.assertEqual(404, report["requests"][-1]["api_errors"][0]["status"])
+
+    def test_malformed_success_stops_before_more_paid_requests(self) -> None:
+        malformed = ApiResponse(
+            status=200,
+            body={"data": {"id": "not-an-array"}},
+            headers={},
+            duration_ms=2,
+        )
+        transport = FakeTransport([malformed])
+
+        with self.assertRaisesRegex(DiscoveryError, "invalid X response"):
+            run_account_discovery(
+                self.config, "secret", transport=transport, now=FIXED_NOW
+            )
+
+        self.assertEqual(1, len(transport.urls))
 
     def test_budget_rejects_an_oversized_reservation(self) -> None:
         budget = CostBudget(0.50)
