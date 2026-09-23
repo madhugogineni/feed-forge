@@ -44,6 +44,7 @@ class WatchConfig:
     output_limit: int
     language: str
     lanes: tuple[Lane, ...]
+    source_fit_lanes: tuple[str, ...]
     phrases: tuple[str, ...]
     excluded_phrases: tuple[str, ...]
 
@@ -108,6 +109,7 @@ def load_watch_config(path: Path) -> WatchConfig:
         output_limit=_int(scan, "output_limit", minimum=1),
         language=_str(scan, "language"),
         lanes=tuple(lanes),
+        source_fit_lanes=_strings(relevance, "source_fit_lanes"),
         phrases=_strings(relevance, "phrases"),
         excluded_phrases=_strings(relevance, "excluded_phrases"),
     )
@@ -117,6 +119,8 @@ def load_watch_config(path: Path) -> WatchConfig:
         raise WatchError("priority_age_minutes must not exceed maximum_post_age_minutes")
     if config.language != "en":
         raise WatchError("The pilot currently supports English original posts only")
+    if set(config.source_fit_lanes) - {lane.name for lane in config.lanes}:
+        raise WatchError("source_fit_lanes must refer to configured lanes")
     if config.projected_cost_usd > config.max_cost_usd + 1e-9:
         raise WatchError(
             f"Projected maximum ${config.projected_cost_usd:.3f} exceeds "
@@ -159,6 +163,7 @@ def run_watch(
         ],
         "accounts": [],
         "posts": [],
+        "search_batches": [],
         "warnings": [],
     }
     if not live:
@@ -222,11 +227,20 @@ def run_watch(
         })
         report["cost"]["estimated_returned_usd"] += len(posts) * config.post_read_usd
         eligible_by_id = {account["id"]: account for account in batch}
+        batch_report: dict[str, Any] = {
+            "query": query, "returned_count": len(posts), "selected_count": 0,
+            "rejection_counts": {},
+        }
         for post in posts:
-            parsed = _post_candidate(post, eligible_by_id, config, now)
+            parsed, reason = _post_candidate(post, eligible_by_id, config, now)
+            if reason:
+                rejections = batch_report["rejection_counts"]
+                rejections[reason] = rejections.get(reason, 0) + 1
             if parsed is not None and parsed["id"] not in seen:
                 seen.add(parsed["id"])
                 report["posts"].append(parsed)
+                batch_report["selected_count"] += 1
+        report["search_batches"].append(batch_report)
     report["posts"].sort(key=lambda item: (-item["score"], item["id"]))
     report["posts"] = report["posts"][:config.output_limit]
     report["cost"]["estimated_returned_usd"] = round(
@@ -242,7 +256,7 @@ def run_watch(
 def _post_candidate(
     post: Mapping[str, Any], accounts: Mapping[str, Mapping[str, Any]],
     config: WatchConfig, now: datetime,
-) -> dict[str, Any] | None:
+) -> tuple[dict[str, Any] | None, str | None]:
     post_id = _required_str(post, "id")
     author_id = _required_str(post, "author_id")
     text = _required_str(post, "text")
@@ -254,39 +268,49 @@ def _post_candidate(
     if created.tzinfo is None:
         raise WatchError(f"Post {post_id}: created_at has no timezone")
     language = _required_str(post, "lang")
-    if author_id not in accounts or language != config.language:
-        return None
+    if author_id not in accounts:
+        return None, "unexpected_author"
+    if language != config.language:
+        return None, "not_original_english"
     age_minutes = (now - created).total_seconds() / 60
     if age_minutes < 0 or age_minutes > config.maximum_post_age_minutes:
-        return None
+        return None, "outside_freshness_window"
     if any(_contains(text, phrase) for phrase in config.excluded_phrases):
-        return None
+        return None, "excluded_subject"
     matches = [phrase for phrase in config.phrases if _contains(text, phrase)]
-    if not matches:
-        return None
+    account = accounts[author_id]
+    if not matches and account["lane"] not in config.source_fit_lanes:
+        return None, "no_topic_match"
     metrics = post.get("public_metrics")
     if not isinstance(metrics, Mapping):
         raise WatchError(f"Post {post_id}: missing public_metrics")
-    replies = metrics.get("reply_count")
-    if type(replies) is not int or replies < 0:
-        raise WatchError(f"Post {post_id}: invalid reply_count")
+    metric_values: dict[str, int] = {}
+    for key in ("reply_count", "like_count", "retweet_count", "quote_count"):
+        value = metrics.get(key)
+        if type(value) is not int or value < 0:
+            raise WatchError(f"Post {post_id}: invalid {key}")
+        metric_values[key] = value
+    replies = metric_values["reply_count"]
+    engagement = min(10, (metric_values["like_count"] + 2 * replies
+                          + 2 * metric_values["retweet_count"]
+                          + 3 * metric_values["quote_count"]) / 5)
     freshness = (15 * (1 - age_minutes / config.maximum_post_age_minutes)
                  + (15 if age_minutes <= config.priority_age_minutes else 0))
-    score = round(min(60, 20 * len(matches)) + freshness
-                  + min(10, replies / 10), 2)
-    account = accounts[author_id]
+    relevance = min(60, 20 * len(matches)) if matches else 10
+    score = round(relevance + freshness + engagement, 2)
     return {
         "id": post_id, "author_id": author_id, "handle": account["handle"],
         "lane": account["lane"], "url": f"https://x.com/{account['handle']}/status/{post_id}",
         "created_at": created.isoformat(), "age_minutes": round(age_minutes, 1),
         "language": language, "text": text, "matched_phrases": matches,
-        "reply_count": replies, "score": score,
-        "score_components": {"relevance": min(60, 20 * len(matches)),
+        "relevance_basis": "phrase" if matches else "curated_source_only",
+        "public_metrics": metric_values, "score": score,
+        "score_components": {"relevance": relevance,
                              "freshness": round(freshness, 2),
-                             "conversation": min(10, replies / 10)},
+                             "conversation": round(engagement, 2)},
         "review_state": "needs_human_review",
         "fact_state": "unverified",
-    }
+    }, None
 
 
 def _get_array(client: XApiClient, path: str, params: Mapping[str, Any]) -> tuple[Mapping[str, Any], ...]:
@@ -371,9 +395,17 @@ def render_watch_markdown(report: Mapping[str, Any]) -> str:
                              f"{account['followers_count']:,} followers, verified")
         lines.extend(["", "## Fresh posts to review", ""])
         for post in report["posts"]:
+            cues = ", ".join(post["matched_phrases"]) or "curated tech source; topic fit requires review"
             lines.append(f"- [@{post['handle']} post]({post['url']}) — {post['age_minutes']} min old; "
-                         f"score {post['score']}; cues: {', '.join(post['matched_phrases'])}. "
+                         f"score {post['score']}; cues: {cues}; "
+                         f"{post['public_metrics']['like_count']} likes, "
+                         f"{post['public_metrics']['reply_count']} replies. "
                          "Review before replying; claims unverified.")
+        lines.extend(["", "## Search coverage", ""])
+        for batch in report["search_batches"]:
+            lines.append(f"- {batch['query']}: {batch['returned_count']} returned, "
+                         f"{batch['selected_count']} selected; rejected: "
+                         f"{batch['rejection_counts'] or 'none'}")
     else:
         lines.extend(["Preview only; no X API calls or charges were made.", "", "## Seed accounts", ""])
         for lane in report["lanes"]:

@@ -37,7 +37,10 @@ def profile(handle: str, followers: int, verified: bool = True) -> dict[str, obj
 def post(post_id: str, handle: str, text: str, *, lang: str = "en",
          created: str = "2026-09-23T07:40:00Z") -> dict[str, object]:
     return {"id": post_id, "author_id": handle, "text": text, "lang": lang,
-            "created_at": created, "public_metrics": {"reply_count": 12}}
+            "created_at": created, "public_metrics": {
+                "reply_count": 12, "like_count": 20,
+                "retweet_count": 2, "quote_count": 1,
+            }}
 
 
 class HighReachWatchTests(unittest.TestCase):
@@ -73,10 +76,23 @@ class HighReachWatchTests(unittest.TestCase):
         self.assertEqual("ok", report["status"])
         self.assertEqual({"1", "2"}, {item["id"] for item in report["posts"]})
         self.assertEqual(0.045, report["cost"]["estimated_returned_usd"])
+        self.assertEqual({"excluded_subject": 1, "not_original_english": 1,
+                          "outside_freshness_window": 1},
+                         report["search_batches"][0]["rejection_counts"])
         self.assertIn("/2/users/by?", transport.urls[0])
         self.assertIn("/2/tweets/search/recent?", transport.urls[1])
         self.assertIn("from%3AIndiaToday", transport.urls[1])
         self.assertTrue(all(item["review_state"] == "needs_human_review" for item in report["posts"]))
+
+    def test_curated_tech_source_yields_review_candidate_without_literal_phrase(self) -> None:
+        transport = FakeTransport([
+            ok([profile("IndiaToday", 2_000_000), profile("TheRundownAI", 220_000)]),
+            ok([post("1", "TheRundownAI", "A new product feature was announced")]),
+        ])
+        report = run_watch(self.config, live=True, token="test", transport=transport, now=NOW)
+        self.assertEqual(1, len(report["posts"]))
+        self.assertEqual("curated_source_only", report["posts"][0]["relevance_basis"])
+        self.assertIn("topic fit requires review", render_watch_markdown(report))
 
     def test_ineligible_accounts_are_not_searched(self) -> None:
         transport = FakeTransport([ok([profile("IndiaToday", 50_000),

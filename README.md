@@ -219,8 +219,11 @@ responses stop the run visibly. A failed run can still incur charges for
 resources already returned, so there is no zero-cost guarantee for live mode.
 
 The report includes qualifying account links, current follower counts,
-verification flags, and a ranked list of fresh English original posts with
-post URL, age, text, relevance cues, and score components. This is a review
+verification flags, search-coverage/rejection counts, and a ranked list of
+fresh English original posts with post URL, age, text, relevance cues,
+engagement metrics, and score components. Curated technology publications can
+produce lower-confidence candidates without a literal phrase match; those are
+explicitly marked as requiring a topic-fit check. This is a review
 queue, not verified news or a ready-to-publish reply. It never follows or
 replies automatically. Political and tragic posts are excluded by initial
 phrase filters, but the user must still review every suggestion for fit.

@@ -84,6 +84,13 @@ being evaluated; its preview mode makes no X calls. Posts are links for human
 review, not verified claims or ready-to-publish replies. Political or tragic
 news is not a reply target for the pilot, even when collected as news context.
 
+The initial paid watch scan on 23 September 2026 verified all twelve seed
+accounts, but its narrow literal topic cues selected no fresh posts from forty
+returned posts. The immediate correction is to retain a lower-confidence
+source-fit lane for curated tech publications and record why other posts were
+filtered. This is not a claim that every tech-publication post merits a reply;
+the human review gate remains mandatory.
+
 A useful reply adds at least one of the following: a specific reaction, a
 relevant fact, a correction, a practical India-specific angle, simple verified
 maths, a genuine question, or personal experience explicitly supplied by the

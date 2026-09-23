@@ -30,6 +30,9 @@ handles = ["TheRundownAI", "9to5Google", "Techmeme", "AndroidPolice"]
 
 [relevance]
 # These are editorial cues for human review, not assertions that a post is true.
+# Curated technology sources can produce lower-confidence candidates without a
+# literal phrase match. Indian general-news accounts cannot.
+source_fit_lanes = ["global_tech_ai"]
 phrases = [
   "artificial intelligence", "AI model", "AI tools", "AI development",
   "Google Gemini", "OpenAI", "Anthropic", "Nvidia", "Apple Music",
