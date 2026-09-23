@@ -118,6 +118,7 @@ def build_parser() -> argparse.ArgumentParser:
     watch.add_argument("--markdown-output", type=Path, default=Path("artifacts/high-reach-watch.md"))
     watch.add_argument("--github-summary", action="store_true")
     watch.add_argument("--live", action="store_true", help="Make paid X API read calls.")
+    watch.add_argument("--lane", default="all", help="One configured lane, or all.")
     return parser
 
 
@@ -137,6 +138,11 @@ def main(argv: Sequence[str] | None = None) -> int:
 def _watch_high_reach(args: argparse.Namespace) -> int:
     try:
         config = load_watch_config(args.config)
+        if args.lane != "all":
+            chosen = tuple(lane for lane in config.lanes if lane.name == args.lane)
+            if not chosen:
+                raise WatchError(f"Unknown watch lane: {args.lane}")
+            config = replace(config, lanes=chosen)
         report = run_watch(config, live=args.live, token=os.environ.get(config.token_env))
     except WatchError as error:
         report = {

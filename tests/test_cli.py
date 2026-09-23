@@ -18,11 +18,13 @@ class CliTests(unittest.TestCase):
                 exit_code = main([
                     "watch-high-reach", "--json-output", str(root / "watch.json"),
                     "--markdown-output", str(root / "watch.md"),
+                    "--lane", "global_tech_ai",
                 ])
             report = json.loads((root / "watch.json").read_text(encoding="utf-8"))
             self.assertEqual(0, exit_code)
             self.assertEqual("preview", report["status"])
             self.assertEqual(0, report["cost"]["estimated_returned_usd"])
+            self.assertAlmostEqual(0.14, report["cost"]["projected_maximum_usd"])
 
     def test_topic_radar_writes_github_summary_without_x_credentials(self) -> None:
         with tempfile.TemporaryDirectory() as directory:

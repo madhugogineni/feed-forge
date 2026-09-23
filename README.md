@@ -209,6 +209,10 @@ python3 scripts/watch_high_reach.py
 ```
 
 To make paid read requests, set `X_BEARER_TOKEN` and explicitly use `--live`.
+Use `--lane global_tech_ai` or `--lane india_news` to scan only one lane. With
+current configuration, those worst-case estimates are US$0.14 and US$0.23,
+respectively. The GitHub workflow defaults to the lower-cost global lane;
+select `all` to scan both.
 The **High-reach watch** GitHub Actions workflow is manual-only; its `live`
 input defaults to false. With the current 12 handles, the configured
 worst-case estimate is US$0.32 under a US$0.50 cap: 12 user resources and up

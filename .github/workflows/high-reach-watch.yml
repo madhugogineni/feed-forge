@@ -4,10 +4,19 @@ on:
   workflow_dispatch:
     inputs:
       live:
-        description: "Make paid X API read calls (projected maximum $0.32 with current config)"
+        description: "Make paid X API reads ($0.14 global, $0.23 India, $0.32 all; configured estimates)"
         type: boolean
         required: true
         default: false
+      lane:
+        description: "Accounts to scan (global tech/AI costs less than all lanes)"
+        type: choice
+        required: true
+        default: global_tech_ai
+        options:
+          - global_tech_ai
+          - india_news
+          - all
 
 permissions:
   contents: read
@@ -35,6 +44,7 @@ jobs:
           --github-summary
           --json-output artifacts/high-reach-watch.json
           --markdown-output artifacts/high-reach-watch.md
+          --lane ${{ inputs.lane }}
           ${{ inputs.live && '--live' || '' }}
       - name: Upload report
         if: always()
