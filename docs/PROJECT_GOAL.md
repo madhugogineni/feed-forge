@@ -98,25 +98,33 @@ user. Do not generate generic praise, restate the post, or fabricate experience.
 
 ## Goal 3: generate original post ideas from current information
 
-During the initial experiment, run the opportunity pipeline only when the user
-explicitly requests it. Each run should produce five new, non-duplicative
-original post ideas using RSS/Atom feeds, official newsrooms, regulators,
-first-party product pages, and other permitted sources. A daily 06:00
-Asia/Kolkata schedule is a later target, not an active trigger.
+The source pipeline runs daily at 06:00 Asia/Kolkata. After a manual acceptance
+test, a separate editorial task should run at 06:30 without requiring a user
+prompt. Each editorial run produces a 15-item original-content idea bank using
+the newest GitHub pipeline artifact, repository activity, RSS/Atom feeds,
+official newsrooms, regulators, first-party product pages, historical datasets,
+and other permitted sources. Do not claim that the editorial schedule is active
+until the scheduled task has actually been created and successfully tested.
 
 Post ideas should favor AI, technology, Indian current events, fitness, and the
 Indian credit-card community while still using the broader interests in the
 reference documents. Posts may be very short. A quick reaction, observation,
 question, or one-line take is as valid as a crafted explainer.
 
-Across each run's recommendation queue:
+The 15-item bank deliberately includes fresh developments, historical or
+then-versus-now research, financial facts, interesting numbers, nondeceptive
+engagement questions, GitHub build stories, and one strong wildcard. The exact
+lane contract lives in `chatgpt-project/DAILY_EDITORIAL_RUN.md`.
+
+Across the final action plan:
 
 - Approximately 70% should be reply opportunities.
 - Approximately 30% should be original post ideas.
 
-With five post ideas, a typical run therefore targets about twelve reply
-opportunities. Quality and relevance remain hard gates; the system must report a
-shortfall rather than fill the queue with generic content.
+The 15 ideas are a choice set, not a recommendation to publish 15 times. Reply
+opportunities remain a separate queue, and the 70/30 strategy applies to the
+items recommended for action. Quality and relevance remain hard gates; the
+system must report a shortfall rather than fill the queue with generic content.
 
 Each post idea must include the topic, format, why it is timely, a draft or
 clear angle, character count when drafted, and evidence status. Factual drafts
@@ -138,14 +146,18 @@ one-off comments on only the largest accounts.
 Each run should produce one compact, reviewable artifact containing:
 
 1. **Right now:** the important developments across the priority topics.
-2. **Reply opportunities:** approximately twelve ranked posts drawn from both
-   followed and suggested accounts.
-3. **Post ideas:** five new ideas with a mix of quick and crafted formats.
-4. **Evidence:** primary sources, verification state, and calculation working
+2. **Source-audit sheet:** every link occurrence from the selected GitHub
+   pipeline output, with access, verification, usage, or failure status.
+3. **Original-content idea bank:** 15 ranked ideas across the configured daily
+   lanes, with the top five developed into full content packages.
+4. **Reply opportunities:** a separate ranked queue drawn from both followed
+   and suggested accounts when fresh targets are available.
+5. **Evidence:** primary sources, verification state, historical comparison
+   notes, and calculation working
    where applicable.
-5. **Account discoveries:** new handles or material updates to the three account
+6. **Account discoveries:** new handles or material updates to the three account
    pools.
-6. **Needs input:** only questions that require the user's actual experience or
+7. **Needs input:** only questions that require the user's actual experience or
    a meaningful editorial choice.
 
 The initial experiment does not persist follow, reply, post, or outcome state.
@@ -171,7 +183,8 @@ live data.
 
 ### Recommendation quality
 
-- Maintain an approximate 70/30 reply-to-post recommendation mix.
+- Generate a useful 15-item original-content choice set while maintaining an
+  approximate 70/30 reply-to-post mix in the final recommended action plan.
 - Track reply and post acceptance/edit rates as a measure of voice fit.
 - Track opportunity freshness when presented to the user.
 - Track reply impressions, substantive responses, profile visits, follows,
@@ -181,12 +194,15 @@ live data.
 
 ### Operational quality
 
-- Complete explicitly requested runs and surface visible failures. Automated
-  scheduling is paused during the initial experiment.
+- Complete manual and scheduled runs and surface visible failures. Enable the
+  06:30 editorial schedule only after the exact prompt passes a manual
+  acceptance run.
 - Deduplicate post ideas, profiles, source items, and reply targets within each
   run. Cross-run repetition is acceptable during the stateless experiment.
 - Preserve a traceable path from source to opportunity and draft inside each
   generated artifact.
+- Use the GitHub connector for current Feed Forge state and retain complete
+  link-audit coverage for the selected pipeline output.
 - During the experiment, evaluate time saved and recommendation usefulness
   manually rather than persisting those measurements.
 
@@ -245,7 +261,8 @@ or dependency on a previous run's artifact.
 ### Phase 3: recommendation engine
 
 - Rank fresh reply opportunities from followed and suggested accounts.
-- Generate five post ideas per run and assemble the 70/30 review queue.
+- Generate the configured 15-item daily idea bank, develop the top five, and
+  assemble a separate 70/30 action queue.
 - Attach verification state, evidence, score explanations, and voice checks.
 - Produce the first Markdown review artifact from a local CLI.
 - Keep discovery, collection, ranking, drafting, and rendering available as
@@ -253,8 +270,10 @@ or dependency on a previous run's artifact.
 
 ### Phase 4: scheduling and learning
 
-- After the manual experiment is validated, schedule the pipeline daily at
-  06:00 Asia/Kolkata with visible failure reporting.
+- Keep the source pipeline scheduled daily at 06:00 Asia/Kolkata with visible
+  failure reporting.
+- After the editorial prompt passes a manual acceptance run, schedule the
+  research-and-ideation task for 06:30 Asia/Kolkata.
 - Add manual `workflow_dispatch` inputs for testing different configuration
   values without changing code.
 - Use GitHub artifacts and job summaries for review while the workflow is being

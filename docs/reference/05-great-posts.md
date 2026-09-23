@@ -1,127 +1,424 @@
-# What makes a great post
+# What makes a great post for MG
 
-Built from MG's feedback plus a study of his 11 favourite creators' recent posts on X (19 Sep 2026). Re-study them once a week (see "Creator study" at the end) and update this file with anything new. Last creator study: 20 Sep 2026.
+This is the canonical, living editorial guide for the Feed Forge Content Studio.
+It replaces the earlier creator-study snapshot at MG's explicit request on
+23 September 2026. It is based on his direct review of 50 real X posts and may
+contradict older reference material. When it does, follow this file.
 
-## First: not every post needs the full treatment
+The examples informed the rules, but the objective is not to imitate individual
+creators. The objective is to understand exactly what MG wants to publish,
+reply to, build, demonstrate, and avoid.
 
-There are two kinds of post, and both are valid.
+## The standard
 
-**Crafted posts** have a hook, a point, a correlation and an ending. Use them for takes, explainers, deep correlations and anything you want people to save or share.
+A good recommendation does at least one of these:
 
-**Quick posts** are a basic thought, a reaction, a one-liner or a plain question, with no hook or payoff structure. Examples from his creators:
-- "Swiggy launches hotels and flight booking app CREW 👀"
-- "Sent this one to mom ❤️"
-- "Got the hands on"
+- gives people timely, verified information in a useful form;
+- adds MG's opinion, conclusion, comparison, or India-specific implication;
+- gives MG a worthwhile conversation to join with a substantive reply;
+- shows something real that MG built, tested, noticed, bought, ate, visited, or
+  experienced;
+- asks a question people can answer immediately;
+- creates a useful reference people may save; or
+- proposes something valuable MG can implement and later showcase.
 
-These do fine on their own. They also keep the account feeling like a person rather than a content machine.
+Not every post needs to be educational. Short reactions, questions, hot takes,
+builder frustrations, and relatable daily moments are valid. The account should
+feel like a person with real interests, not a feed of polished explainers.
 
-**A healthy day** is roughly 1 crafted post plus 2 quick ones. Replies are almost always quick: a basic, honest thought is enough as long as it's specific to the post.
+## Decide what the opportunity actually is
 
-When MG gives a rough thought, keep it a quick post. Fix only typos and clarity. Don't bolt on a hook, stats or a moral.
+Treat format and action as separate decisions. A source post may have a useful
+format even when its claim is weak. A good factual post may be better as a reply
+than as an original post.
 
-**MG's own natural format (seen 19–20 Sep 2026):** a one-line personal reaction quote-tweeted onto something already moving ("There goes my plan to retire early 🫠", "I love Pokémon and this is a big deal 🥹"). Give post options a quote-tweet version where there's a post to quote.
+For every opportunity, choose one:
 
-## What his creators actually do
+1. **Original post now.** MG has enough verified evidence and a real angle.
+2. **Reply or quote-post now.** The original conversation supplies useful
+   context and MG can add an opinion, implication, number, correction, or
+   question.
+3. **Execution idea first.** A strong post would require MG to build, test,
+   record, travel, photograph, or supply a real experience. Preserve it in
+   `docs/CONTENT_EXECUTION_BACKLOG.md` and give MG the file.
+4. **Needs research.** The format is promising but the evidence or curation is
+   not ready.
+5. **Skip.** It is unsupported, repetitive, outside the account, or not worth
+   publishing.
 
-View counts are from their profiles on 19 Sep 2026 (the last two rows, 20 Sep). The sample is small (5–8 recent posts each), so treat these as patterns, not laws.
+## Responsibilities of the content studio
 
-| Creator | Size | What works for them | Example |
-|---|---|---|---|
-| @ccg33k | 24K | **News + the catch.** One line of card news, then the fine print everyone misses. Gets 14–18K views with almost no hype. | "Axis Rewards Card is now LTF… Before you get super excited about 10x… there is a Rs 7000 spends cap per month" |
-| @DealsDhamaka | 63K | **Warnings with 🚨** do best (81K). Raw personal posts do very well too (46K). He quote-tweets his own older deals with a short one-liner. | "Someone received this from AXIS BANK 🚨 Never ever use the credit cards for non-personal usage" |
-| @imYadav31 | 23K | **Timestamped first-hand experience** (pinned, 54K). Excited, casual, Hinglish, with a screen-recording demo. | "Applied at 6 PM. Approved at 8:30 PM. Activated at 9 PM…" |
-| @Trolling_isart | 60K | **Hands-on photos + a one-line opinion.** 1.2M views on a phone-colour photo during launch week. | "Don't fall for Burgundy, seen every color in person. These are much better" |
-| @TIAADeals | 7K | Deal math ("₹44,991 cheaper than buying it new") and "which one are you picking? 👇" questions. Mostly promotional, so lower engagement. | "It's officially #Techtember… Which one are you claiming?" |
-| @aakashgupta | 331K | **Quote-tweets a trending post and explains the hidden mechanism.** Opens with a surprising causal claim, then goes long. | "Apple never has to slow your old iPhone down on purpose. Every incentive in the building already points that way." |
-| @SahilBloom | 1.1M | **A single-paragraph life lesson**, text only, universal (100–200K views). | "Every single thing you want in life is on the other side of something that sucks." |
-| @aravind | 318K | **Receipts:** quote-tweeting his own old prediction when it comes true. His topics are mostly political, so copy the format only, never the subject. | "I had posted in Jan: … Trump is doing all of these to India now." |
-| @robinebers | 8K | Raw, lowercase builder diaries and honest venting about tools. | "i give up / wasted over an hour trying to make…" |
-| @chiragbarjatya | 102K | A fitness coach. Posts mentee shoutouts and meme quote-tweets. | "Me after burpees station tomorrow" |
-| @pk037 | 1.1K | Mostly customer-support complaints to brands. Not a growth model, but a micro-tier peer. | |
-| @ManmohitSandhu | 2.4K | **Corrects the frame, then lists the spec.** Takes an Apple story, says what it is *not* about, then bullets exactly what lands and what doesn't. 35.9K views on a 2.4K account. | "Apple Pay is not coming to fight UPI. It is coming for the credit card tap." |
-| @suritalreja | 9.6K | **Plain-English money lists** and blunt card takes. No jargon, no sources, no hook craft. His pinned devaluation post: 62K. | "5 things I wish someone had told me at 25…" |
+The project must do more than summarize news.
 
-## Patterns worth stealing
+- Generate original post ideas and useful reply opportunities.
+- Notice when an idea would be stronger as a real build or demonstration.
+- Propose small tools, skills, workflows, or assets MG could implement and show.
+- Ask MG to build, test, record, or supply a detail when truthfully creating the
+  content requires it.
+- Save every durable execution idea as a downloadable Markdown file. When
+  repository access is available, also add it to
+  `docs/CONTENT_EXECUTION_BACKLOG.md`.
+- Monitor recurring sources in `docs/SOURCE_LIBRARY.md`, including Canalys and
+  model-benchmark sources.
+- Never imply that an idea has been implemented, tested, or experienced before
+  it actually has.
 
-1. **News + the catch.** Say what launched or changed, then the one condition that changes the verdict: a cap, an exclusion, a fee. This is the most repeatable card and deals format. (@ccg33k) Still the top cards pattern in the 20 Sep study: his Axis Vistara post got 6.4K views in 2 hours, and he left the catch open ("not clear from TnC"), which is the gap MG can fill.
-2. **🚨 Warning / heads up.** "Heads up HSBC cardholders!" Protective posts get shared because people forward them to friends. (@DealsDhamaka, @ccg33k)
-3. **First-hand timeline.** Short stacked lines with times or steps, from something he actually did. Needs his real experience. (@imYadav31)
-4. **Photo + one-line opinion.** A photo he took (unboxing, lounge, card, gym, Hyderabad street) plus one sentence of judgment. Visuals win on launch weeks. (@Trolling_isart) A contrarian variant worked on 20 Sep: @imYadav31's "Sorry iPhone users, your latest and greatest iPhone 18 Pro can't do this" with an Oppo 1x vs 10x photo.
-5. **The hidden mechanism.** Quote-tweet something trending and explain *why* it happened. This is where his "deep correlation" posts live. (@aakashgupta)
-6. **Receipts.** When something he predicted happens, quote-tweet his old post with "Called this in <month>". It builds credibility fast. **Parked (20 Sep 2026)** until MG has a longer posting history to quote.
-7. **The one-paragraph lesson.** Universal, text-only, no hashtag. Good for the gym and life pillars. (@SahilBloom)
-8. **Deal math.** "₹X, which is ₹Y cheaper than the usual price". Make the saving the headline.
-9. **Pick-one questions.** "Which one are you getting? 👇" Cheap to write and it drives replies.
-10. **Ride the launch week.** Right now, iPhone 18 / #Techtember dominates every creator's feed. Whatever the big launch or sale is, post into it while it's hot.
-11. **Does it add up?** (added 20 Sep 2026) Take a headline claim, work out what it implies, compare it with the track record, and ask what would have to be true. The doubt stays his; the maths makes it land. Use for *some* posts and replies, not all. See Rule #2 in `01-playbook.md`.
-    - Model: @dmuthuk on the $38T GDP claim got 221 likes and 10K views in under an hour: "$38T in 20 years = nearly 10x. GDP only doubled in the last 12. On what basis?"
-    - MG's own reply to the same claim ("I just hope they back these claims with some solid plan in the future!") had the same doubt but no number, so it read as a hope. The fixed version: "Going from $4T to $38T in 20 years means growing close to 12% a year in dollar terms. We've done roughly 6% a year over the last 12. Would love to see the plan that doubles that 🤔"
-    - Works well beyond economics: a card's "save ₹50K a year" pitch (what spend does that need per month?), a telecom "free for 12 months" offer (what's the total you pay to keep it?), a startup's revenue target, a "10x faster" AI claim.
-12. **Guess the price.** (added 20 Sep 2026) Share a price list or new charge and ask people to guess the part that isn't shown. @beebomco: "iPhone Duo Repair Pricing with AppleCare+ is now out! … What do you think the charges will be without Care+?" It pulls replies because everyone has a guess. Good for card fees, repair costs, sale prices.
-13. **One-line witty quote-tweet.** (added 20 Sep 2026) Quote something already viral and add one dry line. @Iamsamirarora on badly named shell companies: "I would have named it cholabhatura Ltd." This is MG's natural style, so lean into it on quick posts.
-14. **Correct the frame, then spec it out.** (added 20 Sep 2026, MG's pick — @ManmohitSandhu) The highest-leverage new pattern, because it sits exactly where MG's cards pillar meets his tech pillar. Structure:
-    - **Line 1 kills the wrong assumption:** "Apple Pay is not coming to fight UPI."
-    - **Line 2 names the real target:** "It is coming for the credit card tap."
-    - **Then the narrowing fact** that explains why the first version will disappoint: "Axis first. HDFC and ICICI are still in talks, which is why the first version will feel narrow."
-    - **Then a bulleted spec of what actually lands** — and, just as important, **what doesn't**: "• NFC tap at the terminal • Face ID instead of a PIN • The real card number never leaves the phone • No UPI. No QR. • No pay-to-number."
-    - **Then the regulatory groundwork in two short lines**, which is what makes it read as informed rather than hot-take: "RBI already cleared biometric card payments. NPCI already shipped UPI tap on the same radios."
-    - **Then his own stake:** "I have an Axis credit card, so I am in the first wave."
-    - **Then an honest limit, which is the closer:** "This will feel great at an airport or a mall. It will not replace the kirana store scan."
-    - Why it travelled (35.9K views on a 2.4K-follower account): the "not X, it's Y" opening gives people something to argue with, the bullets make it forwardable, and the closing limit makes it trustworthy instead of hype. The *what it doesn't do* bullets are doing as much work as the features.
-    - **MG has an unfair advantage here:** he holds an Axis Atlas, so the "I'm in the first wave" line is literally true for him, and the cards side of this story is his home turf. Use this pattern whenever a tech launch touches payments, cards, or UPI.
-15. **The plain money list.** (added 20 Sep 2026, MG's pick — @suritalreja) The opposite of #11 and #14: no research, no numbers, no sources. A short list of things learned, framed by age or by time, closing on a line that reframes it.
-    - Model: "5 things I wish someone had told me at 25: • Start investing early • Don't buy a car just because EMI is affordable • Learn taxes • Learn how credit cards actually work • Don't increase lifestyle every time salary increases / Your 35-year-old self will thank you."
-    - The closing line is the whole trick: it turns a list into a warning addressed to the reader.
-    - Rules for it: 4–6 items, each under about eight words, no jargon, nothing that needs a source, and at least one item that costs him something to admit. Don't stack more than one of these a week or it turns into a quote-account.
-    - Good frames for MG: what he'd tell himself before his first credit card, before his first international trip, before joining IT, before his first year in the gym.
-    - Note: this exact post only did 366 views, so treat it as a **filler and rapport format**, not a reach play. Its job is to sit between the research-heavy posts and keep the account human. If the numbers stay low after a few tries, cut the frequency.
+## Approved formats
 
-## Checklist for a crafted post
+### 1. News plus the consequence
 
-- **One idea.** Could you say it in one sentence?
-- **The first line earns the second.** It carries the point, a surprise or a warning, never who said it.
-- **Specific:** a card name, a rupee figure, a time, a place.
-- **His opinion is visible,** in first person.
-- **A clear ending:** what to do, what to expect, or a question.
-- **A visual if he has one.** Posts with photos or screen recordings dominate his creators' top performers.
-- **Readable by someone outside the niche.**
-- **Voice rules:** no em dashes, a few emojis, conversational.
-- **If it's a "does it add up?" post:** one calculated number, inputs sourced, maths shown in plain words, and a Working block in the doc.
-- **If it's a "correct the frame" post (#14):** the *what it doesn't do* bullets are mandatory, and so is the honest limit at the end. Without them it's just hype with bullet points.
+Use for card changes, gadget launches, payment features, telecom changes, market
+data, and other timely items.
 
-## Replies and comments: no hooks
+Structure:
 
-A reply is a casual reaction, not a mini post. It has no hook line and doesn't restate what the post said.
+1. Say what changed in one clear line.
+2. State why it matters to the affected reader.
+3. Add the catch, limitation, comparison, or MG's take.
 
-- ✅ "Man, this looks cool. Hope Apple brings it to iOS soon 🤞"
-- ❌ "Google's Rambler in Gboard looks insane 🎙️ You just ramble, it drops the ums, fixes the grammar…" (this is a post, not a reply)
+A concise one-liner generated from RSS is approved when the verified fact and
+its consequence are clear. If it is merely a company announcement, add at least
+one line of MG's opinion or conclusion. Do not copy corporate launch language.
 
-When a post makes a big claim or promise, the best "one thing to add" is often the implied maths in a single sentence, still casual.
-- ✅ "Going from $4T to $38T in 20 years means ~12% a year. We've done ~6%. Would love to see the plan 🤔"
-- ❌ "I just hope they back these claims with some solid plan in the future!" (right instinct, but nothing people can quote or argue with)
+### 2. A conclusion supported by one number
 
-## Checklist for a quick post or reply
+Start with the point, then use one strong sourced statistic or comparison.
 
-- Is it specific to this post or moment (not "great post", not generic)?
-- Does it sound like him talking?
-- Would he say it out loud to a friend?
+Good uses:
 
-That's it.
+- a card segment behaves differently;
+- a price is unusually high or low;
+- a market leader changed;
+- a model became materially cheaper or faster; or
+- a financial promise implies an unexpected level of spending or growth.
 
-## What doesn't work
+One decisive comparison is usually stronger than a dense table of numbers.
 
-- Promotional product listings with no opinion (TIAADeals' weakest posts).
-- Threads of stats with no take.
+### 3. Price, market-share, and time comparisons
+
+Approved examples include:
+
+- the same phone across countries;
+- a market-share ranking for one period;
+- a product price now versus a real price MG remembers paying;
+- model quality versus cost; and
+- a benefit before and after a card change.
+
+Always name the geography, period, units, and source. For market-share posts,
+distinguish shipments, sell-in, sell-through, sales, and installed base. Canalys
+is a required source to monitor whether or not it offers RSS.
+
+Do not prioritize a generic visual before-and-after comparison when the image is
+the only idea. The comparison needs a conclusion, practical consequence, or
+distinctive observation.
+
+### 4. Model-release comparison
+
+Every important AI model release is a potential post and reply opportunity.
+
+Required work:
+
+- trace each number to the benchmark owner;
+- identify the model variant, reasoning effort, task set, date, and cost basis;
+- separate the provider's claim from an independent result;
+- compare equivalent configurations where possible;
+- add MG's opinion; and
+- end with a conclusion or an honest unanswered question.
+
+Use `docs/SOURCE_LIBRARY.md` on every model release. A screenshot of a leaderboard
+without its methodology is not sufficient evidence.
+
+### 5. Cheatsheet or compact reference
+
+Strongly approved for problems people repeatedly need to solve, such as card
+transfer partners, offer conditions, international prices, or feature
+availability.
+
+The asset must be mobile-readable and sourced. Include only information needed
+to make the decision. A useful cheatsheet is a reference product, not a crowded
+poster.
+
+Points valuations and similar tables are occasional formats. Repetitive
+transfer tables are low priority unless a meaningful change makes them timely.
+
+### 6. Product or AI capability demonstration
+
+Strongly approved.
+
+Good demonstrations include:
+
+- something MG built with a coding agent;
+- a reusable skill or workflow;
+- a surprising AI-tool capability;
+- a repository feature with clear user value;
+- a real before-and-after output; or
+- a small tool useful enough to publish.
+
+The project should proactively propose these ideas. Prefer a working result,
+screen recording, repository, or reproducible output over promotional copy or a
+generic illustration.
+
+If the demo does not exist yet, create an execution-idea package rather than a
+fake launch post.
+
+### 7. Reaction or reply with added value
+
+Actively find opportunities where MG can react to:
+
+- market-size estimates;
+- clear financial explainers;
+- ETF, card, or personal-finance mechanisms;
+- AI model feedback questions;
+- product claims with an India implication;
+- interesting benchmark comparisons; and
+- strong builder observations.
+
+A useful reply adds at least one of the following:
+
+- MG's opinion;
+- a supporting number;
+- a practical implication;
+- an India-specific angle;
+- a correction;
+- an honest limit; or
+- a genuine follow-up question.
+
+Do not restate the original post or reply with generic praise.
+
+### 8. Builder frustration or tool discovery
+
+Specific observations about coding agents, software work, and tools are
+approved. They can be lowercase, blunt, excited, or frustrated when that is how
+MG would naturally say them.
+
+A screenshot or short recording is useful when it proves the behavior. Do not
+turn a two-line observation into a formal explainer.
+
+### 9. Milestone or build story
+
+Strongly approved when the achievement is real and verifiable.
+
+Use GitHub commits, pull requests, workflow artifacts, and real outputs to tell:
+
+- what changed;
+- why it was worth building;
+- what was difficult or surprising;
+- what it now enables; and
+- what comes next.
+
+A passing GitHub workflow is not automatically a milestone. Translate the work
+into user value and keep the evidence link.
+
+### 10. Broad question or engagement prompt
+
+Broad questions, rage-bait-style questions, engagement prompts, constrained
+choices, hypotheticals, and nostalgia questions are an approved content lane.
+
+Useful families:
+
+- current obsessions;
+- a choice between salary and working hours;
+- what someone would do with financial freedom;
+- an "I'm old now" indicator;
+- a card-community preference;
+- a local price comparison; or
+- a playful product choice.
+
+Generate some independently of the news cycle. They should be easy to answer in
+one reply.
+
+Guardrails:
+
+- do not fabricate the premise;
+- do not use politics, tragedy, medical misinformation, or attacks on a private
+  person;
+- do not disguise an advertisement as a question; and
+- use this lane in moderation so the account retains an expertise signal.
+
+### 11. Short hot take, analogy, or one-line humor
+
+Approved when the line is specific and sounds natural.
+
+Good forms include:
+
+- a blunt product opinion supported by an authentic photo;
+- a sharp industry analogy;
+- a culturally recognizable observation;
+- a dry quote-post line; or
+- a small relatable moment.
+
+Sarcastic boasting is conditional. Use it only when the quoted source supplies
+the setup and the line fits MG's voice. Do not force a joke onto serious news.
+
+### 12. Fitness, food, and a real diet for a day
+
+Approved formats include budget-protein observations, India-versus-other-market
+comparisons, contrarian fitness opinions, and MG's actual diet for a day.
+
+A diet post requires the real meals, quantities, timing, and reason for eating
+them. Nutrition calculations must use named sources and be labelled as
+estimates where appropriate.
+
+Do not propose medical, diagnostic, blood-test, laboratory-comparison, or
+health-service experiments. Do not turn fitness content into medical advice.
+
+### 13. Travel recap after a real trip
+
+This works only when MG actually travelled.
+
+After a trip, collect the real cost, booking method, cards or points used,
+photos, one surprise, and one catch or mistake. Possible outputs include a cost
+recap, card or forex lesson, itinerary insight, or practical destination tip.
+
+Do not manufacture travel content from a plan, booking search, or old photo.
+
+### 14. Correct the frame, then explain the mechanism
+
+Approved for technology changes that are widely described in the wrong way,
+especially where cards, payments, devices, and India overlap.
+
+Structure:
+
+1. Say what the change is not.
+2. Name the real behavior or market it affects.
+3. Explain what actually works and what does not.
+4. Add the regulatory, technical, or commercial mechanism when verified.
+5. State MG's real stake only when he has one.
+6. End with the honest practical limit.
+
+This format works because the correction earns attention while the limitation
+keeps the post credible. It must not become a contrarian opening pasted onto an
+ordinary product summary.
+
+### 15. A single useful video
+
+MG may post about one genuinely informative video and explain what was useful or
+surprising. Do not create giant threads containing dozens of recommended
+videos.
+
+### 16. Curated lists, later
+
+Curated account and resource lists are promising but parked until the research
+process is stronger.
+
+Before publishing one:
+
+- define inclusion criteria;
+- verify current activity and expertise;
+- remove promotional or low-quality accounts;
+- explain the distinct value of every entry; and
+- avoid padding the list to reach a round number.
+
+## Media rules
+
+Media must have a job.
+
+- Use a real photo or screenshot for proof and hands-on opinions.
+- Use a screen recording for software, AI, or workflow demonstrations.
+- Use a simple chart for one sourced comparison.
+- Use a mobile-readable cheatsheet for a reusable reference.
+- Use two images only when the comparison itself is the point.
+- Use text alone for a sharp question, one-line observation, or hot take that
+  does not need proof.
+
+If the copy is vague without the media, the media is mandatory. The package must
+describe what the asset shows, where it came from, and why it adds value.
+
+## Factual standard
+
+- A social post, news article, or forum message is a lead, not proof.
+- Verify factual claims with the closest primary source.
+- State the reporting period and observation time for changing information.
+- Separate observed facts, calculations, opinions, and unverified claims.
+- Reject factual engagement bait when the central claim lacks evidence.
+- Never invent MG's use of a product, travel, meal, purchase, price memory,
+  milestone, prediction, or opinion.
+
+## What to reject or deprioritize
+
+- Unsupported announcements about companies, products, or government schemes.
+- Corporate announcement copy with no MG take.
+- Giant lists of videos.
+- Curated lists without real research.
+- Repetitive points-transfer tables.
+- Generic visual comparisons with no distinctive point.
+- Medical or diagnostic experiments.
+- Fabricated personal experiences.
 - Generic agreement in replies.
-- Vague hope or doubt ("hope they have a plan") when one number would make the point.
-- Anything political. Several creators get big numbers from politics; that's not his lane. (20 Sep: @DealsDhamaka's biggest post of the day was political. Still not his lane.)
+- Statistics without a conclusion.
+- Promotional content disguised as a question.
 
-## Creator study (weekly, Sunday 7:30 PM run)
+## Final review checklist
 
-Visit each creator's profile and the watchlist accounts. For each, note their 2–3 best-performing posts of the week (views and likes), then classify each by pattern.
+Before recommending anything, check:
 
-Add new patterns to this file with an example and the date. Retire patterns that stopped working. Put a 3-line summary in the Sunday doc's Week in review.
+- Is this an original post, reply, execution idea, research item, or skip?
+- Is there one clear idea?
+- Does MG's opinion appear when the source is a company or product announcement?
+- Is every factual claim traceable to a suitable source?
+- Does a comparison use equivalent periods, units, and configurations?
+- Does the ending contain a conclusion, useful limit, action, or real question?
+- Is media required to understand or believe the post?
+- If media is included, is it authentic, readable, and sourced?
+- Does the draft rely on personal information MG has not supplied?
+- Would a real build or demo be more valuable than commentary?
+- If an execution idea emerged, was it returned in a Markdown file and saved to
+  the backlog when possible?
 
-**Log**
-- 20 Sep 2026 (first study, done logged out, so view counts only where the post page showed them): News + the catch and Photo + one-line opinion still lead. Added Guess the price (#12) and One-line witty quote-tweet (#13). Parked Receipts (#6).
-- 20 Sep 2026, ~11 PM (MG added two accounts): added Correct the frame, then spec it out (#14, @ManmohitSandhu) and The plain money list (#15, @suritalreja). #14 is the priority one: it's the cards-meets-tech crossover MG is best placed to write, and it pulled 35.9K views off a 2.4K-follower account.
+## Provenance: decisions from the 50-post review
+
+The following records MG's direct decisions on 23 September 2026. The numbers
+refer to the research set in the conversation that produced this revision.
+
+| # | Decision | Requirement captured |
+|---:|---|---|
+| 1 | Good | Use compact, sourced time comparisons. |
+| 2 | Good | Start with a conclusion, then support it with one strong statistic. |
+| 3 | Good | Relatable progression and recognition-based humor are approved. |
+| 4 | Conditional | Vague copy requires supporting media. |
+| 5 | Good | Effective dates, benefit changes, and exclusions make updates useful. |
+| 6 | Adapt | Product announcements need at least one line of MG's take. |
+| 7 | Adapt | Add MG's opinion, a supporting metric, and a conclusion. |
+| 8 | Strong yes | Propose implementable AI tools or skills MG can showcase. |
+| 9 | Parked | Curated lists need more research. |
+| 10 | Strong yes | Track benchmark provenance on every model release. |
+| 11 | Yes | Narrow consumer consequences with evidence are approved. |
+| 12 | No | Reject unsupported company or policy claims. |
+| 13 | Strong yes | Generate concise RSS-derived posts. |
+| 14 | Yes | International price comparisons are approved. |
+| 15 | Strong yes | Market-share posts are approved; monitor Canalys. |
+| 16 | Strong yes | Create useful comparison cheatsheets. |
+| 17 | Conditional | Travel formats require a real trip. |
+| 18 | Occasional | Points valuation tables are acceptable in moderation. |
+| 19 | Low priority | Avoid repetitive transfer tables. |
+| 20 | Yes | Address readers before a consequential purchase. |
+| 21 | Strong yes | Emotion followed by concrete causes is a preferred format. |
+| 22 | No | One useful video is acceptable; giant video lists are not. |
+| 23 | Reply target | React to strategic market-size threads. |
+| 24 | Reply target | React to clear financial explainers. |
+| 25 | Yes | Explain products through their founding principle. |
+| 26 | Yes | Use specific price, nutrition, and calorie observations when verified. |
+| 27 | Yes | Parallel comparisons are approved. |
+| 28 | Strong yes | A real diet-for-a-day post is desired. |
+| 29 | No | Do not propose health experiments. |
+| 30 | Yes | Contrarian fitness opinions are acceptable with evidence. |
+| 31 | Strong yes | Resurface real work when a new tool makes it timely. |
+| 32 | Strong yes | Demonstrate a built workflow with video. |
+| 33 | Strong yes | Let a clear product demo carry most of the post. |
+| 34 | Strong yes | Quantified software comparisons plus demos are approved. |
+| 35 | Yes | Specific builder frustrations make useful human posts. |
+| 36 | Strong yes | Broad and light engagement questions are intentional. |
+| 37 | Strong yes | Generate random hypotheticals outside the news cycle. |
+| 38 | Reply target | Monitor high-signal product-feedback questions. |
+| 39 | Yes | Nostalgia questions are approved. |
+| 40 | Yes | Constrained career and money choices are approved. |
+| 41 | No | Do not prioritize generic visual before-and-after comparisons. |
+| 42 | Yes | Sharp product or industry analogies are approved. |
+| 43 | Yes | Real price-over-time observations plus a local question are approved. |
+| 44 | Strong yes | Verifiable milestones are a preferred format. |
+| 45 | Yes | Explain a new mechanism using a familiar comparison and an honest limit. |
+| 46 | Yes | Product hot takes with authentic media are approved. |
+| 47 | Yes | Short culturally recognizable observations are acceptable. |
+| 48 | Yes | Immediate tool reactions with a screenshot are approved. |
+| 49 | Conditional | Sarcastic quote-posts must sound natural and add an angle. |
+| 50 | Yes | Small relatable moments are valid content. |
