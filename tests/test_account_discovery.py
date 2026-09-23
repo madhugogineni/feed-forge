@@ -65,10 +65,11 @@ class AccountDiscoveryTests(unittest.TestCase):
         self.config = load_discovery_config(Path("config/account_discovery.toml"))
 
     def test_pilot_configuration_has_expected_mix_pool_and_budget(self) -> None:
-        self.assertEqual(8, self.config.topic_mix["ai_agents_builders"])
-        self.assertEqual(4, self.config.topic_mix["consumer_tech"])
+        self.assertEqual(4, self.config.topic_mix["ai_agents_builders"])
+        self.assertEqual(2, self.config.topic_mix["consumer_tech"])
         peers = next(pool for pool in self.config.pools if pool.name == "peers")
         self.assertEqual((100, 1000), (peers.minimum_followers, peers.maximum_followers))
+        self.assertEqual(10, peers.target_count)
         self.assertEqual(0.5, self.config.max_cost_usd)
 
     def test_oauth1_credentials_are_preferred_for_scheduled_user_context(self) -> None:
@@ -135,6 +136,10 @@ class AccountDiscoveryTests(unittest.TestCase):
         self.assertEqual("peers", candidate["pool"])
         self.assertEqual("not_following", candidate["follow_status"])
         self.assertEqual("recommended", candidate["status"])
+        self.assertEqual(
+            {"target": 10, "found": 1, "review_ready": 1, "shortfall": 9},
+            report["summary"]["pool_progress"]["peers"],
+        )
         self.assertLessEqual(report["cost"]["projected_usd"], 0.5)
         self.assertIn("/2/tweets/search/recent", transport.urls[0])
         self.assertIn("/2/users?", transport.urls[4])
@@ -202,7 +207,7 @@ class AccountDiscoveryTests(unittest.TestCase):
                         "search_score": 100 - index,
                     }
                 )
-        selected = _select_by_topic_mix(candidates, 20, self.config.topic_mix)
+        selected = _select_by_topic_mix(candidates, 10, self.config.topic_mix)
         selected_counts = {
             topic: sum(item["topic"] == topic for item in selected)
             for topic in self.config.topic_mix

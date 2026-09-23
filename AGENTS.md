@@ -80,9 +80,10 @@ The supplied editorial material is preserved under `docs/reference/`.
 1. Configure the operator's profile, boundaries, candidate niches, and goals.
 2. Discover and score a niche using interest, expertise, source availability,
    audience activity, and room for a distinct point of view.
-3. Discover 15–30 not-already-followed accounts in each pilot pool: peers at
-   approximately 100–1,000 followers, growing creators around 1,000–10,000, and
-   high-reach accounts at 100,000+. Maintain a short relationship list too.
+3. Discover 10 not-already-followed accounts in each pilot pool initially:
+   peers at approximately 100–1,000 followers, growing creators around
+   1,000–10,000, and high-reach accounts at 100,000+, for 30 recommendations
+   total. Maintain a short relationship list too.
 4. Collect recent source items and public posts, normalize them, deduplicate
    them, and record collection time and provenance.
 5. Rank opportunities by relevance, freshness, evidence quality, ability to add

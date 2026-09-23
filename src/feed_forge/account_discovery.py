@@ -448,6 +448,21 @@ def run_account_discovery(
         candidate["timeline"] = None
         candidate["recent_posts"] = []
 
+    pool_progress = {
+        pool.name: {
+            "target": pool.target_count,
+            "found": sum(candidate["pool"] == pool.name for candidate in qualified),
+            "review_ready": sum(
+                candidate["pool"] == pool.name
+                and candidate["status"] == "recommended"
+                for candidate in qualified
+            ),
+        }
+        for pool in config.pools
+    }
+    for progress in pool_progress.values():
+        progress["shortfall"] = max(0, progress["target"] - progress["found"])
+
     generated_at = (now or datetime.now(UTC)).astimezone(UTC)
     return {
         "schema_version": REPORT_SCHEMA_VERSION,
@@ -460,7 +475,7 @@ def run_account_discovery(
             "excluded_verified_types": sorted(config.excluded_verified_types),
             "organizations_excluded": config.exclude_organization_accounts,
             "already_followed_excluded": config.exclude_already_followed,
-            "topic_mix_per_20": dict(config.topic_mix),
+            "target_topic_mix_per_pool": dict(config.topic_mix),
             "pools": [pool.__dict__ for pool in config.pools],
         },
         "summary": {
@@ -480,6 +495,7 @@ def run_account_discovery(
                 item["status"] == "profile_qualified" for item in qualified
             ),
             "rejected": len(rejected),
+            "pool_progress": pool_progress,
         },
         "candidates": qualified,
         "rejections": rejected,
@@ -510,11 +526,30 @@ def render_discovery_markdown(report: Mapping[str, Any]) -> str:
             f"`${cost['maximum_usd']:.2f}` cap)"
         ),
         "",
-        "## Candidates",
+        "## Pool coverage",
         "",
-        "| Handle | Pool | Topic | Followers | Follow status | Verification | Score | Status |",
-        "|---|---|---|---:|---|---|---:|---|",
+        "| Pool | Target | Found | Review-ready | Shortfall |",
+        "|---|---:|---:|---:|---:|",
     ]
+    for pool_name, progress in summary["pool_progress"].items():
+        lines.append(
+            "| {pool} | {target} | {found} | {ready} | {shortfall} |".format(
+                pool=_escape(pool_name),
+                target=progress["target"],
+                found=progress["found"],
+                ready=progress["review_ready"],
+                shortfall=progress["shortfall"],
+            )
+        )
+    lines.extend(
+        [
+            "",
+            "## Candidates",
+            "",
+            "| Handle | Pool | Topic | Followers | Follow status | Verification | Score | Status |",
+            "|---|---|---|---:|---|---|---:|---|",
+        ]
+    )
     candidates = report.get("candidates", [])
     if not candidates:
         lines.append("| — | — | — | — | — | — | — | No qualified candidates |")
@@ -848,8 +883,14 @@ def _validate_config(config: DiscoveryConfig) -> None:
         raise ConfigurationError("timeline_posts_per_finalist must be between 5 and 100")
     if not config.pools:
         raise ConfigurationError("At least one follower pool is required")
-    if sum(config.topic_mix.values()) != 20:
-        raise ConfigurationError("topic_mix must allocate exactly 20 accounts")
+    pool_targets = {pool.target_count for pool in config.pools}
+    if len(pool_targets) != 1:
+        raise ConfigurationError("All pools must currently use the same target_count")
+    pool_target = next(iter(pool_targets))
+    if sum(config.topic_mix.values()) != pool_target:
+        raise ConfigurationError(
+            "topic_mix must allocate exactly target_count accounts per pool"
+        )
     if set(config.topic_mix) != set(config.keywords):
         raise ConfigurationError("topic_mix and keywords must define the same topics")
     for query in config.queries:

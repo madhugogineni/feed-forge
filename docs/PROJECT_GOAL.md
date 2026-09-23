@@ -14,7 +14,7 @@ replying, liking, and messaging.
 
 ## Goal 1: discover accounts worth following
 
-Maintain three discovery pools, with 15–30 accounts in each pool:
+Start with 10 recommendations in each of three discovery pools, for 30 total:
 
 | Pool | Initial follower range | Purpose |
 |---|---:|---|
@@ -33,13 +33,12 @@ suggestion must include:
 - Which pool it belongs to and why it is worth following or monitoring.
 - Discovery date and last-checked time so stale accounts can be retired.
 
-For a typical 20-account pool, target eight accounts focused on AI, coding
-agents, or Indian AI builders; four focused on consumer technology, gadgets, or
-telecom; four focused on Indian credit cards, payments, or fintech; two focused
-on Indian fitness; and two crossover accounts. Consumer technology, gadgets,
-and telecom accounts need not be India-specific. Scale these allocations
-proportionally when a pool contains 15–30 accounts, without weakening relevance
-or verification requirements to fill a quota.
+Within each 10-account pool, target four accounts focused on AI, coding agents,
+or Indian AI builders; two focused on consumer technology, gadgets, or telecom;
+two focused on Indian credit cards, payments, or fintech; one focused on Indian
+fitness; and one crossover account. Consumer technology, gadgets, and telecom
+accounts need not be India-specific. Do not weaken relevance or verification
+requirements to fill a quota.
 
 Follower ranges are starting filters, not permanent labels. Refresh counts and
 reclassify accounts when they cross a boundary. Exclude inactive, low-quality,
@@ -143,7 +142,8 @@ live data.
 
 ### Discovery quality
 
-- Maintain 15–30 active, not-already-followed candidates in each account pool.
+- Maintain 10 active, not-already-followed candidates in each account pool
+  initially, for 30 recommendations total.
 - Track suggestion acceptance, subsequent follows, follow-backs, and repeat
   conversations.
 - Track how often suggested accounts or posts are duplicates, stale, or outside
