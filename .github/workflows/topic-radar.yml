@@ -1,0 +1,48 @@
+name: Topic radar
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 06:00 Asia/Kolkata. GitHub schedules can start a little late.
+    - cron: "30 0 * * *"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: topic-radar
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run unit tests
+        run: PYTHONPATH=src python -m unittest discover -s tests -v
+
+      - name: Collect topic radar
+        run: >-
+          python scripts/collect_topics.py
+          --github-summary
+          --json-output artifacts/topic-radar.json
+          --markdown-output artifacts/topic-radar.md
+
+      - name: Upload topic report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: topic-radar-${{ github.run_id }}
+          path: |
+            artifacts/topic-radar.json
+            artifacts/topic-radar.md
+          if-no-files-found: warn
+          retention-days: 30

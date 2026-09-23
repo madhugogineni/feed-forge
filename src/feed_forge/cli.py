@@ -18,6 +18,12 @@ from .account_discovery import (
     resolve_discovery_authentication,
     run_account_discovery,
 )
+from .topic_feeds import (
+    TopicFeedError,
+    collect_topics,
+    load_topic_feed_config,
+    render_topics_markdown,
+)
 from .x_diagnostics import (
     ConfigurationError,
     load_config,
@@ -89,6 +95,14 @@ def build_parser() -> argparse.ArgumentParser:
         action="store_true",
         help="Append Markdown to GITHUB_STEP_SUMMARY when available.",
     )
+    topics = subparsers.add_parser(
+        "collect-topics",
+        help="Collect public RSS/Atom feeds into a reviewable topic report.",
+    )
+    topics.add_argument("--config", type=Path, default=Path("config/topic_feeds.toml"))
+    topics.add_argument("--json-output", type=Path, default=Path("artifacts/topic-radar.json"))
+    topics.add_argument("--markdown-output", type=Path, default=Path("artifacts/topic-radar.md"))
+    topics.add_argument("--github-summary", action="store_true")
     return parser
 
 
@@ -98,6 +112,8 @@ def main(argv: Sequence[str] | None = None) -> int:
         return _check_x_api(args)
     if args.command == "discover-accounts":
         return _discover_accounts(args)
+    if args.command == "collect-topics":
+        return _collect_topics(args)
     return 2
 
 
@@ -180,6 +196,31 @@ def _discover_accounts(args: argparse.Namespace) -> int:
     print(f"JSON report: {args.json_output}")
     print(f"Markdown report: {args.markdown_output}")
     return 0
+
+
+def _collect_topics(args: argparse.Namespace) -> int:
+    try:
+        config = load_topic_feed_config(args.config)
+        report = collect_topics(config)
+    except TopicFeedError as error:
+        report = {
+            "schema_version": "feed-forge/topic-radar-failure/v1",
+            "generated_at": datetime.now(UTC).isoformat().replace("+00:00", "Z"),
+            "status": "failed",
+            "error": str(error),
+        }
+        markdown = f"# Feed Forge topic radar\n\nStatus: **failed**\n\nConfiguration error: {error}\n"
+        exit_code = 2
+    else:
+        markdown = render_topics_markdown(report)
+        exit_code = 0 if report["status"] == "ok" else 3
+    _write_text(args.json_output, json.dumps(report, indent=2, sort_keys=True) + "\n")
+    _write_text(args.markdown_output, markdown)
+    _append_github_summary(markdown, args.github_summary)
+    print(f"Topic radar status: {report['status']}")
+    print(f"JSON report: {args.json_output}")
+    print(f"Markdown report: {args.markdown_output}")
+    return exit_code
 
 
 def _write_text(path: Path, content: str) -> None:

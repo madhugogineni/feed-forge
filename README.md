@@ -12,7 +12,8 @@ It does not post or engage automatically.
 The repository is in the foundation phase. The project goal, operating
 boundaries, and imported editorial reference material are documented. X API
 diagnostics and the first cost-bounded account-discovery stage are executable;
-reply and original-post recommendation stages have not been implemented yet.
+the public-feed topic radar is executable. Reply and original-post
+recommendation stages have not been implemented yet.
 
 ## Start here
 
@@ -144,3 +145,41 @@ history but are not inputs to later runs. Durable cross-run deduplication,
 accept/reject feedback, and outcome measurement require a persistent history
 store and are deliberately deferred until the live recommendations have been
 evaluated.
+
+## Collect the topic radar
+
+The topic radar reads public RSS/Atom feeds, classifies recent headlines into
+the known topics, and writes JSON and Markdown reports. It makes no X API
+requests, needs no X credentials, and does not post to X. Run it locally with:
+
+```bash
+python3 scripts/collect_topics.py
+```
+
+Its versioned configuration is
+[`config/topic_feeds.toml`](config/topic_feeds.toml): feed URLs, a seven-day
+freshness window, topic names, match rules, editorial lanes, and report limits
+are editable there. The topics include AI development, major technology
+companies, Indian consumer brands (including Frido), software, music apps,
+cards/payments, India and Hyderabad/Telangana developments, practical local
+updates, consumer safety, travel, fitness, and personal finance. Crime and
+India-related geopolitics are collected as `context_only` and are not
+publication recommendations. Topic matching is applied to headlines, because
+many feeds include unrelated-story links in their descriptions.
+
+Frido's public blog at [myfrido.com/blogs](https://myfrido.com/blogs) did not
+expose a working Atom URL in our check, so a Google News RSS search and Indian
+startup/publication feeds monitor mentions of Frido. The report shows a
+per-brand match count, including zero if no recent Frido headline exists.
+Google News and publisher feeds are discovery leads; a human must verify a
+claim against the closest primary source before a factual draft is ready.
+The report keeps article links, timestamps, match reasons, and per-feed health.
+An unavailable or malformed feed is shown as failed; old or empty feeds are
+shown separately. Any source failure exits nonzero after writing the reports.
+
+The **Topic radar** GitHub Actions workflow runs daily at approximately
+06:00 Asia/Kolkata and can also be started manually. It places the known-topic
+table and recent headlines in the job summary and uploads both reports as
+run artifacts for 30 days. Its workflow is independent of the manual-only,
+cost-bounded account-discovery workflow. GitHub's scheduled jobs may run a
+little later than the configured time.

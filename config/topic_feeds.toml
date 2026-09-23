@@ -1,0 +1,270 @@
+schema_version = 1
+
+[collection]
+timezone = "Asia/Kolkata"
+max_age_hours = 168
+max_items_per_feed = 200
+max_items_per_topic = 8
+timeout_seconds = 20
+max_feed_bytes = 3000000
+
+# This is an ingestion watchlist, not a set of X search terms. A story can
+# appear under several topics. The report shows matched terms for review.
+[[topics]]
+id = "ai_development"
+label = "AI development and products"
+lane = "review"
+match_any = ["artificial intelligence", "generative ai", "AI model", "large language model", "LLM", "OpenAI", "Anthropic", "Gemini", "Claude", "AI coding", "AI developer", "AI product"]
+feed_ids = ["openai", "nvidia_developer"]
+
+[[topics]]
+id = "big_tech"
+label = "Major technology companies"
+lane = "review"
+match_any = ["Google", "Nvidia", "Apple", "Samsung", "Xiaomi", "Tesla", "Microsoft", "Meta", "Amazon", "Adobe", "Spotify", "YouTube", "OnePlus", "Jio", "Airtel"]
+feed_ids = ["google_india", "nvidia", "samsung", "apple_india"]
+
+[[topics]]
+id = "indian_brands"
+label = "Indian consumer brands and products"
+lane = "review"
+show_term_counts = true
+diversify_by_terms = true
+match_any = ["Frido", "boAt", "Noise smartwatch", "Noise earbuds", "Noise wearables", "Mokobara", "The Sleep Company", "Wakefit", "Lenskart", "The Souled Store", "Minimalist skincare", "Be Minimalist", "Mamaearth", "CRED", "Zepto", "Blinkit", "Swiggy", "Zomato", "Urban Company", "Nykaa", "Atomberg", "Ather", "Ola Electric"]
+case_sensitive = ["boAt", "CRED"]
+feed_ids = []
+
+[[topics]]
+id = "tech_software"
+label = "Technology, software and gadgets"
+lane = "review"
+match_any = ["software", "app update", "operating system", "Android", "iOS", "iPhone", "Pixel", "laptop", "smartphone", "wearable", "browser", "developer tool", "open source"]
+feed_ids = []
+
+[[topics]]
+id = "music_apps"
+label = "Music and streaming apps"
+lane = "review"
+match_any = ["Apple Music", "YouTube Music", "Spotify", "Amazon Music", "music streaming", "music app"]
+feed_ids = []
+
+[[topics]]
+id = "credit_cards_payments"
+label = "Credit cards, rewards and payments"
+lane = "review"
+match_any = ["credit card", "card rewards", "reward points", "cashback", "airport lounge", "UPI", "payment app", "digital payments", "RBI card"]
+feed_ids = ["cardinsider"]
+
+[[topics]]
+id = "india_developments"
+label = "India developments"
+lane = "review"
+match_any = ["India", "Indian", "Bharat", "central government"]
+feed_ids = ["indian_express_india"]
+
+[[topics]]
+id = "telangana_hyderabad"
+label = "Telangana and Hyderabad developments"
+lane = "review"
+match_any = ["Telangana", "Hyderabad", "Secunderabad", "Cyberabad", "GHMC", "HMDA", "Hyderabad Metro", "Patancheru", "Sangareddy", "Warangal"]
+feed_ids = ["indian_express_hyderabad", "hindu_telangana", "hindu_hyderabad"]
+
+[[topics]]
+id = "local_practical"
+label = "Practical local updates"
+lane = "review"
+match_all = ["Telangana|Hyderabad|Secunderabad|Cyberabad|Patancheru|Sangareddy|Warangal|GHMC|HMDA", "weather alert|heavy rain|flood|heatwave|traffic diversion|road closure|metro disruption|power cut|water supply|commute|airport disruption"]
+match_any = []
+feed_ids = []
+
+[[topics]]
+id = "india_geopolitics"
+label = "India-related geopolitics"
+lane = "context_only"
+match_all = ["India|Indian|New Delhi|MEA", "diplomacy|foreign policy|bilateral|border|trade talks|summit|sanctions|geopolitic|treaty|ambassador"]
+match_any = []
+feed_ids = []
+
+[[topics]]
+id = "crime"
+label = "Crime news"
+lane = "context_only"
+match_any = ["crime", "arrest", "police investigation", "murder", "robbery", "fraud", "scam", "trafficking", "cybercrime"]
+feed_ids = ["telangana_today_crime"]
+
+[[topics]]
+id = "consumer_safety"
+label = "Consumer and digital safety"
+lane = "review"
+match_any = ["scam", "phishing", "data breach", "payment fraud", "UPI fraud", "security advisory", "vulnerability", "recall", "cyber attack", "cyberattack", "ransomware"]
+feed_ids = []
+
+[[topics]]
+id = "travel_lifestyle"
+label = "Travel and lifestyle"
+lane = "review"
+match_any = ["visa", "airline", "airport", "travel", "hotel booking", "tourism", "trip planning"]
+feed_ids = []
+
+[[topics]]
+id = "fitness_ergonomics"
+label = "Fitness and ergonomics"
+lane = "review"
+match_any = ["fitness", "workout", "running shoes", "running training", "marathon", "nutrition", "ergonomic", "posture", "wellness", "health tech"]
+feed_ids = []
+
+[[topics]]
+id = "personal_finance"
+label = "Personal finance and investing"
+lane = "review"
+match_any = ["personal finance", "investing", "mutual fund", "income tax", "money lesson", "savings account"]
+feed_ids = []
+
+# These are public RSS/Atom feeds. A publisher's feed is a lead, not a
+# verified factual claim. Keep a source link in every reported item.
+[[feeds]]
+id = "openai"
+name = "OpenAI News"
+url = "https://openai.com/news/rss.xml"
+
+[[feeds]]
+id = "google_india"
+name = "Google India Blog"
+url = "https://blog.google/intl/en-in/rss/"
+
+[[feeds]]
+id = "nvidia"
+name = "NVIDIA Blog"
+url = "https://blogs.nvidia.com/feed/"
+
+[[feeds]]
+id = "nvidia_developer"
+name = "NVIDIA Developer Blog"
+url = "https://developer.nvidia.com/blog/feed/"
+
+[[feeds]]
+id = "samsung"
+name = "Samsung Newsroom"
+url = "https://news.samsung.com/global/feed/rss"
+
+[[feeds]]
+id = "apple_india"
+name = "Apple India Newsroom"
+url = "https://www.apple.com/in/newsroom/rss-feed.rss"
+
+[[feeds]]
+id = "inc42"
+name = "Inc42"
+url = "https://inc42.com/feed/"
+
+[[feeds]]
+id = "yourstory"
+name = "YourStory"
+url = "https://yourstory.com/feed"
+
+# Google News search RSS fills gaps where Indian brands (including Frido) do
+# not expose a usable first-party feed. These are discovery leads only.
+[[feeds]]
+id = "google_news_frido"
+name = "Google News — Frido"
+url = "https://news.google.com/rss/search?q=%22Frido%22&hl=en-IN&gl=IN&ceid=IN%3Aen"
+
+[[feeds]]
+id = "google_news_home_brands"
+name = "Google News — Indian home brands"
+url = "https://news.google.com/rss/search?q=%22Wakefit%22+OR+%22Atomberg%22+OR+%22The+Sleep+Company%22&hl=en-IN&gl=IN&ceid=IN%3Aen"
+
+[[feeds]]
+id = "google_news_consumer_brands"
+name = "Google News — Indian consumer brands"
+url = "https://news.google.com/rss/search?q=%22Lenskart%22+OR+%22Mokobara%22+OR+%22Nykaa%22+OR+%22Mamaearth%22&hl=en-IN&gl=IN&ceid=IN%3Aen"
+
+[[feeds]]
+id = "google_news_digital_brands"
+name = "Google News — Indian digital brands"
+url = "https://news.google.com/rss/search?q=%22Zepto%22+OR+%22Blinkit%22+OR+%22Swiggy%22+OR+%22Zomato%22+OR+%22CRED%22+OR+%22Urban+Company%22&hl=en-IN&gl=IN&ceid=IN%3Aen"
+
+[[feeds]]
+id = "google_news_device_brands"
+name = "Google News — Indian device brands"
+url = "https://news.google.com/rss/search?q=%22boAt%22+OR+%22Noise+smartwatch%22+OR+%22Ather%22+OR+%22Ola+Electric%22&hl=en-IN&gl=IN&ceid=IN%3Aen"
+
+[[feeds]]
+id = "medianama"
+name = "MediaNama"
+url = "https://www.medianama.com/feed/"
+
+[[feeds]]
+id = "indian_express_india"
+name = "Indian Express India"
+url = "https://indianexpress.com/section/india/feed/"
+
+[[feeds]]
+id = "indian_express_world"
+name = "Indian Express World"
+url = "https://indianexpress.com/section/world/feed/"
+
+[[feeds]]
+id = "indian_express_hyderabad"
+name = "Indian Express Hyderabad"
+url = "https://indianexpress.com/section/cities/hyderabad/feed/"
+
+[[feeds]]
+id = "hindu_telangana"
+name = "The Hindu Telangana"
+url = "https://www.thehindu.com/news/national/telangana/feeder/default.rss"
+
+[[feeds]]
+id = "hindu_hyderabad"
+name = "The Hindu Hyderabad"
+url = "https://www.thehindu.com/news/cities/Hyderabad/feeder/default.rss"
+
+[[feeds]]
+id = "telangana_today"
+name = "Telangana Today"
+url = "https://telanganatoday.com/feed"
+
+[[feeds]]
+id = "telangana_today_crime"
+name = "Telangana Today Crime"
+url = "https://telanganatoday.com/crime/feed"
+
+[[feeds]]
+id = "verge"
+name = "The Verge"
+url = "https://www.theverge.com/rss/index.xml"
+
+[[feeds]]
+id = "beebom"
+name = "Beebom"
+url = "https://beebom.com/feed/"
+
+[[feeds]]
+id = "android_authority"
+name = "Android Authority"
+url = "https://www.androidauthority.com/feed/"
+
+[[feeds]]
+id = "9to5google"
+name = "9to5Google"
+url = "https://9to5google.com/feed/"
+
+[[feeds]]
+id = "9to5mac"
+name = "9to5Mac"
+url = "https://9to5mac.com/feed/"
+
+[[feeds]]
+id = "electrek"
+name = "Electrek"
+url = "https://electrek.co/feed/"
+
+[[feeds]]
+id = "cardinsider"
+name = "Card Insider"
+url = "https://cardinsider.com/feed/"
+
+[[feeds]]
+id = "livefromalounge"
+name = "Live from a Lounge"
+url = "https://livefromalounge.com/feed/"
