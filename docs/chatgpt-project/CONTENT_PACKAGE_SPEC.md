@@ -66,6 +66,14 @@ The video production package contains:
 - source/rights notes; and
 - a generation or editing prompt.
 
+Generate the actual image or video when the active surface supports it, then
+inspect the result before marking it ready. Keep image text minimal and verify
+every rendered word. Do not reproduce a protected logo, interface, or person's
+likeness without a legitimate source and permission. Captions must remain
+readable without sound, and the first video frame must make sense on mobile. If
+generation is unavailable, provide the complete production package and do not
+claim that an asset exists.
+
 ### Review checklist
 
 - One clear idea.

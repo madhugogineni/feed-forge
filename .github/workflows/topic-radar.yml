@@ -13,8 +13,8 @@ on:
       - tests/test_topic_feeds.py
       - tests/test_cli.py
   schedule:
-    # 06:00 Asia/Kolkata. GitHub schedules can start a little late.
-    - cron: "30 0 * * *"
+    # Every three hours, anchored at 06:00 Asia/Kolkata. GitHub schedules can start a little late.
+    - cron: "30 */3 * * *"
 
 permissions:
   contents: read

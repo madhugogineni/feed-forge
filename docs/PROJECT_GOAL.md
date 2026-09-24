@@ -98,9 +98,10 @@ user. Do not generate generic praise, restate the post, or fabricate experience.
 
 ## Goal 3: generate original post ideas from current information
 
-The source pipeline runs daily at 06:00 Asia/Kolkata. After a manual acceptance
-test, a separate editorial task should run at 06:30 without requiring a user
-prompt. Each editorial run produces a 15-item original-content idea bank using
+The source pipeline runs every three hours, anchored at 06:00 Asia/Kolkata.
+After a manual acceptance test, a separate daily editorial task should run at
+06:30 without requiring a user prompt. Each editorial run produces a 15-item
+original-content idea bank using
 the newest GitHub pipeline artifact, repository activity, RSS/Atom feeds,
 official newsrooms, regulators, first-party product pages, historical datasets,
 and other permitted sources. Do not claim that the editorial schedule is active
@@ -270,8 +271,8 @@ or dependency on a previous run's artifact.
 
 ### Phase 4: scheduling and learning
 
-- Keep the source pipeline scheduled daily at 06:00 Asia/Kolkata with visible
-  failure reporting.
+- Keep the source pipeline scheduled every three hours, anchored at 06:00
+  Asia/Kolkata, with visible failure reporting.
 - After the editorial prompt passes a manual acceptance run, schedule the
   research-and-ideation task for 06:30 Asia/Kolkata.
 - Add manual `workflow_dispatch` inputs for testing different configuration
