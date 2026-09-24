@@ -13,8 +13,9 @@ on:
       - tests/test_topic_feeds.py
       - tests/test_cli.py
   schedule:
-    # Every three hours, anchored at 06:00 Asia/Kolkata. GitHub schedules can start a little late.
-    - cron: "30 */3 * * *"
+    # Every three hours from 06:00 through 21:00 Asia/Kolkata; skip 00:00 and 03:00.
+    # GitHub schedules can start a little late.
+    - cron: "30 0,3,6,9,12,15 * * *"
 
 permissions:
   contents: read

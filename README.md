@@ -183,9 +183,10 @@ Actions runner; the workflow does not try to bypass publisher access controls.
 Card Insider likewise returned HTTP 415 on the hosted runner and was replaced
 with a Google News RSS search for Indian credit-card coverage.
 
-The **Topic radar** GitHub Actions workflow runs every three hours, anchored at
-approximately 06:00 Asia/Kolkata, on changes to topic-radar code/configuration,
-and can also be started manually. It places the known-topic
+The **Topic radar** GitHub Actions workflow runs every three hours from
+approximately 06:00 through 21:00 Asia/Kolkata, skipping the 00:00 and 03:00
+runs. It also runs on changes to topic-radar code/configuration and can be
+started manually. It places the known-topic
 table and recent headlines in the job summary and uploads both reports as
 run artifacts for 30 days. Its workflow is independent of the manual-only,
 cost-bounded account-discovery workflow. GitHub's scheduled jobs may run a
