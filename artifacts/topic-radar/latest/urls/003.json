@@ -2,27 +2,6 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://9to5mac.com/2026/09/24/apple-tv-reveals-new-series-with-hugh-laurie-as-organized-crime-boss",
-      "domain": "9to5mac.com",
-      "feed_ids": [
-        "9to5mac"
-      ],
-      "feed_names": [
-        "9to5Mac"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000031"
-      ],
-      "topic_ids": [
-        "crime"
-      ],
-      "topics": [
-        "Crime news"
-      ],
-      "url_id": "url_000011"
-    },
-    {
       "canonical_url": "https://9to5mac.com/2026/09/24/happy-hour-609",
       "domain": "9to5mac.com",
       "feed_ids": [
@@ -41,28 +20,7 @@
       "topics": [
         "Fitness and ergonomics"
       ],
-      "url_id": "url_000012"
-    },
-    {
-      "canonical_url": "https://9to5mac.com/2026/09/25/airpods-just-got-a-long-requested-feature-in-new-update",
-      "domain": "9to5mac.com",
-      "feed_ids": [
-        "9to5mac"
-      ],
-      "feed_names": [
-        "9to5Mac"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000070"
-      ],
-      "topic_ids": [
-        "tech_software"
-      ],
-      "topics": [
-        "Technology, software and gadgets"
-      ],
-      "url_id": "url_000013"
+      "url_id": "url_000011"
     },
     {
       "canonical_url": "https://9to5mac.com/2026/09/25/apple-has-big-october-coming-for-new-hardware-and-software-heres-the-lineup",
@@ -75,7 +33,7 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000073"
+        "occ_000072"
       ],
       "topic_ids": [
         "tech_software"
@@ -83,7 +41,7 @@
       "topics": [
         "Technology, software and gadgets"
       ],
-      "url_id": "url_000014"
+      "url_id": "url_000012"
     },
     {
       "canonical_url": "https://9to5mac.com/2026/09/25/apple-wallet-in-ios-27-adds-feature-thats-been-on-my-wishlist-for-years",
@@ -96,7 +54,49 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000072"
+        "occ_000071"
+      ],
+      "topic_ids": [
+        "tech_software"
+      ],
+      "topics": [
+        "Technology, software and gadgets"
+      ],
+      "url_id": "url_000013"
+    },
+    {
+      "canonical_url": "https://9to5mac.com/2026/09/25/daily-september-25-2026",
+      "domain": "9to5mac.com",
+      "feed_ids": [
+        "9to5mac"
+      ],
+      "feed_names": [
+        "9to5Mac"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000069"
+      ],
+      "topic_ids": [
+        "tech_software"
+      ],
+      "topics": [
+        "Technology, software and gadgets"
+      ],
+      "url_id": "url_000014"
+    },
+    {
+      "canonical_url": "https://9to5mac.com/2026/09/25/iphone-duo-video-shows-left-handed-use-for-new-model",
+      "domain": "9to5mac.com",
+      "feed_ids": [
+        "9to5mac"
+      ],
+      "feed_names": [
+        "9to5Mac"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000073"
       ],
       "topic_ids": [
         "tech_software"

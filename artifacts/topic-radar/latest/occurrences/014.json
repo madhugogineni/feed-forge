@@ -2,50 +2,6 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://9to5mac.com/2026/09/23/apple-increases-interest-rate-for-apple-card-savings-account",
-      "feed_id": "9to5mac",
-      "feed_ids": [
-        "9to5mac"
-      ],
-      "feed_name": "9to5Mac",
-      "feed_names": [
-        "9to5Mac"
-      ],
-      "matched_terms": [
-        "savings account"
-      ],
-      "occurrence_id": "occ_000066",
-      "original_url": "https://9to5mac.com/2026/09/23/apple-increases-interest-rate-for-apple-card-savings-account",
-      "pipeline_item_id": "a471b0129af74adf",
-      "published_at": "2026-09-23T11:18:16Z",
-      "title": "Apple increases interest rate for Apple Card Savings Account",
-      "topic": "Personal finance and investing",
-      "topic_id": "personal_finance",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://www.androidauthority.com/google-pixel-september-2026-pattern-pin-unlock-bug-3715425",
-      "feed_id": "android_authority",
-      "feed_ids": [
-        "android_authority"
-      ],
-      "feed_name": "Android Authority",
-      "feed_names": [
-        "Android Authority"
-      ],
-      "matched_terms": [
-        "Pixel"
-      ],
-      "occurrence_id": "occ_000067",
-      "original_url": "https://www.androidauthority.com/google-pixel-september-2026-pattern-pin-unlock-bug-3715425",
-      "pipeline_item_id": "119191c105d6ab4f",
-      "published_at": "2026-09-25T11:39:45Z",
-      "title": "Some Pixel users are locked out after the September 2026 update",
-      "topic": "Technology, software and gadgets",
-      "topic_id": "tech_software",
-      "topic_lane": "review"
-    },
-    {
       "canonical_url": "https://www.androidauthority.com/pixel-buds-call-mute-3715588",
       "feed_id": "android_authority",
       "feed_ids": [
@@ -58,11 +14,33 @@
       "matched_terms": [
         "Pixel"
       ],
-      "occurrence_id": "occ_000068",
+      "occurrence_id": "occ_000066",
       "original_url": "https://www.androidauthority.com/pixel-buds-call-mute-3715588",
       "pipeline_item_id": "1fdf91e4ecc079e5",
       "published_at": "2026-09-25T15:31:34Z",
       "title": "Pixel Buds are working on a new touch control for calls",
+      "topic": "Technology, software and gadgets",
+      "topic_id": "tech_software",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://www.theverge.com/tech/1000729/moment-pro-blackmagic-camera-ii-ios-app-iphone-18-pro-max-aperature-camera",
+      "feed_id": "verge",
+      "feed_ids": [
+        "verge"
+      ],
+      "feed_name": "The Verge",
+      "feed_names": [
+        "The Verge"
+      ],
+      "matched_terms": [
+        "iPhone"
+      ],
+      "occurrence_id": "occ_000067",
+      "original_url": "https://www.theverge.com/tech/1000729/moment-pro-blackmagic-camera-ii-ios-app-iphone-18-pro-max-aperature-camera",
+      "pipeline_item_id": "2f1cb0ea1ba12a23",
+      "published_at": "2026-09-25T17:23:30Z",
+      "title": "These camera apps give you more control over the iPhone 18 Pro’s aperture",
       "topic": "Technology, software and gadgets",
       "topic_id": "tech_software",
       "topic_lane": "review"
@@ -80,7 +58,7 @@
       "matched_terms": [
         "Android"
       ],
-      "occurrence_id": "occ_000069",
+      "occurrence_id": "occ_000068",
       "original_url": "https://www.androidauthority.com/new-ai-apps-services-ai-generated-image-c2pa-3715399",
       "pipeline_item_id": "3c8bb54c0fc19865",
       "published_at": "2026-09-25T14:15:31Z",
@@ -90,7 +68,7 @@
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://9to5mac.com/2026/09/25/airpods-just-got-a-long-requested-feature-in-new-update",
+      "canonical_url": "https://9to5mac.com/2026/09/25/daily-september-25-2026",
       "feed_id": "9to5mac",
       "feed_ids": [
         "9to5mac"
@@ -100,13 +78,35 @@
         "9to5Mac"
       ],
       "matched_terms": [
-        "software"
+        "iOS"
+      ],
+      "occurrence_id": "occ_000069",
+      "original_url": "https://9to5mac.com/2026/09/25/daily-september-25-2026",
+      "pipeline_item_id": "7822a4f56acdd0cb",
+      "published_at": "2026-09-25T17:06:46Z",
+      "title": "9to5Mac Daily: September 25, 2026 – New AirPods features, iOS 27.2 tidbits",
+      "topic": "Technology, software and gadgets",
+      "topic_id": "tech_software",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://www.androidauthority.com/nitrodeck-dual-screen-update-3715691",
+      "feed_id": "android_authority",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_name": "Android Authority",
+      "feed_names": [
+        "Android Authority"
+      ],
+      "matched_terms": [
+        "Android"
       ],
       "occurrence_id": "occ_000070",
-      "original_url": "https://9to5mac.com/2026/09/25/airpods-just-got-a-long-requested-feature-in-new-update",
-      "pipeline_item_id": "4522ac51d7753bb9",
-      "published_at": "2026-09-25T12:04:47Z",
-      "title": "AirPods just got a long-requested feature in new software update",
+      "original_url": "https://www.androidauthority.com/nitrodeck-dual-screen-update-3715691",
+      "pipeline_item_id": "a6683fc88bf255f8",
+      "published_at": "2026-09-25T17:23:28Z",
+      "title": "This Nintendo DS-themed launcher is coming to dual-screen Android handhelds",
       "topic": "Technology, software and gadgets",
       "topic_id": "tech_software",
       "topic_lane": "review"

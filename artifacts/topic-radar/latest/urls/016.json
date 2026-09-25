@@ -2,114 +2,107 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://www.thehindu.com/news/national/telangana/citu-backs-twu-swf-combine-in-tgsrtc-union-elections-combine-to-hold-public-meeting-in-khammam-on-september-29/article71509502.ece",
-      "domain": "www.thehindu.com",
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1000784/meta-muse-filesystem",
+      "domain": "www.theverge.com",
       "feed_ids": [
-        "hindu_hyderabad",
-        "hindu_telangana"
+        "verge"
       ],
       "feed_names": [
-        "The Hindu Hyderabad",
-        "The Hindu Telangana"
+        "The Verge"
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000075"
+        "occ_000015"
       ],
       "topic_ids": [
-        "telangana_hyderabad"
+        "big_tech"
       ],
       "topics": [
-        "Telangana and Hyderabad developments"
+        "Major technology companies"
       ],
       "url_id": "url_000076"
     },
     {
-      "canonical_url": "https://www.thehindu.com/news/national/telangana/pranay-murder-case-convict-dies-after-complaining-of-chest-pain-in-cherlapally-jail/article71505605.ece",
-      "domain": "www.thehindu.com",
+      "canonical_url": "https://www.theverge.com/tech/1000729/moment-pro-blackmagic-camera-ii-ios-app-iphone-18-pro-max-aperature-camera",
+      "domain": "www.theverge.com",
       "feed_ids": [
-        "hindu_hyderabad",
-        "hindu_telangana"
+        "verge"
       ],
       "feed_names": [
-        "The Hindu Hyderabad",
-        "The Hindu Telangana"
+        "The Verge"
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000028"
+        "occ_000067"
       ],
       "topic_ids": [
-        "crime"
+        "tech_software"
       ],
       "topics": [
-        "Crime news"
+        "Technology, software and gadgets"
       ],
       "url_id": "url_000077"
     },
     {
-      "canonical_url": "https://www.thehindu.com/news/national/telangana/revanth-says-fight-for-india-is-between-gandhi-parivar-and-sangh-parivar/article71509596.ece",
-      "domain": "www.thehindu.com",
+      "canonical_url": "https://www.theverge.com/tech/1000772/apple-code-leak-homepod-mini-2-ipad-mini-8-apple-tv-4k",
+      "domain": "www.theverge.com",
       "feed_ids": [
-        "hindu_telangana"
+        "verge"
       ],
       "feed_names": [
-        "The Hindu Telangana"
+        "The Verge"
       ],
-      "occurrence_count": 2,
+      "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000046",
-        "occ_000079"
+        "occ_000012"
       ],
       "topic_ids": [
-        "india_developments",
-        "telangana_hyderabad"
+        "big_tech"
       ],
       "topics": [
-        "India developments",
-        "Telangana and Hyderabad developments"
+        "Major technology companies"
       ],
       "url_id": "url_000078"
     },
     {
-      "canonical_url": "https://www.thehindu.com/news/national/telangana/skill-based-short-term-courses-need-of-the-hour-says-madhusudan-sai/article71509610.ece",
-      "domain": "www.thehindu.com",
+      "canonical_url": "https://www.theverge.com/tech/1000794/tesla-optimus-production-issues-hands",
+      "domain": "www.theverge.com",
       "feed_ids": [
-        "hindu_telangana"
+        "verge"
       ],
       "feed_names": [
-        "The Hindu Telangana"
+        "The Verge"
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000082"
+        "occ_000014"
       ],
       "topic_ids": [
-        "telangana_hyderabad"
+        "big_tech"
       ],
       "topics": [
-        "Telangana and Hyderabad developments"
+        "Major technology companies"
       ],
       "url_id": "url_000079"
     },
     {
-      "canonical_url": "https://www.thehindu.com/news/national/telangana/teachers-protest-against-go-25-seek-reduction-in-workload/article71509665.ece",
-      "domain": "www.thehindu.com",
+      "canonical_url": "https://yourstory.com/2026/09/akamai-lands-116b-cloud-computing-deal-with-anthropic",
+      "domain": "yourstory.com",
       "feed_ids": [
-        "hindu_telangana"
+        "yourstory"
       ],
       "feed_names": [
-        "The Hindu Telangana"
+        "YourStory"
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000076"
+        "occ_000008"
       ],
       "topic_ids": [
-        "telangana_hyderabad"
+        "ai_development"
       ],
       "topics": [
-        "Telangana and Hyderabad developments"
+        "AI development and products"
       ],
       "url_id": "url_000080"
     }

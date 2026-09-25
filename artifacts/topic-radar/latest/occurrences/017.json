@@ -2,7 +2,7 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://www.thehindu.com/news/cities/Hyderabad/zaheerabad-industrial-smart-city-project-spv-office-opened/article71509540.ece",
+      "canonical_url": "https://www.thehindu.com/news/national/telangana/telangana-congress-state-wide-protests-against-ecis-sir-handling-on-september-28/article71507356.ece",
       "feed_id": "hindu_hyderabad",
       "feed_ids": [
         "hindu_hyderabad",
@@ -14,36 +14,15 @@
         "The Hindu Telangana"
       ],
       "matched_terms": [
+        "Telangana",
         "source:hindu_hyderabad",
         "source:hindu_telangana"
       ],
       "occurrence_id": "occ_000081",
-      "original_url": "https://www.thehindu.com/news/cities/Hyderabad/zaheerabad-industrial-smart-city-project-spv-office-opened/article71509540.ece",
-      "pipeline_item_id": "d4261ee33cfb0e19",
-      "published_at": "2026-09-25T15:21:25Z",
-      "title": "Zaheerabad Industrial Smart City project SPV office opened",
-      "topic": "Telangana and Hyderabad developments",
-      "topic_id": "telangana_hyderabad",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://www.thehindu.com/news/national/telangana/skill-based-short-term-courses-need-of-the-hour-says-madhusudan-sai/article71509610.ece",
-      "feed_id": "hindu_telangana",
-      "feed_ids": [
-        "hindu_telangana"
-      ],
-      "feed_name": "The Hindu Telangana",
-      "feed_names": [
-        "The Hindu Telangana"
-      ],
-      "matched_terms": [
-        "source:hindu_telangana"
-      ],
-      "occurrence_id": "occ_000082",
-      "original_url": "https://www.thehindu.com/news/national/telangana/skill-based-short-term-courses-need-of-the-hour-says-madhusudan-sai/article71509610.ece",
-      "pipeline_item_id": "d93004f4fda92ac1",
-      "published_at": "2026-09-25T16:01:42Z",
-      "title": "Skill-based short-term courses need of the hour, says Madhusudan Sai",
+      "original_url": "https://www.thehindu.com/news/national/telangana/telangana-congress-state-wide-protests-against-ecis-sir-handling-on-september-28/article71507356.ece",
+      "pipeline_item_id": "ff6d1e968dc72f04",
+      "published_at": "2026-09-25T16:17:21Z",
+      "title": "Telangana Congress to protest against ECI’s SIR handling on September 28",
       "topic": "Telangana and Hyderabad developments",
       "topic_id": "telangana_hyderabad",
       "topic_lane": "review"
@@ -61,7 +40,7 @@
       "matched_terms": [
         "airport"
       ],
-      "occurrence_id": "occ_000083",
+      "occurrence_id": "occ_000082",
       "original_url": "https://telanganatoday.com/air-india-suspends-pilot-after-failing-breath-analyser-test-at-zurich-airport",
       "pipeline_item_id": "c1d30a81004d14d7",
       "published_at": "2026-09-25T10:15:39Z",
@@ -84,7 +63,7 @@
         "travel",
         "visa"
       ],
-      "occurrence_id": "occ_000084",
+      "occurrence_id": "occ_000083",
       "original_url": "https://livefromalounge.com/visa-power-travel-promotion-goes-global-earn-up-to-20-back-on-your-overseas-spends-on-a-visa-credit-debit-card-this-fall-autumn",
       "pipeline_item_id": "c2df250673788d6f",
       "published_at": "2026-09-24T15:23:20Z",
@@ -106,11 +85,33 @@
       "matched_terms": [
         "airport"
       ],
-      "occurrence_id": "occ_000085",
+      "occurrence_id": "occ_000084",
       "original_url": "https://livefromalounge.com/priority-pass-is-finally-fixing-one-of-my-biggest-airport-lounge-access-gripes",
       "pipeline_item_id": "c35b0daa1c78e8fe",
       "published_at": "2026-09-21T15:50:43Z",
       "title": "Priority Pass+ Is Finally Fixing One of My Biggest Airport Lounge Access Gripes",
+      "topic": "Travel and lifestyle",
+      "topic_id": "travel_lifestyle",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/mahadev-betting-case-cbi-arrests-key-suspect-at-hyderabad-airport-after-arrival-from-dubai",
+      "feed_id": "telangana_today",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_name": "Telangana Today",
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "matched_terms": [
+        "airport"
+      ],
+      "occurrence_id": "occ_000085",
+      "original_url": "https://telanganatoday.com/mahadev-betting-case-cbi-arrests-key-suspect-at-hyderabad-airport-after-arrival-from-dubai",
+      "pipeline_item_id": "dffc405eb85c5795",
+      "published_at": "2026-09-24T16:24:39Z",
+      "title": "Mahadev betting case: CBI arrests key suspect at Hyderabad airport after arrival from Dubai",
       "topic": "Travel and lifestyle",
       "topic_id": "travel_lifestyle",
       "topic_lane": "review"

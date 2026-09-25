@@ -2,7 +2,7 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://www.thehindu.com/news/national/telangana/teachers-protest-against-go-25-seek-reduction-in-workload/article71509665.ece",
+      "canonical_url": "https://www.thehindu.com/news/national/telangana/abvp-condemns-screening-of-documentary-on-umar-khalid-at-nalsar/article71509407.ece",
       "feed_id": "hindu_telangana",
       "feed_ids": [
         "hindu_telangana"
@@ -15,54 +15,10 @@
         "source:hindu_telangana"
       ],
       "occurrence_id": "occ_000076",
-      "original_url": "https://www.thehindu.com/news/national/telangana/teachers-protest-against-go-25-seek-reduction-in-workload/article71509665.ece",
-      "pipeline_item_id": "5aaf521f5a196ddc",
-      "published_at": "2026-09-25T15:42:00Z",
-      "title": "Teachers protest against GO 25, seek reduction in workload",
-      "topic": "Telangana and Hyderabad developments",
-      "topic_id": "telangana_hyderabad",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://telanganatoday.com/hyderabad-police-monitor-ganesh-idol-immersion-from-command-and-control-centre",
-      "feed_id": "telangana_today",
-      "feed_ids": [
-        "telangana_today"
-      ],
-      "feed_name": "Telangana Today",
-      "feed_names": [
-        "Telangana Today"
-      ],
-      "matched_terms": [
-        "Hyderabad"
-      ],
-      "occurrence_id": "occ_000077",
-      "original_url": "https://telanganatoday.com/hyderabad-police-monitor-ganesh-idol-immersion-from-command-and-control-centre",
-      "pipeline_item_id": "86a30eba9d775ed6",
-      "published_at": "2026-09-25T14:54:54Z",
-      "title": "Hyderabad Police monitor Ganesh idol immersion from Command and Control Centre",
-      "topic": "Telangana and Hyderabad developments",
-      "topic_id": "telangana_hyderabad",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://telanganatoday.com/ganesh-bids-adieu-amid-drums-dances-and-devotion-in-hyderabad",
-      "feed_id": "telangana_today",
-      "feed_ids": [
-        "telangana_today"
-      ],
-      "feed_name": "Telangana Today",
-      "feed_names": [
-        "Telangana Today"
-      ],
-      "matched_terms": [
-        "Hyderabad"
-      ],
-      "occurrence_id": "occ_000078",
-      "original_url": "https://telanganatoday.com/ganesh-bids-adieu-amid-drums-dances-and-devotion-in-hyderabad",
-      "pipeline_item_id": "a5f20dc7e11e8fd8",
-      "published_at": "2026-09-25T15:06:38Z",
-      "title": "Ganesh bids adieu amid drums, dances and devotion in Hyderabad",
+      "original_url": "https://www.thehindu.com/news/national/telangana/abvp-condemns-screening-of-documentary-on-umar-khalid-at-nalsar/article71509407.ece",
+      "pipeline_item_id": "81cc1b47327c7415",
+      "published_at": "2026-09-25T16:29:14Z",
+      "title": "ABVP condemns screening of documentary on Umar Khalid at NALSAR",
       "topic": "Telangana and Hyderabad developments",
       "topic_id": "telangana_hyderabad",
       "topic_lane": "review"
@@ -80,7 +36,7 @@
       "matched_terms": [
         "source:hindu_telangana"
       ],
-      "occurrence_id": "occ_000079",
+      "occurrence_id": "occ_000077",
       "original_url": "https://www.thehindu.com/news/national/telangana/revanth-says-fight-for-india-is-between-gandhi-parivar-and-sangh-parivar/article71509596.ece",
       "pipeline_item_id": "aa9a4b5b2e728248",
       "published_at": "2026-09-25T16:01:05Z",
@@ -90,7 +46,7 @@
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://www.thehindu.com/news/cities/Hyderabad/ganesh-idols-take-over-hyderabads-roads-charminar-and-hussainsagar/article71509042.ece",
+      "canonical_url": "https://www.thehindu.com/news/cities/Hyderabad/zaheerabad-industrial-smart-city-project-spv-office-opened/article71509540.ece",
       "feed_id": "hindu_hyderabad",
       "feed_ids": [
         "hindu_hyderabad",
@@ -102,15 +58,58 @@
         "The Hindu Telangana"
       ],
       "matched_terms": [
-        "Hyderabad",
         "source:hindu_hyderabad",
         "source:hindu_telangana"
       ],
+      "occurrence_id": "occ_000078",
+      "original_url": "https://www.thehindu.com/news/cities/Hyderabad/zaheerabad-industrial-smart-city-project-spv-office-opened/article71509540.ece",
+      "pipeline_item_id": "d4261ee33cfb0e19",
+      "published_at": "2026-09-25T15:21:25Z",
+      "title": "Zaheerabad Industrial Smart City project SPV office opened",
+      "topic": "Telangana and Hyderabad developments",
+      "topic_id": "telangana_hyderabad",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://www.thehindu.com/news/national/telangana/skill-based-short-term-courses-need-of-the-hour-says-madhusudan-sai/article71509610.ece",
+      "feed_id": "hindu_telangana",
+      "feed_ids": [
+        "hindu_telangana"
+      ],
+      "feed_name": "The Hindu Telangana",
+      "feed_names": [
+        "The Hindu Telangana"
+      ],
+      "matched_terms": [
+        "source:hindu_telangana"
+      ],
+      "occurrence_id": "occ_000079",
+      "original_url": "https://www.thehindu.com/news/national/telangana/skill-based-short-term-courses-need-of-the-hour-says-madhusudan-sai/article71509610.ece",
+      "pipeline_item_id": "d93004f4fda92ac1",
+      "published_at": "2026-09-25T16:01:42Z",
+      "title": "Skill-based short-term courses need of the hour, says Madhusudan Sai",
+      "topic": "Telangana and Hyderabad developments",
+      "topic_id": "telangana_hyderabad",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://www.thehindu.com/news/national/telangana/file-counter-affidavit-in-plea-over-local-candidate-status-in-mds-admissions-hc-to-government/article71509854.ece",
+      "feed_id": "hindu_telangana",
+      "feed_ids": [
+        "hindu_telangana"
+      ],
+      "feed_name": "The Hindu Telangana",
+      "feed_names": [
+        "The Hindu Telangana"
+      ],
+      "matched_terms": [
+        "source:hindu_telangana"
+      ],
       "occurrence_id": "occ_000080",
-      "original_url": "https://www.thehindu.com/news/cities/Hyderabad/ganesh-idols-take-over-hyderabads-roads-charminar-and-hussainsagar/article71509042.ece",
-      "pipeline_item_id": "b1e76f6f7c828de7",
-      "published_at": "2026-09-25T14:58:14Z",
-      "title": "Ganesh idols take over Hyderabad’s roads, Charminar and Hussainsagar",
+      "original_url": "https://www.thehindu.com/news/national/telangana/file-counter-affidavit-in-plea-over-local-candidate-status-in-mds-admissions-hc-to-government/article71509854.ece",
+      "pipeline_item_id": "e2f10cb1c497cc93",
+      "published_at": "2026-09-25T16:16:20Z",
+      "title": "File counter affidavit in plea over local candidate status in MDS admissions: HC to government",
       "topic": "Telangana and Hyderabad developments",
       "topic_id": "telangana_hyderabad",
       "topic_lane": "review"

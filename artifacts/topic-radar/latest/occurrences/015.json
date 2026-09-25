@@ -2,29 +2,6 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://www.androidauthority.com/android-copy-apple-iphone-steel-case-battery-3715505",
-      "feed_id": "android_authority",
-      "feed_ids": [
-        "android_authority"
-      ],
-      "feed_name": "Android Authority",
-      "feed_names": [
-        "Android Authority"
-      ],
-      "matched_terms": [
-        "Android",
-        "iPhone"
-      ],
-      "occurrence_id": "occ_000071",
-      "original_url": "https://www.androidauthority.com/android-copy-apple-iphone-steel-case-battery-3715505",
-      "pipeline_item_id": "b834258154fa2358",
-      "published_at": "2026-09-25T13:09:49Z",
-      "title": "Android flagships could soon pack massive 10,000mAh batteries, thanks to iPhone’s battery tech",
-      "topic": "Technology, software and gadgets",
-      "topic_id": "tech_software",
-      "topic_lane": "review"
-    },
-    {
       "canonical_url": "https://9to5mac.com/2026/09/25/apple-wallet-in-ios-27-adds-feature-thats-been-on-my-wishlist-for-years",
       "feed_id": "9to5mac",
       "feed_ids": [
@@ -37,7 +14,7 @@
       "matched_terms": [
         "iOS"
       ],
-      "occurrence_id": "occ_000072",
+      "occurrence_id": "occ_000071",
       "original_url": "https://9to5mac.com/2026/09/25/apple-wallet-in-ios-27-adds-feature-thats-been-on-my-wishlist-for-years",
       "pipeline_item_id": "bf05dd1cd1b98d27",
       "published_at": "2026-09-25T13:10:12Z",
@@ -59,7 +36,7 @@
       "matched_terms": [
         "software"
       ],
-      "occurrence_id": "occ_000073",
+      "occurrence_id": "occ_000072",
       "original_url": "https://9to5mac.com/2026/09/25/apple-has-big-october-coming-for-new-hardware-and-software-heres-the-lineup",
       "pipeline_item_id": "c38f681149d0c077",
       "published_at": "2026-09-25T14:44:02Z",
@@ -81,7 +58,7 @@
       "matched_terms": [
         "iPhone"
       ],
-      "occurrence_id": "occ_000074",
+      "occurrence_id": "occ_000073",
       "original_url": "https://9to5mac.com/2026/09/25/iphone-duo-video-shows-left-handed-use-for-new-model",
       "pipeline_item_id": "d40abfdf5adccf1d",
       "published_at": "2026-09-25T13:45:26Z",
@@ -106,11 +83,33 @@
         "source:hindu_hyderabad",
         "source:hindu_telangana"
       ],
-      "occurrence_id": "occ_000075",
+      "occurrence_id": "occ_000074",
       "original_url": "https://www.thehindu.com/news/national/telangana/citu-backs-twu-swf-combine-in-tgsrtc-union-elections-combine-to-hold-public-meeting-in-khammam-on-september-29/article71509502.ece",
       "pipeline_item_id": "3499c0f68d3e37a7",
       "published_at": "2026-09-25T15:23:59Z",
       "title": "CITU backs TWU-SWF combine in TGSRTC union elections, combine to hold public meeting in Khammam on September 29",
+      "topic": "Telangana and Hyderabad developments",
+      "topic_id": "telangana_hyderabad",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://www.thehindu.com/news/national/telangana/teachers-protest-against-go-25-seek-reduction-in-workload/article71509665.ece",
+      "feed_id": "hindu_telangana",
+      "feed_ids": [
+        "hindu_telangana"
+      ],
+      "feed_name": "The Hindu Telangana",
+      "feed_names": [
+        "The Hindu Telangana"
+      ],
+      "matched_terms": [
+        "source:hindu_telangana"
+      ],
+      "occurrence_id": "occ_000075",
+      "original_url": "https://www.thehindu.com/news/national/telangana/teachers-protest-against-go-25-seek-reduction-in-workload/article71509665.ece",
+      "pipeline_item_id": "5aaf521f5a196ddc",
+      "published_at": "2026-09-25T15:42:00Z",
+      "title": "Teachers protest against GO 25, seek reduction in workload",
       "topic": "Telangana and Hyderabad developments",
       "topic_id": "telangana_hyderabad",
       "topic_lane": "review"

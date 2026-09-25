@@ -2,107 +2,113 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://www.androidauthority.com/razer-kishi-v3-pro-xl-deal-3715656",
-      "domain": "www.androidauthority.com",
+      "canonical_url": "https://www.thehindu.com/news/cities/Hyderabad/engineering-students-suicide-turns-out-to-be-murder-two-arrested/article71502595.ece",
+      "domain": "www.thehindu.com",
       "feed_ids": [
-        "android_authority"
+        "hindu_hyderabad",
+        "hindu_telangana"
       ],
       "feed_names": [
-        "Android Authority"
+        "The Hindu Hyderabad",
+        "The Hindu Telangana"
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000010"
+        "occ_000030"
       ],
       "topic_ids": [
-        "big_tech"
+        "crime"
       ],
       "topics": [
-        "Major technology companies"
+        "Crime news"
       ],
       "url_id": "url_000066"
     },
     {
-      "canonical_url": "https://www.androidauthority.com/snapseed-collage-tool-preview-apk-teardown-3715478",
-      "domain": "www.androidauthority.com",
+      "canonical_url": "https://www.thehindu.com/news/cities/Hyderabad/zaheerabad-industrial-smart-city-project-spv-office-opened/article71509540.ece",
+      "domain": "www.thehindu.com",
       "feed_ids": [
-        "android_authority"
+        "hindu_hyderabad",
+        "hindu_telangana"
       ],
       "feed_names": [
-        "Android Authority"
+        "The Hindu Hyderabad",
+        "The Hindu Telangana"
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000014"
+        "occ_000078"
       ],
       "topic_ids": [
-        "big_tech"
+        "telangana_hyderabad"
       ],
       "topics": [
-        "Major technology companies"
+        "Telangana and Hyderabad developments"
       ],
       "url_id": "url_000067"
     },
     {
-      "canonical_url": "https://www.androidauthority.com/spotify-meta-muse-integration-3714958",
-      "domain": "www.androidauthority.com",
+      "canonical_url": "https://www.thehindu.com/news/national/telangana/abvp-condemns-screening-of-documentary-on-umar-khalid-at-nalsar/article71509407.ece",
+      "domain": "www.thehindu.com",
       "feed_ids": [
-        "android_authority"
+        "hindu_telangana"
       ],
       "feed_names": [
-        "Android Authority"
+        "The Hindu Telangana"
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000064"
+        "occ_000076"
       ],
       "topic_ids": [
-        "music_apps"
+        "telangana_hyderabad"
       ],
       "topics": [
-        "Music and streaming apps"
+        "Telangana and Hyderabad developments"
       ],
       "url_id": "url_000068"
     },
     {
-      "canonical_url": "https://www.androidauthority.com/youtube-music-your-podcast-lineup-3714671",
-      "domain": "www.androidauthority.com",
+      "canonical_url": "https://www.thehindu.com/news/national/telangana/citu-backs-twu-swf-combine-in-tgsrtc-union-elections-combine-to-hold-public-meeting-in-khammam-on-september-29/article71509502.ece",
+      "domain": "www.thehindu.com",
       "feed_ids": [
-        "android_authority"
+        "hindu_hyderabad",
+        "hindu_telangana"
       ],
       "feed_names": [
-        "Android Authority"
+        "The Hindu Hyderabad",
+        "The Hindu Telangana"
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000061"
+        "occ_000074"
       ],
       "topic_ids": [
-        "music_apps"
+        "telangana_hyderabad"
       ],
       "topics": [
-        "Music and streaming apps"
+        "Telangana and Hyderabad developments"
       ],
       "url_id": "url_000069"
     },
     {
-      "canonical_url": "https://www.apple.com/in/newsroom/2026/09/apple-opens-apple-music-hall-a-state-of-the-art-live-music-venue-in-london",
-      "domain": "www.apple.com",
+      "canonical_url": "https://www.thehindu.com/news/national/telangana/file-counter-affidavit-in-plea-over-local-candidate-status-in-mds-admissions-hc-to-government/article71509854.ece",
+      "domain": "www.thehindu.com",
       "feed_ids": [
-        "apple_india"
+        "hindu_telangana"
       ],
       "feed_names": [
-        "Apple India Newsroom"
+        "The Hindu Telangana"
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000060"
+        "occ_000080"
       ],
       "topic_ids": [
-        "music_apps"
+        "telangana_hyderabad"
       ],
       "topics": [
-        "Music and streaming apps"
+        "Telangana and Hyderabad developments"
       ],
       "url_id": "url_000070"
     }

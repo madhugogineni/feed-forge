@@ -68,29 +68,29 @@
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://9to5mac.com/2026/09/25/leaked-images-reveal-new-apple-tv-4k-homepod-mini",
-      "feed_id": "9to5mac",
+      "canonical_url": "https://electrek.co/2026/09/25/tesla-patent-new-roadster-hidden-active-rear-wing-700-kg-downforce",
+      "feed_id": "electrek",
       "feed_ids": [
-        "9to5mac"
+        "electrek"
       ],
-      "feed_name": "9to5Mac",
+      "feed_name": "Electrek",
       "feed_names": [
-        "9to5Mac"
+        "Electrek"
       ],
       "matched_terms": [
-        "Apple"
+        "Tesla"
       ],
       "occurrence_id": "occ_000009",
-      "original_url": "https://9to5mac.com/2026/09/25/leaked-images-reveal-new-apple-tv-4k-homepod-mini",
-      "pipeline_item_id": "4c717174bf23bcf7",
-      "published_at": "2026-09-25T15:30:57Z",
-      "title": "Leaked images reveal new Apple TV 4K, HomePod mini",
+      "original_url": "https://electrek.co/2026/09/25/tesla-patent-new-roadster-hidden-active-rear-wing-700-kg-downforce",
+      "pipeline_item_id": "5e0f62d933ab7210",
+      "published_at": "2026-09-25T16:13:57Z",
+      "title": "Tesla patent shows new Roadster with a hidden 700 kg-downforce rear wing",
       "topic": "Major technology companies",
       "topic_id": "big_tech",
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://www.androidauthority.com/razer-kishi-v3-pro-xl-deal-3715656",
+      "canonical_url": "https://www.androidauthority.com/samsung-galaxy-a57-5g-deal-3715684",
       "feed_id": "android_authority",
       "feed_ids": [
         "android_authority"
@@ -100,13 +100,14 @@
         "Android Authority"
       ],
       "matched_terms": [
-        "Amazon"
+        "Amazon",
+        "Samsung"
       ],
       "occurrence_id": "occ_000010",
-      "original_url": "https://www.androidauthority.com/razer-kishi-v3-pro-xl-deal-3715656",
-      "pipeline_item_id": "553057eb4348eab8",
-      "published_at": "2026-09-25T15:19:35Z",
-      "title": "Amazon deal makes the Razer Kishi V3 Pro XL easier to grab at $159.99",
+      "original_url": "https://www.androidauthority.com/samsung-galaxy-a57-5g-deal-3715684",
+      "pipeline_item_id": "6e3f9b884b263aaa",
+      "published_at": "2026-09-25T16:09:10Z",
+      "title": "Deal: Samsung Galaxy A57 5G gets a $100 Amazon price drop",
       "topic": "Major technology companies",
       "topic_id": "big_tech",
       "topic_lane": "review"

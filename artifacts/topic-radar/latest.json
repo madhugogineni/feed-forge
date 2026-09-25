@@ -1,7 +1,7 @@
 {
-  "artifact_name": "topic-radar-36158881150",
-  "commit_sha": "6e4d50baf9462deaa027c03d903c93600cd181c1",
-  "generated_at": "2026-09-25T16:08:59.986686Z",
+  "artifact_name": "topic-radar-36166977638",
+  "commit_sha": "2ec4384a951671687c376347e67e6d06a6f82990",
+  "generated_at": "2026-09-25T17:25:08.554670Z",
   "max_age_hours": 168,
   "note": "Headlines are leads, not verified facts or publication-ready drafts. Crime and India geopolitics are context-only. No X write actions occur.",
   "schema_version": "feed-forge/topic-radar/v1",
@@ -40,9 +40,9 @@
       "error": null,
       "id": "nvidia_developer",
       "items_seen": 100,
-      "latest_at": "2026-09-21T15:00:00Z",
+      "latest_at": "2026-09-24T15:00:00Z",
       "name": "NVIDIA Developer Blog",
-      "recent_items": 2,
+      "recent_items": 13,
       "status": "ok",
       "url": "https://developer.nvidia.com/blog/feed/"
     },
@@ -102,7 +102,7 @@
       "items_seen": 100,
       "latest_at": "2026-09-24T14:02:59Z",
       "name": "Google News \u2014 Indian home brands",
-      "recent_items": 16,
+      "recent_items": 15,
       "status": "ok",
       "url": "https://news.google.com/rss/search?q=%22Wakefit%22+OR+%22Atomberg%22+OR+%22The+Sleep+Company%22&hl=en-IN&gl=IN&ceid=IN%3Aen"
     },
@@ -112,7 +112,7 @@
       "items_seen": 100,
       "latest_at": "2026-09-25T10:37:18Z",
       "name": "Google News \u2014 Indian consumer brands",
-      "recent_items": 63,
+      "recent_items": 64,
       "status": "ok",
       "url": "https://news.google.com/rss/search?q=%22Lenskart%22+OR+%22Mokobara%22+OR+%22Nykaa%22+OR+%22Mamaearth%22&hl=en-IN&gl=IN&ceid=IN%3Aen"
     },
@@ -122,7 +122,7 @@
       "items_seen": 100,
       "latest_at": "2026-09-25T14:18:47Z",
       "name": "Google News \u2014 Indian digital brands",
-      "recent_items": 69,
+      "recent_items": 70,
       "status": "ok",
       "url": "https://news.google.com/rss/search?q=%22Zepto%22+OR+%22Blinkit%22+OR+%22Swiggy%22+OR+%22Zomato%22+OR+%22CRED%22+OR+%22Urban+Company%22&hl=en-IN&gl=IN&ceid=IN%3Aen"
     },
@@ -130,9 +130,9 @@
       "error": null,
       "id": "google_news_device_brands",
       "items_seen": 100,
-      "latest_at": "2026-09-25T16:00:52Z",
+      "latest_at": "2026-09-25T17:06:02Z",
       "name": "Google News \u2014 Indian device brands",
-      "recent_items": 81,
+      "recent_items": 78,
       "status": "ok",
       "url": "https://news.google.com/rss/search?q=%22boAt%22+OR+%22Noise+smartwatch%22+OR+%22Ather%22+OR+%22Ola+Electric%22&hl=en-IN&gl=IN&ceid=IN%3Aen"
     },
@@ -150,7 +150,7 @@
       "error": null,
       "id": "hindu_telangana",
       "items_seen": 60,
-      "latest_at": "2026-09-25T16:01:42Z",
+      "latest_at": "2026-09-25T16:29:14Z",
       "name": "The Hindu Telangana",
       "recent_items": 60,
       "status": "ok",
@@ -169,10 +169,10 @@
     {
       "error": null,
       "id": "telangana_today",
-      "items_seen": 199,
-      "latest_at": "2026-09-25T16:06:58Z",
+      "items_seen": 200,
+      "latest_at": "2026-09-25T17:16:15Z",
       "name": "Telangana Today",
-      "recent_items": 199,
+      "recent_items": 200,
       "status": "ok",
       "url": "https://telanganatoday.com/feed"
     },
@@ -190,7 +190,7 @@
       "error": null,
       "id": "verge",
       "items_seen": 10,
-      "latest_at": "2026-09-25T15:51:56Z",
+      "latest_at": "2026-09-25T17:23:30Z",
       "name": "The Verge",
       "recent_items": 10,
       "status": "ok",
@@ -200,7 +200,7 @@
       "error": null,
       "id": "beebom",
       "items_seen": 10,
-      "latest_at": "2026-09-25T13:07:06Z",
+      "latest_at": "2026-09-25T17:13:24Z",
       "name": "Beebom",
       "recent_items": 10,
       "status": "ok",
@@ -210,7 +210,7 @@
       "error": null,
       "id": "android_authority",
       "items_seen": 80,
-      "latest_at": "2026-09-25T15:54:36Z",
+      "latest_at": "2026-09-25T17:23:28Z",
       "name": "Android Authority",
       "recent_items": 80,
       "status": "ok",
@@ -220,9 +220,9 @@
       "error": null,
       "id": "9to5google",
       "items_seen": 100,
-      "latest_at": "2026-09-25T15:49:53Z",
+      "latest_at": "2026-09-25T16:09:48Z",
       "name": "9to5Google",
-      "recent_items": 76,
+      "recent_items": 77,
       "status": "ok",
       "url": "https://9to5google.com/feed/"
     },
@@ -230,7 +230,7 @@
       "error": null,
       "id": "9to5mac",
       "items_seen": 100,
-      "latest_at": "2026-09-25T15:40:06Z",
+      "latest_at": "2026-09-25T17:06:46Z",
       "name": "9to5Mac",
       "recent_items": 100,
       "status": "ok",
@@ -240,9 +240,9 @@
       "error": null,
       "id": "electrek",
       "items_seen": 100,
-      "latest_at": "2026-09-25T14:45:34Z",
+      "latest_at": "2026-09-25T17:16:47Z",
       "name": "Electrek",
-      "recent_items": 71,
+      "recent_items": 73,
       "status": "ok",
       "url": "https://electrek.co/feed/"
     },
@@ -252,7 +252,7 @@
       "items_seen": 100,
       "latest_at": "2026-09-25T07:33:23Z",
       "name": "Google News \u2014 Indian credit cards",
-      "recent_items": 20,
+      "recent_items": 21,
       "status": "ok",
       "url": "https://news.google.com/rss/search?q=%22credit+card%22+India+OR+%22reward+points%22+India+OR+%22card+cashback%22+India&hl=en-IN&gl=IN&ceid=IN%3Aen"
     },
@@ -367,6 +367,20 @@
           "url": "https://9to5google.com/2026/09/24/pixel-11-call-for-me"
         },
         {
+          "id": "6ff053dd07249040",
+          "published_at": "2026-09-24T15:00:00Z",
+          "source_ids": [
+            "nvidia_developer"
+          ],
+          "title": "Efficient MoE Training for Biological Foundation Models",
+          "topic_matches": {
+            "ai_development": [
+              "source:nvidia_developer"
+            ]
+          },
+          "url": "https://developer.nvidia.com/blog/efficient-moe-training-for-biological-foundation-models"
+        },
+        {
           "id": "38e3d4810e4bd68e",
           "published_at": "2026-09-24T14:45:00Z",
           "source_ids": [
@@ -382,154 +396,136 @@
             ]
           },
           "url": "https://9to5google.com/2026/09/24/google-says-gemini-4-release-is-coming-as-soon-as-possible"
-        },
-        {
-          "id": "6f0aef3cd5e09854",
-          "published_at": "2026-09-24T13:00:00Z",
-          "source_ids": [
-            "9to5mac"
-          ],
-          "title": "Adobe expands creative tool access to Google Gemini, brings Acrobat to Claude",
-          "topic_matches": {
-            "ai_development": [
-              "Gemini",
-              "Claude"
-            ],
-            "big_tech": [
-              "Google",
-              "Adobe"
-            ]
-          },
-          "url": "https://9to5mac.com/2026/09/24/adobe-expands-creative-tool-access-to-google-gemini-brings-acrobat-to-claude"
         }
       ],
       "label": "AI development and products",
       "lane": "review",
       "selection": "newest_first",
       "term_counts": null,
-      "total_recent": 43
+      "total_recent": 54
     },
     {
       "id": "big_tech",
       "items": [
         {
-          "id": "a028fa43f5b661bc",
-          "published_at": "2026-09-25T15:54:36Z",
-          "source_ids": [
-            "android_authority"
-          ],
-          "title": "A Google Photos bug is preventing users from sharing, editing, and deleting pictures",
-          "topic_matches": {
-            "big_tech": [
-              "Google"
-            ]
-          },
-          "url": "https://www.androidauthority.com/google-photos-options-unresponsive-3715622"
-        },
-        {
-          "id": "6d0ab429de02ec2b",
-          "published_at": "2026-09-25T15:54:17Z",
-          "source_ids": [
-            "android_authority"
-          ],
-          "title": "Amazon drops the Fire HD 8 Kids Pro to a record-low $89.99",
-          "topic_matches": {
-            "big_tech": [
-              "Amazon"
-            ]
-          },
-          "url": "https://www.androidauthority.com/fire-hd-8-kids-pro-deal-3715675"
-        },
-        {
-          "id": "5fafe5d3839ead51",
-          "published_at": "2026-09-25T15:35:00Z",
-          "source_ids": [
-            "9to5google"
-          ],
-          "title": "Microsoft quietly ending \u2018Copilot+ PC\u2019 branding for Windows laptops",
-          "topic_matches": {
-            "big_tech": [
-              "Microsoft"
-            ]
-          },
-          "url": "https://9to5google.com/2026/09/25/microsoft-quietly-ending-copilot-pc-branding-for-windows-laptops"
-        },
-        {
-          "id": "4c717174bf23bcf7",
-          "published_at": "2026-09-25T15:30:57Z",
-          "source_ids": [
-            "9to5mac"
-          ],
-          "title": "Leaked images reveal new Apple TV 4K, HomePod mini",
-          "topic_matches": {
-            "big_tech": [
-              "Apple"
-            ]
-          },
-          "url": "https://9to5mac.com/2026/09/25/leaked-images-reveal-new-apple-tv-4k-homepod-mini"
-        },
-        {
-          "id": "553057eb4348eab8",
-          "published_at": "2026-09-25T15:19:35Z",
-          "source_ids": [
-            "android_authority"
-          ],
-          "title": "Amazon deal makes the Razer Kishi V3 Pro XL easier to grab at $159.99",
-          "topic_matches": {
-            "big_tech": [
-              "Amazon"
-            ]
-          },
-          "url": "https://www.androidauthority.com/razer-kishi-v3-pro-xl-deal-3715656"
-        },
-        {
-          "id": "d044dd2da12d2312",
-          "published_at": "2026-09-25T15:00:00Z",
-          "source_ids": [
-            "9to5mac"
-          ],
-          "title": "HomeKit Weekly: ULTRALOQ releases its first UWB smart lock that works with Apple Home",
-          "topic_matches": {
-            "big_tech": [
-              "Apple"
-            ]
-          },
-          "url": "https://9to5mac.com/2026/09/25/ultraloq-bolt-mission"
-        },
-        {
-          "id": "a386e18d9d2ea2eb",
-          "published_at": "2026-09-25T14:51:27Z",
-          "source_ids": [
-            "android_authority"
-          ],
-          "title": "First look: This upcoming Snapseed tool could leave Google Photos in the dust",
-          "topic_matches": {
-            "big_tech": [
-              "Google"
-            ]
-          },
-          "url": "https://www.androidauthority.com/snapseed-collage-tool-preview-apk-teardown-3715478"
-        },
-        {
-          "id": "c3745df1a4b49ca6",
-          "published_at": "2026-09-25T14:45:34Z",
+          "id": "cad477cc6e2894f7",
+          "published_at": "2026-09-25T17:16:47Z",
           "source_ids": [
             "electrek"
           ],
-          "title": "Tesla ramps Optimus to hundreds a week, but the robots can\u2019t generalize",
+          "title": "Podcast: Tesla Semi launch, Geely\u2019s battery healing fast-charging, Rivian R3, and more",
           "topic_matches": {
             "big_tech": [
               "Tesla"
             ]
           },
-          "url": "https://electrek.co/2026/09/25/tesla-optimus-production-ramp-hands-ai-generalization-problems"
+          "url": "https://electrek.co/2026/09/25/early-podcast-tesla-semi-launch-geelys-battery-healing-fast-charging-rivian-r3-and-more"
+        },
+        {
+          "id": "81bb61c0f29f83bb",
+          "published_at": "2026-09-25T17:05:14Z",
+          "source_ids": [
+            "9to5mac"
+          ],
+          "title": "watchOS 27 upgrades popular Apple Watch face with new options",
+          "topic_matches": {
+            "big_tech": [
+              "Apple"
+            ]
+          },
+          "url": "https://9to5mac.com/2026/09/25/watchos-27-upgrades-popular-apple-watch-face-with-new-options"
+        },
+        {
+          "id": "d23e876d1f601e8d",
+          "published_at": "2026-09-25T17:01:36Z",
+          "source_ids": [
+            "verge"
+          ],
+          "title": "Tesla\u2019s Optimus robot is going through growing pains",
+          "topic_matches": {
+            "big_tech": [
+              "Tesla"
+            ]
+          },
+          "url": "https://www.theverge.com/tech/1000794/tesla-optimus-production-issues-hands"
+        },
+        {
+          "id": "ded5f30056dbe56f",
+          "published_at": "2026-09-25T16:49:53Z",
+          "source_ids": [
+            "verge"
+          ],
+          "title": "Meta makes the Muse filesystem even more accessible",
+          "topic_matches": {
+            "big_tech": [
+              "Meta"
+            ]
+          },
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1000784/meta-muse-filesystem"
+        },
+        {
+          "id": "bc5a21fcb2308349",
+          "published_at": "2026-09-25T16:22:05Z",
+          "source_ids": [
+            "verge"
+          ],
+          "title": "Leaks reveal a new Apple HomePod mini, iPad mini, and Apple TV 4K",
+          "topic_matches": {
+            "big_tech": [
+              "Apple"
+            ]
+          },
+          "url": "https://www.theverge.com/tech/1000772/apple-code-leak-homepod-mini-2-ipad-mini-8-apple-tv-4k"
+        },
+        {
+          "id": "5e0f62d933ab7210",
+          "published_at": "2026-09-25T16:13:57Z",
+          "source_ids": [
+            "electrek"
+          ],
+          "title": "Tesla patent shows new Roadster with a hidden 700 kg-downforce rear wing",
+          "topic_matches": {
+            "big_tech": [
+              "Tesla"
+            ]
+          },
+          "url": "https://electrek.co/2026/09/25/tesla-patent-new-roadster-hidden-active-rear-wing-700-kg-downforce"
+        },
+        {
+          "id": "fd576f81ddbd6da4",
+          "published_at": "2026-09-25T16:09:48Z",
+          "source_ids": [
+            "9to5google"
+          ],
+          "title": "Google Messages rolls out new swipe for timestamps & reply gesture",
+          "topic_matches": {
+            "big_tech": [
+              "Google"
+            ]
+          },
+          "url": "https://9to5google.com/2026/09/25/google-messages-timestamps-reply"
+        },
+        {
+          "id": "6e3f9b884b263aaa",
+          "published_at": "2026-09-25T16:09:10Z",
+          "source_ids": [
+            "android_authority"
+          ],
+          "title": "Deal: Samsung Galaxy A57 5G gets a $100 Amazon price drop",
+          "topic_matches": {
+            "big_tech": [
+              "Samsung",
+              "Amazon"
+            ]
+          },
+          "url": "https://www.androidauthority.com/samsung-galaxy-a57-5g-deal-3715684"
         }
       ],
       "label": "Major technology companies",
       "lane": "review",
       "selection": "newest_first",
       "term_counts": null,
-      "total_recent": 218
+      "total_recent": 227
     },
     {
       "id": "indian_brands",
@@ -675,10 +671,10 @@
         "Noise earbuds": 0,
         "Noise smartwatch": 0,
         "Noise wearables": 0,
-        "Nykaa": 31,
-        "Ola Electric": 14,
+        "Nykaa": 32,
+        "Ola Electric": 12,
         "Swiggy": 32,
-        "The Sleep Company": 11,
+        "The Sleep Company": 10,
         "The Souled Store": 0,
         "Urban Company": 3,
         "Wakefit": 2,
@@ -686,11 +682,53 @@
         "Zomato": 4,
         "boAt": 2
       },
-      "total_recent": 161
+      "total_recent": 159
     },
     {
       "id": "tech_software",
       "items": [
+        {
+          "id": "2f1cb0ea1ba12a23",
+          "published_at": "2026-09-25T17:23:30Z",
+          "source_ids": [
+            "verge"
+          ],
+          "title": "These camera apps give you more control over the iPhone 18 Pro\u2019s aperture",
+          "topic_matches": {
+            "tech_software": [
+              "iPhone"
+            ]
+          },
+          "url": "https://www.theverge.com/tech/1000729/moment-pro-blackmagic-camera-ii-ios-app-iphone-18-pro-max-aperature-camera"
+        },
+        {
+          "id": "a6683fc88bf255f8",
+          "published_at": "2026-09-25T17:23:28Z",
+          "source_ids": [
+            "android_authority"
+          ],
+          "title": "This Nintendo DS-themed launcher is coming to dual-screen Android handhelds",
+          "topic_matches": {
+            "tech_software": [
+              "Android"
+            ]
+          },
+          "url": "https://www.androidauthority.com/nitrodeck-dual-screen-update-3715691"
+        },
+        {
+          "id": "7822a4f56acdd0cb",
+          "published_at": "2026-09-25T17:06:46Z",
+          "source_ids": [
+            "9to5mac"
+          ],
+          "title": "9to5Mac Daily: September 25, 2026 \u2013 New AirPods features, iOS 27.2 tidbits",
+          "topic_matches": {
+            "tech_software": [
+              "iOS"
+            ]
+          },
+          "url": "https://9to5mac.com/2026/09/25/daily-september-25-2026"
+        },
         {
           "id": "1fdf91e4ecc079e5",
           "published_at": "2026-09-25T15:31:34Z",
@@ -766,56 +804,13 @@
             ]
           },
           "url": "https://9to5mac.com/2026/09/25/apple-wallet-in-ios-27-adds-feature-thats-been-on-my-wishlist-for-years"
-        },
-        {
-          "id": "b834258154fa2358",
-          "published_at": "2026-09-25T13:09:49Z",
-          "source_ids": [
-            "android_authority"
-          ],
-          "title": "Android flagships could soon pack massive 10,000mAh batteries, thanks to iPhone\u2019s battery tech",
-          "topic_matches": {
-            "tech_software": [
-              "Android",
-              "iPhone"
-            ]
-          },
-          "url": "https://www.androidauthority.com/android-copy-apple-iphone-steel-case-battery-3715505"
-        },
-        {
-          "id": "4522ac51d7753bb9",
-          "published_at": "2026-09-25T12:04:47Z",
-          "source_ids": [
-            "9to5mac"
-          ],
-          "title": "AirPods just got a long-requested feature in new software update",
-          "topic_matches": {
-            "tech_software": [
-              "software"
-            ]
-          },
-          "url": "https://9to5mac.com/2026/09/25/airpods-just-got-a-long-requested-feature-in-new-update"
-        },
-        {
-          "id": "119191c105d6ab4f",
-          "published_at": "2026-09-25T11:39:45Z",
-          "source_ids": [
-            "android_authority"
-          ],
-          "title": "Some Pixel users are locked out after the September 2026 update",
-          "topic_matches": {
-            "tech_software": [
-              "Pixel"
-            ]
-          },
-          "url": "https://www.androidauthority.com/google-pixel-september-2026-pattern-pin-unlock-bug-3715425"
         }
       ],
       "label": "Technology, software and gadgets",
       "lane": "review",
       "selection": "newest_first",
       "term_counts": null,
-      "total_recent": 95
+      "total_recent": 98
     },
     {
       "id": "music_apps",
@@ -837,23 +832,6 @@
             ]
           },
           "url": "https://www.androidauthority.com/spotify-meta-muse-integration-3714958"
-        },
-        {
-          "id": "79d36882090ccb31",
-          "published_at": "2026-09-23T17:20:25Z",
-          "source_ids": [
-            "android_authority"
-          ],
-          "title": "YouTube Music is rolling out some features to freshen up your podcast collection",
-          "topic_matches": {
-            "big_tech": [
-              "YouTube"
-            ],
-            "music_apps": [
-              "YouTube Music"
-            ]
-          },
-          "url": "https://www.androidauthority.com/youtube-music-your-podcast-lineup-3714671"
         },
         {
           "id": "aff2d027629de3fe",
@@ -933,7 +911,7 @@
       "lane": "review",
       "selection": "newest_first",
       "term_counts": null,
-      "total_recent": 6
+      "total_recent": 5
     },
     {
       "id": "credit_cards_payments",
@@ -1009,7 +987,7 @@
           "source_ids": [
             "google_news_credit_cards"
           ],
-          "title": "Credit cards lose share in India\u2019s rapidly growing digital payments pie: Jefferies - aninews.in",
+          "title": "Credit cards lose share in India\u2019s rapidly growing digital payments pie: Jefferies - ANI News",
           "topic_matches": {
             "credit_cards_payments": [
               "digital payments"
@@ -1070,7 +1048,7 @@
       "lane": "review",
       "selection": "newest_first",
       "term_counts": null,
-      "total_recent": 16
+      "total_recent": 17
     },
     {
       "id": "india_developments",
@@ -1135,20 +1113,6 @@
           "url": "https://telanganatoday.com/india-win-shooting-gold-as-gulveer-takes-10000m-silver-at-asian-games"
         },
         {
-          "id": "007de3758d3a40c6",
-          "published_at": "2026-09-25T14:51:37Z",
-          "source_ids": [
-            "google_news_device_brands"
-          ],
-          "title": "Joe Jonas looks back at 'terrifying' boat incident on his vacation - FM Bharat",
-          "topic_matches": {
-            "india_developments": [
-              "Bharat"
-            ]
-          },
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRFdnalg2Mmg4dlcyLU1mTHVVWmtZWHh2ZXFZR3hzR1FlY1Y5S3REMHF5ZTYwT09zMTQ2SHpvZDdIekF3V0NhcXd2cElnQm56bDlBd1ExMEo2MFVnX1pkTzZyRjJUU1lGM3B0RU02TUtha25FclJuZTU4NTROOWg5VjZqdWFIU1JYN3hNS0tnbzF3U2VUMkY1dkdHekdyQXBHTDlQbkNhbktVdw?oc=5"
-        },
-        {
           "id": "96a1d91e70ac4570",
           "published_at": "2026-09-25T14:30:15Z",
           "source_ids": [
@@ -1192,6 +1156,20 @@
             ]
           },
           "url": "https://telanganatoday.com/baranica-creates-history-with-indias-first-asiad-pole-vault-medal"
+        },
+        {
+          "id": "56cee09853ec845a",
+          "published_at": "2026-09-25T12:52:21Z",
+          "source_ids": [
+            "telangana_today"
+          ],
+          "title": "Gulveer Singh bags silver, becomes first Indian to win two 10,000m medals",
+          "topic_matches": {
+            "india_developments": [
+              "Indian"
+            ]
+          },
+          "url": "https://telanganatoday.com/gulveer-singh-bags-silver-becomes-first-indian-to-win-two-10000m-medals"
         }
       ],
       "label": "India developments",
@@ -1203,6 +1181,51 @@
     {
       "id": "telangana_hyderabad",
       "items": [
+        {
+          "id": "81cc1b47327c7415",
+          "published_at": "2026-09-25T16:29:14Z",
+          "source_ids": [
+            "hindu_telangana"
+          ],
+          "title": "ABVP condemns screening of documentary on Umar Khalid at NALSAR",
+          "topic_matches": {
+            "telangana_hyderabad": [
+              "source:hindu_telangana"
+            ]
+          },
+          "url": "https://www.thehindu.com/news/national/telangana/abvp-condemns-screening-of-documentary-on-umar-khalid-at-nalsar/article71509407.ece"
+        },
+        {
+          "id": "ff6d1e968dc72f04",
+          "published_at": "2026-09-25T16:17:21Z",
+          "source_ids": [
+            "hindu_hyderabad",
+            "hindu_telangana"
+          ],
+          "title": "Telangana Congress to protest against ECI\u2019s SIR handling on September 28",
+          "topic_matches": {
+            "telangana_hyderabad": [
+              "Telangana",
+              "source:hindu_hyderabad",
+              "source:hindu_telangana"
+            ]
+          },
+          "url": "https://www.thehindu.com/news/national/telangana/telangana-congress-state-wide-protests-against-ecis-sir-handling-on-september-28/article71507356.ece"
+        },
+        {
+          "id": "e2f10cb1c497cc93",
+          "published_at": "2026-09-25T16:16:20Z",
+          "source_ids": [
+            "hindu_telangana"
+          ],
+          "title": "File counter affidavit in plea over local candidate status in MDS admissions: HC to government",
+          "topic_matches": {
+            "telangana_hyderabad": [
+              "source:hindu_telangana"
+            ]
+          },
+          "url": "https://www.thehindu.com/news/national/telangana/file-counter-affidavit-in-plea-over-local-candidate-status-in-mds-admissions-hc-to-government/article71509854.ece"
+        },
         {
           "id": "d93004f4fda92ac1",
           "published_at": "2026-09-25T16:01:42Z",
@@ -1279,51 +1302,6 @@
             ]
           },
           "url": "https://www.thehindu.com/news/cities/Hyderabad/zaheerabad-industrial-smart-city-project-spv-office-opened/article71509540.ece"
-        },
-        {
-          "id": "a5f20dc7e11e8fd8",
-          "published_at": "2026-09-25T15:06:38Z",
-          "source_ids": [
-            "telangana_today"
-          ],
-          "title": "Ganesh bids adieu amid drums, dances and devotion in Hyderabad",
-          "topic_matches": {
-            "telangana_hyderabad": [
-              "Hyderabad"
-            ]
-          },
-          "url": "https://telanganatoday.com/ganesh-bids-adieu-amid-drums-dances-and-devotion-in-hyderabad"
-        },
-        {
-          "id": "b1e76f6f7c828de7",
-          "published_at": "2026-09-25T14:58:14Z",
-          "source_ids": [
-            "hindu_hyderabad",
-            "hindu_telangana"
-          ],
-          "title": "Ganesh idols take over Hyderabad\u2019s roads, Charminar and Hussainsagar",
-          "topic_matches": {
-            "telangana_hyderabad": [
-              "Hyderabad",
-              "source:hindu_hyderabad",
-              "source:hindu_telangana"
-            ]
-          },
-          "url": "https://www.thehindu.com/news/cities/Hyderabad/ganesh-idols-take-over-hyderabads-roads-charminar-and-hussainsagar/article71509042.ece"
-        },
-        {
-          "id": "86a30eba9d775ed6",
-          "published_at": "2026-09-25T14:54:54Z",
-          "source_ids": [
-            "telangana_today"
-          ],
-          "title": "Hyderabad Police monitor Ganesh idol immersion from Command and Control Centre",
-          "topic_matches": {
-            "telangana_hyderabad": [
-              "Hyderabad"
-            ]
-          },
-          "url": "https://telanganatoday.com/hyderabad-police-monitor-ganesh-idol-immersion-from-command-and-control-centre"
         }
       ],
       "label": "Telangana and Hyderabad developments",
@@ -1372,6 +1350,20 @@
     {
       "id": "crime",
       "items": [
+        {
+          "id": "78233c2e7603c124",
+          "published_at": "2026-09-25T16:31:49Z",
+          "source_ids": [
+            "telangana_today"
+          ],
+          "title": "Adilabad: TSSP Yapalguda battalion Inspector booked for attempt to murder of colleague",
+          "topic_matches": {
+            "crime": [
+              "murder"
+            ]
+          },
+          "url": "https://telanganatoday.com/adilabad-tssp-yapalguda-battalion-inspector-booked-for-attempt-to-murder-of-colleague"
+        },
         {
           "id": "c380234f556db26d",
           "published_at": "2026-09-25T10:26:03Z",
@@ -1492,30 +1484,13 @@
             ]
           },
           "url": "https://news.google.com/rss/articles/CBMigwNBVV95cUxORzRzX3d1VEJQSkxqckdkOHM1LWRBWDU0ZzBnRDhrcGRkeHVNSjFzamllUkFOMGZMaFZUYzMxei1rbkJfVk1tVkx6c041THFrcHdFUUFhVGlGSERyZ2w4bjVVOEw3NnozRk9nLUNhTmNQcmo4a2NhbzJHU0VUVFdQaV9zSWVDcUc0V0tHU2tmZGhSQkdmdlQwMGFpZF9hZXp6SzR1c1gxUVB6U1VTT1psVDZLR0NZaUtpM2lrcnVEMEtsWUFrakRRNTQyRl90T2tqTGlEVzNaU0NSWTZNMEo1TERMVXJvdV9abktuZlNQU3pRV0J3eGUtUVdpblhNUE95WnRQQkR6NmtEcGNMTXNBcjBDY0tSRnczZ3daRThRVFJ1M0MxdW5iZDMtYjZXUDM3S0p1NGxiSmRRSUh2R2xlMUFIN2lhbmVmSERETDJiZ2FvR1h2eU9peElXTl9zWFJiSDRqc1hZWVg5ZV9WSHVLbEJTRWtuSU02OE9FdWNwQUxQekXSAYgDQVVfeXFMUHlKZXVGNHhkZldiSzUwODB5TFVnMl9ad2lIU3lGWDNBRFc2Z1RlUXlUQzlkdGg1NHBDejdzdnIzcWh6WkNFbVk3RkNWcTREU3pvSXQteXl5VVY2dTZvX2tPdEZRLTVkb1ZwWWFWeG95MGxyRlBRVWg4R0g3ck54Q1pib2pQUEdmV1FHQWNnN2RzODFJelhGN2wzQi1CTnZMNWFpYVpKRDhnNGwyZE5yU3lpWHVub1dmenhONVh0d2Vqc0tvOWpoOGF4YTF4UUtQNWU3dldYQW80VXpsWHVrWlFFX0RPNXhiUUhPR0R2ekdVUEloLW1ST2lEWDFXdF9uYzkxMlNhaHE5WmVwZjEyUksyMHg0UEpXcW1oVDVHYWtrZ3VUNGlEcTZER19oR1V3NGJMY01yR0FtdzlXR1ZEYUdhRDlYX3U5NzQtWjdGUm90ejJnUExuckRZN2xpR2g0U1AzckowMkVIYXdFTDB2Q1hPbjQxdWlSRzJERWJUM3FwR1E3aEVOWVY?oc=5"
-        },
-        {
-          "id": "03032bc0ab8c02ab",
-          "published_at": "2026-09-24T06:57:56Z",
-          "source_ids": [
-            "telangana_today_crime"
-          ],
-          "title": "Sangareddy: Miscreants kill 75-year-old woman flee with jewellery",
-          "topic_matches": {
-            "crime": [
-              "source:telangana_today_crime"
-            ],
-            "telangana_hyderabad": [
-              "Sangareddy"
-            ]
-          },
-          "url": "https://telanganatoday.com/sangareddy-miscreants-kill-75-year-old-woman-flee-with-jewellery"
         }
       ],
       "label": "Crime news",
       "lane": "context_only",
       "selection": "newest_first",
       "term_counts": null,
-      "total_recent": 17
+      "total_recent": 18
     },
     {
       "id": "consumer_safety",
@@ -1803,6 +1778,6 @@
       "total_recent": 2
     }
   ],
-  "unique_matched_stories": 645,
-  "workflow_run_id": 36158881150
+  "unique_matched_stories": 659,
+  "workflow_run_id": 36166977638
 }

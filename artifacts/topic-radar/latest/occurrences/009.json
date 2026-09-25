@@ -24,28 +24,6 @@
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRFdnalg2Mmg4dlcyLU1mTHVVWmtZWHh2ZXFZR3hzR1FlY1Y5S3REMHF5ZTYwT09zMTQ2SHpvZDdIekF3V0NhcXd2cElnQm56bDlBd1ExMEo2MFVnX1pkTzZyRjJUU1lGM3B0RU02TUtha25FclJuZTU4NTROOWg5VjZqdWFIU1JYN3hNS0tnbzF3U2VUMkY1dkdHekdyQXBHTDlQbkNhbktVdw?oc=5",
-      "feed_id": "google_news_device_brands",
-      "feed_ids": [
-        "google_news_device_brands"
-      ],
-      "feed_name": "Google News — Indian device brands",
-      "feed_names": [
-        "Google News — Indian device brands"
-      ],
-      "matched_terms": [
-        "Bharat"
-      ],
-      "occurrence_id": "occ_000042",
-      "original_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRFdnalg2Mmg4dlcyLU1mTHVVWmtZWHh2ZXFZR3hzR1FlY1Y5S3REMHF5ZTYwT09zMTQ2SHpvZDdIekF3V0NhcXd2cElnQm56bDlBd1ExMEo2MFVnX1pkTzZyRjJUU1lGM3B0RU02TUtha25FclJuZTU4NTROOWg5VjZqdWFIU1JYN3hNS0tnbzF3U2VUMkY1dkdHekdyQXBHTDlQbkNhbktVdw?oc=5",
-      "pipeline_item_id": "007de3758d3a40c6",
-      "published_at": "2026-09-25T14:51:37Z",
-      "title": "Joe Jonas looks back at 'terrifying' boat incident on his vacation - FM Bharat",
-      "topic": "India developments",
-      "topic_id": "india_developments",
-      "topic_lane": "review"
-    },
-    {
       "canonical_url": "https://telanganatoday.com/india-win-shooting-gold-as-gulveer-takes-10000m-silver-at-asian-games",
       "feed_id": "telangana_today",
       "feed_ids": [
@@ -58,11 +36,33 @@
       "matched_terms": [
         "India"
       ],
-      "occurrence_id": "occ_000043",
+      "occurrence_id": "occ_000042",
       "original_url": "https://telanganatoday.com/india-win-shooting-gold-as-gulveer-takes-10000m-silver-at-asian-games",
       "pipeline_item_id": "283ceb43c653e816",
       "published_at": "2026-09-25T14:52:42Z",
       "title": "India win shooting gold as Gulveer takes 10,000m silver at Asian Games",
+      "topic": "India developments",
+      "topic_id": "india_developments",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/gulveer-singh-bags-silver-becomes-first-indian-to-win-two-10000m-medals",
+      "feed_id": "telangana_today",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_name": "Telangana Today",
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "matched_terms": [
+        "Indian"
+      ],
+      "occurrence_id": "occ_000043",
+      "original_url": "https://telanganatoday.com/gulveer-singh-bags-silver-becomes-first-indian-to-win-two-10000m-medals",
+      "pipeline_item_id": "56cee09853ec845a",
+      "published_at": "2026-09-25T12:52:21Z",
+      "title": "Gulveer Singh bags silver, becomes first Indian to win two 10,000m medals",
       "topic": "India developments",
       "topic_id": "india_developments",
       "topic_lane": "review"

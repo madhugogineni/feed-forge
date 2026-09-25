@@ -90,24 +90,23 @@
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://9to5mac.com/2026/09/24/adobe-expands-creative-tool-access-to-google-gemini-brings-acrobat-to-claude",
-      "feed_id": "9to5mac",
+      "canonical_url": "https://developer.nvidia.com/blog/efficient-moe-training-for-biological-foundation-models",
+      "feed_id": "nvidia_developer",
       "feed_ids": [
-        "9to5mac"
+        "nvidia_developer"
       ],
-      "feed_name": "9to5Mac",
+      "feed_name": "NVIDIA Developer Blog",
       "feed_names": [
-        "9to5Mac"
+        "NVIDIA Developer Blog"
       ],
       "matched_terms": [
-        "Claude",
-        "Gemini"
+        "source:nvidia_developer"
       ],
       "occurrence_id": "occ_000005",
-      "original_url": "https://9to5mac.com/2026/09/24/adobe-expands-creative-tool-access-to-google-gemini-brings-acrobat-to-claude",
-      "pipeline_item_id": "6f0aef3cd5e09854",
-      "published_at": "2026-09-24T13:00:00Z",
-      "title": "Adobe expands creative tool access to Google Gemini, brings Acrobat to Claude",
+      "original_url": "https://developer.nvidia.com/blog/efficient-moe-training-for-biological-foundation-models",
+      "pipeline_item_id": "6ff053dd07249040",
+      "published_at": "2026-09-24T15:00:00Z",
+      "title": "Efficient MoE Training for Biological Foundation Models",
       "topic": "AI development and products",
       "topic_id": "ai_development",
       "topic_lane": "review"

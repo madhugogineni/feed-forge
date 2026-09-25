@@ -2,95 +2,51 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://9to5google.com/2026/09/25/microsoft-quietly-ending-copilot-pc-branding-for-windows-laptops",
-      "feed_id": "9to5google",
+      "canonical_url": "https://9to5mac.com/2026/09/25/watchos-27-upgrades-popular-apple-watch-face-with-new-options",
+      "feed_id": "9to5mac",
       "feed_ids": [
-        "9to5google"
+        "9to5mac"
       ],
-      "feed_name": "9to5Google",
+      "feed_name": "9to5Mac",
       "feed_names": [
-        "9to5Google"
+        "9to5Mac"
       ],
       "matched_terms": [
-        "Microsoft"
+        "Apple"
       ],
       "occurrence_id": "occ_000011",
-      "original_url": "https://9to5google.com/2026/09/25/microsoft-quietly-ending-copilot-pc-branding-for-windows-laptops",
-      "pipeline_item_id": "5fafe5d3839ead51",
-      "published_at": "2026-09-25T15:35:00Z",
-      "title": "Microsoft quietly ending ‘Copilot+ PC’ branding for Windows laptops",
+      "original_url": "https://9to5mac.com/2026/09/25/watchos-27-upgrades-popular-apple-watch-face-with-new-options",
+      "pipeline_item_id": "81bb61c0f29f83bb",
+      "published_at": "2026-09-25T17:05:14Z",
+      "title": "watchOS 27 upgrades popular Apple Watch face with new options",
       "topic": "Major technology companies",
       "topic_id": "big_tech",
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://www.androidauthority.com/fire-hd-8-kids-pro-deal-3715675",
-      "feed_id": "android_authority",
+      "canonical_url": "https://www.theverge.com/tech/1000772/apple-code-leak-homepod-mini-2-ipad-mini-8-apple-tv-4k",
+      "feed_id": "verge",
       "feed_ids": [
-        "android_authority"
+        "verge"
       ],
-      "feed_name": "Android Authority",
+      "feed_name": "The Verge",
       "feed_names": [
-        "Android Authority"
+        "The Verge"
       ],
       "matched_terms": [
-        "Amazon"
+        "Apple"
       ],
       "occurrence_id": "occ_000012",
-      "original_url": "https://www.androidauthority.com/fire-hd-8-kids-pro-deal-3715675",
-      "pipeline_item_id": "6d0ab429de02ec2b",
-      "published_at": "2026-09-25T15:54:17Z",
-      "title": "Amazon drops the Fire HD 8 Kids Pro to a record-low $89.99",
+      "original_url": "https://www.theverge.com/tech/1000772/apple-code-leak-homepod-mini-2-ipad-mini-8-apple-tv-4k",
+      "pipeline_item_id": "bc5a21fcb2308349",
+      "published_at": "2026-09-25T16:22:05Z",
+      "title": "Leaks reveal a new Apple HomePod mini, iPad mini, and Apple TV 4K",
       "topic": "Major technology companies",
       "topic_id": "big_tech",
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://www.androidauthority.com/google-photos-options-unresponsive-3715622",
-      "feed_id": "android_authority",
-      "feed_ids": [
-        "android_authority"
-      ],
-      "feed_name": "Android Authority",
-      "feed_names": [
-        "Android Authority"
-      ],
-      "matched_terms": [
-        "Google"
-      ],
-      "occurrence_id": "occ_000013",
-      "original_url": "https://www.androidauthority.com/google-photos-options-unresponsive-3715622",
-      "pipeline_item_id": "a028fa43f5b661bc",
-      "published_at": "2026-09-25T15:54:36Z",
-      "title": "A Google Photos bug is preventing users from sharing, editing, and deleting pictures",
-      "topic": "Major technology companies",
-      "topic_id": "big_tech",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://www.androidauthority.com/snapseed-collage-tool-preview-apk-teardown-3715478",
-      "feed_id": "android_authority",
-      "feed_ids": [
-        "android_authority"
-      ],
-      "feed_name": "Android Authority",
-      "feed_names": [
-        "Android Authority"
-      ],
-      "matched_terms": [
-        "Google"
-      ],
-      "occurrence_id": "occ_000014",
-      "original_url": "https://www.androidauthority.com/snapseed-collage-tool-preview-apk-teardown-3715478",
-      "pipeline_item_id": "a386e18d9d2ea2eb",
-      "published_at": "2026-09-25T14:51:27Z",
-      "title": "First look: This upcoming Snapseed tool could leave Google Photos in the dust",
-      "topic": "Major technology companies",
-      "topic_id": "big_tech",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://electrek.co/2026/09/25/tesla-optimus-production-ramp-hands-ai-generalization-problems",
+      "canonical_url": "https://electrek.co/2026/09/25/early-podcast-tesla-semi-launch-geelys-battery-healing-fast-charging-rivian-r3-and-more",
       "feed_id": "electrek",
       "feed_ids": [
         "electrek"
@@ -102,11 +58,55 @@
       "matched_terms": [
         "Tesla"
       ],
+      "occurrence_id": "occ_000013",
+      "original_url": "https://electrek.co/2026/09/25/early-podcast-tesla-semi-launch-geelys-battery-healing-fast-charging-rivian-r3-and-more",
+      "pipeline_item_id": "cad477cc6e2894f7",
+      "published_at": "2026-09-25T17:16:47Z",
+      "title": "Podcast: Tesla Semi launch, Geely’s battery healing fast-charging, Rivian R3, and more",
+      "topic": "Major technology companies",
+      "topic_id": "big_tech",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://www.theverge.com/tech/1000794/tesla-optimus-production-issues-hands",
+      "feed_id": "verge",
+      "feed_ids": [
+        "verge"
+      ],
+      "feed_name": "The Verge",
+      "feed_names": [
+        "The Verge"
+      ],
+      "matched_terms": [
+        "Tesla"
+      ],
+      "occurrence_id": "occ_000014",
+      "original_url": "https://www.theverge.com/tech/1000794/tesla-optimus-production-issues-hands",
+      "pipeline_item_id": "d23e876d1f601e8d",
+      "published_at": "2026-09-25T17:01:36Z",
+      "title": "Tesla’s Optimus robot is going through growing pains",
+      "topic": "Major technology companies",
+      "topic_id": "big_tech",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1000784/meta-muse-filesystem",
+      "feed_id": "verge",
+      "feed_ids": [
+        "verge"
+      ],
+      "feed_name": "The Verge",
+      "feed_names": [
+        "The Verge"
+      ],
+      "matched_terms": [
+        "Meta"
+      ],
       "occurrence_id": "occ_000015",
-      "original_url": "https://electrek.co/2026/09/25/tesla-optimus-production-ramp-hands-ai-generalization-problems",
-      "pipeline_item_id": "c3745df1a4b49ca6",
-      "published_at": "2026-09-25T14:45:34Z",
-      "title": "Tesla ramps Optimus to hundreds a week, but the robots can’t generalize",
+      "original_url": "https://www.theverge.com/ai-artificial-intelligence/1000784/meta-muse-filesystem",
+      "pipeline_item_id": "ded5f30056dbe56f",
+      "published_at": "2026-09-25T16:49:53Z",
+      "title": "Meta makes the Muse filesystem even more accessible",
       "topic": "Major technology companies",
       "topic_id": "big_tech",
       "topic_lane": "review"

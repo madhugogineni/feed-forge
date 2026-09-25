@@ -2,27 +2,6 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://telanganatoday.com/ganesh-bids-adieu-amid-drums-dances-and-devotion-in-hyderabad",
-      "domain": "telanganatoday.com",
-      "feed_ids": [
-        "telangana_today"
-      ],
-      "feed_names": [
-        "Telangana Today"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000078"
-      ],
-      "topic_ids": [
-        "telangana_hyderabad"
-      ],
-      "topics": [
-        "Telangana and Hyderabad developments"
-      ],
-      "url_id": "url_000041"
-    },
-    {
       "canonical_url": "https://telanganatoday.com/ganesh-immersion-two-devotees-drown-one-electrocuted-one-dies-of-cardiac-arrest",
       "domain": "telanganatoday.com",
       "feed_ids": [
@@ -40,6 +19,27 @@
       ],
       "topics": [
         "Crime news"
+      ],
+      "url_id": "url_000041"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/gulveer-singh-bags-silver-becomes-first-indian-to-win-two-10000m-medals",
+      "domain": "telanganatoday.com",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000043"
+      ],
+      "topic_ids": [
+        "india_developments"
+      ],
+      "topics": [
+        "India developments"
       ],
       "url_id": "url_000042"
     },
@@ -65,27 +65,6 @@
       "url_id": "url_000043"
     },
     {
-      "canonical_url": "https://telanganatoday.com/hyderabad-police-monitor-ganesh-idol-immersion-from-command-and-control-centre",
-      "domain": "telanganatoday.com",
-      "feed_ids": [
-        "telangana_today"
-      ],
-      "feed_names": [
-        "Telangana Today"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000077"
-      ],
-      "topic_ids": [
-        "telangana_hyderabad"
-      ],
-      "topics": [
-        "Telangana and Hyderabad developments"
-      ],
-      "url_id": "url_000044"
-    },
-    {
       "canonical_url": "https://telanganatoday.com/iacc-summit-highlights-indias-ai-opportunity-beyond-llms-chips-and-data-centres",
       "domain": "telanganatoday.com",
       "feed_ids": [
@@ -103,6 +82,27 @@
       ],
       "topics": [
         "India-related geopolitics"
+      ],
+      "url_id": "url_000044"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/india-credit-card-spending-growth-slows-in-august-as-competition-intensifies",
+      "domain": "telanganatoday.com",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000022"
+      ],
+      "topic_ids": [
+        "credit_cards_payments"
+      ],
+      "topics": [
+        "Credit cards, rewards and payments"
       ],
       "url_id": "url_000045"
     }

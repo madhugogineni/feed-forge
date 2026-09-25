@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T16:08:59.986686Z",
+  "generated_at": "2026-09-25T17:25:08.554670Z",
   "schema_version": "feed-forge/editorial-input/v1",
   "topics": [
     {
@@ -19,7 +19,7 @@
       "selected_item_count": 8,
       "selection": "newest_first",
       "term_counts": null,
-      "total_recent": 43
+      "total_recent": 54
     },
     {
       "id": "big_tech",
@@ -38,7 +38,7 @@
       "selected_item_count": 8,
       "selection": "newest_first",
       "term_counts": null,
-      "total_recent": 218
+      "total_recent": 227
     },
     {
       "id": "consumer_safety",
@@ -70,7 +70,7 @@
       "selected_item_count": 8,
       "selection": "newest_first",
       "term_counts": null,
-      "total_recent": 16
+      "total_recent": 17
     },
     {
       "id": "crime",
@@ -89,7 +89,7 @@
       "selected_item_count": 8,
       "selection": "newest_first",
       "term_counts": null,
-      "total_recent": 17
+      "total_recent": 18
     },
     {
       "id": "fitness_ergonomics",
@@ -170,10 +170,10 @@
         "Noise earbuds": 0,
         "Noise smartwatch": 0,
         "Noise wearables": 0,
-        "Nykaa": 31,
-        "Ola Electric": 14,
+        "Nykaa": 32,
+        "Ola Electric": 12,
         "Swiggy": 32,
-        "The Sleep Company": 11,
+        "The Sleep Company": 10,
         "The Souled Store": 0,
         "Urban Company": 3,
         "Wakefit": 2,
@@ -181,7 +181,7 @@
         "Zomato": 4,
         "boAt": 2
       },
-      "total_recent": 161
+      "total_recent": 159
     },
     {
       "id": "local_practical",
@@ -202,21 +202,20 @@
         "occ_000060",
         "occ_000061",
         "occ_000062",
-        "occ_000063",
-        "occ_000064"
+        "occ_000063"
       ],
-      "selected_item_count": 6,
+      "selected_item_count": 5,
       "selection": "newest_first",
       "term_counts": null,
-      "total_recent": 6
+      "total_recent": 5
     },
     {
       "id": "personal_finance",
       "label": "Personal finance and investing",
       "lane": "review",
       "occurrence_ids": [
-        "occ_000065",
-        "occ_000066"
+        "occ_000064",
+        "occ_000065"
       ],
       "selected_item_count": 2,
       "selection": "newest_first",
@@ -228,33 +227,33 @@
       "label": "Technology, software and gadgets",
       "lane": "review",
       "occurrence_ids": [
+        "occ_000066",
         "occ_000067",
         "occ_000068",
         "occ_000069",
         "occ_000070",
         "occ_000071",
         "occ_000072",
-        "occ_000073",
-        "occ_000074"
+        "occ_000073"
       ],
       "selected_item_count": 8,
       "selection": "newest_first",
       "term_counts": null,
-      "total_recent": 95
+      "total_recent": 98
     },
     {
       "id": "telangana_hyderabad",
       "label": "Telangana and Hyderabad developments",
       "lane": "review",
       "occurrence_ids": [
+        "occ_000074",
         "occ_000075",
         "occ_000076",
         "occ_000077",
         "occ_000078",
         "occ_000079",
         "occ_000080",
-        "occ_000081",
-        "occ_000082"
+        "occ_000081"
       ],
       "selected_item_count": 8,
       "selection": "newest_first",
@@ -266,10 +265,10 @@
       "label": "Travel and lifestyle",
       "lane": "review",
       "occurrence_ids": [
+        "occ_000082",
         "occ_000083",
         "occ_000084",
-        "occ_000085",
-        "occ_000086"
+        "occ_000085"
       ],
       "selected_item_count": 4,
       "selection": "newest_first",

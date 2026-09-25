@@ -1,6 +1,6 @@
 # Feed Forge topic radar
 
-Generated: 2026-09-25 21:38 IST · Status: **ok** · Window: 168 hours
+Generated: 2026-09-25 22:55 IST · Status: **ok** · Window: 168 hours
 
 Headlines are leads, not verified facts or publication-ready drafts. Crime and India geopolitics are context-only. No X write actions occur.
 
@@ -8,17 +8,17 @@ Headlines are leads, not verified facts or publication-ready drafts. Crime and I
 
 | Topic | Editorial lane | Recent matches |
 | --- | --- | ---: |
-| AI development and products | `review` | 43 |
-| Major technology companies | `review` | 218 |
-| Indian consumer brands and products | `review` | 161 |
-| Technology, software and gadgets | `review` | 95 |
-| Music and streaming apps | `review` | 6 |
-| Credit cards, rewards and payments | `review` | 16 |
+| AI development and products | `review` | 54 |
+| Major technology companies | `review` | 227 |
+| Indian consumer brands and products | `review` | 159 |
+| Technology, software and gadgets | `review` | 98 |
+| Music and streaming apps | `review` | 5 |
+| Credit cards, rewards and payments | `review` | 17 |
 | India developments | `review` | 114 |
 | Telangana and Hyderabad developments | `review` | 130 |
 | Practical local updates | `review` | 0 |
 | India-related geopolitics | `context_only` | 1 |
-| Crime news | `context_only` | 17 |
+| Crime news | `context_only` | 18 |
 | Consumer and digital safety | `review` | 2 |
 | Travel and lifestyle | `review` | 4 |
 | Fitness and ergonomics | `review` | 7 |
@@ -26,7 +26,7 @@ Headlines are leads, not verified facts or publication-ready drafts. Crime and I
 
 ## Recent headlines by topic
 
-### AI development and products (43)
+### AI development and products (54)
 
 - [Akamai lands $11.6B cloud computing deal with Anthropic](<https://yourstory.com/2026/09/akamai-lands-116b-cloud-computing-deal-with-anthropic>) — 25 Sep 12:59 IST; yourstory; matched: Anthropic
 - [NPCI chief Dilip Asbe cites AI cyber threats, including Claude Mythos, to defend UPI MDR](<https://www.medianama.com/2026/09/223-npci-ai-cyber-threats-mythos-upi-mdr>) — 25 Sep 11:38 IST; medianama; matched: Claude
@@ -34,23 +34,23 @@ Headlines are leads, not verified facts or publication-ready drafts. Crime and I
 - [Google’s new Gemini Live Avatars want to make support bots feel more human](<https://www.androidauthority.com/gemini-live-avatar-3715280>) — 25 Sep 02:33 IST; android_authority; matched: Gemini
 - [Gemini’s next desktop upgrade could let it handle tasks across your apps](<https://www.androidauthority.com/gemini-tasks-mode-desktop-leak-3715259>) — 25 Sep 02:13 IST; android_authority; matched: Gemini
 - [Pixel 11 starts testing ‘Call for Me’ to have Gemini phone on your behalf](<https://9to5google.com/2026/09/24/pixel-11-call-for-me>) — 24 Sep 21:30 IST; 9to5google; matched: Gemini
+- [Efficient MoE Training for Biological Foundation Models](<https://developer.nvidia.com/blog/efficient-moe-training-for-biological-foundation-models>) — 24 Sep 20:30 IST; nvidia_developer; matched: source:nvidia_developer
 - [Google says Gemini 4 release is coming ‘as soon as possible’](<https://9to5google.com/2026/09/24/google-says-gemini-4-release-is-coming-as-soon-as-possible>) — 24 Sep 20:15 IST; 9to5google; matched: Gemini
-- [Adobe expands creative tool access to Google Gemini, brings Acrobat to Claude](<https://9to5mac.com/2026/09/24/adobe-expands-creative-tool-access-to-google-gemini-brings-acrobat-to-claude>) — 24 Sep 18:30 IST; 9to5mac; matched: Gemini, Claude
 
-### Major technology companies (218)
+### Major technology companies (227)
 
-- [A Google Photos bug is preventing users from sharing, editing, and deleting pictures](<https://www.androidauthority.com/google-photos-options-unresponsive-3715622>) — 25 Sep 21:24 IST; android_authority; matched: Google
-- [Amazon drops the Fire HD 8 Kids Pro to a record-low $89.99](<https://www.androidauthority.com/fire-hd-8-kids-pro-deal-3715675>) — 25 Sep 21:24 IST; android_authority; matched: Amazon
-- [Microsoft quietly ending ‘Copilot+ PC’ branding for Windows laptops](<https://9to5google.com/2026/09/25/microsoft-quietly-ending-copilot-pc-branding-for-windows-laptops>) — 25 Sep 21:05 IST; 9to5google; matched: Microsoft
-- [Leaked images reveal new Apple TV 4K, HomePod mini](<https://9to5mac.com/2026/09/25/leaked-images-reveal-new-apple-tv-4k-homepod-mini>) — 25 Sep 21:00 IST; 9to5mac; matched: Apple
-- [Amazon deal makes the Razer Kishi V3 Pro XL easier to grab at $159.99](<https://www.androidauthority.com/razer-kishi-v3-pro-xl-deal-3715656>) — 25 Sep 20:49 IST; android_authority; matched: Amazon
-- [HomeKit Weekly: ULTRALOQ releases its first UWB smart lock that works with Apple Home](<https://9to5mac.com/2026/09/25/ultraloq-bolt-mission>) — 25 Sep 20:30 IST; 9to5mac; matched: Apple
-- [First look: This upcoming Snapseed tool could leave Google Photos in the dust](<https://www.androidauthority.com/snapseed-collage-tool-preview-apk-teardown-3715478>) — 25 Sep 20:21 IST; android_authority; matched: Google
-- [Tesla ramps Optimus to hundreds a week, but the robots can’t generalize](<https://electrek.co/2026/09/25/tesla-optimus-production-ramp-hands-ai-generalization-problems>) — 25 Sep 20:15 IST; electrek; matched: Tesla
+- [Podcast: Tesla Semi launch, Geely’s battery healing fast-charging, Rivian R3, and more](<https://electrek.co/2026/09/25/early-podcast-tesla-semi-launch-geelys-battery-healing-fast-charging-rivian-r3-and-more>) — 25 Sep 22:46 IST; electrek; matched: Tesla
+- [watchOS 27 upgrades popular Apple Watch face with new options](<https://9to5mac.com/2026/09/25/watchos-27-upgrades-popular-apple-watch-face-with-new-options>) — 25 Sep 22:35 IST; 9to5mac; matched: Apple
+- [Tesla’s Optimus robot is going through growing pains](<https://www.theverge.com/tech/1000794/tesla-optimus-production-issues-hands>) — 25 Sep 22:31 IST; verge; matched: Tesla
+- [Meta makes the Muse filesystem even more accessible](<https://www.theverge.com/ai-artificial-intelligence/1000784/meta-muse-filesystem>) — 25 Sep 22:19 IST; verge; matched: Meta
+- [Leaks reveal a new Apple HomePod mini, iPad mini, and Apple TV 4K](<https://www.theverge.com/tech/1000772/apple-code-leak-homepod-mini-2-ipad-mini-8-apple-tv-4k>) — 25 Sep 21:52 IST; verge; matched: Apple
+- [Tesla patent shows new Roadster with a hidden 700 kg-downforce rear wing](<https://electrek.co/2026/09/25/tesla-patent-new-roadster-hidden-active-rear-wing-700-kg-downforce>) — 25 Sep 21:43 IST; electrek; matched: Tesla
+- [Google Messages rolls out new swipe for timestamps & reply gesture](<https://9to5google.com/2026/09/25/google-messages-timestamps-reply>) — 25 Sep 21:39 IST; 9to5google; matched: Google
+- [Deal: Samsung Galaxy A57 5G gets a $100 Amazon price drop](<https://www.androidauthority.com/samsung-galaxy-a57-5g-deal-3715684>) — 25 Sep 21:39 IST; android_authority; matched: Samsung, Amazon
 
-### Indian consumer brands and products (161)
+### Indian consumer brands and products (159)
 
-Watchlist matches — Frido: 0, boAt: 2, Noise smartwatch: 0, Noise earbuds: 0, Noise wearables: 0, Mokobara: 0, The Sleep Company: 11, Wakefit: 2, Lenskart: 29, The Souled Store: 0, Minimalist skincare: 0, Be Minimalist: 0, Mamaearth: 0, CRED: 0, Zepto: 24, Blinkit: 10, Swiggy: 32, Zomato: 4, Urban Company: 3, Nykaa: 31, Atomberg: 2, Ather: 10, Ola Electric: 14.
+Watchlist matches — Frido: 0, boAt: 2, Noise smartwatch: 0, Noise earbuds: 0, Noise wearables: 0, Mokobara: 0, The Sleep Company: 10, Wakefit: 2, Lenskart: 29, The Souled Store: 0, Minimalist skincare: 0, Be Minimalist: 0, Mamaearth: 0, CRED: 0, Zepto: 24, Blinkit: 10, Swiggy: 32, Zomato: 4, Urban Company: 3, Nykaa: 32, Atomberg: 2, Ather: 10, Ola Electric: 12.
 
 Headlines are diversified across matched watchlist names before filling remaining slots by recency.
 
@@ -63,33 +63,32 @@ Headlines are diversified across matched watchlist names before filling remainin
 - [Party Speakers for House Parties: 4 boAt PartyPal Models to Consider \| Hindustan Times - Hindustan Times](<https://news.google.com/rss/articles/CBMixgFBVV95cUxPc2lycXpXOFZqbE9NSXpoSkdaZVdOMjJnaVdPYmdFbUpKLWRaeDFvRzhsdmMxSmt1THpETmNxd2lBZVlXN1BwTjU4VUlBVDlQa2YwRVlvdnFSdlVnbkpMOTEySzlqS003Mmh6blZ1R3Fja293Wk9ZZHZvUXMxN1JLcjJQWVAtZFEtdWh6d0hFX0ZjRHVGSTdvbWNnaHVMN0xkVUlqajZnR1ZLa1dCTzAzNzRvY3pYem1kdDU0aDZjLXBtOGxpTHfSAcsBQVVfeXFMTWt5eHJ3WWVMcGxyWGFVRDE1RVVNLVlEdENUN1FTMzJaRTJCRlJyNk8tbFI4c3pOY3pQUFNDN2tGOUhGakdxOFA2RzV5T28zenY5Zy1QSEhROWNxNHktdFNoTXZzNUp1RFlrOWtXNGF5bkJJNTZhdk13QnNlTFdOb2ZLRG5WejcwLUVBTm1vSnBLeEJkNXRGZFpyYkxoWjNhbEtzVHRIZVJCMkhWWV91ejhaZTI5RDNrbzdtSXZadkN0LUpaajFEWE50T2c?oc=5>) — 25 Sep 15:05 IST; google_news_device_brands; matched: boAt
 - [Ola Electric shares fall up to 9%, snap 4-day run, ahead of board meeting to consider fundraise - Moneycontrol.com](<https://news.google.com/rss/articles/CBMi8wFBVV95cUxQOFgtbFZkZ09aRURYUVkxSjhFa2M0LU5JWG5tQmhpOU5oUmxXZEhqck03cjhSTDI0ekRrRWR2Tm91alBqQ3psM19CeFdxOW9aZHZtcGR0UnFuQldhOTNVWXFDUVRmclhRRzlBRF9kUGhDVjMtTW1iZlk2ZndJQk5iWnE1SXk4Y19Tbm9hUHRCNEtfeVVqUXVNNjFxRjNsYndOUXNMOW45MGFKX1p6NWlzdFhsSmNOWkhrUUlyRlpHNkR6Vk9lMi1pZ0xjbHByM0tYVEo1ekY4cWd6NEpVV0JfalRGUnB4VUhjaXdHXzRlVFZVaTTSAfgBQVVfeXFMUFd0YURtSU9JTmdwZTdpYklyQTBSMWwwd1dQSzI1Q2RFYjN2TFUwQVRNNDhwaXlIdDQ4UjFSYm5tc2tBOWQtQjRBTFR2WEIzalB1VlA0Um5JQXJ6Um5MeGs0a0JMRFpMc0lodlhQNmRPZDBzaVlvLUJBYXZvUWJQenpQSGJiS2ZPeUo5ZThpZzdkcFBUVTh6Q2pTTkZra2QyS2oxVHBCVjhBRnhtUzFuV0RSbmFmd2xYazAxaVNCdVIxM0dLVmNSNjk3dnVDa1NWcHdxMExDQV9zY0UxdTZxZGJCaEd1N3UwZFNsMU9MY1pMR05ReWFwVVQ?oc=5>) — 25 Sep 13:32 IST; google_news_device_brands; matched: Ola Electric
 
-### Technology, software and gadgets (95)
+### Technology, software and gadgets (98)
 
+- [These camera apps give you more control over the iPhone 18 Pro’s aperture](<https://www.theverge.com/tech/1000729/moment-pro-blackmagic-camera-ii-ios-app-iphone-18-pro-max-aperature-camera>) — 25 Sep 22:53 IST; verge; matched: iPhone
+- [This Nintendo DS-themed launcher is coming to dual-screen Android handhelds](<https://www.androidauthority.com/nitrodeck-dual-screen-update-3715691>) — 25 Sep 22:53 IST; android_authority; matched: Android
+- [9to5Mac Daily: September 25, 2026 – New AirPods features, iOS 27.2 tidbits](<https://9to5mac.com/2026/09/25/daily-september-25-2026>) — 25 Sep 22:36 IST; 9to5mac; matched: iOS
 - [Pixel Buds are working on a new touch control for calls](<https://www.androidauthority.com/pixel-buds-call-mute-3715588>) — 25 Sep 21:01 IST; android_authority; matched: Pixel
 - [Apple has big October coming for new hardware and software, here’s the lineup](<https://9to5mac.com/2026/09/25/apple-has-big-october-coming-for-new-hardware-and-software-heres-the-lineup>) — 25 Sep 20:14 IST; 9to5mac; matched: software
 - [If you can’t tell what’s real or AI-generated anymore, this Android app is here to help](<https://www.androidauthority.com/new-ai-apps-services-ai-generated-image-c2pa-3715399>) — 25 Sep 19:45 IST; android_authority; matched: Android
 - [iPhone Duo video shows left-handed use for new model](<https://9to5mac.com/2026/09/25/iphone-duo-video-shows-left-handed-use-for-new-model>) — 25 Sep 19:15 IST; 9to5mac; matched: iPhone
 - [Apple Wallet in iOS 27 adds feature that’s been on my wishlist for years](<https://9to5mac.com/2026/09/25/apple-wallet-in-ios-27-adds-feature-thats-been-on-my-wishlist-for-years>) — 25 Sep 18:40 IST; 9to5mac; matched: iOS
-- [Android flagships could soon pack massive 10,000mAh batteries, thanks to iPhone’s battery tech](<https://www.androidauthority.com/android-copy-apple-iphone-steel-case-battery-3715505>) — 25 Sep 18:39 IST; android_authority; matched: Android, iPhone
-- [AirPods just got a long-requested feature in new software update](<https://9to5mac.com/2026/09/25/airpods-just-got-a-long-requested-feature-in-new-update>) — 25 Sep 17:34 IST; 9to5mac; matched: software
-- [Some Pixel users are locked out after the September 2026 update](<https://www.androidauthority.com/google-pixel-september-2026-pattern-pin-unlock-bug-3715425>) — 25 Sep 17:09 IST; android_authority; matched: Pixel
 
-### Music and streaming apps (6)
+### Music and streaming apps (5)
 
 - [Spotify just gave Meta Muse the keys to your music](<https://www.androidauthority.com/spotify-meta-muse-integration-3714958>) — 24 Sep 15:47 IST; android_authority; matched: Spotify
-- [YouTube Music is rolling out some features to freshen up your podcast collection](<https://www.androidauthority.com/youtube-music-your-podcast-lineup-3714671>) — 23 Sep 22:50 IST; android_authority; matched: YouTube Music
 - [Press play on these new YouTube Music updates](<https://blog.google/intl/en-in/products/platforms/press-play-on-these-new-youtube-music-updates>) — 23 Sep 20:00 IST; google_india; matched: YouTube Music
 - [YouTube Music adding corner access to ‘Ask Music’ with Gemini](<https://9to5google.com/2026/09/23/youtube-music-ask-gemini>) — 23 Sep 20:00 IST; 9to5google; matched: YouTube Music
 - [Apple Music opens new live music venue in London](<https://9to5mac.com/2026/09/22/apple-music-opens-new-live-music-venue-in-london>) — 22 Sep 13:21 IST; 9to5mac; matched: Apple Music
 - [Apple opens Apple Music Hall, a state-of-the-art live music venue in London](<https://www.apple.com/in/newsroom/2026/09/apple-opens-apple-music-hall-a-state-of-the-art-live-music-venue-in-london>) — 22 Sep 11:31 IST; apple_india; matched: Apple Music
 
-### Credit cards, rewards and payments (16)
+### Credit cards, rewards and payments (17)
 
 - [Proposed UPI Merchant Discount Rate not a tax, cess or surcharge; will not burden consumers: FM](<https://yourstory.com/2026/09/proposed-upi-merchant-discount-rate-not-a-tax-cess-or-surcharge-fm>) — 25 Sep 14:46 IST; yourstory; matched: UPI
 - [UPI MDR is not a tax or surcharge, says Nirmala Sitharaman](<https://telanganatoday.com/upi-mdr-is-not-a-tax-or-surcharge-says-nirmala-sitharaman>) — 25 Sep 13:18 IST; telangana_today; matched: UPI
 - [India credit card spending growth slows in August as competition intensifies - Telangana Today](<https://news.google.com/rss/articles/CBMipgFBVV95cUxQQzlfekJmcW5Ca21uYWQxdG5tZ2QwTDhEazdkdEF2TUxXMkZoQXVLTmtkTVFXUzNxWXVXVENOWGJtMHpaVW9GZzljU1FIbDg2c1pjbEU2cGxJeWt3dTRaWjRvMlUzR2JFdGxzQ3F1WkxpR2ltamF0TEhCT2VCSno5c252UXplQjJwcU1GVVVLUUE3dFp3ZEwxcDNnWUUxS09DaEowWkV3?oc=5>) — 25 Sep 13:03 IST; google_news_credit_cards; matched: credit card
 - [India credit card spending growth slows in August as competition intensifies](<https://telanganatoday.com/india-credit-card-spending-growth-slows-in-august-as-competition-intensifies>) — 25 Sep 13:03 IST; telangana_today; matched: credit card
-- [Credit cards lose share in India’s rapidly growing digital payments pie: Jefferies - aninews.in](<https://news.google.com/rss/articles/CBMi0AFBVV95cUxPV2JsYTMzbmtwNl9CZXY0czBzRWpCWXcxNFZPcGlrQ1BkVm13X2lRVjZ0a3F6LVA5aHBfbkZnRzZtZk54ZjJiWHpvMlVTLXlOcnMwa2NQX2N6aDJOektWR05nU2doYm5wQVlYRVAwV1o2VUt5bmVkQ0xBWnpWd2dDRXVPS0EzNzAxQlo1RjR4c2lzWTIzT3B1S1o2SmpmaVdzVjJCeWtyWVd2bVdIWm5pdXhlcmdvMVFlY0Q1TnRqZFBiQTdBNmFJc2tpUkZmT1pE?oc=5>) — 25 Sep 12:36 IST; google_news_credit_cards; matched: digital payments
+- [Credit cards lose share in India’s rapidly growing digital payments pie: Jefferies - ANI News](<https://news.google.com/rss/articles/CBMi0AFBVV95cUxPV2JsYTMzbmtwNl9CZXY0czBzRWpCWXcxNFZPcGlrQ1BkVm13X2lRVjZ0a3F6LVA5aHBfbkZnRzZtZk54ZjJiWHpvMlVTLXlOcnMwa2NQX2N6aDJOektWR05nU2doYm5wQVlYRVAwV1o2VUt5bmVkQ0xBWnpWd2dDRXVPS0EzNzAxQlo1RjR4c2lzWTIzT3B1S1o2SmpmaVdzVjJCeWtyWVd2bVdIWm5pdXhlcmdvMVFlY0Q1TnRqZFBiQTdBNmFJc2tpUkZmT1pE?oc=5>) — 25 Sep 12:36 IST; google_news_credit_cards; matched: digital payments
 - [NPCI chief Dilip Asbe cites AI cyber threats, including Claude Mythos, to defend UPI MDR](<https://www.medianama.com/2026/09/223-npci-ai-cyber-threats-mythos-upi-mdr>) — 25 Sep 11:38 IST; medianama; matched: UPI
 - [MDR on UPI payments above Rs 2,000 will not be passed on to consumers: Govt sources](<https://yourstory.com/2026/09/mdr-on-upi-payments-above-rs-2000-will-not-be-passed-on-to-consumers-govt-sources>) — 25 Sep 10:20 IST; yourstory; matched: UPI
 - [Credit Card Spending Stays Muted In August; HSBC, Jefferies Flag Rising Competition - NDTV Profit](<https://news.google.com/rss/articles/CBMixAFBVV95cUxOMVhqUGFEbWpfRHpHNnFTNnZUZV9XRTY0YW9wUXVSdWVOdlNwOXU5ZUNjMDNOV0Fua1h3Y2NCSjUyclRCWV94bFJfSkJmanh6M0J3VkJfdkhzcFVDcF9pRGlCTWJLNEJXUVIzd1NTLXFILUFfbVdOTi12Z29rcGFjRXZZdFRjVzNBLW1sVUR4RUVicW91cW9kZ2V2Z2FFSkN0a2dLY2ZBNUtYdWdjbmFWLXliWTNRNVk1b1N6dmV5aGhrNUp40gHMAUFVX3lxTE1nSTRnZFhHTjlMdWdIMUI2VGlEbE1Pd1ZIN3JXSUczZnM0VUhrNEQwbjRRYmdKWVVoTmx2dGhJSU9KQ3E2eXoyR25oR0ZORzdCQnlaZ1IxMmQtRThnSUFOeHI5TWVzRFBiMzdRdk1RM0x3MGFzVkY0QkFhckV2YkhoQzRUNWdfemtiQVdwX1pBNDVCamZxc3pDd0lNbzBxLWFnRXIwU09wd1BvWHV4bkEtcDdRVWNjbnUzTEpkUl9fUnQzbFVyZGwzdTUycg?oc=5>) — 25 Sep 09:15 IST; google_news_credit_cards; matched: credit card
@@ -100,21 +99,21 @@ Headlines are diversified across matched watchlist names before filling remainin
 - [Opinion: Rethink India’s Health Universities](<https://telanganatoday.com/opinion-rethink-indias-health-universities>) — 25 Sep 21:10 IST; telangana_today; matched: India
 - [Air India Maharaja Club rolls out offer which earns you up to 30 Points/ INR 100 per flight.](<https://livefromalounge.com/air-india-maharaja-club-rolls-out-offer-which-earns-you-up-to-30-points-inr-100-per-flight>) — 25 Sep 20:56 IST; livefromalounge; matched: India
 - [India win shooting gold as Gulveer takes 10,000m silver at Asian Games](<https://telanganatoday.com/india-win-shooting-gold-as-gulveer-takes-10000m-silver-at-asian-games>) — 25 Sep 20:22 IST; telangana_today; matched: India
-- [Joe Jonas looks back at 'terrifying' boat incident on his vacation - FM Bharat](<https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRFdnalg2Mmg4dlcyLU1mTHVVWmtZWHh2ZXFZR3hzR1FlY1Y5S3REMHF5ZTYwT09zMTQ2SHpvZDdIekF3V0NhcXd2cElnQm56bDlBd1ExMEo2MFVnX1pkTzZyRjJUU1lGM3B0RU02TUtha25FclJuZTU4NTROOWg5VjZqdWFIU1JYN3hNS0tnbzF3U2VUMkY1dkdHekdyQXBHTDlQbkNhbktVdw?oc=5>) — 25 Sep 20:21 IST; google_news_device_brands; matched: Bharat
 - [Morkel backs Nitish to develop into key all-rounder for India](<https://telanganatoday.com/morkel-backs-nitish-to-develop-into-key-all-rounder-for-india>) — 25 Sep 20:00 IST; telangana_today; matched: India
 - [Bessemer India Capital cuts Urban Company stake to 3.42% after selling 2.12% - scanx.trade](<https://news.google.com/rss/articles/CBMivwFBVV95cUxPOWlhYjdBdjlabmhSYkxaVWJud1dFM19iWDRZUXFpZWNLUy1yU0FtcjBTa05xQVhJaTVzQzNtenN3eFFhZmQtal8yNm5SdkRHdHJpc1dpTXdkejdEVGxObXYyZ19CTmppdXpVUHNUN091Zi1UUXB5SWZaMkM5el9JZXBObXVWSDhmR3QzQklWd3dJZVBLZWU2TXhOQVB3T254eE5TdTBXN01fNXdPem9lZjlrZmZLU0RWNlA5dVVSVQ?oc=5>) — 25 Sep 19:48 IST; google_news_digital_brands; matched: India
 - [Baranica creates history with India’s first Asiad pole vault medal](<https://telanganatoday.com/baranica-creates-history-with-indias-first-asiad-pole-vault-medal>) — 25 Sep 19:26 IST; telangana_today; matched: India
+- [Gulveer Singh bags silver, becomes first Indian to win two 10,000m medals](<https://telanganatoday.com/gulveer-singh-bags-silver-becomes-first-indian-to-win-two-10000m-medals>) — 25 Sep 18:22 IST; telangana_today; matched: Indian
 
 ### Telangana and Hyderabad developments (130)
 
+- [ABVP condemns screening of documentary on Umar Khalid at NALSAR](<https://www.thehindu.com/news/national/telangana/abvp-condemns-screening-of-documentary-on-umar-khalid-at-nalsar/article71509407.ece>) — 25 Sep 21:59 IST; hindu_telangana; matched: source:hindu_telangana
+- [Telangana Congress to protest against ECI’s SIR handling on September 28](<https://www.thehindu.com/news/national/telangana/telangana-congress-state-wide-protests-against-ecis-sir-handling-on-september-28/article71507356.ece>) — 25 Sep 21:47 IST; hindu_hyderabad, hindu_telangana; matched: Telangana, source:hindu_hyderabad, source:hindu_telangana
+- [File counter affidavit in plea over local candidate status in MDS admissions: HC to government](<https://www.thehindu.com/news/national/telangana/file-counter-affidavit-in-plea-over-local-candidate-status-in-mds-admissions-hc-to-government/article71509854.ece>) — 25 Sep 21:46 IST; hindu_telangana; matched: source:hindu_telangana
 - [Skill-based short-term courses need of the hour, says Madhusudan Sai](<https://www.thehindu.com/news/national/telangana/skill-based-short-term-courses-need-of-the-hour-says-madhusudan-sai/article71509610.ece>) — 25 Sep 21:31 IST; hindu_telangana; matched: source:hindu_telangana
 - [Revanth says fight for India is between ‘Gandhi Parivar and Sangh Parivar’](<https://www.thehindu.com/news/national/telangana/revanth-says-fight-for-india-is-between-gandhi-parivar-and-sangh-parivar/article71509596.ece>) — 25 Sep 21:31 IST; hindu_telangana; matched: source:hindu_telangana
 - [Teachers protest against GO 25, seek reduction in workload](<https://www.thehindu.com/news/national/telangana/teachers-protest-against-go-25-seek-reduction-in-workload/article71509665.ece>) — 25 Sep 21:12 IST; hindu_telangana; matched: source:hindu_telangana
 - [CITU backs TWU-SWF combine in TGSRTC union elections, combine to hold public meeting in Khammam on September 29](<https://www.thehindu.com/news/national/telangana/citu-backs-twu-swf-combine-in-tgsrtc-union-elections-combine-to-hold-public-meeting-in-khammam-on-september-29/article71509502.ece>) — 25 Sep 20:53 IST; hindu_hyderabad, hindu_telangana; matched: source:hindu_hyderabad, source:hindu_telangana
 - [Zaheerabad Industrial Smart City project SPV office opened](<https://www.thehindu.com/news/cities/Hyderabad/zaheerabad-industrial-smart-city-project-spv-office-opened/article71509540.ece>) — 25 Sep 20:51 IST; hindu_hyderabad, hindu_telangana; matched: source:hindu_hyderabad, source:hindu_telangana
-- [Ganesh bids adieu amid drums, dances and devotion in Hyderabad](<https://telanganatoday.com/ganesh-bids-adieu-amid-drums-dances-and-devotion-in-hyderabad>) — 25 Sep 20:36 IST; telangana_today; matched: Hyderabad
-- [Ganesh idols take over Hyderabad’s roads, Charminar and Hussainsagar](<https://www.thehindu.com/news/cities/Hyderabad/ganesh-idols-take-over-hyderabads-roads-charminar-and-hussainsagar/article71509042.ece>) — 25 Sep 20:28 IST; hindu_hyderabad, hindu_telangana; matched: Hyderabad, source:hindu_hyderabad, source:hindu_telangana
-- [Hyderabad Police monitor Ganesh idol immersion from Command and Control Centre](<https://telanganatoday.com/hyderabad-police-monitor-ganesh-idol-immersion-from-command-and-control-centre>) — 25 Sep 20:24 IST; telangana_today; matched: Hyderabad
 
 ### Practical local updates (0)
 
@@ -124,8 +123,9 @@ No matching recent headlines in the configured feeds.
 
 - [IACC Summit highlights India’s AI opportunity beyond LLMs, chips and data centres](<https://telanganatoday.com/iacc-summit-highlights-indias-ai-opportunity-beyond-llms-chips-and-data-centres>) — 25 Sep 16:18 IST; telangana_today; matched: India, summit
 
-### Crime news (17)
+### Crime news (18)
 
+- [Adilabad: TSSP Yapalguda battalion Inspector booked for attempt to murder of colleague](<https://telanganatoday.com/adilabad-tssp-yapalguda-battalion-inspector-booked-for-attempt-to-murder-of-colleague>) — 25 Sep 22:01 IST; telangana_today; matched: murder
 - [‘Anumana Pakshi’ movie review: A cluttered, exhausting crime comedy](<https://www.thehindu.com/entertainment/movies/anumana-pakshi-movie-review-a-cluttered-exhausting-crime-comedy/article71507980.ece>) — 25 Sep 15:56 IST; hindu_hyderabad; matched: crime
 - [Ganesh immersion: Two devotees drown, one electrocuted, one dies of cardiac arrest](<https://telanganatoday.com/ganesh-immersion-two-devotees-drown-one-electrocuted-one-dies-of-cardiac-arrest>) — 25 Sep 14:35 IST; telangana_today; matched: arrest
 - [Pranay murder case convict dies after complaining of chest pain in Cherlapally jail](<https://www.thehindu.com/news/national/telangana/pranay-murder-case-convict-dies-after-complaining-of-chest-pain-in-cherlapally-jail/article71505605.ece>) — 24 Sep 23:47 IST; hindu_hyderabad, hindu_telangana; matched: murder
@@ -133,7 +133,6 @@ No matching recent headlines in the configured feeds.
 - [Engineering student’s ‘suicide’ turns out to be murder; two arrested](<https://www.thehindu.com/news/cities/Hyderabad/engineering-students-suicide-turns-out-to-be-murder-two-arrested/article71502595.ece>) — 24 Sep 20:57 IST; hindu_hyderabad, hindu_telangana; matched: murder
 - [Apple TV reveals new series with Hugh Laurie as organized crime boss](<https://9to5mac.com/2026/09/24/apple-tv-reveals-new-series-with-hugh-laurie-as-organized-crime-boss>) — 24 Sep 18:59 IST; 9to5mac; matched: crime
 - [A North Carolina fraud scheme used stolen identities to request replacement bank cards and spend more tha - The Times of India](<https://news.google.com/rss/articles/CBMigwNBVV95cUxORzRzX3d1VEJQSkxqckdkOHM1LWRBWDU0ZzBnRDhrcGRkeHVNSjFzamllUkFOMGZMaFZUYzMxei1rbkJfVk1tVkx6c041THFrcHdFUUFhVGlGSERyZ2w4bjVVOEw3NnozRk9nLUNhTmNQcmo4a2NhbzJHU0VUVFdQaV9zSWVDcUc0V0tHU2tmZGhSQkdmdlQwMGFpZF9hZXp6SzR1c1gxUVB6U1VTT1psVDZLR0NZaUtpM2lrcnVEMEtsWUFrakRRNTQyRl90T2tqTGlEVzNaU0NSWTZNMEo1TERMVXJvdV9abktuZlNQU3pRV0J3eGUtUVdpblhNUE95WnRQQkR6NmtEcGNMTXNBcjBDY0tSRnczZ3daRThRVFJ1M0MxdW5iZDMtYjZXUDM3S0p1NGxiSmRRSUh2R2xlMUFIN2lhbmVmSERETDJiZ2FvR1h2eU9peElXTl9zWFJiSDRqc1hZWVg5ZV9WSHVLbEJTRWtuSU02OE9FdWNwQUxQekXSAYgDQVVfeXFMUHlKZXVGNHhkZldiSzUwODB5TFVnMl9ad2lIU3lGWDNBRFc2Z1RlUXlUQzlkdGg1NHBDejdzdnIzcWh6WkNFbVk3RkNWcTREU3pvSXQteXl5VVY2dTZvX2tPdEZRLTVkb1ZwWWFWeG95MGxyRlBRVWg4R0g3ck54Q1pib2pQUEdmV1FHQWNnN2RzODFJelhGN2wzQi1CTnZMNWFpYVpKRDhnNGwyZE5yU3lpWHVub1dmenhONVh0d2Vqc0tvOWpoOGF4YTF4UUtQNWU3dldYQW80VXpsWHVrWlFFX0RPNXhiUUhPR0R2ekdVUEloLW1ST2lEWDFXdF9uYzkxMlNhaHE5WmVwZjEyUksyMHg0UEpXcW1oVDVHYWtrZ3VUNGlEcTZER19oR1V3NGJMY01yR0FtdzlXR1ZEYUdhRDlYX3U5NzQtWjdGUm90ejJnUExuckRZN2xpR2g0U1AzckowMkVIYXdFTDB2Q1hPbjQxdWlSRzJERWJUM3FwR1E3aEVOWVY?oc=5>) — 24 Sep 16:55 IST; google_news_credit_cards; matched: fraud
-- [Sangareddy: Miscreants kill 75-year-old woman flee with jewellery](<https://telanganatoday.com/sangareddy-miscreants-kill-75-year-old-woman-flee-with-jewellery>) — 24 Sep 12:27 IST; telangana_today_crime; matched: source:telangana_today_crime
 
 ### Consumer and digital safety (2)
 
@@ -169,26 +168,26 @@ No matching recent headlines in the configured feeds.
 | [OpenAI News](<https://openai.com/news/rss.xml>) | `ok` | 19 / 200 | 2026-09-25T19:00:00Z |  |
 | [Google India Blog](<https://blog.google/intl/en-in/rss/>) | `ok` | 6 / 20 | 2026-09-24T07:30:00Z |  |
 | [NVIDIA Blog](<https://blogs.nvidia.com/feed/>) | `ok` | 10 / 18 | 2026-09-24T14:00:50Z |  |
-| [NVIDIA Developer Blog](<https://developer.nvidia.com/blog/feed/>) | `ok` | 2 / 100 | 2026-09-21T15:00:00Z |  |
+| [NVIDIA Developer Blog](<https://developer.nvidia.com/blog/feed/>) | `ok` | 13 / 100 | 2026-09-24T15:00:00Z |  |
 | [Samsung Newsroom](<https://news.samsung.com/global/feed/rss>) | `ok` | 3 / 50 | 2026-09-23T22:00:00Z |  |
 | [Apple India Newsroom](<https://www.apple.com/in/newsroom/rss-feed.rss>) | `ok` | 3 / 20 | 2026-09-22T13:00:15.661000Z |  |
 | [Inc42](<https://inc42.com/feed/>) | `ok` | 24 / 24 | 2026-09-25T14:43:08Z |  |
 | [YourStory](<https://yourstory.com/feed>) | `ok` | 20 / 20 | 2026-09-25T15:01:51Z |  |
 | [Google News — Frido](<https://news.google.com/rss/search?q=%22Frido%22&hl=en-IN&gl=IN&ceid=IN%3Aen>) | `stale` | 0 / 98 | 2026-09-15T09:33:09Z |  |
-| [Google News — Indian home brands](<https://news.google.com/rss/search?q=%22Wakefit%22+OR+%22Atomberg%22+OR+%22The+Sleep+Company%22&hl=en-IN&gl=IN&ceid=IN%3Aen>) | `ok` | 16 / 100 | 2026-09-24T14:02:59Z |  |
-| [Google News — Indian consumer brands](<https://news.google.com/rss/search?q=%22Lenskart%22+OR+%22Mokobara%22+OR+%22Nykaa%22+OR+%22Mamaearth%22&hl=en-IN&gl=IN&ceid=IN%3Aen>) | `ok` | 63 / 100 | 2026-09-25T10:37:18Z |  |
-| [Google News — Indian digital brands](<https://news.google.com/rss/search?q=%22Zepto%22+OR+%22Blinkit%22+OR+%22Swiggy%22+OR+%22Zomato%22+OR+%22CRED%22+OR+%22Urban+Company%22&hl=en-IN&gl=IN&ceid=IN%3Aen>) | `ok` | 69 / 100 | 2026-09-25T14:18:47Z |  |
-| [Google News — Indian device brands](<https://news.google.com/rss/search?q=%22boAt%22+OR+%22Noise+smartwatch%22+OR+%22Ather%22+OR+%22Ola+Electric%22&hl=en-IN&gl=IN&ceid=IN%3Aen>) | `ok` | 81 / 100 | 2026-09-25T16:00:52Z |  |
+| [Google News — Indian home brands](<https://news.google.com/rss/search?q=%22Wakefit%22+OR+%22Atomberg%22+OR+%22The+Sleep+Company%22&hl=en-IN&gl=IN&ceid=IN%3Aen>) | `ok` | 15 / 100 | 2026-09-24T14:02:59Z |  |
+| [Google News — Indian consumer brands](<https://news.google.com/rss/search?q=%22Lenskart%22+OR+%22Mokobara%22+OR+%22Nykaa%22+OR+%22Mamaearth%22&hl=en-IN&gl=IN&ceid=IN%3Aen>) | `ok` | 64 / 100 | 2026-09-25T10:37:18Z |  |
+| [Google News — Indian digital brands](<https://news.google.com/rss/search?q=%22Zepto%22+OR+%22Blinkit%22+OR+%22Swiggy%22+OR+%22Zomato%22+OR+%22CRED%22+OR+%22Urban+Company%22&hl=en-IN&gl=IN&ceid=IN%3Aen>) | `ok` | 70 / 100 | 2026-09-25T14:18:47Z |  |
+| [Google News — Indian device brands](<https://news.google.com/rss/search?q=%22boAt%22+OR+%22Noise+smartwatch%22+OR+%22Ather%22+OR+%22Ola+Electric%22&hl=en-IN&gl=IN&ceid=IN%3Aen>) | `ok` | 78 / 100 | 2026-09-25T17:06:02Z |  |
 | [MediaNama](<https://www.medianama.com/feed/>) | `ok` | 10 / 10 | 2026-09-25T12:11:39Z |  |
-| [The Hindu Telangana](<https://www.thehindu.com/news/national/telangana/feeder/default.rss>) | `ok` | 60 / 60 | 2026-09-25T16:01:42Z |  |
+| [The Hindu Telangana](<https://www.thehindu.com/news/national/telangana/feeder/default.rss>) | `ok` | 60 / 60 | 2026-09-25T16:29:14Z |  |
 | [The Hindu Hyderabad](<https://www.thehindu.com/news/cities/Hyderabad/feeder/default.rss>) | `ok` | 60 / 60 | 2026-09-25T15:23:59Z |  |
-| [Telangana Today](<https://telanganatoday.com/feed>) | `ok` | 199 / 199 | 2026-09-25T16:06:58Z |  |
+| [Telangana Today](<https://telanganatoday.com/feed>) | `ok` | 200 / 200 | 2026-09-25T17:16:15Z |  |
 | [Telangana Today Crime](<https://telanganatoday.com/crime/feed>) | `ok` | 10 / 200 | 2026-09-24T17:50:17Z |  |
-| [The Verge](<https://www.theverge.com/rss/index.xml>) | `ok` | 10 / 10 | 2026-09-25T15:51:56Z |  |
-| [Beebom](<https://beebom.com/feed/>) | `ok` | 10 / 10 | 2026-09-25T13:07:06Z |  |
-| [Android Authority](<https://www.androidauthority.com/feed/>) | `ok` | 80 / 80 | 2026-09-25T15:54:36Z |  |
-| [9to5Google](<https://9to5google.com/feed/>) | `ok` | 76 / 100 | 2026-09-25T15:49:53Z |  |
-| [9to5Mac](<https://9to5mac.com/feed/>) | `ok` | 100 / 100 | 2026-09-25T15:40:06Z |  |
-| [Electrek](<https://electrek.co/feed/>) | `ok` | 71 / 100 | 2026-09-25T14:45:34Z |  |
-| [Google News — Indian credit cards](<https://news.google.com/rss/search?q=%22credit+card%22+India+OR+%22reward+points%22+India+OR+%22card+cashback%22+India&hl=en-IN&gl=IN&ceid=IN%3Aen>) | `ok` | 20 / 100 | 2026-09-25T07:33:23Z |  |
+| [The Verge](<https://www.theverge.com/rss/index.xml>) | `ok` | 10 / 10 | 2026-09-25T17:23:30Z |  |
+| [Beebom](<https://beebom.com/feed/>) | `ok` | 10 / 10 | 2026-09-25T17:13:24Z |  |
+| [Android Authority](<https://www.androidauthority.com/feed/>) | `ok` | 80 / 80 | 2026-09-25T17:23:28Z |  |
+| [9to5Google](<https://9to5google.com/feed/>) | `ok` | 77 / 100 | 2026-09-25T16:09:48Z |  |
+| [9to5Mac](<https://9to5mac.com/feed/>) | `ok` | 100 / 100 | 2026-09-25T17:06:46Z |  |
+| [Electrek](<https://electrek.co/feed/>) | `ok` | 73 / 100 | 2026-09-25T17:16:47Z |  |
+| [Google News — Indian credit cards](<https://news.google.com/rss/search?q=%22credit+card%22+India+OR+%22reward+points%22+India+OR+%22card+cashback%22+India&hl=en-IN&gl=IN&ceid=IN%3Aen>) | `ok` | 21 / 100 | 2026-09-25T07:33:23Z |  |
 | [Live from a Lounge](<https://livefromalounge.com/feed/>) | `ok` | 10 / 10 | 2026-09-25T15:26:59Z |  |
