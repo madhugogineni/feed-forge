@@ -2,28 +2,6 @@
   "record_count": 20,
   "records": [
     {
-      "canonical_url": "https://www.apple.com/in/newsroom/2026/09/apple-opens-apple-music-hall-a-state-of-the-art-live-music-venue-in-london",
-      "feed_id": "apple_india",
-      "feed_ids": [
-        "apple_india"
-      ],
-      "feed_name": "Apple India Newsroom",
-      "feed_names": [
-        "Apple India Newsroom"
-      ],
-      "matched_terms": [
-        "Apple Music"
-      ],
-      "occurrence_id": "occ_000061",
-      "original_url": "https://www.apple.com/in/newsroom/2026/09/apple-opens-apple-music-hall-a-state-of-the-art-live-music-venue-in-london",
-      "pipeline_item_id": "32cf70c135414b43",
-      "published_at": "2026-09-22T06:01:14.421000Z",
-      "title": "Apple opens Apple Music Hall, a state-of-the-art live music venue in London",
-      "topic": "Music and streaming apps",
-      "topic_id": "music_apps",
-      "topic_lane": "review"
-    },
-    {
       "canonical_url": "https://www.androidauthority.com/youtube-music-your-podcast-lineup-3714671",
       "feed_id": "android_authority",
       "feed_ids": [
@@ -36,7 +14,7 @@
       "matched_terms": [
         "YouTube Music"
       ],
-      "occurrence_id": "occ_000062",
+      "occurrence_id": "occ_000061",
       "original_url": "https://www.androidauthority.com/youtube-music-your-podcast-lineup-3714671",
       "pipeline_item_id": "79d36882090ccb31",
       "published_at": "2026-09-23T17:20:25Z",
@@ -58,7 +36,7 @@
       "matched_terms": [
         "Apple Music"
       ],
-      "occurrence_id": "occ_000063",
+      "occurrence_id": "occ_000062",
       "original_url": "https://9to5mac.com/2026/09/21/ios-27-2-reveals-new-features-coming-to-apple-music-carplay-more",
       "pipeline_item_id": "7e6153a51fd7b9f8",
       "published_at": "2026-09-21T19:01:12Z",
@@ -80,7 +58,7 @@
       "matched_terms": [
         "YouTube Music"
       ],
-      "occurrence_id": "occ_000064",
+      "occurrence_id": "occ_000063",
       "original_url": "https://blog.google/intl/en-in/products/platforms/press-play-on-these-new-youtube-music-updates",
       "pipeline_item_id": "aff2d027629de3fe",
       "published_at": "2026-09-23T14:30:00Z",
@@ -102,7 +80,7 @@
       "matched_terms": [
         "Apple Music"
       ],
-      "occurrence_id": "occ_000065",
+      "occurrence_id": "occ_000064",
       "original_url": "https://9to5mac.com/2026/09/22/apple-music-opens-new-live-music-venue-in-london",
       "pipeline_item_id": "c34b8250b585d412",
       "published_at": "2026-09-22T07:51:30Z",
@@ -124,13 +102,35 @@
       "matched_terms": [
         "Spotify"
       ],
-      "occurrence_id": "occ_000066",
+      "occurrence_id": "occ_000065",
       "original_url": "https://www.androidauthority.com/spotify-meta-muse-integration-3714958",
       "pipeline_item_id": "f7be5e24607ea455",
       "published_at": "2026-09-24T10:17:56Z",
       "title": "Spotify just gave Meta Muse the keys to your music",
       "topic": "Music and streaming apps",
       "topic_id": "music_apps",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbktnRWpmNVhKbmpxTHdwMlNnWVI1YTNaSjNDcFJTNjU4aFNsZ0FDa0ZvUkFDY2xyLWtnMC0xRXFESFFUQ3puc3JSeXA5b3VZdkczbUxtMzg0M0JQRHo2ZDBnZzRhd3FUdkZjRTBLWXlCMHVjT2o1NHMwN0ZxZVVwcHdLSkZweGZlN0xTT005bUwzdzFKaDFBU1BQTDczZnJmelBSSkRKM2dIbjhXMnZvVm9FV3M?oc=5",
+      "feed_id": "google_news_device_brands",
+      "feed_ids": [
+        "google_news_device_brands"
+      ],
+      "feed_name": "Google News — Indian device brands",
+      "feed_names": [
+        "Google News — Indian device brands"
+      ],
+      "matched_terms": [
+        "investing"
+      ],
+      "occurrence_id": "occ_000066",
+      "original_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbktnRWpmNVhKbmpxTHdwMlNnWVI1YTNaSjNDcFJTNjU4aFNsZ0FDa0ZvUkFDY2xyLWtnMC0xRXFESFFUQ3puc3JSeXA5b3VZdkczbUxtMzg0M0JQRHo2ZDBnZzRhd3FUdkZjRTBLWXlCMHVjT2o1NHMwN0ZxZVVwcHdLSkZweGZlN0xTT005bUwzdzFKaDFBU1BQTDczZnJmelBSSkRKM2dIbjhXMnZvVm9FV3M?oc=5",
+      "pipeline_item_id": "a12e2d0090c57abc",
+      "published_at": "2026-09-25T12:30:36Z",
+      "title": "Form 4 Mastercraft Boat Holdings Inc For: 25 September - Investing.com India",
+      "topic": "Personal finance and investing",
+      "topic_id": "personal_finance",
       "topic_lane": "review"
     },
     {
@@ -200,6 +200,28 @@
       "topic_lane": "review"
     },
     {
+      "canonical_url": "https://9to5mac.com/2026/09/25/airpods-just-got-a-long-requested-feature-in-new-update",
+      "feed_id": "9to5mac",
+      "feed_ids": [
+        "9to5mac"
+      ],
+      "feed_name": "9to5Mac",
+      "feed_names": [
+        "9to5Mac"
+      ],
+      "matched_terms": [
+        "software"
+      ],
+      "occurrence_id": "occ_000070",
+      "original_url": "https://9to5mac.com/2026/09/25/airpods-just-got-a-long-requested-feature-in-new-update",
+      "pipeline_item_id": "4522ac51d7753bb9",
+      "published_at": "2026-09-25T12:04:47Z",
+      "title": "AirPods just got a long-requested feature in new software update",
+      "topic": "Technology, software and gadgets",
+      "topic_id": "tech_software",
+      "topic_lane": "review"
+    },
+    {
       "canonical_url": "https://www.androidauthority.com/google-create-my-widget-play-store-listing-3715354",
       "feed_id": "android_authority",
       "feed_ids": [
@@ -212,7 +234,7 @@
       "matched_terms": [
         "Android"
       ],
-      "occurrence_id": "occ_000070",
+      "occurrence_id": "occ_000071",
       "original_url": "https://www.androidauthority.com/google-create-my-widget-play-store-listing-3715354",
       "pipeline_item_id": "4ea372a6662994a7",
       "published_at": "2026-09-25T07:12:06Z",
@@ -222,30 +244,7 @@
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://9to5google.com/2026/09/24/google-rolling-out-android-17-qpr2-beta-6-for-pixel",
-      "feed_id": "9to5google",
-      "feed_ids": [
-        "9to5google"
-      ],
-      "feed_name": "9to5Google",
-      "feed_names": [
-        "9to5Google"
-      ],
-      "matched_terms": [
-        "Android",
-        "Pixel"
-      ],
-      "occurrence_id": "occ_000071",
-      "original_url": "https://9to5google.com/2026/09/24/google-rolling-out-android-17-qpr2-beta-6-for-pixel",
-      "pipeline_item_id": "87603df5cc527e4c",
-      "published_at": "2026-09-24T20:45:00Z",
-      "title": "Google rolling out Android 17 QPR2 Beta 6 for Pixel",
-      "topic": "Technology, software and gadgets",
-      "topic_id": "tech_software",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://www.androidauthority.com/gamesnacks-android-auto-immersive-apk-teardown-3715285",
+      "canonical_url": "https://www.androidauthority.com/android-copy-apple-iphone-steel-case-battery-3715505",
       "feed_id": "android_authority",
       "feed_ids": [
         "android_authority"
@@ -255,35 +254,36 @@
         "Android Authority"
       ],
       "matched_terms": [
-        "Android"
+        "Android",
+        "iPhone"
       ],
       "occurrence_id": "occ_000072",
-      "original_url": "https://www.androidauthority.com/gamesnacks-android-auto-immersive-apk-teardown-3715285",
-      "pipeline_item_id": "92611c857ef0ab7a",
-      "published_at": "2026-09-24T21:14:49Z",
-      "title": "Android Auto may finally give GameSnacks the full screen treatment",
+      "original_url": "https://www.androidauthority.com/android-copy-apple-iphone-steel-case-battery-3715505",
+      "pipeline_item_id": "b834258154fa2358",
+      "published_at": "2026-09-25T13:09:49Z",
+      "title": "Android flagships could soon pack massive 10,000mAh batteries, thanks to iPhone’s battery tech",
       "topic": "Technology, software and gadgets",
       "topic_id": "tech_software",
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://9to5google.com/2026/09/24/pixel-weather-widget-refresh",
-      "feed_id": "9to5google",
+      "canonical_url": "https://9to5mac.com/2026/09/25/apple-wallet-in-ios-27-adds-feature-thats-been-on-my-wishlist-for-years",
+      "feed_id": "9to5mac",
       "feed_ids": [
-        "9to5google"
+        "9to5mac"
       ],
-      "feed_name": "9to5Google",
+      "feed_name": "9to5Mac",
       "feed_names": [
-        "9to5Google"
+        "9to5Mac"
       ],
       "matched_terms": [
-        "Pixel"
+        "iOS"
       ],
       "occurrence_id": "occ_000073",
-      "original_url": "https://9to5google.com/2026/09/24/pixel-weather-widget-refresh",
-      "pipeline_item_id": "a5fd963bcf58acff",
-      "published_at": "2026-09-24T23:48:47Z",
-      "title": "Pixel Weather homescreen widget adds manual refresh button",
+      "original_url": "https://9to5mac.com/2026/09/25/apple-wallet-in-ios-27-adds-feature-thats-been-on-my-wishlist-for-years",
+      "pipeline_item_id": "bf05dd1cd1b98d27",
+      "published_at": "2026-09-25T13:10:12Z",
+      "title": "Apple Wallet in iOS 27 adds feature that’s been on my wishlist for years",
       "topic": "Technology, software and gadgets",
       "topic_id": "tech_software",
       "topic_lane": "review"
@@ -333,7 +333,7 @@
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://telanganatoday.com/dry-spell-persists-across-hyderabad-and-surrounding-districts-as-rainfall-deficits-deepen",
+      "canonical_url": "https://telanganatoday.com/junior-national-football-telangana-held-by-goa-in-1-1-draw",
       "feed_id": "telangana_today",
       "feed_ids": [
         "telangana_today"
@@ -343,13 +343,57 @@
         "Telangana Today"
       ],
       "matched_terms": [
-        "Hyderabad"
+        "Telangana"
       ],
       "occurrence_id": "occ_000076",
-      "original_url": "https://telanganatoday.com/dry-spell-persists-across-hyderabad-and-surrounding-districts-as-rainfall-deficits-deepen",
-      "pipeline_item_id": "24e07fd68c940fda",
-      "published_at": "2026-09-25T11:17:30Z",
-      "title": "Dry spell persists across Hyderabad and surrounding districts as rainfall deficits deepen",
+      "original_url": "https://telanganatoday.com/junior-national-football-telangana-held-by-goa-in-1-1-draw",
+      "pipeline_item_id": "08a482847ce2fe3c",
+      "published_at": "2026-09-25T12:16:35Z",
+      "title": "Junior National Football: Telangana held by Goa in 1-1 draw",
+      "topic": "Telangana and Hyderabad developments",
+      "topic_id": "telangana_hyderabad",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/harish-rao-urges-telangana-government-to-use-godavari-floodwater-to-fill-reservoirs",
+      "feed_id": "telangana_today",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_name": "Telangana Today",
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "matched_terms": [
+        "Telangana"
+      ],
+      "occurrence_id": "occ_000077",
+      "original_url": "https://telanganatoday.com/harish-rao-urges-telangana-government-to-use-godavari-floodwater-to-fill-reservoirs",
+      "pipeline_item_id": "0ec3b58365f89980",
+      "published_at": "2026-09-25T12:23:11Z",
+      "title": "Harish Rao urges Telangana government to use Godavari floodwater to fill reservoirs",
+      "topic": "Telangana and Hyderabad developments",
+      "topic_id": "telangana_hyderabad",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/elephant-herd-movement-triggers-panic-along-maharashtra-telangana-border",
+      "feed_id": "telangana_today",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_name": "Telangana Today",
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "matched_terms": [
+        "Telangana"
+      ],
+      "occurrence_id": "occ_000078",
+      "original_url": "https://telanganatoday.com/elephant-herd-movement-triggers-panic-along-maharashtra-telangana-border",
+      "pipeline_item_id": "26a8f41c66f4f7a8",
+      "published_at": "2026-09-25T12:34:21Z",
+      "title": "Elephant herd movement triggers panic along Maharashtra-Telangana border",
       "topic": "Telangana and Hyderabad developments",
       "topic_id": "telangana_hyderabad",
       "topic_lane": "review"
@@ -367,21 +411,20 @@
         "The Hindu Telangana"
       ],
       "matched_terms": [
-        "Hyderabad",
         "source:hindu_hyderabad",
         "source:hindu_telangana"
       ],
-      "occurrence_id": "occ_000077",
+      "occurrence_id": "occ_000079",
       "original_url": "https://www.thehindu.com/news/cities/Hyderabad/ganesh-visarjan-hyderabad-khairatabad-ganesh-immersion-procession-begins-traffic-curbs-in-the-city-live-updates-september-25-2026/article71506992.ece",
       "pipeline_item_id": "4801d9d8e53d2ff2",
-      "published_at": "2026-09-25T10:10:36Z",
-      "title": "Ganesh immersion 2026 LIVE: Khairatabad Ganesh idol immersion concludes; traffic curbs across central Hyderabad till September 26",
+      "published_at": "2026-09-25T12:37:31Z",
+      "title": "Ganesh immersion 2026 highlights: Khairatabad Ganesh idol immersion concludes",
       "topic": "Telangana and Hyderabad developments",
       "topic_id": "telangana_hyderabad",
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://telanganatoday.com/22-a-registration-relief-leaves-telangana-property-owners-facing-uncertainty",
+      "canonical_url": "https://telanganatoday.com/junior-chess-players-to-compete-in-telangana-state-ranking-tournament",
       "feed_id": "telangana_today",
       "feed_ids": [
         "telangana_today"
@@ -393,59 +436,11 @@
       "matched_terms": [
         "Telangana"
       ],
-      "occurrence_id": "occ_000078",
-      "original_url": "https://telanganatoday.com/22-a-registration-relief-leaves-telangana-property-owners-facing-uncertainty",
-      "pipeline_item_id": "aa78ee13822a4285",
-      "published_at": "2026-09-25T11:51:32Z",
-      "title": "22-A registration relief leaves Telangana property owners facing uncertainty",
-      "topic": "Telangana and Hyderabad developments",
-      "topic_id": "telangana_hyderabad",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://www.thehindu.com/news/cities/Hyderabad/immersion-procession-of-khairatabad-ganesh-idol-in-hyderabad-gets-delayed-start/article71506890.ece",
-      "feed_id": "hindu_hyderabad",
-      "feed_ids": [
-        "hindu_hyderabad",
-        "hindu_telangana"
-      ],
-      "feed_name": "The Hindu Hyderabad",
-      "feed_names": [
-        "The Hindu Hyderabad",
-        "The Hindu Telangana"
-      ],
-      "matched_terms": [
-        "Hyderabad",
-        "source:hindu_hyderabad",
-        "source:hindu_telangana"
-      ],
-      "occurrence_id": "occ_000079",
-      "original_url": "https://www.thehindu.com/news/cities/Hyderabad/immersion-procession-of-khairatabad-ganesh-idol-in-hyderabad-gets-delayed-start/article71506890.ece",
-      "pipeline_item_id": "afe22fc50805fe3c",
-      "published_at": "2026-09-25T10:20:56Z",
-      "title": "Immersion procession of Khairatabad Ganesh idol in Hyderabad passes off without a hitch",
-      "topic": "Telangana and Hyderabad developments",
-      "topic_id": "telangana_hyderabad",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://www.thehindu.com/entertainment/movies/anumana-pakshi-movie-review-a-cluttered-exhausting-crime-comedy/article71507980.ece",
-      "feed_id": "hindu_hyderabad",
-      "feed_ids": [
-        "hindu_hyderabad"
-      ],
-      "feed_name": "The Hindu Hyderabad",
-      "feed_names": [
-        "The Hindu Hyderabad"
-      ],
-      "matched_terms": [
-        "source:hindu_hyderabad"
-      ],
       "occurrence_id": "occ_000080",
-      "original_url": "https://www.thehindu.com/entertainment/movies/anumana-pakshi-movie-review-a-cluttered-exhausting-crime-comedy/article71507980.ece",
-      "pipeline_item_id": "c380234f556db26d",
-      "published_at": "2026-09-25T10:26:03Z",
-      "title": "‘Anumana Pakshi’ movie review: A cluttered, exhausting crime comedy",
+      "original_url": "https://telanganatoday.com/junior-chess-players-to-compete-in-telangana-state-ranking-tournament",
+      "pipeline_item_id": "598127cac75fb922",
+      "published_at": "2026-09-25T12:20:56Z",
+      "title": "Junior chess players to compete in Telangana state-ranking tournament",
       "topic": "Telangana and Hyderabad developments",
       "topic_id": "telangana_hyderabad",
       "topic_lane": "review"

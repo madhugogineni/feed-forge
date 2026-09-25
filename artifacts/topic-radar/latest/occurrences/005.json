@@ -1,33 +1,53 @@
 {
-  "record_count": 9,
+  "record_count": 8,
   "records": [
     {
-      "canonical_url": "https://www.thehindu.com/news/national/telangana/ed-summons-serilingampally-mla-arekapudi-gandhi-in-sahiti-infratec-money-laundering-probe/article71508219.ece",
-      "feed_id": "hindu_hyderabad",
+      "canonical_url": "https://www.thehindu.com/news/national/telangana/congress-bjp-responsible-for-defections-in-country-brs/article71508318.ece",
+      "feed_id": "hindu_telangana",
       "feed_ids": [
-        "hindu_hyderabad",
         "hindu_telangana"
       ],
-      "feed_name": "The Hindu Hyderabad",
+      "feed_name": "The Hindu Telangana",
       "feed_names": [
-        "The Hindu Hyderabad",
         "The Hindu Telangana"
       ],
       "matched_terms": [
-        "source:hindu_hyderabad",
         "source:hindu_telangana"
       ],
       "occurrence_id": "occ_000081",
-      "original_url": "https://www.thehindu.com/news/national/telangana/ed-summons-serilingampally-mla-arekapudi-gandhi-in-sahiti-infratec-money-laundering-probe/article71508219.ece",
-      "pipeline_item_id": "cc2d5a2881de6f2e",
-      "published_at": "2026-09-25T10:32:53Z",
-      "title": "ED summons Serilingampally MLA Arekapudi Gandhi in Sahiti Infratec money-laundering probe",
+      "original_url": "https://www.thehindu.com/news/national/telangana/congress-bjp-responsible-for-defections-in-country-brs/article71508318.ece",
+      "pipeline_item_id": "ad4a02ac7cfaa66a",
+      "published_at": "2026-09-25T13:22:59Z",
+      "title": "Congress, BJP responsible for defections in country: BRS",
       "topic": "Telangana and Hyderabad developments",
       "topic_id": "telangana_hyderabad",
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://telanganatoday.com/hyderabad-europe-air-cargo-connectivity-gets-a-boost-with-new-mou",
+      "canonical_url": "https://www.thehindu.com/news/national/telangana/telangana-urges-mojs-to-expedite-drainage-congestion-studies-on-polavaram-at-frl/article71508513.ece",
+      "feed_id": "hindu_telangana",
+      "feed_ids": [
+        "hindu_telangana"
+      ],
+      "feed_name": "The Hindu Telangana",
+      "feed_names": [
+        "The Hindu Telangana"
+      ],
+      "matched_terms": [
+        "Telangana",
+        "source:hindu_telangana"
+      ],
+      "occurrence_id": "occ_000082",
+      "original_url": "https://www.thehindu.com/news/national/telangana/telangana-urges-mojs-to-expedite-drainage-congestion-studies-on-polavaram-at-frl/article71508513.ece",
+      "pipeline_item_id": "deec2c51048a6690",
+      "published_at": "2026-09-25T13:28:23Z",
+      "title": "Telangana urges MoJS to expedite drainage congestion studies on Polavaram at FRL",
+      "topic": "Telangana and Hyderabad developments",
+      "topic_id": "telangana_hyderabad",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/telanganas-el-nino-contingency-plan-comes-under-scanner-amid-water-power-woes",
       "feed_id": "telangana_today",
       "feed_ids": [
         "telangana_today"
@@ -37,39 +57,13 @@
         "Telangana Today"
       ],
       "matched_terms": [
-        "Hyderabad"
-      ],
-      "occurrence_id": "occ_000082",
-      "original_url": "https://telanganatoday.com/hyderabad-europe-air-cargo-connectivity-gets-a-boost-with-new-mou",
-      "pipeline_item_id": "e1a15ce7d04e825e",
-      "published_at": "2026-09-25T10:22:18Z",
-      "title": "Hyderabad-Europe air cargo connectivity gets a boost with new MoU",
-      "topic": "Telangana and Hyderabad developments",
-      "topic_id": "telangana_hyderabad",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://www.thehindu.com/news/national/telangana/telangana-congress-state-wide-protests-against-ecis-sir-handling-on-september-28/article71507356.ece",
-      "feed_id": "hindu_hyderabad",
-      "feed_ids": [
-        "hindu_hyderabad",
-        "hindu_telangana"
-      ],
-      "feed_name": "The Hindu Hyderabad",
-      "feed_names": [
-        "The Hindu Hyderabad",
-        "The Hindu Telangana"
-      ],
-      "matched_terms": [
-        "Telangana",
-        "source:hindu_hyderabad",
-        "source:hindu_telangana"
+        "Telangana"
       ],
       "occurrence_id": "occ_000083",
-      "original_url": "https://www.thehindu.com/news/national/telangana/telangana-congress-state-wide-protests-against-ecis-sir-handling-on-september-28/article71507356.ece",
-      "pipeline_item_id": "ff6d1e968dc72f04",
-      "published_at": "2026-09-25T10:04:48Z",
-      "title": "Telangana Congress protest against ECI’s SIR handling on September 28",
+      "original_url": "https://telanganatoday.com/telanganas-el-nino-contingency-plan-comes-under-scanner-amid-water-power-woes",
+      "pipeline_item_id": "efec0af17f89b6d1",
+      "published_at": "2026-09-25T12:34:36Z",
+      "title": "Telangana’s El Nino contingency plan comes under scanner amid water, power woes",
       "topic": "Telangana and Hyderabad developments",
       "topic_id": "telangana_hyderabad",
       "topic_lane": "review"
@@ -97,28 +91,6 @@
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://telanganatoday.com/akshay-kumars-son-aarav-makes-rare-appearance-at-airport",
-      "feed_id": "telangana_today",
-      "feed_ids": [
-        "telangana_today"
-      ],
-      "feed_name": "Telangana Today",
-      "feed_names": [
-        "Telangana Today"
-      ],
-      "matched_terms": [
-        "airport"
-      ],
-      "occurrence_id": "occ_000085",
-      "original_url": "https://telanganatoday.com/akshay-kumars-son-aarav-makes-rare-appearance-at-airport",
-      "pipeline_item_id": "8bb0e428021576df",
-      "published_at": "2026-09-24T07:50:07Z",
-      "title": "Akshay Kumar’s son Aarav makes rare appearance at airport",
-      "topic": "Travel and lifestyle",
-      "topic_id": "travel_lifestyle",
-      "topic_lane": "review"
-    },
-    {
       "canonical_url": "https://telanganatoday.com/air-india-suspends-pilot-after-failing-breath-analyser-test-at-zurich-airport",
       "feed_id": "telangana_today",
       "feed_ids": [
@@ -131,7 +103,7 @@
       "matched_terms": [
         "airport"
       ],
-      "occurrence_id": "occ_000086",
+      "occurrence_id": "occ_000085",
       "original_url": "https://telanganatoday.com/air-india-suspends-pilot-after-failing-breath-analyser-test-at-zurich-airport",
       "pipeline_item_id": "c1d30a81004d14d7",
       "published_at": "2026-09-25T10:15:39Z",
@@ -154,7 +126,7 @@
         "travel",
         "visa"
       ],
-      "occurrence_id": "occ_000087",
+      "occurrence_id": "occ_000086",
       "original_url": "https://livefromalounge.com/visa-power-travel-promotion-goes-global-earn-up-to-20-back-on-your-overseas-spends-on-a-visa-credit-debit-card-this-fall-autumn",
       "pipeline_item_id": "c2df250673788d6f",
       "published_at": "2026-09-24T15:23:20Z",
@@ -176,7 +148,7 @@
       "matched_terms": [
         "airport"
       ],
-      "occurrence_id": "occ_000088",
+      "occurrence_id": "occ_000087",
       "original_url": "https://livefromalounge.com/priority-pass-is-finally-fixing-one-of-my-biggest-airport-lounge-access-gripes",
       "pipeline_item_id": "c35b0daa1c78e8fe",
       "published_at": "2026-09-21T15:50:43Z",
@@ -198,7 +170,7 @@
       "matched_terms": [
         "airport"
       ],
-      "occurrence_id": "occ_000089",
+      "occurrence_id": "occ_000088",
       "original_url": "https://telanganatoday.com/mahadev-betting-case-cbi-arrests-key-suspect-at-hyderabad-airport-after-arrival-from-dubai",
       "pipeline_item_id": "dffc405eb85c5795",
       "published_at": "2026-09-24T16:24:39Z",

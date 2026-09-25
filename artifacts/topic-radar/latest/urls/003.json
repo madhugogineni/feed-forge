@@ -12,8 +12,8 @@
       ],
       "occurrence_count": 2,
       "occurrence_ids": [
-        "occ_000048",
-        "occ_000051"
+        "occ_000047",
+        "occ_000050"
       ],
       "topic_ids": [
         "india_developments",
@@ -47,6 +47,48 @@
       "url_id": "url_000042"
     },
     {
+      "canonical_url": "https://telanganatoday.com/junior-chess-players-to-compete-in-telangana-state-ranking-tournament",
+      "domain": "telanganatoday.com",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000080"
+      ],
+      "topic_ids": [
+        "telangana_hyderabad"
+      ],
+      "topics": [
+        "Telangana and Hyderabad developments"
+      ],
+      "url_id": "url_000043"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/junior-national-football-telangana-held-by-goa-in-1-1-draw",
+      "domain": "telanganatoday.com",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000076"
+      ],
+      "topic_ids": [
+        "telangana_hyderabad"
+      ],
+      "topics": [
+        "Telangana and Hyderabad developments"
+      ],
+      "url_id": "url_000044"
+    },
+    {
       "canonical_url": "https://telanganatoday.com/kareena-kapoor-shares-glimpse-of-latest-workout-routine-fitness-chart",
       "domain": "telanganatoday.com",
       "feed_ids": [
@@ -65,7 +107,28 @@
       "topics": [
         "Fitness and ergonomics"
       ],
-      "url_id": "url_000043"
+      "url_id": "url_000045"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/lg-electronics-india-receives-show-cause-notice-over-rs-153-58-cr-customs-duty",
+      "domain": "telanganatoday.com",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000043"
+      ],
+      "topic_ids": [
+        "india_developments"
+      ],
+      "topics": [
+        "India developments"
+      ],
+      "url_id": "url_000046"
     },
     {
       "canonical_url": "https://telanganatoday.com/mahadev-betting-case-cbi-arrests-key-suspect-at-hyderabad-airport-after-arrival-from-dubai",
@@ -78,7 +141,7 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000089"
+        "occ_000088"
       ],
       "topic_ids": [
         "travel_lifestyle"
@@ -86,28 +149,7 @@
       "topics": [
         "Travel and lifestyle"
       ],
-      "url_id": "url_000044"
-    },
-    {
-      "canonical_url": "https://telanganatoday.com/olympic-champion-shaunae-miller-uibo-named-ambassador-for-2026-delhi-half-marathon",
-      "domain": "telanganatoday.com",
-      "feed_ids": [
-        "telangana_today"
-      ],
-      "feed_names": [
-        "Telangana Today"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000042"
-      ],
-      "topic_ids": [
-        "fitness_ergonomics"
-      ],
-      "topics": [
-        "Fitness and ergonomics"
-      ],
-      "url_id": "url_000045"
+      "url_id": "url_000047"
     },
     {
       "canonical_url": "https://telanganatoday.com/opinion-from-encounters-to-custodial-deaths-is-india-finding-new-ways-to-hide-extrajudicial-killings",
@@ -130,7 +172,7 @@
       "topics": [
         "Crime news"
       ],
-      "url_id": "url_000046"
+      "url_id": "url_000048"
     },
     {
       "canonical_url": "https://telanganatoday.com/pregnant-samantha-ruth-prabhu-shares-glimpse-of-workout-routine-strong-till-the-very-end",
@@ -151,7 +193,7 @@
       "topics": [
         "Fitness and ergonomics"
       ],
-      "url_id": "url_000047"
+      "url_id": "url_000049"
     },
     {
       "canonical_url": "https://telanganatoday.com/russo-brothers-recall-robert-downey-jr-chris-evans-final-days-on-avengers-endgame",
@@ -172,17 +214,15 @@
       "topics": [
         "Consumer and digital safety"
       ],
-      "url_id": "url_000048"
+      "url_id": "url_000050"
     },
     {
       "canonical_url": "https://telanganatoday.com/sangareddy-miscreants-kill-75-year-old-woman-flee-with-jewellery",
       "domain": "telanganatoday.com",
       "feed_ids": [
-        "telangana_today",
         "telangana_today_crime"
       ],
       "feed_names": [
-        "Telangana Today",
         "Telangana Today Crime"
       ],
       "occurrence_count": 1,
@@ -195,7 +235,7 @@
       "topics": [
         "Crime news"
       ],
-      "url_id": "url_000049"
+      "url_id": "url_000051"
     },
     {
       "canonical_url": "https://telanganatoday.com/sc-asks-bar-council-of-india-to-clarify-stand-on-age-limit-for-five-year-law-courses",
@@ -208,7 +248,7 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000049"
+        "occ_000048"
       ],
       "topic_ids": [
         "india_developments"
@@ -216,7 +256,28 @@
       "topics": [
         "India developments"
       ],
-      "url_id": "url_000050"
+      "url_id": "url_000052"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/telanganas-el-nino-contingency-plan-comes-under-scanner-amid-water-power-woes",
+      "domain": "telanganatoday.com",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000083"
+      ],
+      "topic_ids": [
+        "telangana_hyderabad"
+      ],
+      "topics": [
+        "Telangana and Hyderabad developments"
+      ],
+      "url_id": "url_000053"
     },
     {
       "canonical_url": "https://telanganatoday.com/upi-mdr-is-not-a-tax-or-surcharge-says-nirmala-sitharaman",
@@ -237,7 +298,28 @@
       "topics": [
         "Credit cards, rewards and payments"
       ],
-      "url_id": "url_000051"
+      "url_id": "url_000054"
+    },
+    {
+      "canonical_url": "https://www.androidauthority.com/android-copy-apple-iphone-steel-case-battery-3715505",
+      "domain": "www.androidauthority.com",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_names": [
+        "Android Authority"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000072"
+      ],
+      "topic_ids": [
+        "tech_software"
+      ],
+      "topics": [
+        "Technology, software and gadgets"
+      ],
+      "url_id": "url_000055"
     },
     {
       "canonical_url": "https://www.androidauthority.com/atv-launcher-v0-1-41-update-3715420",
@@ -258,28 +340,7 @@
       "topics": [
         "Technology, software and gadgets"
       ],
-      "url_id": "url_000052"
-    },
-    {
-      "canonical_url": "https://www.androidauthority.com/gamesnacks-android-auto-immersive-apk-teardown-3715285",
-      "domain": "www.androidauthority.com",
-      "feed_ids": [
-        "android_authority"
-      ],
-      "feed_names": [
-        "Android Authority"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000072"
-      ],
-      "topic_ids": [
-        "tech_software"
-      ],
-      "topics": [
-        "Technology, software and gadgets"
-      ],
-      "url_id": "url_000053"
+      "url_id": "url_000056"
     },
     {
       "canonical_url": "https://www.androidauthority.com/gemini-dark-mode-3715309",
@@ -300,7 +361,7 @@
       "topics": [
         "AI development and products"
       ],
-      "url_id": "url_000054"
+      "url_id": "url_000057"
     },
     {
       "canonical_url": "https://www.androidauthority.com/gemini-live-avatar-3715280",
@@ -321,7 +382,7 @@
       "topics": [
         "AI development and products"
       ],
-      "url_id": "url_000055"
+      "url_id": "url_000058"
     },
     {
       "canonical_url": "https://www.androidauthority.com/gemini-tasks-mode-desktop-leak-3715259",
@@ -342,7 +403,7 @@
       "topics": [
         "AI development and products"
       ],
-      "url_id": "url_000056"
+      "url_id": "url_000059"
     },
     {
       "canonical_url": "https://www.androidauthority.com/google-create-my-widget-play-store-listing-3715354",
@@ -353,75 +414,9 @@
       "feed_names": [
         "Android Authority"
       ],
-      "occurrence_count": 2,
-      "occurrence_ids": [
-        "occ_000011",
-        "occ_000070"
-      ],
-      "topic_ids": [
-        "big_tech",
-        "tech_software"
-      ],
-      "topics": [
-        "Major technology companies",
-        "Technology, software and gadgets"
-      ],
-      "url_id": "url_000057"
-    },
-    {
-      "canonical_url": "https://www.androidauthority.com/google-photos-redact-moods-remix-wide-rollout-3715348",
-      "domain": "www.androidauthority.com",
-      "feed_ids": [
-        "android_authority"
-      ],
-      "feed_names": [
-        "Android Authority"
-      ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000014"
-      ],
-      "topic_ids": [
-        "big_tech"
-      ],
-      "topics": [
-        "Major technology companies"
-      ],
-      "url_id": "url_000058"
-    },
-    {
-      "canonical_url": "https://www.androidauthority.com/google-pixel-clock-alarm-bug-not-fixed-yet-3715371",
-      "domain": "www.androidauthority.com",
-      "feed_ids": [
-        "android_authority"
-      ],
-      "feed_names": [
-        "Android Authority"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000068"
-      ],
-      "topic_ids": [
-        "tech_software"
-      ],
-      "topics": [
-        "Technology, software and gadgets"
-      ],
-      "url_id": "url_000059"
-    },
-    {
-      "canonical_url": "https://www.androidauthority.com/google-pixel-september-2026-pattern-pin-unlock-bug-3715425",
-      "domain": "www.androidauthority.com",
-      "feed_ids": [
-        "android_authority"
-      ],
-      "feed_names": [
-        "Android Authority"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000069"
+        "occ_000071"
       ],
       "topic_ids": [
         "tech_software"

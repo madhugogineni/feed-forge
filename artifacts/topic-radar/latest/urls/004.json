@@ -2,7 +2,7 @@
   "record_count": 20,
   "records": [
     {
-      "canonical_url": "https://www.androidauthority.com/oneplus-16-led-lights-embarrassing-3715122",
+      "canonical_url": "https://www.androidauthority.com/google-messages-long-press-menu-stable-rollout-3715514",
       "domain": "www.androidauthority.com",
       "feed_ids": [
         "android_authority"
@@ -12,7 +12,7 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000012"
+        "occ_000011"
       ],
       "topic_ids": [
         "big_tech"
@@ -21,6 +21,48 @@
         "Major technology companies"
       ],
       "url_id": "url_000061"
+    },
+    {
+      "canonical_url": "https://www.androidauthority.com/google-pixel-clock-alarm-bug-not-fixed-yet-3715371",
+      "domain": "www.androidauthority.com",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_names": [
+        "Android Authority"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000068"
+      ],
+      "topic_ids": [
+        "tech_software"
+      ],
+      "topics": [
+        "Technology, software and gadgets"
+      ],
+      "url_id": "url_000062"
+    },
+    {
+      "canonical_url": "https://www.androidauthority.com/google-pixel-september-2026-pattern-pin-unlock-bug-3715425",
+      "domain": "www.androidauthority.com",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_names": [
+        "Android Authority"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000069"
+      ],
+      "topic_ids": [
+        "tech_software"
+      ],
+      "topics": [
+        "Technology, software and gadgets"
+      ],
+      "url_id": "url_000063"
     },
     {
       "canonical_url": "https://www.androidauthority.com/pixel-11-signal-problems-troubleshooting-tips-3714401",
@@ -41,7 +83,7 @@
       "topics": [
         "Technology, software and gadgets"
       ],
-      "url_id": "url_000062"
+      "url_id": "url_000064"
     },
     {
       "canonical_url": "https://www.androidauthority.com/spotify-meta-muse-integration-3714958",
@@ -54,7 +96,7 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000066"
+        "occ_000065"
       ],
       "topic_ids": [
         "music_apps"
@@ -62,7 +104,7 @@
       "topics": [
         "Music and streaming apps"
       ],
-      "url_id": "url_000063"
+      "url_id": "url_000065"
     },
     {
       "canonical_url": "https://www.androidauthority.com/youtube-music-your-podcast-lineup-3714671",
@@ -75,7 +117,7 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000062"
+        "occ_000061"
       ],
       "topic_ids": [
         "music_apps"
@@ -83,7 +125,7 @@
       "topics": [
         "Music and streaming apps"
       ],
-      "url_id": "url_000064"
+      "url_id": "url_000066"
     },
     {
       "canonical_url": "https://www.apple.com/in/newsroom/2026/09/apple-opens-apple-music-hall-a-state-of-the-art-live-music-venue-in-london",
@@ -96,7 +138,7 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000061"
+        "occ_000060"
       ],
       "topic_ids": [
         "music_apps"
@@ -104,28 +146,7 @@
       "topics": [
         "Music and streaming apps"
       ],
-      "url_id": "url_000065"
-    },
-    {
-      "canonical_url": "https://www.medianama.com/2026/09/223-jio-opposes-trais-network-slicing",
-      "domain": "www.medianama.com",
-      "feed_ids": [
-        "medianama"
-      ],
-      "feed_names": [
-        "MediaNama"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000016"
-      ],
-      "topic_ids": [
-        "big_tech"
-      ],
-      "topics": [
-        "Major technology companies"
-      ],
-      "url_id": "url_000066"
+      "url_id": "url_000067"
     },
     {
       "canonical_url": "https://www.medianama.com/2026/09/223-npci-ai-cyber-threats-mythos-upi-mdr",
@@ -149,7 +170,7 @@
         "AI development and products",
         "Credit cards, rewards and payments"
       ],
-      "url_id": "url_000067"
+      "url_id": "url_000068"
     },
     {
       "canonical_url": "https://www.medianama.com/2026/09/223-pine-labs-agentic-commerce-merchants",
@@ -162,28 +183,7 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000013"
-      ],
-      "topic_ids": [
-        "big_tech"
-      ],
-      "topics": [
-        "Major technology companies"
-      ],
-      "url_id": "url_000068"
-    },
-    {
-      "canonical_url": "https://www.medianama.com/2026/09/223-whats-new-made-on-youtube-2026",
-      "domain": "www.medianama.com",
-      "feed_ids": [
-        "medianama"
-      ],
-      "feed_names": [
-        "MediaNama"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000010"
+        "occ_000016"
       ],
       "topic_ids": [
         "big_tech"
@@ -205,7 +205,7 @@
       "occurrence_count": 2,
       "occurrence_ids": [
         "occ_000009",
-        "occ_000044"
+        "occ_000042"
       ],
       "topic_ids": [
         "big_tech",
@@ -226,18 +226,15 @@
       "feed_names": [
         "The Hindu Hyderabad"
       ],
-      "occurrence_count": 2,
+      "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000032",
-        "occ_000080"
+        "occ_000032"
       ],
       "topic_ids": [
-        "crime",
-        "telangana_hyderabad"
+        "crime"
       ],
       "topics": [
-        "Crime news",
-        "Telangana and Hyderabad developments"
+        "Crime news"
       ],
       "url_id": "url_000071"
     },
@@ -277,7 +274,7 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000077"
+        "occ_000079"
       ],
       "topic_ids": [
         "telangana_hyderabad"
@@ -288,37 +285,12 @@
       "url_id": "url_000073"
     },
     {
-      "canonical_url": "https://www.thehindu.com/news/cities/Hyderabad/immersion-procession-of-khairatabad-ganesh-idol-in-hyderabad-gets-delayed-start/article71506890.ece",
+      "canonical_url": "https://www.thehindu.com/news/national/telangana/congress-bjp-responsible-for-defections-in-country-brs/article71508318.ece",
       "domain": "www.thehindu.com",
       "feed_ids": [
-        "hindu_hyderabad",
         "hindu_telangana"
       ],
       "feed_names": [
-        "The Hindu Hyderabad",
-        "The Hindu Telangana"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000079"
-      ],
-      "topic_ids": [
-        "telangana_hyderabad"
-      ],
-      "topics": [
-        "Telangana and Hyderabad developments"
-      ],
-      "url_id": "url_000074"
-    },
-    {
-      "canonical_url": "https://www.thehindu.com/news/national/telangana/ed-summons-serilingampally-mla-arekapudi-gandhi-in-sahiti-infratec-money-laundering-probe/article71508219.ece",
-      "domain": "www.thehindu.com",
-      "feed_ids": [
-        "hindu_hyderabad",
-        "hindu_telangana"
-      ],
-      "feed_names": [
-        "The Hindu Hyderabad",
         "The Hindu Telangana"
       ],
       "occurrence_count": 1,
@@ -331,7 +303,7 @@
       "topics": [
         "Telangana and Hyderabad developments"
       ],
-      "url_id": "url_000075"
+      "url_id": "url_000074"
     },
     {
       "canonical_url": "https://www.thehindu.com/news/national/telangana/pranay-murder-case-convict-dies-after-complaining-of-chest-pain-in-cherlapally-jail/article71505605.ece",
@@ -354,22 +326,20 @@
       "topics": [
         "Crime news"
       ],
-      "url_id": "url_000076"
+      "url_id": "url_000075"
     },
     {
-      "canonical_url": "https://www.thehindu.com/news/national/telangana/telangana-congress-state-wide-protests-against-ecis-sir-handling-on-september-28/article71507356.ece",
+      "canonical_url": "https://www.thehindu.com/news/national/telangana/telangana-urges-mojs-to-expedite-drainage-congestion-studies-on-polavaram-at-frl/article71508513.ece",
       "domain": "www.thehindu.com",
       "feed_ids": [
-        "hindu_hyderabad",
         "hindu_telangana"
       ],
       "feed_names": [
-        "The Hindu Hyderabad",
         "The Hindu Telangana"
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000083"
+        "occ_000082"
       ],
       "topic_ids": [
         "telangana_hyderabad"
@@ -377,7 +347,49 @@
       "topics": [
         "Telangana and Hyderabad developments"
       ],
+      "url_id": "url_000076"
+    },
+    {
+      "canonical_url": "https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot",
+      "domain": "www.theverge.com",
+      "feed_ids": [
+        "verge"
+      ],
+      "feed_names": [
+        "The Verge"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000012"
+      ],
+      "topic_ids": [
+        "big_tech"
+      ],
+      "topics": [
+        "Major technology companies"
+      ],
       "url_id": "url_000077"
+    },
+    {
+      "canonical_url": "https://www.theverge.com/tech/1000321/apple-intelligence-home-security-camera-amazon-ring-alexa-google-nest-gemini-home-review",
+      "domain": "www.theverge.com",
+      "feed_ids": [
+        "verge"
+      ],
+      "feed_names": [
+        "The Verge"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000014"
+      ],
+      "topic_ids": [
+        "big_tech"
+      ],
+      "topics": [
+        "Major technology companies"
+      ],
+      "url_id": "url_000078"
     },
     {
       "canonical_url": "https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face",
@@ -398,7 +410,7 @@
       "topics": [
         "AI development and products"
       ],
-      "url_id": "url_000078"
+      "url_id": "url_000079"
     },
     {
       "canonical_url": "https://yourstory.com/2026/09/akamai-lands-116b-cloud-computing-deal-with-anthropic",
@@ -418,27 +430,6 @@
       ],
       "topics": [
         "AI development and products"
-      ],
-      "url_id": "url_000079"
-    },
-    {
-      "canonical_url": "https://yourstory.com/2026/09/mdr-on-upi-payments-above-rs-2000-will-not-be-passed-on-to-consumers-govt-sources",
-      "domain": "yourstory.com",
-      "feed_ids": [
-        "yourstory"
-      ],
-      "feed_names": [
-        "YourStory"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000024"
-      ],
-      "topic_ids": [
-        "credit_cards_payments"
-      ],
-      "topics": [
-        "Credit cards, rewards and payments"
       ],
       "url_id": "url_000080"
     }

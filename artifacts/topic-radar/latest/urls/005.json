@@ -2,6 +2,27 @@
   "record_count": 2,
   "records": [
     {
+      "canonical_url": "https://yourstory.com/2026/09/mdr-on-upi-payments-above-rs-2000-will-not-be-passed-on-to-consumers-govt-sources",
+      "domain": "yourstory.com",
+      "feed_ids": [
+        "yourstory"
+      ],
+      "feed_names": [
+        "YourStory"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000024"
+      ],
+      "topic_ids": [
+        "credit_cards_payments"
+      ],
+      "topics": [
+        "Credit cards, rewards and payments"
+      ],
+      "url_id": "url_000081"
+    },
+    {
       "canonical_url": "https://yourstory.com/2026/09/proposed-upi-merchant-discount-rate-not-a-tax-cess-or-surcharge-fm",
       "domain": "yourstory.com",
       "feed_ids": [
@@ -19,27 +40,6 @@
       ],
       "topics": [
         "Credit cards, rewards and payments"
-      ],
-      "url_id": "url_000081"
-    },
-    {
-      "canonical_url": "https://yourstory.com/2026/09/tender247-brings-anupam-kher-board-expand-access-indias-rs-70-lakh-cr-tender-market",
-      "domain": "yourstory.com",
-      "feed_ids": [
-        "yourstory"
-      ],
-      "feed_names": [
-        "YourStory"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000043"
-      ],
-      "topic_ids": [
-        "india_developments"
-      ],
-      "topics": [
-        "India developments"
       ],
       "url_id": "url_000082"
     }

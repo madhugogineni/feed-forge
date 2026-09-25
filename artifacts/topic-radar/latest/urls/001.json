@@ -12,7 +12,7 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000060"
+        "occ_000059"
       ],
       "topic_ids": [
         "music_apps"
@@ -21,27 +21,6 @@
         "Music and streaming apps"
       ],
       "url_id": "url_000001"
-    },
-    {
-      "canonical_url": "https://9to5google.com/2026/09/24/google-rolling-out-android-17-qpr2-beta-6-for-pixel",
-      "domain": "9to5google.com",
-      "feed_ids": [
-        "9to5google"
-      ],
-      "feed_names": [
-        "9to5Google"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000071"
-      ],
-      "topic_ids": [
-        "tech_software"
-      ],
-      "topics": [
-        "Technology, software and gadgets"
-      ],
-      "url_id": "url_000002"
     },
     {
       "canonical_url": "https://9to5google.com/2026/09/24/pixel-11-call-for-me",
@@ -62,28 +41,7 @@
       "topics": [
         "AI development and products"
       ],
-      "url_id": "url_000003"
-    },
-    {
-      "canonical_url": "https://9to5google.com/2026/09/24/pixel-weather-widget-refresh",
-      "domain": "9to5google.com",
-      "feed_ids": [
-        "9to5google"
-      ],
-      "feed_names": [
-        "9to5Google"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000073"
-      ],
-      "topic_ids": [
-        "tech_software"
-      ],
-      "topics": [
-        "Technology, software and gadgets"
-      ],
-      "url_id": "url_000004"
+      "url_id": "url_000002"
     },
     {
       "canonical_url": "https://9to5mac.com/2026/09/21/ios-27-2-reveals-new-features-coming-to-apple-music-carplay-more",
@@ -96,7 +54,7 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000063"
+        "occ_000062"
       ],
       "topic_ids": [
         "music_apps"
@@ -104,7 +62,7 @@
       "topics": [
         "Music and streaming apps"
       ],
-      "url_id": "url_000005"
+      "url_id": "url_000003"
     },
     {
       "canonical_url": "https://9to5mac.com/2026/09/22/apple-music-opens-new-live-music-venue-in-london",
@@ -117,7 +75,7 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000065"
+        "occ_000064"
       ],
       "topic_ids": [
         "music_apps"
@@ -125,7 +83,7 @@
       "topics": [
         "Music and streaming apps"
       ],
-      "url_id": "url_000006"
+      "url_id": "url_000004"
     },
     {
       "canonical_url": "https://9to5mac.com/2026/09/22/apple-working-on-whoop-style-screenless-fitness-tracker-per-report",
@@ -146,7 +104,7 @@
       "topics": [
         "Fitness and ergonomics"
       ],
-      "url_id": "url_000007"
+      "url_id": "url_000005"
     },
     {
       "canonical_url": "https://9to5mac.com/2026/09/22/daily-september-22-2026",
@@ -167,7 +125,7 @@
       "topics": [
         "Fitness and ergonomics"
       ],
-      "url_id": "url_000008"
+      "url_id": "url_000006"
     },
     {
       "canonical_url": "https://9to5mac.com/2026/09/22/phishing-simulations-for-the-ai-era",
@@ -188,7 +146,7 @@
       "topics": [
         "Consumer and digital safety"
       ],
-      "url_id": "url_000009"
+      "url_id": "url_000007"
     },
     {
       "canonical_url": "https://9to5mac.com/2026/09/23/apple-increases-interest-rate-for-apple-card-savings-account",
@@ -209,7 +167,7 @@
       "topics": [
         "Personal finance and investing"
       ],
-      "url_id": "url_000010"
+      "url_id": "url_000008"
     },
     {
       "canonical_url": "https://9to5mac.com/2026/09/24/apple-tv-reveals-new-series-with-hugh-laurie-as-organized-crime-boss",
@@ -230,7 +188,7 @@
       "topics": [
         "Crime news"
       ],
-      "url_id": "url_000011"
+      "url_id": "url_000009"
     },
     {
       "canonical_url": "https://9to5mac.com/2026/09/24/happy-hour-609",
@@ -251,6 +209,51 @@
       "topics": [
         "Fitness and ergonomics"
       ],
+      "url_id": "url_000010"
+    },
+    {
+      "canonical_url": "https://9to5mac.com/2026/09/25/airpods-just-got-a-long-requested-feature-in-new-update",
+      "domain": "9to5mac.com",
+      "feed_ids": [
+        "9to5mac"
+      ],
+      "feed_names": [
+        "9to5Mac"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000070"
+      ],
+      "topic_ids": [
+        "tech_software"
+      ],
+      "topics": [
+        "Technology, software and gadgets"
+      ],
+      "url_id": "url_000011"
+    },
+    {
+      "canonical_url": "https://9to5mac.com/2026/09/25/apple-wallet-in-ios-27-adds-feature-thats-been-on-my-wishlist-for-years",
+      "domain": "9to5mac.com",
+      "feed_ids": [
+        "9to5mac"
+      ],
+      "feed_names": [
+        "9to5Mac"
+      ],
+      "occurrence_count": 2,
+      "occurrence_ids": [
+        "occ_000013",
+        "occ_000073"
+      ],
+      "topic_ids": [
+        "big_tech",
+        "tech_software"
+      ],
+      "topics": [
+        "Major technology companies",
+        "Technology, software and gadgets"
+      ],
       "url_id": "url_000012"
     },
     {
@@ -264,7 +267,7 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000064"
+        "occ_000063"
       ],
       "topic_ids": [
         "music_apps"
@@ -296,6 +299,27 @@
       "url_id": "url_000014"
     },
     {
+      "canonical_url": "https://electrek.co/2026/09/25/tesla-semi-volume-production-launch-nevada-factory",
+      "domain": "electrek.co",
+      "feed_ids": [
+        "electrek"
+      ],
+      "feed_names": [
+        "Electrek"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000015"
+      ],
+      "topic_ids": [
+        "big_tech"
+      ],
+      "topics": [
+        "Major technology companies"
+      ],
+      "url_id": "url_000015"
+    },
+    {
       "canonical_url": "https://livefromalounge.com/air-india-explores-merging-air-india-express-into-the-main-airline-as-incoming-ceo-looks-to-cut-costs",
       "domain": "livefromalounge.com",
       "feed_ids": [
@@ -314,31 +338,10 @@
       "topics": [
         "Travel and lifestyle"
       ],
-      "url_id": "url_000015"
-    },
-    {
-      "canonical_url": "https://livefromalounge.com/priority-pass-is-finally-fixing-one-of-my-biggest-airport-lounge-access-gripes",
-      "domain": "livefromalounge.com",
-      "feed_ids": [
-        "livefromalounge"
-      ],
-      "feed_names": [
-        "Live from a Lounge"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000088"
-      ],
-      "topic_ids": [
-        "travel_lifestyle"
-      ],
-      "topics": [
-        "Travel and lifestyle"
-      ],
       "url_id": "url_000016"
     },
     {
-      "canonical_url": "https://livefromalounge.com/visa-power-travel-promotion-goes-global-earn-up-to-20-back-on-your-overseas-spends-on-a-visa-credit-debit-card-this-fall-autumn",
+      "canonical_url": "https://livefromalounge.com/priority-pass-is-finally-fixing-one-of-my-biggest-airport-lounge-access-gripes",
       "domain": "livefromalounge.com",
       "feed_ids": [
         "livefromalounge"
@@ -359,23 +362,23 @@
       "url_id": "url_000017"
     },
     {
-      "canonical_url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNYjVkN0tOR21Nbms5bHRabTNUYU0zQWU1WmpvV1ltQUVaaXBrbWJLbjBpSm1SZUl1ekg1OFZQSmNwZ1NDdzd5dm8yb04tUkpmLVA5SlNGWlB5UV9aMWxtZWhCSlBBUHBzQnRELTVfb0p2Vk0xYU9Kd2Jmd0tTLUhjeThiVGdaQXJCQ3pzdmY3NjhCY3cxcDJJcFNHY3cwZFRrNkpkSFE0eGhqa1JpSEIyZ21DMzdhMWhuM3FoNUswOTB4S3hTYm1BZjlWTU94M3N5d0l1NVcyYmtMN1hQZnFtbUdZNEJTUHB0R21JUTJqVXBfSEdJd3lHbXNB0gH6AUFVX3lxTE1iNWQ3S05HbU1uazlsdFptM1RhTTNBZTVaam9XWW1BRVppcGttYktuMGlKbVJlSXV6SDU4VlBKY3BnU0N3N3l2bzJvTi1SSmYtUDlKU0ZaUHlRX1oxbG1laEJKUEFQcHNCdEQtNV9vSnZWTTFhT0p3YmZ3S1MtSGN5OGJUZ1pBckJDenN2Zjc2OEJjdzFwMklwU0djdzBkVGs2SmRIUTR4aGprUmlIQjJnbUMzN2ExaG4zcWg1SzA5MHhLeFNibUFmOVZNT3gzc3l3SXU1VzJia0w3WFBmcW1tR1k0QlNQcHRHbUlRMmpVcF9IR0l3eUdtc0E?oc=5",
-      "domain": "news.google.com",
+      "canonical_url": "https://livefromalounge.com/visa-power-travel-promotion-goes-global-earn-up-to-20-back-on-your-overseas-spends-on-a-visa-credit-debit-card-this-fall-autumn",
+      "domain": "livefromalounge.com",
       "feed_ids": [
-        "google_news_digital_brands"
+        "livefromalounge"
       ],
       "feed_names": [
-        "Google News — Indian digital brands"
+        "Live from a Lounge"
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000052"
+        "occ_000086"
       ],
       "topic_ids": [
-        "indian_brands"
+        "travel_lifestyle"
       ],
       "topics": [
-        "Indian consumer brands and products"
+        "Travel and lifestyle"
       ],
       "url_id": "url_000018"
     },
@@ -401,7 +404,7 @@
       "url_id": "url_000019"
     },
     {
-      "canonical_url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxORndMRGlFb2gzcTdQSHA4VHJ6dnduTlVpMEdrcWZRc1VXVHdvT0tFMkwyR3BnQUl2bHAyWS1BOGtfcnd5U3BvLTJucVBFS2Z4RWl1bTM4YkNIeTQxOTVrdDJvcmJQRmlpdEI4d3BQRW5CUXlCM0ljWTgyVHUxQmlNN2RZX0NFTjhib1F5YW9zUlhPR0EySGU1NVI1WTRRdHN1di1fTTZ5THRyOWdLVDRlT2dtWUJ2QnJ2UkdRWUx2NWxiOEtfVUwxaTFwRTh1dXlYNmlIelRSMFVXRmlWb2pfdU50Tm5uODdOY3gwLS1B0gHuAUFVX3lxTE5Gd0xEaUVvaDNxN1BIcDhUcnp2d25OVWkwR2txZlFzVVdUd29PS0UyTDJHcGdBSXZscDJZLUE4a19yd3lTcG8tMm5xUEVLZnhFaXVtMzhiQ0h5NDE5NWt0Mm9yYlBGaWl0Qjh3cFBFbkJReUIzSWNZODJUdTFCaU03ZFlfQ0VOOGJvUXlhb3NSWE9HQTJIZTU1UjVZNFF0c3V2LV9NNnlMdHI5Z0tUNGVPZ21ZQnZCcnZSR1FZTHY1bGI4S19VTDFpMXBFOHV1eVg2aUh6VFIwVVdGaVZval91TnRObm44N05jeDAtLUE?oc=5",
+      "canonical_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQR1FOaExKSE5DN1R0SFpvckxYVmdJWW1kdHVTVWpwZ09vZnFpb0tPd0ZhdjFldUJOZmhVaWZ0dDFsZGxpTURLVkRZQnJRcl9waGFhaTdJMFY4Z09ubHBGRjNGM3FvcV83TDdaYUFwb01iQVlNZ3JpVDlSWDJKVVM0TGVxRW9FZjkwbU1Wa2taX3dxZGFXTW4xTENZcU9kcWJZMGNUd0lkM3A4THdIRGt1LWlkUy1pTk1Ib01HcVROV1lFSDJUMmdzZlRTRlJIbjRhbWdGUXZVc2M?oc=5",
       "domain": "news.google.com",
       "feed_ids": [
         "google_news_digital_brands"
@@ -409,18 +412,15 @@
       "feed_names": [
         "Google News — Indian digital brands"
       ],
-      "occurrence_count": 2,
+      "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000015",
-        "occ_000058"
+        "occ_000052"
       ],
       "topic_ids": [
-        "big_tech",
         "indian_brands"
       ],
       "topics": [
-        "Indian consumer brands and products",
-        "Major technology companies"
+        "Indian consumer brands and products"
       ],
       "url_id": "url_000020"
     }

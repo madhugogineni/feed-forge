@@ -200,29 +200,29 @@
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://www.medianama.com/2026/09/223-whats-new-made-on-youtube-2026",
-      "feed_id": "medianama",
+      "canonical_url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNbHRFSVAtRml3QlhuUUluVzgxM1Q2SzVXSHNvUVE5ZVpuZUg5djBRa29vLWxHd1NGeXRyRkdUdUlwNWUyYU1SOGk3eEtzbVZaMTNRMUlrQU9IcjM1OWI5VTdDUEFESk1SZUxKT1p3clNUS0ZQRlNJZFlXb3QtS1ZuaWthWFdTNnJCbHJKUHRzZnNZRTVuYWp5ZmVRVkN2a2p1ZEFTN3NNNjJGQVBIUDI5SDJ0ZFBhWkJzeTZXZzhzcmp3X1Jvd3NuTnhnZkwweUFYNjh6V1VDUHZKeFRhRXB3X2h4ekwxYVdh0gHuAUFVX3lxTE5Gd0xEaUVvaDNxN1BIcDhUcnp2d25OVWkwR2txZlFzVVdUd29PS0UyTDJHcGdBSXZscDJZLUE4a19yd3lTcG8tMm5xUEVLZnhFaXVtMzhiQ0h5NDE5NWt0Mm9yYlBGaWl0Qjh3cFBFbkJReUIzSWNZODJUdTFCaU03ZFlfQ0VOOGJvUXlhb3NSWE9HQTJIZTU1UjVZNFF0c3V2LV9NNnlMdHI5Z0tUNGVPZ21ZQnZCcnZSR1FZTHY1bGI4S19VTDFpMXBFOHV1eVg2aUh6VFIwVVdGaVZval91TnRObm44N05jeDAtLUE?oc=5",
+      "feed_id": "google_news_digital_brands",
       "feed_ids": [
-        "medianama"
+        "google_news_digital_brands"
       ],
-      "feed_name": "MediaNama",
+      "feed_name": "Google News — Indian digital brands",
       "feed_names": [
-        "MediaNama"
+        "Google News — Indian digital brands"
       ],
       "matched_terms": [
-        "YouTube"
+        "Amazon"
       ],
       "occurrence_id": "occ_000010",
-      "original_url": "https://www.medianama.com/2026/09/223-whats-new-made-on-youtube-2026",
-      "pipeline_item_id": "17301651ea8cc0f4",
-      "published_at": "2026-09-25T09:33:10Z",
-      "title": "What’s new from Made on YouTube 2026?",
+      "original_url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNbHRFSVAtRml3QlhuUUluVzgxM1Q2SzVXSHNvUVE5ZVpuZUg5djBRa29vLWxHd1NGeXRyRkdUdUlwNWUyYU1SOGk3eEtzbVZaMTNRMUlrQU9IcjM1OWI5VTdDUEFESk1SZUxKT1p3clNUS0ZQRlNJZFlXb3QtS1ZuaWthWFdTNnJCbHJKUHRzZnNZRTVuYWp5ZmVRVkN2a2p1ZEFTN3NNNjJGQVBIUDI5SDJ0ZFBhWkJzeTZXZzhzcmp3X1Jvd3NuTnhnZkwweUFYNjh6V1VDUHZKeFRhRXB3X2h4ekwxYVdh0gHuAUFVX3lxTE5Gd0xEaUVvaDNxN1BIcDhUcnp2d25OVWkwR2txZlFzVVdUd29PS0UyTDJHcGdBSXZscDJZLUE4a19yd3lTcG8tMm5xUEVLZnhFaXVtMzhiQ0h5NDE5NWt0Mm9yYlBGaWl0Qjh3cFBFbkJReUIzSWNZODJUdTFCaU03ZFlfQ0VOOGJvUXlhb3NSWE9HQTJIZTU1UjVZNFF0c3V2LV9NNnlMdHI5Z0tUNGVPZ21ZQnZCcnZSR1FZTHY1bGI4S19VTDFpMXBFOHV1eVg2aUh6VFIwVVdGaVZval91TnRObm44N05jeDAtLUE?oc=5",
+      "pipeline_item_id": "277b4fc4a3281267",
+      "published_at": "2026-09-25T09:35:12Z",
+      "title": "FSSAI Initiates Penal Action Against Amazon, Flipkart, Swiggy Instamart, BigBasket & Zepto Over Food... - LawBeat",
       "topic": "Major technology companies",
       "topic_id": "big_tech",
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://www.androidauthority.com/google-create-my-widget-play-store-listing-3715354",
+      "canonical_url": "https://www.androidauthority.com/google-messages-long-press-menu-stable-rollout-3715514",
       "feed_id": "android_authority",
       "feed_ids": [
         "android_authority"
@@ -235,32 +235,100 @@
         "Google"
       ],
       "occurrence_id": "occ_000011",
-      "original_url": "https://www.androidauthority.com/google-create-my-widget-play-store-listing-3715354",
-      "pipeline_item_id": "4ea372a6662994a7",
-      "published_at": "2026-09-25T07:12:06Z",
-      "title": "This is how Google’s ‘Create My Widget’ app will work on Android and Googlebook OS",
+      "original_url": "https://www.androidauthority.com/google-messages-long-press-menu-stable-rollout-3715514",
+      "pipeline_item_id": "978417b55f310c53",
+      "published_at": "2026-09-25T13:27:21Z",
+      "title": "Google Messages’ handy new long-press menu is finally rolling out widely",
       "topic": "Major technology companies",
       "topic_id": "big_tech",
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://www.androidauthority.com/oneplus-16-led-lights-embarrassing-3715122",
-      "feed_id": "android_authority",
+      "canonical_url": "https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot",
+      "feed_id": "verge",
       "feed_ids": [
-        "android_authority"
+        "verge"
       ],
-      "feed_name": "Android Authority",
+      "feed_name": "The Verge",
       "feed_names": [
-        "Android Authority"
+        "The Verge"
       ],
       "matched_terms": [
-        "OnePlus"
+        "Microsoft"
       ],
       "occurrence_id": "occ_000012",
-      "original_url": "https://www.androidauthority.com/oneplus-16-led-lights-embarrassing-3715122",
-      "pipeline_item_id": "b9ab9da250b7536d",
-      "published_at": "2026-09-25T09:00:07Z",
-      "title": "The OnePlus 16’s coolest feature is also its most embarrassing",
+      "original_url": "https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot",
+      "pipeline_item_id": "ab39be4845514124",
+      "published_at": "2026-09-25T12:00:00Z",
+      "title": "Microsoft thinks its new Copilot ‘super app’ will be as influential as Office",
+      "topic": "Major technology companies",
+      "topic_id": "big_tech",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://9to5mac.com/2026/09/25/apple-wallet-in-ios-27-adds-feature-thats-been-on-my-wishlist-for-years",
+      "feed_id": "9to5mac",
+      "feed_ids": [
+        "9to5mac"
+      ],
+      "feed_name": "9to5Mac",
+      "feed_names": [
+        "9to5Mac"
+      ],
+      "matched_terms": [
+        "Apple"
+      ],
+      "occurrence_id": "occ_000013",
+      "original_url": "https://9to5mac.com/2026/09/25/apple-wallet-in-ios-27-adds-feature-thats-been-on-my-wishlist-for-years",
+      "pipeline_item_id": "bf05dd1cd1b98d27",
+      "published_at": "2026-09-25T13:10:12Z",
+      "title": "Apple Wallet in iOS 27 adds feature that’s been on my wishlist for years",
+      "topic": "Major technology companies",
+      "topic_id": "big_tech",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://www.theverge.com/tech/1000321/apple-intelligence-home-security-camera-amazon-ring-alexa-google-nest-gemini-home-review",
+      "feed_id": "verge",
+      "feed_ids": [
+        "verge"
+      ],
+      "feed_name": "The Verge",
+      "feed_names": [
+        "The Verge"
+      ],
+      "matched_terms": [
+        "Amazon",
+        "Apple",
+        "Google"
+      ],
+      "occurrence_id": "occ_000014",
+      "original_url": "https://www.theverge.com/tech/1000321/apple-intelligence-home-security-camera-amazon-ring-alexa-google-nest-gemini-home-review",
+      "pipeline_item_id": "c58ed3cc3208b882",
+      "published_at": "2026-09-25T13:00:00Z",
+      "title": "Can Apple Home’s AI camera features outsmart Amazon’s and Google’s? I put them to the test",
+      "topic": "Major technology companies",
+      "topic_id": "big_tech",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://electrek.co/2026/09/25/tesla-semi-volume-production-launch-nevada-factory",
+      "feed_id": "electrek",
+      "feed_ids": [
+        "electrek"
+      ],
+      "feed_name": "Electrek",
+      "feed_names": [
+        "Electrek"
+      ],
+      "matched_terms": [
+        "Tesla"
+      ],
+      "occurrence_id": "occ_000015",
+      "original_url": "https://electrek.co/2026/09/25/tesla-semi-volume-production-launch-nevada-factory",
+      "pipeline_item_id": "d11c500113cb4e72",
+      "published_at": "2026-09-25T12:31:37Z",
+      "title": "Tesla Semi finally enters volume production, 7 years behind schedule",
       "topic": "Major technology companies",
       "topic_id": "big_tech",
       "topic_lane": "review"
@@ -278,77 +346,11 @@
       "matched_terms": [
         "Google"
       ],
-      "occurrence_id": "occ_000013",
+      "occurrence_id": "occ_000016",
       "original_url": "https://www.medianama.com/2026/09/223-pine-labs-agentic-commerce-merchants",
       "pipeline_item_id": "d326ed9d2dea877f",
       "published_at": "2026-09-25T09:46:05Z",
       "title": "Pine Labs, Google Cloud partner to expand agentic commerce to merchants",
-      "topic": "Major technology companies",
-      "topic_id": "big_tech",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://www.androidauthority.com/google-photos-redact-moods-remix-wide-rollout-3715348",
-      "feed_id": "android_authority",
-      "feed_ids": [
-        "android_authority"
-      ],
-      "feed_name": "Android Authority",
-      "feed_names": [
-        "Android Authority"
-      ],
-      "matched_terms": [
-        "Google"
-      ],
-      "occurrence_id": "occ_000014",
-      "original_url": "https://www.androidauthority.com/google-photos-redact-moods-remix-wide-rollout-3715348",
-      "pipeline_item_id": "d54cc174f0ffa7a6",
-      "published_at": "2026-09-25T07:19:03Z",
-      "title": "These Google Photos features are now available to even more users",
-      "topic": "Major technology companies",
-      "topic_id": "big_tech",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxORndMRGlFb2gzcTdQSHA4VHJ6dnduTlVpMEdrcWZRc1VXVHdvT0tFMkwyR3BnQUl2bHAyWS1BOGtfcnd5U3BvLTJucVBFS2Z4RWl1bTM4YkNIeTQxOTVrdDJvcmJQRmlpdEI4d3BQRW5CUXlCM0ljWTgyVHUxQmlNN2RZX0NFTjhib1F5YW9zUlhPR0EySGU1NVI1WTRRdHN1di1fTTZ5THRyOWdLVDRlT2dtWUJ2QnJ2UkdRWUx2NWxiOEtfVUwxaTFwRTh1dXlYNmlIelRSMFVXRmlWb2pfdU50Tm5uODdOY3gwLS1B0gHuAUFVX3lxTE5Gd0xEaUVvaDNxN1BIcDhUcnp2d25OVWkwR2txZlFzVVdUd29PS0UyTDJHcGdBSXZscDJZLUE4a19yd3lTcG8tMm5xUEVLZnhFaXVtMzhiQ0h5NDE5NWt0Mm9yYlBGaWl0Qjh3cFBFbkJReUIzSWNZODJUdTFCaU03ZFlfQ0VOOGJvUXlhb3NSWE9HQTJIZTU1UjVZNFF0c3V2LV9NNnlMdHI5Z0tUNGVPZ21ZQnZCcnZSR1FZTHY1bGI4S19VTDFpMXBFOHV1eVg2aUh6VFIwVVdGaVZval91TnRObm44N05jeDAtLUE?oc=5",
-      "feed_id": "google_news_digital_brands",
-      "feed_ids": [
-        "google_news_digital_brands"
-      ],
-      "feed_name": "Google News — Indian digital brands",
-      "feed_names": [
-        "Google News — Indian digital brands"
-      ],
-      "matched_terms": [
-        "Amazon"
-      ],
-      "occurrence_id": "occ_000015",
-      "original_url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxORndMRGlFb2gzcTdQSHA4VHJ6dnduTlVpMEdrcWZRc1VXVHdvT0tFMkwyR3BnQUl2bHAyWS1BOGtfcnd5U3BvLTJucVBFS2Z4RWl1bTM4YkNIeTQxOTVrdDJvcmJQRmlpdEI4d3BQRW5CUXlCM0ljWTgyVHUxQmlNN2RZX0NFTjhib1F5YW9zUlhPR0EySGU1NVI1WTRRdHN1di1fTTZ5THRyOWdLVDRlT2dtWUJ2QnJ2UkdRWUx2NWxiOEtfVUwxaTFwRTh1dXlYNmlIelRSMFVXRmlWb2pfdU50Tm5uODdOY3gwLS1B0gHuAUFVX3lxTE5Gd0xEaUVvaDNxN1BIcDhUcnp2d25OVWkwR2txZlFzVVdUd29PS0UyTDJHcGdBSXZscDJZLUE4a19yd3lTcG8tMm5xUEVLZnhFaXVtMzhiQ0h5NDE5NWt0Mm9yYlBGaWl0Qjh3cFBFbkJReUIzSWNZODJUdTFCaU03ZFlfQ0VOOGJvUXlhb3NSWE9HQTJIZTU1UjVZNFF0c3V2LV9NNnlMdHI5Z0tUNGVPZ21ZQnZCcnZSR1FZTHY1bGI4S19VTDFpMXBFOHV1eVg2aUh6VFIwVVdGaVZval91TnRObm44N05jeDAtLUE?oc=5",
-      "pipeline_item_id": "e38688cbba64fa72",
-      "published_at": "2026-09-25T09:35:12Z",
-      "title": "FSSAI Initiates Penal Action Against Amazon, Flipkart, Swiggy Instamart, BigBasket & Zepto Over Food... - LawBeat",
-      "topic": "Major technology companies",
-      "topic_id": "big_tech",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://www.medianama.com/2026/09/223-jio-opposes-trais-network-slicing",
-      "feed_id": "medianama",
-      "feed_ids": [
-        "medianama"
-      ],
-      "feed_name": "MediaNama",
-      "feed_names": [
-        "MediaNama"
-      ],
-      "matched_terms": [
-        "Jio"
-      ],
-      "occurrence_id": "occ_000016",
-      "original_url": "https://www.medianama.com/2026/09/223-jio-opposes-trais-network-slicing",
-      "pipeline_item_id": "e48196e21a291681",
-      "published_at": "2026-09-25T07:19:16Z",
-      "title": "Jio opposes TRAI’s 80% network slicing threshold, says it could trigger false congestion alerts",
       "topic": "Major technology companies",
       "topic_id": "big_tech",
       "topic_lane": "review"
