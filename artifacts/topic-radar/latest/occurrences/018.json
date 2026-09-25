@@ -1,51 +1,6 @@
 {
-  "record_count": 3,
+  "record_count": 1,
   "records": [
-    {
-      "canonical_url": "https://livefromalounge.com/visa-power-travel-promotion-goes-global-earn-up-to-20-back-on-your-overseas-spends-on-a-visa-credit-debit-card-this-fall-autumn",
-      "feed_id": "livefromalounge",
-      "feed_ids": [
-        "livefromalounge"
-      ],
-      "feed_name": "Live from a Lounge",
-      "feed_names": [
-        "Live from a Lounge"
-      ],
-      "matched_terms": [
-        "travel",
-        "visa"
-      ],
-      "occurrence_id": "occ_000086",
-      "original_url": "https://livefromalounge.com/visa-power-travel-promotion-goes-global-earn-up-to-20-back-on-your-overseas-spends-on-a-visa-credit-debit-card-this-fall-autumn",
-      "pipeline_item_id": "c2df250673788d6f",
-      "published_at": "2026-09-24T15:23:20Z",
-      "title": "Visa Power Travel Promotion goes Global: Earn Up to 20% Back on Your Overseas Spends on a Visa Credit / Debit Card This Fall / Autumn",
-      "topic": "Travel and lifestyle",
-      "topic_id": "travel_lifestyle",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://livefromalounge.com/priority-pass-is-finally-fixing-one-of-my-biggest-airport-lounge-access-gripes",
-      "feed_id": "livefromalounge",
-      "feed_ids": [
-        "livefromalounge"
-      ],
-      "feed_name": "Live from a Lounge",
-      "feed_names": [
-        "Live from a Lounge"
-      ],
-      "matched_terms": [
-        "airport"
-      ],
-      "occurrence_id": "occ_000087",
-      "original_url": "https://livefromalounge.com/priority-pass-is-finally-fixing-one-of-my-biggest-airport-lounge-access-gripes",
-      "pipeline_item_id": "c35b0daa1c78e8fe",
-      "published_at": "2026-09-21T15:50:43Z",
-      "title": "Priority Pass+ Is Finally Fixing One of My Biggest Airport Lounge Access Gripes",
-      "topic": "Travel and lifestyle",
-      "topic_id": "travel_lifestyle",
-      "topic_lane": "review"
-    },
     {
       "canonical_url": "https://telanganatoday.com/mahadev-betting-case-cbi-arrests-key-suspect-at-hyderabad-airport-after-arrival-from-dubai",
       "feed_id": "telangana_today",
@@ -59,7 +14,7 @@
       "matched_terms": [
         "airport"
       ],
-      "occurrence_id": "occ_000088",
+      "occurrence_id": "occ_000086",
       "original_url": "https://telanganatoday.com/mahadev-betting-case-cbi-arrests-key-suspect-at-hyderabad-airport-after-arrival-from-dubai",
       "pipeline_item_id": "dffc405eb85c5795",
       "published_at": "2026-09-24T16:24:39Z",

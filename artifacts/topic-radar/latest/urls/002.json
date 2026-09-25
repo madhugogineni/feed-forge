@@ -2,6 +2,27 @@
   "record_count": 5,
   "records": [
     {
+      "canonical_url": "https://9to5mac.com/2026/09/22/apple-working-on-whoop-style-screenless-fitness-tracker-per-report",
+      "domain": "9to5mac.com",
+      "feed_ids": [
+        "9to5mac"
+      ],
+      "feed_names": [
+        "9to5Mac"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000041"
+      ],
+      "topic_ids": [
+        "fitness_ergonomics"
+      ],
+      "topics": [
+        "Fitness and ergonomics"
+      ],
+      "url_id": "url_000006"
+    },
+    {
       "canonical_url": "https://9to5mac.com/2026/09/22/daily-september-22-2026",
       "domain": "9to5mac.com",
       "feed_ids": [
@@ -20,7 +41,7 @@
       "topics": [
         "Fitness and ergonomics"
       ],
-      "url_id": "url_000006"
+      "url_id": "url_000007"
     },
     {
       "canonical_url": "https://9to5mac.com/2026/09/22/phishing-simulations-for-the-ai-era",
@@ -41,7 +62,7 @@
       "topics": [
         "Consumer and digital safety"
       ],
-      "url_id": "url_000007"
+      "url_id": "url_000008"
     },
     {
       "canonical_url": "https://9to5mac.com/2026/09/23/apple-increases-interest-rate-for-apple-card-savings-account",
@@ -54,7 +75,7 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000067"
+        "occ_000066"
       ],
       "topic_ids": [
         "personal_finance"
@@ -62,31 +83,10 @@
       "topics": [
         "Personal finance and investing"
       ],
-      "url_id": "url_000008"
-    },
-    {
-      "canonical_url": "https://9to5mac.com/2026/09/24/apple-tv-reveals-new-series-with-hugh-laurie-as-organized-crime-boss",
-      "domain": "9to5mac.com",
-      "feed_ids": [
-        "9to5mac"
-      ],
-      "feed_names": [
-        "9to5Mac"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000031"
-      ],
-      "topic_ids": [
-        "crime"
-      ],
-      "topics": [
-        "Crime news"
-      ],
       "url_id": "url_000009"
     },
     {
-      "canonical_url": "https://9to5mac.com/2026/09/24/happy-hour-609",
+      "canonical_url": "https://9to5mac.com/2026/09/24/adobe-expands-creative-tool-access-to-google-gemini-brings-acrobat-to-claude",
       "domain": "9to5mac.com",
       "feed_ids": [
         "9to5mac"
@@ -96,13 +96,13 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000039"
+        "occ_000005"
       ],
       "topic_ids": [
-        "fitness_ergonomics"
+        "ai_development"
       ],
       "topics": [
-        "Fitness and ergonomics"
+        "AI development and products"
       ],
       "url_id": "url_000010"
     }

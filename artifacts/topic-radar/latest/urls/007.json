@@ -2,34 +2,13 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMVhqUGFEbWpfRHpHNnFTNnZUZV9XRTY0YW9wUXVSdWVOdlNwOXU5ZUNjMDNOV0Fua1h3Y2NCSjUyclRCWV94bFJfSkJmanh6M0J3VkJfdkhzcFVDcF9pRGlCTWJLNEJXUVIzd1NTLXFILUFfbVdOTi12Z29rcGFjRXZZdFRjVzNBLW1sVUR4RUVicW91cW9kZ2V2Z2FFSkN0a2dLY2ZBNUtYdWdjbmFWLXliWTNRNVk1b1N6dmV5aGhrNUp40gHMAUFVX3lxTE1nSTRnZFhHTjlMdWdIMUI2VGlEbE1Pd1ZIN3JXSUczZnM0VUhrNEQwbjRRYmdKWVVoTmx2dGhJSU9KQ3E2eXoyR25oR0ZORzdCQnlaZ1IxMmQtRThnSUFOeHI5TWVzRFBiMzdRdk1RM0x3MGFzVkY0QkFhckV2YkhoQzRUNWdfemtiQVdwX1pBNDVCamZxc3pDd0lNbzBxLWFnRXIwU09wd1BvWHV4bkEtcDdRVWNjbnUzTEpkUl9fUnQzbFVyZGwzdTUycg?oc=5",
+      "canonical_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNLU8xaXZpUEFMMkozTVRlTjlibkVLOThKc3dwdWVfbFBOYUxpYTFUTFViR1RCOTNRSzVrTmhod0ZtVGN2WmRhRVhyWUtOS0JoM2pHaE81YUY0Y05BNTlRX0gxNkNzNnFQX3JIa0lHZEJEX1JQMlRKVUNMMjRZSUlmNHRoTTEyQjdiY2Y2SjBJUXlzVzQ0NTNoVHgxZkpudko3bVhIbUpzWdIBrgFBVV95cUxOaXdvMlBta0FySFRzVldLY2RUeDItcEJUVHdyUmxVYkF6QzQ2bG4xSkNaRlFaVUUyTnUtT1BTOExxdlNEcmN5cjhYT0dHYlUwSkZaSzFhcXp6SE56dUp6SDlqZkdVNHppa21VcGNaWGxCSE84aTV4bE44YWxONjhfdVgxNERKOFF3WFFtTUJjUjJiemhWOXNfWkgzV2ZnSlZERXFlaGJiODh4ZS0zclE?oc=5",
       "domain": "news.google.com",
       "feed_ids": [
-        "google_news_credit_cards"
+        "google_news_device_brands"
       ],
       "feed_names": [
-        "Google News — Indian credit cards"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000021"
-      ],
-      "topic_ids": [
-        "credit_cards_payments"
-      ],
-      "topics": [
-        "Credit cards, rewards and payments"
-      ],
-      "url_id": "url_000031"
-    },
-    {
-      "canonical_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOWGZZTGtxMks3MWxqLVN2R2JTcVNLYWlmNThNWjUtaFV3S0VzT05wMFJMQmUwTmVHY1RYS3oyQlVCVm1RS3BGOXJhX2FGaXRVLVhEQmtjTnZqU1JRV25kNWlVWDN4VEVkYndwU3dIRHJCeDJ6TFpOLW5oV0poVU9jYkxuMVBSSDZqQmFkeFBMbmtmNjJlOHRaN3owZzJEblFmcWMwaWpHRlZUTTNOWDRiVlRmb09FdkNEZFZ5N1Rtc0xfdk9y?oc=5",
-      "domain": "news.google.com",
-      "feed_ids": [
-        "google_news_home_brands"
-      ],
-      "feed_names": [
-        "Google News — Indian home brands"
+        "Google News — Indian device brands"
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
@@ -41,16 +20,79 @@
       "topics": [
         "Indian consumer brands and products"
       ],
-      "url_id": "url_000032"
+      "url_id": "url_000031"
     },
     {
-      "canonical_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPc2lycXpXOFZqbE9NSXpoSkdaZVdOMjJnaVdPYmdFbUpKLWRaeDFvRzhsdmMxSmt1THpETmNxd2lBZVlXN1BwTjU4VUlBVDlQa2YwRVlvdnFSdlVnbkpMOTEySzlqS003Mmh6blZ1R3Fja293Wk9ZZHZvUXMxN1JLcjJQWVAtZFEtdWh6d0hFX0ZjRHVGSTdvbWNnaHVMN0xkVUlqajZnR1ZLa1dCTzAzNzRvY3pYem1kdDU0aDZjLXBtOGxpTHfSAcsBQVVfeXFMTWt5eHJ3WWVMcGxyWGFVRDE1RVVNLVlEdENUN1FTMzJaRTJCRlJyNk8tbFI4c3pOY3pQUFNDN2tGOUhGakdxOFA2RzV5T28zenY5Zy1QSEhROWNxNHktdFNoTXZzNUp1RFlrOWtXNGF5bkJJNTZhdk13QnNlTFdOb2ZLRG5WejcwLUVBTm1vSnBLeEJkNXRGZFpyYkxoWjNhbEtzVHRIZVJCMkhWWV91ejhaZTI5RDNrbzdtSXZadkN0LUpaajFEWE50T2c?oc=5",
+      "canonical_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRFdnalg2Mmg4dlcyLU1mTHVVWmtZWHh2ZXFZR3hzR1FlY1Y5S3REMHF5ZTYwT09zMTQ2SHpvZDdIekF3V0NhcXd2cElnQm56bDlBd1ExMEo2MFVnX1pkTzZyRjJUU1lGM3B0RU02TUtha25FclJuZTU4NTROOWg5VjZqdWFIU1JYN3hNS0tnbzF3U2VUMkY1dkdHekdyQXBHTDlQbkNhbktVdw?oc=5",
       "domain": "news.google.com",
       "feed_ids": [
         "google_news_device_brands"
       ],
       "feed_names": [
         "Google News — Indian device brands"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000042"
+      ],
+      "topic_ids": [
+        "india_developments"
+      ],
+      "topics": [
+        "India developments"
+      ],
+      "url_id": "url_000032"
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNS0h4cm93MmR3VFhUMWVOV2VzelJLQ3hRSnpLZzFKWDQyV1pIVGZyeS1VZmtiNTAzZUszV09lLVNlZmhGX1ZTXzFnenJUM0lNTUl0MnFDUU5HbUdTZlk1Q0FPZjI2ektiUmRWRVlKT1c1UV94akpBbnBfeEhOTTZPN0UxUjQxT3o5MFFESTRVaTNiNDJwa0w3cjd5SGtZaVE2MWpIZjgtb0EzTkJx?oc=5",
+      "domain": "news.google.com",
+      "feed_ids": [
+        "google_news_consumer_brands"
+      ],
+      "feed_names": [
+        "Google News — Indian consumer brands"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000035"
+      ],
+      "topic_ids": [
+        "fitness_ergonomics"
+      ],
+      "topics": [
+        "Fitness and ergonomics"
+      ],
+      "url_id": "url_000033"
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbktnRWpmNVhKbmpxTHdwMlNnWVI1YTNaSjNDcFJTNjU4aFNsZ0FDa0ZvUkFDY2xyLWtnMC0xRXFESFFUQ3puc3JSeXA5b3VZdkczbUxtMzg0M0JQRHo2ZDBnZzRhd3FUdkZjRTBLWXlCMHVjT2o1NHMwN0ZxZVVwcHdLSkZweGZlN0xTT005bUwzdzFKaDFBU1BQTDczZnJmelBSSkRKM2dIbjhXMnZvVm9FV3M?oc=5",
+      "domain": "news.google.com",
+      "feed_ids": [
+        "google_news_device_brands"
+      ],
+      "feed_names": [
+        "Google News — Indian device brands"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000065"
+      ],
+      "topic_ids": [
+        "personal_finance"
+      ],
+      "topics": [
+        "Personal finance and investing"
+      ],
+      "url_id": "url_000034"
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbHVGX3ZBTm50am53X0pJbHdOWjQ0QXpHbHRzOFZBd0ltd0ZDRW9XNGxHSDJrWHpvTUdmSDd3RHo3b1F5cGtadkY2VC02VXhUQ2t4VUtCdG5kX1VZZGNmcERQWkpSQl9JcG44SzgtUk40TkhlMTE3dDkwTVRkam56MS1QdlFHVlRNMFNRb0szaGRYUXdfcU5oSjN5eHFQMkVoakxKRmtVM0FkOWlIc0RoU1MxSS04bmsz?oc=5",
+      "domain": "news.google.com",
+      "feed_ids": [
+        "google_news_digital_brands"
+      ],
+      "feed_names": [
+        "Google News — Indian digital brands"
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
@@ -61,48 +103,6 @@
       ],
       "topics": [
         "Indian consumer brands and products"
-      ],
-      "url_id": "url_000033"
-    },
-    {
-      "canonical_url": "https://telanganatoday.com/air-india-suspends-pilot-after-failing-breath-analyser-test-at-zurich-airport",
-      "domain": "telanganatoday.com",
-      "feed_ids": [
-        "telangana_today"
-      ],
-      "feed_names": [
-        "Telangana Today"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000085"
-      ],
-      "topic_ids": [
-        "travel_lifestyle"
-      ],
-      "topics": [
-        "Travel and lifestyle"
-      ],
-      "url_id": "url_000034"
-    },
-    {
-      "canonical_url": "https://telanganatoday.com/anahat-abhay-join-joshna-in-assuring-india-three-squash-medals-at-asian-games",
-      "domain": "telanganatoday.com",
-      "feed_ids": [
-        "telangana_today"
-      ],
-      "feed_names": [
-        "Telangana Today"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000045"
-      ],
-      "topic_ids": [
-        "india_developments"
-      ],
-      "topics": [
-        "India developments"
       ],
       "url_id": "url_000035"
     }

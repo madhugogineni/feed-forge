@@ -24,28 +24,6 @@
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://9to5mac.com/2026/09/21/ios-27-2-reveals-new-features-coming-to-apple-music-carplay-more",
-      "feed_id": "9to5mac",
-      "feed_ids": [
-        "9to5mac"
-      ],
-      "feed_name": "9to5Mac",
-      "feed_names": [
-        "9to5Mac"
-      ],
-      "matched_terms": [
-        "Apple Music"
-      ],
-      "occurrence_id": "occ_000062",
-      "original_url": "https://9to5mac.com/2026/09/21/ios-27-2-reveals-new-features-coming-to-apple-music-carplay-more",
-      "pipeline_item_id": "7e6153a51fd7b9f8",
-      "published_at": "2026-09-21T19:01:12Z",
-      "title": "iOS 27.2 reveals new features coming to Apple Music, CarPlay, more",
-      "topic": "Music and streaming apps",
-      "topic_id": "music_apps",
-      "topic_lane": "review"
-    },
-    {
       "canonical_url": "https://blog.google/intl/en-in/products/platforms/press-play-on-these-new-youtube-music-updates",
       "feed_id": "google_india",
       "feed_ids": [
@@ -58,7 +36,7 @@
       "matched_terms": [
         "YouTube Music"
       ],
-      "occurrence_id": "occ_000063",
+      "occurrence_id": "occ_000062",
       "original_url": "https://blog.google/intl/en-in/products/platforms/press-play-on-these-new-youtube-music-updates",
       "pipeline_item_id": "aff2d027629de3fe",
       "published_at": "2026-09-23T14:30:00Z",
@@ -80,7 +58,7 @@
       "matched_terms": [
         "Apple Music"
       ],
-      "occurrence_id": "occ_000064",
+      "occurrence_id": "occ_000063",
       "original_url": "https://9to5mac.com/2026/09/22/apple-music-opens-new-live-music-venue-in-london",
       "pipeline_item_id": "c34b8250b585d412",
       "published_at": "2026-09-22T07:51:30Z",
@@ -102,13 +80,35 @@
       "matched_terms": [
         "Spotify"
       ],
-      "occurrence_id": "occ_000065",
+      "occurrence_id": "occ_000064",
       "original_url": "https://www.androidauthority.com/spotify-meta-muse-integration-3714958",
       "pipeline_item_id": "f7be5e24607ea455",
       "published_at": "2026-09-24T10:17:56Z",
       "title": "Spotify just gave Meta Muse the keys to your music",
       "topic": "Music and streaming apps",
       "topic_id": "music_apps",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbktnRWpmNVhKbmpxTHdwMlNnWVI1YTNaSjNDcFJTNjU4aFNsZ0FDa0ZvUkFDY2xyLWtnMC0xRXFESFFUQ3puc3JSeXA5b3VZdkczbUxtMzg0M0JQRHo2ZDBnZzRhd3FUdkZjRTBLWXlCMHVjT2o1NHMwN0ZxZVVwcHdLSkZweGZlN0xTT005bUwzdzFKaDFBU1BQTDczZnJmelBSSkRKM2dIbjhXMnZvVm9FV3M?oc=5",
+      "feed_id": "google_news_device_brands",
+      "feed_ids": [
+        "google_news_device_brands"
+      ],
+      "feed_name": "Google News — Indian device brands",
+      "feed_names": [
+        "Google News — Indian device brands"
+      ],
+      "matched_terms": [
+        "investing"
+      ],
+      "occurrence_id": "occ_000065",
+      "original_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbktnRWpmNVhKbmpxTHdwMlNnWVI1YTNaSjNDcFJTNjU4aFNsZ0FDa0ZvUkFDY2xyLWtnMC0xRXFESFFUQ3puc3JSeXA5b3VZdkczbUxtMzg0M0JQRHo2ZDBnZzRhd3FUdkZjRTBLWXlCMHVjT2o1NHMwN0ZxZVVwcHdLSkZweGZlN0xTT005bUwzdzFKaDFBU1BQTDczZnJmelBSSkRKM2dIbjhXMnZvVm9FV3M?oc=5",
+      "pipeline_item_id": "a12e2d0090c57abc",
+      "published_at": "2026-09-25T12:30:36Z",
+      "title": "Form 4 Mastercraft Boat Holdings Inc For: 25 September - Investing.com India",
+      "topic": "Personal finance and investing",
+      "topic_id": "personal_finance",
       "topic_lane": "review"
     }
   ],

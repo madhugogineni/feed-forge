@@ -2,23 +2,23 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://www.medianama.com/2026/09/223-pine-labs-agentic-commerce-merchants",
-      "feed_id": "medianama",
+      "canonical_url": "https://9to5mac.com/2026/09/25/ultraloq-bolt-mission",
+      "feed_id": "9to5mac",
       "feed_ids": [
-        "medianama"
+        "9to5mac"
       ],
-      "feed_name": "MediaNama",
+      "feed_name": "9to5Mac",
       "feed_names": [
-        "MediaNama"
+        "9to5Mac"
       ],
       "matched_terms": [
-        "Google"
+        "Apple"
       ],
       "occurrence_id": "occ_000016",
-      "original_url": "https://www.medianama.com/2026/09/223-pine-labs-agentic-commerce-merchants",
-      "pipeline_item_id": "d326ed9d2dea877f",
-      "published_at": "2026-09-25T09:46:05Z",
-      "title": "Pine Labs, Google Cloud partner to expand agentic commerce to merchants",
+      "original_url": "https://9to5mac.com/2026/09/25/ultraloq-bolt-mission",
+      "pipeline_item_id": "d044dd2da12d2312",
+      "published_at": "2026-09-25T15:00:00Z",
+      "title": "HomeKit Weekly: ULTRALOQ releases its first UWB smart lock that works with Apple Home",
       "topic": "Major technology companies",
       "topic_id": "big_tech",
       "topic_lane": "review"
@@ -106,7 +106,7 @@
       "original_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPV2JsYTMzbmtwNl9CZXY0czBzRWpCWXcxNFZPcGlrQ1BkVm13X2lRVjZ0a3F6LVA5aHBfbkZnRzZtZk54ZjJiWHpvMlVTLXlOcnMwa2NQX2N6aDJOektWR05nU2doYm5wQVlYRVAwV1o2VUt5bmVkQ0xBWnpWd2dDRXVPS0EzNzAxQlo1RjR4c2lzWTIzT3B1S1o2SmpmaVdzVjJCeWtyWVd2bVdIWm5pdXhlcmdvMVFlY0Q1TnRqZFBiQTdBNmFJc2tpUkZmT1pE?oc=5",
       "pipeline_item_id": "3687e0c267b259f4",
       "published_at": "2026-09-25T07:06:00Z",
-      "title": "Credit cards lose share in India’s rapidly growing digital payments pie: Jefferies - ANI News",
+      "title": "Credit cards lose share in India’s rapidly growing digital payments pie: Jefferies - aninews.in",
       "topic": "Credit cards, rewards and payments",
       "topic_id": "credit_cards_payments",
       "topic_lane": "review"

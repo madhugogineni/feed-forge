@@ -2,29 +2,29 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://telanganatoday.com/junior-national-football-telangana-held-by-goa-in-1-1-draw",
-      "feed_id": "telangana_today",
+      "canonical_url": "https://www.thehindu.com/news/national/telangana/teachers-protest-against-go-25-seek-reduction-in-workload/article71509665.ece",
+      "feed_id": "hindu_telangana",
       "feed_ids": [
-        "telangana_today"
+        "hindu_telangana"
       ],
-      "feed_name": "Telangana Today",
+      "feed_name": "The Hindu Telangana",
       "feed_names": [
-        "Telangana Today"
+        "The Hindu Telangana"
       ],
       "matched_terms": [
-        "Telangana"
+        "source:hindu_telangana"
       ],
       "occurrence_id": "occ_000076",
-      "original_url": "https://telanganatoday.com/junior-national-football-telangana-held-by-goa-in-1-1-draw",
-      "pipeline_item_id": "08a482847ce2fe3c",
-      "published_at": "2026-09-25T12:16:35Z",
-      "title": "Junior National Football: Telangana held by Goa in 1-1 draw",
+      "original_url": "https://www.thehindu.com/news/national/telangana/teachers-protest-against-go-25-seek-reduction-in-workload/article71509665.ece",
+      "pipeline_item_id": "5aaf521f5a196ddc",
+      "published_at": "2026-09-25T15:42:00Z",
+      "title": "Teachers protest against GO 25, seek reduction in workload",
       "topic": "Telangana and Hyderabad developments",
       "topic_id": "telangana_hyderabad",
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://telanganatoday.com/harish-rao-urges-telangana-government-to-use-godavari-floodwater-to-fill-reservoirs",
+      "canonical_url": "https://telanganatoday.com/hyderabad-police-monitor-ganesh-idol-immersion-from-command-and-control-centre",
       "feed_id": "telangana_today",
       "feed_ids": [
         "telangana_today"
@@ -34,19 +34,19 @@
         "Telangana Today"
       ],
       "matched_terms": [
-        "Telangana"
+        "Hyderabad"
       ],
       "occurrence_id": "occ_000077",
-      "original_url": "https://telanganatoday.com/harish-rao-urges-telangana-government-to-use-godavari-floodwater-to-fill-reservoirs",
-      "pipeline_item_id": "0ec3b58365f89980",
-      "published_at": "2026-09-25T12:23:11Z",
-      "title": "Harish Rao urges Telangana government to use Godavari floodwater to fill reservoirs",
+      "original_url": "https://telanganatoday.com/hyderabad-police-monitor-ganesh-idol-immersion-from-command-and-control-centre",
+      "pipeline_item_id": "86a30eba9d775ed6",
+      "published_at": "2026-09-25T14:54:54Z",
+      "title": "Hyderabad Police monitor Ganesh idol immersion from Command and Control Centre",
       "topic": "Telangana and Hyderabad developments",
       "topic_id": "telangana_hyderabad",
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://telanganatoday.com/elephant-herd-movement-triggers-panic-along-maharashtra-telangana-border",
+      "canonical_url": "https://telanganatoday.com/ganesh-bids-adieu-amid-drums-dances-and-devotion-in-hyderabad",
       "feed_id": "telangana_today",
       "feed_ids": [
         "telangana_today"
@@ -56,19 +56,41 @@
         "Telangana Today"
       ],
       "matched_terms": [
-        "Telangana"
+        "Hyderabad"
       ],
       "occurrence_id": "occ_000078",
-      "original_url": "https://telanganatoday.com/elephant-herd-movement-triggers-panic-along-maharashtra-telangana-border",
-      "pipeline_item_id": "26a8f41c66f4f7a8",
-      "published_at": "2026-09-25T12:34:21Z",
-      "title": "Elephant herd movement triggers panic along Maharashtra-Telangana border",
+      "original_url": "https://telanganatoday.com/ganesh-bids-adieu-amid-drums-dances-and-devotion-in-hyderabad",
+      "pipeline_item_id": "a5f20dc7e11e8fd8",
+      "published_at": "2026-09-25T15:06:38Z",
+      "title": "Ganesh bids adieu amid drums, dances and devotion in Hyderabad",
       "topic": "Telangana and Hyderabad developments",
       "topic_id": "telangana_hyderabad",
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://www.thehindu.com/news/cities/Hyderabad/ganesh-visarjan-hyderabad-khairatabad-ganesh-immersion-procession-begins-traffic-curbs-in-the-city-live-updates-september-25-2026/article71506992.ece",
+      "canonical_url": "https://www.thehindu.com/news/national/telangana/revanth-says-fight-for-india-is-between-gandhi-parivar-and-sangh-parivar/article71509596.ece",
+      "feed_id": "hindu_telangana",
+      "feed_ids": [
+        "hindu_telangana"
+      ],
+      "feed_name": "The Hindu Telangana",
+      "feed_names": [
+        "The Hindu Telangana"
+      ],
+      "matched_terms": [
+        "source:hindu_telangana"
+      ],
+      "occurrence_id": "occ_000079",
+      "original_url": "https://www.thehindu.com/news/national/telangana/revanth-says-fight-for-india-is-between-gandhi-parivar-and-sangh-parivar/article71509596.ece",
+      "pipeline_item_id": "aa9a4b5b2e728248",
+      "published_at": "2026-09-25T16:01:05Z",
+      "title": "Revanth says fight for India is between ‘Gandhi Parivar and Sangh Parivar’",
+      "topic": "Telangana and Hyderabad developments",
+      "topic_id": "telangana_hyderabad",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://www.thehindu.com/news/cities/Hyderabad/ganesh-idols-take-over-hyderabads-roads-charminar-and-hussainsagar/article71509042.ece",
       "feed_id": "hindu_hyderabad",
       "feed_ids": [
         "hindu_hyderabad",
@@ -80,36 +102,15 @@
         "The Hindu Telangana"
       ],
       "matched_terms": [
+        "Hyderabad",
         "source:hindu_hyderabad",
         "source:hindu_telangana"
       ],
-      "occurrence_id": "occ_000079",
-      "original_url": "https://www.thehindu.com/news/cities/Hyderabad/ganesh-visarjan-hyderabad-khairatabad-ganesh-immersion-procession-begins-traffic-curbs-in-the-city-live-updates-september-25-2026/article71506992.ece",
-      "pipeline_item_id": "4801d9d8e53d2ff2",
-      "published_at": "2026-09-25T12:37:31Z",
-      "title": "Ganesh immersion 2026 highlights: Khairatabad Ganesh idol immersion concludes",
-      "topic": "Telangana and Hyderabad developments",
-      "topic_id": "telangana_hyderabad",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://telanganatoday.com/junior-chess-players-to-compete-in-telangana-state-ranking-tournament",
-      "feed_id": "telangana_today",
-      "feed_ids": [
-        "telangana_today"
-      ],
-      "feed_name": "Telangana Today",
-      "feed_names": [
-        "Telangana Today"
-      ],
-      "matched_terms": [
-        "Telangana"
-      ],
       "occurrence_id": "occ_000080",
-      "original_url": "https://telanganatoday.com/junior-chess-players-to-compete-in-telangana-state-ranking-tournament",
-      "pipeline_item_id": "598127cac75fb922",
-      "published_at": "2026-09-25T12:20:56Z",
-      "title": "Junior chess players to compete in Telangana state-ranking tournament",
+      "original_url": "https://www.thehindu.com/news/cities/Hyderabad/ganesh-idols-take-over-hyderabads-roads-charminar-and-hussainsagar/article71509042.ece",
+      "pipeline_item_id": "b1e76f6f7c828de7",
+      "published_at": "2026-09-25T14:58:14Z",
+      "title": "Ganesh idols take over Hyderabad’s roads, Charminar and Hussainsagar",
       "topic": "Telangana and Hyderabad developments",
       "topic_id": "telangana_hyderabad",
       "topic_lane": "review"

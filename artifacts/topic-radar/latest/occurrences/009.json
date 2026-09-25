@@ -24,29 +24,29 @@
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://www.medianama.com/2026/09/223-youtube-likeness-detection-voices-clones",
-      "feed_id": "medianama",
+      "canonical_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRFdnalg2Mmg4dlcyLU1mTHVVWmtZWHh2ZXFZR3hzR1FlY1Y5S3REMHF5ZTYwT09zMTQ2SHpvZDdIekF3V0NhcXd2cElnQm56bDlBd1ExMEo2MFVnX1pkTzZyRjJUU1lGM3B0RU02TUtha25FclJuZTU4NTROOWg5VjZqdWFIU1JYN3hNS0tnbzF3U2VUMkY1dkdHekdyQXBHTDlQbkNhbktVdw?oc=5",
+      "feed_id": "google_news_device_brands",
       "feed_ids": [
-        "medianama"
+        "google_news_device_brands"
       ],
-      "feed_name": "MediaNama",
+      "feed_name": "Google News — Indian device brands",
       "feed_names": [
-        "MediaNama"
+        "Google News — Indian device brands"
       ],
       "matched_terms": [
-        "Indian"
+        "Bharat"
       ],
       "occurrence_id": "occ_000042",
-      "original_url": "https://www.medianama.com/2026/09/223-youtube-likeness-detection-voices-clones",
-      "pipeline_item_id": "0f0f41f238dd1b33",
-      "published_at": "2026-09-25T10:56:18Z",
-      "title": "YouTube expands likeness detection to voices as Indian courts target AI voice clones",
+      "original_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRFdnalg2Mmg4dlcyLU1mTHVVWmtZWHh2ZXFZR3hzR1FlY1Y5S3REMHF5ZTYwT09zMTQ2SHpvZDdIekF3V0NhcXd2cElnQm56bDlBd1ExMEo2MFVnX1pkTzZyRjJUU1lGM3B0RU02TUtha25FclJuZTU4NTROOWg5VjZqdWFIU1JYN3hNS0tnbzF3U2VUMkY1dkdHekdyQXBHTDlQbkNhbktVdw?oc=5",
+      "pipeline_item_id": "007de3758d3a40c6",
+      "published_at": "2026-09-25T14:51:37Z",
+      "title": "Joe Jonas looks back at 'terrifying' boat incident on his vacation - FM Bharat",
       "topic": "India developments",
       "topic_id": "india_developments",
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://telanganatoday.com/lg-electronics-india-receives-show-cause-notice-over-rs-153-58-cr-customs-duty",
+      "canonical_url": "https://telanganatoday.com/india-win-shooting-gold-as-gulveer-takes-10000m-silver-at-asian-games",
       "feed_id": "telangana_today",
       "feed_ids": [
         "telangana_today"
@@ -59,16 +59,16 @@
         "India"
       ],
       "occurrence_id": "occ_000043",
-      "original_url": "https://telanganatoday.com/lg-electronics-india-receives-show-cause-notice-over-rs-153-58-cr-customs-duty",
-      "pipeline_item_id": "4bfa1b35694cae1c",
-      "published_at": "2026-09-25T12:29:53Z",
-      "title": "LG Electronics India receives show-cause notice over Rs 153.58-cr customs duty",
+      "original_url": "https://telanganatoday.com/india-win-shooting-gold-as-gulveer-takes-10000m-silver-at-asian-games",
+      "pipeline_item_id": "283ceb43c653e816",
+      "published_at": "2026-09-25T14:52:42Z",
+      "title": "India win shooting gold as Gulveer takes 10,000m silver at Asian Games",
       "topic": "India developments",
       "topic_id": "india_developments",
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://telanganatoday.com/gulveer-singh-bags-silver-becomes-first-indian-to-win-two-10000m-medals",
+      "canonical_url": "https://telanganatoday.com/opinion-rethink-indias-health-universities",
       "feed_id": "telangana_today",
       "feed_ids": [
         "telangana_today"
@@ -78,19 +78,19 @@
         "Telangana Today"
       ],
       "matched_terms": [
-        "Indian"
+        "India"
       ],
       "occurrence_id": "occ_000044",
-      "original_url": "https://telanganatoday.com/gulveer-singh-bags-silver-becomes-first-indian-to-win-two-10000m-medals",
-      "pipeline_item_id": "56cee09853ec845a",
-      "published_at": "2026-09-25T12:52:21Z",
-      "title": "Gulveer Singh bags silver, becomes first Indian to win two 10,000m medals",
+      "original_url": "https://telanganatoday.com/opinion-rethink-indias-health-universities",
+      "pipeline_item_id": "6f0317047cc88618",
+      "published_at": "2026-09-25T15:40:49Z",
+      "title": "Opinion: Rethink India’s Health Universities",
       "topic": "India developments",
       "topic_id": "india_developments",
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://telanganatoday.com/anahat-abhay-join-joshna-in-assuring-india-three-squash-medals-at-asian-games",
+      "canonical_url": "https://telanganatoday.com/morkel-backs-nitish-to-develop-into-key-all-rounder-for-india",
       "feed_id": "telangana_today",
       "feed_ids": [
         "telangana_today"
@@ -103,10 +103,10 @@
         "India"
       ],
       "occurrence_id": "occ_000045",
-      "original_url": "https://telanganatoday.com/anahat-abhay-join-joshna-in-assuring-india-three-squash-medals-at-asian-games",
-      "pipeline_item_id": "645f17c8e6cc897e",
-      "published_at": "2026-09-25T11:05:14Z",
-      "title": "Anahat, Abhay join Joshna in assuring India three squash medals at Asian Games",
+      "original_url": "https://telanganatoday.com/morkel-backs-nitish-to-develop-into-key-all-rounder-for-india",
+      "pipeline_item_id": "96a1d91e70ac4570",
+      "published_at": "2026-09-25T14:30:15Z",
+      "title": "Morkel backs Nitish to develop into key all-rounder for India",
       "topic": "India developments",
       "topic_id": "india_developments",
       "topic_lane": "review"

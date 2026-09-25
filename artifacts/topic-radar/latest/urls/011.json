@@ -2,6 +2,92 @@
   "record_count": 5,
   "records": [
     {
+      "canonical_url": "https://telanganatoday.com/opinion-from-encounters-to-custodial-deaths-is-india-finding-new-ways-to-hide-extrajudicial-killings",
+      "domain": "telanganatoday.com",
+      "feed_ids": [
+        "telangana_today",
+        "telangana_today_crime"
+      ],
+      "feed_names": [
+        "Telangana Today",
+        "Telangana Today Crime"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000033"
+      ],
+      "topic_ids": [
+        "crime"
+      ],
+      "topics": [
+        "Crime news"
+      ],
+      "url_id": "url_000051"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/opinion-rethink-indias-health-universities",
+      "domain": "telanganatoday.com",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000044"
+      ],
+      "topic_ids": [
+        "india_developments"
+      ],
+      "topics": [
+        "India developments"
+      ],
+      "url_id": "url_000052"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/pregnant-samantha-ruth-prabhu-shares-glimpse-of-workout-routine-strong-till-the-very-end",
+      "domain": "telanganatoday.com",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000038"
+      ],
+      "topic_ids": [
+        "fitness_ergonomics"
+      ],
+      "topics": [
+        "Fitness and ergonomics"
+      ],
+      "url_id": "url_000053"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/russo-brothers-recall-robert-downey-jr-chris-evans-final-days-on-avengers-endgame",
+      "domain": "telanganatoday.com",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000018"
+      ],
+      "topic_ids": [
+        "consumer_safety"
+      ],
+      "topics": [
+        "Consumer and digital safety"
+      ],
+      "url_id": "url_000054"
+    },
+    {
       "canonical_url": "https://telanganatoday.com/sangareddy-miscreants-kill-75-year-old-woman-flee-with-jewellery",
       "domain": "telanganatoday.com",
       "feed_ids": [
@@ -19,90 +105,6 @@
       ],
       "topics": [
         "Crime news"
-      ],
-      "url_id": "url_000051"
-    },
-    {
-      "canonical_url": "https://telanganatoday.com/sc-asks-bar-council-of-india-to-clarify-stand-on-age-limit-for-five-year-law-courses",
-      "domain": "telanganatoday.com",
-      "feed_ids": [
-        "telangana_today"
-      ],
-      "feed_names": [
-        "Telangana Today"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000048"
-      ],
-      "topic_ids": [
-        "india_developments"
-      ],
-      "topics": [
-        "India developments"
-      ],
-      "url_id": "url_000052"
-    },
-    {
-      "canonical_url": "https://telanganatoday.com/telanganas-el-nino-contingency-plan-comes-under-scanner-amid-water-power-woes",
-      "domain": "telanganatoday.com",
-      "feed_ids": [
-        "telangana_today"
-      ],
-      "feed_names": [
-        "Telangana Today"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000083"
-      ],
-      "topic_ids": [
-        "telangana_hyderabad"
-      ],
-      "topics": [
-        "Telangana and Hyderabad developments"
-      ],
-      "url_id": "url_000053"
-    },
-    {
-      "canonical_url": "https://telanganatoday.com/upi-mdr-is-not-a-tax-or-surcharge-says-nirmala-sitharaman",
-      "domain": "telanganatoday.com",
-      "feed_ids": [
-        "telangana_today"
-      ],
-      "feed_names": [
-        "Telangana Today"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000025"
-      ],
-      "topic_ids": [
-        "credit_cards_payments"
-      ],
-      "topics": [
-        "Credit cards, rewards and payments"
-      ],
-      "url_id": "url_000054"
-    },
-    {
-      "canonical_url": "https://www.androidauthority.com/android-copy-apple-iphone-steel-case-battery-3715505",
-      "domain": "www.androidauthority.com",
-      "feed_ids": [
-        "android_authority"
-      ],
-      "feed_names": [
-        "Android Authority"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000072"
-      ],
-      "topic_ids": [
-        "tech_software"
-      ],
-      "topics": [
-        "Technology, software and gadgets"
       ],
       "url_id": "url_000055"
     }

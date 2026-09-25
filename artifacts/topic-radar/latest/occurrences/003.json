@@ -2,7 +2,51 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://www.androidauthority.com/google-messages-long-press-menu-stable-rollout-3715514",
+      "canonical_url": "https://9to5google.com/2026/09/25/microsoft-quietly-ending-copilot-pc-branding-for-windows-laptops",
+      "feed_id": "9to5google",
+      "feed_ids": [
+        "9to5google"
+      ],
+      "feed_name": "9to5Google",
+      "feed_names": [
+        "9to5Google"
+      ],
+      "matched_terms": [
+        "Microsoft"
+      ],
+      "occurrence_id": "occ_000011",
+      "original_url": "https://9to5google.com/2026/09/25/microsoft-quietly-ending-copilot-pc-branding-for-windows-laptops",
+      "pipeline_item_id": "5fafe5d3839ead51",
+      "published_at": "2026-09-25T15:35:00Z",
+      "title": "Microsoft quietly ending ‘Copilot+ PC’ branding for Windows laptops",
+      "topic": "Major technology companies",
+      "topic_id": "big_tech",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://www.androidauthority.com/fire-hd-8-kids-pro-deal-3715675",
+      "feed_id": "android_authority",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_name": "Android Authority",
+      "feed_names": [
+        "Android Authority"
+      ],
+      "matched_terms": [
+        "Amazon"
+      ],
+      "occurrence_id": "occ_000012",
+      "original_url": "https://www.androidauthority.com/fire-hd-8-kids-pro-deal-3715675",
+      "pipeline_item_id": "6d0ab429de02ec2b",
+      "published_at": "2026-09-25T15:54:17Z",
+      "title": "Amazon drops the Fire HD 8 Kids Pro to a record-low $89.99",
+      "topic": "Major technology companies",
+      "topic_id": "big_tech",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://www.androidauthority.com/google-photos-options-unresponsive-3715622",
       "feed_id": "android_authority",
       "feed_ids": [
         "android_authority"
@@ -14,85 +58,39 @@
       "matched_terms": [
         "Google"
       ],
-      "occurrence_id": "occ_000011",
-      "original_url": "https://www.androidauthority.com/google-messages-long-press-menu-stable-rollout-3715514",
-      "pipeline_item_id": "978417b55f310c53",
-      "published_at": "2026-09-25T13:27:21Z",
-      "title": "Google Messages’ handy new long-press menu is finally rolling out widely",
-      "topic": "Major technology companies",
-      "topic_id": "big_tech",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot",
-      "feed_id": "verge",
-      "feed_ids": [
-        "verge"
-      ],
-      "feed_name": "The Verge",
-      "feed_names": [
-        "The Verge"
-      ],
-      "matched_terms": [
-        "Microsoft"
-      ],
-      "occurrence_id": "occ_000012",
-      "original_url": "https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot",
-      "pipeline_item_id": "ab39be4845514124",
-      "published_at": "2026-09-25T12:00:00Z",
-      "title": "Microsoft thinks its new Copilot ‘super app’ will be as influential as Office",
-      "topic": "Major technology companies",
-      "topic_id": "big_tech",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://9to5mac.com/2026/09/25/apple-wallet-in-ios-27-adds-feature-thats-been-on-my-wishlist-for-years",
-      "feed_id": "9to5mac",
-      "feed_ids": [
-        "9to5mac"
-      ],
-      "feed_name": "9to5Mac",
-      "feed_names": [
-        "9to5Mac"
-      ],
-      "matched_terms": [
-        "Apple"
-      ],
       "occurrence_id": "occ_000013",
-      "original_url": "https://9to5mac.com/2026/09/25/apple-wallet-in-ios-27-adds-feature-thats-been-on-my-wishlist-for-years",
-      "pipeline_item_id": "bf05dd1cd1b98d27",
-      "published_at": "2026-09-25T13:10:12Z",
-      "title": "Apple Wallet in iOS 27 adds feature that’s been on my wishlist for years",
+      "original_url": "https://www.androidauthority.com/google-photos-options-unresponsive-3715622",
+      "pipeline_item_id": "a028fa43f5b661bc",
+      "published_at": "2026-09-25T15:54:36Z",
+      "title": "A Google Photos bug is preventing users from sharing, editing, and deleting pictures",
       "topic": "Major technology companies",
       "topic_id": "big_tech",
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://www.theverge.com/tech/1000321/apple-intelligence-home-security-camera-amazon-ring-alexa-google-nest-gemini-home-review",
-      "feed_id": "verge",
+      "canonical_url": "https://www.androidauthority.com/snapseed-collage-tool-preview-apk-teardown-3715478",
+      "feed_id": "android_authority",
       "feed_ids": [
-        "verge"
+        "android_authority"
       ],
-      "feed_name": "The Verge",
+      "feed_name": "Android Authority",
       "feed_names": [
-        "The Verge"
+        "Android Authority"
       ],
       "matched_terms": [
-        "Amazon",
-        "Apple",
         "Google"
       ],
       "occurrence_id": "occ_000014",
-      "original_url": "https://www.theverge.com/tech/1000321/apple-intelligence-home-security-camera-amazon-ring-alexa-google-nest-gemini-home-review",
-      "pipeline_item_id": "c58ed3cc3208b882",
-      "published_at": "2026-09-25T13:00:00Z",
-      "title": "Can Apple Home’s AI camera features outsmart Amazon’s and Google’s? I put them to the test",
+      "original_url": "https://www.androidauthority.com/snapseed-collage-tool-preview-apk-teardown-3715478",
+      "pipeline_item_id": "a386e18d9d2ea2eb",
+      "published_at": "2026-09-25T14:51:27Z",
+      "title": "First look: This upcoming Snapseed tool could leave Google Photos in the dust",
       "topic": "Major technology companies",
       "topic_id": "big_tech",
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://electrek.co/2026/09/25/tesla-semi-volume-production-launch-nevada-factory",
+      "canonical_url": "https://electrek.co/2026/09/25/tesla-optimus-production-ramp-hands-ai-generalization-problems",
       "feed_id": "electrek",
       "feed_ids": [
         "electrek"
@@ -105,10 +103,10 @@
         "Tesla"
       ],
       "occurrence_id": "occ_000015",
-      "original_url": "https://electrek.co/2026/09/25/tesla-semi-volume-production-launch-nevada-factory",
-      "pipeline_item_id": "d11c500113cb4e72",
-      "published_at": "2026-09-25T12:31:37Z",
-      "title": "Tesla Semi finally enters volume production, 7 years behind schedule",
+      "original_url": "https://electrek.co/2026/09/25/tesla-optimus-production-ramp-hands-ai-generalization-problems",
+      "pipeline_item_id": "c3745df1a4b49ca6",
+      "published_at": "2026-09-25T14:45:34Z",
+      "title": "Tesla ramps Optimus to hundreds a week, but the robots can’t generalize",
       "topic": "Major technology companies",
       "topic_id": "big_tech",
       "topic_lane": "review"

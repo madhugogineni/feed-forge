@@ -2,29 +2,7 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOWGZZTGtxMks3MWxqLVN2R2JTcVNLYWlmNThNWjUtaFV3S0VzT05wMFJMQmUwTmVHY1RYS3oyQlVCVm1RS3BGOXJhX2FGaXRVLVhEQmtjTnZqU1JRV25kNWlVWDN4VEVkYndwU3dIRHJCeDJ6TFpOLW5oV0poVU9jYkxuMVBSSDZqQmFkeFBMbmtmNjJlOHRaN3owZzJEblFmcWMwaWpHRlZUTTNOWDRiVlRmb09FdkNEZFZ5N1Rtc0xfdk9y?oc=5",
-      "feed_id": "google_news_home_brands",
-      "feed_ids": [
-        "google_news_home_brands"
-      ],
-      "feed_name": "Google News — Indian home brands",
-      "feed_names": [
-        "Google News — Indian home brands"
-      ],
-      "matched_terms": [
-        "Wakefit"
-      ],
-      "occurrence_id": "occ_000056",
-      "original_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOWGZZTGtxMks3MWxqLVN2R2JTcVNLYWlmNThNWjUtaFV3S0VzT05wMFJMQmUwTmVHY1RYS3oyQlVCVm1RS3BGOXJhX2FGaXRVLVhEQmtjTnZqU1JRV25kNWlVWDN4VEVkYndwU3dIRHJCeDJ6TFpOLW5oV0poVU9jYkxuMVBSSDZqQmFkeFBMbmtmNjJlOHRaN3owZzJEblFmcWMwaWpHRlZUTTNOWDRiVlRmb09FdkNEZFZ5N1Rtc0xfdk9y?oc=5",
-      "pipeline_item_id": "94ccf62681c90dd0",
-      "published_at": "2026-09-24T14:02:59Z",
-      "title": "Wakefit Innovations senior management personnel Kunal Chandel resigns - scanx.trade",
-      "topic": "Indian consumer brands and products",
-      "topic_id": "indian_brands",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQOFgtbFZkZ09aRURYUVkxSjhFa2M0LU5JWG5tQmhpOU5oUmxXZEhqck03cjhSTDI0ekRrRWR2Tm91alBqQ3psM19CeFdxOW9aZHZtcGR0UnFuQldhOTNVWXFDUVRmclhRRzlBRF9kUGhDVjMtTW1iZlk2ZndJQk5iWnE1SXk4Y19Tbm9hUHRCNEtfeVVqUXVNNjFxRjNsYndOUXNMOW45MGFKX1p6NWlzdFhsSmNOWkhrUUlyRlpHNkR6Vk9lMi1pZ0xjbHByM0tYVEo1ekY4cWd6NEpVV0JfalRGUnB4VUhjaXdHXzRlVFZVaTTSAfgBQVVfeXFMUFd0YURtSU9JTmdwZTdpYklyQTBSMWwwd1dQSzI1Q2RFYjN2TFUwQVRNNDhwaXlIdDQ4UjFSYm5tc2tBOWQtQjRBTFR2WEIzalB1VlA0Um5JQXJ6Um5MeGs0a0JMRFpMc0lodlhQNmRPZDBzaVlvLUJBYXZvUWJQenpQSGJiS2ZPeUo5ZThpZzdkcFBUVTh6Q2pTTkZra2QyS2oxVHBCVjhBRnhtUzFuV0RSbmFmd2xYazAxaVNCdVIxM0dLVmNSNjk3dnVDa1NWcHdxMExDQV9zY0UxdTZxZGJCaEd1N3UwZFNsMU9MY1pMR05ReWFwVVQ?oc=5",
+      "canonical_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNLU8xaXZpUEFMMkozTVRlTjlibkVLOThKc3dwdWVfbFBOYUxpYTFUTFViR1RCOTNRSzVrTmhod0ZtVGN2WmRhRVhyWUtOS0JoM2pHaE81YUY0Y05BNTlRX0gxNkNzNnFQX3JIa0lHZEJEX1JQMlRKVUNMMjRZSUlmNHRoTTEyQjdiY2Y2SjBJUXlzVzQ0NTNoVHgxZkpudko3bVhIbUpzWdIBrgFBVV95cUxOaXdvMlBta0FySFRzVldLY2RUeDItcEJUVHdyUmxVYkF6QzQ2bG4xSkNaRlFaVUUyTnUtT1BTOExxdlNEcmN5cjhYT0dHYlUwSkZaSzFhcXp6SE56dUp6SDlqZkdVNHppa21VcGNaWGxCSE84aTV4bE44YWxONjhfdVgxNERKOFF3WFFtTUJjUjJiemhWOXNfWkgzV2ZnSlZERXFlaGJiODh4ZS0zclE?oc=5",
       "feed_id": "google_news_device_brands",
       "feed_ids": [
         "google_news_device_brands"
@@ -34,13 +12,35 @@
         "Google News — Indian device brands"
       ],
       "matched_terms": [
-        "Ola Electric"
+        "Ather"
+      ],
+      "occurrence_id": "occ_000056",
+      "original_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNLU8xaXZpUEFMMkozTVRlTjlibkVLOThKc3dwdWVfbFBOYUxpYTFUTFViR1RCOTNRSzVrTmhod0ZtVGN2WmRhRVhyWUtOS0JoM2pHaE81YUY0Y05BNTlRX0gxNkNzNnFQX3JIa0lHZEJEX1JQMlRKVUNMMjRZSUlmNHRoTTEyQjdiY2Y2SjBJUXlzVzQ0NTNoVHgxZkpudko3bVhIbUpzWdIBrgFBVV95cUxOaXdvMlBta0FySFRzVldLY2RUeDItcEJUVHdyUmxVYkF6QzQ2bG4xSkNaRlFaVUUyTnUtT1BTOExxdlNEcmN5cjhYT0dHYlUwSkZaSzFhcXp6SE56dUp6SDlqZkdVNHppa21VcGNaWGxCSE84aTV4bE44YWxONjhfdVgxNERKOFF3WFFtTUJjUjJiemhWOXNfWkgzV2ZnSlZERXFlaGJiODh4ZS0zclE?oc=5",
+      "pipeline_item_id": "b5c632082ec07933",
+      "published_at": "2026-09-25T15:50:10Z",
+      "title": "Ather Energy to push for more exports - BusinessLine",
+      "topic": "Indian consumer brands and products",
+      "topic_id": "indian_brands",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPOWlhYjdBdjlabmhSYkxaVWJud1dFM19iWDRZUXFpZWNLUy1yU0FtcjBTa05xQVhJaTVzQzNtenN3eFFhZmQtal8yNm5SdkRHdHJpc1dpTXdkejdEVGxObXYyZ19CTmppdXpVUHNUN091Zi1UUXB5SWZaMkM5el9JZXBObXVWSDhmR3QzQklWd3dJZVBLZWU2TXhOQVB3T254eE5TdTBXN01fNXdPem9lZjlrZmZLU0RWNlA5dVVSVQ?oc=5",
+      "feed_id": "google_news_digital_brands",
+      "feed_ids": [
+        "google_news_digital_brands"
+      ],
+      "feed_name": "Google News — Indian digital brands",
+      "feed_names": [
+        "Google News — Indian digital brands"
+      ],
+      "matched_terms": [
+        "Urban Company"
       ],
       "occurrence_id": "occ_000057",
-      "original_url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQOFgtbFZkZ09aRURYUVkxSjhFa2M0LU5JWG5tQmhpOU5oUmxXZEhqck03cjhSTDI0ekRrRWR2Tm91alBqQ3psM19CeFdxOW9aZHZtcGR0UnFuQldhOTNVWXFDUVRmclhRRzlBRF9kUGhDVjMtTW1iZlk2ZndJQk5iWnE1SXk4Y19Tbm9hUHRCNEtfeVVqUXVNNjFxRjNsYndOUXNMOW45MGFKX1p6NWlzdFhsSmNOWkhrUUlyRlpHNkR6Vk9lMi1pZ0xjbHByM0tYVEo1ekY4cWd6NEpVV0JfalRGUnB4VUhjaXdHXzRlVFZVaTTSAfgBQVVfeXFMUFd0YURtSU9JTmdwZTdpYklyQTBSMWwwd1dQSzI1Q2RFYjN2TFUwQVRNNDhwaXlIdDQ4UjFSYm5tc2tBOWQtQjRBTFR2WEIzalB1VlA0Um5JQXJ6Um5MeGs0a0JMRFpMc0lodlhQNmRPZDBzaVlvLUJBYXZvUWJQenpQSGJiS2ZPeUo5ZThpZzdkcFBUVTh6Q2pTTkZra2QyS2oxVHBCVjhBRnhtUzFuV0RSbmFmd2xYazAxaVNCdVIxM0dLVmNSNjk3dnVDa1NWcHdxMExDQV9zY0UxdTZxZGJCaEd1N3UwZFNsMU9MY1pMR05ReWFwVVQ?oc=5",
-      "pipeline_item_id": "953cc74008029f20",
-      "published_at": "2026-09-25T08:02:27Z",
-      "title": "Ola Electric shares fall up to 9%, snap 4-day run, ahead of board meeting to consider fundraise - Moneycontrol.com",
+      "original_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPOWlhYjdBdjlabmhSYkxaVWJud1dFM19iWDRZUXFpZWNLUy1yU0FtcjBTa05xQVhJaTVzQzNtenN3eFFhZmQtal8yNm5SdkRHdHJpc1dpTXdkejdEVGxObXYyZ19CTmppdXpVUHNUN091Zi1UUXB5SWZaMkM5el9JZXBObXVWSDhmR3QzQklWd3dJZVBLZWU2TXhOQVB3T254eE5TdTBXN01fNXdPem9lZjlrZmZLU0RWNlA5dVVSVQ?oc=5",
+      "pipeline_item_id": "cd2865493cb8ccf9",
+      "published_at": "2026-09-25T14:18:47Z",
+      "title": "Bessemer India Capital cuts Urban Company stake to 3.42% after selling 2.12% - scanx.trade",
       "topic": "Indian consumer brands and products",
       "topic_id": "indian_brands",
       "topic_lane": "review"

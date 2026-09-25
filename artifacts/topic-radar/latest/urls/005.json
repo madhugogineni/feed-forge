@@ -2,49 +2,70 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNbHRFSVAtRml3QlhuUUluVzgxM1Q2SzVXSHNvUVE5ZVpuZUg5djBRa29vLWxHd1NGeXRyRkdUdUlwNWUyYU1SOGk3eEtzbVZaMTNRMUlrQU9IcjM1OWI5VTdDUEFESk1SZUxKT1p3clNUS0ZQRlNJZFlXb3QtS1ZuaWthWFdTNnJCbHJKUHRzZnNZRTVuYWp5ZmVRVkN2a2p1ZEFTN3NNNjJGQVBIUDI5SDJ0ZFBhWkJzeTZXZzhzcmp3X1Jvd3NuTnhnZkwweUFYNjh6V1VDUHZKeFRhRXB3X2h4ekwxYVdh0gHuAUFVX3lxTE5Gd0xEaUVvaDNxN1BIcDhUcnp2d25OVWkwR2txZlFzVVdUd29PS0UyTDJHcGdBSXZscDJZLUE4a19yd3lTcG8tMm5xUEVLZnhFaXVtMzhiQ0h5NDE5NWt0Mm9yYlBGaWl0Qjh3cFBFbkJReUIzSWNZODJUdTFCaU03ZFlfQ0VOOGJvUXlhb3NSWE9HQTJIZTU1UjVZNFF0c3V2LV9NNnlMdHI5Z0tUNGVPZ21ZQnZCcnZSR1FZTHY1bGI4S19VTDFpMXBFOHV1eVg2aUh6VFIwVVdGaVZval91TnRObm44N05jeDAtLUE?oc=5",
-      "domain": "news.google.com",
+      "canonical_url": "https://livefromalounge.com/air-india-maharaja-club-rolls-out-offer-which-earns-you-up-to-30-points-inr-100-per-flight",
+      "domain": "livefromalounge.com",
       "feed_ids": [
-        "google_news_digital_brands"
+        "livefromalounge"
       ],
       "feed_names": [
-        "Google News — Indian digital brands"
+        "Live from a Lounge"
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000010"
+        "occ_000047"
       ],
       "topic_ids": [
-        "big_tech"
+        "india_developments"
       ],
       "topics": [
-        "Major technology companies"
+        "India developments"
       ],
       "url_id": "url_000021"
     },
     {
-      "canonical_url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQOFgtbFZkZ09aRURYUVkxSjhFa2M0LU5JWG5tQmhpOU5oUmxXZEhqck03cjhSTDI0ekRrRWR2Tm91alBqQ3psM19CeFdxOW9aZHZtcGR0UnFuQldhOTNVWXFDUVRmclhRRzlBRF9kUGhDVjMtTW1iZlk2ZndJQk5iWnE1SXk4Y19Tbm9hUHRCNEtfeVVqUXVNNjFxRjNsYndOUXNMOW45MGFKX1p6NWlzdFhsSmNOWkhrUUlyRlpHNkR6Vk9lMi1pZ0xjbHByM0tYVEo1ekY4cWd6NEpVV0JfalRGUnB4VUhjaXdHXzRlVFZVaTTSAfgBQVVfeXFMUFd0YURtSU9JTmdwZTdpYklyQTBSMWwwd1dQSzI1Q2RFYjN2TFUwQVRNNDhwaXlIdDQ4UjFSYm5tc2tBOWQtQjRBTFR2WEIzalB1VlA0Um5JQXJ6Um5MeGs0a0JMRFpMc0lodlhQNmRPZDBzaVlvLUJBYXZvUWJQenpQSGJiS2ZPeUo5ZThpZzdkcFBUVTh6Q2pTTkZra2QyS2oxVHBCVjhBRnhtUzFuV0RSbmFmd2xYazAxaVNCdVIxM0dLVmNSNjk3dnVDa1NWcHdxMExDQV9zY0UxdTZxZGJCaEd1N3UwZFNsMU9MY1pMR05ReWFwVVQ?oc=5",
-      "domain": "news.google.com",
+      "canonical_url": "https://livefromalounge.com/priority-pass-is-finally-fixing-one-of-my-biggest-airport-lounge-access-gripes",
+      "domain": "livefromalounge.com",
       "feed_ids": [
-        "google_news_device_brands"
+        "livefromalounge"
       ],
       "feed_names": [
-        "Google News — Indian device brands"
+        "Live from a Lounge"
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000057"
+        "occ_000085"
       ],
       "topic_ids": [
-        "indian_brands"
+        "travel_lifestyle"
       ],
       "topics": [
-        "Indian consumer brands and products"
+        "Travel and lifestyle"
       ],
       "url_id": "url_000022"
     },
     {
-      "canonical_url": "https://news.google.com/rss/articles/CBMigwNBVV95cUxORzRzX3d1VEJQSkxqckdkOHM1LWRBWDU0ZzBnRDhrcGRkeHVNSjFzamllUkFOMGZMaFZUYzMxei1rbkJfVk1tVkx6c041THFrcHdFUUFhVGlGSERyZ2w4bjVVOEw3NnozRk9nLUNhTmNQcmo4a2NhbzJHU0VUVFdQaV9zSWVDcUc0V0tHU2tmZGhSQkdmdlQwMGFpZF9hZXp6SzR1c1gxUVB6U1VTT1psVDZLR0NZaUtpM2lrcnVEMEtsWUFrakRRNTQyRl90T2tqTGlEVzNaU0NSWTZNMEo1TERMVXJvdV9abktuZlNQU3pRV0J3eGUtUVdpblhNUE95WnRQQkR6NmtEcGNMTXNBcjBDY0tSRnczZ3daRThRVFJ1M0MxdW5iZDMtYjZXUDM3S0p1NGxiSmRRSUh2R2xlMUFIN2lhbmVmSERETDJiZ2FvR1h2eU9peElXTl9zWFJiSDRqc1hZWVg5ZV9WSHVLbEJTRWtuSU02OE9FdWNwQUxQekXSAYgDQVVfeXFMUHlKZXVGNHhkZldiSzUwODB5TFVnMl9ad2lIU3lGWDNBRFc2Z1RlUXlUQzlkdGg1NHBDejdzdnIzcWh6WkNFbVk3RkNWcTREU3pvSXQteXl5VVY2dTZvX2tPdEZRLTVkb1ZwWWFWeG95MGxyRlBRVWg4R0g3ck54Q1pib2pQUEdmV1FHQWNnN2RzODFJelhGN2wzQi1CTnZMNWFpYVpKRDhnNGwyZE5yU3lpWHVub1dmenhONVh0d2Vqc0tvOWpoOGF4YTF4UUtQNWU3dldYQW80VXpsWHVrWlFFX0RPNXhiUUhPR0R2ekdVUEloLW1ST2lEWDFXdF9uYzkxMlNhaHE5WmVwZjEyUksyMHg0UEpXcW1oVDVHYWtrZ3VUNGlEcTZER19oR1V3NGJMY01yR0FtdzlXR1ZEYUdhRDlYX3U5NzQtWjdGUm90ejJnUExuckRZN2xpR2g0U1AzckowMkVIYXdFTDB2Q1hPbjQxdWlSRzJERWJUM3FwR1E3aEVOWVY?oc=5",
+      "canonical_url": "https://livefromalounge.com/visa-power-travel-promotion-goes-global-earn-up-to-20-back-on-your-overseas-spends-on-a-visa-credit-debit-card-this-fall-autumn",
+      "domain": "livefromalounge.com",
+      "feed_ids": [
+        "livefromalounge"
+      ],
+      "feed_names": [
+        "Live from a Lounge"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000084"
+      ],
+      "topic_ids": [
+        "travel_lifestyle"
+      ],
+      "topics": [
+        "Travel and lifestyle"
+      ],
+      "url_id": "url_000023"
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPV2JsYTMzbmtwNl9CZXY0czBzRWpCWXcxNFZPcGlrQ1BkVm13X2lRVjZ0a3F6LVA5aHBfbkZnRzZtZk54ZjJiWHpvMlVTLXlOcnMwa2NQX2N6aDJOektWR05nU2doYm5wQVlYRVAwV1o2VUt5bmVkQ0xBWnpWd2dDRXVPS0EzNzAxQlo1RjR4c2lzWTIzT3B1S1o2SmpmaVdzVjJCeWtyWVd2bVdIWm5pdXhlcmdvMVFlY0Q1TnRqZFBiQTdBNmFJc2tpUkZmT1pE?oc=5",
       "domain": "news.google.com",
       "feed_ids": [
         "google_news_credit_cards"
@@ -54,18 +75,18 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000034"
+        "occ_000020"
       ],
       "topic_ids": [
-        "crime"
+        "credit_cards_payments"
       ],
       "topics": [
-        "Crime news"
+        "Credit cards, rewards and payments"
       ],
-      "url_id": "url_000023"
+      "url_id": "url_000024"
     },
     {
-      "canonical_url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNOWdIdDJMeS1OcVJCUHpOYTNtYWVlOEVIcklzVlhrci1PVTdqTkdfUFdld2xsZmpQYmk3VTRnb2dMd3p4a0gycWYyOHAyZmowNFE1WmxvYXJVcWJ5bDFxSVl1ZjZlTFJXNWJka3ZRNWRWODAwOXFPR3BCZElFc2FOU1VsZEVTd3VmZmNuakdPTlc3Y2hPalZveGRUV0RhOTNSLXVOYVZ0dTZpNGZqaHkxRmVVMVJ6YlljTjhoakwxWXp4SGYzdTkwUHY4WEJkVkNCUDA2RkJ1QmpBTk4xYkNCcC1oQ1VTMlQwcmo0ejlpQW4wTXpUSnIxdHZyRzFRRlQtU0hhMtIBiwJBVV95cUxQUUJMUExkcVRmS1phVzFfMjdTVVFqOG8zRDJ2aF9nYngxY2sxN19MUUIyQmdLUkdITjctbXYxOFprX2pXcUJ2N3YzYUliTlpSYU1XdTlGR1NMbGlOOEhTdEhYdTk5MGJpWkpIYUVrMVZGWFVjcGk5LWs1S3FXUXREdEJkeDF0dXJ3QkVMaWgtSjBxM24yNWJWNk55SFpKLVRUcTk1dVRWZ1hDXzFHNHNnUVR5QzRVNGJ3ZDlNTlp4Z3B6R0lNMlJwVEpCLXNkdks2UmRBeS1kMXpRV0o2WXpfZjl4RTctQUk1WVNhM1pfRnhMZzV3bHZpbV9KeV9PaUhqWGplYjRhaUVMc00?oc=5",
+      "canonical_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQR1FOaExKSE5DN1R0SFpvckxYVmdJWW1kdHVTVWpwZ09vZnFpb0tPd0ZhdjFldUJOZmhVaWZ0dDFsZGxpTURLVkRZQnJRcl9waGFhaTdJMFY4Z09ubHBGRjNGM3FvcV83TDdaYUFwb01iQVlNZ3JpVDlSWDJKVVM0TGVxRW9FZjkwbU1Wa2taX3dxZGFXTW4xTENZcU9kcWJZMGNUd0lkM3A4THdIRGt1LWlkUy1pTk1Ib01HcVROV1lFSDJUMmdzZlRTRlJIbjRhbWdGUXZVc2M?oc=5",
       "domain": "news.google.com",
       "feed_ids": [
         "google_news_digital_brands"
@@ -73,33 +94,9 @@
       "feed_names": [
         "Google News — Indian digital brands"
       ],
-      "occurrence_count": 2,
-      "occurrence_ids": [
-        "occ_000049",
-        "occ_000058"
-      ],
-      "topic_ids": [
-        "india_developments",
-        "indian_brands"
-      ],
-      "topics": [
-        "India developments",
-        "Indian consumer brands and products"
-      ],
-      "url_id": "url_000024"
-    },
-    {
-      "canonical_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTWZ0YlVqM011RUp3el9XOVdCcU1hVlU3WXpPejV5RU5iOUlCVnoxQnNQaFFmVDIxVHpLOXpEU3JhT1d4UGJhendWWlFISUxJUmllSDhzdVR0YkZ4Yl9CZ3hOaHd1XzZMM0c0LWtOZVJYN254VDhFbG1XSTlZQ2tZaWd4ZC1vWWdZa0JtUVBWWURxSUxzTGlR?oc=5",
-      "domain": "news.google.com",
-      "feed_ids": [
-        "google_news_consumer_brands"
-      ],
-      "feed_names": [
-        "Google News — Indian consumer brands"
-      ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000053"
+        "occ_000051"
       ],
       "topic_ids": [
         "indian_brands"

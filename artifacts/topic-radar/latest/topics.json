@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T13:40:11.408893Z",
+  "generated_at": "2026-09-25T16:08:59.986686Z",
   "schema_version": "feed-forge/editorial-input/v1",
   "topics": [
     {
@@ -19,7 +19,7 @@
       "selected_item_count": 8,
       "selection": "newest_first",
       "term_counts": null,
-      "total_recent": 55
+      "total_recent": 43
     },
     {
       "id": "big_tech",
@@ -38,7 +38,7 @@
       "selected_item_count": 8,
       "selection": "newest_first",
       "term_counts": null,
-      "total_recent": 223
+      "total_recent": 218
     },
     {
       "id": "consumer_safety",
@@ -70,7 +70,7 @@
       "selected_item_count": 8,
       "selection": "newest_first",
       "term_counts": null,
-      "total_recent": 17
+      "total_recent": 16
     },
     {
       "id": "crime",
@@ -126,7 +126,7 @@
       "selected_item_count": 8,
       "selection": "newest_first",
       "term_counts": null,
-      "total_recent": 105
+      "total_recent": 114
     },
     {
       "id": "india_geopolitics",
@@ -157,31 +157,31 @@
       "selected_item_count": 8,
       "selection": "new_terms_first",
       "term_counts": {
-        "Ather": 8,
+        "Ather": 10,
         "Atomberg": 2,
         "Be Minimalist": 0,
         "Blinkit": 10,
         "CRED": 0,
         "Frido": 0,
-        "Lenskart": 27,
+        "Lenskart": 29,
         "Mamaearth": 0,
         "Minimalist skincare": 0,
         "Mokobara": 0,
         "Noise earbuds": 0,
         "Noise smartwatch": 0,
         "Noise wearables": 0,
-        "Nykaa": 30,
-        "Ola Electric": 12,
-        "Swiggy": 33,
+        "Nykaa": 31,
+        "Ola Electric": 14,
+        "Swiggy": 32,
         "The Sleep Company": 11,
         "The Souled Store": 0,
-        "Urban Company": 2,
+        "Urban Company": 3,
         "Wakefit": 2,
-        "Zepto": 25,
-        "Zomato": 6,
-        "boAt": 1
+        "Zepto": 24,
+        "Zomato": 4,
+        "boAt": 2
       },
-      "total_recent": 156
+      "total_recent": 161
     },
     {
       "id": "local_practical",
@@ -203,21 +203,20 @@
         "occ_000061",
         "occ_000062",
         "occ_000063",
-        "occ_000064",
-        "occ_000065"
+        "occ_000064"
       ],
-      "selected_item_count": 7,
+      "selected_item_count": 6,
       "selection": "newest_first",
       "term_counts": null,
-      "total_recent": 7
+      "total_recent": 6
     },
     {
       "id": "personal_finance",
       "label": "Personal finance and investing",
       "lane": "review",
       "occurrence_ids": [
-        "occ_000066",
-        "occ_000067"
+        "occ_000065",
+        "occ_000066"
       ],
       "selected_item_count": 2,
       "selection": "newest_first",
@@ -229,54 +228,53 @@
       "label": "Technology, software and gadgets",
       "lane": "review",
       "occurrence_ids": [
+        "occ_000067",
         "occ_000068",
         "occ_000069",
         "occ_000070",
         "occ_000071",
         "occ_000072",
         "occ_000073",
-        "occ_000074",
-        "occ_000075"
+        "occ_000074"
       ],
       "selected_item_count": 8,
       "selection": "newest_first",
       "term_counts": null,
-      "total_recent": 98
+      "total_recent": 95
     },
     {
       "id": "telangana_hyderabad",
       "label": "Telangana and Hyderabad developments",
       "lane": "review",
       "occurrence_ids": [
+        "occ_000075",
         "occ_000076",
         "occ_000077",
         "occ_000078",
         "occ_000079",
         "occ_000080",
         "occ_000081",
-        "occ_000082",
-        "occ_000083"
+        "occ_000082"
       ],
       "selected_item_count": 8,
       "selection": "newest_first",
       "term_counts": null,
-      "total_recent": 125
+      "total_recent": 130
     },
     {
       "id": "travel_lifestyle",
       "label": "Travel and lifestyle",
       "lane": "review",
       "occurrence_ids": [
+        "occ_000083",
         "occ_000084",
         "occ_000085",
-        "occ_000086",
-        "occ_000087",
-        "occ_000088"
+        "occ_000086"
       ],
-      "selected_item_count": 5,
+      "selected_item_count": 4,
       "selection": "newest_first",
       "term_counts": null,
-      "total_recent": 5
+      "total_recent": 4
     }
   ]
 }

@@ -2,7 +2,7 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://www.androidauthority.com/google-messages-long-press-menu-stable-rollout-3715514",
+      "canonical_url": "https://www.androidauthority.com/gemini-tasks-mode-desktop-leak-3715259",
       "domain": "www.androidauthority.com",
       "feed_ids": [
         "android_authority"
@@ -12,7 +12,28 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000011"
+        "occ_000007"
+      ],
+      "topic_ids": [
+        "ai_development"
+      ],
+      "topics": [
+        "AI development and products"
+      ],
+      "url_id": "url_000061"
+    },
+    {
+      "canonical_url": "https://www.androidauthority.com/google-photos-options-unresponsive-3715622",
+      "domain": "www.androidauthority.com",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_names": [
+        "Android Authority"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000013"
       ],
       "topic_ids": [
         "big_tech"
@@ -20,10 +41,10 @@
       "topics": [
         "Major technology companies"
       ],
-      "url_id": "url_000061"
+      "url_id": "url_000062"
     },
     {
-      "canonical_url": "https://www.androidauthority.com/google-pixel-clock-alarm-bug-not-fixed-yet-3715371",
+      "canonical_url": "https://www.androidauthority.com/google-pixel-september-2026-pattern-pin-unlock-bug-3715425",
       "domain": "www.androidauthority.com",
       "feed_ids": [
         "android_authority"
@@ -33,7 +54,7 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000068"
+        "occ_000067"
       ],
       "topic_ids": [
         "tech_software"
@@ -41,10 +62,10 @@
       "topics": [
         "Technology, software and gadgets"
       ],
-      "url_id": "url_000062"
+      "url_id": "url_000063"
     },
     {
-      "canonical_url": "https://www.androidauthority.com/google-pixel-september-2026-pattern-pin-unlock-bug-3715425",
+      "canonical_url": "https://www.androidauthority.com/new-ai-apps-services-ai-generated-image-c2pa-3715399",
       "domain": "www.androidauthority.com",
       "feed_ids": [
         "android_authority"
@@ -62,10 +83,10 @@
       "topics": [
         "Technology, software and gadgets"
       ],
-      "url_id": "url_000063"
+      "url_id": "url_000064"
     },
     {
-      "canonical_url": "https://www.androidauthority.com/pixel-11-signal-problems-troubleshooting-tips-3714401",
+      "canonical_url": "https://www.androidauthority.com/pixel-buds-call-mute-3715588",
       "domain": "www.androidauthority.com",
       "feed_ids": [
         "android_authority"
@@ -75,34 +96,13 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000075"
+        "occ_000068"
       ],
       "topic_ids": [
         "tech_software"
       ],
       "topics": [
         "Technology, software and gadgets"
-      ],
-      "url_id": "url_000064"
-    },
-    {
-      "canonical_url": "https://www.androidauthority.com/spotify-meta-muse-integration-3714958",
-      "domain": "www.androidauthority.com",
-      "feed_ids": [
-        "android_authority"
-      ],
-      "feed_names": [
-        "Android Authority"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000065"
-      ],
-      "topic_ids": [
-        "music_apps"
-      ],
-      "topics": [
-        "Music and streaming apps"
       ],
       "url_id": "url_000065"
     }

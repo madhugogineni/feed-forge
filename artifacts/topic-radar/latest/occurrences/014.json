@@ -2,28 +2,6 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbktnRWpmNVhKbmpxTHdwMlNnWVI1YTNaSjNDcFJTNjU4aFNsZ0FDa0ZvUkFDY2xyLWtnMC0xRXFESFFUQ3puc3JSeXA5b3VZdkczbUxtMzg0M0JQRHo2ZDBnZzRhd3FUdkZjRTBLWXlCMHVjT2o1NHMwN0ZxZVVwcHdLSkZweGZlN0xTT005bUwzdzFKaDFBU1BQTDczZnJmelBSSkRKM2dIbjhXMnZvVm9FV3M?oc=5",
-      "feed_id": "google_news_device_brands",
-      "feed_ids": [
-        "google_news_device_brands"
-      ],
-      "feed_name": "Google News — Indian device brands",
-      "feed_names": [
-        "Google News — Indian device brands"
-      ],
-      "matched_terms": [
-        "investing"
-      ],
-      "occurrence_id": "occ_000066",
-      "original_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbktnRWpmNVhKbmpxTHdwMlNnWVI1YTNaSjNDcFJTNjU4aFNsZ0FDa0ZvUkFDY2xyLWtnMC0xRXFESFFUQ3puc3JSeXA5b3VZdkczbUxtMzg0M0JQRHo2ZDBnZzRhd3FUdkZjRTBLWXlCMHVjT2o1NHMwN0ZxZVVwcHdLSkZweGZlN0xTT005bUwzdzFKaDFBU1BQTDczZnJmelBSSkRKM2dIbjhXMnZvVm9FV3M?oc=5",
-      "pipeline_item_id": "a12e2d0090c57abc",
-      "published_at": "2026-09-25T12:30:36Z",
-      "title": "Form 4 Mastercraft Boat Holdings Inc For: 25 September - Investing.com India",
-      "topic": "Personal finance and investing",
-      "topic_id": "personal_finance",
-      "topic_lane": "review"
-    },
-    {
       "canonical_url": "https://9to5mac.com/2026/09/23/apple-increases-interest-rate-for-apple-card-savings-account",
       "feed_id": "9to5mac",
       "feed_ids": [
@@ -36,35 +14,13 @@
       "matched_terms": [
         "savings account"
       ],
-      "occurrence_id": "occ_000067",
+      "occurrence_id": "occ_000066",
       "original_url": "https://9to5mac.com/2026/09/23/apple-increases-interest-rate-for-apple-card-savings-account",
       "pipeline_item_id": "a471b0129af74adf",
       "published_at": "2026-09-23T11:18:16Z",
       "title": "Apple increases interest rate for Apple Card Savings Account",
       "topic": "Personal finance and investing",
       "topic_id": "personal_finance",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://www.androidauthority.com/google-pixel-clock-alarm-bug-not-fixed-yet-3715371",
-      "feed_id": "android_authority",
-      "feed_ids": [
-        "android_authority"
-      ],
-      "feed_name": "Android Authority",
-      "feed_names": [
-        "Android Authority"
-      ],
-      "matched_terms": [
-        "Pixel"
-      ],
-      "occurrence_id": "occ_000068",
-      "original_url": "https://www.androidauthority.com/google-pixel-clock-alarm-bug-not-fixed-yet-3715371",
-      "pipeline_item_id": "08c05856fa91321f",
-      "published_at": "2026-09-25T09:47:49Z",
-      "title": "Some Pixel owners are still missing alarms because of a years-old Clock bug",
-      "topic": "Technology, software and gadgets",
-      "topic_id": "tech_software",
       "topic_lane": "review"
     },
     {
@@ -80,11 +36,55 @@
       "matched_terms": [
         "Pixel"
       ],
-      "occurrence_id": "occ_000069",
+      "occurrence_id": "occ_000067",
       "original_url": "https://www.androidauthority.com/google-pixel-september-2026-pattern-pin-unlock-bug-3715425",
       "pipeline_item_id": "119191c105d6ab4f",
       "published_at": "2026-09-25T11:39:45Z",
       "title": "Some Pixel users are locked out after the September 2026 update",
+      "topic": "Technology, software and gadgets",
+      "topic_id": "tech_software",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://www.androidauthority.com/pixel-buds-call-mute-3715588",
+      "feed_id": "android_authority",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_name": "Android Authority",
+      "feed_names": [
+        "Android Authority"
+      ],
+      "matched_terms": [
+        "Pixel"
+      ],
+      "occurrence_id": "occ_000068",
+      "original_url": "https://www.androidauthority.com/pixel-buds-call-mute-3715588",
+      "pipeline_item_id": "1fdf91e4ecc079e5",
+      "published_at": "2026-09-25T15:31:34Z",
+      "title": "Pixel Buds are working on a new touch control for calls",
+      "topic": "Technology, software and gadgets",
+      "topic_id": "tech_software",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://www.androidauthority.com/new-ai-apps-services-ai-generated-image-c2pa-3715399",
+      "feed_id": "android_authority",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_name": "Android Authority",
+      "feed_names": [
+        "Android Authority"
+      ],
+      "matched_terms": [
+        "Android"
+      ],
+      "occurrence_id": "occ_000069",
+      "original_url": "https://www.androidauthority.com/new-ai-apps-services-ai-generated-image-c2pa-3715399",
+      "pipeline_item_id": "3c8bb54c0fc19865",
+      "published_at": "2026-09-25T14:15:31Z",
+      "title": "If you can’t tell what’s real or AI-generated anymore, this Android app is here to help",
       "topic": "Technology, software and gadgets",
       "topic_id": "tech_software",
       "topic_lane": "review"

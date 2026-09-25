@@ -2,7 +2,28 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://telanganatoday.com/lg-electronics-india-receives-show-cause-notice-over-rs-153-58-cr-customs-duty",
+      "canonical_url": "https://telanganatoday.com/india-credit-card-spending-growth-slows-in-august-as-competition-intensifies",
+      "domain": "telanganatoday.com",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000022"
+      ],
+      "topic_ids": [
+        "credit_cards_payments"
+      ],
+      "topics": [
+        "Credit cards, rewards and payments"
+      ],
+      "url_id": "url_000046"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/india-win-shooting-gold-as-gulveer-takes-10000m-silver-at-asian-games",
       "domain": "telanganatoday.com",
       "feed_ids": [
         "telangana_today"
@@ -20,7 +41,28 @@
       "topics": [
         "India developments"
       ],
-      "url_id": "url_000046"
+      "url_id": "url_000047"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/kareena-kapoor-shares-glimpse-of-latest-workout-routine-fitness-chart",
+      "domain": "telanganatoday.com",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000036"
+      ],
+      "topic_ids": [
+        "fitness_ergonomics"
+      ],
+      "topics": [
+        "Fitness and ergonomics"
+      ],
+      "url_id": "url_000048"
     },
     {
       "canonical_url": "https://telanganatoday.com/mahadev-betting-case-cbi-arrests-key-suspect-at-hyderabad-airport-after-arrival-from-dubai",
@@ -33,7 +75,7 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000088"
+        "occ_000086"
       ],
       "topic_ids": [
         "travel_lifestyle"
@@ -41,54 +83,10 @@
       "topics": [
         "Travel and lifestyle"
       ],
-      "url_id": "url_000047"
-    },
-    {
-      "canonical_url": "https://telanganatoday.com/opinion-from-encounters-to-custodial-deaths-is-india-finding-new-ways-to-hide-extrajudicial-killings",
-      "domain": "telanganatoday.com",
-      "feed_ids": [
-        "telangana_today",
-        "telangana_today_crime"
-      ],
-      "feed_names": [
-        "Telangana Today",
-        "Telangana Today Crime"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000033"
-      ],
-      "topic_ids": [
-        "crime"
-      ],
-      "topics": [
-        "Crime news"
-      ],
-      "url_id": "url_000048"
-    },
-    {
-      "canonical_url": "https://telanganatoday.com/pregnant-samantha-ruth-prabhu-shares-glimpse-of-workout-routine-strong-till-the-very-end",
-      "domain": "telanganatoday.com",
-      "feed_ids": [
-        "telangana_today"
-      ],
-      "feed_names": [
-        "Telangana Today"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000038"
-      ],
-      "topic_ids": [
-        "fitness_ergonomics"
-      ],
-      "topics": [
-        "Fitness and ergonomics"
-      ],
       "url_id": "url_000049"
     },
     {
-      "canonical_url": "https://telanganatoday.com/russo-brothers-recall-robert-downey-jr-chris-evans-final-days-on-avengers-endgame",
+      "canonical_url": "https://telanganatoday.com/morkel-backs-nitish-to-develop-into-key-all-rounder-for-india",
       "domain": "telanganatoday.com",
       "feed_ids": [
         "telangana_today"
@@ -98,13 +96,13 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000018"
+        "occ_000045"
       ],
       "topic_ids": [
-        "consumer_safety"
+        "india_developments"
       ],
       "topics": [
-        "Consumer and digital safety"
+        "India developments"
       ],
       "url_id": "url_000050"
     }

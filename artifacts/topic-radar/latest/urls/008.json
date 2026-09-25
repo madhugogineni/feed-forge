@@ -2,49 +2,73 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://telanganatoday.com/elephant-herd-movement-triggers-panic-along-maharashtra-telangana-border",
-      "domain": "telanganatoday.com",
+      "canonical_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPOWlhYjdBdjlabmhSYkxaVWJud1dFM19iWDRZUXFpZWNLUy1yU0FtcjBTa05xQVhJaTVzQzNtenN3eFFhZmQtal8yNm5SdkRHdHJpc1dpTXdkejdEVGxObXYyZ19CTmppdXpVUHNUN091Zi1UUXB5SWZaMkM5el9JZXBObXVWSDhmR3QzQklWd3dJZVBLZWU2TXhOQVB3T254eE5TdTBXN01fNXdPem9lZjlrZmZLU0RWNlA5dVVSVQ?oc=5",
+      "domain": "news.google.com",
       "feed_ids": [
-        "telangana_today"
+        "google_news_digital_brands"
       ],
       "feed_names": [
-        "Telangana Today"
+        "Google News — Indian digital brands"
       ],
-      "occurrence_count": 1,
+      "occurrence_count": 2,
       "occurrence_ids": [
-        "occ_000078"
+        "occ_000048",
+        "occ_000057"
       ],
       "topic_ids": [
-        "telangana_hyderabad"
+        "india_developments",
+        "indian_brands"
       ],
       "topics": [
-        "Telangana and Hyderabad developments"
+        "India developments",
+        "Indian consumer brands and products"
       ],
       "url_id": "url_000036"
     },
     {
-      "canonical_url": "https://telanganatoday.com/ganesh-immersion-two-devotees-drown-one-electrocuted-one-dies-of-cardiac-arrest",
-      "domain": "telanganatoday.com",
+      "canonical_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMVhqUGFEbWpfRHpHNnFTNnZUZV9XRTY0YW9wUXVSdWVOdlNwOXU5ZUNjMDNOV0Fua1h3Y2NCSjUyclRCWV94bFJfSkJmanh6M0J3VkJfdkhzcFVDcF9pRGlCTWJLNEJXUVIzd1NTLXFILUFfbVdOTi12Z29rcGFjRXZZdFRjVzNBLW1sVUR4RUVicW91cW9kZ2V2Z2FFSkN0a2dLY2ZBNUtYdWdjbmFWLXliWTNRNVk1b1N6dmV5aGhrNUp40gHMAUFVX3lxTE1nSTRnZFhHTjlMdWdIMUI2VGlEbE1Pd1ZIN3JXSUczZnM0VUhrNEQwbjRRYmdKWVVoTmx2dGhJSU9KQ3E2eXoyR25oR0ZORzdCQnlaZ1IxMmQtRThnSUFOeHI5TWVzRFBiMzdRdk1RM0x3MGFzVkY0QkFhckV2YkhoQzRUNWdfemtiQVdwX1pBNDVCamZxc3pDd0lNbzBxLWFnRXIwU09wd1BvWHV4bkEtcDdRVWNjbnUzTEpkUl9fUnQzbFVyZGwzdTUycg?oc=5",
+      "domain": "news.google.com",
       "feed_ids": [
-        "telangana_today"
+        "google_news_credit_cards"
       ],
       "feed_names": [
-        "Telangana Today"
+        "Google News — Indian credit cards"
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000029"
+        "occ_000021"
       ],
       "topic_ids": [
-        "crime"
+        "credit_cards_payments"
       ],
       "topics": [
-        "Crime news"
+        "Credit cards, rewards and payments"
       ],
       "url_id": "url_000037"
     },
     {
-      "canonical_url": "https://telanganatoday.com/gulveer-singh-bags-silver-becomes-first-indian-to-win-two-10000m-medals",
+      "canonical_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPc2lycXpXOFZqbE9NSXpoSkdaZVdOMjJnaVdPYmdFbUpKLWRaeDFvRzhsdmMxSmt1THpETmNxd2lBZVlXN1BwTjU4VUlBVDlQa2YwRVlvdnFSdlVnbkpMOTEySzlqS003Mmh6blZ1R3Fja293Wk9ZZHZvUXMxN1JLcjJQWVAtZFEtdWh6d0hFX0ZjRHVGSTdvbWNnaHVMN0xkVUlqajZnR1ZLa1dCTzAzNzRvY3pYem1kdDU0aDZjLXBtOGxpTHfSAcsBQVVfeXFMTWt5eHJ3WWVMcGxyWGFVRDE1RVVNLVlEdENUN1FTMzJaRTJCRlJyNk8tbFI4c3pOY3pQUFNDN2tGOUhGakdxOFA2RzV5T28zenY5Zy1QSEhROWNxNHktdFNoTXZzNUp1RFlrOWtXNGF5bkJJNTZhdk13QnNlTFdOb2ZLRG5WejcwLUVBTm1vSnBLeEJkNXRGZFpyYkxoWjNhbEtzVHRIZVJCMkhWWV91ejhaZTI5RDNrbzdtSXZadkN0LUpaajFEWE50T2c?oc=5",
+      "domain": "news.google.com",
+      "feed_ids": [
+        "google_news_device_brands"
+      ],
+      "feed_names": [
+        "Google News — Indian device brands"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000053"
+      ],
+      "topic_ids": [
+        "indian_brands"
+      ],
+      "topics": [
+        "Indian consumer brands and products"
+      ],
+      "url_id": "url_000038"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/air-india-suspends-pilot-after-failing-breath-analyser-test-at-zurich-airport",
       "domain": "telanganatoday.com",
       "feed_ids": [
         "telangana_today"
@@ -54,55 +78,34 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000044"
+        "occ_000083"
+      ],
+      "topic_ids": [
+        "travel_lifestyle"
+      ],
+      "topics": [
+        "Travel and lifestyle"
+      ],
+      "url_id": "url_000039"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/baranica-creates-history-with-indias-first-asiad-pole-vault-medal",
+      "domain": "telanganatoday.com",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000049"
       ],
       "topic_ids": [
         "india_developments"
       ],
       "topics": [
         "India developments"
-      ],
-      "url_id": "url_000038"
-    },
-    {
-      "canonical_url": "https://telanganatoday.com/harish-rao-urges-telangana-government-to-use-godavari-floodwater-to-fill-reservoirs",
-      "domain": "telanganatoday.com",
-      "feed_ids": [
-        "telangana_today"
-      ],
-      "feed_names": [
-        "Telangana Today"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000077"
-      ],
-      "topic_ids": [
-        "telangana_hyderabad"
-      ],
-      "topics": [
-        "Telangana and Hyderabad developments"
-      ],
-      "url_id": "url_000039"
-    },
-    {
-      "canonical_url": "https://telanganatoday.com/hyderabad-marathons-15-year-journey-comes-alive-through-photographs",
-      "domain": "telanganatoday.com",
-      "feed_ids": [
-        "telangana_today"
-      ],
-      "feed_names": [
-        "Telangana Today"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000040"
-      ],
-      "topic_ids": [
-        "fitness_ergonomics"
-      ],
-      "topics": [
-        "Fitness and ergonomics"
       ],
       "url_id": "url_000040"
     }
