@@ -105,7 +105,7 @@ Then show the individual packages. Maintain approximately a 70/30 reply-to-post
 mix when the request includes both. Quality is a hard gate, so explicitly report
 when there are not enough strong candidates.
 
-For the proactive daily editorial run, use the lane counts, fields, and
+For each proactive scheduled editorial run, use the lane counts, fields, and
 shortfall rules in `DAILY_EDITORIAL_RUN.md`. Its 15-item original-content bank
 is separate from the reply queue. Develop only the top five into the full
 package above; represent the other ten with compact idea records. Precede the

@@ -53,9 +53,13 @@ workflow.
 7. Run prompt 11 from `STARTER_PROMPTS.md` manually. Review the source access,
    15-idea mix, factual verification, voice, and top-five packages before
    enabling any recurring task.
-8. After the acceptance run passes, create a daily scheduled task for 06:30
-   Asia/Kolkata using the exact prompt from prompt 11. The source workflow
-   starts at 06:00, so this delay gives its artifact time to finish.
+8. After the acceptance run passes, create a recurring editorial automation for
+   06:05, 09:05, 12:05, 15:05, 18:05, and 21:05 Asia/Kolkata using the exact
+   prompt from prompt 11. Topic Radar runs at 06:00, 09:00, 12:00, 15:00,
+   18:00, and 21:00 IST; its 00:00 and 03:00 slots are intentionally skipped.
+   The editorial automation is time-triggered, so each run must select the
+   newest successful relevant artifact instead of assuming the immediately
+   preceding Topic Radar run finished on schedule.
 9. Start a separate chat for each ad hoc outcome, such as **Weekly build story**,
    **Topic radar posts**, **Image concepts**, or **Video scripts**. This keeps
    the evidence and revisions for one deliverable together while retaining the
@@ -138,7 +142,8 @@ The setup is ready when the project can:
 ## Phase boundary
 
 Publishing and engagement remain manual, but research and ideation become
-proactive after the acceptance run. A scheduled task produces the daily report;
-it does not post or interact on X. A later implementation phase can add a stable
+proactive after the acceptance run. The scheduled automation produces an
+editorial report at each configured slot; it does not post or interact on X. A
+later implementation phase can add a stable
 `social-source.json` artifact to GitHub Actions so the scheduled task has a
 compact, consistent handoff instead of interpreting general-purpose logs.

@@ -89,9 +89,10 @@ The supplied editorial material is preserved under `docs/reference/`.
 5. Rank opportunities by relevance, freshness, evidence quality, ability to add
    value, and relationship potential.
 6. Verify the claims that will appear in a draft.
-7. Once daily at 06:00 Asia/Kolkata, produce a review queue in the configured
-   voice with five new post ideas and approximately twelve ranked reply
-   opportunities.
+7. Run Topic Radar at 06:00, 09:00, 12:00, 15:00, 18:00, and 21:00
+   Asia/Kolkata, skipping 00:00 and 03:00. Five minutes after each slot,
+   produce a review queue in the configured voice with five new post ideas and
+   approximately twelve ranked reply opportunities.
 8. Let the user edit, approve, and publish manually.
 9. Emit a self-contained recommendation artifact. Persistent activity and
    outcome tracking are deferred until the experiment proves they are useful.

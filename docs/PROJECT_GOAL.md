@@ -98,14 +98,16 @@ user. Do not generate generic praise, restate the post, or fabricate experience.
 
 ## Goal 3: generate original post ideas from current information
 
-The source pipeline runs every three hours from 06:00 through 21:00
-Asia/Kolkata, skipping 00:00 and 03:00. After a manual acceptance test, a
-separate daily editorial task should run at 06:30 without requiring a user
-prompt. Each editorial run produces a 15-item original-content idea bank using
-the newest GitHub pipeline artifact, repository activity, RSS/Atom feeds,
-official newsrooms, regulators, first-party product pages, historical datasets,
-and other permitted sources. Do not claim that the editorial schedule is active
-until the scheduled task has actually been created and successfully tested.
+The source pipeline runs every three hours at 06:00, 09:00, 12:00, 15:00,
+18:00, and 21:00 Asia/Kolkata, skipping 00:00 and 03:00. After a manual
+acceptance test, a separate editorial automation should run five minutes after
+each source slot at 06:05, 09:05, 12:05, 15:05, 18:05, and 21:05 IST without
+requiring a user prompt. Each editorial run produces a 15-item original-content
+idea bank using the newest successful relevant GitHub pipeline artifact,
+repository activity, RSS/Atom feeds, official newsrooms, regulators,
+first-party product pages, historical datasets, and other permitted sources.
+Do not claim that the editorial schedule is active until the scheduled task has
+actually been created and successfully tested.
 
 Post ideas should favor AI, technology, Indian current events, fitness, and the
 Indian credit-card community while still using the broader interests in the
@@ -142,15 +144,15 @@ The 70/30 recommendation mix intentionally favors replies. The system should
 also favor repeated, genuine interaction with peer and growing accounts over
 one-off comments on only the largest accounts.
 
-## Daily run output
+## Editorial run output
 
 Each run should produce one compact, reviewable artifact containing:
 
 1. **Right now:** the important developments across the priority topics.
 2. **Source-audit sheet:** every link occurrence from the selected GitHub
    pipeline output, with access, verification, usage, or failure status.
-3. **Original-content idea bank:** 15 ranked ideas across the configured daily
-   lanes, with the top five developed into full content packages.
+3. **Original-content idea bank:** 15 ranked ideas across the configured
+   editorial lanes, with the top five developed into full content packages.
 4. **Reply opportunities:** a separate ranked queue drawn from both followed
    and suggested accounts when fresh targets are available.
 5. **Evidence:** primary sources, verification state, historical comparison
@@ -196,8 +198,8 @@ live data.
 ### Operational quality
 
 - Complete manual and scheduled runs and surface visible failures. Enable the
-  06:30 editorial schedule only after the exact prompt passes a manual
-  acceptance run.
+  06:05, 09:05, 12:05, 15:05, 18:05, and 21:05 IST editorial schedule only
+  after the exact prompt passes a manual acceptance run.
 - Deduplicate post ideas, profiles, source items, and reply targets within each
   run. Cross-run repetition is acceptable during the stateless experiment.
 - Preserve a traceable path from source to opportunity and draft inside each
@@ -262,7 +264,7 @@ or dependency on a previous run's artifact.
 ### Phase 3: recommendation engine
 
 - Rank fresh reply opportunities from followed and suggested accounts.
-- Generate the configured 15-item daily idea bank, develop the top five, and
+- Generate the configured 15-item editorial idea bank, develop the top five, and
   assemble a separate 70/30 action queue.
 - Attach verification state, evidence, score explanations, and voice checks.
 - Produce the first Markdown review artifact from a local CLI.
@@ -274,7 +276,8 @@ or dependency on a previous run's artifact.
 - Keep the source pipeline scheduled every three hours from 06:00 through 21:00
   Asia/Kolkata, skipping 00:00 and 03:00, with visible failure reporting.
 - After the editorial prompt passes a manual acceptance run, schedule the
-  research-and-ideation task for 06:30 Asia/Kolkata.
+  research-and-ideation task five minutes after every source slot: 06:05,
+  09:05, 12:05, 15:05, 18:05, and 21:05 Asia/Kolkata.
 - Add manual `workflow_dispatch` inputs for testing different configuration
   values without changing code.
 - Use GitHub artifacts and job summaries for review while the workflow is being

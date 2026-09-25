@@ -35,7 +35,7 @@ five original-post content packages, ranked by relevance and freshness. Report
 a shortfall instead of filler. Use the project's voice and media rules.
 ```
 
-## 4. Produce a reply-led daily queue
+## 4. Produce a reply-led review queue
 
 ```text
 Use the attached run artifact and any permitted current GitHub source. Produce a
@@ -117,12 +117,12 @@ tragedy, medical misinformation, or attacks on a private person. Rank the best
 five and explain in one short line what kind of replies each should invite.
 ```
 
-## 11. Test the proactive daily editorial run
+## 11. Test the proactive scheduled editorial run
 
 Run this manually and review the output before enabling its schedule.
 
 ```text
-Execute the daily editorial workflow in
+Execute the scheduled editorial workflow in
 docs/chatgpt-project/DAILY_EDITORIAL_RUN.md for today. Retrieve the latest
 successful Topic Radar artifact through the GitHub connector by inspecting
 madhugogineni/feed-forge, and record its run, commit, and creation time. Do not

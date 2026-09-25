@@ -1,21 +1,25 @@
-# Daily editorial run
+# Scheduled editorial run
 
-This document defines the proactive content run for Feed Forge. It is a daily
-editorial research job, not a publishing job. It should work without MG having
-to ask for a fact, comparison, question, or post idea each morning.
+This document defines the proactive content run for Feed Forge. It is a
+scheduled editorial research job, not a publishing job. It should work without
+MG having to ask for a fact, comparison, question, or post idea.
 
-Last updated: 23 September 2026.
+Last updated: 25 September 2026.
 
 ## Trigger
 
-The existing Topic Radar GitHub Actions workflow starts at 06:00
-`Asia/Kolkata`. After the workflow has had time to finish, run the editorial job
-at 06:30 `Asia/Kolkata` every day.
+The Topic Radar GitHub Actions workflow runs every three hours from 06:00
+through 21:00 `Asia/Kolkata`: 06:00, 09:00, 12:00, 15:00, 18:00, and 21:00
+IST. The 00:00 and 03:00 runs are intentionally skipped. The editorial
+automation runs five minutes after each Topic Radar slot: 06:05, 09:05, 12:05,
+15:05, 18:05, and 21:05 IST.
 
-The editorial run is time-triggered rather than triggered by a GitHub Actions
-completion event. Before using the schedule, test the same prompt manually and
-review the first result. Keep all publishing, replying, following, liking, and
-direct messaging under human control.
+The editorial process is time-triggered rather than directly triggered by a
+GitHub Actions completion event. GitHub Actions may start late, so always
+select the newest successful relevant artifact rather than assuming a specific
+run completed exactly on schedule. Before using the schedule, test the same
+prompt manually and review the first result. Keep all publishing, replying,
+following, liking, and direct messaging under human control.
 
 ## Inputs
 
@@ -25,9 +29,8 @@ Read these inputs fresh on every run:
    repository, default branch, latest commit, and latest successful relevant
    workflow run. Do not rely on an uploaded project snapshot when current
    repository state is required.
-2. The newest successful `topic-radar` JSON artifact. The Markdown artifact or
-   job summary is an acceptable fallback. Record the workflow run, commit, and
-   artifact creation time.
+2. The newest successful `topic-radar` JSON artifact, retrieved and validated
+   using the sequence below.
 3. Relevant repository changes, pull requests, tests, and other Feed Forge
    artifacts from the last 24 hours.
 4. `docs/reference/02-voice.md`, `docs/reference/03-topics.md`,
@@ -43,6 +46,32 @@ Read these inputs fresh on every run:
 If the GitHub artifact is unavailable or stale, say so visibly. Continue with
 the other lanes when they still have adequate evidence, but never pretend the
 feed was read.
+
+## Artifact download and extraction sequence
+
+For every editorial run:
+
+1. Inspect the live `madhugogineni/feed-forge` repository.
+2. Confirm the default branch and latest commit.
+3. Find the newest successful relevant Topic Radar workflow run.
+4. Find the `topic-radar-<run-id>` artifact for that run.
+5. Download the artifact ZIP through the GitHub connector.
+6. Use or materialize the returned local file reference or mounted local path
+   before extraction.
+7. Extract the ZIP into a known working directory.
+8. Verify that `topic-radar.json` exists and is non-empty.
+9. Parse `topic-radar.json`.
+10. Record the workflow run ID, commit SHA, artifact ID, artifact name, artifact
+    creation time, and `generated_at` value.
+11. Only after successful parsing should the link audit and editorial ranking
+    begin.
+
+Do not treat the downloaded connector ZIP as though it were already an
+extracted local file. If extraction or JSON parsing fails, perform one fresh
+artifact download and retry. If that retry fails, use `topic-radar.md` or the
+GitHub job summary only as a clearly labeled fallback. Preserve the artifact
+failure in the final report. Never claim the JSON feed was read when only a
+fallback was available.
 
 ## Mandatory link audit
 
@@ -72,7 +101,8 @@ Produce a source-audit sheet with one row per link occurrence and these fields:
 - whether it contributed to an idea, including the idea rank; and
 - failure or exclusion reason when it was not used.
 
-Keep this audit in the daily Markdown report, the versioned JSON output, and a
+Keep this audit in the editorial run's Markdown report, the versioned JSON
+output, and a
 downloadable `source-audit.csv`. The audit is evidence coverage, not a claim
 that every link deserves a post.
 
@@ -97,7 +127,7 @@ The run must not wait for MG to ask for research. It should independently:
    that MG could truthfully build or show.
 
 Historical and financial research is therefore automatic. It should occur both
-when MG explicitly requests such a fact and as part of the daily run.
+when MG explicitly requests such a fact and as part of every editorial run.
 
 ## Fifteen-idea mix
 
@@ -137,7 +167,7 @@ Every idea must include:
   `not_recommended`.
 
 Develop the top five ideas into complete content packages using
-`CONTENT_PACKAGE_SPEC.md`. The remaining ten stay compact so the daily result is
+`CONTENT_PACKAGE_SPEC.md`. The remaining ten stay compact so the run result is
 reviewable. Do not generate an asset for all 15. Create or fully specify media
 only for a top-five idea or an idea MG approves.
 
