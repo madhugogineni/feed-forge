@@ -16,10 +16,11 @@ automation runs five minutes after each Topic Radar slot: 06:05, 09:05, 12:05,
 
 The editorial process is time-triggered rather than directly triggered by a
 GitHub Actions completion event. GitHub Actions may start late, so always
-select the newest successful relevant artifact rather than assuming a specific
-run completed exactly on schedule. Before using the schedule, test the same
-prompt manually and review the first result. Keep all publishing, replying,
-following, liking, and direct messaging under human control.
+identify the newest successful relevant run and validate the repository's
+latest snapshot against it rather than assuming a specific run completed
+exactly on schedule. Before using the schedule, test the same prompt manually
+and review the first result. Keep all publishing, replying, following, liking,
+and direct messaging under human control.
 
 ## Inputs
 
@@ -29,8 +30,9 @@ Read these inputs fresh on every run:
    repository, default branch, latest commit, and latest successful relevant
    workflow run. Do not rely on an uploaded project snapshot when current
    repository state is required.
-2. The newest successful `topic-radar` JSON artifact, retrieved and validated
-   using the sequence below.
+2. `artifacts/topic-radar/latest.json` from the live default branch, retrieved
+   directly through the GitHub connector and validated using the sequence
+   below. The Actions artifact ZIP is the fallback, not the primary input.
 3. Relevant repository changes, pull requests, tests, and other Feed Forge
    artifacts from the last 24 hours.
 4. `docs/reference/02-voice.md`, `docs/reference/03-topics.md`,
@@ -43,35 +45,55 @@ Read these inputs fresh on every run:
 7. Current primary web sources required to verify a candidate or find an
    approved non-feed idea.
 
-If the GitHub artifact is unavailable or stale, say so visibly. Continue with
-the other lanes when they still have adequate evidence, but never pretend the
-feed was read.
+If the repository snapshot and fallback GitHub artifact are unavailable or
+stale, say so visibly. Continue with the other lanes when they still have
+adequate evidence, but never pretend the feed was read.
 
-## Artifact download and extraction sequence
+## Latest snapshot retrieval and validation sequence
 
 For every editorial run:
 
 1. Inspect the live `madhugogineni/feed-forge` repository.
 2. Confirm the default branch and latest commit.
 3. Find the newest successful relevant Topic Radar workflow run.
-4. Find the `topic-radar-<run-id>` artifact for that run.
-5. Download the artifact ZIP through the GitHub connector.
-6. Use or materialize the returned local file reference or mounted local path
+4. Fetch `artifacts/topic-radar/latest.json` directly from the live default
+   branch through the GitHub connector. Do not download or extract a ZIP for
+   this primary path.
+5. Verify that the file is non-empty, parses as JSON, and contains the expected
+   Topic Radar fields plus `workflow_run_id`, `commit_sha`, and `generated_at`.
+6. Validate `workflow_run_id` against the newest successful relevant run ID,
+   `commit_sha` against that run's head commit SHA, and `generated_at` against
+   that run's output time. The repository's current head may be the later bot
+   commit that published the snapshot; do not mistake that snapshot commit for
+   the workflow's source commit.
+7. If all provenance matches, use this JSON for the full link audit and
+   editorial run. Record its workflow run ID, commit SHA, artifact name, and
+   `generated_at` value.
+8. If the snapshot is missing, empty, invalid, stale, or does not match the
+   newest successful relevant run, record the exact mismatch and use the
+   Actions artifact fallback below.
+9. Only after a valid direct snapshot or fallback artifact has been parsed
+   should the link audit and editorial ranking begin.
+
+### Actions artifact fallback
+
+1. Find the `topic-radar-<run-id>` artifact attached to the newest successful
+   relevant run.
+2. Download the artifact ZIP through the GitHub connector.
+3. Use or materialize the returned local file reference or mounted local path
    before extraction.
-7. Extract the ZIP into a known working directory.
-8. Verify that `topic-radar.json` exists and is non-empty.
-9. Parse `topic-radar.json`.
-10. Record the workflow run ID, commit SHA, artifact ID, artifact name, artifact
-    creation time, and `generated_at` value.
-11. Only after successful parsing should the link audit and editorial ranking
-    begin.
+4. Extract the ZIP into a known working directory.
+5. Verify that `topic-radar.json` exists and is non-empty, then parse it.
+6. Record the workflow run ID, commit SHA, artifact ID, artifact name, artifact
+   creation time, `generated_at`, and the reason the direct snapshot was not
+   used.
 
 Do not treat the downloaded connector ZIP as though it were already an
 extracted local file. If extraction or JSON parsing fails, perform one fresh
 artifact download and retry. If that retry fails, use `topic-radar.md` or the
-GitHub job summary only as a clearly labeled fallback. Preserve the artifact
-failure in the final report. Never claim the JSON feed was read when only a
-fallback was available.
+GitHub job summary only as a clearly labeled fallback. Preserve every snapshot
+mismatch or artifact failure in the final report. Never claim the JSON feed was
+read when only a Markdown or job-summary fallback was available.
 
 ## Mandatory link audit
 

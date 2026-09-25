@@ -123,14 +123,18 @@ Run this manually and review the output before enabling its schedule.
 
 ```text
 Execute the scheduled editorial workflow in
-docs/chatgpt-project/DAILY_EDITORIAL_RUN.md for today. Retrieve the latest
-successful Topic Radar artifact through the GitHub connector by inspecting
-madhugogineni/feed-forge, and record its run, commit, and creation time. Do not
-use an old uploaded copy as a substitute for current repository state. Enumerate
-every URL in the selected pipeline output, visit every unique canonical URL,
-and retain every occurrence in the required source-audit sheet. Include failed,
-blocked, stale, rejected, and unused links with their status and reason. Return
-the audit in Markdown, JSON, and a downloadable source-audit.csv.
+docs/chatgpt-project/DAILY_EDITORIAL_RUN.md for today. Inspect the live
+madhugogineni/feed-forge repository, confirm its default branch, latest commit,
+and newest successful relevant Topic Radar run, then fetch
+artifacts/topic-radar/latest.json directly through the GitHub connector.
+Validate its workflow_run_id, commit_sha, and generated_at against that run and
+record the result. Use the matching Actions artifact ZIP only as a visibly
+labeled fallback when the direct snapshot is missing, stale, or mismatched. Do
+not use an old uploaded copy as a substitute for current repository state.
+Enumerate every URL in the selected pipeline output, visit every unique
+canonical URL, and retain every occurrence in the required source-audit sheet.
+Include failed, blocked, stale, rejected, and unused links with their status and
+reason. Return the audit in Markdown, JSON, and a downloadable source-audit.csv.
 Research all approved lanes proactively, including historical or then-versus-now
 comparisons, financial facts, interesting numbers, questions, light
 rage-bait-style prompts, and GitHub build stories. Verify factual premises with

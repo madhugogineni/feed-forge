@@ -57,9 +57,10 @@ workflow.
    06:05, 09:05, 12:05, 15:05, 18:05, and 21:05 Asia/Kolkata using the exact
    prompt from prompt 11. Topic Radar runs at 06:00, 09:00, 12:00, 15:00,
    18:00, and 21:00 IST; its 00:00 and 03:00 slots are intentionally skipped.
-   The editorial automation is time-triggered, so each run must select the
-   newest successful relevant artifact instead of assuming the immediately
-   preceding Topic Radar run finished on schedule.
+   The editorial automation is time-triggered, so each run must validate the
+   repository's latest Topic Radar snapshot against the newest successful
+   relevant run instead of assuming the immediately preceding run finished on
+   schedule.
 9. Start a separate chat for each ad hoc outcome, such as **Weekly build story**,
    **Topic radar posts**, **Image concepts**, or **Video scripts**. This keeps
    the evidence and revisions for one deliverable together while retaining the
@@ -80,18 +81,21 @@ living authorities for executable ideas and recurring source requirements.
 Use the narrowest useful source:
 
 1. Git commits and pull requests for what changed in the product.
-2. GitHub Actions job summaries and generated Markdown/JSON artifacts for what
-   a Feed Forge run found.
-3. Raw Actions logs only to diagnose a run, not as the main editorial input.
+2. The validated `artifacts/topic-radar/latest.json` repository snapshot for
+   what the newest successful Topic Radar run found.
+3. GitHub Actions artifacts and job summaries as the fallback when that
+   snapshot is missing, stale, or mismatched.
+4. Raw Actions logs only to diagnose a run, not as the main editorial input.
 
 Raw logs are noisy and may expose operational details. A passing log also does
-not prove that a social claim is true. The generated run artifact and its source
+not prove that a social claim is true. The direct JSON snapshot and its source
 provenance are the preferred editorial input.
 
-If the GitHub plugin cannot retrieve an Actions artifact in the active ChatGPT
-surface, download the artifact from GitHub and upload the JSON or Markdown file
-to the relevant project chat. Do not upload the whole log bundle unless a failure
-must be diagnosed.
+If the direct snapshot cannot be validated, retrieve the matching Actions
+artifact through the GitHub connector. If that surface cannot download the
+artifact, download it from GitHub and upload the JSON or Markdown file to the
+relevant project chat. Do not upload the whole log bundle unless a failure must
+be diagnosed.
 
 ## Operating flow
 

@@ -103,9 +103,10 @@ The source pipeline runs every three hours at 06:00, 09:00, 12:00, 15:00,
 acceptance test, a separate editorial automation should run five minutes after
 each source slot at 06:05, 09:05, 12:05, 15:05, 18:05, and 21:05 IST without
 requiring a user prompt. Each editorial run produces a 15-item original-content
-idea bank using the newest successful relevant GitHub pipeline artifact,
-repository activity, RSS/Atom feeds, official newsrooms, regulators,
-first-party product pages, historical datasets, and other permitted sources.
+idea bank using the validated latest Topic Radar repository snapshot (with the
+newest successful relevant GitHub pipeline artifact as fallback), repository
+activity, RSS/Atom feeds, official newsrooms, regulators, first-party product
+pages, historical datasets, and other permitted sources.
 Do not claim that the editorial schedule is active until the scheduled task has
 actually been created and successfully tested.
 

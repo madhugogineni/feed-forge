@@ -216,7 +216,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
-artifacts/
+artifacts/*
+!artifacts/topic-radar/
+artifacts/topic-radar/*
+!artifacts/topic-radar/latest.json
+!artifacts/topic-radar/latest.md
 *.egg-info/
 __pycache__/
 .pytest_cache/

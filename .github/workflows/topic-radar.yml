@@ -8,9 +8,12 @@ on:
       - .github/workflows/topic-radar.yml
       - config/topic_feeds.toml
       - scripts/collect_topics.py
+      - scripts/publish_topic_snapshot.py
       - src/feed_forge/cli.py
       - src/feed_forge/topic_feeds.py
+      - src/feed_forge/topic_snapshot.py
       - tests/test_topic_feeds.py
+      - tests/test_topic_snapshot.py
       - tests/test_cli.py
   schedule:
     # Every three hours from 06:00 through 21:00 Asia/Kolkata; skip 00:00 and 03:00.
@@ -18,7 +21,7 @@ on:
     - cron: "30 0,3,6,9,12,15 * * *"
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: topic-radar
@@ -31,6 +34,10 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
+          persist-credentials: true
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -57,3 +64,29 @@ jobs:
             artifacts/topic-radar.md
           if-no-files-found: warn
           retention-days: 30
+
+      - name: Prepare latest repository snapshot
+        if: success() && github.ref == 'refs/heads/main'
+        run: >-
+          python scripts/publish_topic_snapshot.py
+          --source-json artifacts/topic-radar.json
+          --source-markdown artifacts/topic-radar.md
+          --target-json artifacts/topic-radar/latest.json
+          --target-markdown artifacts/topic-radar/latest.md
+          --workflow-run-id "${{ github.run_id }}"
+          --commit-sha "${{ github.sha }}"
+          --artifact-name "topic-radar-${{ github.run_id }}"
+
+      - name: Commit latest repository snapshot
+        if: success() && github.ref == 'refs/heads/main'
+        run: |
+          git add -- artifacts/topic-radar/latest.json artifacts/topic-radar/latest.md
+          if git diff --cached --quiet; then
+            echo "Latest Topic Radar snapshot is unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update latest topic radar snapshot"
+          git pull --rebase origin main
+          git push origin HEAD:main
