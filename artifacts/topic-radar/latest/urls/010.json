@@ -1,0 +1,115 @@
+{
+  "record_count": 5,
+  "records": [
+    {
+      "canonical_url": "https://telanganatoday.com/lg-electronics-india-receives-show-cause-notice-over-rs-153-58-cr-customs-duty",
+      "domain": "telanganatoday.com",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000043"
+      ],
+      "topic_ids": [
+        "india_developments"
+      ],
+      "topics": [
+        "India developments"
+      ],
+      "url_id": "url_000046"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/mahadev-betting-case-cbi-arrests-key-suspect-at-hyderabad-airport-after-arrival-from-dubai",
+      "domain": "telanganatoday.com",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000088"
+      ],
+      "topic_ids": [
+        "travel_lifestyle"
+      ],
+      "topics": [
+        "Travel and lifestyle"
+      ],
+      "url_id": "url_000047"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/opinion-from-encounters-to-custodial-deaths-is-india-finding-new-ways-to-hide-extrajudicial-killings",
+      "domain": "telanganatoday.com",
+      "feed_ids": [
+        "telangana_today",
+        "telangana_today_crime"
+      ],
+      "feed_names": [
+        "Telangana Today",
+        "Telangana Today Crime"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000033"
+      ],
+      "topic_ids": [
+        "crime"
+      ],
+      "topics": [
+        "Crime news"
+      ],
+      "url_id": "url_000048"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/pregnant-samantha-ruth-prabhu-shares-glimpse-of-workout-routine-strong-till-the-very-end",
+      "domain": "telanganatoday.com",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000038"
+      ],
+      "topic_ids": [
+        "fitness_ergonomics"
+      ],
+      "topics": [
+        "Fitness and ergonomics"
+      ],
+      "url_id": "url_000049"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/russo-brothers-recall-robert-downey-jr-chris-evans-final-days-on-avengers-endgame",
+      "domain": "telanganatoday.com",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000018"
+      ],
+      "topic_ids": [
+        "consumer_safety"
+      ],
+      "topics": [
+        "Consumer and digital safety"
+      ],
+      "url_id": "url_000050"
+    }
+  ],
+  "schema_version": "feed-forge/editorial-input/v1",
+  "shard_index": 10,
+  "shard_type": "urls"
+}

@@ -1,30 +1,30 @@
 {
-  "record_count": 20,
+  "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://www.androidauthority.com/youtube-music-your-podcast-lineup-3714671",
-      "feed_id": "android_authority",
+      "canonical_url": "https://www.medianama.com/2026/09/223-pine-labs-agentic-commerce-merchants",
+      "feed_id": "medianama",
       "feed_ids": [
-        "android_authority"
+        "medianama"
       ],
-      "feed_name": "Android Authority",
+      "feed_name": "MediaNama",
       "feed_names": [
-        "Android Authority"
+        "MediaNama"
       ],
       "matched_terms": [
-        "YouTube Music"
+        "Google"
       ],
-      "occurrence_id": "occ_000061",
-      "original_url": "https://www.androidauthority.com/youtube-music-your-podcast-lineup-3714671",
-      "pipeline_item_id": "79d36882090ccb31",
-      "published_at": "2026-09-23T17:20:25Z",
-      "title": "YouTube Music is rolling out some features to freshen up your podcast collection",
-      "topic": "Music and streaming apps",
-      "topic_id": "music_apps",
+      "occurrence_id": "occ_000016",
+      "original_url": "https://www.medianama.com/2026/09/223-pine-labs-agentic-commerce-merchants",
+      "pipeline_item_id": "d326ed9d2dea877f",
+      "published_at": "2026-09-25T09:46:05Z",
+      "title": "Pine Labs, Google Cloud partner to expand agentic commerce to merchants",
+      "topic": "Major technology companies",
+      "topic_id": "big_tech",
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://9to5mac.com/2026/09/21/ios-27-2-reveals-new-features-coming-to-apple-music-carplay-more",
+      "canonical_url": "https://9to5mac.com/2026/09/22/phishing-simulations-for-the-ai-era",
       "feed_id": "9to5mac",
       "feed_ids": [
         "9to5mac"
@@ -34,306 +34,19 @@
         "9to5Mac"
       ],
       "matched_terms": [
-        "Apple Music"
+        "phishing"
       ],
-      "occurrence_id": "occ_000062",
-      "original_url": "https://9to5mac.com/2026/09/21/ios-27-2-reveals-new-features-coming-to-apple-music-carplay-more",
-      "pipeline_item_id": "7e6153a51fd7b9f8",
-      "published_at": "2026-09-21T19:01:12Z",
-      "title": "iOS 27.2 reveals new features coming to Apple Music, CarPlay, more",
-      "topic": "Music and streaming apps",
-      "topic_id": "music_apps",
+      "occurrence_id": "occ_000017",
+      "original_url": "https://9to5mac.com/2026/09/22/phishing-simulations-for-the-ai-era",
+      "pipeline_item_id": "a2ddcc2a93d00134",
+      "published_at": "2026-09-22T10:00:00Z",
+      "title": "Apple @ Work Podcast: Phishing simulations for the AI era",
+      "topic": "Consumer and digital safety",
+      "topic_id": "consumer_safety",
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://blog.google/intl/en-in/products/platforms/press-play-on-these-new-youtube-music-updates",
-      "feed_id": "google_india",
-      "feed_ids": [
-        "google_india"
-      ],
-      "feed_name": "Google India Blog",
-      "feed_names": [
-        "Google India Blog"
-      ],
-      "matched_terms": [
-        "YouTube Music"
-      ],
-      "occurrence_id": "occ_000063",
-      "original_url": "https://blog.google/intl/en-in/products/platforms/press-play-on-these-new-youtube-music-updates",
-      "pipeline_item_id": "aff2d027629de3fe",
-      "published_at": "2026-09-23T14:30:00Z",
-      "title": "Press play on these new YouTube Music updates",
-      "topic": "Music and streaming apps",
-      "topic_id": "music_apps",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://9to5mac.com/2026/09/22/apple-music-opens-new-live-music-venue-in-london",
-      "feed_id": "9to5mac",
-      "feed_ids": [
-        "9to5mac"
-      ],
-      "feed_name": "9to5Mac",
-      "feed_names": [
-        "9to5Mac"
-      ],
-      "matched_terms": [
-        "Apple Music"
-      ],
-      "occurrence_id": "occ_000064",
-      "original_url": "https://9to5mac.com/2026/09/22/apple-music-opens-new-live-music-venue-in-london",
-      "pipeline_item_id": "c34b8250b585d412",
-      "published_at": "2026-09-22T07:51:30Z",
-      "title": "Apple Music opens new live music venue in London",
-      "topic": "Music and streaming apps",
-      "topic_id": "music_apps",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://www.androidauthority.com/spotify-meta-muse-integration-3714958",
-      "feed_id": "android_authority",
-      "feed_ids": [
-        "android_authority"
-      ],
-      "feed_name": "Android Authority",
-      "feed_names": [
-        "Android Authority"
-      ],
-      "matched_terms": [
-        "Spotify"
-      ],
-      "occurrence_id": "occ_000065",
-      "original_url": "https://www.androidauthority.com/spotify-meta-muse-integration-3714958",
-      "pipeline_item_id": "f7be5e24607ea455",
-      "published_at": "2026-09-24T10:17:56Z",
-      "title": "Spotify just gave Meta Muse the keys to your music",
-      "topic": "Music and streaming apps",
-      "topic_id": "music_apps",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbktnRWpmNVhKbmpxTHdwMlNnWVI1YTNaSjNDcFJTNjU4aFNsZ0FDa0ZvUkFDY2xyLWtnMC0xRXFESFFUQ3puc3JSeXA5b3VZdkczbUxtMzg0M0JQRHo2ZDBnZzRhd3FUdkZjRTBLWXlCMHVjT2o1NHMwN0ZxZVVwcHdLSkZweGZlN0xTT005bUwzdzFKaDFBU1BQTDczZnJmelBSSkRKM2dIbjhXMnZvVm9FV3M?oc=5",
-      "feed_id": "google_news_device_brands",
-      "feed_ids": [
-        "google_news_device_brands"
-      ],
-      "feed_name": "Google News — Indian device brands",
-      "feed_names": [
-        "Google News — Indian device brands"
-      ],
-      "matched_terms": [
-        "investing"
-      ],
-      "occurrence_id": "occ_000066",
-      "original_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbktnRWpmNVhKbmpxTHdwMlNnWVI1YTNaSjNDcFJTNjU4aFNsZ0FDa0ZvUkFDY2xyLWtnMC0xRXFESFFUQ3puc3JSeXA5b3VZdkczbUxtMzg0M0JQRHo2ZDBnZzRhd3FUdkZjRTBLWXlCMHVjT2o1NHMwN0ZxZVVwcHdLSkZweGZlN0xTT005bUwzdzFKaDFBU1BQTDczZnJmelBSSkRKM2dIbjhXMnZvVm9FV3M?oc=5",
-      "pipeline_item_id": "a12e2d0090c57abc",
-      "published_at": "2026-09-25T12:30:36Z",
-      "title": "Form 4 Mastercraft Boat Holdings Inc For: 25 September - Investing.com India",
-      "topic": "Personal finance and investing",
-      "topic_id": "personal_finance",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://9to5mac.com/2026/09/23/apple-increases-interest-rate-for-apple-card-savings-account",
-      "feed_id": "9to5mac",
-      "feed_ids": [
-        "9to5mac"
-      ],
-      "feed_name": "9to5Mac",
-      "feed_names": [
-        "9to5Mac"
-      ],
-      "matched_terms": [
-        "savings account"
-      ],
-      "occurrence_id": "occ_000067",
-      "original_url": "https://9to5mac.com/2026/09/23/apple-increases-interest-rate-for-apple-card-savings-account",
-      "pipeline_item_id": "a471b0129af74adf",
-      "published_at": "2026-09-23T11:18:16Z",
-      "title": "Apple increases interest rate for Apple Card Savings Account",
-      "topic": "Personal finance and investing",
-      "topic_id": "personal_finance",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://www.androidauthority.com/google-pixel-clock-alarm-bug-not-fixed-yet-3715371",
-      "feed_id": "android_authority",
-      "feed_ids": [
-        "android_authority"
-      ],
-      "feed_name": "Android Authority",
-      "feed_names": [
-        "Android Authority"
-      ],
-      "matched_terms": [
-        "Pixel"
-      ],
-      "occurrence_id": "occ_000068",
-      "original_url": "https://www.androidauthority.com/google-pixel-clock-alarm-bug-not-fixed-yet-3715371",
-      "pipeline_item_id": "08c05856fa91321f",
-      "published_at": "2026-09-25T09:47:49Z",
-      "title": "Some Pixel owners are still missing alarms because of a years-old Clock bug",
-      "topic": "Technology, software and gadgets",
-      "topic_id": "tech_software",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://www.androidauthority.com/google-pixel-september-2026-pattern-pin-unlock-bug-3715425",
-      "feed_id": "android_authority",
-      "feed_ids": [
-        "android_authority"
-      ],
-      "feed_name": "Android Authority",
-      "feed_names": [
-        "Android Authority"
-      ],
-      "matched_terms": [
-        "Pixel"
-      ],
-      "occurrence_id": "occ_000069",
-      "original_url": "https://www.androidauthority.com/google-pixel-september-2026-pattern-pin-unlock-bug-3715425",
-      "pipeline_item_id": "119191c105d6ab4f",
-      "published_at": "2026-09-25T11:39:45Z",
-      "title": "Some Pixel users are locked out after the September 2026 update",
-      "topic": "Technology, software and gadgets",
-      "topic_id": "tech_software",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://9to5mac.com/2026/09/25/airpods-just-got-a-long-requested-feature-in-new-update",
-      "feed_id": "9to5mac",
-      "feed_ids": [
-        "9to5mac"
-      ],
-      "feed_name": "9to5Mac",
-      "feed_names": [
-        "9to5Mac"
-      ],
-      "matched_terms": [
-        "software"
-      ],
-      "occurrence_id": "occ_000070",
-      "original_url": "https://9to5mac.com/2026/09/25/airpods-just-got-a-long-requested-feature-in-new-update",
-      "pipeline_item_id": "4522ac51d7753bb9",
-      "published_at": "2026-09-25T12:04:47Z",
-      "title": "AirPods just got a long-requested feature in new software update",
-      "topic": "Technology, software and gadgets",
-      "topic_id": "tech_software",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://www.androidauthority.com/google-create-my-widget-play-store-listing-3715354",
-      "feed_id": "android_authority",
-      "feed_ids": [
-        "android_authority"
-      ],
-      "feed_name": "Android Authority",
-      "feed_names": [
-        "Android Authority"
-      ],
-      "matched_terms": [
-        "Android"
-      ],
-      "occurrence_id": "occ_000071",
-      "original_url": "https://www.androidauthority.com/google-create-my-widget-play-store-listing-3715354",
-      "pipeline_item_id": "4ea372a6662994a7",
-      "published_at": "2026-09-25T07:12:06Z",
-      "title": "This is how Google’s ‘Create My Widget’ app will work on Android and Googlebook OS",
-      "topic": "Technology, software and gadgets",
-      "topic_id": "tech_software",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://www.androidauthority.com/android-copy-apple-iphone-steel-case-battery-3715505",
-      "feed_id": "android_authority",
-      "feed_ids": [
-        "android_authority"
-      ],
-      "feed_name": "Android Authority",
-      "feed_names": [
-        "Android Authority"
-      ],
-      "matched_terms": [
-        "Android",
-        "iPhone"
-      ],
-      "occurrence_id": "occ_000072",
-      "original_url": "https://www.androidauthority.com/android-copy-apple-iphone-steel-case-battery-3715505",
-      "pipeline_item_id": "b834258154fa2358",
-      "published_at": "2026-09-25T13:09:49Z",
-      "title": "Android flagships could soon pack massive 10,000mAh batteries, thanks to iPhone’s battery tech",
-      "topic": "Technology, software and gadgets",
-      "topic_id": "tech_software",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://9to5mac.com/2026/09/25/apple-wallet-in-ios-27-adds-feature-thats-been-on-my-wishlist-for-years",
-      "feed_id": "9to5mac",
-      "feed_ids": [
-        "9to5mac"
-      ],
-      "feed_name": "9to5Mac",
-      "feed_names": [
-        "9to5Mac"
-      ],
-      "matched_terms": [
-        "iOS"
-      ],
-      "occurrence_id": "occ_000073",
-      "original_url": "https://9to5mac.com/2026/09/25/apple-wallet-in-ios-27-adds-feature-thats-been-on-my-wishlist-for-years",
-      "pipeline_item_id": "bf05dd1cd1b98d27",
-      "published_at": "2026-09-25T13:10:12Z",
-      "title": "Apple Wallet in iOS 27 adds feature that’s been on my wishlist for years",
-      "topic": "Technology, software and gadgets",
-      "topic_id": "tech_software",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://www.androidauthority.com/atv-launcher-v0-1-41-update-3715420",
-      "feed_id": "android_authority",
-      "feed_ids": [
-        "android_authority"
-      ],
-      "feed_name": "Android Authority",
-      "feed_names": [
-        "Android Authority"
-      ],
-      "matched_terms": [
-        "Android"
-      ],
-      "occurrence_id": "occ_000074",
-      "original_url": "https://www.androidauthority.com/atv-launcher-v0-1-41-update-3715420",
-      "pipeline_item_id": "c5a44b4df9531484",
-      "published_at": "2026-09-25T10:30:47Z",
-      "title": "ATV Launcher’s latest update brings big home screen upgrades for your Android TV",
-      "topic": "Technology, software and gadgets",
-      "topic_id": "tech_software",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://www.androidauthority.com/pixel-11-signal-problems-troubleshooting-tips-3714401",
-      "feed_id": "android_authority",
-      "feed_ids": [
-        "android_authority"
-      ],
-      "feed_name": "Android Authority",
-      "feed_names": [
-        "Android Authority"
-      ],
-      "matched_terms": [
-        "Pixel"
-      ],
-      "occurrence_id": "occ_000075",
-      "original_url": "https://www.androidauthority.com/pixel-11-signal-problems-troubleshooting-tips-3714401",
-      "pipeline_item_id": "cfbb5c341a84b5d5",
-      "published_at": "2026-09-25T10:30:01Z",
-      "title": "Pixel 11 signal problems? Try these 7 fixes before returning it",
-      "topic": "Technology, software and gadgets",
-      "topic_id": "tech_software",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://telanganatoday.com/junior-national-football-telangana-held-by-goa-in-1-1-draw",
+      "canonical_url": "https://telanganatoday.com/russo-brothers-recall-robert-downey-jr-chris-evans-final-days-on-avengers-endgame",
       "feed_id": "telangana_today",
       "feed_ids": [
         "telangana_today"
@@ -343,106 +56,59 @@
         "Telangana Today"
       ],
       "matched_terms": [
-        "Telangana"
+        "recall"
       ],
-      "occurrence_id": "occ_000076",
-      "original_url": "https://telanganatoday.com/junior-national-football-telangana-held-by-goa-in-1-1-draw",
-      "pipeline_item_id": "08a482847ce2fe3c",
-      "published_at": "2026-09-25T12:16:35Z",
-      "title": "Junior National Football: Telangana held by Goa in 1-1 draw",
-      "topic": "Telangana and Hyderabad developments",
-      "topic_id": "telangana_hyderabad",
+      "occurrence_id": "occ_000018",
+      "original_url": "https://telanganatoday.com/russo-brothers-recall-robert-downey-jr-chris-evans-final-days-on-avengers-endgame",
+      "pipeline_item_id": "c80404b6052c0e77",
+      "published_at": "2026-09-25T09:34:02Z",
+      "title": "Russo Brothers recall Robert Downey Jr, Chris Evans’ final days on Avengers: Endgame",
+      "topic": "Consumer and digital safety",
+      "topic_id": "consumer_safety",
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://telanganatoday.com/harish-rao-urges-telangana-government-to-use-godavari-floodwater-to-fill-reservoirs",
-      "feed_id": "telangana_today",
+      "canonical_url": "https://www.medianama.com/2026/09/223-npci-ai-cyber-threats-mythos-upi-mdr",
+      "feed_id": "medianama",
       "feed_ids": [
-        "telangana_today"
+        "medianama"
       ],
-      "feed_name": "Telangana Today",
+      "feed_name": "MediaNama",
       "feed_names": [
-        "Telangana Today"
+        "MediaNama"
       ],
       "matched_terms": [
-        "Telangana"
+        "UPI"
       ],
-      "occurrence_id": "occ_000077",
-      "original_url": "https://telanganatoday.com/harish-rao-urges-telangana-government-to-use-godavari-floodwater-to-fill-reservoirs",
-      "pipeline_item_id": "0ec3b58365f89980",
-      "published_at": "2026-09-25T12:23:11Z",
-      "title": "Harish Rao urges Telangana government to use Godavari floodwater to fill reservoirs",
-      "topic": "Telangana and Hyderabad developments",
-      "topic_id": "telangana_hyderabad",
+      "occurrence_id": "occ_000019",
+      "original_url": "https://www.medianama.com/2026/09/223-npci-ai-cyber-threats-mythos-upi-mdr",
+      "pipeline_item_id": "054834731c0ccb98",
+      "published_at": "2026-09-25T06:08:02Z",
+      "title": "NPCI chief Dilip Asbe cites AI cyber threats, including Claude Mythos, to defend UPI MDR",
+      "topic": "Credit cards, rewards and payments",
+      "topic_id": "credit_cards_payments",
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://telanganatoday.com/elephant-herd-movement-triggers-panic-along-maharashtra-telangana-border",
-      "feed_id": "telangana_today",
+      "canonical_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPV2JsYTMzbmtwNl9CZXY0czBzRWpCWXcxNFZPcGlrQ1BkVm13X2lRVjZ0a3F6LVA5aHBfbkZnRzZtZk54ZjJiWHpvMlVTLXlOcnMwa2NQX2N6aDJOektWR05nU2doYm5wQVlYRVAwV1o2VUt5bmVkQ0xBWnpWd2dDRXVPS0EzNzAxQlo1RjR4c2lzWTIzT3B1S1o2SmpmaVdzVjJCeWtyWVd2bVdIWm5pdXhlcmdvMVFlY0Q1TnRqZFBiQTdBNmFJc2tpUkZmT1pE?oc=5",
+      "feed_id": "google_news_credit_cards",
       "feed_ids": [
-        "telangana_today"
+        "google_news_credit_cards"
       ],
-      "feed_name": "Telangana Today",
+      "feed_name": "Google News — Indian credit cards",
       "feed_names": [
-        "Telangana Today"
+        "Google News — Indian credit cards"
       ],
       "matched_terms": [
-        "Telangana"
+        "digital payments"
       ],
-      "occurrence_id": "occ_000078",
-      "original_url": "https://telanganatoday.com/elephant-herd-movement-triggers-panic-along-maharashtra-telangana-border",
-      "pipeline_item_id": "26a8f41c66f4f7a8",
-      "published_at": "2026-09-25T12:34:21Z",
-      "title": "Elephant herd movement triggers panic along Maharashtra-Telangana border",
-      "topic": "Telangana and Hyderabad developments",
-      "topic_id": "telangana_hyderabad",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://www.thehindu.com/news/cities/Hyderabad/ganesh-visarjan-hyderabad-khairatabad-ganesh-immersion-procession-begins-traffic-curbs-in-the-city-live-updates-september-25-2026/article71506992.ece",
-      "feed_id": "hindu_hyderabad",
-      "feed_ids": [
-        "hindu_hyderabad",
-        "hindu_telangana"
-      ],
-      "feed_name": "The Hindu Hyderabad",
-      "feed_names": [
-        "The Hindu Hyderabad",
-        "The Hindu Telangana"
-      ],
-      "matched_terms": [
-        "source:hindu_hyderabad",
-        "source:hindu_telangana"
-      ],
-      "occurrence_id": "occ_000079",
-      "original_url": "https://www.thehindu.com/news/cities/Hyderabad/ganesh-visarjan-hyderabad-khairatabad-ganesh-immersion-procession-begins-traffic-curbs-in-the-city-live-updates-september-25-2026/article71506992.ece",
-      "pipeline_item_id": "4801d9d8e53d2ff2",
-      "published_at": "2026-09-25T12:37:31Z",
-      "title": "Ganesh immersion 2026 highlights: Khairatabad Ganesh idol immersion concludes",
-      "topic": "Telangana and Hyderabad developments",
-      "topic_id": "telangana_hyderabad",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://telanganatoday.com/junior-chess-players-to-compete-in-telangana-state-ranking-tournament",
-      "feed_id": "telangana_today",
-      "feed_ids": [
-        "telangana_today"
-      ],
-      "feed_name": "Telangana Today",
-      "feed_names": [
-        "Telangana Today"
-      ],
-      "matched_terms": [
-        "Telangana"
-      ],
-      "occurrence_id": "occ_000080",
-      "original_url": "https://telanganatoday.com/junior-chess-players-to-compete-in-telangana-state-ranking-tournament",
-      "pipeline_item_id": "598127cac75fb922",
-      "published_at": "2026-09-25T12:20:56Z",
-      "title": "Junior chess players to compete in Telangana state-ranking tournament",
-      "topic": "Telangana and Hyderabad developments",
-      "topic_id": "telangana_hyderabad",
+      "occurrence_id": "occ_000020",
+      "original_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPV2JsYTMzbmtwNl9CZXY0czBzRWpCWXcxNFZPcGlrQ1BkVm13X2lRVjZ0a3F6LVA5aHBfbkZnRzZtZk54ZjJiWHpvMlVTLXlOcnMwa2NQX2N6aDJOektWR05nU2doYm5wQVlYRVAwV1o2VUt5bmVkQ0xBWnpWd2dDRXVPS0EzNzAxQlo1RjR4c2lzWTIzT3B1S1o2SmpmaVdzVjJCeWtyWVd2bVdIWm5pdXhlcmdvMVFlY0Q1TnRqZFBiQTdBNmFJc2tpUkZmT1pE?oc=5",
+      "pipeline_item_id": "3687e0c267b259f4",
+      "published_at": "2026-09-25T07:06:00Z",
+      "title": "Credit cards lose share in India’s rapidly growing digital payments pie: Jefferies - ANI News",
+      "topic": "Credit cards, rewards and payments",
+      "topic_id": "credit_cards_payments",
       "topic_lane": "review"
     }
   ],

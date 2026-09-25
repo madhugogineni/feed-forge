@@ -7,6 +7,8 @@ import unittest
 from pathlib import Path
 
 from feed_forge.editorial_snapshot import (
+    DEFAULT_SHARD_MAX_BYTES,
+    DEFAULT_SHARD_SIZE,
     EDITORIAL_INPUT_SCHEMA,
     EditorialSnapshotError,
     build_editorial_snapshot,
@@ -91,13 +93,21 @@ def _rewrite_manifest_checksum(root: Path, manifest_field: str, index: int) -> N
     manifest[manifest_field][index]["sha256"] = hashlib.sha256(
         shard_path.read_bytes()
     ).hexdigest()
+    manifest[manifest_field][index]["byte_size"] = shard_path.stat().st_size
     manifest_path.write_text(
         json.dumps(manifest, indent=2, sort_keys=True) + "\n", encoding="utf-8"
     )
 
 
 class EditorialSnapshotTests(unittest.TestCase):
-    def _build(self, root: Path, *, shard_size: int = 2, report: dict | None = None) -> dict:
+    def _build(
+        self,
+        root: Path,
+        *,
+        shard_size: int = 2,
+        shard_max_bytes: int = DEFAULT_SHARD_MAX_BYTES,
+        report: dict | None = None,
+    ) -> dict:
         return build_editorial_snapshot(
             report if report is not None else _report(),
             root,
@@ -105,6 +115,7 @@ class EditorialSnapshotTests(unittest.TestCase):
             commit_sha="abc123",
             generated_at="2026-09-25T12:03:48Z",
             shard_size=shard_size,
+            shard_max_bytes=shard_max_bytes,
         )
 
     def test_manifest_generation_provenance_totals_and_expected_files(self) -> None:
@@ -119,6 +130,7 @@ class EditorialSnapshotTests(unittest.TestCase):
             self.assertEqual(2, manifest["topic_count"])
             self.assertEqual(4, manifest["url_occurrence_count"])
             self.assertEqual(3, manifest["unique_url_count"])
+            self.assertEqual(DEFAULT_SHARD_MAX_BYTES, manifest["shard_max_bytes"])
             self.assertEqual(
                 {"manifest.json", "topics.json", "source-health.json", "occurrences", "urls"},
                 {path.name for path in root.iterdir()},
@@ -201,6 +213,62 @@ class EditorialSnapshotTests(unittest.TestCase):
                 for path in second.rglob("*.json")
             }
             self.assertEqual(first_files, second_files)
+
+    def test_shards_respect_serialized_byte_cap_and_preserve_all_records(self) -> None:
+        report = _report()
+        items = []
+        for index in range(6):
+            items.append(
+                {
+                    "id": f"long-item-{index}",
+                    "title": f"Long story {index}",
+                    "published_at": f"2026-09-25T0{index}:00:00Z",
+                    "source_ids": ["feed-a"],
+                    "topic_matches": {"topic-a": ["Alpha"]},
+                    "url": f"https://example.com/{index}?value={'x' * 900}",
+                }
+            )
+        report["topics"] = [
+            {
+                "id": "topic-a",
+                "label": "Topic A",
+                "lane": "review",
+                "total_recent": len(items),
+                "term_counts": {"Alpha": len(items)},
+                "selection": "new_terms_first",
+                "items": items,
+            }
+        ]
+        byte_cap = 3_500
+
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory) / "latest"
+            manifest = self._build(
+                root,
+                shard_size=DEFAULT_SHARD_SIZE,
+                shard_max_bytes=byte_cap,
+                report=report,
+            )
+            entries = manifest["occurrence_shards"] + manifest["url_shards"]
+
+            self.assertEqual(5, DEFAULT_SHARD_SIZE)
+            self.assertEqual(DEFAULT_SHARD_SIZE, manifest["shard_size"])
+            self.assertTrue(all(entry["record_count"] <= DEFAULT_SHARD_SIZE for entry in entries))
+            self.assertTrue(all(entry["byte_size"] <= byte_cap for entry in entries))
+            self.assertEqual(
+                [entry["byte_size"] for entry in entries],
+                [(root / entry["path"]).stat().st_size for entry in entries],
+            )
+            occurrences = _load_records(root, manifest["occurrence_shards"])
+            urls = _load_records(root, manifest["url_shards"])
+            self.assertEqual(
+                {item["id"] for item in items},
+                {item["pipeline_item_id"] for item in occurrences},
+            )
+            self.assertEqual(len(items), len(occurrences))
+            self.assertEqual(len(items), len(urls))
+            self.assertGreater(len(manifest["occurrence_shards"]), 2)
+            self.assertEqual(manifest, validate_editorial_snapshot(root))
 
     def test_manifest_sha256_matches_exact_shard_bytes(self) -> None:
         with tempfile.TemporaryDirectory() as directory:

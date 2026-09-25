@@ -1,8 +1,52 @@
 {
-  "record_count": 20,
+  "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://9to5mac.com/2026/09/22/apple-working-on-whoop-style-screenless-fitness-tracker-per-report",
+      "canonical_url": "https://www.androidauthority.com/google-messages-long-press-menu-stable-rollout-3715514",
+      "feed_id": "android_authority",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_name": "Android Authority",
+      "feed_names": [
+        "Android Authority"
+      ],
+      "matched_terms": [
+        "Google"
+      ],
+      "occurrence_id": "occ_000011",
+      "original_url": "https://www.androidauthority.com/google-messages-long-press-menu-stable-rollout-3715514",
+      "pipeline_item_id": "978417b55f310c53",
+      "published_at": "2026-09-25T13:27:21Z",
+      "title": "Google Messages’ handy new long-press menu is finally rolling out widely",
+      "topic": "Major technology companies",
+      "topic_id": "big_tech",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot",
+      "feed_id": "verge",
+      "feed_ids": [
+        "verge"
+      ],
+      "feed_name": "The Verge",
+      "feed_names": [
+        "The Verge"
+      ],
+      "matched_terms": [
+        "Microsoft"
+      ],
+      "occurrence_id": "occ_000012",
+      "original_url": "https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot",
+      "pipeline_item_id": "ab39be4845514124",
+      "published_at": "2026-09-25T12:00:00Z",
+      "title": "Microsoft thinks its new Copilot ‘super app’ will be as influential as Office",
+      "topic": "Major technology companies",
+      "topic_id": "big_tech",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://9to5mac.com/2026/09/25/apple-wallet-in-ios-27-adds-feature-thats-been-on-my-wishlist-for-years",
       "feed_id": "9to5mac",
       "feed_ids": [
         "9to5mac"
@@ -12,436 +56,61 @@
         "9to5Mac"
       ],
       "matched_terms": [
-        "fitness"
+        "Apple"
       ],
-      "occurrence_id": "occ_000041",
-      "original_url": "https://9to5mac.com/2026/09/22/apple-working-on-whoop-style-screenless-fitness-tracker-per-report",
-      "pipeline_item_id": "d9aadd6c0a975a28",
-      "published_at": "2026-09-22T16:46:27Z",
-      "title": "Apple working on Whoop-style screenless fitness tracker, per report",
-      "topic": "Fitness and ergonomics",
-      "topic_id": "fitness_ergonomics",
+      "occurrence_id": "occ_000013",
+      "original_url": "https://9to5mac.com/2026/09/25/apple-wallet-in-ios-27-adds-feature-thats-been-on-my-wishlist-for-years",
+      "pipeline_item_id": "bf05dd1cd1b98d27",
+      "published_at": "2026-09-25T13:10:12Z",
+      "title": "Apple Wallet in iOS 27 adds feature that’s been on my wishlist for years",
+      "topic": "Major technology companies",
+      "topic_id": "big_tech",
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://www.medianama.com/2026/09/223-youtube-likeness-detection-voices-clones",
-      "feed_id": "medianama",
+      "canonical_url": "https://www.theverge.com/tech/1000321/apple-intelligence-home-security-camera-amazon-ring-alexa-google-nest-gemini-home-review",
+      "feed_id": "verge",
       "feed_ids": [
-        "medianama"
+        "verge"
       ],
-      "feed_name": "MediaNama",
+      "feed_name": "The Verge",
       "feed_names": [
-        "MediaNama"
+        "The Verge"
       ],
       "matched_terms": [
-        "Indian"
+        "Amazon",
+        "Apple",
+        "Google"
       ],
-      "occurrence_id": "occ_000042",
-      "original_url": "https://www.medianama.com/2026/09/223-youtube-likeness-detection-voices-clones",
-      "pipeline_item_id": "0f0f41f238dd1b33",
-      "published_at": "2026-09-25T10:56:18Z",
-      "title": "YouTube expands likeness detection to voices as Indian courts target AI voice clones",
-      "topic": "India developments",
-      "topic_id": "india_developments",
+      "occurrence_id": "occ_000014",
+      "original_url": "https://www.theverge.com/tech/1000321/apple-intelligence-home-security-camera-amazon-ring-alexa-google-nest-gemini-home-review",
+      "pipeline_item_id": "c58ed3cc3208b882",
+      "published_at": "2026-09-25T13:00:00Z",
+      "title": "Can Apple Home’s AI camera features outsmart Amazon’s and Google’s? I put them to the test",
+      "topic": "Major technology companies",
+      "topic_id": "big_tech",
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://telanganatoday.com/lg-electronics-india-receives-show-cause-notice-over-rs-153-58-cr-customs-duty",
-      "feed_id": "telangana_today",
+      "canonical_url": "https://electrek.co/2026/09/25/tesla-semi-volume-production-launch-nevada-factory",
+      "feed_id": "electrek",
       "feed_ids": [
-        "telangana_today"
+        "electrek"
       ],
-      "feed_name": "Telangana Today",
+      "feed_name": "Electrek",
       "feed_names": [
-        "Telangana Today"
+        "Electrek"
       ],
       "matched_terms": [
-        "India"
+        "Tesla"
       ],
-      "occurrence_id": "occ_000043",
-      "original_url": "https://telanganatoday.com/lg-electronics-india-receives-show-cause-notice-over-rs-153-58-cr-customs-duty",
-      "pipeline_item_id": "4bfa1b35694cae1c",
-      "published_at": "2026-09-25T12:29:53Z",
-      "title": "LG Electronics India receives show-cause notice over Rs 153.58-cr customs duty",
-      "topic": "India developments",
-      "topic_id": "india_developments",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://telanganatoday.com/gulveer-singh-bags-silver-becomes-first-indian-to-win-two-10000m-medals",
-      "feed_id": "telangana_today",
-      "feed_ids": [
-        "telangana_today"
-      ],
-      "feed_name": "Telangana Today",
-      "feed_names": [
-        "Telangana Today"
-      ],
-      "matched_terms": [
-        "Indian"
-      ],
-      "occurrence_id": "occ_000044",
-      "original_url": "https://telanganatoday.com/gulveer-singh-bags-silver-becomes-first-indian-to-win-two-10000m-medals",
-      "pipeline_item_id": "56cee09853ec845a",
-      "published_at": "2026-09-25T12:52:21Z",
-      "title": "Gulveer Singh bags silver, becomes first Indian to win two 10,000m medals",
-      "topic": "India developments",
-      "topic_id": "india_developments",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://telanganatoday.com/anahat-abhay-join-joshna-in-assuring-india-three-squash-medals-at-asian-games",
-      "feed_id": "telangana_today",
-      "feed_ids": [
-        "telangana_today"
-      ],
-      "feed_name": "Telangana Today",
-      "feed_names": [
-        "Telangana Today"
-      ],
-      "matched_terms": [
-        "India"
-      ],
-      "occurrence_id": "occ_000045",
-      "original_url": "https://telanganatoday.com/anahat-abhay-join-joshna-in-assuring-india-three-squash-medals-at-asian-games",
-      "pipeline_item_id": "645f17c8e6cc897e",
-      "published_at": "2026-09-25T11:05:14Z",
-      "title": "Anahat, Abhay join Joshna in assuring India three squash medals at Asian Games",
-      "topic": "India developments",
-      "topic_id": "india_developments",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbktnRWpmNVhKbmpxTHdwMlNnWVI1YTNaSjNDcFJTNjU4aFNsZ0FDa0ZvUkFDY2xyLWtnMC0xRXFESFFUQ3puc3JSeXA5b3VZdkczbUxtMzg0M0JQRHo2ZDBnZzRhd3FUdkZjRTBLWXlCMHVjT2o1NHMwN0ZxZVVwcHdLSkZweGZlN0xTT005bUwzdzFKaDFBU1BQTDczZnJmelBSSkRKM2dIbjhXMnZvVm9FV3M?oc=5",
-      "feed_id": "google_news_device_brands",
-      "feed_ids": [
-        "google_news_device_brands"
-      ],
-      "feed_name": "Google News — Indian device brands",
-      "feed_names": [
-        "Google News — Indian device brands"
-      ],
-      "matched_terms": [
-        "India"
-      ],
-      "occurrence_id": "occ_000046",
-      "original_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbktnRWpmNVhKbmpxTHdwMlNnWVI1YTNaSjNDcFJTNjU4aFNsZ0FDa0ZvUkFDY2xyLWtnMC0xRXFESFFUQ3puc3JSeXA5b3VZdkczbUxtMzg0M0JQRHo2ZDBnZzRhd3FUdkZjRTBLWXlCMHVjT2o1NHMwN0ZxZVVwcHdLSkZweGZlN0xTT005bUwzdzFKaDFBU1BQTDczZnJmelBSSkRKM2dIbjhXMnZvVm9FV3M?oc=5",
-      "pipeline_item_id": "a12e2d0090c57abc",
-      "published_at": "2026-09-25T12:30:36Z",
-      "title": "Form 4 Mastercraft Boat Holdings Inc For: 25 September - Investing.com India",
-      "topic": "India developments",
-      "topic_id": "india_developments",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://telanganatoday.com/iacc-summit-highlights-indias-ai-opportunity-beyond-llms-chips-and-data-centres",
-      "feed_id": "telangana_today",
-      "feed_ids": [
-        "telangana_today"
-      ],
-      "feed_name": "Telangana Today",
-      "feed_names": [
-        "Telangana Today"
-      ],
-      "matched_terms": [
-        "India"
-      ],
-      "occurrence_id": "occ_000047",
-      "original_url": "https://telanganatoday.com/iacc-summit-highlights-indias-ai-opportunity-beyond-llms-chips-and-data-centres",
-      "pipeline_item_id": "b518ebc9b525e1b5",
-      "published_at": "2026-09-25T10:48:45Z",
-      "title": "IACC Summit highlights India’s AI opportunity beyond LLMs, chips and data centres",
-      "topic": "India developments",
-      "topic_id": "india_developments",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://telanganatoday.com/sc-asks-bar-council-of-india-to-clarify-stand-on-age-limit-for-five-year-law-courses",
-      "feed_id": "telangana_today",
-      "feed_ids": [
-        "telangana_today"
-      ],
-      "feed_name": "Telangana Today",
-      "feed_names": [
-        "Telangana Today"
-      ],
-      "matched_terms": [
-        "India"
-      ],
-      "occurrence_id": "occ_000048",
-      "original_url": "https://telanganatoday.com/sc-asks-bar-council-of-india-to-clarify-stand-on-age-limit-for-five-year-law-courses",
-      "pipeline_item_id": "dc28c43917b62187",
-      "published_at": "2026-09-25T11:31:15Z",
-      "title": "SC asks Bar Council of India to clarify stand on age limit for five-year law courses",
-      "topic": "India developments",
-      "topic_id": "india_developments",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNOWdIdDJMeS1OcVJCUHpOYTNtYWVlOEVIcklzVlhrci1PVTdqTkdfUFdld2xsZmpQYmk3VTRnb2dMd3p4a0gycWYyOHAyZmowNFE1WmxvYXJVcWJ5bDFxSVl1ZjZlTFJXNWJka3ZRNWRWODAwOXFPR3BCZElFc2FOU1VsZEVTd3VmZmNuakdPTlc3Y2hPalZveGRUV0RhOTNSLXVOYVZ0dTZpNGZqaHkxRmVVMVJ6YlljTjhoakwxWXp4SGYzdTkwUHY4WEJkVkNCUDA2RkJ1QmpBTk4xYkNCcC1oQ1VTMlQwcmo0ejlpQW4wTXpUSnIxdHZyRzFRRlQtU0hhMtIBiwJBVV95cUxQUUJMUExkcVRmS1phVzFfMjdTVVFqOG8zRDJ2aF9nYngxY2sxN19MUUIyQmdLUkdITjctbXYxOFprX2pXcUJ2N3YzYUliTlpSYU1XdTlGR1NMbGlOOEhTdEhYdTk5MGJpWkpIYUVrMVZGWFVjcGk5LWs1S3FXUXREdEJkeDF0dXJ3QkVMaWgtSjBxM24yNWJWNk55SFpKLVRUcTk1dVRWZ1hDXzFHNHNnUVR5QzRVNGJ3ZDlNTlp4Z3B6R0lNMlJwVEpCLXNkdks2UmRBeS1kMXpRV0o2WXpfZjl4RTctQUk1WVNhM1pfRnhMZzV3bHZpbV9KeV9PaUhqWGplYjRhaUVMc00?oc=5",
-      "feed_id": "google_news_digital_brands",
-      "feed_ids": [
-        "google_news_digital_brands"
-      ],
-      "feed_name": "Google News — Indian digital brands",
-      "feed_names": [
-        "Google News — Indian digital brands"
-      ],
-      "matched_terms": [
-        "India",
-        "Indian"
-      ],
-      "occurrence_id": "occ_000049",
-      "original_url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNOWdIdDJMeS1OcVJCUHpOYTNtYWVlOEVIcklzVlhrci1PVTdqTkdfUFdld2xsZmpQYmk3VTRnb2dMd3p4a0gycWYyOHAyZmowNFE1WmxvYXJVcWJ5bDFxSVl1ZjZlTFJXNWJka3ZRNWRWODAwOXFPR3BCZElFc2FOU1VsZEVTd3VmZmNuakdPTlc3Y2hPalZveGRUV0RhOTNSLXVOYVZ0dTZpNGZqaHkxRmVVMVJ6YlljTjhoakwxWXp4SGYzdTkwUHY4WEJkVkNCUDA2RkJ1QmpBTk4xYkNCcC1oQ1VTMlQwcmo0ejlpQW4wTXpUSnIxdHZyRzFRRlQtU0hhMtIBiwJBVV95cUxQUUJMUExkcVRmS1phVzFfMjdTVVFqOG8zRDJ2aF9nYngxY2sxN19MUUIyQmdLUkdITjctbXYxOFprX2pXcUJ2N3YzYUliTlpSYU1XdTlGR1NMbGlOOEhTdEhYdTk5MGJpWkpIYUVrMVZGWFVjcGk5LWs1S3FXUXREdEJkeDF0dXJ3QkVMaWgtSjBxM24yNWJWNk55SFpKLVRUcTk1dVRWZ1hDXzFHNHNnUVR5QzRVNGJ3ZDlNTlp4Z3B6R0lNMlJwVEpCLXNkdks2UmRBeS1kMXpRV0o2WXpfZjl4RTctQUk1WVNhM1pfRnhMZzV3bHZpbV9KeV9PaUhqWGplYjRhaUVMc00?oc=5",
-      "pipeline_item_id": "f43f639749c02dca",
-      "published_at": "2026-09-25T12:30:55Z",
-      "title": "Top 10 youngest billionaires in India 2026: Zepto’s Kaivalya Vohra remains India’s youngest billionaire at 23 - The Indian Express",
-      "topic": "India developments",
-      "topic_id": "india_developments",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://telanganatoday.com/iacc-summit-highlights-indias-ai-opportunity-beyond-llms-chips-and-data-centres",
-      "feed_id": "telangana_today",
-      "feed_ids": [
-        "telangana_today"
-      ],
-      "feed_name": "Telangana Today",
-      "feed_names": [
-        "Telangana Today"
-      ],
-      "matched_terms": [
-        "India",
-        "summit"
-      ],
-      "occurrence_id": "occ_000050",
-      "original_url": "https://telanganatoday.com/iacc-summit-highlights-indias-ai-opportunity-beyond-llms-chips-and-data-centres",
-      "pipeline_item_id": "b518ebc9b525e1b5",
-      "published_at": "2026-09-25T10:48:45Z",
-      "title": "IACC Summit highlights India’s AI opportunity beyond LLMs, chips and data centres",
-      "topic": "India-related geopolitics",
-      "topic_id": "india_geopolitics",
-      "topic_lane": "context_only"
-    },
-    {
-      "canonical_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZVdvVGJmZFViNnlqVk1KS0x1YlcxOUhxbFFSQ1J4NnRwU25oTEo0VmJQb21TQzdBZ1JibFNjMlpZQ0g3WVVvYktrcXpfdjlyNlVVU1RFdVpIUlVUc2VCMkc3WVlFRkNxR2lyNFJ0Nzhicld0ZV9iT2pKOWlhUklNcTNJdHJyVmtxUy1VSTZ6M0RqNmJSSjVhcdIBoAFBVV95cUxPWEl0c2lYNU1kS3ctbGV0Mkg4QkFDUHFEWDEyeVJlYUY2MktPQ1BYVElWYjZ4Znc2MTFRZFlBVXhYV09fYWJlLVFjc1RxU0VJYVZPLS1YQXZNWTNaeXUzV21ZT1hybGdLODlxUUJCalM3YTZMQ3NPRVIyNnJ4QlpTMGpJSjVzZTNJeGEyTTNNSzlDdDFNa052RFlNMDg0d0kw?oc=5",
-      "feed_id": "google_news_device_brands",
-      "feed_ids": [
-        "google_news_device_brands"
-      ],
-      "feed_name": "Google News — Indian device brands",
-      "feed_names": [
-        "Google News — Indian device brands"
-      ],
-      "matched_terms": [
-        "Ather"
-      ],
-      "occurrence_id": "occ_000051",
-      "original_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZVdvVGJmZFViNnlqVk1KS0x1YlcxOUhxbFFSQ1J4NnRwU25oTEo0VmJQb21TQzdBZ1JibFNjMlpZQ0g3WVVvYktrcXpfdjlyNlVVU1RFdVpIUlVUc2VCMkc3WVlFRkNxR2lyNFJ0Nzhicld0ZV9iT2pKOWlhUklNcTNJdHJyVmtxUy1VSTZ6M0RqNmJSSjVhcdIBoAFBVV95cUxPWEl0c2lYNU1kS3ctbGV0Mkg4QkFDUHFEWDEyeVJlYUY2MktPQ1BYVElWYjZ4Znc2MTFRZFlBVXhYV09fYWJlLVFjc1RxU0VJYVZPLS1YQXZNWTNaeXUzV21ZT1hybGdLODlxUUJCalM3YTZMQ3NPRVIyNnJ4QlpTMGpJSjVzZTNJeGEyTTNNSzlDdDFNa052RFlNMDg0d0kw?oc=5",
-      "pipeline_item_id": "1ef9ee6a99f7b97d",
-      "published_at": "2026-09-25T13:11:40Z",
-      "title": "₹99,999 Konarc Has Better Margins Than Rizta: Ather CBO - Autocar Professional",
-      "topic": "Indian consumer brands and products",
-      "topic_id": "indian_brands",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQR1FOaExKSE5DN1R0SFpvckxYVmdJWW1kdHVTVWpwZ09vZnFpb0tPd0ZhdjFldUJOZmhVaWZ0dDFsZGxpTURLVkRZQnJRcl9waGFhaTdJMFY4Z09ubHBGRjNGM3FvcV83TDdaYUFwb01iQVlNZ3JpVDlSWDJKVVM0TGVxRW9FZjkwbU1Wa2taX3dxZGFXTW4xTENZcU9kcWJZMGNUd0lkM3A4THdIRGt1LWlkUy1pTk1Ib01HcVROV1lFSDJUMmdzZlRTRlJIbjRhbWdGUXZVc2M?oc=5",
-      "feed_id": "google_news_digital_brands",
-      "feed_ids": [
-        "google_news_digital_brands"
-      ],
-      "feed_name": "Google News — Indian digital brands",
-      "feed_names": [
-        "Google News — Indian digital brands"
-      ],
-      "matched_terms": [
-        "Blinkit"
-      ],
-      "occurrence_id": "occ_000052",
-      "original_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQR1FOaExKSE5DN1R0SFpvckxYVmdJWW1kdHVTVWpwZ09vZnFpb0tPd0ZhdjFldUJOZmhVaWZ0dDFsZGxpTURLVkRZQnJRcl9waGFhaTdJMFY4Z09ubHBGRjNGM3FvcV83TDdaYUFwb01iQVlNZ3JpVDlSWDJKVVM0TGVxRW9FZjkwbU1Wa2taX3dxZGFXTW4xTENZcU9kcWJZMGNUd0lkM3A4THdIRGt1LWlkUy1pTk1Ib01HcVROV1lFSDJUMmdzZlRTRlJIbjRhbWdGUXZVc2M?oc=5",
-      "pipeline_item_id": "50fcf17997075dcf",
-      "published_at": "2026-09-25T09:44:44Z",
-      "title": "Empathy not delivered via Blinkit: RJD MP on Bihar horrors - Rediff",
-      "topic": "Indian consumer brands and products",
-      "topic_id": "indian_brands",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTWZ0YlVqM011RUp3el9XOVdCcU1hVlU3WXpPejV5RU5iOUlCVnoxQnNQaFFmVDIxVHpLOXpEU3JhT1d4UGJhendWWlFISUxJUmllSDhzdVR0YkZ4Yl9CZ3hOaHd1XzZMM0c0LWtOZVJYN254VDhFbG1XSTlZQ2tZaWd4ZC1vWWdZa0JtUVBWWURxSUxzTGlR?oc=5",
-      "feed_id": "google_news_consumer_brands",
-      "feed_ids": [
-        "google_news_consumer_brands"
-      ],
-      "feed_name": "Google News — Indian consumer brands",
-      "feed_names": [
-        "Google News — Indian consumer brands"
-      ],
-      "matched_terms": [
-        "Nykaa"
-      ],
-      "occurrence_id": "occ_000053",
-      "original_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTWZ0YlVqM011RUp3el9XOVdCcU1hVlU3WXpPejV5RU5iOUlCVnoxQnNQaFFmVDIxVHpLOXpEU3JhT1d4UGJhendWWlFISUxJUmllSDhzdVR0YkZ4Yl9CZ3hOaHd1XzZMM0c0LWtOZVJYN254VDhFbG1XSTlZQ2tZaWd4ZC1vWWdZa0JtUVBWWURxSUxzTGlR?oc=5",
-      "pipeline_item_id": "5b2ad78b39194d53",
-      "published_at": "2026-09-25T10:37:18Z",
-      "title": "L’Oréal and Nykaa collaborate to fund Indian beauty brands - Yahoo Finance",
-      "topic": "Indian consumer brands and products",
-      "topic_id": "indian_brands",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPc2lycXpXOFZqbE9NSXpoSkdaZVdOMjJnaVdPYmdFbUpKLWRaeDFvRzhsdmMxSmt1THpETmNxd2lBZVlXN1BwTjU4VUlBVDlQa2YwRVlvdnFSdlVnbkpMOTEySzlqS003Mmh6blZ1R3Fja293Wk9ZZHZvUXMxN1JLcjJQWVAtZFEtdWh6d0hFX0ZjRHVGSTdvbWNnaHVMN0xkVUlqajZnR1ZLa1dCTzAzNzRvY3pYem1kdDU0aDZjLXBtOGxpTHfSAcsBQVVfeXFMTWt5eHJ3WWVMcGxyWGFVRDE1RVVNLVlEdENUN1FTMzJaRTJCRlJyNk8tbFI4c3pOY3pQUFNDN2tGOUhGakdxOFA2RzV5T28zenY5Zy1QSEhROWNxNHktdFNoTXZzNUp1RFlrOWtXNGF5bkJJNTZhdk13QnNlTFdOb2ZLRG5WejcwLUVBTm1vSnBLeEJkNXRGZFpyYkxoWjNhbEtzVHRIZVJCMkhWWV91ejhaZTI5RDNrbzdtSXZadkN0LUpaajFEWE50T2c?oc=5",
-      "feed_id": "google_news_device_brands",
-      "feed_ids": [
-        "google_news_device_brands"
-      ],
-      "feed_name": "Google News — Indian device brands",
-      "feed_names": [
-        "Google News — Indian device brands"
-      ],
-      "matched_terms": [
-        "boAt"
-      ],
-      "occurrence_id": "occ_000054",
-      "original_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPc2lycXpXOFZqbE9NSXpoSkdaZVdOMjJnaVdPYmdFbUpKLWRaeDFvRzhsdmMxSmt1THpETmNxd2lBZVlXN1BwTjU4VUlBVDlQa2YwRVlvdnFSdlVnbkpMOTEySzlqS003Mmh6blZ1R3Fja293Wk9ZZHZvUXMxN1JLcjJQWVAtZFEtdWh6d0hFX0ZjRHVGSTdvbWNnaHVMN0xkVUlqajZnR1ZLa1dCTzAzNzRvY3pYem1kdDU0aDZjLXBtOGxpTHfSAcsBQVVfeXFMTWt5eHJ3WWVMcGxyWGFVRDE1RVVNLVlEdENUN1FTMzJaRTJCRlJyNk8tbFI4c3pOY3pQUFNDN2tGOUhGakdxOFA2RzV5T28zenY5Zy1QSEhROWNxNHktdFNoTXZzNUp1RFlrOWtXNGF5bkJJNTZhdk13QnNlTFdOb2ZLRG5WejcwLUVBTm1vSnBLeEJkNXRGZFpyYkxoWjNhbEtzVHRIZVJCMkhWWV91ejhaZTI5RDNrbzdtSXZadkN0LUpaajFEWE50T2c?oc=5",
-      "pipeline_item_id": "6859109f6916a028",
-      "published_at": "2026-09-25T09:35:06Z",
-      "title": "Party Speakers for House Parties: 4 boAt PartyPal Models to Consider | Hindustan Times - Hindustan Times",
-      "topic": "Indian consumer brands and products",
-      "topic_id": "indian_brands",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbHVGX3ZBTm50am53X0pJbHdOWjQ0QXpHbHRzOFZBd0ltd0ZDRW9XNGxHSDJrWHpvTUdmSDd3RHo3b1F5cGtadkY2VC02VXhUQ2t4VUtCdG5kX1VZZGNmcERQWkpSQl9JcG44SzgtUk40TkhlMTE3dDkwTVRkam56MS1QdlFHVlRNMFNRb0szaGRYUXdfcU5oSjN5eHFQMkVoakxKRmtVM0FkOWlIc0RoU1MxSS04bmsz?oc=5",
-      "feed_id": "google_news_digital_brands",
-      "feed_ids": [
-        "google_news_digital_brands"
-      ],
-      "feed_name": "Google News — Indian digital brands",
-      "feed_names": [
-        "Google News — Indian digital brands"
-      ],
-      "matched_terms": [
-        "Swiggy",
-        "Zomato"
-      ],
-      "occurrence_id": "occ_000055",
-      "original_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbHVGX3ZBTm50am53X0pJbHdOWjQ0QXpHbHRzOFZBd0ltd0ZDRW9XNGxHSDJrWHpvTUdmSDd3RHo3b1F5cGtadkY2VC02VXhUQ2t4VUtCdG5kX1VZZGNmcERQWkpSQl9JcG44SzgtUk40TkhlMTE3dDkwTVRkam56MS1QdlFHVlRNMFNRb0szaGRYUXdfcU5oSjN5eHFQMkVoakxKRmtVM0FkOWlIc0RoU1MxSS04bmsz?oc=5",
-      "pipeline_item_id": "8dcf8fa203e5cf4d",
-      "published_at": "2026-09-25T12:30:58Z",
-      "title": "No Swiggy. No Zomato. And for Benne founders Akhil Iyer and Shriya Narayan EMPLOYED, that’s deliberate. ‘Our product doesn't support it.’ Speaking to Shereen Bhan on Young Turks Reloaded, the duo explains why the dosa brand stays off delivery platfor - LinkedIn",
-      "topic": "Indian consumer brands and products",
-      "topic_id": "indian_brands",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOWGZZTGtxMks3MWxqLVN2R2JTcVNLYWlmNThNWjUtaFV3S0VzT05wMFJMQmUwTmVHY1RYS3oyQlVCVm1RS3BGOXJhX2FGaXRVLVhEQmtjTnZqU1JRV25kNWlVWDN4VEVkYndwU3dIRHJCeDJ6TFpOLW5oV0poVU9jYkxuMVBSSDZqQmFkeFBMbmtmNjJlOHRaN3owZzJEblFmcWMwaWpHRlZUTTNOWDRiVlRmb09FdkNEZFZ5N1Rtc0xfdk9y?oc=5",
-      "feed_id": "google_news_home_brands",
-      "feed_ids": [
-        "google_news_home_brands"
-      ],
-      "feed_name": "Google News — Indian home brands",
-      "feed_names": [
-        "Google News — Indian home brands"
-      ],
-      "matched_terms": [
-        "Wakefit"
-      ],
-      "occurrence_id": "occ_000056",
-      "original_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOWGZZTGtxMks3MWxqLVN2R2JTcVNLYWlmNThNWjUtaFV3S0VzT05wMFJMQmUwTmVHY1RYS3oyQlVCVm1RS3BGOXJhX2FGaXRVLVhEQmtjTnZqU1JRV25kNWlVWDN4VEVkYndwU3dIRHJCeDJ6TFpOLW5oV0poVU9jYkxuMVBSSDZqQmFkeFBMbmtmNjJlOHRaN3owZzJEblFmcWMwaWpHRlZUTTNOWDRiVlRmb09FdkNEZFZ5N1Rtc0xfdk9y?oc=5",
-      "pipeline_item_id": "94ccf62681c90dd0",
-      "published_at": "2026-09-24T14:02:59Z",
-      "title": "Wakefit Innovations senior management personnel Kunal Chandel resigns - scanx.trade",
-      "topic": "Indian consumer brands and products",
-      "topic_id": "indian_brands",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQOFgtbFZkZ09aRURYUVkxSjhFa2M0LU5JWG5tQmhpOU5oUmxXZEhqck03cjhSTDI0ekRrRWR2Tm91alBqQ3psM19CeFdxOW9aZHZtcGR0UnFuQldhOTNVWXFDUVRmclhRRzlBRF9kUGhDVjMtTW1iZlk2ZndJQk5iWnE1SXk4Y19Tbm9hUHRCNEtfeVVqUXVNNjFxRjNsYndOUXNMOW45MGFKX1p6NWlzdFhsSmNOWkhrUUlyRlpHNkR6Vk9lMi1pZ0xjbHByM0tYVEo1ekY4cWd6NEpVV0JfalRGUnB4VUhjaXdHXzRlVFZVaTTSAfgBQVVfeXFMUFd0YURtSU9JTmdwZTdpYklyQTBSMWwwd1dQSzI1Q2RFYjN2TFUwQVRNNDhwaXlIdDQ4UjFSYm5tc2tBOWQtQjRBTFR2WEIzalB1VlA0Um5JQXJ6Um5MeGs0a0JMRFpMc0lodlhQNmRPZDBzaVlvLUJBYXZvUWJQenpQSGJiS2ZPeUo5ZThpZzdkcFBUVTh6Q2pTTkZra2QyS2oxVHBCVjhBRnhtUzFuV0RSbmFmd2xYazAxaVNCdVIxM0dLVmNSNjk3dnVDa1NWcHdxMExDQV9zY0UxdTZxZGJCaEd1N3UwZFNsMU9MY1pMR05ReWFwVVQ?oc=5",
-      "feed_id": "google_news_device_brands",
-      "feed_ids": [
-        "google_news_device_brands"
-      ],
-      "feed_name": "Google News — Indian device brands",
-      "feed_names": [
-        "Google News — Indian device brands"
-      ],
-      "matched_terms": [
-        "Ola Electric"
-      ],
-      "occurrence_id": "occ_000057",
-      "original_url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQOFgtbFZkZ09aRURYUVkxSjhFa2M0LU5JWG5tQmhpOU5oUmxXZEhqck03cjhSTDI0ekRrRWR2Tm91alBqQ3psM19CeFdxOW9aZHZtcGR0UnFuQldhOTNVWXFDUVRmclhRRzlBRF9kUGhDVjMtTW1iZlk2ZndJQk5iWnE1SXk4Y19Tbm9hUHRCNEtfeVVqUXVNNjFxRjNsYndOUXNMOW45MGFKX1p6NWlzdFhsSmNOWkhrUUlyRlpHNkR6Vk9lMi1pZ0xjbHByM0tYVEo1ekY4cWd6NEpVV0JfalRGUnB4VUhjaXdHXzRlVFZVaTTSAfgBQVVfeXFMUFd0YURtSU9JTmdwZTdpYklyQTBSMWwwd1dQSzI1Q2RFYjN2TFUwQVRNNDhwaXlIdDQ4UjFSYm5tc2tBOWQtQjRBTFR2WEIzalB1VlA0Um5JQXJ6Um5MeGs0a0JMRFpMc0lodlhQNmRPZDBzaVlvLUJBYXZvUWJQenpQSGJiS2ZPeUo5ZThpZzdkcFBUVTh6Q2pTTkZra2QyS2oxVHBCVjhBRnhtUzFuV0RSbmFmd2xYazAxaVNCdVIxM0dLVmNSNjk3dnVDa1NWcHdxMExDQV9zY0UxdTZxZGJCaEd1N3UwZFNsMU9MY1pMR05ReWFwVVQ?oc=5",
-      "pipeline_item_id": "953cc74008029f20",
-      "published_at": "2026-09-25T08:02:27Z",
-      "title": "Ola Electric shares fall up to 9%, snap 4-day run, ahead of board meeting to consider fundraise - Moneycontrol.com",
-      "topic": "Indian consumer brands and products",
-      "topic_id": "indian_brands",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNOWdIdDJMeS1OcVJCUHpOYTNtYWVlOEVIcklzVlhrci1PVTdqTkdfUFdld2xsZmpQYmk3VTRnb2dMd3p4a0gycWYyOHAyZmowNFE1WmxvYXJVcWJ5bDFxSVl1ZjZlTFJXNWJka3ZRNWRWODAwOXFPR3BCZElFc2FOU1VsZEVTd3VmZmNuakdPTlc3Y2hPalZveGRUV0RhOTNSLXVOYVZ0dTZpNGZqaHkxRmVVMVJ6YlljTjhoakwxWXp4SGYzdTkwUHY4WEJkVkNCUDA2RkJ1QmpBTk4xYkNCcC1oQ1VTMlQwcmo0ejlpQW4wTXpUSnIxdHZyRzFRRlQtU0hhMtIBiwJBVV95cUxQUUJMUExkcVRmS1phVzFfMjdTVVFqOG8zRDJ2aF9nYngxY2sxN19MUUIyQmdLUkdITjctbXYxOFprX2pXcUJ2N3YzYUliTlpSYU1XdTlGR1NMbGlOOEhTdEhYdTk5MGJpWkpIYUVrMVZGWFVjcGk5LWs1S3FXUXREdEJkeDF0dXJ3QkVMaWgtSjBxM24yNWJWNk55SFpKLVRUcTk1dVRWZ1hDXzFHNHNnUVR5QzRVNGJ3ZDlNTlp4Z3B6R0lNMlJwVEpCLXNkdks2UmRBeS1kMXpRV0o2WXpfZjl4RTctQUk1WVNhM1pfRnhMZzV3bHZpbV9KeV9PaUhqWGplYjRhaUVMc00?oc=5",
-      "feed_id": "google_news_digital_brands",
-      "feed_ids": [
-        "google_news_digital_brands"
-      ],
-      "feed_name": "Google News — Indian digital brands",
-      "feed_names": [
-        "Google News — Indian digital brands"
-      ],
-      "matched_terms": [
-        "Zepto"
-      ],
-      "occurrence_id": "occ_000058",
-      "original_url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNOWdIdDJMeS1OcVJCUHpOYTNtYWVlOEVIcklzVlhrci1PVTdqTkdfUFdld2xsZmpQYmk3VTRnb2dMd3p4a0gycWYyOHAyZmowNFE1WmxvYXJVcWJ5bDFxSVl1ZjZlTFJXNWJka3ZRNWRWODAwOXFPR3BCZElFc2FOU1VsZEVTd3VmZmNuakdPTlc3Y2hPalZveGRUV0RhOTNSLXVOYVZ0dTZpNGZqaHkxRmVVMVJ6YlljTjhoakwxWXp4SGYzdTkwUHY4WEJkVkNCUDA2RkJ1QmpBTk4xYkNCcC1oQ1VTMlQwcmo0ejlpQW4wTXpUSnIxdHZyRzFRRlQtU0hhMtIBiwJBVV95cUxQUUJMUExkcVRmS1phVzFfMjdTVVFqOG8zRDJ2aF9nYngxY2sxN19MUUIyQmdLUkdITjctbXYxOFprX2pXcUJ2N3YzYUliTlpSYU1XdTlGR1NMbGlOOEhTdEhYdTk5MGJpWkpIYUVrMVZGWFVjcGk5LWs1S3FXUXREdEJkeDF0dXJ3QkVMaWgtSjBxM24yNWJWNk55SFpKLVRUcTk1dVRWZ1hDXzFHNHNnUVR5QzRVNGJ3ZDlNTlp4Z3B6R0lNMlJwVEpCLXNkdks2UmRBeS1kMXpRV0o2WXpfZjl4RTctQUk1WVNhM1pfRnhMZzV3bHZpbV9KeV9PaUhqWGplYjRhaUVMc00?oc=5",
-      "pipeline_item_id": "f43f639749c02dca",
-      "published_at": "2026-09-25T12:30:55Z",
-      "title": "Top 10 youngest billionaires in India 2026: Zepto’s Kaivalya Vohra remains India’s youngest billionaire at 23 - The Indian Express",
-      "topic": "Indian consumer brands and products",
-      "topic_id": "indian_brands",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://9to5google.com/2026/09/23/youtube-music-ask-gemini",
-      "feed_id": "9to5google",
-      "feed_ids": [
-        "9to5google"
-      ],
-      "feed_name": "9to5Google",
-      "feed_names": [
-        "9to5Google"
-      ],
-      "matched_terms": [
-        "YouTube Music"
-      ],
-      "occurrence_id": "occ_000059",
-      "original_url": "https://9to5google.com/2026/09/23/youtube-music-ask-gemini",
-      "pipeline_item_id": "074dbf46b69ce181",
-      "published_at": "2026-09-23T14:30:00Z",
-      "title": "YouTube Music adding corner access to ‘Ask Music’ with Gemini",
-      "topic": "Music and streaming apps",
-      "topic_id": "music_apps",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://www.apple.com/in/newsroom/2026/09/apple-opens-apple-music-hall-a-state-of-the-art-live-music-venue-in-london",
-      "feed_id": "apple_india",
-      "feed_ids": [
-        "apple_india"
-      ],
-      "feed_name": "Apple India Newsroom",
-      "feed_names": [
-        "Apple India Newsroom"
-      ],
-      "matched_terms": [
-        "Apple Music"
-      ],
-      "occurrence_id": "occ_000060",
-      "original_url": "https://www.apple.com/in/newsroom/2026/09/apple-opens-apple-music-hall-a-state-of-the-art-live-music-venue-in-london",
-      "pipeline_item_id": "32cf70c135414b43",
-      "published_at": "2026-09-22T06:01:14.421000Z",
-      "title": "Apple opens Apple Music Hall, a state-of-the-art live music venue in London",
-      "topic": "Music and streaming apps",
-      "topic_id": "music_apps",
+      "occurrence_id": "occ_000015",
+      "original_url": "https://electrek.co/2026/09/25/tesla-semi-volume-production-launch-nevada-factory",
+      "pipeline_item_id": "d11c500113cb4e72",
+      "published_at": "2026-09-25T12:31:37Z",
+      "title": "Tesla Semi finally enters volume production, 7 years behind schedule",
+      "topic": "Major technology companies",
+      "topic_id": "big_tech",
       "topic_lane": "review"
     }
   ],

@@ -1,0 +1,120 @@
+{
+  "record_count": 5,
+  "records": [
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbktnRWpmNVhKbmpxTHdwMlNnWVI1YTNaSjNDcFJTNjU4aFNsZ0FDa0ZvUkFDY2xyLWtnMC0xRXFESFFUQ3puc3JSeXA5b3VZdkczbUxtMzg0M0JQRHo2ZDBnZzRhd3FUdkZjRTBLWXlCMHVjT2o1NHMwN0ZxZVVwcHdLSkZweGZlN0xTT005bUwzdzFKaDFBU1BQTDczZnJmelBSSkRKM2dIbjhXMnZvVm9FV3M?oc=5",
+      "feed_id": "google_news_device_brands",
+      "feed_ids": [
+        "google_news_device_brands"
+      ],
+      "feed_name": "Google News — Indian device brands",
+      "feed_names": [
+        "Google News — Indian device brands"
+      ],
+      "matched_terms": [
+        "India"
+      ],
+      "occurrence_id": "occ_000046",
+      "original_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbktnRWpmNVhKbmpxTHdwMlNnWVI1YTNaSjNDcFJTNjU4aFNsZ0FDa0ZvUkFDY2xyLWtnMC0xRXFESFFUQ3puc3JSeXA5b3VZdkczbUxtMzg0M0JQRHo2ZDBnZzRhd3FUdkZjRTBLWXlCMHVjT2o1NHMwN0ZxZVVwcHdLSkZweGZlN0xTT005bUwzdzFKaDFBU1BQTDczZnJmelBSSkRKM2dIbjhXMnZvVm9FV3M?oc=5",
+      "pipeline_item_id": "a12e2d0090c57abc",
+      "published_at": "2026-09-25T12:30:36Z",
+      "title": "Form 4 Mastercraft Boat Holdings Inc For: 25 September - Investing.com India",
+      "topic": "India developments",
+      "topic_id": "india_developments",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/iacc-summit-highlights-indias-ai-opportunity-beyond-llms-chips-and-data-centres",
+      "feed_id": "telangana_today",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_name": "Telangana Today",
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "matched_terms": [
+        "India"
+      ],
+      "occurrence_id": "occ_000047",
+      "original_url": "https://telanganatoday.com/iacc-summit-highlights-indias-ai-opportunity-beyond-llms-chips-and-data-centres",
+      "pipeline_item_id": "b518ebc9b525e1b5",
+      "published_at": "2026-09-25T10:48:45Z",
+      "title": "IACC Summit highlights India’s AI opportunity beyond LLMs, chips and data centres",
+      "topic": "India developments",
+      "topic_id": "india_developments",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/sc-asks-bar-council-of-india-to-clarify-stand-on-age-limit-for-five-year-law-courses",
+      "feed_id": "telangana_today",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_name": "Telangana Today",
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "matched_terms": [
+        "India"
+      ],
+      "occurrence_id": "occ_000048",
+      "original_url": "https://telanganatoday.com/sc-asks-bar-council-of-india-to-clarify-stand-on-age-limit-for-five-year-law-courses",
+      "pipeline_item_id": "dc28c43917b62187",
+      "published_at": "2026-09-25T11:31:15Z",
+      "title": "SC asks Bar Council of India to clarify stand on age limit for five-year law courses",
+      "topic": "India developments",
+      "topic_id": "india_developments",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNOWdIdDJMeS1OcVJCUHpOYTNtYWVlOEVIcklzVlhrci1PVTdqTkdfUFdld2xsZmpQYmk3VTRnb2dMd3p4a0gycWYyOHAyZmowNFE1WmxvYXJVcWJ5bDFxSVl1ZjZlTFJXNWJka3ZRNWRWODAwOXFPR3BCZElFc2FOU1VsZEVTd3VmZmNuakdPTlc3Y2hPalZveGRUV0RhOTNSLXVOYVZ0dTZpNGZqaHkxRmVVMVJ6YlljTjhoakwxWXp4SGYzdTkwUHY4WEJkVkNCUDA2RkJ1QmpBTk4xYkNCcC1oQ1VTMlQwcmo0ejlpQW4wTXpUSnIxdHZyRzFRRlQtU0hhMtIBiwJBVV95cUxQUUJMUExkcVRmS1phVzFfMjdTVVFqOG8zRDJ2aF9nYngxY2sxN19MUUIyQmdLUkdITjctbXYxOFprX2pXcUJ2N3YzYUliTlpSYU1XdTlGR1NMbGlOOEhTdEhYdTk5MGJpWkpIYUVrMVZGWFVjcGk5LWs1S3FXUXREdEJkeDF0dXJ3QkVMaWgtSjBxM24yNWJWNk55SFpKLVRUcTk1dVRWZ1hDXzFHNHNnUVR5QzRVNGJ3ZDlNTlp4Z3B6R0lNMlJwVEpCLXNkdks2UmRBeS1kMXpRV0o2WXpfZjl4RTctQUk1WVNhM1pfRnhMZzV3bHZpbV9KeV9PaUhqWGplYjRhaUVMc00?oc=5",
+      "feed_id": "google_news_digital_brands",
+      "feed_ids": [
+        "google_news_digital_brands"
+      ],
+      "feed_name": "Google News — Indian digital brands",
+      "feed_names": [
+        "Google News — Indian digital brands"
+      ],
+      "matched_terms": [
+        "India",
+        "Indian"
+      ],
+      "occurrence_id": "occ_000049",
+      "original_url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNOWdIdDJMeS1OcVJCUHpOYTNtYWVlOEVIcklzVlhrci1PVTdqTkdfUFdld2xsZmpQYmk3VTRnb2dMd3p4a0gycWYyOHAyZmowNFE1WmxvYXJVcWJ5bDFxSVl1ZjZlTFJXNWJka3ZRNWRWODAwOXFPR3BCZElFc2FOU1VsZEVTd3VmZmNuakdPTlc3Y2hPalZveGRUV0RhOTNSLXVOYVZ0dTZpNGZqaHkxRmVVMVJ6YlljTjhoakwxWXp4SGYzdTkwUHY4WEJkVkNCUDA2RkJ1QmpBTk4xYkNCcC1oQ1VTMlQwcmo0ejlpQW4wTXpUSnIxdHZyRzFRRlQtU0hhMtIBiwJBVV95cUxQUUJMUExkcVRmS1phVzFfMjdTVVFqOG8zRDJ2aF9nYngxY2sxN19MUUIyQmdLUkdITjctbXYxOFprX2pXcUJ2N3YzYUliTlpSYU1XdTlGR1NMbGlOOEhTdEhYdTk5MGJpWkpIYUVrMVZGWFVjcGk5LWs1S3FXUXREdEJkeDF0dXJ3QkVMaWgtSjBxM24yNWJWNk55SFpKLVRUcTk1dVRWZ1hDXzFHNHNnUVR5QzRVNGJ3ZDlNTlp4Z3B6R0lNMlJwVEpCLXNkdks2UmRBeS1kMXpRV0o2WXpfZjl4RTctQUk1WVNhM1pfRnhMZzV3bHZpbV9KeV9PaUhqWGplYjRhaUVMc00?oc=5",
+      "pipeline_item_id": "f43f639749c02dca",
+      "published_at": "2026-09-25T12:30:55Z",
+      "title": "Top 10 youngest billionaires in India 2026: Zepto’s Kaivalya Vohra remains India’s youngest billionaire at 23 - The Indian Express",
+      "topic": "India developments",
+      "topic_id": "india_developments",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/iacc-summit-highlights-indias-ai-opportunity-beyond-llms-chips-and-data-centres",
+      "feed_id": "telangana_today",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_name": "Telangana Today",
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "matched_terms": [
+        "India",
+        "summit"
+      ],
+      "occurrence_id": "occ_000050",
+      "original_url": "https://telanganatoday.com/iacc-summit-highlights-indias-ai-opportunity-beyond-llms-chips-and-data-centres",
+      "pipeline_item_id": "b518ebc9b525e1b5",
+      "published_at": "2026-09-25T10:48:45Z",
+      "title": "IACC Summit highlights India’s AI opportunity beyond LLMs, chips and data centres",
+      "topic": "India-related geopolitics",
+      "topic_id": "india_geopolitics",
+      "topic_lane": "context_only"
+    }
+  ],
+  "schema_version": "feed-forge/editorial-input/v1",
+  "shard_index": 10,
+  "shard_type": "occurrences"
+}

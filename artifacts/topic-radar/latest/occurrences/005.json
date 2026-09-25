@@ -1,53 +1,30 @@
 {
-  "record_count": 8,
+  "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://www.thehindu.com/news/national/telangana/congress-bjp-responsible-for-defections-in-country-brs/article71508318.ece",
-      "feed_id": "hindu_telangana",
+      "canonical_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMVhqUGFEbWpfRHpHNnFTNnZUZV9XRTY0YW9wUXVSdWVOdlNwOXU5ZUNjMDNOV0Fua1h3Y2NCSjUyclRCWV94bFJfSkJmanh6M0J3VkJfdkhzcFVDcF9pRGlCTWJLNEJXUVIzd1NTLXFILUFfbVdOTi12Z29rcGFjRXZZdFRjVzNBLW1sVUR4RUVicW91cW9kZ2V2Z2FFSkN0a2dLY2ZBNUtYdWdjbmFWLXliWTNRNVk1b1N6dmV5aGhrNUp40gHMAUFVX3lxTE1nSTRnZFhHTjlMdWdIMUI2VGlEbE1Pd1ZIN3JXSUczZnM0VUhrNEQwbjRRYmdKWVVoTmx2dGhJSU9KQ3E2eXoyR25oR0ZORzdCQnlaZ1IxMmQtRThnSUFOeHI5TWVzRFBiMzdRdk1RM0x3MGFzVkY0QkFhckV2YkhoQzRUNWdfemtiQVdwX1pBNDVCamZxc3pDd0lNbzBxLWFnRXIwU09wd1BvWHV4bkEtcDdRVWNjbnUzTEpkUl9fUnQzbFVyZGwzdTUycg?oc=5",
+      "feed_id": "google_news_credit_cards",
       "feed_ids": [
-        "hindu_telangana"
+        "google_news_credit_cards"
       ],
-      "feed_name": "The Hindu Telangana",
+      "feed_name": "Google News — Indian credit cards",
       "feed_names": [
-        "The Hindu Telangana"
+        "Google News — Indian credit cards"
       ],
       "matched_terms": [
-        "source:hindu_telangana"
+        "credit card"
       ],
-      "occurrence_id": "occ_000081",
-      "original_url": "https://www.thehindu.com/news/national/telangana/congress-bjp-responsible-for-defections-in-country-brs/article71508318.ece",
-      "pipeline_item_id": "ad4a02ac7cfaa66a",
-      "published_at": "2026-09-25T13:22:59Z",
-      "title": "Congress, BJP responsible for defections in country: BRS",
-      "topic": "Telangana and Hyderabad developments",
-      "topic_id": "telangana_hyderabad",
+      "occurrence_id": "occ_000021",
+      "original_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMVhqUGFEbWpfRHpHNnFTNnZUZV9XRTY0YW9wUXVSdWVOdlNwOXU5ZUNjMDNOV0Fua1h3Y2NCSjUyclRCWV94bFJfSkJmanh6M0J3VkJfdkhzcFVDcF9pRGlCTWJLNEJXUVIzd1NTLXFILUFfbVdOTi12Z29rcGFjRXZZdFRjVzNBLW1sVUR4RUVicW91cW9kZ2V2Z2FFSkN0a2dLY2ZBNUtYdWdjbmFWLXliWTNRNVk1b1N6dmV5aGhrNUp40gHMAUFVX3lxTE1nSTRnZFhHTjlMdWdIMUI2VGlEbE1Pd1ZIN3JXSUczZnM0VUhrNEQwbjRRYmdKWVVoTmx2dGhJSU9KQ3E2eXoyR25oR0ZORzdCQnlaZ1IxMmQtRThnSUFOeHI5TWVzRFBiMzdRdk1RM0x3MGFzVkY0QkFhckV2YkhoQzRUNWdfemtiQVdwX1pBNDVCamZxc3pDd0lNbzBxLWFnRXIwU09wd1BvWHV4bkEtcDdRVWNjbnUzTEpkUl9fUnQzbFVyZGwzdTUycg?oc=5",
+      "pipeline_item_id": "620d325a2c9bf6d7",
+      "published_at": "2026-09-25T03:45:50Z",
+      "title": "Credit Card Spending Stays Muted In August; HSBC, Jefferies Flag Rising Competition - NDTV Profit",
+      "topic": "Credit cards, rewards and payments",
+      "topic_id": "credit_cards_payments",
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://www.thehindu.com/news/national/telangana/telangana-urges-mojs-to-expedite-drainage-congestion-studies-on-polavaram-at-frl/article71508513.ece",
-      "feed_id": "hindu_telangana",
-      "feed_ids": [
-        "hindu_telangana"
-      ],
-      "feed_name": "The Hindu Telangana",
-      "feed_names": [
-        "The Hindu Telangana"
-      ],
-      "matched_terms": [
-        "Telangana",
-        "source:hindu_telangana"
-      ],
-      "occurrence_id": "occ_000082",
-      "original_url": "https://www.thehindu.com/news/national/telangana/telangana-urges-mojs-to-expedite-drainage-congestion-studies-on-polavaram-at-frl/article71508513.ece",
-      "pipeline_item_id": "deec2c51048a6690",
-      "published_at": "2026-09-25T13:28:23Z",
-      "title": "Telangana urges MoJS to expedite drainage congestion studies on Polavaram at FRL",
-      "topic": "Telangana and Hyderabad developments",
-      "topic_id": "telangana_hyderabad",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://telanganatoday.com/telanganas-el-nino-contingency-plan-comes-under-scanner-amid-water-power-woes",
+      "canonical_url": "https://telanganatoday.com/india-credit-card-spending-growth-slows-in-august-as-competition-intensifies",
       "feed_id": "telangana_today",
       "feed_ids": [
         "telangana_today"
@@ -57,41 +34,63 @@
         "Telangana Today"
       ],
       "matched_terms": [
-        "Telangana"
+        "credit card"
       ],
-      "occurrence_id": "occ_000083",
-      "original_url": "https://telanganatoday.com/telanganas-el-nino-contingency-plan-comes-under-scanner-amid-water-power-woes",
-      "pipeline_item_id": "efec0af17f89b6d1",
-      "published_at": "2026-09-25T12:34:36Z",
-      "title": "Telangana’s El Nino contingency plan comes under scanner amid water, power woes",
-      "topic": "Telangana and Hyderabad developments",
-      "topic_id": "telangana_hyderabad",
+      "occurrence_id": "occ_000022",
+      "original_url": "https://telanganatoday.com/india-credit-card-spending-growth-slows-in-august-as-competition-intensifies",
+      "pipeline_item_id": "ccb5c6891772327f",
+      "published_at": "2026-09-25T07:33:23Z",
+      "title": "India credit card spending growth slows in August as competition intensifies",
+      "topic": "Credit cards, rewards and payments",
+      "topic_id": "credit_cards_payments",
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://livefromalounge.com/air-india-explores-merging-air-india-express-into-the-main-airline-as-incoming-ceo-looks-to-cut-costs",
-      "feed_id": "livefromalounge",
+      "canonical_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQzlfekJmcW5Ca21uYWQxdG5tZ2QwTDhEazdkdEF2TUxXMkZoQXVLTmtkTVFXUzNxWXVXVENOWGJtMHpaVW9GZzljU1FIbDg2c1pjbEU2cGxJeWt3dTRaWjRvMlUzR2JFdGxzQ3F1WkxpR2ltamF0TEhCT2VCSno5c252UXplQjJwcU1GVVVLUUE3dFp3ZEwxcDNnWUUxS09DaEowWkV3?oc=5",
+      "feed_id": "google_news_credit_cards",
       "feed_ids": [
-        "livefromalounge"
+        "google_news_credit_cards"
       ],
-      "feed_name": "Live from a Lounge",
+      "feed_name": "Google News — Indian credit cards",
       "feed_names": [
-        "Live from a Lounge"
+        "Google News — Indian credit cards"
       ],
       "matched_terms": [
-        "airline"
+        "credit card"
       ],
-      "occurrence_id": "occ_000084",
-      "original_url": "https://livefromalounge.com/air-india-explores-merging-air-india-express-into-the-main-airline-as-incoming-ceo-looks-to-cut-costs",
-      "pipeline_item_id": "132dea2254e65621",
-      "published_at": "2026-09-18T17:08:01Z",
-      "title": "Air India explores merging Air India Express into the main airline as incoming CEO looks to cut costs",
-      "topic": "Travel and lifestyle",
-      "topic_id": "travel_lifestyle",
+      "occurrence_id": "occ_000023",
+      "original_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQzlfekJmcW5Ca21uYWQxdG5tZ2QwTDhEazdkdEF2TUxXMkZoQXVLTmtkTVFXUzNxWXVXVENOWGJtMHpaVW9GZzljU1FIbDg2c1pjbEU2cGxJeWt3dTRaWjRvMlUzR2JFdGxzQ3F1WkxpR2ltamF0TEhCT2VCSno5c252UXplQjJwcU1GVVVLUUE3dFp3ZEwxcDNnWUUxS09DaEowWkV3?oc=5",
+      "pipeline_item_id": "d4865ebc70fbf893",
+      "published_at": "2026-09-25T07:33:23Z",
+      "title": "India credit card spending growth slows in August as competition intensifies - Telangana Today",
+      "topic": "Credit cards, rewards and payments",
+      "topic_id": "credit_cards_payments",
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://telanganatoday.com/air-india-suspends-pilot-after-failing-breath-analyser-test-at-zurich-airport",
+      "canonical_url": "https://yourstory.com/2026/09/mdr-on-upi-payments-above-rs-2000-will-not-be-passed-on-to-consumers-govt-sources",
+      "feed_id": "yourstory",
+      "feed_ids": [
+        "yourstory"
+      ],
+      "feed_name": "YourStory",
+      "feed_names": [
+        "YourStory"
+      ],
+      "matched_terms": [
+        "UPI"
+      ],
+      "occurrence_id": "occ_000024",
+      "original_url": "https://yourstory.com/2026/09/mdr-on-upi-payments-above-rs-2000-will-not-be-passed-on-to-consumers-govt-sources",
+      "pipeline_item_id": "d5c486377de05827",
+      "published_at": "2026-09-25T04:50:23Z",
+      "title": "MDR on UPI payments above Rs 2,000 will not be passed on to consumers: Govt sources",
+      "topic": "Credit cards, rewards and payments",
+      "topic_id": "credit_cards_payments",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/upi-mdr-is-not-a-tax-or-surcharge-says-nirmala-sitharaman",
       "feed_id": "telangana_today",
       "feed_ids": [
         "telangana_today"
@@ -101,82 +100,15 @@
         "Telangana Today"
       ],
       "matched_terms": [
-        "airport"
+        "UPI"
       ],
-      "occurrence_id": "occ_000085",
-      "original_url": "https://telanganatoday.com/air-india-suspends-pilot-after-failing-breath-analyser-test-at-zurich-airport",
-      "pipeline_item_id": "c1d30a81004d14d7",
-      "published_at": "2026-09-25T10:15:39Z",
-      "title": "Air India suspends pilot after failing breath analyser test at Zurich airport",
-      "topic": "Travel and lifestyle",
-      "topic_id": "travel_lifestyle",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://livefromalounge.com/visa-power-travel-promotion-goes-global-earn-up-to-20-back-on-your-overseas-spends-on-a-visa-credit-debit-card-this-fall-autumn",
-      "feed_id": "livefromalounge",
-      "feed_ids": [
-        "livefromalounge"
-      ],
-      "feed_name": "Live from a Lounge",
-      "feed_names": [
-        "Live from a Lounge"
-      ],
-      "matched_terms": [
-        "travel",
-        "visa"
-      ],
-      "occurrence_id": "occ_000086",
-      "original_url": "https://livefromalounge.com/visa-power-travel-promotion-goes-global-earn-up-to-20-back-on-your-overseas-spends-on-a-visa-credit-debit-card-this-fall-autumn",
-      "pipeline_item_id": "c2df250673788d6f",
-      "published_at": "2026-09-24T15:23:20Z",
-      "title": "Visa Power Travel Promotion goes Global: Earn Up to 20% Back on Your Overseas Spends on a Visa Credit / Debit Card This Fall / Autumn",
-      "topic": "Travel and lifestyle",
-      "topic_id": "travel_lifestyle",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://livefromalounge.com/priority-pass-is-finally-fixing-one-of-my-biggest-airport-lounge-access-gripes",
-      "feed_id": "livefromalounge",
-      "feed_ids": [
-        "livefromalounge"
-      ],
-      "feed_name": "Live from a Lounge",
-      "feed_names": [
-        "Live from a Lounge"
-      ],
-      "matched_terms": [
-        "airport"
-      ],
-      "occurrence_id": "occ_000087",
-      "original_url": "https://livefromalounge.com/priority-pass-is-finally-fixing-one-of-my-biggest-airport-lounge-access-gripes",
-      "pipeline_item_id": "c35b0daa1c78e8fe",
-      "published_at": "2026-09-21T15:50:43Z",
-      "title": "Priority Pass+ Is Finally Fixing One of My Biggest Airport Lounge Access Gripes",
-      "topic": "Travel and lifestyle",
-      "topic_id": "travel_lifestyle",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://telanganatoday.com/mahadev-betting-case-cbi-arrests-key-suspect-at-hyderabad-airport-after-arrival-from-dubai",
-      "feed_id": "telangana_today",
-      "feed_ids": [
-        "telangana_today"
-      ],
-      "feed_name": "Telangana Today",
-      "feed_names": [
-        "Telangana Today"
-      ],
-      "matched_terms": [
-        "airport"
-      ],
-      "occurrence_id": "occ_000088",
-      "original_url": "https://telanganatoday.com/mahadev-betting-case-cbi-arrests-key-suspect-at-hyderabad-airport-after-arrival-from-dubai",
-      "pipeline_item_id": "dffc405eb85c5795",
-      "published_at": "2026-09-24T16:24:39Z",
-      "title": "Mahadev betting case: CBI arrests key suspect at Hyderabad airport after arrival from Dubai",
-      "topic": "Travel and lifestyle",
-      "topic_id": "travel_lifestyle",
+      "occurrence_id": "occ_000025",
+      "original_url": "https://telanganatoday.com/upi-mdr-is-not-a-tax-or-surcharge-says-nirmala-sitharaman",
+      "pipeline_item_id": "f0372db7b3437b2f",
+      "published_at": "2026-09-25T07:48:43Z",
+      "title": "UPI MDR is not a tax or surcharge, says Nirmala Sitharaman",
+      "topic": "Credit cards, rewards and payments",
+      "topic_id": "credit_cards_payments",
       "topic_lane": "review"
     }
   ],

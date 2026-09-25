@@ -1,0 +1,113 @@
+{
+  "record_count": 5,
+  "records": [
+    {
+      "canonical_url": "https://www.androidauthority.com/atv-launcher-v0-1-41-update-3715420",
+      "domain": "www.androidauthority.com",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_names": [
+        "Android Authority"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000074"
+      ],
+      "topic_ids": [
+        "tech_software"
+      ],
+      "topics": [
+        "Technology, software and gadgets"
+      ],
+      "url_id": "url_000056"
+    },
+    {
+      "canonical_url": "https://www.androidauthority.com/gemini-dark-mode-3715309",
+      "domain": "www.androidauthority.com",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_names": [
+        "Android Authority"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000002"
+      ],
+      "topic_ids": [
+        "ai_development"
+      ],
+      "topics": [
+        "AI development and products"
+      ],
+      "url_id": "url_000057"
+    },
+    {
+      "canonical_url": "https://www.androidauthority.com/gemini-live-avatar-3715280",
+      "domain": "www.androidauthority.com",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_names": [
+        "Android Authority"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000006"
+      ],
+      "topic_ids": [
+        "ai_development"
+      ],
+      "topics": [
+        "AI development and products"
+      ],
+      "url_id": "url_000058"
+    },
+    {
+      "canonical_url": "https://www.androidauthority.com/gemini-tasks-mode-desktop-leak-3715259",
+      "domain": "www.androidauthority.com",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_names": [
+        "Android Authority"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000007"
+      ],
+      "topic_ids": [
+        "ai_development"
+      ],
+      "topics": [
+        "AI development and products"
+      ],
+      "url_id": "url_000059"
+    },
+    {
+      "canonical_url": "https://www.androidauthority.com/google-create-my-widget-play-store-listing-3715354",
+      "domain": "www.androidauthority.com",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_names": [
+        "Android Authority"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000071"
+      ],
+      "topic_ids": [
+        "tech_software"
+      ],
+      "topics": [
+        "Technology, software and gadgets"
+      ],
+      "url_id": "url_000060"
+    }
+  ],
+  "schema_version": "feed-forge/editorial-input/v1",
+  "shard_index": 12,
+  "shard_type": "urls"
+}

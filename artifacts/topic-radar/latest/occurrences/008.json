@@ -1,0 +1,119 @@
+{
+  "record_count": 5,
+  "records": [
+    {
+      "canonical_url": "https://telanganatoday.com/kareena-kapoor-shares-glimpse-of-latest-workout-routine-fitness-chart",
+      "feed_id": "telangana_today",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_name": "Telangana Today",
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "matched_terms": [
+        "fitness",
+        "workout"
+      ],
+      "occurrence_id": "occ_000036",
+      "original_url": "https://telanganatoday.com/kareena-kapoor-shares-glimpse-of-latest-workout-routine-fitness-chart",
+      "pipeline_item_id": "425d3df1eef1405e",
+      "published_at": "2026-09-25T10:55:15Z",
+      "title": "Kareena Kapoor shares glimpse of latest workout routine, fitness chart",
+      "topic": "Fitness and ergonomics",
+      "topic_id": "fitness_ergonomics",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://9to5mac.com/2026/09/22/daily-september-22-2026",
+      "feed_id": "9to5mac",
+      "feed_ids": [
+        "9to5mac"
+      ],
+      "feed_name": "9to5Mac",
+      "feed_names": [
+        "9to5Mac"
+      ],
+      "matched_terms": [
+        "fitness"
+      ],
+      "occurrence_id": "occ_000037",
+      "original_url": "https://9to5mac.com/2026/09/22/daily-september-22-2026",
+      "pipeline_item_id": "5d1f289926a32fc5",
+      "published_at": "2026-09-22T15:19:03Z",
+      "title": "9to5Mac Daily: September 22, 2026 – M6 Mac mini tidbits, Apple Fitness+ future",
+      "topic": "Fitness and ergonomics",
+      "topic_id": "fitness_ergonomics",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/pregnant-samantha-ruth-prabhu-shares-glimpse-of-workout-routine-strong-till-the-very-end",
+      "feed_id": "telangana_today",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_name": "Telangana Today",
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "matched_terms": [
+        "workout"
+      ],
+      "occurrence_id": "occ_000038",
+      "original_url": "https://telanganatoday.com/pregnant-samantha-ruth-prabhu-shares-glimpse-of-workout-routine-strong-till-the-very-end",
+      "pipeline_item_id": "5f0f853e94a3ea2b",
+      "published_at": "2026-09-25T08:18:21Z",
+      "title": "Pregnant Samantha Ruth Prabhu shares glimpse of workout routine: ‘Strong till the very end’",
+      "topic": "Fitness and ergonomics",
+      "topic_id": "fitness_ergonomics",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://9to5mac.com/2026/09/24/happy-hour-609",
+      "feed_id": "9to5mac",
+      "feed_ids": [
+        "9to5mac"
+      ],
+      "feed_name": "9to5Mac",
+      "feed_names": [
+        "9to5Mac"
+      ],
+      "matched_terms": [
+        "fitness"
+      ],
+      "occurrence_id": "occ_000039",
+      "original_url": "https://9to5mac.com/2026/09/24/happy-hour-609",
+      "pipeline_item_id": "916b715f63c46b60",
+      "published_at": "2026-09-24T20:43:14Z",
+      "title": "M6 Mac mini review, Apple fitness band rumors, Apple AI servers",
+      "topic": "Fitness and ergonomics",
+      "topic_id": "fitness_ergonomics",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/hyderabad-marathons-15-year-journey-comes-alive-through-photographs",
+      "feed_id": "telangana_today",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_name": "Telangana Today",
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "matched_terms": [
+        "marathon"
+      ],
+      "occurrence_id": "occ_000040",
+      "original_url": "https://telanganatoday.com/hyderabad-marathons-15-year-journey-comes-alive-through-photographs",
+      "pipeline_item_id": "c4eb7c4c872b3985",
+      "published_at": "2026-09-24T14:43:42Z",
+      "title": "Hyderabad Marathon’s 15-year journey comes alive through photographs",
+      "topic": "Fitness and ergonomics",
+      "topic_id": "fitness_ergonomics",
+      "topic_lane": "review"
+    }
+  ],
+  "schema_version": "feed-forge/editorial-input/v1",
+  "shard_index": 8,
+  "shard_type": "occurrences"
+}

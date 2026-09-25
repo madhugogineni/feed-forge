@@ -1,0 +1,113 @@
+{
+  "record_count": 5,
+  "records": [
+    {
+      "canonical_url": "https://www.androidauthority.com/google-messages-long-press-menu-stable-rollout-3715514",
+      "domain": "www.androidauthority.com",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_names": [
+        "Android Authority"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000011"
+      ],
+      "topic_ids": [
+        "big_tech"
+      ],
+      "topics": [
+        "Major technology companies"
+      ],
+      "url_id": "url_000061"
+    },
+    {
+      "canonical_url": "https://www.androidauthority.com/google-pixel-clock-alarm-bug-not-fixed-yet-3715371",
+      "domain": "www.androidauthority.com",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_names": [
+        "Android Authority"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000068"
+      ],
+      "topic_ids": [
+        "tech_software"
+      ],
+      "topics": [
+        "Technology, software and gadgets"
+      ],
+      "url_id": "url_000062"
+    },
+    {
+      "canonical_url": "https://www.androidauthority.com/google-pixel-september-2026-pattern-pin-unlock-bug-3715425",
+      "domain": "www.androidauthority.com",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_names": [
+        "Android Authority"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000069"
+      ],
+      "topic_ids": [
+        "tech_software"
+      ],
+      "topics": [
+        "Technology, software and gadgets"
+      ],
+      "url_id": "url_000063"
+    },
+    {
+      "canonical_url": "https://www.androidauthority.com/pixel-11-signal-problems-troubleshooting-tips-3714401",
+      "domain": "www.androidauthority.com",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_names": [
+        "Android Authority"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000075"
+      ],
+      "topic_ids": [
+        "tech_software"
+      ],
+      "topics": [
+        "Technology, software and gadgets"
+      ],
+      "url_id": "url_000064"
+    },
+    {
+      "canonical_url": "https://www.androidauthority.com/spotify-meta-muse-integration-3714958",
+      "domain": "www.androidauthority.com",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_names": [
+        "Android Authority"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000065"
+      ],
+      "topic_ids": [
+        "music_apps"
+      ],
+      "topics": [
+        "Music and streaming apps"
+      ],
+      "url_id": "url_000065"
+    }
+  ],
+  "schema_version": "feed-forge/editorial-input/v1",
+  "shard_index": 13,
+  "shard_type": "urls"
+}

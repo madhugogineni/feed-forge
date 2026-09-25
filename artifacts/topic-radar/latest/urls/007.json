@@ -1,0 +1,113 @@
+{
+  "record_count": 5,
+  "records": [
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMVhqUGFEbWpfRHpHNnFTNnZUZV9XRTY0YW9wUXVSdWVOdlNwOXU5ZUNjMDNOV0Fua1h3Y2NCSjUyclRCWV94bFJfSkJmanh6M0J3VkJfdkhzcFVDcF9pRGlCTWJLNEJXUVIzd1NTLXFILUFfbVdOTi12Z29rcGFjRXZZdFRjVzNBLW1sVUR4RUVicW91cW9kZ2V2Z2FFSkN0a2dLY2ZBNUtYdWdjbmFWLXliWTNRNVk1b1N6dmV5aGhrNUp40gHMAUFVX3lxTE1nSTRnZFhHTjlMdWdIMUI2VGlEbE1Pd1ZIN3JXSUczZnM0VUhrNEQwbjRRYmdKWVVoTmx2dGhJSU9KQ3E2eXoyR25oR0ZORzdCQnlaZ1IxMmQtRThnSUFOeHI5TWVzRFBiMzdRdk1RM0x3MGFzVkY0QkFhckV2YkhoQzRUNWdfemtiQVdwX1pBNDVCamZxc3pDd0lNbzBxLWFnRXIwU09wd1BvWHV4bkEtcDdRVWNjbnUzTEpkUl9fUnQzbFVyZGwzdTUycg?oc=5",
+      "domain": "news.google.com",
+      "feed_ids": [
+        "google_news_credit_cards"
+      ],
+      "feed_names": [
+        "Google News — Indian credit cards"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000021"
+      ],
+      "topic_ids": [
+        "credit_cards_payments"
+      ],
+      "topics": [
+        "Credit cards, rewards and payments"
+      ],
+      "url_id": "url_000031"
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOWGZZTGtxMks3MWxqLVN2R2JTcVNLYWlmNThNWjUtaFV3S0VzT05wMFJMQmUwTmVHY1RYS3oyQlVCVm1RS3BGOXJhX2FGaXRVLVhEQmtjTnZqU1JRV25kNWlVWDN4VEVkYndwU3dIRHJCeDJ6TFpOLW5oV0poVU9jYkxuMVBSSDZqQmFkeFBMbmtmNjJlOHRaN3owZzJEblFmcWMwaWpHRlZUTTNOWDRiVlRmb09FdkNEZFZ5N1Rtc0xfdk9y?oc=5",
+      "domain": "news.google.com",
+      "feed_ids": [
+        "google_news_home_brands"
+      ],
+      "feed_names": [
+        "Google News — Indian home brands"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000056"
+      ],
+      "topic_ids": [
+        "indian_brands"
+      ],
+      "topics": [
+        "Indian consumer brands and products"
+      ],
+      "url_id": "url_000032"
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPc2lycXpXOFZqbE9NSXpoSkdaZVdOMjJnaVdPYmdFbUpKLWRaeDFvRzhsdmMxSmt1THpETmNxd2lBZVlXN1BwTjU4VUlBVDlQa2YwRVlvdnFSdlVnbkpMOTEySzlqS003Mmh6blZ1R3Fja293Wk9ZZHZvUXMxN1JLcjJQWVAtZFEtdWh6d0hFX0ZjRHVGSTdvbWNnaHVMN0xkVUlqajZnR1ZLa1dCTzAzNzRvY3pYem1kdDU0aDZjLXBtOGxpTHfSAcsBQVVfeXFMTWt5eHJ3WWVMcGxyWGFVRDE1RVVNLVlEdENUN1FTMzJaRTJCRlJyNk8tbFI4c3pOY3pQUFNDN2tGOUhGakdxOFA2RzV5T28zenY5Zy1QSEhROWNxNHktdFNoTXZzNUp1RFlrOWtXNGF5bkJJNTZhdk13QnNlTFdOb2ZLRG5WejcwLUVBTm1vSnBLeEJkNXRGZFpyYkxoWjNhbEtzVHRIZVJCMkhWWV91ejhaZTI5RDNrbzdtSXZadkN0LUpaajFEWE50T2c?oc=5",
+      "domain": "news.google.com",
+      "feed_ids": [
+        "google_news_device_brands"
+      ],
+      "feed_names": [
+        "Google News — Indian device brands"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000054"
+      ],
+      "topic_ids": [
+        "indian_brands"
+      ],
+      "topics": [
+        "Indian consumer brands and products"
+      ],
+      "url_id": "url_000033"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/air-india-suspends-pilot-after-failing-breath-analyser-test-at-zurich-airport",
+      "domain": "telanganatoday.com",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000085"
+      ],
+      "topic_ids": [
+        "travel_lifestyle"
+      ],
+      "topics": [
+        "Travel and lifestyle"
+      ],
+      "url_id": "url_000034"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/anahat-abhay-join-joshna-in-assuring-india-three-squash-medals-at-asian-games",
+      "domain": "telanganatoday.com",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000045"
+      ],
+      "topic_ids": [
+        "india_developments"
+      ],
+      "topics": [
+        "India developments"
+      ],
+      "url_id": "url_000035"
+    }
+  ],
+  "schema_version": "feed-forge/editorial-input/v1",
+  "shard_index": 7,
+  "shard_type": "urls"
+}

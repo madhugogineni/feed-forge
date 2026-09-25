@@ -1,0 +1,121 @@
+{
+  "record_count": 5,
+  "records": [
+    {
+      "canonical_url": "https://telanganatoday.com/junior-national-football-telangana-held-by-goa-in-1-1-draw",
+      "feed_id": "telangana_today",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_name": "Telangana Today",
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "matched_terms": [
+        "Telangana"
+      ],
+      "occurrence_id": "occ_000076",
+      "original_url": "https://telanganatoday.com/junior-national-football-telangana-held-by-goa-in-1-1-draw",
+      "pipeline_item_id": "08a482847ce2fe3c",
+      "published_at": "2026-09-25T12:16:35Z",
+      "title": "Junior National Football: Telangana held by Goa in 1-1 draw",
+      "topic": "Telangana and Hyderabad developments",
+      "topic_id": "telangana_hyderabad",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/harish-rao-urges-telangana-government-to-use-godavari-floodwater-to-fill-reservoirs",
+      "feed_id": "telangana_today",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_name": "Telangana Today",
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "matched_terms": [
+        "Telangana"
+      ],
+      "occurrence_id": "occ_000077",
+      "original_url": "https://telanganatoday.com/harish-rao-urges-telangana-government-to-use-godavari-floodwater-to-fill-reservoirs",
+      "pipeline_item_id": "0ec3b58365f89980",
+      "published_at": "2026-09-25T12:23:11Z",
+      "title": "Harish Rao urges Telangana government to use Godavari floodwater to fill reservoirs",
+      "topic": "Telangana and Hyderabad developments",
+      "topic_id": "telangana_hyderabad",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/elephant-herd-movement-triggers-panic-along-maharashtra-telangana-border",
+      "feed_id": "telangana_today",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_name": "Telangana Today",
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "matched_terms": [
+        "Telangana"
+      ],
+      "occurrence_id": "occ_000078",
+      "original_url": "https://telanganatoday.com/elephant-herd-movement-triggers-panic-along-maharashtra-telangana-border",
+      "pipeline_item_id": "26a8f41c66f4f7a8",
+      "published_at": "2026-09-25T12:34:21Z",
+      "title": "Elephant herd movement triggers panic along Maharashtra-Telangana border",
+      "topic": "Telangana and Hyderabad developments",
+      "topic_id": "telangana_hyderabad",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://www.thehindu.com/news/cities/Hyderabad/ganesh-visarjan-hyderabad-khairatabad-ganesh-immersion-procession-begins-traffic-curbs-in-the-city-live-updates-september-25-2026/article71506992.ece",
+      "feed_id": "hindu_hyderabad",
+      "feed_ids": [
+        "hindu_hyderabad",
+        "hindu_telangana"
+      ],
+      "feed_name": "The Hindu Hyderabad",
+      "feed_names": [
+        "The Hindu Hyderabad",
+        "The Hindu Telangana"
+      ],
+      "matched_terms": [
+        "source:hindu_hyderabad",
+        "source:hindu_telangana"
+      ],
+      "occurrence_id": "occ_000079",
+      "original_url": "https://www.thehindu.com/news/cities/Hyderabad/ganesh-visarjan-hyderabad-khairatabad-ganesh-immersion-procession-begins-traffic-curbs-in-the-city-live-updates-september-25-2026/article71506992.ece",
+      "pipeline_item_id": "4801d9d8e53d2ff2",
+      "published_at": "2026-09-25T12:37:31Z",
+      "title": "Ganesh immersion 2026 highlights: Khairatabad Ganesh idol immersion concludes",
+      "topic": "Telangana and Hyderabad developments",
+      "topic_id": "telangana_hyderabad",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/junior-chess-players-to-compete-in-telangana-state-ranking-tournament",
+      "feed_id": "telangana_today",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_name": "Telangana Today",
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "matched_terms": [
+        "Telangana"
+      ],
+      "occurrence_id": "occ_000080",
+      "original_url": "https://telanganatoday.com/junior-chess-players-to-compete-in-telangana-state-ranking-tournament",
+      "pipeline_item_id": "598127cac75fb922",
+      "published_at": "2026-09-25T12:20:56Z",
+      "title": "Junior chess players to compete in Telangana state-ranking tournament",
+      "topic": "Telangana and Hyderabad developments",
+      "topic_id": "telangana_hyderabad",
+      "topic_lane": "review"
+    }
+  ],
+  "schema_version": "feed-forge/editorial-input/v1",
+  "shard_index": 16,
+  "shard_type": "occurrences"
+}

@@ -1,0 +1,116 @@
+{
+  "record_count": 5,
+  "records": [
+    {
+      "canonical_url": "https://telanganatoday.com/iacc-summit-highlights-indias-ai-opportunity-beyond-llms-chips-and-data-centres",
+      "domain": "telanganatoday.com",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "occurrence_count": 2,
+      "occurrence_ids": [
+        "occ_000047",
+        "occ_000050"
+      ],
+      "topic_ids": [
+        "india_developments",
+        "india_geopolitics"
+      ],
+      "topics": [
+        "India developments",
+        "India-related geopolitics"
+      ],
+      "url_id": "url_000041"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/india-credit-card-spending-growth-slows-in-august-as-competition-intensifies",
+      "domain": "telanganatoday.com",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000022"
+      ],
+      "topic_ids": [
+        "credit_cards_payments"
+      ],
+      "topics": [
+        "Credit cards, rewards and payments"
+      ],
+      "url_id": "url_000042"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/junior-chess-players-to-compete-in-telangana-state-ranking-tournament",
+      "domain": "telanganatoday.com",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000080"
+      ],
+      "topic_ids": [
+        "telangana_hyderabad"
+      ],
+      "topics": [
+        "Telangana and Hyderabad developments"
+      ],
+      "url_id": "url_000043"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/junior-national-football-telangana-held-by-goa-in-1-1-draw",
+      "domain": "telanganatoday.com",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000076"
+      ],
+      "topic_ids": [
+        "telangana_hyderabad"
+      ],
+      "topics": [
+        "Telangana and Hyderabad developments"
+      ],
+      "url_id": "url_000044"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/kareena-kapoor-shares-glimpse-of-latest-workout-routine-fitness-chart",
+      "domain": "telanganatoday.com",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000036"
+      ],
+      "topic_ids": [
+        "fitness_ergonomics"
+      ],
+      "topics": [
+        "Fitness and ergonomics"
+      ],
+      "url_id": "url_000045"
+    }
+  ],
+  "schema_version": "feed-forge/editorial-input/v1",
+  "shard_index": 9,
+  "shard_type": "urls"
+}

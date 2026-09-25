@@ -15,7 +15,8 @@ from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 
 EDITORIAL_INPUT_SCHEMA = "feed-forge/editorial-input/v1"
-DEFAULT_SHARD_SIZE = 20
+DEFAULT_SHARD_SIZE = 5
+DEFAULT_SHARD_MAX_BYTES = 12 * 1024
 _TRACKING_QUERY_NAMES = {
     "fbclid",
     "gclid",
@@ -82,6 +83,7 @@ def build_editorial_snapshot(
     commit_sha: str,
     generated_at: str | None = None,
     shard_size: int = DEFAULT_SHARD_SIZE,
+    shard_max_bytes: int = DEFAULT_SHARD_MAX_BYTES,
 ) -> dict[str, Any]:
     """Build, validate, and atomically replace an editorial snapshot directory."""
 
@@ -93,6 +95,12 @@ def build_editorial_snapshot(
         raise EditorialSnapshotError("commit_sha must not be empty")
     if not isinstance(shard_size, int) or isinstance(shard_size, bool) or shard_size <= 0:
         raise EditorialSnapshotError("shard_size must be a positive integer")
+    if (
+        not isinstance(shard_max_bytes, int)
+        or isinstance(shard_max_bytes, bool)
+        or shard_max_bytes <= 0
+    ):
+        raise EditorialSnapshotError("shard_max_bytes must be a positive integer")
 
     timestamp = generated_at or report.get("generated_at")
     if not isinstance(timestamp, str) or not timestamp.strip():
@@ -133,12 +141,14 @@ def build_editorial_snapshot(
             "occurrences",
             occurrences,
             shard_size,
+            shard_max_bytes,
         )
         url_shards = _write_shards(
             temporary,
             "urls",
             url_records,
             shard_size,
+            shard_max_bytes,
         )
         manifest = {
             "schema_version": EDITORIAL_INPUT_SCHEMA,
@@ -153,6 +163,7 @@ def build_editorial_snapshot(
             "source_health_file": "source-health.json",
             "source_health_sha256": _sha256(health_path),
             "shard_size": shard_size,
+            "shard_max_bytes": shard_max_bytes,
             "occurrence_shards": occurrence_shards,
             "url_shards": url_shards,
         }
@@ -188,6 +199,7 @@ def validate_editorial_snapshot(snapshot_directory: Path) -> dict[str, Any]:
     for field in ("topic_count", "url_occurrence_count", "unique_url_count"):
         _require_non_negative_integer(manifest, field)
     _require_positive_integer(manifest, "shard_size")
+    _require_positive_integer(manifest, "shard_max_bytes")
 
     topics_path = _resolve_relative_file(root, manifest, "topics_file")
     health_path = _resolve_relative_file(root, manifest, "source_health_file")
@@ -427,30 +439,58 @@ def _write_shards(
     kind: str,
     records: list[dict[str, Any]],
     shard_size: int,
+    shard_max_bytes: int,
 ) -> list[dict[str, Any]]:
-    entries = []
-    for index, start in enumerate(range(0, len(records), shard_size), start=1):
-        chunk = records[start : start + shard_size]
-        relative_path = f"{kind}/{index:03d}.json"
-        path = root / relative_path
-        _write_json(
-            path,
-            {
-                "schema_version": EDITORIAL_INPUT_SCHEMA,
-                "shard_type": kind,
-                "shard_index": index,
-                "record_count": len(chunk),
-                "records": chunk,
-            },
-        )
-        entries.append(
-            {
-                "path": relative_path,
-                "record_count": len(chunk),
-                "sha256": _sha256(path),
-            }
-        )
+    entries: list[dict[str, Any]] = []
+    chunk: list[dict[str, Any]] = []
+    index = 1
+    for record in records:
+        candidate = [*chunk, record]
+        candidate_bytes = _json_bytes(_shard_payload(kind, index, candidate))
+        if chunk and (
+            len(candidate) > shard_size or len(candidate_bytes) > shard_max_bytes
+        ):
+            entries.append(_write_shard(root, kind, index, chunk))
+            index += 1
+            chunk = [record]
+            candidate_bytes = _json_bytes(_shard_payload(kind, index, chunk))
+        else:
+            chunk = candidate
+
+        if len(candidate_bytes) > shard_max_bytes:
+            raise EditorialSnapshotError(
+                f"A {kind} record cannot fit within shard_max_bytes={shard_max_bytes}"
+            )
+
+    if chunk:
+        entries.append(_write_shard(root, kind, index, chunk))
     return entries
+
+
+def _shard_payload(
+    kind: str, index: int, records: list[dict[str, Any]]
+) -> dict[str, Any]:
+    return {
+        "schema_version": EDITORIAL_INPUT_SCHEMA,
+        "shard_type": kind,
+        "shard_index": index,
+        "record_count": len(records),
+        "records": records,
+    }
+
+
+def _write_shard(
+    root: Path, kind: str, index: int, records: list[dict[str, Any]]
+) -> dict[str, Any]:
+    relative_path = f"{kind}/{index:03d}.json"
+    path = root / relative_path
+    _write_json(path, _shard_payload(kind, index, records))
+    return {
+        "path": relative_path,
+        "record_count": len(records),
+        "byte_size": path.stat().st_size,
+        "sha256": _sha256(path),
+    }
 
 
 def _read_shards(
@@ -478,6 +518,16 @@ def _read_shards(
         listed_paths.add(path_value)
         path = _safe_relative_path(root, path_value)
         _validate_checksum(path, entry.get("sha256"))
+        byte_size = entry.get("byte_size")
+        if (
+            not isinstance(byte_size, int)
+            or isinstance(byte_size, bool)
+            or byte_size <= 0
+            or byte_size != path.stat().st_size
+        ):
+            raise EditorialSnapshotError(f"Shard byte size mismatch: {path_value}")
+        if byte_size > manifest["shard_max_bytes"]:
+            raise EditorialSnapshotError(f"Shard exceeds configured byte cap: {path_value}")
         payload = _read_json_object(path, f"shard {path_value}")
         _validate_payload_schema(payload, f"shard {path_value}")
         if payload.get("shard_type") != kind or payload.get("shard_index") != expected_index:
@@ -651,9 +701,12 @@ def _require_non_negative_integer(record: dict[str, Any], field: str) -> None:
 
 def _write_json(path: Path, value: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(
-        json.dumps(value, indent=2, sort_keys=True, ensure_ascii=False) + "\n",
-        encoding="utf-8",
+    path.write_bytes(_json_bytes(value))
+
+
+def _json_bytes(value: Any) -> bytes:
+    return (json.dumps(value, indent=2, sort_keys=True, ensure_ascii=False) + "\n").encode(
+        "utf-8"
     )
 
 

@@ -1,0 +1,119 @@
+{
+  "record_count": 5,
+  "records": [
+    {
+      "canonical_url": "https://www.androidauthority.com/google-create-my-widget-play-store-listing-3715354",
+      "feed_id": "android_authority",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_name": "Android Authority",
+      "feed_names": [
+        "Android Authority"
+      ],
+      "matched_terms": [
+        "Android"
+      ],
+      "occurrence_id": "occ_000071",
+      "original_url": "https://www.androidauthority.com/google-create-my-widget-play-store-listing-3715354",
+      "pipeline_item_id": "4ea372a6662994a7",
+      "published_at": "2026-09-25T07:12:06Z",
+      "title": "This is how Google’s ‘Create My Widget’ app will work on Android and Googlebook OS",
+      "topic": "Technology, software and gadgets",
+      "topic_id": "tech_software",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://www.androidauthority.com/android-copy-apple-iphone-steel-case-battery-3715505",
+      "feed_id": "android_authority",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_name": "Android Authority",
+      "feed_names": [
+        "Android Authority"
+      ],
+      "matched_terms": [
+        "Android",
+        "iPhone"
+      ],
+      "occurrence_id": "occ_000072",
+      "original_url": "https://www.androidauthority.com/android-copy-apple-iphone-steel-case-battery-3715505",
+      "pipeline_item_id": "b834258154fa2358",
+      "published_at": "2026-09-25T13:09:49Z",
+      "title": "Android flagships could soon pack massive 10,000mAh batteries, thanks to iPhone’s battery tech",
+      "topic": "Technology, software and gadgets",
+      "topic_id": "tech_software",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://9to5mac.com/2026/09/25/apple-wallet-in-ios-27-adds-feature-thats-been-on-my-wishlist-for-years",
+      "feed_id": "9to5mac",
+      "feed_ids": [
+        "9to5mac"
+      ],
+      "feed_name": "9to5Mac",
+      "feed_names": [
+        "9to5Mac"
+      ],
+      "matched_terms": [
+        "iOS"
+      ],
+      "occurrence_id": "occ_000073",
+      "original_url": "https://9to5mac.com/2026/09/25/apple-wallet-in-ios-27-adds-feature-thats-been-on-my-wishlist-for-years",
+      "pipeline_item_id": "bf05dd1cd1b98d27",
+      "published_at": "2026-09-25T13:10:12Z",
+      "title": "Apple Wallet in iOS 27 adds feature that’s been on my wishlist for years",
+      "topic": "Technology, software and gadgets",
+      "topic_id": "tech_software",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://www.androidauthority.com/atv-launcher-v0-1-41-update-3715420",
+      "feed_id": "android_authority",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_name": "Android Authority",
+      "feed_names": [
+        "Android Authority"
+      ],
+      "matched_terms": [
+        "Android"
+      ],
+      "occurrence_id": "occ_000074",
+      "original_url": "https://www.androidauthority.com/atv-launcher-v0-1-41-update-3715420",
+      "pipeline_item_id": "c5a44b4df9531484",
+      "published_at": "2026-09-25T10:30:47Z",
+      "title": "ATV Launcher’s latest update brings big home screen upgrades for your Android TV",
+      "topic": "Technology, software and gadgets",
+      "topic_id": "tech_software",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://www.androidauthority.com/pixel-11-signal-problems-troubleshooting-tips-3714401",
+      "feed_id": "android_authority",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_name": "Android Authority",
+      "feed_names": [
+        "Android Authority"
+      ],
+      "matched_terms": [
+        "Pixel"
+      ],
+      "occurrence_id": "occ_000075",
+      "original_url": "https://www.androidauthority.com/pixel-11-signal-problems-troubleshooting-tips-3714401",
+      "pipeline_item_id": "cfbb5c341a84b5d5",
+      "published_at": "2026-09-25T10:30:01Z",
+      "title": "Pixel 11 signal problems? Try these 7 fixes before returning it",
+      "topic": "Technology, software and gadgets",
+      "topic_id": "tech_software",
+      "topic_lane": "review"
+    }
+  ],
+  "schema_version": "feed-forge/editorial-input/v1",
+  "shard_index": 15,
+  "shard_type": "occurrences"
+}

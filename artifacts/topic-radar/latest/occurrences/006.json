@@ -1,0 +1,122 @@
+{
+  "record_count": 5,
+  "records": [
+    {
+      "canonical_url": "https://yourstory.com/2026/09/proposed-upi-merchant-discount-rate-not-a-tax-cess-or-surcharge-fm",
+      "feed_id": "yourstory",
+      "feed_ids": [
+        "yourstory"
+      ],
+      "feed_name": "YourStory",
+      "feed_names": [
+        "YourStory"
+      ],
+      "matched_terms": [
+        "UPI"
+      ],
+      "occurrence_id": "occ_000026",
+      "original_url": "https://yourstory.com/2026/09/proposed-upi-merchant-discount-rate-not-a-tax-cess-or-surcharge-fm",
+      "pipeline_item_id": "f689ac3fed75c7b8",
+      "published_at": "2026-09-25T09:16:42Z",
+      "title": "Proposed UPI Merchant Discount Rate not a tax, cess or surcharge; will not burden consumers: FM",
+      "topic": "Credit cards, rewards and payments",
+      "topic_id": "credit_cards_payments",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/sangareddy-miscreants-kill-75-year-old-woman-flee-with-jewellery",
+      "feed_id": "telangana_today_crime",
+      "feed_ids": [
+        "telangana_today_crime"
+      ],
+      "feed_name": "Telangana Today Crime",
+      "feed_names": [
+        "Telangana Today Crime"
+      ],
+      "matched_terms": [
+        "source:telangana_today_crime"
+      ],
+      "occurrence_id": "occ_000027",
+      "original_url": "https://telanganatoday.com/sangareddy-miscreants-kill-75-year-old-woman-flee-with-jewellery",
+      "pipeline_item_id": "03032bc0ab8c02ab",
+      "published_at": "2026-09-24T06:57:56Z",
+      "title": "Sangareddy: Miscreants kill 75-year-old woman flee with jewellery",
+      "topic": "Crime news",
+      "topic_id": "crime",
+      "topic_lane": "context_only"
+    },
+    {
+      "canonical_url": "https://www.thehindu.com/news/national/telangana/pranay-murder-case-convict-dies-after-complaining-of-chest-pain-in-cherlapally-jail/article71505605.ece",
+      "feed_id": "hindu_hyderabad",
+      "feed_ids": [
+        "hindu_hyderabad",
+        "hindu_telangana"
+      ],
+      "feed_name": "The Hindu Hyderabad",
+      "feed_names": [
+        "The Hindu Hyderabad",
+        "The Hindu Telangana"
+      ],
+      "matched_terms": [
+        "murder"
+      ],
+      "occurrence_id": "occ_000028",
+      "original_url": "https://www.thehindu.com/news/national/telangana/pranay-murder-case-convict-dies-after-complaining-of-chest-pain-in-cherlapally-jail/article71505605.ece",
+      "pipeline_item_id": "68a86036e9f2f5e4",
+      "published_at": "2026-09-24T18:17:59Z",
+      "title": "Pranay murder case convict dies after complaining of chest pain in Cherlapally jail",
+      "topic": "Crime news",
+      "topic_id": "crime",
+      "topic_lane": "context_only"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/ganesh-immersion-two-devotees-drown-one-electrocuted-one-dies-of-cardiac-arrest",
+      "feed_id": "telangana_today",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_name": "Telangana Today",
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "matched_terms": [
+        "arrest"
+      ],
+      "occurrence_id": "occ_000029",
+      "original_url": "https://telanganatoday.com/ganesh-immersion-two-devotees-drown-one-electrocuted-one-dies-of-cardiac-arrest",
+      "pipeline_item_id": "941cf7e55b342b21",
+      "published_at": "2026-09-25T09:05:12Z",
+      "title": "Ganesh immersion: Two devotees drown, one electrocuted, one dies of cardiac arrest",
+      "topic": "Crime news",
+      "topic_id": "crime",
+      "topic_lane": "context_only"
+    },
+    {
+      "canonical_url": "https://www.thehindu.com/news/cities/Hyderabad/engineering-students-suicide-turns-out-to-be-murder-two-arrested/article71502595.ece",
+      "feed_id": "hindu_hyderabad",
+      "feed_ids": [
+        "hindu_hyderabad",
+        "hindu_telangana"
+      ],
+      "feed_name": "The Hindu Hyderabad",
+      "feed_names": [
+        "The Hindu Hyderabad",
+        "The Hindu Telangana"
+      ],
+      "matched_terms": [
+        "murder"
+      ],
+      "occurrence_id": "occ_000030",
+      "original_url": "https://www.thehindu.com/news/cities/Hyderabad/engineering-students-suicide-turns-out-to-be-murder-two-arrested/article71502595.ece",
+      "pipeline_item_id": "9d52a28b20107949",
+      "published_at": "2026-09-24T15:27:51Z",
+      "title": "Engineering student’s ‘suicide’ turns out to be murder; two arrested",
+      "topic": "Crime news",
+      "topic_id": "crime",
+      "topic_lane": "context_only"
+    }
+  ],
+  "schema_version": "feed-forge/editorial-input/v1",
+  "shard_index": 6,
+  "shard_type": "occurrences"
+}

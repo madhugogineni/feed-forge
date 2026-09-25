@@ -1,0 +1,118 @@
+{
+  "record_count": 5,
+  "records": [
+    {
+      "canonical_url": "https://9to5mac.com/2026/09/22/apple-working-on-whoop-style-screenless-fitness-tracker-per-report",
+      "feed_id": "9to5mac",
+      "feed_ids": [
+        "9to5mac"
+      ],
+      "feed_name": "9to5Mac",
+      "feed_names": [
+        "9to5Mac"
+      ],
+      "matched_terms": [
+        "fitness"
+      ],
+      "occurrence_id": "occ_000041",
+      "original_url": "https://9to5mac.com/2026/09/22/apple-working-on-whoop-style-screenless-fitness-tracker-per-report",
+      "pipeline_item_id": "d9aadd6c0a975a28",
+      "published_at": "2026-09-22T16:46:27Z",
+      "title": "Apple working on Whoop-style screenless fitness tracker, per report",
+      "topic": "Fitness and ergonomics",
+      "topic_id": "fitness_ergonomics",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://www.medianama.com/2026/09/223-youtube-likeness-detection-voices-clones",
+      "feed_id": "medianama",
+      "feed_ids": [
+        "medianama"
+      ],
+      "feed_name": "MediaNama",
+      "feed_names": [
+        "MediaNama"
+      ],
+      "matched_terms": [
+        "Indian"
+      ],
+      "occurrence_id": "occ_000042",
+      "original_url": "https://www.medianama.com/2026/09/223-youtube-likeness-detection-voices-clones",
+      "pipeline_item_id": "0f0f41f238dd1b33",
+      "published_at": "2026-09-25T10:56:18Z",
+      "title": "YouTube expands likeness detection to voices as Indian courts target AI voice clones",
+      "topic": "India developments",
+      "topic_id": "india_developments",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/lg-electronics-india-receives-show-cause-notice-over-rs-153-58-cr-customs-duty",
+      "feed_id": "telangana_today",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_name": "Telangana Today",
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "matched_terms": [
+        "India"
+      ],
+      "occurrence_id": "occ_000043",
+      "original_url": "https://telanganatoday.com/lg-electronics-india-receives-show-cause-notice-over-rs-153-58-cr-customs-duty",
+      "pipeline_item_id": "4bfa1b35694cae1c",
+      "published_at": "2026-09-25T12:29:53Z",
+      "title": "LG Electronics India receives show-cause notice over Rs 153.58-cr customs duty",
+      "topic": "India developments",
+      "topic_id": "india_developments",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/gulveer-singh-bags-silver-becomes-first-indian-to-win-two-10000m-medals",
+      "feed_id": "telangana_today",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_name": "Telangana Today",
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "matched_terms": [
+        "Indian"
+      ],
+      "occurrence_id": "occ_000044",
+      "original_url": "https://telanganatoday.com/gulveer-singh-bags-silver-becomes-first-indian-to-win-two-10000m-medals",
+      "pipeline_item_id": "56cee09853ec845a",
+      "published_at": "2026-09-25T12:52:21Z",
+      "title": "Gulveer Singh bags silver, becomes first Indian to win two 10,000m medals",
+      "topic": "India developments",
+      "topic_id": "india_developments",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/anahat-abhay-join-joshna-in-assuring-india-three-squash-medals-at-asian-games",
+      "feed_id": "telangana_today",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_name": "Telangana Today",
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "matched_terms": [
+        "India"
+      ],
+      "occurrence_id": "occ_000045",
+      "original_url": "https://telanganatoday.com/anahat-abhay-join-joshna-in-assuring-india-three-squash-medals-at-asian-games",
+      "pipeline_item_id": "645f17c8e6cc897e",
+      "published_at": "2026-09-25T11:05:14Z",
+      "title": "Anahat, Abhay join Joshna in assuring India three squash medals at Asian Games",
+      "topic": "India developments",
+      "topic_id": "india_developments",
+      "topic_lane": "review"
+    }
+  ],
+  "schema_version": "feed-forge/editorial-input/v1",
+  "shard_index": 9,
+  "shard_type": "occurrences"
+}

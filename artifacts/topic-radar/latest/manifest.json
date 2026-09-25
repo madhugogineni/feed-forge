@@ -3,33 +3,117 @@
   "generated_at": "2026-09-25T13:40:11.408893Z",
   "occurrence_shards": [
     {
+      "byte_size": 3971,
       "path": "occurrences/001.json",
-      "record_count": 20,
-      "sha256": "859cbdc3f71919c127a18d0583605ac8b9280c23fc704f5048bbfa5652fca957"
+      "record_count": 5,
+      "sha256": "b00d37ee8dac08bf6d1b096a3569d3a278b76bccdcfb306daf0dc34e711d60a8"
     },
     {
+      "byte_size": 5327,
       "path": "occurrences/002.json",
-      "record_count": 20,
-      "sha256": "d2b6d62697e87c518b92c27c8e0c636a338df1c831c8a861cd3ac5ac0510b378"
+      "record_count": 5,
+      "sha256": "85b83c5b8bf75554c5a41adb8341db43796dfc9eada0b096f4dcb99f8709a7d8"
     },
     {
+      "byte_size": 4201,
       "path": "occurrences/003.json",
-      "record_count": 20,
-      "sha256": "3a73dabe516cb055b8570933be11058b7b5511509d652f6d27e51cbec5e09cc8"
+      "record_count": 5,
+      "sha256": "c36643e6a745f46d52a8c959cb116cf74cd841ba9ca920927bda5915c5e17469"
     },
     {
+      "byte_size": 4660,
       "path": "occurrences/004.json",
-      "record_count": 20,
-      "sha256": "40f4c92c090acd5c8ae2d280618ed8178314fa48bdb13c72679228d43ef1aa2b"
+      "record_count": 5,
+      "sha256": "7e5e79225bee3f43907df0d768c40ad7f74b55558c95e4cb7813332691aa77a9"
     },
     {
+      "byte_size": 5848,
       "path": "occurrences/005.json",
-      "record_count": 8,
-      "sha256": "cff6cbb2b5bcf72893bb3861c2e554b0ce284adcb5da114079945833da0b0fbd"
+      "record_count": 5,
+      "sha256": "4c4cbcb15999df5a9806283bff127390e8f8abbbaf2970a42fb90bc32035e193"
+    },
+    {
+      "byte_size": 4593,
+      "path": "occurrences/006.json",
+      "record_count": 5,
+      "sha256": "84b52f0f4617d139dbc047ceb81de3175877c3a508ab8d70b83f13a7110f5a8e"
+    },
+    {
+      "byte_size": 6968,
+      "path": "occurrences/007.json",
+      "record_count": 5,
+      "sha256": "6ee82ffbce96123f6feeb62a9b34a8e68cac3d70203bcc23c835fe57f5d94958"
+    },
+    {
+      "byte_size": 4099,
+      "path": "occurrences/008.json",
+      "record_count": 5,
+      "sha256": "8ae238beef52e48f70dc34cbcea8f0e733004b4a4a7e0c7231f8ee64c242f069"
+    },
+    {
+      "byte_size": 4223,
+      "path": "occurrences/009.json",
+      "record_count": 5,
+      "sha256": "08ec53bffd7fbad43b728dfb74fbf69cb38332b93e8126a0a669866223a22661"
+    },
+    {
+      "byte_size": 6302,
+      "path": "occurrences/010.json",
+      "record_count": 5,
+      "sha256": "f5392e76271a9e8e1f0e9416456a996f42b4b62083cbee6286af9c9af513ab30"
+    },
+    {
+      "byte_size": 7809,
+      "path": "occurrences/011.json",
+      "record_count": 5,
+      "sha256": "2a568b80137ef32e997f7a609df29586729bad8f58d712f5512ca97865329631"
+    },
+    {
+      "byte_size": 7525,
+      "path": "occurrences/012.json",
+      "record_count": 5,
+      "sha256": "620163af096c106d37d9775158bfcdef83d5f3bdab557990cb50c49d19ad65c6"
+    },
+    {
+      "byte_size": 4013,
+      "path": "occurrences/013.json",
+      "record_count": 5,
+      "sha256": "8997ef75517c0c83341019fdc41a2807979268931519507fd76db05d9afd3e88"
+    },
+    {
+      "byte_size": 4624,
+      "path": "occurrences/014.json",
+      "record_count": 5,
+      "sha256": "d94d8d646b3259c72145d83ca48f1ee92761a4c106d7a83c640165c067ee7ac0"
+    },
+    {
+      "byte_size": 4246,
+      "path": "occurrences/015.json",
+      "record_count": 5,
+      "sha256": "68c29442f0f0761c1efeae93b433abd1a92f22d87f65dd5db8adff4b35d6c0e0"
+    },
+    {
+      "byte_size": 4688,
+      "path": "occurrences/016.json",
+      "record_count": 5,
+      "sha256": "2d9edb8de2557b3dfde32e3e449f7e52bd6018b2248c59056324ca4ce31c83f9"
+    },
+    {
+      "byte_size": 4683,
+      "path": "occurrences/017.json",
+      "record_count": 5,
+      "sha256": "e268a6810e0059c06953a8a6549671d6c679e2bd87f62810b279f6704d219be3"
+    },
+    {
+      "byte_size": 2908,
+      "path": "occurrences/018.json",
+      "record_count": 3,
+      "sha256": "a43d2c9c4360d324a0d5fc9c72b1457979ca8300622c5c3634b163466646af5e"
     }
   ],
   "schema_version": "feed-forge/editorial-input/v1",
-  "shard_size": 20,
+  "shard_max_bytes": 12288,
+  "shard_size": 5,
   "source_health_file": "source-health.json",
   "source_health_sha256": "fb4b772c319b6407c98da80bbab22b7d976c2cf8f33bf4be46616fbb253b4eaa",
   "topic_count": 15,
@@ -39,29 +123,106 @@
   "url_occurrence_count": 88,
   "url_shards": [
     {
+      "byte_size": 2524,
       "path": "urls/001.json",
-      "record_count": 20,
-      "sha256": "5bdd32e9a4d403635912b64b6c1e963634ebf06b70c3d0d2627bf70519252627"
+      "record_count": 5,
+      "sha256": "6ec137d01095e28560439f520bc4677e531ce2211d29a6093028a29882095046"
     },
     {
+      "byte_size": 2478,
       "path": "urls/002.json",
-      "record_count": 20,
-      "sha256": "eb7a4e2fb85bf1e48bda2fef70727a5239b9d828077ed9e578241c5da55e9bc9"
+      "record_count": 5,
+      "sha256": "50823abb0019c1717ef989be38062f35c0602db2c0fbc56967320de35b1708ce"
     },
     {
+      "byte_size": 2721,
       "path": "urls/003.json",
-      "record_count": 20,
-      "sha256": "c896890f60fcc8306112046d97eec4dd485b57f7b56b1d4949f108831677216a"
+      "record_count": 5,
+      "sha256": "40c95efd1efe5d5e7b4a10ab50aeebd109d7cc52228fc28bc05df3e9c428601e"
     },
     {
+      "byte_size": 3387,
       "path": "urls/004.json",
-      "record_count": 20,
-      "sha256": "4390d419ab5549a2226fa93fb00d80d21ed06670eefdce571e052679db0ee417"
+      "record_count": 5,
+      "sha256": "2aabc24ba442faab4394f1e803323dae187f1546069b2582dc2662e21fc914ac"
     },
     {
+      "byte_size": 5966,
       "path": "urls/005.json",
+      "record_count": 5,
+      "sha256": "b6abf27b19cb92b0e1d0a1a5eedcc2a2fdbe4457d8f46205ab853297ff62f268"
+    },
+    {
+      "byte_size": 4119,
+      "path": "urls/006.json",
+      "record_count": 5,
+      "sha256": "cb7ea03d2d8445b3055851178c062ddd738cc943a1bf90e2a2fa2fb9e6d7a518"
+    },
+    {
+      "byte_size": 4051,
+      "path": "urls/007.json",
+      "record_count": 5,
+      "sha256": "d235890e24dc4b6b4de2b389b7c2632544c88fc298284356562d97d9577f289b"
+    },
+    {
+      "byte_size": 2763,
+      "path": "urls/008.json",
+      "record_count": 5,
+      "sha256": "54fb273e88bc1e4f2422059bfd08b2f4cdd87161a924a23021a08c4e5ccf8593"
+    },
+    {
+      "byte_size": 2870,
+      "path": "urls/009.json",
+      "record_count": 5,
+      "sha256": "b07d8c0388e937a0af83297d87c9ccf0a5bc7fb77c39c21c9be8709d3627580a"
+    },
+    {
+      "byte_size": 2863,
+      "path": "urls/010.json",
+      "record_count": 5,
+      "sha256": "6b134738eaa809a6b7d8f62ba8a55c5c686da121363de5b856ceae080d762838"
+    },
+    {
+      "byte_size": 2759,
+      "path": "urls/011.json",
+      "record_count": 5,
+      "sha256": "d578dbf421ac46413c04ec642a35759f34982fe40bf399f04acefd2b043f970c"
+    },
+    {
+      "byte_size": 2657,
+      "path": "urls/012.json",
+      "record_count": 5,
+      "sha256": "24654ae280162941853603990e3cfdd97e42aa3c9fde04f86ec0b365c0b89252"
+    },
+    {
+      "byte_size": 2726,
+      "path": "urls/013.json",
+      "record_count": 5,
+      "sha256": "9f7ff5e807a1d025d811999b8a220a34eccfee46cdc168ab6279d130b59a0226"
+    },
+    {
+      "byte_size": 2799,
+      "path": "urls/014.json",
+      "record_count": 5,
+      "sha256": "b75fcb52c8fb82fc123015b617eb63bccf0108c7f6cc3106cbbd959366588b5d"
+    },
+    {
+      "byte_size": 3126,
+      "path": "urls/015.json",
+      "record_count": 5,
+      "sha256": "1f1e8a6bf4477af0a57e05b5331e853dee8f4e701a08698a775ce8ba4823671e"
+    },
+    {
+      "byte_size": 2708,
+      "path": "urls/016.json",
+      "record_count": 5,
+      "sha256": "bd96bc097bb51e1618eb5cdf753f54f80283c6bb10607bbbddb49ed7cbaf698e"
+    },
+    {
+      "byte_size": 1190,
+      "path": "urls/017.json",
       "record_count": 2,
-      "sha256": "08eab3e85dfea759daa0a68fb8c905bc5e1651e72d4c56562796d4b79bfae652"
+      "sha256": "65b290d8b95104fbf1a391179896e532e320db2668427b4179848dc56ac6c2b9"
     }
   ],
   "workflow_run_id": 36142408619

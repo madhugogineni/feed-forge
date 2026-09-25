@@ -1,0 +1,119 @@
+{
+  "record_count": 5,
+  "records": [
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZVdvVGJmZFViNnlqVk1KS0x1YlcxOUhxbFFSQ1J4NnRwU25oTEo0VmJQb21TQzdBZ1JibFNjMlpZQ0g3WVVvYktrcXpfdjlyNlVVU1RFdVpIUlVUc2VCMkc3WVlFRkNxR2lyNFJ0Nzhicld0ZV9iT2pKOWlhUklNcTNJdHJyVmtxUy1VSTZ6M0RqNmJSSjVhcdIBoAFBVV95cUxPWEl0c2lYNU1kS3ctbGV0Mkg4QkFDUHFEWDEyeVJlYUY2MktPQ1BYVElWYjZ4Znc2MTFRZFlBVXhYV09fYWJlLVFjc1RxU0VJYVZPLS1YQXZNWTNaeXUzV21ZT1hybGdLODlxUUJCalM3YTZMQ3NPRVIyNnJ4QlpTMGpJSjVzZTNJeGEyTTNNSzlDdDFNa052RFlNMDg0d0kw?oc=5",
+      "feed_id": "google_news_device_brands",
+      "feed_ids": [
+        "google_news_device_brands"
+      ],
+      "feed_name": "Google News — Indian device brands",
+      "feed_names": [
+        "Google News — Indian device brands"
+      ],
+      "matched_terms": [
+        "Ather"
+      ],
+      "occurrence_id": "occ_000051",
+      "original_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZVdvVGJmZFViNnlqVk1KS0x1YlcxOUhxbFFSQ1J4NnRwU25oTEo0VmJQb21TQzdBZ1JibFNjMlpZQ0g3WVVvYktrcXpfdjlyNlVVU1RFdVpIUlVUc2VCMkc3WVlFRkNxR2lyNFJ0Nzhicld0ZV9iT2pKOWlhUklNcTNJdHJyVmtxUy1VSTZ6M0RqNmJSSjVhcdIBoAFBVV95cUxPWEl0c2lYNU1kS3ctbGV0Mkg4QkFDUHFEWDEyeVJlYUY2MktPQ1BYVElWYjZ4Znc2MTFRZFlBVXhYV09fYWJlLVFjc1RxU0VJYVZPLS1YQXZNWTNaeXUzV21ZT1hybGdLODlxUUJCalM3YTZMQ3NPRVIyNnJ4QlpTMGpJSjVzZTNJeGEyTTNNSzlDdDFNa052RFlNMDg0d0kw?oc=5",
+      "pipeline_item_id": "1ef9ee6a99f7b97d",
+      "published_at": "2026-09-25T13:11:40Z",
+      "title": "₹99,999 Konarc Has Better Margins Than Rizta: Ather CBO - Autocar Professional",
+      "topic": "Indian consumer brands and products",
+      "topic_id": "indian_brands",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQR1FOaExKSE5DN1R0SFpvckxYVmdJWW1kdHVTVWpwZ09vZnFpb0tPd0ZhdjFldUJOZmhVaWZ0dDFsZGxpTURLVkRZQnJRcl9waGFhaTdJMFY4Z09ubHBGRjNGM3FvcV83TDdaYUFwb01iQVlNZ3JpVDlSWDJKVVM0TGVxRW9FZjkwbU1Wa2taX3dxZGFXTW4xTENZcU9kcWJZMGNUd0lkM3A4THdIRGt1LWlkUy1pTk1Ib01HcVROV1lFSDJUMmdzZlRTRlJIbjRhbWdGUXZVc2M?oc=5",
+      "feed_id": "google_news_digital_brands",
+      "feed_ids": [
+        "google_news_digital_brands"
+      ],
+      "feed_name": "Google News — Indian digital brands",
+      "feed_names": [
+        "Google News — Indian digital brands"
+      ],
+      "matched_terms": [
+        "Blinkit"
+      ],
+      "occurrence_id": "occ_000052",
+      "original_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQR1FOaExKSE5DN1R0SFpvckxYVmdJWW1kdHVTVWpwZ09vZnFpb0tPd0ZhdjFldUJOZmhVaWZ0dDFsZGxpTURLVkRZQnJRcl9waGFhaTdJMFY4Z09ubHBGRjNGM3FvcV83TDdaYUFwb01iQVlNZ3JpVDlSWDJKVVM0TGVxRW9FZjkwbU1Wa2taX3dxZGFXTW4xTENZcU9kcWJZMGNUd0lkM3A4THdIRGt1LWlkUy1pTk1Ib01HcVROV1lFSDJUMmdzZlRTRlJIbjRhbWdGUXZVc2M?oc=5",
+      "pipeline_item_id": "50fcf17997075dcf",
+      "published_at": "2026-09-25T09:44:44Z",
+      "title": "Empathy not delivered via Blinkit: RJD MP on Bihar horrors - Rediff",
+      "topic": "Indian consumer brands and products",
+      "topic_id": "indian_brands",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTWZ0YlVqM011RUp3el9XOVdCcU1hVlU3WXpPejV5RU5iOUlCVnoxQnNQaFFmVDIxVHpLOXpEU3JhT1d4UGJhendWWlFISUxJUmllSDhzdVR0YkZ4Yl9CZ3hOaHd1XzZMM0c0LWtOZVJYN254VDhFbG1XSTlZQ2tZaWd4ZC1vWWdZa0JtUVBWWURxSUxzTGlR?oc=5",
+      "feed_id": "google_news_consumer_brands",
+      "feed_ids": [
+        "google_news_consumer_brands"
+      ],
+      "feed_name": "Google News — Indian consumer brands",
+      "feed_names": [
+        "Google News — Indian consumer brands"
+      ],
+      "matched_terms": [
+        "Nykaa"
+      ],
+      "occurrence_id": "occ_000053",
+      "original_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTWZ0YlVqM011RUp3el9XOVdCcU1hVlU3WXpPejV5RU5iOUlCVnoxQnNQaFFmVDIxVHpLOXpEU3JhT1d4UGJhendWWlFISUxJUmllSDhzdVR0YkZ4Yl9CZ3hOaHd1XzZMM0c0LWtOZVJYN254VDhFbG1XSTlZQ2tZaWd4ZC1vWWdZa0JtUVBWWURxSUxzTGlR?oc=5",
+      "pipeline_item_id": "5b2ad78b39194d53",
+      "published_at": "2026-09-25T10:37:18Z",
+      "title": "L’Oréal and Nykaa collaborate to fund Indian beauty brands - Yahoo Finance",
+      "topic": "Indian consumer brands and products",
+      "topic_id": "indian_brands",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPc2lycXpXOFZqbE9NSXpoSkdaZVdOMjJnaVdPYmdFbUpKLWRaeDFvRzhsdmMxSmt1THpETmNxd2lBZVlXN1BwTjU4VUlBVDlQa2YwRVlvdnFSdlVnbkpMOTEySzlqS003Mmh6blZ1R3Fja293Wk9ZZHZvUXMxN1JLcjJQWVAtZFEtdWh6d0hFX0ZjRHVGSTdvbWNnaHVMN0xkVUlqajZnR1ZLa1dCTzAzNzRvY3pYem1kdDU0aDZjLXBtOGxpTHfSAcsBQVVfeXFMTWt5eHJ3WWVMcGxyWGFVRDE1RVVNLVlEdENUN1FTMzJaRTJCRlJyNk8tbFI4c3pOY3pQUFNDN2tGOUhGakdxOFA2RzV5T28zenY5Zy1QSEhROWNxNHktdFNoTXZzNUp1RFlrOWtXNGF5bkJJNTZhdk13QnNlTFdOb2ZLRG5WejcwLUVBTm1vSnBLeEJkNXRGZFpyYkxoWjNhbEtzVHRIZVJCMkhWWV91ejhaZTI5RDNrbzdtSXZadkN0LUpaajFEWE50T2c?oc=5",
+      "feed_id": "google_news_device_brands",
+      "feed_ids": [
+        "google_news_device_brands"
+      ],
+      "feed_name": "Google News — Indian device brands",
+      "feed_names": [
+        "Google News — Indian device brands"
+      ],
+      "matched_terms": [
+        "boAt"
+      ],
+      "occurrence_id": "occ_000054",
+      "original_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPc2lycXpXOFZqbE9NSXpoSkdaZVdOMjJnaVdPYmdFbUpKLWRaeDFvRzhsdmMxSmt1THpETmNxd2lBZVlXN1BwTjU4VUlBVDlQa2YwRVlvdnFSdlVnbkpMOTEySzlqS003Mmh6blZ1R3Fja293Wk9ZZHZvUXMxN1JLcjJQWVAtZFEtdWh6d0hFX0ZjRHVGSTdvbWNnaHVMN0xkVUlqajZnR1ZLa1dCTzAzNzRvY3pYem1kdDU0aDZjLXBtOGxpTHfSAcsBQVVfeXFMTWt5eHJ3WWVMcGxyWGFVRDE1RVVNLVlEdENUN1FTMzJaRTJCRlJyNk8tbFI4c3pOY3pQUFNDN2tGOUhGakdxOFA2RzV5T28zenY5Zy1QSEhROWNxNHktdFNoTXZzNUp1RFlrOWtXNGF5bkJJNTZhdk13QnNlTFdOb2ZLRG5WejcwLUVBTm1vSnBLeEJkNXRGZFpyYkxoWjNhbEtzVHRIZVJCMkhWWV91ejhaZTI5RDNrbzdtSXZadkN0LUpaajFEWE50T2c?oc=5",
+      "pipeline_item_id": "6859109f6916a028",
+      "published_at": "2026-09-25T09:35:06Z",
+      "title": "Party Speakers for House Parties: 4 boAt PartyPal Models to Consider | Hindustan Times - Hindustan Times",
+      "topic": "Indian consumer brands and products",
+      "topic_id": "indian_brands",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbHVGX3ZBTm50am53X0pJbHdOWjQ0QXpHbHRzOFZBd0ltd0ZDRW9XNGxHSDJrWHpvTUdmSDd3RHo3b1F5cGtadkY2VC02VXhUQ2t4VUtCdG5kX1VZZGNmcERQWkpSQl9JcG44SzgtUk40TkhlMTE3dDkwTVRkam56MS1QdlFHVlRNMFNRb0szaGRYUXdfcU5oSjN5eHFQMkVoakxKRmtVM0FkOWlIc0RoU1MxSS04bmsz?oc=5",
+      "feed_id": "google_news_digital_brands",
+      "feed_ids": [
+        "google_news_digital_brands"
+      ],
+      "feed_name": "Google News — Indian digital brands",
+      "feed_names": [
+        "Google News — Indian digital brands"
+      ],
+      "matched_terms": [
+        "Swiggy",
+        "Zomato"
+      ],
+      "occurrence_id": "occ_000055",
+      "original_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbHVGX3ZBTm50am53X0pJbHdOWjQ0QXpHbHRzOFZBd0ltd0ZDRW9XNGxHSDJrWHpvTUdmSDd3RHo3b1F5cGtadkY2VC02VXhUQ2t4VUtCdG5kX1VZZGNmcERQWkpSQl9JcG44SzgtUk40TkhlMTE3dDkwTVRkam56MS1QdlFHVlRNMFNRb0szaGRYUXdfcU5oSjN5eHFQMkVoakxKRmtVM0FkOWlIc0RoU1MxSS04bmsz?oc=5",
+      "pipeline_item_id": "8dcf8fa203e5cf4d",
+      "published_at": "2026-09-25T12:30:58Z",
+      "title": "No Swiggy. No Zomato. And for Benne founders Akhil Iyer and Shriya Narayan EMPLOYED, that’s deliberate. ‘Our product doesn't support it.’ Speaking to Shereen Bhan on Young Turks Reloaded, the duo explains why the dosa brand stays off delivery platfor - LinkedIn",
+      "topic": "Indian consumer brands and products",
+      "topic_id": "indian_brands",
+      "topic_lane": "review"
+    }
+  ],
+  "schema_version": "feed-forge/editorial-input/v1",
+  "shard_index": 11,
+  "shard_type": "occurrences"
+}

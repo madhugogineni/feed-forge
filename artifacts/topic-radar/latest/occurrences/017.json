@@ -1,0 +1,119 @@
+{
+  "record_count": 5,
+  "records": [
+    {
+      "canonical_url": "https://www.thehindu.com/news/national/telangana/congress-bjp-responsible-for-defections-in-country-brs/article71508318.ece",
+      "feed_id": "hindu_telangana",
+      "feed_ids": [
+        "hindu_telangana"
+      ],
+      "feed_name": "The Hindu Telangana",
+      "feed_names": [
+        "The Hindu Telangana"
+      ],
+      "matched_terms": [
+        "source:hindu_telangana"
+      ],
+      "occurrence_id": "occ_000081",
+      "original_url": "https://www.thehindu.com/news/national/telangana/congress-bjp-responsible-for-defections-in-country-brs/article71508318.ece",
+      "pipeline_item_id": "ad4a02ac7cfaa66a",
+      "published_at": "2026-09-25T13:22:59Z",
+      "title": "Congress, BJP responsible for defections in country: BRS",
+      "topic": "Telangana and Hyderabad developments",
+      "topic_id": "telangana_hyderabad",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://www.thehindu.com/news/national/telangana/telangana-urges-mojs-to-expedite-drainage-congestion-studies-on-polavaram-at-frl/article71508513.ece",
+      "feed_id": "hindu_telangana",
+      "feed_ids": [
+        "hindu_telangana"
+      ],
+      "feed_name": "The Hindu Telangana",
+      "feed_names": [
+        "The Hindu Telangana"
+      ],
+      "matched_terms": [
+        "Telangana",
+        "source:hindu_telangana"
+      ],
+      "occurrence_id": "occ_000082",
+      "original_url": "https://www.thehindu.com/news/national/telangana/telangana-urges-mojs-to-expedite-drainage-congestion-studies-on-polavaram-at-frl/article71508513.ece",
+      "pipeline_item_id": "deec2c51048a6690",
+      "published_at": "2026-09-25T13:28:23Z",
+      "title": "Telangana urges MoJS to expedite drainage congestion studies on Polavaram at FRL",
+      "topic": "Telangana and Hyderabad developments",
+      "topic_id": "telangana_hyderabad",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/telanganas-el-nino-contingency-plan-comes-under-scanner-amid-water-power-woes",
+      "feed_id": "telangana_today",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_name": "Telangana Today",
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "matched_terms": [
+        "Telangana"
+      ],
+      "occurrence_id": "occ_000083",
+      "original_url": "https://telanganatoday.com/telanganas-el-nino-contingency-plan-comes-under-scanner-amid-water-power-woes",
+      "pipeline_item_id": "efec0af17f89b6d1",
+      "published_at": "2026-09-25T12:34:36Z",
+      "title": "Telangana’s El Nino contingency plan comes under scanner amid water, power woes",
+      "topic": "Telangana and Hyderabad developments",
+      "topic_id": "telangana_hyderabad",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://livefromalounge.com/air-india-explores-merging-air-india-express-into-the-main-airline-as-incoming-ceo-looks-to-cut-costs",
+      "feed_id": "livefromalounge",
+      "feed_ids": [
+        "livefromalounge"
+      ],
+      "feed_name": "Live from a Lounge",
+      "feed_names": [
+        "Live from a Lounge"
+      ],
+      "matched_terms": [
+        "airline"
+      ],
+      "occurrence_id": "occ_000084",
+      "original_url": "https://livefromalounge.com/air-india-explores-merging-air-india-express-into-the-main-airline-as-incoming-ceo-looks-to-cut-costs",
+      "pipeline_item_id": "132dea2254e65621",
+      "published_at": "2026-09-18T17:08:01Z",
+      "title": "Air India explores merging Air India Express into the main airline as incoming CEO looks to cut costs",
+      "topic": "Travel and lifestyle",
+      "topic_id": "travel_lifestyle",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/air-india-suspends-pilot-after-failing-breath-analyser-test-at-zurich-airport",
+      "feed_id": "telangana_today",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_name": "Telangana Today",
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "matched_terms": [
+        "airport"
+      ],
+      "occurrence_id": "occ_000085",
+      "original_url": "https://telanganatoday.com/air-india-suspends-pilot-after-failing-breath-analyser-test-at-zurich-airport",
+      "pipeline_item_id": "c1d30a81004d14d7",
+      "published_at": "2026-09-25T10:15:39Z",
+      "title": "Air India suspends pilot after failing breath analyser test at Zurich airport",
+      "topic": "Travel and lifestyle",
+      "topic_id": "travel_lifestyle",
+      "topic_lane": "review"
+    }
+  ],
+  "schema_version": "feed-forge/editorial-input/v1",
+  "shard_index": 17,
+  "shard_type": "occurrences"
+}

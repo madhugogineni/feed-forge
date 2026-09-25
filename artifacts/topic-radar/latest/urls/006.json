@@ -1,0 +1,116 @@
+{
+  "record_count": 5,
+  "records": [
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZVdvVGJmZFViNnlqVk1KS0x1YlcxOUhxbFFSQ1J4NnRwU25oTEo0VmJQb21TQzdBZ1JibFNjMlpZQ0g3WVVvYktrcXpfdjlyNlVVU1RFdVpIUlVUc2VCMkc3WVlFRkNxR2lyNFJ0Nzhicld0ZV9iT2pKOWlhUklNcTNJdHJyVmtxUy1VSTZ6M0RqNmJSSjVhcdIBoAFBVV95cUxPWEl0c2lYNU1kS3ctbGV0Mkg4QkFDUHFEWDEyeVJlYUY2MktPQ1BYVElWYjZ4Znc2MTFRZFlBVXhYV09fYWJlLVFjc1RxU0VJYVZPLS1YQXZNWTNaeXUzV21ZT1hybGdLODlxUUJCalM3YTZMQ3NPRVIyNnJ4QlpTMGpJSjVzZTNJeGEyTTNNSzlDdDFNa052RFlNMDg0d0kw?oc=5",
+      "domain": "news.google.com",
+      "feed_ids": [
+        "google_news_device_brands"
+      ],
+      "feed_names": [
+        "Google News — Indian device brands"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000051"
+      ],
+      "topic_ids": [
+        "indian_brands"
+      ],
+      "topics": [
+        "Indian consumer brands and products"
+      ],
+      "url_id": "url_000026"
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQzlfekJmcW5Ca21uYWQxdG5tZ2QwTDhEazdkdEF2TUxXMkZoQXVLTmtkTVFXUzNxWXVXVENOWGJtMHpaVW9GZzljU1FIbDg2c1pjbEU2cGxJeWt3dTRaWjRvMlUzR2JFdGxzQ3F1WkxpR2ltamF0TEhCT2VCSno5c252UXplQjJwcU1GVVVLUUE3dFp3ZEwxcDNnWUUxS09DaEowWkV3?oc=5",
+      "domain": "news.google.com",
+      "feed_ids": [
+        "google_news_credit_cards"
+      ],
+      "feed_names": [
+        "Google News — Indian credit cards"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000023"
+      ],
+      "topic_ids": [
+        "credit_cards_payments"
+      ],
+      "topics": [
+        "Credit cards, rewards and payments"
+      ],
+      "url_id": "url_000027"
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNS0h4cm93MmR3VFhUMWVOV2VzelJLQ3hRSnpLZzFKWDQyV1pIVGZyeS1VZmtiNTAzZUszV09lLVNlZmhGX1ZTXzFnenJUM0lNTUl0MnFDUU5HbUdTZlk1Q0FPZjI2ektiUmRWRVlKT1c1UV94akpBbnBfeEhOTTZPN0UxUjQxT3o5MFFESTRVaTNiNDJwa0w3cjd5SGtZaVE2MWpIZjgtb0EzTkJx?oc=5",
+      "domain": "news.google.com",
+      "feed_ids": [
+        "google_news_consumer_brands"
+      ],
+      "feed_names": [
+        "Google News — Indian consumer brands"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000035"
+      ],
+      "topic_ids": [
+        "fitness_ergonomics"
+      ],
+      "topics": [
+        "Fitness and ergonomics"
+      ],
+      "url_id": "url_000028"
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbktnRWpmNVhKbmpxTHdwMlNnWVI1YTNaSjNDcFJTNjU4aFNsZ0FDa0ZvUkFDY2xyLWtnMC0xRXFESFFUQ3puc3JSeXA5b3VZdkczbUxtMzg0M0JQRHo2ZDBnZzRhd3FUdkZjRTBLWXlCMHVjT2o1NHMwN0ZxZVVwcHdLSkZweGZlN0xTT005bUwzdzFKaDFBU1BQTDczZnJmelBSSkRKM2dIbjhXMnZvVm9FV3M?oc=5",
+      "domain": "news.google.com",
+      "feed_ids": [
+        "google_news_device_brands"
+      ],
+      "feed_names": [
+        "Google News — Indian device brands"
+      ],
+      "occurrence_count": 2,
+      "occurrence_ids": [
+        "occ_000046",
+        "occ_000066"
+      ],
+      "topic_ids": [
+        "india_developments",
+        "personal_finance"
+      ],
+      "topics": [
+        "India developments",
+        "Personal finance and investing"
+      ],
+      "url_id": "url_000029"
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbHVGX3ZBTm50am53X0pJbHdOWjQ0QXpHbHRzOFZBd0ltd0ZDRW9XNGxHSDJrWHpvTUdmSDd3RHo3b1F5cGtadkY2VC02VXhUQ2t4VUtCdG5kX1VZZGNmcERQWkpSQl9JcG44SzgtUk40TkhlMTE3dDkwTVRkam56MS1QdlFHVlRNMFNRb0szaGRYUXdfcU5oSjN5eHFQMkVoakxKRmtVM0FkOWlIc0RoU1MxSS04bmsz?oc=5",
+      "domain": "news.google.com",
+      "feed_ids": [
+        "google_news_digital_brands"
+      ],
+      "feed_names": [
+        "Google News — Indian digital brands"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000055"
+      ],
+      "topic_ids": [
+        "indian_brands"
+      ],
+      "topics": [
+        "Indian consumer brands and products"
+      ],
+      "url_id": "url_000030"
+    }
+  ],
+  "schema_version": "feed-forge/editorial-input/v1",
+  "shard_index": 6,
+  "shard_type": "urls"
+}

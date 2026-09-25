@@ -1,0 +1,119 @@
+{
+  "record_count": 5,
+  "records": [
+    {
+      "canonical_url": "https://www.thehindu.com/entertainment/movies/anumana-pakshi-movie-review-a-cluttered-exhausting-crime-comedy/article71507980.ece",
+      "domain": "www.thehindu.com",
+      "feed_ids": [
+        "hindu_hyderabad"
+      ],
+      "feed_names": [
+        "The Hindu Hyderabad"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000032"
+      ],
+      "topic_ids": [
+        "crime"
+      ],
+      "topics": [
+        "Crime news"
+      ],
+      "url_id": "url_000071"
+    },
+    {
+      "canonical_url": "https://www.thehindu.com/news/cities/Hyderabad/engineering-students-suicide-turns-out-to-be-murder-two-arrested/article71502595.ece",
+      "domain": "www.thehindu.com",
+      "feed_ids": [
+        "hindu_hyderabad",
+        "hindu_telangana"
+      ],
+      "feed_names": [
+        "The Hindu Hyderabad",
+        "The Hindu Telangana"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000030"
+      ],
+      "topic_ids": [
+        "crime"
+      ],
+      "topics": [
+        "Crime news"
+      ],
+      "url_id": "url_000072"
+    },
+    {
+      "canonical_url": "https://www.thehindu.com/news/cities/Hyderabad/ganesh-visarjan-hyderabad-khairatabad-ganesh-immersion-procession-begins-traffic-curbs-in-the-city-live-updates-september-25-2026/article71506992.ece",
+      "domain": "www.thehindu.com",
+      "feed_ids": [
+        "hindu_hyderabad",
+        "hindu_telangana"
+      ],
+      "feed_names": [
+        "The Hindu Hyderabad",
+        "The Hindu Telangana"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000079"
+      ],
+      "topic_ids": [
+        "telangana_hyderabad"
+      ],
+      "topics": [
+        "Telangana and Hyderabad developments"
+      ],
+      "url_id": "url_000073"
+    },
+    {
+      "canonical_url": "https://www.thehindu.com/news/national/telangana/congress-bjp-responsible-for-defections-in-country-brs/article71508318.ece",
+      "domain": "www.thehindu.com",
+      "feed_ids": [
+        "hindu_telangana"
+      ],
+      "feed_names": [
+        "The Hindu Telangana"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000081"
+      ],
+      "topic_ids": [
+        "telangana_hyderabad"
+      ],
+      "topics": [
+        "Telangana and Hyderabad developments"
+      ],
+      "url_id": "url_000074"
+    },
+    {
+      "canonical_url": "https://www.thehindu.com/news/national/telangana/pranay-murder-case-convict-dies-after-complaining-of-chest-pain-in-cherlapally-jail/article71505605.ece",
+      "domain": "www.thehindu.com",
+      "feed_ids": [
+        "hindu_hyderabad",
+        "hindu_telangana"
+      ],
+      "feed_names": [
+        "The Hindu Hyderabad",
+        "The Hindu Telangana"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000028"
+      ],
+      "topic_ids": [
+        "crime"
+      ],
+      "topics": [
+        "Crime news"
+      ],
+      "url_id": "url_000075"
+    }
+  ],
+  "schema_version": "feed-forge/editorial-input/v1",
+  "shard_index": 15,
+  "shard_type": "urls"
+}

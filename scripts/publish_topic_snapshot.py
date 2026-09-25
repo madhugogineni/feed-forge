@@ -11,6 +11,7 @@ REPOSITORY_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPOSITORY_ROOT / "src"))
 
 from feed_forge.editorial_snapshot import (  # noqa: E402
+    DEFAULT_SHARD_MAX_BYTES,
     DEFAULT_SHARD_SIZE,
     EditorialSnapshotError,
     build_editorial_snapshot,
@@ -26,6 +27,9 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--target-markdown", type=Path, required=True)
     parser.add_argument("--editorial-target", type=Path, required=True)
     parser.add_argument("--shard-size", type=int, default=DEFAULT_SHARD_SIZE)
+    parser.add_argument(
+        "--shard-max-bytes", type=int, default=DEFAULT_SHARD_MAX_BYTES
+    )
     parser.add_argument("--workflow-run-id", type=int, required=True)
     parser.add_argument("--commit-sha", required=True)
     parser.add_argument("--artifact-name", required=True)
@@ -53,6 +57,7 @@ def main() -> int:
             commit_sha=report["commit_sha"],
             generated_at=report["generated_at"],
             shard_size=args.shard_size,
+            shard_max_bytes=args.shard_max_bytes,
         )
     except (TopicSnapshotError, EditorialSnapshotError) as error:
         print(f"Snapshot publication failed: {error}", file=sys.stderr)
