@@ -1,0 +1,266 @@
+{
+  "generated_at": "2026-09-25T12:03:48.909496Z",
+  "schema_version": "feed-forge/editorial-input/v1",
+  "sources": [
+    {
+      "error": null,
+      "id": "openai",
+      "items_seen": 200,
+      "latest_at": "2026-09-23T16:00:00Z",
+      "name": "OpenAI News",
+      "recent_items": 19,
+      "status": "ok",
+      "url": "https://openai.com/news/rss.xml"
+    },
+    {
+      "error": null,
+      "id": "google_india",
+      "items_seen": 20,
+      "latest_at": "2026-09-24T07:30:00Z",
+      "name": "Google India Blog",
+      "recent_items": 6,
+      "status": "ok",
+      "url": "https://blog.google/intl/en-in/rss/"
+    },
+    {
+      "error": null,
+      "id": "nvidia",
+      "items_seen": 18,
+      "latest_at": "2026-09-24T14:00:50Z",
+      "name": "NVIDIA Blog",
+      "recent_items": 10,
+      "status": "ok",
+      "url": "https://blogs.nvidia.com/feed/"
+    },
+    {
+      "error": null,
+      "id": "nvidia_developer",
+      "items_seen": 100,
+      "latest_at": "2026-09-24T15:00:00Z",
+      "name": "NVIDIA Developer Blog",
+      "recent_items": 13,
+      "status": "ok",
+      "url": "https://developer.nvidia.com/blog/feed/"
+    },
+    {
+      "error": null,
+      "id": "samsung",
+      "items_seen": 50,
+      "latest_at": "2026-09-23T22:00:00Z",
+      "name": "Samsung Newsroom",
+      "recent_items": 3,
+      "status": "ok",
+      "url": "https://news.samsung.com/global/feed/rss"
+    },
+    {
+      "error": null,
+      "id": "apple_india",
+      "items_seen": 20,
+      "latest_at": "2026-09-22T13:00:15.661000Z",
+      "name": "Apple India Newsroom",
+      "recent_items": 3,
+      "status": "ok",
+      "url": "https://www.apple.com/in/newsroom/rss-feed.rss"
+    },
+    {
+      "error": null,
+      "id": "inc42",
+      "items_seen": 24,
+      "latest_at": "2026-09-25T11:30:35Z",
+      "name": "Inc42",
+      "recent_items": 24,
+      "status": "ok",
+      "url": "https://inc42.com/feed/"
+    },
+    {
+      "error": null,
+      "id": "yourstory",
+      "items_seen": 20,
+      "latest_at": "2026-09-25T10:43:02Z",
+      "name": "YourStory",
+      "recent_items": 20,
+      "status": "ok",
+      "url": "https://yourstory.com/feed"
+    },
+    {
+      "error": null,
+      "id": "google_news_frido",
+      "items_seen": 99,
+      "latest_at": "2026-09-15T09:33:09Z",
+      "name": "Google News — Frido",
+      "recent_items": 0,
+      "status": "stale",
+      "url": "https://news.google.com/rss/search?q=%22Frido%22&hl=en-IN&gl=IN&ceid=IN%3Aen"
+    },
+    {
+      "error": null,
+      "id": "google_news_home_brands",
+      "items_seen": 100,
+      "latest_at": "2026-09-24T13:45:20Z",
+      "name": "Google News — Indian home brands",
+      "recent_items": 16,
+      "status": "ok",
+      "url": "https://news.google.com/rss/search?q=%22Wakefit%22+OR+%22Atomberg%22+OR+%22The+Sleep+Company%22&hl=en-IN&gl=IN&ceid=IN%3Aen"
+    },
+    {
+      "error": null,
+      "id": "google_news_consumer_brands",
+      "items_seen": 100,
+      "latest_at": "2026-09-25T10:37:18Z",
+      "name": "Google News — Indian consumer brands",
+      "recent_items": 60,
+      "status": "ok",
+      "url": "https://news.google.com/rss/search?q=%22Lenskart%22+OR+%22Mokobara%22+OR+%22Nykaa%22+OR+%22Mamaearth%22&hl=en-IN&gl=IN&ceid=IN%3Aen"
+    },
+    {
+      "error": null,
+      "id": "google_news_digital_brands",
+      "items_seen": 100,
+      "latest_at": "2026-09-25T10:05:22Z",
+      "name": "Google News — Indian digital brands",
+      "recent_items": 70,
+      "status": "ok",
+      "url": "https://news.google.com/rss/search?q=%22Zepto%22+OR+%22Blinkit%22+OR+%22Swiggy%22+OR+%22Zomato%22+OR+%22CRED%22+OR+%22Urban+Company%22&hl=en-IN&gl=IN&ceid=IN%3Aen"
+    },
+    {
+      "error": null,
+      "id": "google_news_device_brands",
+      "items_seen": 100,
+      "latest_at": "2026-09-25T11:52:05Z",
+      "name": "Google News — Indian device brands",
+      "recent_items": 62,
+      "status": "ok",
+      "url": "https://news.google.com/rss/search?q=%22boAt%22+OR+%22Noise+smartwatch%22+OR+%22Ather%22+OR+%22Ola+Electric%22&hl=en-IN&gl=IN&ceid=IN%3Aen"
+    },
+    {
+      "error": null,
+      "id": "medianama",
+      "items_seen": 10,
+      "latest_at": "2026-09-25T11:26:58Z",
+      "name": "MediaNama",
+      "recent_items": 10,
+      "status": "ok",
+      "url": "https://www.medianama.com/feed/"
+    },
+    {
+      "error": null,
+      "id": "hindu_telangana",
+      "items_seen": 60,
+      "latest_at": "2026-09-25T10:32:53Z",
+      "name": "The Hindu Telangana",
+      "recent_items": 60,
+      "status": "ok",
+      "url": "https://www.thehindu.com/news/national/telangana/feeder/default.rss"
+    },
+    {
+      "error": null,
+      "id": "hindu_hyderabad",
+      "items_seen": 60,
+      "latest_at": "2026-09-25T10:32:53Z",
+      "name": "The Hindu Hyderabad",
+      "recent_items": 60,
+      "status": "ok",
+      "url": "https://www.thehindu.com/news/cities/Hyderabad/feeder/default.rss"
+    },
+    {
+      "error": null,
+      "id": "telangana_today",
+      "items_seen": 200,
+      "latest_at": "2026-09-25T11:51:32Z",
+      "name": "Telangana Today",
+      "recent_items": 200,
+      "status": "ok",
+      "url": "https://telanganatoday.com/feed"
+    },
+    {
+      "error": null,
+      "id": "telangana_today_crime",
+      "items_seen": 200,
+      "latest_at": "2026-09-24T17:50:17Z",
+      "name": "Telangana Today Crime",
+      "recent_items": 11,
+      "status": "ok",
+      "url": "https://telanganatoday.com/crime/feed"
+    },
+    {
+      "error": null,
+      "id": "verge",
+      "items_seen": 10,
+      "latest_at": "2026-09-25T02:12:57Z",
+      "name": "The Verge",
+      "recent_items": 10,
+      "status": "ok",
+      "url": "https://www.theverge.com/rss/index.xml"
+    },
+    {
+      "error": null,
+      "id": "beebom",
+      "items_seen": 10,
+      "latest_at": "2026-09-25T11:25:51Z",
+      "name": "Beebom",
+      "recent_items": 10,
+      "status": "ok",
+      "url": "https://beebom.com/feed/"
+    },
+    {
+      "error": null,
+      "id": "android_authority",
+      "items_seen": 80,
+      "latest_at": "2026-09-25T11:39:45Z",
+      "name": "Android Authority",
+      "recent_items": 80,
+      "status": "ok",
+      "url": "https://www.androidauthority.com/feed/"
+    },
+    {
+      "error": null,
+      "id": "9to5google",
+      "items_seen": 100,
+      "latest_at": "2026-09-24T23:48:47Z",
+      "name": "9to5Google",
+      "recent_items": 80,
+      "status": "ok",
+      "url": "https://9to5google.com/feed/"
+    },
+    {
+      "error": null,
+      "id": "9to5mac",
+      "items_seen": 100,
+      "latest_at": "2026-09-25T01:17:50Z",
+      "name": "9to5Mac",
+      "recent_items": 100,
+      "status": "ok",
+      "url": "https://9to5mac.com/feed/"
+    },
+    {
+      "error": null,
+      "id": "electrek",
+      "items_seen": 100,
+      "latest_at": "2026-09-24T20:49:10Z",
+      "name": "Electrek",
+      "recent_items": 68,
+      "status": "ok",
+      "url": "https://electrek.co/feed/"
+    },
+    {
+      "error": null,
+      "id": "google_news_credit_cards",
+      "items_seen": 100,
+      "latest_at": "2026-09-25T07:33:23Z",
+      "name": "Google News — Indian credit cards",
+      "recent_items": 22,
+      "status": "ok",
+      "url": "https://news.google.com/rss/search?q=%22credit+card%22+India+OR+%22reward+points%22+India+OR+%22card+cashback%22+India&hl=en-IN&gl=IN&ceid=IN%3Aen"
+    },
+    {
+      "error": null,
+      "id": "livefromalounge",
+      "items_seen": 10,
+      "latest_at": "2026-09-25T09:18:35Z",
+      "name": "Live from a Lounge",
+      "recent_items": 10,
+      "status": "ok",
+      "url": "https://livefromalounge.com/feed/"
+    }
+  ]
+}

@@ -1,0 +1,457 @@
+{
+  "record_count": 20,
+  "records": [
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMVhqUGFEbWpfRHpHNnFTNnZUZV9XRTY0YW9wUXVSdWVOdlNwOXU5ZUNjMDNOV0Fua1h3Y2NCSjUyclRCWV94bFJfSkJmanh6M0J3VkJfdkhzcFVDcF9pRGlCTWJLNEJXUVIzd1NTLXFILUFfbVdOTi12Z29rcGFjRXZZdFRjVzNBLW1sVUR4RUVicW91cW9kZ2V2Z2FFSkN0a2dLY2ZBNUtYdWdjbmFWLXliWTNRNVk1b1N6dmV5aGhrNUp40gHMAUFVX3lxTE1nSTRnZFhHTjlMdWdIMUI2VGlEbE1Pd1ZIN3JXSUczZnM0VUhrNEQwbjRRYmdKWVVoTmx2dGhJSU9KQ3E2eXoyR25oR0ZORzdCQnlaZ1IxMmQtRThnSUFOeHI5TWVzRFBiMzdRdk1RM0x3MGFzVkY0QkFhckV2YkhoQzRUNWdfemtiQVdwX1pBNDVCamZxc3pDd0lNbzBxLWFnRXIwU09wd1BvWHV4bkEtcDdRVWNjbnUzTEpkUl9fUnQzbFVyZGwzdTUycg?oc=5",
+      "feed_id": "google_news_credit_cards",
+      "feed_ids": [
+        "google_news_credit_cards"
+      ],
+      "feed_name": "Google News — Indian credit cards",
+      "feed_names": [
+        "Google News — Indian credit cards"
+      ],
+      "matched_terms": [
+        "credit card"
+      ],
+      "occurrence_id": "occ_000021",
+      "original_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMVhqUGFEbWpfRHpHNnFTNnZUZV9XRTY0YW9wUXVSdWVOdlNwOXU5ZUNjMDNOV0Fua1h3Y2NCSjUyclRCWV94bFJfSkJmanh6M0J3VkJfdkhzcFVDcF9pRGlCTWJLNEJXUVIzd1NTLXFILUFfbVdOTi12Z29rcGFjRXZZdFRjVzNBLW1sVUR4RUVicW91cW9kZ2V2Z2FFSkN0a2dLY2ZBNUtYdWdjbmFWLXliWTNRNVk1b1N6dmV5aGhrNUp40gHMAUFVX3lxTE1nSTRnZFhHTjlMdWdIMUI2VGlEbE1Pd1ZIN3JXSUczZnM0VUhrNEQwbjRRYmdKWVVoTmx2dGhJSU9KQ3E2eXoyR25oR0ZORzdCQnlaZ1IxMmQtRThnSUFOeHI5TWVzRFBiMzdRdk1RM0x3MGFzVkY0QkFhckV2YkhoQzRUNWdfemtiQVdwX1pBNDVCamZxc3pDd0lNbzBxLWFnRXIwU09wd1BvWHV4bkEtcDdRVWNjbnUzTEpkUl9fUnQzbFVyZGwzdTUycg?oc=5",
+      "pipeline_item_id": "620d325a2c9bf6d7",
+      "published_at": "2026-09-25T03:45:50Z",
+      "title": "Credit Card Spending Stays Muted In August; HSBC, Jefferies Flag Rising Competition - NDTV Profit",
+      "topic": "Credit cards, rewards and payments",
+      "topic_id": "credit_cards_payments",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/india-credit-card-spending-growth-slows-in-august-as-competition-intensifies",
+      "feed_id": "telangana_today",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_name": "Telangana Today",
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "matched_terms": [
+        "credit card"
+      ],
+      "occurrence_id": "occ_000022",
+      "original_url": "https://telanganatoday.com/india-credit-card-spending-growth-slows-in-august-as-competition-intensifies",
+      "pipeline_item_id": "ccb5c6891772327f",
+      "published_at": "2026-09-25T07:33:23Z",
+      "title": "India credit card spending growth slows in August as competition intensifies",
+      "topic": "Credit cards, rewards and payments",
+      "topic_id": "credit_cards_payments",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQzlfekJmcW5Ca21uYWQxdG5tZ2QwTDhEazdkdEF2TUxXMkZoQXVLTmtkTVFXUzNxWXVXVENOWGJtMHpaVW9GZzljU1FIbDg2c1pjbEU2cGxJeWt3dTRaWjRvMlUzR2JFdGxzQ3F1WkxpR2ltamF0TEhCT2VCSno5c252UXplQjJwcU1GVVVLUUE3dFp3ZEwxcDNnWUUxS09DaEowWkV3?oc=5",
+      "feed_id": "google_news_credit_cards",
+      "feed_ids": [
+        "google_news_credit_cards"
+      ],
+      "feed_name": "Google News — Indian credit cards",
+      "feed_names": [
+        "Google News — Indian credit cards"
+      ],
+      "matched_terms": [
+        "credit card"
+      ],
+      "occurrence_id": "occ_000023",
+      "original_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQzlfekJmcW5Ca21uYWQxdG5tZ2QwTDhEazdkdEF2TUxXMkZoQXVLTmtkTVFXUzNxWXVXVENOWGJtMHpaVW9GZzljU1FIbDg2c1pjbEU2cGxJeWt3dTRaWjRvMlUzR2JFdGxzQ3F1WkxpR2ltamF0TEhCT2VCSno5c252UXplQjJwcU1GVVVLUUE3dFp3ZEwxcDNnWUUxS09DaEowWkV3?oc=5",
+      "pipeline_item_id": "d4865ebc70fbf893",
+      "published_at": "2026-09-25T07:33:23Z",
+      "title": "India credit card spending growth slows in August as competition intensifies - Telangana Today",
+      "topic": "Credit cards, rewards and payments",
+      "topic_id": "credit_cards_payments",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://yourstory.com/2026/09/mdr-on-upi-payments-above-rs-2000-will-not-be-passed-on-to-consumers-govt-sources",
+      "feed_id": "yourstory",
+      "feed_ids": [
+        "yourstory"
+      ],
+      "feed_name": "YourStory",
+      "feed_names": [
+        "YourStory"
+      ],
+      "matched_terms": [
+        "UPI"
+      ],
+      "occurrence_id": "occ_000024",
+      "original_url": "https://yourstory.com/2026/09/mdr-on-upi-payments-above-rs-2000-will-not-be-passed-on-to-consumers-govt-sources",
+      "pipeline_item_id": "d5c486377de05827",
+      "published_at": "2026-09-25T04:50:23Z",
+      "title": "MDR on UPI payments above Rs 2,000 will not be passed on to consumers: Govt sources",
+      "topic": "Credit cards, rewards and payments",
+      "topic_id": "credit_cards_payments",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/upi-mdr-is-not-a-tax-or-surcharge-says-nirmala-sitharaman",
+      "feed_id": "telangana_today",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_name": "Telangana Today",
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "matched_terms": [
+        "UPI"
+      ],
+      "occurrence_id": "occ_000025",
+      "original_url": "https://telanganatoday.com/upi-mdr-is-not-a-tax-or-surcharge-says-nirmala-sitharaman",
+      "pipeline_item_id": "f0372db7b3437b2f",
+      "published_at": "2026-09-25T07:48:43Z",
+      "title": "UPI MDR is not a tax or surcharge, says Nirmala Sitharaman",
+      "topic": "Credit cards, rewards and payments",
+      "topic_id": "credit_cards_payments",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://yourstory.com/2026/09/proposed-upi-merchant-discount-rate-not-a-tax-cess-or-surcharge-fm",
+      "feed_id": "yourstory",
+      "feed_ids": [
+        "yourstory"
+      ],
+      "feed_name": "YourStory",
+      "feed_names": [
+        "YourStory"
+      ],
+      "matched_terms": [
+        "UPI"
+      ],
+      "occurrence_id": "occ_000026",
+      "original_url": "https://yourstory.com/2026/09/proposed-upi-merchant-discount-rate-not-a-tax-cess-or-surcharge-fm",
+      "pipeline_item_id": "f689ac3fed75c7b8",
+      "published_at": "2026-09-25T09:16:42Z",
+      "title": "Proposed UPI Merchant Discount Rate not a tax, cess or surcharge; will not burden consumers: FM",
+      "topic": "Credit cards, rewards and payments",
+      "topic_id": "credit_cards_payments",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/sangareddy-miscreants-kill-75-year-old-woman-flee-with-jewellery",
+      "feed_id": "telangana_today",
+      "feed_ids": [
+        "telangana_today",
+        "telangana_today_crime"
+      ],
+      "feed_name": "Telangana Today",
+      "feed_names": [
+        "Telangana Today",
+        "Telangana Today Crime"
+      ],
+      "matched_terms": [
+        "source:telangana_today_crime"
+      ],
+      "occurrence_id": "occ_000027",
+      "original_url": "https://telanganatoday.com/sangareddy-miscreants-kill-75-year-old-woman-flee-with-jewellery",
+      "pipeline_item_id": "03032bc0ab8c02ab",
+      "published_at": "2026-09-24T06:57:56Z",
+      "title": "Sangareddy: Miscreants kill 75-year-old woman flee with jewellery",
+      "topic": "Crime news",
+      "topic_id": "crime",
+      "topic_lane": "context_only"
+    },
+    {
+      "canonical_url": "https://www.thehindu.com/news/national/telangana/pranay-murder-case-convict-dies-after-complaining-of-chest-pain-in-cherlapally-jail/article71505605.ece",
+      "feed_id": "hindu_hyderabad",
+      "feed_ids": [
+        "hindu_hyderabad",
+        "hindu_telangana"
+      ],
+      "feed_name": "The Hindu Hyderabad",
+      "feed_names": [
+        "The Hindu Hyderabad",
+        "The Hindu Telangana"
+      ],
+      "matched_terms": [
+        "murder"
+      ],
+      "occurrence_id": "occ_000028",
+      "original_url": "https://www.thehindu.com/news/national/telangana/pranay-murder-case-convict-dies-after-complaining-of-chest-pain-in-cherlapally-jail/article71505605.ece",
+      "pipeline_item_id": "68a86036e9f2f5e4",
+      "published_at": "2026-09-24T18:17:59Z",
+      "title": "Pranay murder case convict dies after complaining of chest pain in Cherlapally jail",
+      "topic": "Crime news",
+      "topic_id": "crime",
+      "topic_lane": "context_only"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/ganesh-immersion-two-devotees-drown-one-electrocuted-one-dies-of-cardiac-arrest",
+      "feed_id": "telangana_today",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_name": "Telangana Today",
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "matched_terms": [
+        "arrest"
+      ],
+      "occurrence_id": "occ_000029",
+      "original_url": "https://telanganatoday.com/ganesh-immersion-two-devotees-drown-one-electrocuted-one-dies-of-cardiac-arrest",
+      "pipeline_item_id": "941cf7e55b342b21",
+      "published_at": "2026-09-25T09:05:12Z",
+      "title": "Ganesh immersion: Two devotees drown, one electrocuted, one dies of cardiac arrest",
+      "topic": "Crime news",
+      "topic_id": "crime",
+      "topic_lane": "context_only"
+    },
+    {
+      "canonical_url": "https://www.thehindu.com/news/cities/Hyderabad/engineering-students-suicide-turns-out-to-be-murder-two-arrested/article71502595.ece",
+      "feed_id": "hindu_hyderabad",
+      "feed_ids": [
+        "hindu_hyderabad",
+        "hindu_telangana"
+      ],
+      "feed_name": "The Hindu Hyderabad",
+      "feed_names": [
+        "The Hindu Hyderabad",
+        "The Hindu Telangana"
+      ],
+      "matched_terms": [
+        "murder"
+      ],
+      "occurrence_id": "occ_000030",
+      "original_url": "https://www.thehindu.com/news/cities/Hyderabad/engineering-students-suicide-turns-out-to-be-murder-two-arrested/article71502595.ece",
+      "pipeline_item_id": "9d52a28b20107949",
+      "published_at": "2026-09-24T15:27:51Z",
+      "title": "Engineering student’s ‘suicide’ turns out to be murder; two arrested",
+      "topic": "Crime news",
+      "topic_id": "crime",
+      "topic_lane": "context_only"
+    },
+    {
+      "canonical_url": "https://9to5mac.com/2026/09/24/apple-tv-reveals-new-series-with-hugh-laurie-as-organized-crime-boss",
+      "feed_id": "9to5mac",
+      "feed_ids": [
+        "9to5mac"
+      ],
+      "feed_name": "9to5Mac",
+      "feed_names": [
+        "9to5Mac"
+      ],
+      "matched_terms": [
+        "crime"
+      ],
+      "occurrence_id": "occ_000031",
+      "original_url": "https://9to5mac.com/2026/09/24/apple-tv-reveals-new-series-with-hugh-laurie-as-organized-crime-boss",
+      "pipeline_item_id": "a291fd65f4edf467",
+      "published_at": "2026-09-24T13:29:47Z",
+      "title": "Apple TV reveals new series with Hugh Laurie as organized crime boss",
+      "topic": "Crime news",
+      "topic_id": "crime",
+      "topic_lane": "context_only"
+    },
+    {
+      "canonical_url": "https://www.thehindu.com/entertainment/movies/anumana-pakshi-movie-review-a-cluttered-exhausting-crime-comedy/article71507980.ece",
+      "feed_id": "hindu_hyderabad",
+      "feed_ids": [
+        "hindu_hyderabad"
+      ],
+      "feed_name": "The Hindu Hyderabad",
+      "feed_names": [
+        "The Hindu Hyderabad"
+      ],
+      "matched_terms": [
+        "crime"
+      ],
+      "occurrence_id": "occ_000032",
+      "original_url": "https://www.thehindu.com/entertainment/movies/anumana-pakshi-movie-review-a-cluttered-exhausting-crime-comedy/article71507980.ece",
+      "pipeline_item_id": "c380234f556db26d",
+      "published_at": "2026-09-25T10:26:03Z",
+      "title": "‘Anumana Pakshi’ movie review: A cluttered, exhausting crime comedy",
+      "topic": "Crime news",
+      "topic_id": "crime",
+      "topic_lane": "context_only"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/opinion-from-encounters-to-custodial-deaths-is-india-finding-new-ways-to-hide-extrajudicial-killings",
+      "feed_id": "telangana_today",
+      "feed_ids": [
+        "telangana_today",
+        "telangana_today_crime"
+      ],
+      "feed_name": "Telangana Today",
+      "feed_names": [
+        "Telangana Today",
+        "Telangana Today Crime"
+      ],
+      "matched_terms": [
+        "source:telangana_today_crime"
+      ],
+      "occurrence_id": "occ_000033",
+      "original_url": "https://telanganatoday.com/opinion-from-encounters-to-custodial-deaths-is-india-finding-new-ways-to-hide-extrajudicial-killings",
+      "pipeline_item_id": "da968958e5f83f6f",
+      "published_at": "2026-09-24T17:50:17Z",
+      "title": "Opinion: From encounters to custodial deaths: Is India finding new ways to hide extrajudicial killings?",
+      "topic": "Crime news",
+      "topic_id": "crime",
+      "topic_lane": "context_only"
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMigwNBVV95cUxORzRzX3d1VEJQSkxqckdkOHM1LWRBWDU0ZzBnRDhrcGRkeHVNSjFzamllUkFOMGZMaFZUYzMxei1rbkJfVk1tVkx6c041THFrcHdFUUFhVGlGSERyZ2w4bjVVOEw3NnozRk9nLUNhTmNQcmo4a2NhbzJHU0VUVFdQaV9zSWVDcUc0V0tHU2tmZGhSQkdmdlQwMGFpZF9hZXp6SzR1c1gxUVB6U1VTT1psVDZLR0NZaUtpM2lrcnVEMEtsWUFrakRRNTQyRl90T2tqTGlEVzNaU0NSWTZNMEo1TERMVXJvdV9abktuZlNQU3pRV0J3eGUtUVdpblhNUE95WnRQQkR6NmtEcGNMTXNBcjBDY0tSRnczZ3daRThRVFJ1M0MxdW5iZDMtYjZXUDM3S0p1NGxiSmRRSUh2R2xlMUFIN2lhbmVmSERETDJiZ2FvR1h2eU9peElXTl9zWFJiSDRqc1hZWVg5ZV9WSHVLbEJTRWtuSU02OE9FdWNwQUxQekXSAYgDQVVfeXFMUHlKZXVGNHhkZldiSzUwODB5TFVnMl9ad2lIU3lGWDNBRFc2Z1RlUXlUQzlkdGg1NHBDejdzdnIzcWh6WkNFbVk3RkNWcTREU3pvSXQteXl5VVY2dTZvX2tPdEZRLTVkb1ZwWWFWeG95MGxyRlBRVWg4R0g3ck54Q1pib2pQUEdmV1FHQWNnN2RzODFJelhGN2wzQi1CTnZMNWFpYVpKRDhnNGwyZE5yU3lpWHVub1dmenhONVh0d2Vqc0tvOWpoOGF4YTF4UUtQNWU3dldYQW80VXpsWHVrWlFFX0RPNXhiUUhPR0R2ekdVUEloLW1ST2lEWDFXdF9uYzkxMlNhaHE5WmVwZjEyUksyMHg0UEpXcW1oVDVHYWtrZ3VUNGlEcTZER19oR1V3NGJMY01yR0FtdzlXR1ZEYUdhRDlYX3U5NzQtWjdGUm90ejJnUExuckRZN2xpR2g0U1AzckowMkVIYXdFTDB2Q1hPbjQxdWlSRzJERWJUM3FwR1E3aEVOWVY?oc=5",
+      "feed_id": "google_news_credit_cards",
+      "feed_ids": [
+        "google_news_credit_cards"
+      ],
+      "feed_name": "Google News — Indian credit cards",
+      "feed_names": [
+        "Google News — Indian credit cards"
+      ],
+      "matched_terms": [
+        "fraud"
+      ],
+      "occurrence_id": "occ_000034",
+      "original_url": "https://news.google.com/rss/articles/CBMigwNBVV95cUxORzRzX3d1VEJQSkxqckdkOHM1LWRBWDU0ZzBnRDhrcGRkeHVNSjFzamllUkFOMGZMaFZUYzMxei1rbkJfVk1tVkx6c041THFrcHdFUUFhVGlGSERyZ2w4bjVVOEw3NnozRk9nLUNhTmNQcmo4a2NhbzJHU0VUVFdQaV9zSWVDcUc0V0tHU2tmZGhSQkdmdlQwMGFpZF9hZXp6SzR1c1gxUVB6U1VTT1psVDZLR0NZaUtpM2lrcnVEMEtsWUFrakRRNTQyRl90T2tqTGlEVzNaU0NSWTZNMEo1TERMVXJvdV9abktuZlNQU3pRV0J3eGUtUVdpblhNUE95WnRQQkR6NmtEcGNMTXNBcjBDY0tSRnczZ3daRThRVFJ1M0MxdW5iZDMtYjZXUDM3S0p1NGxiSmRRSUh2R2xlMUFIN2lhbmVmSERETDJiZ2FvR1h2eU9peElXTl9zWFJiSDRqc1hZWVg5ZV9WSHVLbEJTRWtuSU02OE9FdWNwQUxQekXSAYgDQVVfeXFMUHlKZXVGNHhkZldiSzUwODB5TFVnMl9ad2lIU3lGWDNBRFc2Z1RlUXlUQzlkdGg1NHBDejdzdnIzcWh6WkNFbVk3RkNWcTREU3pvSXQteXl5VVY2dTZvX2tPdEZRLTVkb1ZwWWFWeG95MGxyRlBRVWg4R0g3ck54Q1pib2pQUEdmV1FHQWNnN2RzODFJelhGN2wzQi1CTnZMNWFpYVpKRDhnNGwyZE5yU3lpWHVub1dmenhONVh0d2Vqc0tvOWpoOGF4YTF4UUtQNWU3dldYQW80VXpsWHVrWlFFX0RPNXhiUUhPR0R2ekdVUEloLW1ST2lEWDFXdF9uYzkxMlNhaHE5WmVwZjEyUksyMHg0UEpXcW1oVDVHYWtrZ3VUNGlEcTZER19oR1V3NGJMY01yR0FtdzlXR1ZEYUdhRDlYX3U5NzQtWjdGUm90ejJnUExuckRZN2xpR2g0U1AzckowMkVIYXdFTDB2Q1hPbjQxdWlSRzJERWJUM3FwR1E3aEVOWVY?oc=5",
+      "pipeline_item_id": "ec24d7ad3a19b86c",
+      "published_at": "2026-09-24T11:25:00Z",
+      "title": "A North Carolina fraud scheme used stolen identities to request replacement bank cards and spend more tha - The Times of India",
+      "topic": "Crime news",
+      "topic_id": "crime",
+      "topic_lane": "context_only"
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNS0h4cm93MmR3VFhUMWVOV2VzelJLQ3hRSnpLZzFKWDQyV1pIVGZyeS1VZmtiNTAzZUszV09lLVNlZmhGX1ZTXzFnenJUM0lNTUl0MnFDUU5HbUdTZlk1Q0FPZjI2ektiUmRWRVlKT1c1UV94akpBbnBfeEhOTTZPN0UxUjQxT3o5MFFESTRVaTNiNDJwa0w3cjd5SGtZaVE2MWpIZjgtb0EzTkJx?oc=5",
+      "feed_id": "google_news_consumer_brands",
+      "feed_ids": [
+        "google_news_consumer_brands"
+      ],
+      "feed_name": "Google News — Indian consumer brands",
+      "feed_names": [
+        "Google News — Indian consumer brands"
+      ],
+      "matched_terms": [
+        "wellness"
+      ],
+      "occurrence_id": "occ_000035",
+      "original_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNS0h4cm93MmR3VFhUMWVOV2VzelJLQ3hRSnpLZzFKWDQyV1pIVGZyeS1VZmtiNTAzZUszV09lLVNlZmhGX1ZTXzFnenJUM0lNTUl0MnFDUU5HbUdTZlk1Q0FPZjI2ektiUmRWRVlKT1c1UV94akpBbnBfeEhOTTZPN0UxUjQxT3o5MFFESTRVaTNiNDJwa0w3cjd5SGtZaVE2MWpIZjgtb0EzTkJx?oc=5",
+      "pipeline_item_id": "0b8a624610a5438e",
+      "published_at": "2026-09-24T12:16:31Z",
+      "title": "Nykaa completes acquisition of 51% stake in Aminu Wellness - scanx.trade",
+      "topic": "Fitness and ergonomics",
+      "topic_id": "fitness_ergonomics",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/kareena-kapoor-shares-glimpse-of-latest-workout-routine-fitness-chart",
+      "feed_id": "telangana_today",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_name": "Telangana Today",
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "matched_terms": [
+        "fitness",
+        "workout"
+      ],
+      "occurrence_id": "occ_000036",
+      "original_url": "https://telanganatoday.com/kareena-kapoor-shares-glimpse-of-latest-workout-routine-fitness-chart",
+      "pipeline_item_id": "425d3df1eef1405e",
+      "published_at": "2026-09-25T10:55:15Z",
+      "title": "Kareena Kapoor shares glimpse of latest workout routine, fitness chart",
+      "topic": "Fitness and ergonomics",
+      "topic_id": "fitness_ergonomics",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://9to5mac.com/2026/09/22/daily-september-22-2026",
+      "feed_id": "9to5mac",
+      "feed_ids": [
+        "9to5mac"
+      ],
+      "feed_name": "9to5Mac",
+      "feed_names": [
+        "9to5Mac"
+      ],
+      "matched_terms": [
+        "fitness"
+      ],
+      "occurrence_id": "occ_000037",
+      "original_url": "https://9to5mac.com/2026/09/22/daily-september-22-2026",
+      "pipeline_item_id": "5d1f289926a32fc5",
+      "published_at": "2026-09-22T15:19:03Z",
+      "title": "9to5Mac Daily: September 22, 2026 – M6 Mac mini tidbits, Apple Fitness+ future",
+      "topic": "Fitness and ergonomics",
+      "topic_id": "fitness_ergonomics",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/pregnant-samantha-ruth-prabhu-shares-glimpse-of-workout-routine-strong-till-the-very-end",
+      "feed_id": "telangana_today",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_name": "Telangana Today",
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "matched_terms": [
+        "workout"
+      ],
+      "occurrence_id": "occ_000038",
+      "original_url": "https://telanganatoday.com/pregnant-samantha-ruth-prabhu-shares-glimpse-of-workout-routine-strong-till-the-very-end",
+      "pipeline_item_id": "5f0f853e94a3ea2b",
+      "published_at": "2026-09-25T08:18:21Z",
+      "title": "Pregnant Samantha Ruth Prabhu shares glimpse of workout routine: ‘Strong till the very end’",
+      "topic": "Fitness and ergonomics",
+      "topic_id": "fitness_ergonomics",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://9to5mac.com/2026/09/24/happy-hour-609",
+      "feed_id": "9to5mac",
+      "feed_ids": [
+        "9to5mac"
+      ],
+      "feed_name": "9to5Mac",
+      "feed_names": [
+        "9to5Mac"
+      ],
+      "matched_terms": [
+        "fitness"
+      ],
+      "occurrence_id": "occ_000039",
+      "original_url": "https://9to5mac.com/2026/09/24/happy-hour-609",
+      "pipeline_item_id": "916b715f63c46b60",
+      "published_at": "2026-09-24T20:43:14Z",
+      "title": "M6 Mac mini review, Apple fitness band rumors, Apple AI servers",
+      "topic": "Fitness and ergonomics",
+      "topic_id": "fitness_ergonomics",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/hyderabad-marathons-15-year-journey-comes-alive-through-photographs",
+      "feed_id": "telangana_today",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_name": "Telangana Today",
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "matched_terms": [
+        "marathon"
+      ],
+      "occurrence_id": "occ_000040",
+      "original_url": "https://telanganatoday.com/hyderabad-marathons-15-year-journey-comes-alive-through-photographs",
+      "pipeline_item_id": "c4eb7c4c872b3985",
+      "published_at": "2026-09-24T14:43:42Z",
+      "title": "Hyderabad Marathon’s 15-year journey comes alive through photographs",
+      "topic": "Fitness and ergonomics",
+      "topic_id": "fitness_ergonomics",
+      "topic_lane": "review"
+    }
+  ],
+  "schema_version": "feed-forge/editorial-input/v1",
+  "shard_index": 2,
+  "shard_type": "occurrences"
+}

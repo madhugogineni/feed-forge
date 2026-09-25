@@ -1,0 +1,457 @@
+{
+  "record_count": 20,
+  "records": [
+    {
+      "canonical_url": "https://www.apple.com/in/newsroom/2026/09/apple-opens-apple-music-hall-a-state-of-the-art-live-music-venue-in-london",
+      "feed_id": "apple_india",
+      "feed_ids": [
+        "apple_india"
+      ],
+      "feed_name": "Apple India Newsroom",
+      "feed_names": [
+        "Apple India Newsroom"
+      ],
+      "matched_terms": [
+        "Apple Music"
+      ],
+      "occurrence_id": "occ_000061",
+      "original_url": "https://www.apple.com/in/newsroom/2026/09/apple-opens-apple-music-hall-a-state-of-the-art-live-music-venue-in-london",
+      "pipeline_item_id": "32cf70c135414b43",
+      "published_at": "2026-09-22T06:01:14.421000Z",
+      "title": "Apple opens Apple Music Hall, a state-of-the-art live music venue in London",
+      "topic": "Music and streaming apps",
+      "topic_id": "music_apps",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://www.androidauthority.com/youtube-music-your-podcast-lineup-3714671",
+      "feed_id": "android_authority",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_name": "Android Authority",
+      "feed_names": [
+        "Android Authority"
+      ],
+      "matched_terms": [
+        "YouTube Music"
+      ],
+      "occurrence_id": "occ_000062",
+      "original_url": "https://www.androidauthority.com/youtube-music-your-podcast-lineup-3714671",
+      "pipeline_item_id": "79d36882090ccb31",
+      "published_at": "2026-09-23T17:20:25Z",
+      "title": "YouTube Music is rolling out some features to freshen up your podcast collection",
+      "topic": "Music and streaming apps",
+      "topic_id": "music_apps",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://9to5mac.com/2026/09/21/ios-27-2-reveals-new-features-coming-to-apple-music-carplay-more",
+      "feed_id": "9to5mac",
+      "feed_ids": [
+        "9to5mac"
+      ],
+      "feed_name": "9to5Mac",
+      "feed_names": [
+        "9to5Mac"
+      ],
+      "matched_terms": [
+        "Apple Music"
+      ],
+      "occurrence_id": "occ_000063",
+      "original_url": "https://9to5mac.com/2026/09/21/ios-27-2-reveals-new-features-coming-to-apple-music-carplay-more",
+      "pipeline_item_id": "7e6153a51fd7b9f8",
+      "published_at": "2026-09-21T19:01:12Z",
+      "title": "iOS 27.2 reveals new features coming to Apple Music, CarPlay, more",
+      "topic": "Music and streaming apps",
+      "topic_id": "music_apps",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://blog.google/intl/en-in/products/platforms/press-play-on-these-new-youtube-music-updates",
+      "feed_id": "google_india",
+      "feed_ids": [
+        "google_india"
+      ],
+      "feed_name": "Google India Blog",
+      "feed_names": [
+        "Google India Blog"
+      ],
+      "matched_terms": [
+        "YouTube Music"
+      ],
+      "occurrence_id": "occ_000064",
+      "original_url": "https://blog.google/intl/en-in/products/platforms/press-play-on-these-new-youtube-music-updates",
+      "pipeline_item_id": "aff2d027629de3fe",
+      "published_at": "2026-09-23T14:30:00Z",
+      "title": "Press play on these new YouTube Music updates",
+      "topic": "Music and streaming apps",
+      "topic_id": "music_apps",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://9to5mac.com/2026/09/22/apple-music-opens-new-live-music-venue-in-london",
+      "feed_id": "9to5mac",
+      "feed_ids": [
+        "9to5mac"
+      ],
+      "feed_name": "9to5Mac",
+      "feed_names": [
+        "9to5Mac"
+      ],
+      "matched_terms": [
+        "Apple Music"
+      ],
+      "occurrence_id": "occ_000065",
+      "original_url": "https://9to5mac.com/2026/09/22/apple-music-opens-new-live-music-venue-in-london",
+      "pipeline_item_id": "c34b8250b585d412",
+      "published_at": "2026-09-22T07:51:30Z",
+      "title": "Apple Music opens new live music venue in London",
+      "topic": "Music and streaming apps",
+      "topic_id": "music_apps",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://www.androidauthority.com/spotify-meta-muse-integration-3714958",
+      "feed_id": "android_authority",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_name": "Android Authority",
+      "feed_names": [
+        "Android Authority"
+      ],
+      "matched_terms": [
+        "Spotify"
+      ],
+      "occurrence_id": "occ_000066",
+      "original_url": "https://www.androidauthority.com/spotify-meta-muse-integration-3714958",
+      "pipeline_item_id": "f7be5e24607ea455",
+      "published_at": "2026-09-24T10:17:56Z",
+      "title": "Spotify just gave Meta Muse the keys to your music",
+      "topic": "Music and streaming apps",
+      "topic_id": "music_apps",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://9to5mac.com/2026/09/23/apple-increases-interest-rate-for-apple-card-savings-account",
+      "feed_id": "9to5mac",
+      "feed_ids": [
+        "9to5mac"
+      ],
+      "feed_name": "9to5Mac",
+      "feed_names": [
+        "9to5Mac"
+      ],
+      "matched_terms": [
+        "savings account"
+      ],
+      "occurrence_id": "occ_000067",
+      "original_url": "https://9to5mac.com/2026/09/23/apple-increases-interest-rate-for-apple-card-savings-account",
+      "pipeline_item_id": "a471b0129af74adf",
+      "published_at": "2026-09-23T11:18:16Z",
+      "title": "Apple increases interest rate for Apple Card Savings Account",
+      "topic": "Personal finance and investing",
+      "topic_id": "personal_finance",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://www.androidauthority.com/google-pixel-clock-alarm-bug-not-fixed-yet-3715371",
+      "feed_id": "android_authority",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_name": "Android Authority",
+      "feed_names": [
+        "Android Authority"
+      ],
+      "matched_terms": [
+        "Pixel"
+      ],
+      "occurrence_id": "occ_000068",
+      "original_url": "https://www.androidauthority.com/google-pixel-clock-alarm-bug-not-fixed-yet-3715371",
+      "pipeline_item_id": "08c05856fa91321f",
+      "published_at": "2026-09-25T09:47:49Z",
+      "title": "Some Pixel owners are still missing alarms because of a years-old Clock bug",
+      "topic": "Technology, software and gadgets",
+      "topic_id": "tech_software",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://www.androidauthority.com/google-pixel-september-2026-pattern-pin-unlock-bug-3715425",
+      "feed_id": "android_authority",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_name": "Android Authority",
+      "feed_names": [
+        "Android Authority"
+      ],
+      "matched_terms": [
+        "Pixel"
+      ],
+      "occurrence_id": "occ_000069",
+      "original_url": "https://www.androidauthority.com/google-pixel-september-2026-pattern-pin-unlock-bug-3715425",
+      "pipeline_item_id": "119191c105d6ab4f",
+      "published_at": "2026-09-25T11:39:45Z",
+      "title": "Some Pixel users are locked out after the September 2026 update",
+      "topic": "Technology, software and gadgets",
+      "topic_id": "tech_software",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://www.androidauthority.com/google-create-my-widget-play-store-listing-3715354",
+      "feed_id": "android_authority",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_name": "Android Authority",
+      "feed_names": [
+        "Android Authority"
+      ],
+      "matched_terms": [
+        "Android"
+      ],
+      "occurrence_id": "occ_000070",
+      "original_url": "https://www.androidauthority.com/google-create-my-widget-play-store-listing-3715354",
+      "pipeline_item_id": "4ea372a6662994a7",
+      "published_at": "2026-09-25T07:12:06Z",
+      "title": "This is how Google’s ‘Create My Widget’ app will work on Android and Googlebook OS",
+      "topic": "Technology, software and gadgets",
+      "topic_id": "tech_software",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://9to5google.com/2026/09/24/google-rolling-out-android-17-qpr2-beta-6-for-pixel",
+      "feed_id": "9to5google",
+      "feed_ids": [
+        "9to5google"
+      ],
+      "feed_name": "9to5Google",
+      "feed_names": [
+        "9to5Google"
+      ],
+      "matched_terms": [
+        "Android",
+        "Pixel"
+      ],
+      "occurrence_id": "occ_000071",
+      "original_url": "https://9to5google.com/2026/09/24/google-rolling-out-android-17-qpr2-beta-6-for-pixel",
+      "pipeline_item_id": "87603df5cc527e4c",
+      "published_at": "2026-09-24T20:45:00Z",
+      "title": "Google rolling out Android 17 QPR2 Beta 6 for Pixel",
+      "topic": "Technology, software and gadgets",
+      "topic_id": "tech_software",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://www.androidauthority.com/gamesnacks-android-auto-immersive-apk-teardown-3715285",
+      "feed_id": "android_authority",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_name": "Android Authority",
+      "feed_names": [
+        "Android Authority"
+      ],
+      "matched_terms": [
+        "Android"
+      ],
+      "occurrence_id": "occ_000072",
+      "original_url": "https://www.androidauthority.com/gamesnacks-android-auto-immersive-apk-teardown-3715285",
+      "pipeline_item_id": "92611c857ef0ab7a",
+      "published_at": "2026-09-24T21:14:49Z",
+      "title": "Android Auto may finally give GameSnacks the full screen treatment",
+      "topic": "Technology, software and gadgets",
+      "topic_id": "tech_software",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://9to5google.com/2026/09/24/pixel-weather-widget-refresh",
+      "feed_id": "9to5google",
+      "feed_ids": [
+        "9to5google"
+      ],
+      "feed_name": "9to5Google",
+      "feed_names": [
+        "9to5Google"
+      ],
+      "matched_terms": [
+        "Pixel"
+      ],
+      "occurrence_id": "occ_000073",
+      "original_url": "https://9to5google.com/2026/09/24/pixel-weather-widget-refresh",
+      "pipeline_item_id": "a5fd963bcf58acff",
+      "published_at": "2026-09-24T23:48:47Z",
+      "title": "Pixel Weather homescreen widget adds manual refresh button",
+      "topic": "Technology, software and gadgets",
+      "topic_id": "tech_software",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://www.androidauthority.com/atv-launcher-v0-1-41-update-3715420",
+      "feed_id": "android_authority",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_name": "Android Authority",
+      "feed_names": [
+        "Android Authority"
+      ],
+      "matched_terms": [
+        "Android"
+      ],
+      "occurrence_id": "occ_000074",
+      "original_url": "https://www.androidauthority.com/atv-launcher-v0-1-41-update-3715420",
+      "pipeline_item_id": "c5a44b4df9531484",
+      "published_at": "2026-09-25T10:30:47Z",
+      "title": "ATV Launcher’s latest update brings big home screen upgrades for your Android TV",
+      "topic": "Technology, software and gadgets",
+      "topic_id": "tech_software",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://www.androidauthority.com/pixel-11-signal-problems-troubleshooting-tips-3714401",
+      "feed_id": "android_authority",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_name": "Android Authority",
+      "feed_names": [
+        "Android Authority"
+      ],
+      "matched_terms": [
+        "Pixel"
+      ],
+      "occurrence_id": "occ_000075",
+      "original_url": "https://www.androidauthority.com/pixel-11-signal-problems-troubleshooting-tips-3714401",
+      "pipeline_item_id": "cfbb5c341a84b5d5",
+      "published_at": "2026-09-25T10:30:01Z",
+      "title": "Pixel 11 signal problems? Try these 7 fixes before returning it",
+      "topic": "Technology, software and gadgets",
+      "topic_id": "tech_software",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/dry-spell-persists-across-hyderabad-and-surrounding-districts-as-rainfall-deficits-deepen",
+      "feed_id": "telangana_today",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_name": "Telangana Today",
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "matched_terms": [
+        "Hyderabad"
+      ],
+      "occurrence_id": "occ_000076",
+      "original_url": "https://telanganatoday.com/dry-spell-persists-across-hyderabad-and-surrounding-districts-as-rainfall-deficits-deepen",
+      "pipeline_item_id": "24e07fd68c940fda",
+      "published_at": "2026-09-25T11:17:30Z",
+      "title": "Dry spell persists across Hyderabad and surrounding districts as rainfall deficits deepen",
+      "topic": "Telangana and Hyderabad developments",
+      "topic_id": "telangana_hyderabad",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://www.thehindu.com/news/cities/Hyderabad/ganesh-visarjan-hyderabad-khairatabad-ganesh-immersion-procession-begins-traffic-curbs-in-the-city-live-updates-september-25-2026/article71506992.ece",
+      "feed_id": "hindu_hyderabad",
+      "feed_ids": [
+        "hindu_hyderabad",
+        "hindu_telangana"
+      ],
+      "feed_name": "The Hindu Hyderabad",
+      "feed_names": [
+        "The Hindu Hyderabad",
+        "The Hindu Telangana"
+      ],
+      "matched_terms": [
+        "Hyderabad",
+        "source:hindu_hyderabad",
+        "source:hindu_telangana"
+      ],
+      "occurrence_id": "occ_000077",
+      "original_url": "https://www.thehindu.com/news/cities/Hyderabad/ganesh-visarjan-hyderabad-khairatabad-ganesh-immersion-procession-begins-traffic-curbs-in-the-city-live-updates-september-25-2026/article71506992.ece",
+      "pipeline_item_id": "4801d9d8e53d2ff2",
+      "published_at": "2026-09-25T10:10:36Z",
+      "title": "Ganesh immersion 2026 LIVE: Khairatabad Ganesh idol immersion concludes; traffic curbs across central Hyderabad till September 26",
+      "topic": "Telangana and Hyderabad developments",
+      "topic_id": "telangana_hyderabad",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/22-a-registration-relief-leaves-telangana-property-owners-facing-uncertainty",
+      "feed_id": "telangana_today",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_name": "Telangana Today",
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "matched_terms": [
+        "Telangana"
+      ],
+      "occurrence_id": "occ_000078",
+      "original_url": "https://telanganatoday.com/22-a-registration-relief-leaves-telangana-property-owners-facing-uncertainty",
+      "pipeline_item_id": "aa78ee13822a4285",
+      "published_at": "2026-09-25T11:51:32Z",
+      "title": "22-A registration relief leaves Telangana property owners facing uncertainty",
+      "topic": "Telangana and Hyderabad developments",
+      "topic_id": "telangana_hyderabad",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://www.thehindu.com/news/cities/Hyderabad/immersion-procession-of-khairatabad-ganesh-idol-in-hyderabad-gets-delayed-start/article71506890.ece",
+      "feed_id": "hindu_hyderabad",
+      "feed_ids": [
+        "hindu_hyderabad",
+        "hindu_telangana"
+      ],
+      "feed_name": "The Hindu Hyderabad",
+      "feed_names": [
+        "The Hindu Hyderabad",
+        "The Hindu Telangana"
+      ],
+      "matched_terms": [
+        "Hyderabad",
+        "source:hindu_hyderabad",
+        "source:hindu_telangana"
+      ],
+      "occurrence_id": "occ_000079",
+      "original_url": "https://www.thehindu.com/news/cities/Hyderabad/immersion-procession-of-khairatabad-ganesh-idol-in-hyderabad-gets-delayed-start/article71506890.ece",
+      "pipeline_item_id": "afe22fc50805fe3c",
+      "published_at": "2026-09-25T10:20:56Z",
+      "title": "Immersion procession of Khairatabad Ganesh idol in Hyderabad passes off without a hitch",
+      "topic": "Telangana and Hyderabad developments",
+      "topic_id": "telangana_hyderabad",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://www.thehindu.com/entertainment/movies/anumana-pakshi-movie-review-a-cluttered-exhausting-crime-comedy/article71507980.ece",
+      "feed_id": "hindu_hyderabad",
+      "feed_ids": [
+        "hindu_hyderabad"
+      ],
+      "feed_name": "The Hindu Hyderabad",
+      "feed_names": [
+        "The Hindu Hyderabad"
+      ],
+      "matched_terms": [
+        "source:hindu_hyderabad"
+      ],
+      "occurrence_id": "occ_000080",
+      "original_url": "https://www.thehindu.com/entertainment/movies/anumana-pakshi-movie-review-a-cluttered-exhausting-crime-comedy/article71507980.ece",
+      "pipeline_item_id": "c380234f556db26d",
+      "published_at": "2026-09-25T10:26:03Z",
+      "title": "‘Anumana Pakshi’ movie review: A cluttered, exhausting crime comedy",
+      "topic": "Telangana and Hyderabad developments",
+      "topic_id": "telangana_hyderabad",
+      "topic_lane": "review"
+    }
+  ],
+  "schema_version": "feed-forge/editorial-input/v1",
+  "shard_index": 4,
+  "shard_type": "occurrences"
+}

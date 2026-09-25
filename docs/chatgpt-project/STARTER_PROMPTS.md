@@ -126,19 +126,27 @@ Execute the scheduled editorial workflow in
 docs/chatgpt-project/DAILY_EDITORIAL_RUN.md for today. Inspect the live
 madhugogineni/feed-forge repository, confirm its default branch, latest commit,
 and newest successful relevant Topic Radar run, then fetch
-artifacts/topic-radar/latest.json directly through the GitHub connector.
-Validate its workflow_run_id, commit_sha, and generated_at against that run and
-record the result. Use the matching Actions artifact ZIP only as a visibly
-labeled fallback when the direct snapshot is missing, stale, or mismatched. Do
-not use an old uploaded copy as a substitute for current repository state.
-Enumerate every URL in the selected pipeline output, visit every unique
-canonical URL, and retain every occurrence in the required source-audit sheet.
+artifacts/topic-radar/latest/manifest.json directly through the GitHub
+connector. Validate its workflow_run_id, commit_sha, generated_at, counts, and
+shard lists against that run. Fetch topics.json, source-health.json, every
+listed occurrence shard, and every listed unique-URL shard as normal repository
+files. Confirm that fetched record totals match the manifest, enumerate all
+occurrences, visit every unique canonical URL, and map the result back to every
+occurrence ID in the required source-audit sheet. Do not use an old uploaded
+copy as a substitute for current repository state.
+
+Normal execution must not depend on local Python or container execution, ZIP
+extraction, /mnt/data, connector file materialization, or parsing the
+monolithic latest.json. If the primary path fails, record why and use this
+order: latest.json, matching Actions artifact ZIP, then job summary/latest.md.
 Include failed, blocked, stale, rejected, and unused links with their status and
 reason. Return the audit in Markdown, JSON, and a downloadable source-audit.csv.
 Research all approved lanes proactively, including historical or then-versus-now
 comparisons, financial facts, interesting numbers, questions, light
 rage-bait-style prompts, and GitHub build stories. Verify factual premises with
-primary sources and run calculations in code.
+primary sources. Use a calculation tool when available and preserve the inputs,
+formula, units, and result. If calculation tooling is unavailable, mark only
+that calculation unavailable and continue from the complete shard dataset.
 
 Return exactly 15 ranked original-content ideas using the configured lane mix.
 Develop the top five into complete content packages and keep the remaining ten

@@ -1,0 +1,438 @@
+{
+  "record_count": 20,
+  "records": [
+    {
+      "canonical_url": "https://telanganatoday.com/iacc-summit-highlights-indias-ai-opportunity-beyond-llms-chips-and-data-centres",
+      "domain": "telanganatoday.com",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "occurrence_count": 2,
+      "occurrence_ids": [
+        "occ_000048",
+        "occ_000051"
+      ],
+      "topic_ids": [
+        "india_developments",
+        "india_geopolitics"
+      ],
+      "topics": [
+        "India developments",
+        "India-related geopolitics"
+      ],
+      "url_id": "url_000041"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/india-credit-card-spending-growth-slows-in-august-as-competition-intensifies",
+      "domain": "telanganatoday.com",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000022"
+      ],
+      "topic_ids": [
+        "credit_cards_payments"
+      ],
+      "topics": [
+        "Credit cards, rewards and payments"
+      ],
+      "url_id": "url_000042"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/kareena-kapoor-shares-glimpse-of-latest-workout-routine-fitness-chart",
+      "domain": "telanganatoday.com",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000036"
+      ],
+      "topic_ids": [
+        "fitness_ergonomics"
+      ],
+      "topics": [
+        "Fitness and ergonomics"
+      ],
+      "url_id": "url_000043"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/mahadev-betting-case-cbi-arrests-key-suspect-at-hyderabad-airport-after-arrival-from-dubai",
+      "domain": "telanganatoday.com",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000089"
+      ],
+      "topic_ids": [
+        "travel_lifestyle"
+      ],
+      "topics": [
+        "Travel and lifestyle"
+      ],
+      "url_id": "url_000044"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/olympic-champion-shaunae-miller-uibo-named-ambassador-for-2026-delhi-half-marathon",
+      "domain": "telanganatoday.com",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000042"
+      ],
+      "topic_ids": [
+        "fitness_ergonomics"
+      ],
+      "topics": [
+        "Fitness and ergonomics"
+      ],
+      "url_id": "url_000045"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/opinion-from-encounters-to-custodial-deaths-is-india-finding-new-ways-to-hide-extrajudicial-killings",
+      "domain": "telanganatoday.com",
+      "feed_ids": [
+        "telangana_today",
+        "telangana_today_crime"
+      ],
+      "feed_names": [
+        "Telangana Today",
+        "Telangana Today Crime"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000033"
+      ],
+      "topic_ids": [
+        "crime"
+      ],
+      "topics": [
+        "Crime news"
+      ],
+      "url_id": "url_000046"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/pregnant-samantha-ruth-prabhu-shares-glimpse-of-workout-routine-strong-till-the-very-end",
+      "domain": "telanganatoday.com",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000038"
+      ],
+      "topic_ids": [
+        "fitness_ergonomics"
+      ],
+      "topics": [
+        "Fitness and ergonomics"
+      ],
+      "url_id": "url_000047"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/russo-brothers-recall-robert-downey-jr-chris-evans-final-days-on-avengers-endgame",
+      "domain": "telanganatoday.com",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000018"
+      ],
+      "topic_ids": [
+        "consumer_safety"
+      ],
+      "topics": [
+        "Consumer and digital safety"
+      ],
+      "url_id": "url_000048"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/sangareddy-miscreants-kill-75-year-old-woman-flee-with-jewellery",
+      "domain": "telanganatoday.com",
+      "feed_ids": [
+        "telangana_today",
+        "telangana_today_crime"
+      ],
+      "feed_names": [
+        "Telangana Today",
+        "Telangana Today Crime"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000027"
+      ],
+      "topic_ids": [
+        "crime"
+      ],
+      "topics": [
+        "Crime news"
+      ],
+      "url_id": "url_000049"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/sc-asks-bar-council-of-india-to-clarify-stand-on-age-limit-for-five-year-law-courses",
+      "domain": "telanganatoday.com",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000049"
+      ],
+      "topic_ids": [
+        "india_developments"
+      ],
+      "topics": [
+        "India developments"
+      ],
+      "url_id": "url_000050"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/upi-mdr-is-not-a-tax-or-surcharge-says-nirmala-sitharaman",
+      "domain": "telanganatoday.com",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000025"
+      ],
+      "topic_ids": [
+        "credit_cards_payments"
+      ],
+      "topics": [
+        "Credit cards, rewards and payments"
+      ],
+      "url_id": "url_000051"
+    },
+    {
+      "canonical_url": "https://www.androidauthority.com/atv-launcher-v0-1-41-update-3715420",
+      "domain": "www.androidauthority.com",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_names": [
+        "Android Authority"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000074"
+      ],
+      "topic_ids": [
+        "tech_software"
+      ],
+      "topics": [
+        "Technology, software and gadgets"
+      ],
+      "url_id": "url_000052"
+    },
+    {
+      "canonical_url": "https://www.androidauthority.com/gamesnacks-android-auto-immersive-apk-teardown-3715285",
+      "domain": "www.androidauthority.com",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_names": [
+        "Android Authority"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000072"
+      ],
+      "topic_ids": [
+        "tech_software"
+      ],
+      "topics": [
+        "Technology, software and gadgets"
+      ],
+      "url_id": "url_000053"
+    },
+    {
+      "canonical_url": "https://www.androidauthority.com/gemini-dark-mode-3715309",
+      "domain": "www.androidauthority.com",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_names": [
+        "Android Authority"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000002"
+      ],
+      "topic_ids": [
+        "ai_development"
+      ],
+      "topics": [
+        "AI development and products"
+      ],
+      "url_id": "url_000054"
+    },
+    {
+      "canonical_url": "https://www.androidauthority.com/gemini-live-avatar-3715280",
+      "domain": "www.androidauthority.com",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_names": [
+        "Android Authority"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000006"
+      ],
+      "topic_ids": [
+        "ai_development"
+      ],
+      "topics": [
+        "AI development and products"
+      ],
+      "url_id": "url_000055"
+    },
+    {
+      "canonical_url": "https://www.androidauthority.com/gemini-tasks-mode-desktop-leak-3715259",
+      "domain": "www.androidauthority.com",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_names": [
+        "Android Authority"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000007"
+      ],
+      "topic_ids": [
+        "ai_development"
+      ],
+      "topics": [
+        "AI development and products"
+      ],
+      "url_id": "url_000056"
+    },
+    {
+      "canonical_url": "https://www.androidauthority.com/google-create-my-widget-play-store-listing-3715354",
+      "domain": "www.androidauthority.com",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_names": [
+        "Android Authority"
+      ],
+      "occurrence_count": 2,
+      "occurrence_ids": [
+        "occ_000011",
+        "occ_000070"
+      ],
+      "topic_ids": [
+        "big_tech",
+        "tech_software"
+      ],
+      "topics": [
+        "Major technology companies",
+        "Technology, software and gadgets"
+      ],
+      "url_id": "url_000057"
+    },
+    {
+      "canonical_url": "https://www.androidauthority.com/google-photos-redact-moods-remix-wide-rollout-3715348",
+      "domain": "www.androidauthority.com",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_names": [
+        "Android Authority"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000014"
+      ],
+      "topic_ids": [
+        "big_tech"
+      ],
+      "topics": [
+        "Major technology companies"
+      ],
+      "url_id": "url_000058"
+    },
+    {
+      "canonical_url": "https://www.androidauthority.com/google-pixel-clock-alarm-bug-not-fixed-yet-3715371",
+      "domain": "www.androidauthority.com",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_names": [
+        "Android Authority"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000068"
+      ],
+      "topic_ids": [
+        "tech_software"
+      ],
+      "topics": [
+        "Technology, software and gadgets"
+      ],
+      "url_id": "url_000059"
+    },
+    {
+      "canonical_url": "https://www.androidauthority.com/google-pixel-september-2026-pattern-pin-unlock-bug-3715425",
+      "domain": "www.androidauthority.com",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_names": [
+        "Android Authority"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000069"
+      ],
+      "topic_ids": [
+        "tech_software"
+      ],
+      "topics": [
+        "Technology, software and gadgets"
+      ],
+      "url_id": "url_000060"
+    }
+  ],
+  "schema_version": "feed-forge/editorial-input/v1",
+  "shard_index": 3,
+  "shard_type": "urls"
+}

@@ -9,9 +9,12 @@ on:
       - config/topic_feeds.toml
       - scripts/collect_topics.py
       - scripts/publish_topic_snapshot.py
+      - scripts/validate_editorial_snapshot.py
       - src/feed_forge/cli.py
+      - src/feed_forge/editorial_snapshot.py
       - src/feed_forge/topic_feeds.py
       - src/feed_forge/topic_snapshot.py
+      - tests/test_editorial_snapshot.py
       - tests/test_topic_feeds.py
       - tests/test_topic_snapshot.py
       - tests/test_cli.py
@@ -73,14 +76,19 @@ jobs:
           --source-markdown artifacts/topic-radar.md
           --target-json artifacts/topic-radar/latest.json
           --target-markdown artifacts/topic-radar/latest.md
+          --editorial-target artifacts/topic-radar/latest
           --workflow-run-id "${{ github.run_id }}"
           --commit-sha "${{ github.sha }}"
           --artifact-name "topic-radar-${{ github.run_id }}"
 
+      - name: Validate editorial snapshot
+        if: success() && github.ref == 'refs/heads/main'
+        run: python scripts/validate_editorial_snapshot.py artifacts/topic-radar/latest
+
       - name: Commit latest repository snapshot
         if: success() && github.ref == 'refs/heads/main'
         run: |
-          git add -- artifacts/topic-radar/latest.json artifacts/topic-radar/latest.md
+          git add -- artifacts/topic-radar/latest.json artifacts/topic-radar/latest.md artifacts/topic-radar/latest
           if git diff --cached --quiet; then
             echo "Latest Topic Radar snapshot is unchanged."
             exit 0

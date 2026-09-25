@@ -81,21 +81,23 @@ living authorities for executable ideas and recurring source requirements.
 Use the narrowest useful source:
 
 1. Git commits and pull requests for what changed in the product.
-2. The validated `artifacts/topic-radar/latest.json` repository snapshot for
-   what the newest successful Topic Radar run found.
-3. GitHub Actions artifacts and job summaries as the fallback when that
-   snapshot is missing, stale, or mismatched.
-4. Raw Actions logs only to diagnose a run, not as the main editorial input.
+2. The validated `artifacts/topic-radar/latest/manifest.json`, followed by every
+   `topics`, `source-health`, occurrence-shard, and unique-URL-shard file it
+   lists, for what the newest successful Topic Radar run found.
+3. The monolithic `artifacts/topic-radar/latest.json` as the first fallback.
+4. The matching GitHub Actions artifact ZIP as the second fallback, followed by
+   the job summary or `latest.md` only when JSON inputs are unavailable.
+5. Raw Actions logs only to diagnose a run, not as the main editorial input.
 
 Raw logs are noisy and may expose operational details. A passing log also does
-not prove that a social claim is true. The direct JSON snapshot and its source
-provenance are the preferred editorial input.
+not prove that a social claim is true. The small manifest and its listed
+repository shards are the preferred editorial input and completeness contract.
 
-If the direct snapshot cannot be validated, retrieve the matching Actions
-artifact through the GitHub connector. If that surface cannot download the
-artifact, download it from GitHub and upload the JSON or Markdown file to the
-relevant project chat. Do not upload the whole log bundle unless a failure must
-be diagnosed.
+Normal scheduled runs read ordinary repository files and do not require local
+Python or container execution, ZIP extraction, `/mnt/data`, file
+materialization, or parsing one large `latest.json` response. If the sharded
+snapshot cannot be validated, record why and follow the documented fallback
+order. Do not upload the whole log bundle unless a failure must be diagnosed.
 
 ## Operating flow
 

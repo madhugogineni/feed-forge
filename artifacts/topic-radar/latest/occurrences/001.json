@@ -1,0 +1,448 @@
+{
+  "record_count": 20,
+  "records": [
+    {
+      "canonical_url": "https://www.medianama.com/2026/09/223-npci-ai-cyber-threats-mythos-upi-mdr",
+      "feed_id": "medianama",
+      "feed_ids": [
+        "medianama"
+      ],
+      "feed_name": "MediaNama",
+      "feed_names": [
+        "MediaNama"
+      ],
+      "matched_terms": [
+        "Claude"
+      ],
+      "occurrence_id": "occ_000001",
+      "original_url": "https://www.medianama.com/2026/09/223-npci-ai-cyber-threats-mythos-upi-mdr",
+      "pipeline_item_id": "054834731c0ccb98",
+      "published_at": "2026-09-25T06:08:02Z",
+      "title": "NPCI chief Dilip Asbe cites AI cyber threats, including Claude Mythos, to defend UPI MDR",
+      "topic": "AI development and products",
+      "topic_id": "ai_development",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://www.androidauthority.com/gemini-dark-mode-3715309",
+      "feed_id": "android_authority",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_name": "Android Authority",
+      "feed_names": [
+        "Android Authority"
+      ],
+      "matched_terms": [
+        "Gemini"
+      ],
+      "occurrence_id": "occ_000002",
+      "original_url": "https://www.androidauthority.com/gemini-dark-mode-3715309",
+      "pipeline_item_id": "4ab986876fd741b6",
+      "published_at": "2026-09-24T21:45:49Z",
+      "title": "Forget new models — Gemini’s working on what really matters: dark mode options",
+      "topic": "AI development and products",
+      "topic_id": "ai_development",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face",
+      "feed_id": "verge",
+      "feed_ids": [
+        "verge"
+      ],
+      "feed_name": "The Verge",
+      "feed_names": [
+        "The Verge"
+      ],
+      "matched_terms": [
+        "Gemini"
+      ],
+      "occurrence_id": "occ_000003",
+      "original_url": "https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face",
+      "pipeline_item_id": "4b0e8d72e3ff9980",
+      "published_at": "2026-09-24T19:59:26Z",
+      "title": "Gemini 3.8 Live with Live Avatar gives Google’s AI a face",
+      "topic": "AI development and products",
+      "topic_id": "ai_development",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://9to5google.com/2026/09/24/pixel-11-call-for-me",
+      "feed_id": "9to5google",
+      "feed_ids": [
+        "9to5google"
+      ],
+      "feed_name": "9to5Google",
+      "feed_names": [
+        "9to5Google"
+      ],
+      "matched_terms": [
+        "Gemini"
+      ],
+      "occurrence_id": "occ_000004",
+      "original_url": "https://9to5google.com/2026/09/24/pixel-11-call-for-me",
+      "pipeline_item_id": "4c895cc28c48d330",
+      "published_at": "2026-09-24T16:00:00Z",
+      "title": "Pixel 11 starts testing ‘Call for Me’ to have Gemini phone on your behalf",
+      "topic": "AI development and products",
+      "topic_id": "ai_development",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://developer.nvidia.com/blog/efficient-moe-training-for-biological-foundation-models",
+      "feed_id": "nvidia_developer",
+      "feed_ids": [
+        "nvidia_developer"
+      ],
+      "feed_name": "NVIDIA Developer Blog",
+      "feed_names": [
+        "NVIDIA Developer Blog"
+      ],
+      "matched_terms": [
+        "source:nvidia_developer"
+      ],
+      "occurrence_id": "occ_000005",
+      "original_url": "https://developer.nvidia.com/blog/efficient-moe-training-for-biological-foundation-models",
+      "pipeline_item_id": "6ff053dd07249040",
+      "published_at": "2026-09-24T15:00:00Z",
+      "title": "Efficient MoE Training for Biological Foundation Models",
+      "topic": "AI development and products",
+      "topic_id": "ai_development",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://www.androidauthority.com/gemini-live-avatar-3715280",
+      "feed_id": "android_authority",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_name": "Android Authority",
+      "feed_names": [
+        "Android Authority"
+      ],
+      "matched_terms": [
+        "Gemini"
+      ],
+      "occurrence_id": "occ_000006",
+      "original_url": "https://www.androidauthority.com/gemini-live-avatar-3715280",
+      "pipeline_item_id": "bbce26a7696550ad",
+      "published_at": "2026-09-24T21:03:59Z",
+      "title": "Google’s new Gemini Live Avatars want to make support bots feel more human",
+      "topic": "AI development and products",
+      "topic_id": "ai_development",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://www.androidauthority.com/gemini-tasks-mode-desktop-leak-3715259",
+      "feed_id": "android_authority",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_name": "Android Authority",
+      "feed_names": [
+        "Android Authority"
+      ],
+      "matched_terms": [
+        "Gemini"
+      ],
+      "occurrence_id": "occ_000007",
+      "original_url": "https://www.androidauthority.com/gemini-tasks-mode-desktop-leak-3715259",
+      "pipeline_item_id": "c13190379a97662f",
+      "published_at": "2026-09-24T20:43:51Z",
+      "title": "Gemini’s next desktop upgrade could let it handle tasks across your apps",
+      "topic": "AI development and products",
+      "topic_id": "ai_development",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://yourstory.com/2026/09/akamai-lands-116b-cloud-computing-deal-with-anthropic",
+      "feed_id": "yourstory",
+      "feed_ids": [
+        "yourstory"
+      ],
+      "feed_name": "YourStory",
+      "feed_names": [
+        "YourStory"
+      ],
+      "matched_terms": [
+        "Anthropic"
+      ],
+      "occurrence_id": "occ_000008",
+      "original_url": "https://yourstory.com/2026/09/akamai-lands-116b-cloud-computing-deal-with-anthropic",
+      "pipeline_item_id": "e4cb9bd4f3e40f74",
+      "published_at": "2026-09-25T07:29:55Z",
+      "title": "Akamai lands $11.6B cloud computing deal with Anthropic",
+      "topic": "AI development and products",
+      "topic_id": "ai_development",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://www.medianama.com/2026/09/223-youtube-likeness-detection-voices-clones",
+      "feed_id": "medianama",
+      "feed_ids": [
+        "medianama"
+      ],
+      "feed_name": "MediaNama",
+      "feed_names": [
+        "MediaNama"
+      ],
+      "matched_terms": [
+        "YouTube"
+      ],
+      "occurrence_id": "occ_000009",
+      "original_url": "https://www.medianama.com/2026/09/223-youtube-likeness-detection-voices-clones",
+      "pipeline_item_id": "0f0f41f238dd1b33",
+      "published_at": "2026-09-25T10:56:18Z",
+      "title": "YouTube expands likeness detection to voices as Indian courts target AI voice clones",
+      "topic": "Major technology companies",
+      "topic_id": "big_tech",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://www.medianama.com/2026/09/223-whats-new-made-on-youtube-2026",
+      "feed_id": "medianama",
+      "feed_ids": [
+        "medianama"
+      ],
+      "feed_name": "MediaNama",
+      "feed_names": [
+        "MediaNama"
+      ],
+      "matched_terms": [
+        "YouTube"
+      ],
+      "occurrence_id": "occ_000010",
+      "original_url": "https://www.medianama.com/2026/09/223-whats-new-made-on-youtube-2026",
+      "pipeline_item_id": "17301651ea8cc0f4",
+      "published_at": "2026-09-25T09:33:10Z",
+      "title": "What’s new from Made on YouTube 2026?",
+      "topic": "Major technology companies",
+      "topic_id": "big_tech",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://www.androidauthority.com/google-create-my-widget-play-store-listing-3715354",
+      "feed_id": "android_authority",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_name": "Android Authority",
+      "feed_names": [
+        "Android Authority"
+      ],
+      "matched_terms": [
+        "Google"
+      ],
+      "occurrence_id": "occ_000011",
+      "original_url": "https://www.androidauthority.com/google-create-my-widget-play-store-listing-3715354",
+      "pipeline_item_id": "4ea372a6662994a7",
+      "published_at": "2026-09-25T07:12:06Z",
+      "title": "This is how Google’s ‘Create My Widget’ app will work on Android and Googlebook OS",
+      "topic": "Major technology companies",
+      "topic_id": "big_tech",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://www.androidauthority.com/oneplus-16-led-lights-embarrassing-3715122",
+      "feed_id": "android_authority",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_name": "Android Authority",
+      "feed_names": [
+        "Android Authority"
+      ],
+      "matched_terms": [
+        "OnePlus"
+      ],
+      "occurrence_id": "occ_000012",
+      "original_url": "https://www.androidauthority.com/oneplus-16-led-lights-embarrassing-3715122",
+      "pipeline_item_id": "b9ab9da250b7536d",
+      "published_at": "2026-09-25T09:00:07Z",
+      "title": "The OnePlus 16’s coolest feature is also its most embarrassing",
+      "topic": "Major technology companies",
+      "topic_id": "big_tech",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://www.medianama.com/2026/09/223-pine-labs-agentic-commerce-merchants",
+      "feed_id": "medianama",
+      "feed_ids": [
+        "medianama"
+      ],
+      "feed_name": "MediaNama",
+      "feed_names": [
+        "MediaNama"
+      ],
+      "matched_terms": [
+        "Google"
+      ],
+      "occurrence_id": "occ_000013",
+      "original_url": "https://www.medianama.com/2026/09/223-pine-labs-agentic-commerce-merchants",
+      "pipeline_item_id": "d326ed9d2dea877f",
+      "published_at": "2026-09-25T09:46:05Z",
+      "title": "Pine Labs, Google Cloud partner to expand agentic commerce to merchants",
+      "topic": "Major technology companies",
+      "topic_id": "big_tech",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://www.androidauthority.com/google-photos-redact-moods-remix-wide-rollout-3715348",
+      "feed_id": "android_authority",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_name": "Android Authority",
+      "feed_names": [
+        "Android Authority"
+      ],
+      "matched_terms": [
+        "Google"
+      ],
+      "occurrence_id": "occ_000014",
+      "original_url": "https://www.androidauthority.com/google-photos-redact-moods-remix-wide-rollout-3715348",
+      "pipeline_item_id": "d54cc174f0ffa7a6",
+      "published_at": "2026-09-25T07:19:03Z",
+      "title": "These Google Photos features are now available to even more users",
+      "topic": "Major technology companies",
+      "topic_id": "big_tech",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxORndMRGlFb2gzcTdQSHA4VHJ6dnduTlVpMEdrcWZRc1VXVHdvT0tFMkwyR3BnQUl2bHAyWS1BOGtfcnd5U3BvLTJucVBFS2Z4RWl1bTM4YkNIeTQxOTVrdDJvcmJQRmlpdEI4d3BQRW5CUXlCM0ljWTgyVHUxQmlNN2RZX0NFTjhib1F5YW9zUlhPR0EySGU1NVI1WTRRdHN1di1fTTZ5THRyOWdLVDRlT2dtWUJ2QnJ2UkdRWUx2NWxiOEtfVUwxaTFwRTh1dXlYNmlIelRSMFVXRmlWb2pfdU50Tm5uODdOY3gwLS1B0gHuAUFVX3lxTE5Gd0xEaUVvaDNxN1BIcDhUcnp2d25OVWkwR2txZlFzVVdUd29PS0UyTDJHcGdBSXZscDJZLUE4a19yd3lTcG8tMm5xUEVLZnhFaXVtMzhiQ0h5NDE5NWt0Mm9yYlBGaWl0Qjh3cFBFbkJReUIzSWNZODJUdTFCaU03ZFlfQ0VOOGJvUXlhb3NSWE9HQTJIZTU1UjVZNFF0c3V2LV9NNnlMdHI5Z0tUNGVPZ21ZQnZCcnZSR1FZTHY1bGI4S19VTDFpMXBFOHV1eVg2aUh6VFIwVVdGaVZval91TnRObm44N05jeDAtLUE?oc=5",
+      "feed_id": "google_news_digital_brands",
+      "feed_ids": [
+        "google_news_digital_brands"
+      ],
+      "feed_name": "Google News — Indian digital brands",
+      "feed_names": [
+        "Google News — Indian digital brands"
+      ],
+      "matched_terms": [
+        "Amazon"
+      ],
+      "occurrence_id": "occ_000015",
+      "original_url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxORndMRGlFb2gzcTdQSHA4VHJ6dnduTlVpMEdrcWZRc1VXVHdvT0tFMkwyR3BnQUl2bHAyWS1BOGtfcnd5U3BvLTJucVBFS2Z4RWl1bTM4YkNIeTQxOTVrdDJvcmJQRmlpdEI4d3BQRW5CUXlCM0ljWTgyVHUxQmlNN2RZX0NFTjhib1F5YW9zUlhPR0EySGU1NVI1WTRRdHN1di1fTTZ5THRyOWdLVDRlT2dtWUJ2QnJ2UkdRWUx2NWxiOEtfVUwxaTFwRTh1dXlYNmlIelRSMFVXRmlWb2pfdU50Tm5uODdOY3gwLS1B0gHuAUFVX3lxTE5Gd0xEaUVvaDNxN1BIcDhUcnp2d25OVWkwR2txZlFzVVdUd29PS0UyTDJHcGdBSXZscDJZLUE4a19yd3lTcG8tMm5xUEVLZnhFaXVtMzhiQ0h5NDE5NWt0Mm9yYlBGaWl0Qjh3cFBFbkJReUIzSWNZODJUdTFCaU03ZFlfQ0VOOGJvUXlhb3NSWE9HQTJIZTU1UjVZNFF0c3V2LV9NNnlMdHI5Z0tUNGVPZ21ZQnZCcnZSR1FZTHY1bGI4S19VTDFpMXBFOHV1eVg2aUh6VFIwVVdGaVZval91TnRObm44N05jeDAtLUE?oc=5",
+      "pipeline_item_id": "e38688cbba64fa72",
+      "published_at": "2026-09-25T09:35:12Z",
+      "title": "FSSAI Initiates Penal Action Against Amazon, Flipkart, Swiggy Instamart, BigBasket & Zepto Over Food... - LawBeat",
+      "topic": "Major technology companies",
+      "topic_id": "big_tech",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://www.medianama.com/2026/09/223-jio-opposes-trais-network-slicing",
+      "feed_id": "medianama",
+      "feed_ids": [
+        "medianama"
+      ],
+      "feed_name": "MediaNama",
+      "feed_names": [
+        "MediaNama"
+      ],
+      "matched_terms": [
+        "Jio"
+      ],
+      "occurrence_id": "occ_000016",
+      "original_url": "https://www.medianama.com/2026/09/223-jio-opposes-trais-network-slicing",
+      "pipeline_item_id": "e48196e21a291681",
+      "published_at": "2026-09-25T07:19:16Z",
+      "title": "Jio opposes TRAI’s 80% network slicing threshold, says it could trigger false congestion alerts",
+      "topic": "Major technology companies",
+      "topic_id": "big_tech",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://9to5mac.com/2026/09/22/phishing-simulations-for-the-ai-era",
+      "feed_id": "9to5mac",
+      "feed_ids": [
+        "9to5mac"
+      ],
+      "feed_name": "9to5Mac",
+      "feed_names": [
+        "9to5Mac"
+      ],
+      "matched_terms": [
+        "phishing"
+      ],
+      "occurrence_id": "occ_000017",
+      "original_url": "https://9to5mac.com/2026/09/22/phishing-simulations-for-the-ai-era",
+      "pipeline_item_id": "a2ddcc2a93d00134",
+      "published_at": "2026-09-22T10:00:00Z",
+      "title": "Apple @ Work Podcast: Phishing simulations for the AI era",
+      "topic": "Consumer and digital safety",
+      "topic_id": "consumer_safety",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/russo-brothers-recall-robert-downey-jr-chris-evans-final-days-on-avengers-endgame",
+      "feed_id": "telangana_today",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_name": "Telangana Today",
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "matched_terms": [
+        "recall"
+      ],
+      "occurrence_id": "occ_000018",
+      "original_url": "https://telanganatoday.com/russo-brothers-recall-robert-downey-jr-chris-evans-final-days-on-avengers-endgame",
+      "pipeline_item_id": "c80404b6052c0e77",
+      "published_at": "2026-09-25T09:34:02Z",
+      "title": "Russo Brothers recall Robert Downey Jr, Chris Evans’ final days on Avengers: Endgame",
+      "topic": "Consumer and digital safety",
+      "topic_id": "consumer_safety",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://www.medianama.com/2026/09/223-npci-ai-cyber-threats-mythos-upi-mdr",
+      "feed_id": "medianama",
+      "feed_ids": [
+        "medianama"
+      ],
+      "feed_name": "MediaNama",
+      "feed_names": [
+        "MediaNama"
+      ],
+      "matched_terms": [
+        "UPI"
+      ],
+      "occurrence_id": "occ_000019",
+      "original_url": "https://www.medianama.com/2026/09/223-npci-ai-cyber-threats-mythos-upi-mdr",
+      "pipeline_item_id": "054834731c0ccb98",
+      "published_at": "2026-09-25T06:08:02Z",
+      "title": "NPCI chief Dilip Asbe cites AI cyber threats, including Claude Mythos, to defend UPI MDR",
+      "topic": "Credit cards, rewards and payments",
+      "topic_id": "credit_cards_payments",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPV2JsYTMzbmtwNl9CZXY0czBzRWpCWXcxNFZPcGlrQ1BkVm13X2lRVjZ0a3F6LVA5aHBfbkZnRzZtZk54ZjJiWHpvMlVTLXlOcnMwa2NQX2N6aDJOektWR05nU2doYm5wQVlYRVAwV1o2VUt5bmVkQ0xBWnpWd2dDRXVPS0EzNzAxQlo1RjR4c2lzWTIzT3B1S1o2SmpmaVdzVjJCeWtyWVd2bVdIWm5pdXhlcmdvMVFlY0Q1TnRqZFBiQTdBNmFJc2tpUkZmT1pE?oc=5",
+      "feed_id": "google_news_credit_cards",
+      "feed_ids": [
+        "google_news_credit_cards"
+      ],
+      "feed_name": "Google News — Indian credit cards",
+      "feed_names": [
+        "Google News — Indian credit cards"
+      ],
+      "matched_terms": [
+        "digital payments"
+      ],
+      "occurrence_id": "occ_000020",
+      "original_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPV2JsYTMzbmtwNl9CZXY0czBzRWpCWXcxNFZPcGlrQ1BkVm13X2lRVjZ0a3F6LVA5aHBfbkZnRzZtZk54ZjJiWHpvMlVTLXlOcnMwa2NQX2N6aDJOektWR05nU2doYm5wQVlYRVAwV1o2VUt5bmVkQ0xBWnpWd2dDRXVPS0EzNzAxQlo1RjR4c2lzWTIzT3B1S1o2SmpmaVdzVjJCeWtyWVd2bVdIWm5pdXhlcmdvMVFlY0Q1TnRqZFBiQTdBNmFJc2tpUkZmT1pE?oc=5",
+      "pipeline_item_id": "3687e0c267b259f4",
+      "published_at": "2026-09-25T07:06:00Z",
+      "title": "Credit cards lose share in India’s rapidly growing digital payments pie: Jefferies - ANI News",
+      "topic": "Credit cards, rewards and payments",
+      "topic_id": "credit_cards_payments",
+      "topic_lane": "review"
+    }
+  ],
+  "schema_version": "feed-forge/editorial-input/v1",
+  "shard_index": 1,
+  "shard_type": "occurrences"
+}

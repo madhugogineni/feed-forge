@@ -10,6 +10,11 @@ from pathlib import Path
 REPOSITORY_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPOSITORY_ROOT / "src"))
 
+from feed_forge.editorial_snapshot import (  # noqa: E402
+    DEFAULT_SHARD_SIZE,
+    EditorialSnapshotError,
+    build_editorial_snapshot,
+)
 from feed_forge.topic_snapshot import TopicSnapshotError, publish_topic_snapshot  # noqa: E402
 
 
@@ -19,6 +24,8 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--source-markdown", type=Path, required=True)
     parser.add_argument("--target-json", type=Path, required=True)
     parser.add_argument("--target-markdown", type=Path, required=True)
+    parser.add_argument("--editorial-target", type=Path, required=True)
+    parser.add_argument("--shard-size", type=int, default=DEFAULT_SHARD_SIZE)
     parser.add_argument("--workflow-run-id", type=int, required=True)
     parser.add_argument("--commit-sha", required=True)
     parser.add_argument("--artifact-name", required=True)
@@ -29,7 +36,7 @@ def build_parser() -> argparse.ArgumentParser:
 def main() -> int:
     args = build_parser().parse_args()
     try:
-        publish_topic_snapshot(
+        report = publish_topic_snapshot(
             args.source_json,
             args.source_markdown,
             args.target_json,
@@ -39,7 +46,15 @@ def main() -> int:
             artifact_name=args.artifact_name,
             generated_at=args.generated_at,
         )
-    except TopicSnapshotError as error:
+        build_editorial_snapshot(
+            report,
+            args.editorial_target,
+            workflow_run_id=report["workflow_run_id"],
+            commit_sha=report["commit_sha"],
+            generated_at=report["generated_at"],
+            shard_size=args.shard_size,
+        )
+    except (TopicSnapshotError, EditorialSnapshotError) as error:
         print(f"Snapshot publication failed: {error}", file=sys.stderr)
         return 2
     return 0

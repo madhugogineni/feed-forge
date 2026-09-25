@@ -1,0 +1,283 @@
+{
+  "generated_at": "2026-09-25T12:03:48.909496Z",
+  "schema_version": "feed-forge/editorial-input/v1",
+  "topics": [
+    {
+      "id": "ai_development",
+      "label": "AI development and products",
+      "lane": "review",
+      "occurrence_ids": [
+        "occ_000001",
+        "occ_000002",
+        "occ_000003",
+        "occ_000004",
+        "occ_000005",
+        "occ_000006",
+        "occ_000007",
+        "occ_000008"
+      ],
+      "selected_item_count": 8,
+      "selection": "newest_first",
+      "term_counts": null,
+      "total_recent": 55
+    },
+    {
+      "id": "big_tech",
+      "label": "Major technology companies",
+      "lane": "review",
+      "occurrence_ids": [
+        "occ_000009",
+        "occ_000010",
+        "occ_000011",
+        "occ_000012",
+        "occ_000013",
+        "occ_000014",
+        "occ_000015",
+        "occ_000016"
+      ],
+      "selected_item_count": 8,
+      "selection": "newest_first",
+      "term_counts": null,
+      "total_recent": 224
+    },
+    {
+      "id": "consumer_safety",
+      "label": "Consumer and digital safety",
+      "lane": "review",
+      "occurrence_ids": [
+        "occ_000017",
+        "occ_000018"
+      ],
+      "selected_item_count": 2,
+      "selection": "newest_first",
+      "term_counts": null,
+      "total_recent": 2
+    },
+    {
+      "id": "credit_cards_payments",
+      "label": "Credit cards, rewards and payments",
+      "lane": "review",
+      "occurrence_ids": [
+        "occ_000019",
+        "occ_000020",
+        "occ_000021",
+        "occ_000022",
+        "occ_000023",
+        "occ_000024",
+        "occ_000025",
+        "occ_000026"
+      ],
+      "selected_item_count": 8,
+      "selection": "newest_first",
+      "term_counts": null,
+      "total_recent": 19
+    },
+    {
+      "id": "crime",
+      "label": "Crime news",
+      "lane": "context_only",
+      "occurrence_ids": [
+        "occ_000027",
+        "occ_000028",
+        "occ_000029",
+        "occ_000030",
+        "occ_000031",
+        "occ_000032",
+        "occ_000033",
+        "occ_000034"
+      ],
+      "selected_item_count": 8,
+      "selection": "newest_first",
+      "term_counts": null,
+      "total_recent": 18
+    },
+    {
+      "id": "fitness_ergonomics",
+      "label": "Fitness and ergonomics",
+      "lane": "review",
+      "occurrence_ids": [
+        "occ_000035",
+        "occ_000036",
+        "occ_000037",
+        "occ_000038",
+        "occ_000039",
+        "occ_000040",
+        "occ_000041",
+        "occ_000042"
+      ],
+      "selected_item_count": 8,
+      "selection": "newest_first",
+      "term_counts": null,
+      "total_recent": 8
+    },
+    {
+      "id": "india_developments",
+      "label": "India developments",
+      "lane": "review",
+      "occurrence_ids": [
+        "occ_000043",
+        "occ_000044",
+        "occ_000045",
+        "occ_000046",
+        "occ_000047",
+        "occ_000048",
+        "occ_000049",
+        "occ_000050"
+      ],
+      "selected_item_count": 8,
+      "selection": "newest_first",
+      "term_counts": null,
+      "total_recent": 112
+    },
+    {
+      "id": "india_geopolitics",
+      "label": "India-related geopolitics",
+      "lane": "context_only",
+      "occurrence_ids": [
+        "occ_000051"
+      ],
+      "selected_item_count": 1,
+      "selection": "newest_first",
+      "term_counts": null,
+      "total_recent": 1
+    },
+    {
+      "id": "indian_brands",
+      "label": "Indian consumer brands and products",
+      "lane": "review",
+      "occurrence_ids": [
+        "occ_000052",
+        "occ_000053",
+        "occ_000054",
+        "occ_000055",
+        "occ_000056",
+        "occ_000057",
+        "occ_000058",
+        "occ_000059"
+      ],
+      "selected_item_count": 8,
+      "selection": "new_terms_first",
+      "term_counts": {
+        "Ather": 6,
+        "Atomberg": 2,
+        "Be Minimalist": 0,
+        "Blinkit": 8,
+        "CRED": 0,
+        "Frido": 0,
+        "Lenskart": 27,
+        "Mamaearth": 0,
+        "Minimalist skincare": 0,
+        "Mokobara": 0,
+        "Noise earbuds": 0,
+        "Noise smartwatch": 0,
+        "Noise wearables": 0,
+        "Nykaa": 30,
+        "Ola Electric": 12,
+        "Swiggy": 32,
+        "The Sleep Company": 11,
+        "The Souled Store": 0,
+        "Urban Company": 2,
+        "Wakefit": 2,
+        "Zepto": 24,
+        "Zomato": 5,
+        "boAt": 1
+      },
+      "total_recent": 150
+    },
+    {
+      "id": "local_practical",
+      "label": "Practical local updates",
+      "lane": "review",
+      "occurrence_ids": [],
+      "selected_item_count": 0,
+      "selection": "newest_first",
+      "term_counts": null,
+      "total_recent": 0
+    },
+    {
+      "id": "music_apps",
+      "label": "Music and streaming apps",
+      "lane": "review",
+      "occurrence_ids": [
+        "occ_000060",
+        "occ_000061",
+        "occ_000062",
+        "occ_000063",
+        "occ_000064",
+        "occ_000065",
+        "occ_000066"
+      ],
+      "selected_item_count": 7,
+      "selection": "newest_first",
+      "term_counts": null,
+      "total_recent": 7
+    },
+    {
+      "id": "personal_finance",
+      "label": "Personal finance and investing",
+      "lane": "review",
+      "occurrence_ids": [
+        "occ_000067"
+      ],
+      "selected_item_count": 1,
+      "selection": "newest_first",
+      "term_counts": null,
+      "total_recent": 1
+    },
+    {
+      "id": "tech_software",
+      "label": "Technology, software and gadgets",
+      "lane": "review",
+      "occurrence_ids": [
+        "occ_000068",
+        "occ_000069",
+        "occ_000070",
+        "occ_000071",
+        "occ_000072",
+        "occ_000073",
+        "occ_000074",
+        "occ_000075"
+      ],
+      "selected_item_count": 8,
+      "selection": "newest_first",
+      "term_counts": null,
+      "total_recent": 95
+    },
+    {
+      "id": "telangana_hyderabad",
+      "label": "Telangana and Hyderabad developments",
+      "lane": "review",
+      "occurrence_ids": [
+        "occ_000076",
+        "occ_000077",
+        "occ_000078",
+        "occ_000079",
+        "occ_000080",
+        "occ_000081",
+        "occ_000082",
+        "occ_000083"
+      ],
+      "selected_item_count": 8,
+      "selection": "newest_first",
+      "term_counts": null,
+      "total_recent": 121
+    },
+    {
+      "id": "travel_lifestyle",
+      "label": "Travel and lifestyle",
+      "lane": "review",
+      "occurrence_ids": [
+        "occ_000084",
+        "occ_000085",
+        "occ_000086",
+        "occ_000087",
+        "occ_000088",
+        "occ_000089"
+      ],
+      "selected_item_count": 6,
+      "selection": "newest_first",
+      "term_counts": null,
+      "total_recent": 6
+    }
+  ]
+}

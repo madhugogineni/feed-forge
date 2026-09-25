@@ -1,0 +1,68 @@
+{
+  "commit_sha": "4118aed219223d668e6b3979fa20079657e93c8b",
+  "generated_at": "2026-09-25T12:03:48.909496Z",
+  "occurrence_shards": [
+    {
+      "path": "occurrences/001.json",
+      "record_count": 20,
+      "sha256": "e53c4b4cca8f0aa01289860a8eabf056f89ce95181e60a2c80cb0246262fd49e"
+    },
+    {
+      "path": "occurrences/002.json",
+      "record_count": 20,
+      "sha256": "027ca905f84859b1a053ce30936cdb0ef59b71a3e8b4a939fc5807b37d7abb60"
+    },
+    {
+      "path": "occurrences/003.json",
+      "record_count": 20,
+      "sha256": "af5288b96af772fd018491e252275c9c9b5651f76f2db0771d73ef02b44a6ad6"
+    },
+    {
+      "path": "occurrences/004.json",
+      "record_count": 20,
+      "sha256": "005127d1cb0bdb496ff9b96770febb4a21adb698f16e14a9ee7c29cd4cb37d9b"
+    },
+    {
+      "path": "occurrences/005.json",
+      "record_count": 9,
+      "sha256": "5d01e6fa80625796dacd0b829ddcda4f9990522db083893aeeffc9fb6887e162"
+    }
+  ],
+  "schema_version": "feed-forge/editorial-input/v1",
+  "shard_size": 20,
+  "source_health_file": "source-health.json",
+  "source_health_sha256": "c98c9ba92cfe2b984b2bcb0f360af33d8d8f1e0f3c97a674bf4b012ef618836d",
+  "topic_count": 15,
+  "topics_file": "topics.json",
+  "topics_sha256": "36294a85f84e0e37809190bb812c4009d50afe2e49edf0c6620f2654cb6d5386",
+  "unique_url_count": 82,
+  "url_occurrence_count": 89,
+  "url_shards": [
+    {
+      "path": "urls/001.json",
+      "record_count": 20,
+      "sha256": "3fa87f22293e2c09a55bcd82d796ed6f3ad60b5f9d503380493e5ed7a85c8bf9"
+    },
+    {
+      "path": "urls/002.json",
+      "record_count": 20,
+      "sha256": "96060166efcaab3e5b1b050871c49c19be0f5d5244ffc9356a48369ac2695fe8"
+    },
+    {
+      "path": "urls/003.json",
+      "record_count": 20,
+      "sha256": "0c742795a20b3f46b28ebc49947a39cd3a0c4707a451e98d255ac0cbbe2b4fde"
+    },
+    {
+      "path": "urls/004.json",
+      "record_count": 20,
+      "sha256": "d1b309597f6b0e8497ffb8395471f198fa4780fe1ad7c63e2709d0545f2f6b63"
+    },
+    {
+      "path": "urls/005.json",
+      "record_count": 2,
+      "sha256": "253b541fa924e955376e531b713d9a5bedb7b7892c64cc3c47f09a698444186c"
+    }
+  ],
+  "workflow_run_id": 36132796943
+}

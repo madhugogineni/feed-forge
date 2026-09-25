@@ -30,9 +30,10 @@ Read these inputs fresh on every run:
    repository, default branch, latest commit, and latest successful relevant
    workflow run. Do not rely on an uploaded project snapshot when current
    repository state is required.
-2. `artifacts/topic-radar/latest.json` from the live default branch, retrieved
-   directly through the GitHub connector and validated using the sequence
-   below. The Actions artifact ZIP is the fallback, not the primary input.
+2. `artifacts/topic-radar/latest/manifest.json` and every file it lists from
+   the live default branch, retrieved as normal GitHub repository files and
+   validated using the sequence below. This manifest-plus-shards contract is
+   the primary editorial input.
 3. Relevant repository changes, pull requests, tests, and other Feed Forge
    artifacts from the last 24 hours.
 4. `docs/reference/02-voice.md`, `docs/reference/03-topics.md`,
@@ -45,55 +46,75 @@ Read these inputs fresh on every run:
 7. Current primary web sources required to verify a candidate or find an
    approved non-feed idea.
 
-If the repository snapshot and fallback GitHub artifact are unavailable or
-stale, say so visibly. Continue with the other lanes when they still have
-adequate evidence, but never pretend the feed was read.
+Normal scheduled editorial runs must not depend on local Python or container
+execution, ZIP download or extraction, `/mnt/data`, connector file
+materialization, or parsing the monolithic `latest.json`. Those mechanisms may
+be used for diagnosis or fallback, but input completeness must come from normal
+GitHub file fetches of the manifest and all listed shards.
 
-## Latest snapshot retrieval and validation sequence
+If the repository snapshot and all fallbacks are unavailable or stale, say so
+visibly. Continue with the other lanes when they still have adequate evidence,
+but never pretend the feed was read.
+
+## Editorial snapshot retrieval and validation sequence
 
 For every editorial run:
 
 1. Inspect the live `madhugogineni/feed-forge` repository.
 2. Confirm the default branch and latest commit.
 3. Find the newest successful relevant Topic Radar workflow run.
-4. Fetch `artifacts/topic-radar/latest.json` directly from the live default
-   branch through the GitHub connector. Do not download or extract a ZIP for
-   this primary path.
-5. Verify that the file is non-empty, parses as JSON, and contains the expected
-   Topic Radar fields plus `workflow_run_id`, `commit_sha`, and `generated_at`.
-6. Validate `workflow_run_id` against the newest successful relevant run ID,
-   `commit_sha` against that run's head commit SHA, and `generated_at` against
-   that run's output time. The repository's current head may be the later bot
-   commit that published the snapshot; do not mistake that snapshot commit for
-   the workflow's source commit.
-7. If all provenance matches, use this JSON for the full link audit and
-   editorial run. Record its workflow run ID, commit SHA, artifact name, and
-   `generated_at` value.
-8. If the snapshot is missing, empty, invalid, stale, or does not match the
-   newest successful relevant run, record the exact mismatch and use the
-   Actions artifact fallback below.
-9. Only after a valid direct snapshot or fallback artifact has been parsed
-   should the link audit and editorial ranking begin.
+4. Fetch `artifacts/topic-radar/latest/manifest.json` from the live default
+   branch through the GitHub connector.
+5. Verify that `schema_version` is `feed-forge/editorial-input/v1`, then verify
+   the workflow run ID, source commit SHA, generated timestamp, topic count,
+   URL-occurrence count, unique-URL count, shard size, and complete shard
+   lists. Validate `workflow_run_id` against the newest successful relevant run
+   ID and `commit_sha` against that run's head commit SHA. The repository's
+   current head may be the later bot commit that published the snapshot; do not
+   mistake that snapshot commit for the workflow's source commit.
+6. Fetch `topics.json`, `source-health.json`, and every occurrence shard listed
+   by the manifest. Use each relative path exactly as listed under
+   `artifacts/topic-radar/latest/`.
+7. Fetch every unique-URL shard listed by the manifest.
+8. Verify that every expected file was fetched, each shard's record count
+   matches its manifest entry, the summed occurrence count equals
+   `url_occurrence_count`, and the summed unique-URL count equals
+   `unique_url_count`. Verify listed SHA-256 values when the connector exposes
+   exact bytes or a checksum operation; the publishing workflow has already
+   rejected mismatched checksums before committing the snapshot.
+9. Enumerate all URL-occurrence records from the occurrence shards. Preserve
+   every occurrence ID and its pipeline-item, topic, feed, title, timestamp,
+   original URL, and canonical URL provenance. Do not deduplicate this list.
+10. Enumerate the unique canonical URLs from the URL shards and visit every one.
+    Fetch each URL once unless a retry is required, then confirm that each
+    unique-URL record's `occurrence_ids` map back to valid occurrence records.
+11. Map every research result, access failure, and verification result back to
+    all referenced occurrence IDs.
+12. Only after the complete manifest-listed dataset has been ingested should
+    the source audit, research, editorial ranking, and drafting continue.
 
-### Actions artifact fallback
+Record the run ID, commit SHA, generated timestamp, declared counts, fetched
+counts, shard paths, and any mismatch. A missing, malformed, truncated, or
+count-mismatched shard makes the manifest path incomplete; do not silently
+continue with a partial dataset.
 
-1. Find the `topic-radar-<run-id>` artifact attached to the newest successful
-   relevant run.
-2. Download the artifact ZIP through the GitHub connector.
-3. Use or materialize the returned local file reference or mounted local path
-   before extraction.
-4. Extract the ZIP into a known working directory.
-5. Verify that `topic-radar.json` exists and is non-empty, then parse it.
-6. Record the workflow run ID, commit SHA, artifact ID, artifact name, artifact
-   creation time, `generated_at`, and the reason the direct snapshot was not
-   used.
+### Fallback order
 
-Do not treat the downloaded connector ZIP as though it were already an
-extracted local file. If extraction or JSON parsing fails, perform one fresh
-artifact download and retry. If that retry fails, use `topic-radar.md` or the
-GitHub job summary only as a clearly labeled fallback. Preserve every snapshot
-mismatch or artifact failure in the final report. Never claim the JSON feed was
-read when only a Markdown or job-summary fallback was available.
+Use this exact order and record the reason for every step away from the primary
+path in the final report:
+
+1. `latest/manifest.json` plus every listed repository shard.
+2. The repository's monolithic `artifacts/topic-radar/latest.json`.
+3. The matching Topic Radar Actions artifact ZIP and its `topic-radar.json`.
+4. The matching job summary or `artifacts/topic-radar/latest.md`, clearly
+   labeled as an incomplete Markdown fallback.
+
+The ZIP path is optional and is never a prerequisite for a normal scheduled
+run. Local extraction, mounted paths, `/mnt/data`, and Python may be used for
+diagnostics if available, but failure of that runtime must not invalidate a
+complete manifest-plus-shards ingestion. Preserve every snapshot mismatch and
+fallback in the report. Never claim the complete JSON feed was read when only
+Markdown or a job summary was available.
 
 ## Mandatory link audit
 
@@ -141,8 +162,11 @@ The run must not wait for MG to ask for research. It should independently:
    articles are leads, not final evidence.
 5. When a comparison uses two periods, verify that the geography, definition,
    units, population, and measurement method are comparable.
-6. Run every calculation in code and retain the inputs, formula, units, and
-   result.
+6. Use a calculator, Python, or another suitable tool for derived calculations
+   when available, and retain the inputs, formula, units, and result. Dataset
+   ingestion never depends on that calculation runtime. If a derived value
+   cannot be computed reliably, mark only that calculation unavailable and
+   continue the editorial run with the complete manifest-shard input.
 7. Generate premise-free questions and light rage-bait-style prompts that invite
    genuine answers without manufacturing a controversy.
 8. Look for a small tool, skill, workflow, demonstration, or repository story

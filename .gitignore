@@ -221,6 +221,8 @@ artifacts/*
 artifacts/topic-radar/*
 !artifacts/topic-radar/latest.json
 !artifacts/topic-radar/latest.md
+!artifacts/topic-radar/latest/
+!artifacts/topic-radar/latest/**
 *.egg-info/
 __pycache__/
 .pytest_cache/

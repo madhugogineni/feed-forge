@@ -96,8 +96,13 @@ class TopicSnapshotTests(unittest.TestCase):
         self.assertIn("artifacts/topic-radar.json", workflow)
         self.assertIn("artifacts/topic-radar.md", workflow)
         self.assertIn("contents: write", workflow)
+        self.assertIn("--editorial-target artifacts/topic-radar/latest", workflow)
         self.assertIn(
-            "git add -- artifacts/topic-radar/latest.json artifacts/topic-radar/latest.md",
+            "python scripts/validate_editorial_snapshot.py artifacts/topic-radar/latest",
+            workflow,
+        )
+        self.assertIn(
+            "git add -- artifacts/topic-radar/latest.json artifacts/topic-radar/latest.md artifacts/topic-radar/latest",
             workflow,
         )
         self.assertNotIn("git add .", workflow)
@@ -105,6 +110,7 @@ class TopicSnapshotTests(unittest.TestCase):
         push_paths = _workflow_push_paths(workflow)
         self.assertNotIn("artifacts/topic-radar/latest.json", push_paths)
         self.assertNotIn("artifacts/topic-radar/latest.md", push_paths)
+        self.assertFalse(any(path.startswith("artifacts/topic-radar/") for path in push_paths))
 
 
 def _workflow_push_paths(workflow: str) -> set[str]:
