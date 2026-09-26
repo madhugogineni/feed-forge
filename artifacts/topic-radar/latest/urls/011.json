@@ -2,7 +2,7 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://telanganatoday.com/opinion-rethink-indias-health-universities",
+      "canonical_url": "https://telanganatoday.com/india-to-face-afghanistan-in-asian-games-cricket-quarter-final-after-nepal-japan-washout",
       "domain": "telanganatoday.com",
       "feed_ids": [
         "telangana_today"
@@ -12,7 +12,7 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000044"
+        "occ_000042"
       ],
       "topic_ids": [
         "india_developments"
@@ -21,6 +21,71 @@
         "India developments"
       ],
       "url_id": "url_000051"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/kareena-kapoor-shares-glimpse-of-latest-workout-routine-fitness-chart",
+      "domain": "telanganatoday.com",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000036"
+      ],
+      "topic_ids": [
+        "fitness_ergonomics"
+      ],
+      "topics": [
+        "Fitness and ergonomics"
+      ],
+      "url_id": "url_000052"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/mahadev-betting-case-cbi-arrests-key-suspect-at-hyderabad-airport-after-arrival-from-dubai",
+      "domain": "telanganatoday.com",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000087"
+      ],
+      "topic_ids": [
+        "travel_lifestyle"
+      ],
+      "topics": [
+        "Travel and lifestyle"
+      ],
+      "url_id": "url_000053"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/opinion-from-encounters-to-custodial-deaths-is-india-finding-new-ways-to-hide-extrajudicial-killings",
+      "domain": "telanganatoday.com",
+      "feed_ids": [
+        "telangana_today",
+        "telangana_today_crime"
+      ],
+      "feed_names": [
+        "Telangana Today",
+        "Telangana Today Crime"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000033"
+      ],
+      "topic_ids": [
+        "crime"
+      ],
+      "topics": [
+        "Crime news"
+      ],
+      "url_id": "url_000054"
     },
     {
       "canonical_url": "https://telanganatoday.com/pregnant-samantha-ruth-prabhu-shares-glimpse-of-workout-routine-strong-till-the-very-end",
@@ -40,69 +105,6 @@
       ],
       "topics": [
         "Fitness and ergonomics"
-      ],
-      "url_id": "url_000052"
-    },
-    {
-      "canonical_url": "https://telanganatoday.com/russo-brothers-recall-robert-downey-jr-chris-evans-final-days-on-avengers-endgame",
-      "domain": "telanganatoday.com",
-      "feed_ids": [
-        "telangana_today"
-      ],
-      "feed_names": [
-        "Telangana Today"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000018"
-      ],
-      "topic_ids": [
-        "consumer_safety"
-      ],
-      "topics": [
-        "Consumer and digital safety"
-      ],
-      "url_id": "url_000053"
-    },
-    {
-      "canonical_url": "https://telanganatoday.com/upi-mdr-is-not-a-tax-or-surcharge-says-nirmala-sitharaman",
-      "domain": "telanganatoday.com",
-      "feed_ids": [
-        "telangana_today"
-      ],
-      "feed_names": [
-        "Telangana Today"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000025"
-      ],
-      "topic_ids": [
-        "credit_cards_payments"
-      ],
-      "topics": [
-        "Credit cards, rewards and payments"
-      ],
-      "url_id": "url_000054"
-    },
-    {
-      "canonical_url": "https://www.androidauthority.com/gemini-dark-mode-3715309",
-      "domain": "www.androidauthority.com",
-      "feed_ids": [
-        "android_authority"
-      ],
-      "feed_names": [
-        "Android Authority"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000003"
-      ],
-      "topic_ids": [
-        "ai_development"
-      ],
-      "topics": [
-        "AI development and products"
       ],
       "url_id": "url_000055"
     }

@@ -2,6 +2,27 @@
   "record_count": 5,
   "records": [
     {
+      "canonical_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQzlfekJmcW5Ca21uYWQxdG5tZ2QwTDhEazdkdEF2TUxXMkZoQXVLTmtkTVFXUzNxWXVXVENOWGJtMHpaVW9GZzljU1FIbDg2c1pjbEU2cGxJeWt3dTRaWjRvMlUzR2JFdGxzQ3F1WkxpR2ltamF0TEhCT2VCSno5c252UXplQjJwcU1GVVVLUUE3dFp3ZEwxcDNnWUUxS09DaEowWkV3?oc=5",
+      "domain": "news.google.com",
+      "feed_ids": [
+        "google_news_credit_cards"
+      ],
+      "feed_names": [
+        "Google News — Indian credit cards"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000023"
+      ],
+      "topic_ids": [
+        "credit_cards_payments"
+      ],
+      "topics": [
+        "Credit cards, rewards and payments"
+      ],
+      "url_id": "url_000031"
+    },
+    {
       "canonical_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNLU8xaXZpUEFMMkozTVRlTjlibkVLOThKc3dwdWVfbFBOYUxpYTFUTFViR1RCOTNRSzVrTmhod0ZtVGN2WmRhRVhyWUtOS0JoM2pHaE81YUY0Y05BNTlRX0gxNkNzNnFQX3JIa0lHZEJEX1JQMlRKVUNMMjRZSUlmNHRoTTEyQjdiY2Y2SjBJUXlzVzQ0NTNoVHgxZkpudko3bVhIbUpzWdIBrgFBVV95cUxOaXdvMlBta0FySFRzVldLY2RUeDItcEJUVHdyUmxVYkF6QzQ2bG4xSkNaRlFaVUUyTnUtT1BTOExxdlNEcmN5cjhYT0dHYlUwSkZaSzFhcXp6SE56dUp6SDlqZkdVNHppa21VcGNaWGxCSE84aTV4bE44YWxONjhfdVgxNERKOFF3WFFtTUJjUjJiemhWOXNfWkgzV2ZnSlZERXFlaGJiODh4ZS0zclE?oc=5",
       "domain": "news.google.com",
       "feed_ids": [
@@ -12,7 +33,7 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000056"
+        "occ_000055"
       ],
       "topic_ids": [
         "indian_brands"
@@ -20,7 +41,7 @@
       "topics": [
         "Indian consumer brands and products"
       ],
-      "url_id": "url_000031"
+      "url_id": "url_000032"
     },
     {
       "canonical_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNS0h4cm93MmR3VFhUMWVOV2VzelJLQ3hRSnpLZzFKWDQyV1pIVGZyeS1VZmtiNTAzZUszV09lLVNlZmhGX1ZTXzFnenJUM0lNTUl0MnFDUU5HbUdTZlk1Q0FPZjI2ektiUmRWRVlKT1c1UV94akpBbnBfeEhOTTZPN0UxUjQxT3o5MFFESTRVaTNiNDJwa0w3cjd5SGtZaVE2MWpIZjgtb0EzTkJx?oc=5",
@@ -41,7 +62,7 @@
       "topics": [
         "Fitness and ergonomics"
       ],
-      "url_id": "url_000032"
+      "url_id": "url_000033"
     },
     {
       "canonical_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbktnRWpmNVhKbmpxTHdwMlNnWVI1YTNaSjNDcFJTNjU4aFNsZ0FDa0ZvUkFDY2xyLWtnMC0xRXFESFFUQ3puc3JSeXA5b3VZdkczbUxtMzg0M0JQRHo2ZDBnZzRhd3FUdkZjRTBLWXlCMHVjT2o1NHMwN0ZxZVVwcHdLSkZweGZlN0xTT005bUwzdzFKaDFBU1BQTDczZnJmelBSSkRKM2dIbjhXMnZvVm9FV3M?oc=5",
@@ -54,7 +75,7 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000064"
+        "occ_000065"
       ],
       "topic_ids": [
         "personal_finance"
@@ -62,7 +83,7 @@
       "topics": [
         "Personal finance and investing"
       ],
-      "url_id": "url_000033"
+      "url_id": "url_000034"
     },
     {
       "canonical_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbHVGX3ZBTm50am53X0pJbHdOWjQ0QXpHbHRzOFZBd0ltd0ZDRW9XNGxHSDJrWHpvTUdmSDd3RHo3b1F5cGtadkY2VC02VXhUQ2t4VUtCdG5kX1VZZGNmcERQWkpSQl9JcG44SzgtUk40TkhlMTE3dDkwTVRkam56MS1QdlFHVlRNMFNRb0szaGRYUXdfcU5oSjN5eHFQMkVoakxKRmtVM0FkOWlIc0RoU1MxSS04bmsz?oc=5",
@@ -75,36 +96,12 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000054"
+        "occ_000053"
       ],
       "topic_ids": [
         "indian_brands"
       ],
       "topics": [
-        "Indian consumer brands and products"
-      ],
-      "url_id": "url_000034"
-    },
-    {
-      "canonical_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPOWlhYjdBdjlabmhSYkxaVWJud1dFM19iWDRZUXFpZWNLUy1yU0FtcjBTa05xQVhJaTVzQzNtenN3eFFhZmQtal8yNm5SdkRHdHJpc1dpTXdkejdEVGxObXYyZ19CTmppdXpVUHNUN091Zi1UUXB5SWZaMkM5el9JZXBObXVWSDhmR3QzQklWd3dJZVBLZWU2TXhOQVB3T254eE5TdTBXN01fNXdPem9lZjlrZmZLU0RWNlA5dVVSVQ?oc=5",
-      "domain": "news.google.com",
-      "feed_ids": [
-        "google_news_digital_brands"
-      ],
-      "feed_names": [
-        "Google News — Indian digital brands"
-      ],
-      "occurrence_count": 2,
-      "occurrence_ids": [
-        "occ_000048",
-        "occ_000057"
-      ],
-      "topic_ids": [
-        "india_developments",
-        "indian_brands"
-      ],
-      "topics": [
-        "India developments",
         "Indian consumer brands and products"
       ],
       "url_id": "url_000035"

@@ -23,7 +23,7 @@
       "url_id": "url_000011"
     },
     {
-      "canonical_url": "https://9to5mac.com/2026/09/25/apple-has-big-october-coming-for-new-hardware-and-software-heres-the-lineup",
+      "canonical_url": "https://9to5mac.com/2026/09/25/apple-card-adds-new-feature-in-ios-27-that-every-card-should-have",
       "domain": "9to5mac.com",
       "feed_ids": [
         "9to5mac"
@@ -33,7 +33,7 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000072"
+        "occ_000068"
       ],
       "topic_ids": [
         "tech_software"
@@ -44,7 +44,7 @@
       "url_id": "url_000012"
     },
     {
-      "canonical_url": "https://9to5mac.com/2026/09/25/apple-wallet-in-ios-27-adds-feature-thats-been-on-my-wishlist-for-years",
+      "canonical_url": "https://9to5mac.com/2026/09/25/apple-faces-class-action-over-apple-pay-fees-charged-to-card-issuers",
       "domain": "9to5mac.com",
       "feed_ids": [
         "9to5mac"
@@ -54,18 +54,18 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000071"
+        "occ_000016"
       ],
       "topic_ids": [
-        "tech_software"
+        "big_tech"
       ],
       "topics": [
-        "Technology, software and gadgets"
+        "Major technology companies"
       ],
       "url_id": "url_000013"
     },
     {
-      "canonical_url": "https://9to5mac.com/2026/09/25/daily-september-25-2026",
+      "canonical_url": "https://9to5mac.com/2026/09/25/apple-music-hall-confirms-first-eight-shows-starting-with-elton-john",
       "domain": "9to5mac.com",
       "feed_ids": [
         "9to5mac"
@@ -75,18 +75,18 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000069"
+        "occ_000061"
       ],
       "topic_ids": [
-        "tech_software"
+        "music_apps"
       ],
       "topics": [
-        "Technology, software and gadgets"
+        "Music and streaming apps"
       ],
       "url_id": "url_000014"
     },
     {
-      "canonical_url": "https://9to5mac.com/2026/09/25/iphone-duo-video-shows-left-handed-use-for-new-model",
+      "canonical_url": "https://9to5mac.com/2026/09/25/apples-dimensional-drawings-offer-a-fascinating-look-at-its-product-designs",
       "domain": "9to5mac.com",
       "feed_ids": [
         "9to5mac"
@@ -96,13 +96,13 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000073"
+        "occ_000010"
       ],
       "topic_ids": [
-        "tech_software"
+        "big_tech"
       ],
       "topics": [
-        "Technology, software and gadgets"
+        "Major technology companies"
       ],
       "url_id": "url_000015"
     }

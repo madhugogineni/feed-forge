@@ -2,73 +2,73 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://www.thehindu.com/news/national/telangana/revanth-says-fight-for-india-is-between-gandhi-parivar-and-sangh-parivar/article71509596.ece",
-      "feed_id": "hindu_telangana",
+      "canonical_url": "https://telanganatoday.com/asian-games-india-wins-silver-in-womens-50m-rifle-3p-team-event",
+      "feed_id": "telangana_today",
       "feed_ids": [
-        "hindu_telangana"
+        "telangana_today"
       ],
-      "feed_name": "The Hindu Telangana",
+      "feed_name": "Telangana Today",
       "feed_names": [
-        "The Hindu Telangana"
+        "Telangana Today"
       ],
       "matched_terms": [
         "India"
       ],
       "occurrence_id": "occ_000046",
-      "original_url": "https://www.thehindu.com/news/national/telangana/revanth-says-fight-for-india-is-between-gandhi-parivar-and-sangh-parivar/article71509596.ece",
-      "pipeline_item_id": "aa9a4b5b2e728248",
-      "published_at": "2026-09-25T16:01:05Z",
-      "title": "Revanth says fight for India is between ‘Gandhi Parivar and Sangh Parivar’",
+      "original_url": "https://telanganatoday.com/asian-games-india-wins-silver-in-womens-50m-rifle-3p-team-event",
+      "pipeline_item_id": "cabc91f28ee9589c",
+      "published_at": "2026-09-26T03:42:29Z",
+      "title": "Asian Games: India wins silver in women’s 50m rifle 3P team event",
       "topic": "India developments",
       "topic_id": "india_developments",
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://livefromalounge.com/air-india-maharaja-club-rolls-out-offer-which-earns-you-up-to-30-points-inr-100-per-flight",
-      "feed_id": "livefromalounge",
+      "canonical_url": "https://inc42.com/buzz/from-ultraviolette-automotive-to-galaxeye-indian-startups-raised-over-203-mn-this-week",
+      "feed_id": "inc42",
       "feed_ids": [
-        "livefromalounge"
+        "inc42"
       ],
-      "feed_name": "Live from a Lounge",
+      "feed_name": "Inc42",
       "feed_names": [
-        "Live from a Lounge"
+        "Inc42"
       ],
       "matched_terms": [
-        "India"
+        "Indian"
       ],
       "occurrence_id": "occ_000047",
-      "original_url": "https://livefromalounge.com/air-india-maharaja-club-rolls-out-offer-which-earns-you-up-to-30-points-inr-100-per-flight",
-      "pipeline_item_id": "caa88fd7441560a4",
-      "published_at": "2026-09-25T15:26:59Z",
-      "title": "Air India Maharaja Club rolls out offer which earns you up to 30 Points/ INR 100 per flight.",
+      "original_url": "https://inc42.com/buzz/from-ultraviolette-automotive-to-galaxeye-indian-startups-raised-over-203-mn-this-week",
+      "pipeline_item_id": "f8c7a60865ff7778",
+      "published_at": "2026-09-26T03:30:24Z",
+      "title": "From Ultraviolette Automotive To GalaxEye — Indian Startups Raised Over $203 Mn This Week",
       "topic": "India developments",
       "topic_id": "india_developments",
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPOWlhYjdBdjlabmhSYkxaVWJud1dFM19iWDRZUXFpZWNLUy1yU0FtcjBTa05xQVhJaTVzQzNtenN3eFFhZmQtal8yNm5SdkRHdHJpc1dpTXdkejdEVGxObXYyZ19CTmppdXpVUHNUN091Zi1UUXB5SWZaMkM5el9JZXBObXVWSDhmR3QzQklWd3dJZVBLZWU2TXhOQVB3T254eE5TdTBXN01fNXdPem9lZjlrZmZLU0RWNlA5dVVSVQ?oc=5",
-      "feed_id": "google_news_digital_brands",
+      "canonical_url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxQcXBCa2ZiMk9rRUdBOU5hRUFfVG9TVGlYYjhjVHlDYWRGMWNSQ3k1UU03U3drOGlXYUJPb1AyOGU3bE0zZ2stVGVFSERicmdTcGNLR25BdDBvRkJFU1pJdVp5dFF3dFpJQk5ObVE4NU1RRTdrbWxNTUhSTmZ0VS1kbXgtaE10d3JWQ3NtbngwZFlrZnlweEM5QkdHSlpOLXEzX3k3eGR3cW9VUXFHQlYwTmNfbVJERGN1RGNKblplU2lMUWdBakgxbDVpQzFrY3doOVpLTl9vVnh6ak5fVUZXRVVQQUc4NmJDMkZTNmRUc1dqeUo1eHRaZGxEeUMtRV9YTlU5dC1zQWROM0tqckRaWWhoc0szYWsxWk9xbk9CZ0UtbVBQMFBzTGp4dHdJeWFWZ3Vrd0JQZWRKUS1nTW41WEFIdnFHUDhJczg1N3czLWhrQdIB1wJBVV95cUxPQU9jeTFadzFBTUVqbzg1bS1vemp6UWhyT2JzaEdmYnIzV09CZDFzMUVQb3JKLUdTY0xRcVR1SDVoemNEZWQzVnVESHpRcVR4YTNITW5ueG5VbE9xb1dvcEdmQUY2LTZRQ0RpSEQ1cFdZT0ZSTlV0X091MVdoc0ZnWmdkclUyTmllMERtMmpNQzgyZXN5Y3VpOFdEM3Fmc2pzY212V0JxV2lyVjh6bFBEWklJMDhPMkFvdERvNEhmMlJOV0NJamVjblVPVTFQYWlyN3gzQUpLOHdTbVFnVGh2YkZpaHA1TW5Eb0FUc2JsbEJXa1NWWURfWVpwNEdIZExyT1pENEZ3SVZ0MXZ6dy12Q3Y3b3BMLUZETjZod2pvQm5uR0ItU083a2FFOFY2eFlzSXk3VGdNTnZmNU5WZy1QdjByQjh4ZE5jTm11SGxYLUF0c1c5eEln?oc=5",
+      "feed_id": "google_news_device_brands",
       "feed_ids": [
-        "google_news_digital_brands"
+        "google_news_device_brands"
       ],
-      "feed_name": "Google News — Indian digital brands",
+      "feed_name": "Google News — Indian device brands",
       "feed_names": [
-        "Google News — Indian digital brands"
+        "Google News — Indian device brands"
       ],
       "matched_terms": [
         "India"
       ],
       "occurrence_id": "occ_000048",
-      "original_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPOWlhYjdBdjlabmhSYkxaVWJud1dFM19iWDRZUXFpZWNLUy1yU0FtcjBTa05xQVhJaTVzQzNtenN3eFFhZmQtal8yNm5SdkRHdHJpc1dpTXdkejdEVGxObXYyZ19CTmppdXpVUHNUN091Zi1UUXB5SWZaMkM5el9JZXBObXVWSDhmR3QzQklWd3dJZVBLZWU2TXhOQVB3T254eE5TdTBXN01fNXdPem9lZjlrZmZLU0RWNlA5dVVSVQ?oc=5",
-      "pipeline_item_id": "cd2865493cb8ccf9",
-      "published_at": "2026-09-25T14:18:47Z",
-      "title": "Bessemer India Capital cuts Urban Company stake to 3.42% after selling 2.12% - scanx.trade",
+      "original_url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxQcXBCa2ZiMk9rRUdBOU5hRUFfVG9TVGlYYjhjVHlDYWRGMWNSQ3k1UU03U3drOGlXYUJPb1AyOGU3bE0zZ2stVGVFSERicmdTcGNLR25BdDBvRkJFU1pJdVp5dFF3dFpJQk5ObVE4NU1RRTdrbWxNTUhSTmZ0VS1kbXgtaE10d3JWQ3NtbngwZFlrZnlweEM5QkdHSlpOLXEzX3k3eGR3cW9VUXFHQlYwTmNfbVJERGN1RGNKblplU2lMUWdBakgxbDVpQzFrY3doOVpLTl9vVnh6ak5fVUZXRVVQQUc4NmJDMkZTNmRUc1dqeUo1eHRaZGxEeUMtRV9YTlU5dC1zQWROM0tqckRaWWhoc0szYWsxWk9xbk9CZ0UtbVBQMFBzTGp4dHdJeWFWZ3Vrd0JQZWRKUS1nTW41WEFIdnFHUDhJczg1N3czLWhrQdIB1wJBVV95cUxPQU9jeTFadzFBTUVqbzg1bS1vemp6UWhyT2JzaEdmYnIzV09CZDFzMUVQb3JKLUdTY0xRcVR1SDVoemNEZWQzVnVESHpRcVR4YTNITW5ueG5VbE9xb1dvcEdmQUY2LTZRQ0RpSEQ1cFdZT0ZSTlV0X091MVdoc0ZnWmdkclUyTmllMERtMmpNQzgyZXN5Y3VpOFdEM3Fmc2pzY212V0JxV2lyVjh6bFBEWklJMDhPMkFvdERvNEhmMlJOV0NJamVjblVPVTFQYWlyN3gzQUpLOHdTbVFnVGh2YkZpaHA1TW5Eb0FUc2JsbEJXa1NWWURfWVpwNEdIZExyT1pENEZ3SVZ0MXZ6dy12Q3Y3b3BMLUZETjZod2pvQm5uR0ItU083a2FFOFY2eFlzSXk3VGdNTnZmNU5WZy1QdjByQjh4ZE5jTm11SGxYLUF0c1c5eEln?oc=5",
+      "pipeline_item_id": "f9fdea6ccd43da73",
+      "published_at": "2026-09-26T04:16:00Z",
+      "title": "‘Princess Diaries’ star Heather Matarazzo says she risks losing her health insurance because of no work: - The Times of India",
       "topic": "India developments",
       "topic_id": "india_developments",
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://telanganatoday.com/baranica-creates-history-with-indias-first-asiad-pole-vault-medal",
+      "canonical_url": "https://telanganatoday.com/india-russia-reaffirm-commitment-to-special-privileged-strategic-partnership",
       "feed_id": "telangana_today",
       "feed_ids": [
         "telangana_today"
@@ -81,10 +81,10 @@
         "India"
       ],
       "occurrence_id": "occ_000049",
-      "original_url": "https://telanganatoday.com/baranica-creates-history-with-indias-first-asiad-pole-vault-medal",
-      "pipeline_item_id": "dbdef31eca2e9e43",
-      "published_at": "2026-09-25T13:56:13Z",
-      "title": "Baranica creates history with India’s first Asiad pole vault medal",
+      "original_url": "https://telanganatoday.com/india-russia-reaffirm-commitment-to-special-privileged-strategic-partnership",
+      "pipeline_item_id": "fc0438cef137f614",
+      "published_at": "2026-09-26T02:59:50Z",
+      "title": "India, Russia reaffirm commitment to ‘special, privileged’ strategic partnership",
       "topic": "India developments",
       "topic_id": "india_developments",
       "topic_lane": "review"

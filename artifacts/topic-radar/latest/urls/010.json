@@ -2,7 +2,7 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://telanganatoday.com/india-win-shooting-gold-as-gulveer-takes-10000m-silver-at-asian-games",
+      "canonical_url": "https://telanganatoday.com/hyderabad-marathons-15-year-journey-comes-alive-through-photographs",
       "domain": "telanganatoday.com",
       "feed_ids": [
         "telangana_today"
@@ -12,28 +12,7 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000042"
-      ],
-      "topic_ids": [
-        "india_developments"
-      ],
-      "topics": [
-        "India developments"
-      ],
-      "url_id": "url_000046"
-    },
-    {
-      "canonical_url": "https://telanganatoday.com/kareena-kapoor-shares-glimpse-of-latest-workout-routine-fitness-chart",
-      "domain": "telanganatoday.com",
-      "feed_ids": [
-        "telangana_today"
-      ],
-      "feed_names": [
-        "Telangana Today"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000036"
+        "occ_000040"
       ],
       "topic_ids": [
         "fitness_ergonomics"
@@ -41,10 +20,10 @@
       "topics": [
         "Fitness and ergonomics"
       ],
-      "url_id": "url_000047"
+      "url_id": "url_000046"
     },
     {
-      "canonical_url": "https://telanganatoday.com/mahadev-betting-case-cbi-arrests-key-suspect-at-hyderabad-airport-after-arrival-from-dubai",
+      "canonical_url": "https://telanganatoday.com/iacc-summit-highlights-indias-ai-opportunity-beyond-llms-chips-and-data-centres",
       "domain": "telanganatoday.com",
       "feed_ids": [
         "telangana_today"
@@ -54,18 +33,39 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000085"
+        "occ_000050"
       ],
       "topic_ids": [
-        "travel_lifestyle"
+        "india_geopolitics"
       ],
       "topics": [
-        "Travel and lifestyle"
+        "India-related geopolitics"
+      ],
+      "url_id": "url_000047"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/india-credit-card-spending-growth-slows-in-august-as-competition-intensifies",
+      "domain": "telanganatoday.com",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000022"
+      ],
+      "topic_ids": [
+        "credit_cards_payments"
+      ],
+      "topics": [
+        "Credit cards, rewards and payments"
       ],
       "url_id": "url_000048"
     },
     {
-      "canonical_url": "https://telanganatoday.com/morkel-backs-nitish-to-develop-into-key-all-rounder-for-india",
+      "canonical_url": "https://telanganatoday.com/india-russia-reaffirm-commitment-to-special-privileged-strategic-partnership",
       "domain": "telanganatoday.com",
       "feed_ids": [
         "telangana_today"
@@ -75,7 +75,7 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000045"
+        "occ_000049"
       ],
       "topic_ids": [
         "india_developments"
@@ -86,25 +86,23 @@
       "url_id": "url_000049"
     },
     {
-      "canonical_url": "https://telanganatoday.com/opinion-from-encounters-to-custodial-deaths-is-india-finding-new-ways-to-hide-extrajudicial-killings",
+      "canonical_url": "https://telanganatoday.com/india-slams-bizarre-attack-by-puppet-of-pakistans-military-at-un",
       "domain": "telanganatoday.com",
       "feed_ids": [
-        "telangana_today",
-        "telangana_today_crime"
+        "telangana_today"
       ],
       "feed_names": [
-        "Telangana Today",
-        "Telangana Today Crime"
+        "Telangana Today"
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000033"
+        "occ_000044"
       ],
       "topic_ids": [
-        "crime"
+        "india_developments"
       ],
       "topics": [
-        "Crime news"
+        "India developments"
       ],
       "url_id": "url_000050"
     }

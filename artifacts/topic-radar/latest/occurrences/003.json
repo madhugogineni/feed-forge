@@ -2,7 +2,7 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://9to5mac.com/2026/09/25/watchos-27-upgrades-popular-apple-watch-face-with-new-options",
+      "canonical_url": "https://9to5mac.com/2026/09/25/macos-27-adds-new-apple-intelligence-features-to-your-favorite-apps",
       "feed_id": "9to5mac",
       "feed_ids": [
         "9to5mac"
@@ -15,98 +15,98 @@
         "Apple"
       ],
       "occurrence_id": "occ_000011",
-      "original_url": "https://9to5mac.com/2026/09/25/watchos-27-upgrades-popular-apple-watch-face-with-new-options",
-      "pipeline_item_id": "81bb61c0f29f83bb",
-      "published_at": "2026-09-25T17:05:14Z",
-      "title": "watchOS 27 upgrades popular Apple Watch face with new options",
+      "original_url": "https://9to5mac.com/2026/09/25/macos-27-adds-new-apple-intelligence-features-to-your-favorite-apps",
+      "pipeline_item_id": "6e06511770c8ac96",
+      "published_at": "2026-09-25T23:24:55Z",
+      "title": "macOS 27 adds new Apple Intelligence features to your favorite apps",
       "topic": "Major technology companies",
       "topic_id": "big_tech",
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://www.theverge.com/tech/1000772/apple-code-leak-homepod-mini-2-ipad-mini-8-apple-tv-4k",
-      "feed_id": "verge",
+      "canonical_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdzB4X1B3MnZQRGZkRXJ1ZDZWOXJuRkN5Zlhlc3M1X1N2bk1sNGUwUTgzdUFZb01CZGRPYnBnNkpvUHlRTW15MVltdmhGUG5UZFpSY1llZHdudHdFRlRld2Zsb0p1X3g2ejFkV28zSW56U2NBcC1rZURYRV8wZkFla1hhUkE5ZVQ3bWdoc3lrSQ?oc=5",
+      "feed_id": "google_news_credit_cards",
       "feed_ids": [
-        "verge"
+        "google_news_credit_cards"
       ],
-      "feed_name": "The Verge",
+      "feed_name": "Google News — Indian credit cards",
       "feed_names": [
-        "The Verge"
+        "Google News — Indian credit cards"
       ],
       "matched_terms": [
         "Apple"
       ],
       "occurrence_id": "occ_000012",
-      "original_url": "https://www.theverge.com/tech/1000772/apple-code-leak-homepod-mini-2-ipad-mini-8-apple-tv-4k",
-      "pipeline_item_id": "bc5a21fcb2308349",
-      "published_at": "2026-09-25T16:22:05Z",
-      "title": "Leaks reveal a new Apple HomePod mini, iPad mini, and Apple TV 4K",
+      "original_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdzB4X1B3MnZQRGZkRXJ1ZDZWOXJuRkN5Zlhlc3M1X1N2bk1sNGUwUTgzdUFZb01CZGRPYnBnNkpvUHlRTW15MVltdmhGUG5UZFpSY1llZHdudHdFRlRld2Zsb0p1X3g2ejFkV28zSW56U2NBcC1rZURYRV8wZkFla1hhUkE5ZVQ3bWdoc3lrSQ?oc=5",
+      "pipeline_item_id": "95d63cc27d62e979",
+      "published_at": "2026-09-26T00:56:00Z",
+      "title": "Apple (AAPL) Eyes an Apple Pay Launch in India. How Much can it Grow Without UPI? - Yahoo Finance",
       "topic": "Major technology companies",
       "topic_id": "big_tech",
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://electrek.co/2026/09/25/early-podcast-tesla-semi-launch-geelys-battery-healing-fast-charging-rivian-r3-and-more",
-      "feed_id": "electrek",
+      "canonical_url": "https://www.androidauthority.com/google-health-5-09-3715801",
+      "feed_id": "android_authority",
       "feed_ids": [
-        "electrek"
+        "android_authority"
       ],
-      "feed_name": "Electrek",
+      "feed_name": "Android Authority",
       "feed_names": [
-        "Electrek"
+        "Android Authority"
       ],
       "matched_terms": [
-        "Tesla"
+        "Google"
       ],
       "occurrence_id": "occ_000013",
-      "original_url": "https://electrek.co/2026/09/25/early-podcast-tesla-semi-launch-geelys-battery-healing-fast-charging-rivian-r3-and-more",
-      "pipeline_item_id": "cad477cc6e2894f7",
-      "published_at": "2026-09-25T17:16:47Z",
-      "title": "Podcast: Tesla Semi launch, Geely’s battery healing fast-charging, Rivian R3, and more",
+      "original_url": "https://www.androidauthority.com/google-health-5-09-3715801",
+      "pipeline_item_id": "a10328151e5b2c2d",
+      "published_at": "2026-09-25T21:41:11Z",
+      "title": "Google Health 5.09 arrives with more than just your new Pixel Watch features",
       "topic": "Major technology companies",
       "topic_id": "big_tech",
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://www.theverge.com/tech/1000794/tesla-optimus-production-issues-hands",
-      "feed_id": "verge",
+      "canonical_url": "https://9to5google.com/2026/09/25/google-health-5-09-release-notes",
+      "feed_id": "9to5google",
       "feed_ids": [
-        "verge"
+        "9to5google"
       ],
-      "feed_name": "The Verge",
+      "feed_name": "9to5Google",
       "feed_names": [
-        "The Verge"
+        "9to5Google"
       ],
       "matched_terms": [
-        "Tesla"
+        "Google"
       ],
       "occurrence_id": "occ_000014",
-      "original_url": "https://www.theverge.com/tech/1000794/tesla-optimus-production-issues-hands",
-      "pipeline_item_id": "d23e876d1f601e8d",
-      "published_at": "2026-09-25T17:01:36Z",
-      "title": "Tesla’s Optimus robot is going through growing pains",
+      "original_url": "https://9to5google.com/2026/09/25/google-health-5-09-release-notes",
+      "pipeline_item_id": "bb982aa191e466da",
+      "published_at": "2026-09-25T20:09:15Z",
+      "title": "Google Health 5.09 rolling out: Cardio Load from third-party workouts, more",
       "topic": "Major technology companies",
       "topic_id": "big_tech",
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1000784/meta-muse-filesystem",
-      "feed_id": "verge",
+      "canonical_url": "https://9to5mac.com/2026/09/25/openai-accuses-apple-of-improperly-adding-new-evidence-to-trade-secrets-case",
+      "feed_id": "9to5mac",
       "feed_ids": [
-        "verge"
+        "9to5mac"
       ],
-      "feed_name": "The Verge",
+      "feed_name": "9to5Mac",
       "feed_names": [
-        "The Verge"
+        "9to5Mac"
       ],
       "matched_terms": [
-        "Meta"
+        "Apple"
       ],
       "occurrence_id": "occ_000015",
-      "original_url": "https://www.theverge.com/ai-artificial-intelligence/1000784/meta-muse-filesystem",
-      "pipeline_item_id": "ded5f30056dbe56f",
-      "published_at": "2026-09-25T16:49:53Z",
-      "title": "Meta makes the Muse filesystem even more accessible",
+      "original_url": "https://9to5mac.com/2026/09/25/openai-accuses-apple-of-improperly-adding-new-evidence-to-trade-secrets-case",
+      "pipeline_item_id": "f75051082e2b467d",
+      "published_at": "2026-09-26T01:14:20Z",
+      "title": "OpenAI accuses Apple of improperly adding new evidence to trade secrets case",
       "topic": "Major technology companies",
       "topic_id": "big_tech",
       "topic_lane": "review"

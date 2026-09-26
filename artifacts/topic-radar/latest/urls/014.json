@@ -2,19 +2,83 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://www.thehindu.com/news/cities/Hyderabad/engineering-students-suicide-turns-out-to-be-murder-two-arrested/article71502595.ece",
-      "domain": "www.thehindu.com",
+      "canonical_url": "https://www.androidauthority.com/spotify-meta-muse-integration-3714958",
+      "domain": "www.androidauthority.com",
       "feed_ids": [
-        "hindu_hyderabad",
-        "hindu_telangana"
+        "android_authority"
       ],
       "feed_names": [
-        "The Hindu Hyderabad",
-        "The Hindu Telangana"
+        "Android Authority"
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000030"
+        "occ_000064"
+      ],
+      "topic_ids": [
+        "music_apps"
+      ],
+      "topics": [
+        "Music and streaming apps"
+      ],
+      "url_id": "url_000066"
+    },
+    {
+      "canonical_url": "https://www.apple.com/in/newsroom/2026/09/apple-opens-apple-music-hall-a-state-of-the-art-live-music-venue-in-london",
+      "domain": "www.apple.com",
+      "feed_ids": [
+        "apple_india"
+      ],
+      "feed_names": [
+        "Apple India Newsroom"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000060"
+      ],
+      "topic_ids": [
+        "music_apps"
+      ],
+      "topics": [
+        "Music and streaming apps"
+      ],
+      "url_id": "url_000067"
+    },
+    {
+      "canonical_url": "https://www.medianama.com/2026/09/223-npci-ai-cyber-threats-mythos-upi-mdr",
+      "domain": "www.medianama.com",
+      "feed_ids": [
+        "medianama"
+      ],
+      "feed_names": [
+        "MediaNama"
+      ],
+      "occurrence_count": 2,
+      "occurrence_ids": [
+        "occ_000001",
+        "occ_000019"
+      ],
+      "topic_ids": [
+        "ai_development",
+        "credit_cards_payments"
+      ],
+      "topics": [
+        "AI development and products",
+        "Credit cards, rewards and payments"
+      ],
+      "url_id": "url_000068"
+    },
+    {
+      "canonical_url": "https://www.thehindu.com/entertainment/movies/anumana-pakshi-movie-review-a-cluttered-exhausting-crime-comedy/article71507980.ece",
+      "domain": "www.thehindu.com",
+      "feed_ids": [
+        "hindu_hyderabad"
+      ],
+      "feed_names": [
+        "The Hindu Hyderabad"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000032"
       ],
       "topic_ids": [
         "crime"
@@ -22,92 +86,28 @@
       "topics": [
         "Crime news"
       ],
-      "url_id": "url_000066"
-    },
-    {
-      "canonical_url": "https://www.thehindu.com/news/cities/Hyderabad/zaheerabad-industrial-smart-city-project-spv-office-opened/article71509540.ece",
-      "domain": "www.thehindu.com",
-      "feed_ids": [
-        "hindu_hyderabad",
-        "hindu_telangana"
-      ],
-      "feed_names": [
-        "The Hindu Hyderabad",
-        "The Hindu Telangana"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000078"
-      ],
-      "topic_ids": [
-        "telangana_hyderabad"
-      ],
-      "topics": [
-        "Telangana and Hyderabad developments"
-      ],
-      "url_id": "url_000067"
-    },
-    {
-      "canonical_url": "https://www.thehindu.com/news/national/telangana/abvp-condemns-screening-of-documentary-on-umar-khalid-at-nalsar/article71509407.ece",
-      "domain": "www.thehindu.com",
-      "feed_ids": [
-        "hindu_telangana"
-      ],
-      "feed_names": [
-        "The Hindu Telangana"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000076"
-      ],
-      "topic_ids": [
-        "telangana_hyderabad"
-      ],
-      "topics": [
-        "Telangana and Hyderabad developments"
-      ],
-      "url_id": "url_000068"
-    },
-    {
-      "canonical_url": "https://www.thehindu.com/news/national/telangana/citu-backs-twu-swf-combine-in-tgsrtc-union-elections-combine-to-hold-public-meeting-in-khammam-on-september-29/article71509502.ece",
-      "domain": "www.thehindu.com",
-      "feed_ids": [
-        "hindu_hyderabad",
-        "hindu_telangana"
-      ],
-      "feed_names": [
-        "The Hindu Hyderabad",
-        "The Hindu Telangana"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000074"
-      ],
-      "topic_ids": [
-        "telangana_hyderabad"
-      ],
-      "topics": [
-        "Telangana and Hyderabad developments"
-      ],
       "url_id": "url_000069"
     },
     {
-      "canonical_url": "https://www.thehindu.com/news/national/telangana/file-counter-affidavit-in-plea-over-local-candidate-status-in-mds-admissions-hc-to-government/article71509854.ece",
+      "canonical_url": "https://www.thehindu.com/life-and-style/homes-and-gardens/inside-south-indias-bars-how-design-and-architecture-are-changing-the-drinking-experience/article71508514.ece",
       "domain": "www.thehindu.com",
       "feed_ids": [
-        "hindu_telangana"
+        "hindu_hyderabad"
       ],
       "feed_names": [
-        "The Hindu Telangana"
+        "The Hindu Hyderabad"
       ],
-      "occurrence_count": 1,
+      "occurrence_count": 2,
       "occurrence_ids": [
-        "occ_000080"
+        "occ_000043",
+        "occ_000078"
       ],
       "topic_ids": [
+        "india_developments",
         "telangana_hyderabad"
       ],
       "topics": [
+        "India developments",
         "Telangana and Hyderabad developments"
       ],
       "url_id": "url_000070"

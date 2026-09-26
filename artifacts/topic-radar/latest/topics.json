@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T17:25:08.554670Z",
+  "generated_at": "2026-09-26T05:17:12.928759Z",
   "schema_version": "feed-forge/editorial-input/v1",
   "topics": [
     {
@@ -19,7 +19,7 @@
       "selected_item_count": 8,
       "selection": "newest_first",
       "term_counts": null,
-      "total_recent": 54
+      "total_recent": 51
     },
     {
       "id": "big_tech",
@@ -38,7 +38,7 @@
       "selected_item_count": 8,
       "selection": "newest_first",
       "term_counts": null,
-      "total_recent": 227
+      "total_recent": 233
     },
     {
       "id": "consumer_safety",
@@ -70,7 +70,7 @@
       "selected_item_count": 8,
       "selection": "newest_first",
       "term_counts": null,
-      "total_recent": 17
+      "total_recent": 16
     },
     {
       "id": "crime",
@@ -126,7 +126,7 @@
       "selected_item_count": 8,
       "selection": "newest_first",
       "term_counts": null,
-      "total_recent": 114
+      "total_recent": 125
     },
     {
       "id": "india_geopolitics",
@@ -160,28 +160,28 @@
         "Ather": 10,
         "Atomberg": 2,
         "Be Minimalist": 0,
-        "Blinkit": 10,
+        "Blinkit": 9,
         "CRED": 0,
         "Frido": 0,
-        "Lenskart": 29,
+        "Lenskart": 27,
         "Mamaearth": 0,
         "Minimalist skincare": 0,
         "Mokobara": 0,
         "Noise earbuds": 0,
         "Noise smartwatch": 0,
         "Noise wearables": 0,
-        "Nykaa": 32,
-        "Ola Electric": 12,
+        "Nykaa": 33,
+        "Ola Electric": 15,
         "Swiggy": 32,
-        "The Sleep Company": 10,
+        "The Sleep Company": 11,
         "The Souled Store": 0,
         "Urban Company": 3,
         "Wakefit": 2,
-        "Zepto": 24,
+        "Zepto": 23,
         "Zomato": 4,
         "boAt": 2
       },
-      "total_recent": 159
+      "total_recent": 160
     },
     {
       "id": "local_practical",
@@ -202,73 +202,75 @@
         "occ_000060",
         "occ_000061",
         "occ_000062",
-        "occ_000063"
+        "occ_000063",
+        "occ_000064"
       ],
-      "selected_item_count": 5,
+      "selected_item_count": 6,
       "selection": "newest_first",
       "term_counts": null,
-      "total_recent": 5
+      "total_recent": 6
     },
     {
       "id": "personal_finance",
       "label": "Personal finance and investing",
       "lane": "review",
       "occurrence_ids": [
-        "occ_000064",
-        "occ_000065"
+        "occ_000065",
+        "occ_000066",
+        "occ_000067"
       ],
-      "selected_item_count": 2,
+      "selected_item_count": 3,
       "selection": "newest_first",
       "term_counts": null,
-      "total_recent": 2
+      "total_recent": 3
     },
     {
       "id": "tech_software",
       "label": "Technology, software and gadgets",
       "lane": "review",
       "occurrence_ids": [
-        "occ_000066",
-        "occ_000067",
         "occ_000068",
         "occ_000069",
         "occ_000070",
         "occ_000071",
         "occ_000072",
-        "occ_000073"
+        "occ_000073",
+        "occ_000074",
+        "occ_000075"
       ],
       "selected_item_count": 8,
       "selection": "newest_first",
       "term_counts": null,
-      "total_recent": 98
+      "total_recent": 94
     },
     {
       "id": "telangana_hyderabad",
       "label": "Telangana and Hyderabad developments",
       "lane": "review",
       "occurrence_ids": [
-        "occ_000074",
-        "occ_000075",
         "occ_000076",
         "occ_000077",
         "occ_000078",
         "occ_000079",
         "occ_000080",
-        "occ_000081"
+        "occ_000081",
+        "occ_000082",
+        "occ_000083"
       ],
       "selected_item_count": 8,
       "selection": "newest_first",
       "term_counts": null,
-      "total_recent": 130
+      "total_recent": 126
     },
     {
       "id": "travel_lifestyle",
       "label": "Travel and lifestyle",
       "lane": "review",
       "occurrence_ids": [
-        "occ_000082",
-        "occ_000083",
         "occ_000084",
-        "occ_000085"
+        "occ_000085",
+        "occ_000086",
+        "occ_000087"
       ],
       "selected_item_count": 4,
       "selection": "newest_first",

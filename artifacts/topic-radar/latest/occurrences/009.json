@@ -24,7 +24,7 @@
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://telanganatoday.com/india-win-shooting-gold-as-gulveer-takes-10000m-silver-at-asian-games",
+      "canonical_url": "https://telanganatoday.com/india-to-face-afghanistan-in-asian-games-cricket-quarter-final-after-nepal-japan-washout",
       "feed_id": "telangana_today",
       "feed_ids": [
         "telangana_today"
@@ -37,38 +37,38 @@
         "India"
       ],
       "occurrence_id": "occ_000042",
-      "original_url": "https://telanganatoday.com/india-win-shooting-gold-as-gulveer-takes-10000m-silver-at-asian-games",
-      "pipeline_item_id": "283ceb43c653e816",
-      "published_at": "2026-09-25T14:52:42Z",
-      "title": "India win shooting gold as Gulveer takes 10,000m silver at Asian Games",
+      "original_url": "https://telanganatoday.com/india-to-face-afghanistan-in-asian-games-cricket-quarter-final-after-nepal-japan-washout",
+      "pipeline_item_id": "4bf5d3023b079eb4",
+      "published_at": "2026-09-26T04:47:47Z",
+      "title": "India to face Afghanistan in Asian Games cricket quarter-final after Nepal-Japan washout",
       "topic": "India developments",
       "topic_id": "india_developments",
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://telanganatoday.com/gulveer-singh-bags-silver-becomes-first-indian-to-win-two-10000m-medals",
-      "feed_id": "telangana_today",
+      "canonical_url": "https://www.thehindu.com/life-and-style/homes-and-gardens/inside-south-indias-bars-how-design-and-architecture-are-changing-the-drinking-experience/article71508514.ece",
+      "feed_id": "hindu_hyderabad",
       "feed_ids": [
-        "telangana_today"
+        "hindu_hyderabad"
       ],
-      "feed_name": "Telangana Today",
+      "feed_name": "The Hindu Hyderabad",
       "feed_names": [
-        "Telangana Today"
+        "The Hindu Hyderabad"
       ],
       "matched_terms": [
-        "Indian"
+        "India"
       ],
       "occurrence_id": "occ_000043",
-      "original_url": "https://telanganatoday.com/gulveer-singh-bags-silver-becomes-first-indian-to-win-two-10000m-medals",
-      "pipeline_item_id": "56cee09853ec845a",
-      "published_at": "2026-09-25T12:52:21Z",
-      "title": "Gulveer Singh bags silver, becomes first Indian to win two 10,000m medals",
+      "original_url": "https://www.thehindu.com/life-and-style/homes-and-gardens/inside-south-indias-bars-how-design-and-architecture-are-changing-the-drinking-experience/article71508514.ece",
+      "pipeline_item_id": "4dec2e9696ce3df3",
+      "published_at": "2026-09-26T02:05:53Z",
+      "title": "Inside South India’s bars: How design and architecture are changing the drinking experience",
       "topic": "India developments",
       "topic_id": "india_developments",
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://telanganatoday.com/opinion-rethink-indias-health-universities",
+      "canonical_url": "https://telanganatoday.com/india-slams-bizarre-attack-by-puppet-of-pakistans-military-at-un",
       "feed_id": "telangana_today",
       "feed_ids": [
         "telangana_today"
@@ -81,32 +81,32 @@
         "India"
       ],
       "occurrence_id": "occ_000044",
-      "original_url": "https://telanganatoday.com/opinion-rethink-indias-health-universities",
-      "pipeline_item_id": "6f0317047cc88618",
-      "published_at": "2026-09-25T15:40:49Z",
-      "title": "Opinion: Rethink India’s Health Universities",
+      "original_url": "https://telanganatoday.com/india-slams-bizarre-attack-by-puppet-of-pakistans-military-at-un",
+      "pipeline_item_id": "a2f54153cb4850e8",
+      "published_at": "2026-09-26T04:17:39Z",
+      "title": "India slams ‘bizarre’ attack by ‘puppet’ of Pakistan’s military at UN",
       "topic": "India developments",
       "topic_id": "india_developments",
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://telanganatoday.com/morkel-backs-nitish-to-develop-into-key-all-rounder-for-india",
-      "feed_id": "telangana_today",
+      "canonical_url": "https://yourstory.com/2026/09/indias-shooting-stars-win-gold-at-asian-games",
+      "feed_id": "yourstory",
       "feed_ids": [
-        "telangana_today"
+        "yourstory"
       ],
-      "feed_name": "Telangana Today",
+      "feed_name": "YourStory",
       "feed_names": [
-        "Telangana Today"
+        "YourStory"
       ],
       "matched_terms": [
         "India"
       ],
       "occurrence_id": "occ_000045",
-      "original_url": "https://telanganatoday.com/morkel-backs-nitish-to-develop-into-key-all-rounder-for-india",
-      "pipeline_item_id": "96a1d91e70ac4570",
-      "published_at": "2026-09-25T14:30:15Z",
-      "title": "Morkel backs Nitish to develop into key all-rounder for India",
+      "original_url": "https://yourstory.com/2026/09/indias-shooting-stars-win-gold-at-asian-games",
+      "pipeline_item_id": "c267c8ed92fe441f",
+      "published_at": "2026-09-26T02:00:00Z",
+      "title": "India’s shooting stars win gold at Asian Games; Meet the solar didis of Bihar",
       "topic": "India developments",
       "topic_id": "india_developments",
       "topic_lane": "review"

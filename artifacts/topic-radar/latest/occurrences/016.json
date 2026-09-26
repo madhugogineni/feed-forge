@@ -2,29 +2,73 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://www.thehindu.com/news/national/telangana/abvp-condemns-screening-of-documentary-on-umar-khalid-at-nalsar/article71509407.ece",
-      "feed_id": "hindu_telangana",
+      "canonical_url": "https://telanganatoday.com/telangana-primary-teachers-demand-amendments-to-go-ms-no-25",
+      "feed_id": "telangana_today",
       "feed_ids": [
-        "hindu_telangana"
+        "telangana_today"
       ],
-      "feed_name": "The Hindu Telangana",
+      "feed_name": "Telangana Today",
       "feed_names": [
-        "The Hindu Telangana"
+        "Telangana Today"
       ],
       "matched_terms": [
-        "source:hindu_telangana"
+        "Telangana"
       ],
       "occurrence_id": "occ_000076",
-      "original_url": "https://www.thehindu.com/news/national/telangana/abvp-condemns-screening-of-documentary-on-umar-khalid-at-nalsar/article71509407.ece",
-      "pipeline_item_id": "81cc1b47327c7415",
-      "published_at": "2026-09-25T16:29:14Z",
-      "title": "ABVP condemns screening of documentary on Umar Khalid at NALSAR",
+      "original_url": "https://telanganatoday.com/telangana-primary-teachers-demand-amendments-to-go-ms-no-25",
+      "pipeline_item_id": "02adceaecd2b52be",
+      "published_at": "2026-09-25T19:05:40Z",
+      "title": "Telangana primary teachers demand amendments to GO Ms No. 25",
       "topic": "Telangana and Hyderabad developments",
       "topic_id": "telangana_hyderabad",
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://www.thehindu.com/news/national/telangana/revanth-says-fight-for-india-is-between-gandhi-parivar-and-sangh-parivar/article71509596.ece",
+      "canonical_url": "https://telanganatoday.com/traffic-restrictions-to-continue-in-hyderabad-on-major-ganesh-immersion-routes-on-saturday",
+      "feed_id": "telangana_today",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_name": "Telangana Today",
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "matched_terms": [
+        "Hyderabad"
+      ],
+      "occurrence_id": "occ_000077",
+      "original_url": "https://telanganatoday.com/traffic-restrictions-to-continue-in-hyderabad-on-major-ganesh-immersion-routes-on-saturday",
+      "pipeline_item_id": "36216204d354b34e",
+      "published_at": "2026-09-26T02:50:32Z",
+      "title": "Traffic restrictions to continue in Hyderabad on major Ganesh immersion routes on Saturday",
+      "topic": "Telangana and Hyderabad developments",
+      "topic_id": "telangana_hyderabad",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://www.thehindu.com/life-and-style/homes-and-gardens/inside-south-indias-bars-how-design-and-architecture-are-changing-the-drinking-experience/article71508514.ece",
+      "feed_id": "hindu_hyderabad",
+      "feed_ids": [
+        "hindu_hyderabad"
+      ],
+      "feed_name": "The Hindu Hyderabad",
+      "feed_names": [
+        "The Hindu Hyderabad"
+      ],
+      "matched_terms": [
+        "source:hindu_hyderabad"
+      ],
+      "occurrence_id": "occ_000078",
+      "original_url": "https://www.thehindu.com/life-and-style/homes-and-gardens/inside-south-indias-bars-how-design-and-architecture-are-changing-the-drinking-experience/article71508514.ece",
+      "pipeline_item_id": "4dec2e9696ce3df3",
+      "published_at": "2026-09-26T02:05:53Z",
+      "title": "Inside South India’s bars: How design and architecture are changing the drinking experience",
+      "topic": "Telangana and Hyderabad developments",
+      "topic_id": "telangana_hyderabad",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://www.thehindu.com/news/national/telangana/telangana-sir-over-60-sir-notices-issued-in-hyderabad-periphery-below-35-in-hyderabad-district/article71508405.ece",
       "feed_id": "hindu_telangana",
       "feed_ids": [
         "hindu_telangana"
@@ -34,19 +78,21 @@
         "The Hindu Telangana"
       ],
       "matched_terms": [
+        "Hyderabad",
+        "Telangana",
         "source:hindu_telangana"
       ],
-      "occurrence_id": "occ_000077",
-      "original_url": "https://www.thehindu.com/news/national/telangana/revanth-says-fight-for-india-is-between-gandhi-parivar-and-sangh-parivar/article71509596.ece",
-      "pipeline_item_id": "aa9a4b5b2e728248",
-      "published_at": "2026-09-25T16:01:05Z",
-      "title": "Revanth says fight for India is between ‘Gandhi Parivar and Sangh Parivar’",
+      "occurrence_id": "occ_000079",
+      "original_url": "https://www.thehindu.com/news/national/telangana/telangana-sir-over-60-sir-notices-issued-in-hyderabad-periphery-below-35-in-hyderabad-district/article71508405.ece",
+      "pipeline_item_id": "56d15868bb2d898e",
+      "published_at": "2026-09-26T02:54:54Z",
+      "title": "Telangana SIR: Over 60% SIR notices issued in Hyderabad periphery, below 35% in Hyderabad district",
       "topic": "Telangana and Hyderabad developments",
       "topic_id": "telangana_hyderabad",
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://www.thehindu.com/news/cities/Hyderabad/zaheerabad-industrial-smart-city-project-spv-office-opened/article71509540.ece",
+      "canonical_url": "https://www.thehindu.com/news/national/telangana/a-laddu-mirroring-the-changing-fortunes-of-balapur/article71509261.ece",
       "feed_id": "hindu_hyderabad",
       "feed_ids": [
         "hindu_hyderabad",
@@ -61,55 +107,11 @@
         "source:hindu_hyderabad",
         "source:hindu_telangana"
       ],
-      "occurrence_id": "occ_000078",
-      "original_url": "https://www.thehindu.com/news/cities/Hyderabad/zaheerabad-industrial-smart-city-project-spv-office-opened/article71509540.ece",
-      "pipeline_item_id": "d4261ee33cfb0e19",
-      "published_at": "2026-09-25T15:21:25Z",
-      "title": "Zaheerabad Industrial Smart City project SPV office opened",
-      "topic": "Telangana and Hyderabad developments",
-      "topic_id": "telangana_hyderabad",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://www.thehindu.com/news/national/telangana/skill-based-short-term-courses-need-of-the-hour-says-madhusudan-sai/article71509610.ece",
-      "feed_id": "hindu_telangana",
-      "feed_ids": [
-        "hindu_telangana"
-      ],
-      "feed_name": "The Hindu Telangana",
-      "feed_names": [
-        "The Hindu Telangana"
-      ],
-      "matched_terms": [
-        "source:hindu_telangana"
-      ],
-      "occurrence_id": "occ_000079",
-      "original_url": "https://www.thehindu.com/news/national/telangana/skill-based-short-term-courses-need-of-the-hour-says-madhusudan-sai/article71509610.ece",
-      "pipeline_item_id": "d93004f4fda92ac1",
-      "published_at": "2026-09-25T16:01:42Z",
-      "title": "Skill-based short-term courses need of the hour, says Madhusudan Sai",
-      "topic": "Telangana and Hyderabad developments",
-      "topic_id": "telangana_hyderabad",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://www.thehindu.com/news/national/telangana/file-counter-affidavit-in-plea-over-local-candidate-status-in-mds-admissions-hc-to-government/article71509854.ece",
-      "feed_id": "hindu_telangana",
-      "feed_ids": [
-        "hindu_telangana"
-      ],
-      "feed_name": "The Hindu Telangana",
-      "feed_names": [
-        "The Hindu Telangana"
-      ],
-      "matched_terms": [
-        "source:hindu_telangana"
-      ],
       "occurrence_id": "occ_000080",
-      "original_url": "https://www.thehindu.com/news/national/telangana/file-counter-affidavit-in-plea-over-local-candidate-status-in-mds-admissions-hc-to-government/article71509854.ece",
-      "pipeline_item_id": "e2f10cb1c497cc93",
-      "published_at": "2026-09-25T16:16:20Z",
-      "title": "File counter affidavit in plea over local candidate status in MDS admissions: HC to government",
+      "original_url": "https://www.thehindu.com/news/national/telangana/a-laddu-mirroring-the-changing-fortunes-of-balapur/article71509261.ece",
+      "pipeline_item_id": "5eef4670edc23eea",
+      "published_at": "2026-09-25T19:31:27Z",
+      "title": "A laddu mirroring the changing fortunes of Balapur",
       "topic": "Telangana and Hyderabad developments",
       "topic_id": "telangana_hyderabad",
       "topic_lane": "review"

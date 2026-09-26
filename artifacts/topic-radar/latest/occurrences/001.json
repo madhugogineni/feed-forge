@@ -24,28 +24,6 @@
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://9to5google.com/2026/09/24/google-says-gemini-4-release-is-coming-as-soon-as-possible",
-      "feed_id": "9to5google",
-      "feed_ids": [
-        "9to5google"
-      ],
-      "feed_name": "9to5Google",
-      "feed_names": [
-        "9to5Google"
-      ],
-      "matched_terms": [
-        "Gemini"
-      ],
-      "occurrence_id": "occ_000002",
-      "original_url": "https://9to5google.com/2026/09/24/google-says-gemini-4-release-is-coming-as-soon-as-possible",
-      "pipeline_item_id": "38e3d4810e4bd68e",
-      "published_at": "2026-09-24T14:45:00Z",
-      "title": "Google says Gemini 4 release is coming ‘as soon as possible’",
-      "topic": "AI development and products",
-      "topic_id": "ai_development",
-      "topic_lane": "review"
-    },
-    {
       "canonical_url": "https://www.androidauthority.com/gemini-dark-mode-3715309",
       "feed_id": "android_authority",
       "feed_ids": [
@@ -58,7 +36,7 @@
       "matched_terms": [
         "Gemini"
       ],
-      "occurrence_id": "occ_000003",
+      "occurrence_id": "occ_000002",
       "original_url": "https://www.androidauthority.com/gemini-dark-mode-3715309",
       "pipeline_item_id": "4ab986876fd741b6",
       "published_at": "2026-09-24T21:45:49Z",
@@ -80,7 +58,7 @@
       "matched_terms": [
         "Gemini"
       ],
-      "occurrence_id": "occ_000004",
+      "occurrence_id": "occ_000003",
       "original_url": "https://9to5google.com/2026/09/24/pixel-11-call-for-me",
       "pipeline_item_id": "4c895cc28c48d330",
       "published_at": "2026-09-24T16:00:00Z",
@@ -90,23 +68,45 @@
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://developer.nvidia.com/blog/efficient-moe-training-for-biological-foundation-models",
-      "feed_id": "nvidia_developer",
+      "canonical_url": "https://openai.com/index/proaction",
+      "feed_id": "openai",
       "feed_ids": [
-        "nvidia_developer"
+        "openai"
       ],
-      "feed_name": "NVIDIA Developer Blog",
+      "feed_name": "OpenAI News",
       "feed_names": [
-        "NVIDIA Developer Blog"
+        "OpenAI News"
       ],
       "matched_terms": [
-        "source:nvidia_developer"
+        "source:openai"
+      ],
+      "occurrence_id": "occ_000004",
+      "original_url": "https://openai.com/index/proaction",
+      "pipeline_item_id": "9de028fbe46cac8b",
+      "published_at": "2026-09-25T19:00:00Z",
+      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+      "topic": "AI development and products",
+      "topic_id": "ai_development",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://www.androidauthority.com/gemini-live-avatar-3715280",
+      "feed_id": "android_authority",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_name": "Android Authority",
+      "feed_names": [
+        "Android Authority"
+      ],
+      "matched_terms": [
+        "Gemini"
       ],
       "occurrence_id": "occ_000005",
-      "original_url": "https://developer.nvidia.com/blog/efficient-moe-training-for-biological-foundation-models",
-      "pipeline_item_id": "6ff053dd07249040",
-      "published_at": "2026-09-24T15:00:00Z",
-      "title": "Efficient MoE Training for Biological Foundation Models",
+      "original_url": "https://www.androidauthority.com/gemini-live-avatar-3715280",
+      "pipeline_item_id": "bbce26a7696550ad",
+      "published_at": "2026-09-24T21:03:59Z",
+      "title": "Google’s new Gemini Live Avatars want to make support bots feel more human",
       "topic": "AI development and products",
       "topic_id": "ai_development",
       "topic_lane": "review"

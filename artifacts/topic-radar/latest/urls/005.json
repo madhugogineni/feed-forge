@@ -2,13 +2,13 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://livefromalounge.com/air-india-maharaja-club-rolls-out-offer-which-earns-you-up-to-30-points-inr-100-per-flight",
-      "domain": "livefromalounge.com",
+      "canonical_url": "https://inc42.com/buzz/from-ultraviolette-automotive-to-galaxeye-indian-startups-raised-over-203-mn-this-week",
+      "domain": "inc42.com",
       "feed_ids": [
-        "livefromalounge"
+        "inc42"
       ],
       "feed_names": [
-        "Live from a Lounge"
+        "Inc42"
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
@@ -33,7 +33,7 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000084"
+        "occ_000086"
       ],
       "topic_ids": [
         "travel_lifestyle"
@@ -54,7 +54,7 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000083"
+        "occ_000085"
       ],
       "topic_ids": [
         "travel_lifestyle"
@@ -86,23 +86,23 @@
       "url_id": "url_000024"
     },
     {
-      "canonical_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQR1FOaExKSE5DN1R0SFpvckxYVmdJWW1kdHVTVWpwZ09vZnFpb0tPd0ZhdjFldUJOZmhVaWZ0dDFsZGxpTURLVkRZQnJRcl9waGFhaTdJMFY4Z09ubHBGRjNGM3FvcV83TDdaYUFwb01iQVlNZ3JpVDlSWDJKVVM0TGVxRW9FZjkwbU1Wa2taX3dxZGFXTW4xTENZcU9kcWJZMGNUd0lkM3A4THdIRGt1LWlkUy1pTk1Ib01HcVROV1lFSDJUMmdzZlRTRlJIbjRhbWdGUXZVc2M?oc=5",
+      "canonical_url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxQcXBCa2ZiMk9rRUdBOU5hRUFfVG9TVGlYYjhjVHlDYWRGMWNSQ3k1UU03U3drOGlXYUJPb1AyOGU3bE0zZ2stVGVFSERicmdTcGNLR25BdDBvRkJFU1pJdVp5dFF3dFpJQk5ObVE4NU1RRTdrbWxNTUhSTmZ0VS1kbXgtaE10d3JWQ3NtbngwZFlrZnlweEM5QkdHSlpOLXEzX3k3eGR3cW9VUXFHQlYwTmNfbVJERGN1RGNKblplU2lMUWdBakgxbDVpQzFrY3doOVpLTl9vVnh6ak5fVUZXRVVQQUc4NmJDMkZTNmRUc1dqeUo1eHRaZGxEeUMtRV9YTlU5dC1zQWROM0tqckRaWWhoc0szYWsxWk9xbk9CZ0UtbVBQMFBzTGp4dHdJeWFWZ3Vrd0JQZWRKUS1nTW41WEFIdnFHUDhJczg1N3czLWhrQdIB1wJBVV95cUxPQU9jeTFadzFBTUVqbzg1bS1vemp6UWhyT2JzaEdmYnIzV09CZDFzMUVQb3JKLUdTY0xRcVR1SDVoemNEZWQzVnVESHpRcVR4YTNITW5ueG5VbE9xb1dvcEdmQUY2LTZRQ0RpSEQ1cFdZT0ZSTlV0X091MVdoc0ZnWmdkclUyTmllMERtMmpNQzgyZXN5Y3VpOFdEM3Fmc2pzY212V0JxV2lyVjh6bFBEWklJMDhPMkFvdERvNEhmMlJOV0NJamVjblVPVTFQYWlyN3gzQUpLOHdTbVFnVGh2YkZpaHA1TW5Eb0FUc2JsbEJXa1NWWURfWVpwNEdIZExyT1pENEZ3SVZ0MXZ6dy12Q3Y3b3BMLUZETjZod2pvQm5uR0ItU083a2FFOFY2eFlzSXk3VGdNTnZmNU5WZy1QdjByQjh4ZE5jTm11SGxYLUF0c1c5eEln?oc=5",
       "domain": "news.google.com",
       "feed_ids": [
-        "google_news_digital_brands"
+        "google_news_device_brands"
       ],
       "feed_names": [
-        "Google News — Indian digital brands"
+        "Google News — Indian device brands"
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000051"
+        "occ_000048"
       ],
       "topic_ids": [
-        "indian_brands"
+        "india_developments"
       ],
       "topics": [
-        "Indian consumer brands and products"
+        "India developments"
       ],
       "url_id": "url_000025"
     }

@@ -2,23 +2,23 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1000784/meta-muse-filesystem",
-      "domain": "www.theverge.com",
+      "canonical_url": "https://www.thehindu.com/news/national/telangana/telangana-sir-over-60-sir-notices-issued-in-hyderabad-periphery-below-35-in-hyderabad-district/article71508405.ece",
+      "domain": "www.thehindu.com",
       "feed_ids": [
-        "verge"
+        "hindu_telangana"
       ],
       "feed_names": [
-        "The Verge"
+        "The Hindu Telangana"
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000015"
+        "occ_000079"
       ],
       "topic_ids": [
-        "big_tech"
+        "telangana_hyderabad"
       ],
       "topics": [
-        "Major technology companies"
+        "Telangana and Hyderabad developments"
       ],
       "url_id": "url_000076"
     },
@@ -33,7 +33,7 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000067"
+        "occ_000070"
       ],
       "topic_ids": [
         "tech_software"
@@ -42,48 +42,6 @@
         "Technology, software and gadgets"
       ],
       "url_id": "url_000077"
-    },
-    {
-      "canonical_url": "https://www.theverge.com/tech/1000772/apple-code-leak-homepod-mini-2-ipad-mini-8-apple-tv-4k",
-      "domain": "www.theverge.com",
-      "feed_ids": [
-        "verge"
-      ],
-      "feed_names": [
-        "The Verge"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000012"
-      ],
-      "topic_ids": [
-        "big_tech"
-      ],
-      "topics": [
-        "Major technology companies"
-      ],
-      "url_id": "url_000078"
-    },
-    {
-      "canonical_url": "https://www.theverge.com/tech/1000794/tesla-optimus-production-issues-hands",
-      "domain": "www.theverge.com",
-      "feed_ids": [
-        "verge"
-      ],
-      "feed_names": [
-        "The Verge"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000014"
-      ],
-      "topic_ids": [
-        "big_tech"
-      ],
-      "topics": [
-        "Major technology companies"
-      ],
-      "url_id": "url_000079"
     },
     {
       "canonical_url": "https://yourstory.com/2026/09/akamai-lands-116b-cloud-computing-deal-with-anthropic",
@@ -96,13 +54,55 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000008"
+        "occ_000007"
       ],
       "topic_ids": [
         "ai_development"
       ],
       "topics": [
         "AI development and products"
+      ],
+      "url_id": "url_000078"
+    },
+    {
+      "canonical_url": "https://yourstory.com/2026/09/indias-shooting-stars-win-gold-at-asian-games",
+      "domain": "yourstory.com",
+      "feed_ids": [
+        "yourstory"
+      ],
+      "feed_names": [
+        "YourStory"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000045"
+      ],
+      "topic_ids": [
+        "india_developments"
+      ],
+      "topics": [
+        "India developments"
+      ],
+      "url_id": "url_000079"
+    },
+    {
+      "canonical_url": "https://yourstory.com/2026/09/mdr-on-upi-payments-above-rs-2000-will-not-be-passed-on-to-consumers-govt-sources",
+      "domain": "yourstory.com",
+      "feed_ids": [
+        "yourstory"
+      ],
+      "feed_names": [
+        "YourStory"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000024"
+      ],
+      "topic_ids": [
+        "credit_cards_payments"
+      ],
+      "topics": [
+        "Credit cards, rewards and payments"
       ],
       "url_id": "url_000080"
     }

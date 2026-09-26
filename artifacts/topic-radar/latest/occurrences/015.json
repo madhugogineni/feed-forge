@@ -2,7 +2,29 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://9to5mac.com/2026/09/25/apple-wallet-in-ios-27-adds-feature-thats-been-on-my-wishlist-for-years",
+      "canonical_url": "https://www.androidauthority.com/best-pixel-11-pro-alternative-poll-results-3715761",
+      "feed_id": "android_authority",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_name": "Android Authority",
+      "feed_names": [
+        "Android Authority"
+      ],
+      "matched_terms": [
+        "Pixel"
+      ],
+      "occurrence_id": "occ_000071",
+      "original_url": "https://www.androidauthority.com/best-pixel-11-pro-alternative-poll-results-3715761",
+      "pipeline_item_id": "6cac5001df9cca3d",
+      "published_at": "2026-09-25T21:19:35Z",
+      "title": "You told us your favorite Pixel 11 Pro alternative, and it’s not another Pixel",
+      "topic": "Technology, software and gadgets",
+      "topic_id": "tech_software",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://9to5mac.com/2026/09/25/daily-september-25-2026",
       "feed_id": "9to5mac",
       "feed_ids": [
         "9to5mac"
@@ -14,104 +36,79 @@
       "matched_terms": [
         "iOS"
       ],
-      "occurrence_id": "occ_000071",
-      "original_url": "https://9to5mac.com/2026/09/25/apple-wallet-in-ios-27-adds-feature-thats-been-on-my-wishlist-for-years",
-      "pipeline_item_id": "bf05dd1cd1b98d27",
-      "published_at": "2026-09-25T13:10:12Z",
-      "title": "Apple Wallet in iOS 27 adds feature that’s been on my wishlist for years",
-      "topic": "Technology, software and gadgets",
-      "topic_id": "tech_software",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://9to5mac.com/2026/09/25/apple-has-big-october-coming-for-new-hardware-and-software-heres-the-lineup",
-      "feed_id": "9to5mac",
-      "feed_ids": [
-        "9to5mac"
-      ],
-      "feed_name": "9to5Mac",
-      "feed_names": [
-        "9to5Mac"
-      ],
-      "matched_terms": [
-        "software"
-      ],
       "occurrence_id": "occ_000072",
-      "original_url": "https://9to5mac.com/2026/09/25/apple-has-big-october-coming-for-new-hardware-and-software-heres-the-lineup",
-      "pipeline_item_id": "c38f681149d0c077",
-      "published_at": "2026-09-25T14:44:02Z",
-      "title": "Apple has big October coming for new hardware and software, here’s the lineup",
+      "original_url": "https://9to5mac.com/2026/09/25/daily-september-25-2026",
+      "pipeline_item_id": "7822a4f56acdd0cb",
+      "published_at": "2026-09-25T17:06:46Z",
+      "title": "9to5Mac Daily: September 25, 2026 – New AirPods features, iOS 27.2 tidbits",
       "topic": "Technology, software and gadgets",
       "topic_id": "tech_software",
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://9to5mac.com/2026/09/25/iphone-duo-video-shows-left-handed-use-for-new-model",
-      "feed_id": "9to5mac",
+      "canonical_url": "https://www.androidauthority.com/google-health-5-09-3715801",
+      "feed_id": "android_authority",
       "feed_ids": [
-        "9to5mac"
+        "android_authority"
       ],
-      "feed_name": "9to5Mac",
+      "feed_name": "Android Authority",
       "feed_names": [
-        "9to5Mac"
+        "Android Authority"
       ],
       "matched_terms": [
-        "iPhone"
+        "Pixel"
       ],
       "occurrence_id": "occ_000073",
-      "original_url": "https://9to5mac.com/2026/09/25/iphone-duo-video-shows-left-handed-use-for-new-model",
-      "pipeline_item_id": "d40abfdf5adccf1d",
-      "published_at": "2026-09-25T13:45:26Z",
-      "title": "iPhone Duo video shows left-handed use for new model",
+      "original_url": "https://www.androidauthority.com/google-health-5-09-3715801",
+      "pipeline_item_id": "a10328151e5b2c2d",
+      "published_at": "2026-09-25T21:41:11Z",
+      "title": "Google Health 5.09 arrives with more than just your new Pixel Watch features",
       "topic": "Technology, software and gadgets",
       "topic_id": "tech_software",
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://www.thehindu.com/news/national/telangana/citu-backs-twu-swf-combine-in-tgsrtc-union-elections-combine-to-hold-public-meeting-in-khammam-on-september-29/article71509502.ece",
-      "feed_id": "hindu_hyderabad",
+      "canonical_url": "https://www.androidauthority.com/nitrodeck-dual-screen-update-3715691",
+      "feed_id": "android_authority",
       "feed_ids": [
-        "hindu_hyderabad",
-        "hindu_telangana"
+        "android_authority"
       ],
-      "feed_name": "The Hindu Hyderabad",
+      "feed_name": "Android Authority",
       "feed_names": [
-        "The Hindu Hyderabad",
-        "The Hindu Telangana"
+        "Android Authority"
       ],
       "matched_terms": [
-        "source:hindu_hyderabad",
-        "source:hindu_telangana"
+        "Android"
       ],
       "occurrence_id": "occ_000074",
-      "original_url": "https://www.thehindu.com/news/national/telangana/citu-backs-twu-swf-combine-in-tgsrtc-union-elections-combine-to-hold-public-meeting-in-khammam-on-september-29/article71509502.ece",
-      "pipeline_item_id": "3499c0f68d3e37a7",
-      "published_at": "2026-09-25T15:23:59Z",
-      "title": "CITU backs TWU-SWF combine in TGSRTC union elections, combine to hold public meeting in Khammam on September 29",
-      "topic": "Telangana and Hyderabad developments",
-      "topic_id": "telangana_hyderabad",
+      "original_url": "https://www.androidauthority.com/nitrodeck-dual-screen-update-3715691",
+      "pipeline_item_id": "a6683fc88bf255f8",
+      "published_at": "2026-09-25T17:23:28Z",
+      "title": "This Nintendo DS-themed launcher is coming to dual-screen Android handhelds",
+      "topic": "Technology, software and gadgets",
+      "topic_id": "tech_software",
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://www.thehindu.com/news/national/telangana/teachers-protest-against-go-25-seek-reduction-in-workload/article71509665.ece",
-      "feed_id": "hindu_telangana",
+      "canonical_url": "https://9to5google.com/2026/09/25/android-dev-summit-android-18",
+      "feed_id": "9to5google",
       "feed_ids": [
-        "hindu_telangana"
+        "9to5google"
       ],
-      "feed_name": "The Hindu Telangana",
+      "feed_name": "9to5Google",
       "feed_names": [
-        "The Hindu Telangana"
+        "9to5Google"
       ],
       "matched_terms": [
-        "source:hindu_telangana"
+        "Android"
       ],
       "occurrence_id": "occ_000075",
-      "original_url": "https://www.thehindu.com/news/national/telangana/teachers-protest-against-go-25-seek-reduction-in-workload/article71509665.ece",
-      "pipeline_item_id": "5aaf521f5a196ddc",
-      "published_at": "2026-09-25T15:42:00Z",
-      "title": "Teachers protest against GO 25, seek reduction in workload",
-      "topic": "Telangana and Hyderabad developments",
-      "topic_id": "telangana_hyderabad",
+      "original_url": "https://9to5google.com/2026/09/25/android-dev-summit-android-18",
+      "pipeline_item_id": "e0ec51bd87cb22a5",
+      "published_at": "2026-09-25T19:40:55Z",
+      "title": "Google brings back Android Dev Summit with Android 18 ‘powerful new graphics features’ tease",
+      "topic": "Technology, software and gadgets",
+      "topic_id": "tech_software",
       "topic_lane": "review"
     }
   ],

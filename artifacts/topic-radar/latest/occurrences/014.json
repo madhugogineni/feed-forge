@@ -2,23 +2,89 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://www.androidauthority.com/pixel-buds-call-mute-3715588",
-      "feed_id": "android_authority",
+      "canonical_url": "https://9to5mac.com/2026/09/23/apple-increases-interest-rate-for-apple-card-savings-account",
+      "feed_id": "9to5mac",
       "feed_ids": [
-        "android_authority"
+        "9to5mac"
       ],
-      "feed_name": "Android Authority",
+      "feed_name": "9to5Mac",
       "feed_names": [
-        "Android Authority"
+        "9to5Mac"
       ],
       "matched_terms": [
-        "Pixel"
+        "savings account"
       ],
       "occurrence_id": "occ_000066",
-      "original_url": "https://www.androidauthority.com/pixel-buds-call-mute-3715588",
-      "pipeline_item_id": "1fdf91e4ecc079e5",
-      "published_at": "2026-09-25T15:31:34Z",
-      "title": "Pixel Buds are working on a new touch control for calls",
+      "original_url": "https://9to5mac.com/2026/09/23/apple-increases-interest-rate-for-apple-card-savings-account",
+      "pipeline_item_id": "a471b0129af74adf",
+      "published_at": "2026-09-23T11:18:16Z",
+      "title": "Apple increases interest rate for Apple Card Savings Account",
+      "topic": "Personal finance and investing",
+      "topic_id": "personal_finance",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNaTZ6THFmYnl1Y3Z2U052QjJsUjNqcEdUUnljYTA4N0k3bFpqMmlWNk5ST0F3VXpDclU3Z01IMTJsTXBtMXB0ZE1sUE5iZzNwV0dVSC1nRjJ4VktGVTVhRjBORGF3aFpqc1BEUXJ1MUQ4elM2dWRQQ2hKVUY0TU5hMlprRVlTTkE4Mm9tdVVEaUpQMEZwcHQ0RDdGUXdzWm5pOFUyeEZ3dnlzSEstWTJsWnVQVHJ6LXBhaDltb0Ywam1GSjR2ekd0bg?oc=5",
+      "feed_id": "google_news_device_brands",
+      "feed_ids": [
+        "google_news_device_brands"
+      ],
+      "feed_name": "Google News — Indian device brands",
+      "feed_names": [
+        "Google News — Indian device brands"
+      ],
+      "matched_terms": [
+        "investing"
+      ],
+      "occurrence_id": "occ_000067",
+      "original_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNaTZ6THFmYnl1Y3Z2U052QjJsUjNqcEdUUnljYTA4N0k3bFpqMmlWNk5ST0F3VXpDclU3Z01IMTJsTXBtMXB0ZE1sUE5iZzNwV0dVSC1nRjJ4VktGVTVhRjBORGF3aFpqc1BEUXJ1MUQ4elM2dWRQQ2hKVUY0TU5hMlprRVlTTkE4Mm9tdVVEaUpQMEZwcHQ0RDdGUXdzWm5pOFUyeEZ3dnlzSEstWTJsWnVQVHJ6LXBhaDltb0Ywam1GSjR2ekd0bg?oc=5",
+      "pipeline_item_id": "c1e3b8c0248388a4",
+      "published_at": "2026-09-25T19:19:17Z",
+      "title": "Raymond James notes boat registrations fall as marine demand weakens By Investing.com - Investing.com India",
+      "topic": "Personal finance and investing",
+      "topic_id": "personal_finance",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://9to5mac.com/2026/09/25/apple-card-adds-new-feature-in-ios-27-that-every-card-should-have",
+      "feed_id": "9to5mac",
+      "feed_ids": [
+        "9to5mac"
+      ],
+      "feed_name": "9to5Mac",
+      "feed_names": [
+        "9to5Mac"
+      ],
+      "matched_terms": [
+        "iOS"
+      ],
+      "occurrence_id": "occ_000068",
+      "original_url": "https://9to5mac.com/2026/09/25/apple-card-adds-new-feature-in-ios-27-that-every-card-should-have",
+      "pipeline_item_id": "2d07dc636fe0f97e",
+      "published_at": "2026-09-25T19:19:06Z",
+      "title": "Apple Card adds new feature in iOS 27 that every card should have",
+      "topic": "Technology, software and gadgets",
+      "topic_id": "tech_software",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://9to5mac.com/2026/09/25/testflight-now-works-in-landscape-as-apple-prepares-for-iphone-duo",
+      "feed_id": "9to5mac",
+      "feed_ids": [
+        "9to5mac"
+      ],
+      "feed_name": "9to5Mac",
+      "feed_names": [
+        "9to5Mac"
+      ],
+      "matched_terms": [
+        "iPhone"
+      ],
+      "occurrence_id": "occ_000069",
+      "original_url": "https://9to5mac.com/2026/09/25/testflight-now-works-in-landscape-as-apple-prepares-for-iphone-duo",
+      "pipeline_item_id": "2e07099a9fbac898",
+      "published_at": "2026-09-25T22:19:53Z",
+      "title": "TestFlight now works in landscape as Apple prepares for iPhone Duo",
       "topic": "Technology, software and gadgets",
       "topic_id": "tech_software",
       "topic_lane": "review"
@@ -36,77 +102,11 @@
       "matched_terms": [
         "iPhone"
       ],
-      "occurrence_id": "occ_000067",
+      "occurrence_id": "occ_000070",
       "original_url": "https://www.theverge.com/tech/1000729/moment-pro-blackmagic-camera-ii-ios-app-iphone-18-pro-max-aperature-camera",
       "pipeline_item_id": "2f1cb0ea1ba12a23",
       "published_at": "2026-09-25T17:23:30Z",
       "title": "These camera apps give you more control over the iPhone 18 Pro’s aperture",
-      "topic": "Technology, software and gadgets",
-      "topic_id": "tech_software",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://www.androidauthority.com/new-ai-apps-services-ai-generated-image-c2pa-3715399",
-      "feed_id": "android_authority",
-      "feed_ids": [
-        "android_authority"
-      ],
-      "feed_name": "Android Authority",
-      "feed_names": [
-        "Android Authority"
-      ],
-      "matched_terms": [
-        "Android"
-      ],
-      "occurrence_id": "occ_000068",
-      "original_url": "https://www.androidauthority.com/new-ai-apps-services-ai-generated-image-c2pa-3715399",
-      "pipeline_item_id": "3c8bb54c0fc19865",
-      "published_at": "2026-09-25T14:15:31Z",
-      "title": "If you can’t tell what’s real or AI-generated anymore, this Android app is here to help",
-      "topic": "Technology, software and gadgets",
-      "topic_id": "tech_software",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://9to5mac.com/2026/09/25/daily-september-25-2026",
-      "feed_id": "9to5mac",
-      "feed_ids": [
-        "9to5mac"
-      ],
-      "feed_name": "9to5Mac",
-      "feed_names": [
-        "9to5Mac"
-      ],
-      "matched_terms": [
-        "iOS"
-      ],
-      "occurrence_id": "occ_000069",
-      "original_url": "https://9to5mac.com/2026/09/25/daily-september-25-2026",
-      "pipeline_item_id": "7822a4f56acdd0cb",
-      "published_at": "2026-09-25T17:06:46Z",
-      "title": "9to5Mac Daily: September 25, 2026 – New AirPods features, iOS 27.2 tidbits",
-      "topic": "Technology, software and gadgets",
-      "topic_id": "tech_software",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://www.androidauthority.com/nitrodeck-dual-screen-update-3715691",
-      "feed_id": "android_authority",
-      "feed_ids": [
-        "android_authority"
-      ],
-      "feed_name": "Android Authority",
-      "feed_names": [
-        "Android Authority"
-      ],
-      "matched_terms": [
-        "Android"
-      ],
-      "occurrence_id": "occ_000070",
-      "original_url": "https://www.androidauthority.com/nitrodeck-dual-screen-update-3715691",
-      "pipeline_item_id": "a6683fc88bf255f8",
-      "published_at": "2026-09-25T17:23:28Z",
-      "title": "This Nintendo DS-themed launcher is coming to dual-screen Android handhelds",
       "topic": "Technology, software and gadgets",
       "topic_id": "tech_software",
       "topic_lane": "review"

@@ -2,6 +2,98 @@
   "record_count": 5,
   "records": [
     {
+      "canonical_url": "https://www.thehindu.com/news/cities/Hyderabad/engineering-students-suicide-turns-out-to-be-murder-two-arrested/article71502595.ece",
+      "domain": "www.thehindu.com",
+      "feed_ids": [
+        "hindu_hyderabad",
+        "hindu_telangana"
+      ],
+      "feed_names": [
+        "The Hindu Hyderabad",
+        "The Hindu Telangana"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000030"
+      ],
+      "topic_ids": [
+        "crime"
+      ],
+      "topics": [
+        "Crime news"
+      ],
+      "url_id": "url_000071"
+    },
+    {
+      "canonical_url": "https://www.thehindu.com/news/national/telangana/a-laddu-mirroring-the-changing-fortunes-of-balapur/article71509261.ece",
+      "domain": "www.thehindu.com",
+      "feed_ids": [
+        "hindu_hyderabad",
+        "hindu_telangana"
+      ],
+      "feed_names": [
+        "The Hindu Hyderabad",
+        "The Hindu Telangana"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000080"
+      ],
+      "topic_ids": [
+        "telangana_hyderabad"
+      ],
+      "topics": [
+        "Telangana and Hyderabad developments"
+      ],
+      "url_id": "url_000072"
+    },
+    {
+      "canonical_url": "https://www.thehindu.com/news/national/telangana/hyderabad-metro-rail-phase-i-takeover-phase-ii-expansion-hit-roadblock-as-funding-search-drags-on/article71509329.ece",
+      "domain": "www.thehindu.com",
+      "feed_ids": [
+        "hindu_hyderabad",
+        "hindu_telangana"
+      ],
+      "feed_names": [
+        "The Hindu Hyderabad",
+        "The Hindu Telangana"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000082"
+      ],
+      "topic_ids": [
+        "telangana_hyderabad"
+      ],
+      "topics": [
+        "Telangana and Hyderabad developments"
+      ],
+      "url_id": "url_000073"
+    },
+    {
+      "canonical_url": "https://www.thehindu.com/news/national/telangana/more-than-88000-ganesh-idols-immersed-in-telangana-dgp/article71509982.ece",
+      "domain": "www.thehindu.com",
+      "feed_ids": [
+        "hindu_hyderabad",
+        "hindu_telangana"
+      ],
+      "feed_names": [
+        "The Hindu Hyderabad",
+        "The Hindu Telangana"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000083"
+      ],
+      "topic_ids": [
+        "telangana_hyderabad"
+      ],
+      "topics": [
+        "Telangana and Hyderabad developments"
+      ],
+      "url_id": "url_000074"
+    },
+    {
       "canonical_url": "https://www.thehindu.com/news/national/telangana/pranay-murder-case-convict-dies-after-complaining-of-chest-pain-in-cherlapally-jail/article71505605.ece",
       "domain": "www.thehindu.com",
       "feed_ids": [
@@ -21,95 +113,6 @@
       ],
       "topics": [
         "Crime news"
-      ],
-      "url_id": "url_000071"
-    },
-    {
-      "canonical_url": "https://www.thehindu.com/news/national/telangana/revanth-says-fight-for-india-is-between-gandhi-parivar-and-sangh-parivar/article71509596.ece",
-      "domain": "www.thehindu.com",
-      "feed_ids": [
-        "hindu_telangana"
-      ],
-      "feed_names": [
-        "The Hindu Telangana"
-      ],
-      "occurrence_count": 2,
-      "occurrence_ids": [
-        "occ_000046",
-        "occ_000077"
-      ],
-      "topic_ids": [
-        "india_developments",
-        "telangana_hyderabad"
-      ],
-      "topics": [
-        "India developments",
-        "Telangana and Hyderabad developments"
-      ],
-      "url_id": "url_000072"
-    },
-    {
-      "canonical_url": "https://www.thehindu.com/news/national/telangana/skill-based-short-term-courses-need-of-the-hour-says-madhusudan-sai/article71509610.ece",
-      "domain": "www.thehindu.com",
-      "feed_ids": [
-        "hindu_telangana"
-      ],
-      "feed_names": [
-        "The Hindu Telangana"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000079"
-      ],
-      "topic_ids": [
-        "telangana_hyderabad"
-      ],
-      "topics": [
-        "Telangana and Hyderabad developments"
-      ],
-      "url_id": "url_000073"
-    },
-    {
-      "canonical_url": "https://www.thehindu.com/news/national/telangana/teachers-protest-against-go-25-seek-reduction-in-workload/article71509665.ece",
-      "domain": "www.thehindu.com",
-      "feed_ids": [
-        "hindu_telangana"
-      ],
-      "feed_names": [
-        "The Hindu Telangana"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000075"
-      ],
-      "topic_ids": [
-        "telangana_hyderabad"
-      ],
-      "topics": [
-        "Telangana and Hyderabad developments"
-      ],
-      "url_id": "url_000074"
-    },
-    {
-      "canonical_url": "https://www.thehindu.com/news/national/telangana/telangana-congress-state-wide-protests-against-ecis-sir-handling-on-september-28/article71507356.ece",
-      "domain": "www.thehindu.com",
-      "feed_ids": [
-        "hindu_hyderabad",
-        "hindu_telangana"
-      ],
-      "feed_names": [
-        "The Hindu Hyderabad",
-        "The Hindu Telangana"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000081"
-      ],
-      "topic_ids": [
-        "telangana_hyderabad"
-      ],
-      "topics": [
-        "Telangana and Hyderabad developments"
       ],
       "url_id": "url_000075"
     }
