@@ -2,7 +2,7 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://telanganatoday.com/india-to-face-afghanistan-in-asian-games-cricket-quarter-final-after-nepal-japan-washout",
+      "canonical_url": "https://telanganatoday.com/kabaddi-at-asian-games-india-complete-golden-double-with-twin-wins-over-iran",
       "domain": "telanganatoday.com",
       "feed_ids": [
         "telangana_today"
@@ -12,7 +12,7 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000042"
+        "occ_000048"
       ],
       "topic_ids": [
         "india_developments"
@@ -44,35 +44,12 @@
       "url_id": "url_000052"
     },
     {
-      "canonical_url": "https://telanganatoday.com/mahadev-betting-case-cbi-arrests-key-suspect-at-hyderabad-airport-after-arrival-from-dubai",
-      "domain": "telanganatoday.com",
-      "feed_ids": [
-        "telangana_today"
-      ],
-      "feed_names": [
-        "Telangana Today"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000087"
-      ],
-      "topic_ids": [
-        "travel_lifestyle"
-      ],
-      "topics": [
-        "Travel and lifestyle"
-      ],
-      "url_id": "url_000053"
-    },
-    {
       "canonical_url": "https://telanganatoday.com/opinion-from-encounters-to-custodial-deaths-is-india-finding-new-ways-to-hide-extrajudicial-killings",
       "domain": "telanganatoday.com",
       "feed_ids": [
-        "telangana_today",
         "telangana_today_crime"
       ],
       "feed_names": [
-        "Telangana Today",
         "Telangana Today Crime"
       ],
       "occurrence_count": 1,
@@ -85,7 +62,7 @@
       "topics": [
         "Crime news"
       ],
-      "url_id": "url_000054"
+      "url_id": "url_000053"
     },
     {
       "canonical_url": "https://telanganatoday.com/pregnant-samantha-ruth-prabhu-shares-glimpse-of-workout-routine-strong-till-the-very-end",
@@ -105,6 +82,27 @@
       ],
       "topics": [
         "Fitness and ergonomics"
+      ],
+      "url_id": "url_000054"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/rohit-kohli-lead-the-spotlight-as-india-face-west-indies",
+      "domain": "telanganatoday.com",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000045"
+      ],
+      "topic_ids": [
+        "india_developments"
+      ],
+      "topics": [
+        "India developments"
       ],
       "url_id": "url_000055"
     }

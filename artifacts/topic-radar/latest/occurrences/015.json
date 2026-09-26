@@ -24,28 +24,6 @@
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://9to5mac.com/2026/09/25/daily-september-25-2026",
-      "feed_id": "9to5mac",
-      "feed_ids": [
-        "9to5mac"
-      ],
-      "feed_name": "9to5Mac",
-      "feed_names": [
-        "9to5Mac"
-      ],
-      "matched_terms": [
-        "iOS"
-      ],
-      "occurrence_id": "occ_000072",
-      "original_url": "https://9to5mac.com/2026/09/25/daily-september-25-2026",
-      "pipeline_item_id": "7822a4f56acdd0cb",
-      "published_at": "2026-09-25T17:06:46Z",
-      "title": "9to5Mac Daily: September 25, 2026 – New AirPods features, iOS 27.2 tidbits",
-      "topic": "Technology, software and gadgets",
-      "topic_id": "tech_software",
-      "topic_lane": "review"
-    },
-    {
       "canonical_url": "https://www.androidauthority.com/google-health-5-09-3715801",
       "feed_id": "android_authority",
       "feed_ids": [
@@ -58,7 +36,7 @@
       "matched_terms": [
         "Pixel"
       ],
-      "occurrence_id": "occ_000073",
+      "occurrence_id": "occ_000072",
       "original_url": "https://www.androidauthority.com/google-health-5-09-3715801",
       "pipeline_item_id": "a10328151e5b2c2d",
       "published_at": "2026-09-25T21:41:11Z",
@@ -68,7 +46,7 @@
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://www.androidauthority.com/nitrodeck-dual-screen-update-3715691",
+      "canonical_url": "https://www.androidauthority.com/turned-old-pixel-into-tv-box-security-camera-worth-it-3714104",
       "feed_id": "android_authority",
       "feed_ids": [
         "android_authority"
@@ -78,13 +56,13 @@
         "Android Authority"
       ],
       "matched_terms": [
-        "Android"
+        "Pixel"
       ],
-      "occurrence_id": "occ_000074",
-      "original_url": "https://www.androidauthority.com/nitrodeck-dual-screen-update-3715691",
-      "pipeline_item_id": "a6683fc88bf255f8",
-      "published_at": "2026-09-25T17:23:28Z",
-      "title": "This Nintendo DS-themed launcher is coming to dual-screen Android handhelds",
+      "occurrence_id": "occ_000073",
+      "original_url": "https://www.androidauthority.com/turned-old-pixel-into-tv-box-security-camera-worth-it-3714104",
+      "pipeline_item_id": "d6b817eb77354232",
+      "published_at": "2026-09-26T09:00:32Z",
+      "title": "I turned my old Pixel into a TV box and security camera — and only one was worth it",
       "topic": "Technology, software and gadgets",
       "topic_id": "tech_software",
       "topic_lane": "review"
@@ -102,11 +80,34 @@
       "matched_terms": [
         "Android"
       ],
-      "occurrence_id": "occ_000075",
+      "occurrence_id": "occ_000074",
       "original_url": "https://9to5google.com/2026/09/25/android-dev-summit-android-18",
       "pipeline_item_id": "e0ec51bd87cb22a5",
       "published_at": "2026-09-25T19:40:55Z",
       "title": "Google brings back Android Dev Summit with Android 18 ‘powerful new graphics features’ tease",
+      "topic": "Technology, software and gadgets",
+      "topic_id": "tech_software",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://www.androidauthority.com/pixel-11-pro-favorite-feature-face-unlock-why-3713749",
+      "feed_id": "android_authority",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_name": "Android Authority",
+      "feed_names": [
+        "Android Authority"
+      ],
+      "matched_terms": [
+        "Android",
+        "Pixel"
+      ],
+      "occurrence_id": "occ_000075",
+      "original_url": "https://www.androidauthority.com/pixel-11-pro-favorite-feature-face-unlock-why-3713749",
+      "pipeline_item_id": "ead8573aa201566b",
+      "published_at": "2026-09-26T10:00:42Z",
+      "title": "My favorite Pixel 11 Pro feature is something no other Android phone can match",
       "topic": "Technology, software and gadgets",
       "topic_id": "tech_software",
       "topic_lane": "review"

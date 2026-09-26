@@ -2,6 +2,28 @@
   "record_count": 5,
   "records": [
     {
+      "canonical_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbktnRWpmNVhKbmpxTHdwMlNnWVI1YTNaSjNDcFJTNjU4aFNsZ0FDa0ZvUkFDY2xyLWtnMC0xRXFESFFUQ3puc3JSeXA5b3VZdkczbUxtMzg0M0JQRHo2ZDBnZzRhd3FUdkZjRTBLWXlCMHVjT2o1NHMwN0ZxZVVwcHdLSkZweGZlN0xTT005bUwzdzFKaDFBU1BQTDczZnJmelBSSkRKM2dIbjhXMnZvVm9FV3M?oc=5",
+      "feed_id": "google_news_device_brands",
+      "feed_ids": [
+        "google_news_device_brands"
+      ],
+      "feed_name": "Google News — Indian device brands",
+      "feed_names": [
+        "Google News — Indian device brands"
+      ],
+      "matched_terms": [
+        "investing"
+      ],
+      "occurrence_id": "occ_000066",
+      "original_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbktnRWpmNVhKbmpxTHdwMlNnWVI1YTNaSjNDcFJTNjU4aFNsZ0FDa0ZvUkFDY2xyLWtnMC0xRXFESFFUQ3puc3JSeXA5b3VZdkczbUxtMzg0M0JQRHo2ZDBnZzRhd3FUdkZjRTBLWXlCMHVjT2o1NHMwN0ZxZVVwcHdLSkZweGZlN0xTT005bUwzdzFKaDFBU1BQTDczZnJmelBSSkRKM2dIbjhXMnZvVm9FV3M?oc=5",
+      "pipeline_item_id": "a12e2d0090c57abc",
+      "published_at": "2026-09-25T12:32:09Z",
+      "title": "Form 4 Mastercraft Boat Holdings Inc For: 25 September By Investing.com - Investing.com India",
+      "topic": "Personal finance and investing",
+      "topic_id": "personal_finance",
+      "topic_lane": "review"
+    },
+    {
       "canonical_url": "https://9to5mac.com/2026/09/23/apple-increases-interest-rate-for-apple-card-savings-account",
       "feed_id": "9to5mac",
       "feed_ids": [
@@ -14,7 +36,7 @@
       "matched_terms": [
         "savings account"
       ],
-      "occurrence_id": "occ_000066",
+      "occurrence_id": "occ_000067",
       "original_url": "https://9to5mac.com/2026/09/23/apple-increases-interest-rate-for-apple-card-savings-account",
       "pipeline_item_id": "a471b0129af74adf",
       "published_at": "2026-09-23T11:18:16Z",
@@ -36,11 +58,11 @@
       "matched_terms": [
         "investing"
       ],
-      "occurrence_id": "occ_000067",
+      "occurrence_id": "occ_000068",
       "original_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNaTZ6THFmYnl1Y3Z2U052QjJsUjNqcEdUUnljYTA4N0k3bFpqMmlWNk5ST0F3VXpDclU3Z01IMTJsTXBtMXB0ZE1sUE5iZzNwV0dVSC1nRjJ4VktGVTVhRjBORGF3aFpqc1BEUXJ1MUQ4elM2dWRQQ2hKVUY0TU5hMlprRVlTTkE4Mm9tdVVEaUpQMEZwcHQ0RDdGUXdzWm5pOFUyeEZ3dnlzSEstWTJsWnVQVHJ6LXBhaDltb0Ywam1GSjR2ekd0bg?oc=5",
       "pipeline_item_id": "c1e3b8c0248388a4",
       "published_at": "2026-09-25T19:19:17Z",
-      "title": "Raymond James notes boat registrations fall as marine demand weakens By Investing.com - Investing.com India",
+      "title": "Raymond James notes boat registrations fall as marine demand weakens - Investing.com India",
       "topic": "Personal finance and investing",
       "topic_id": "personal_finance",
       "topic_lane": "review"
@@ -58,7 +80,7 @@
       "matched_terms": [
         "iOS"
       ],
-      "occurrence_id": "occ_000068",
+      "occurrence_id": "occ_000069",
       "original_url": "https://9to5mac.com/2026/09/25/apple-card-adds-new-feature-in-ios-27-that-every-card-should-have",
       "pipeline_item_id": "2d07dc636fe0f97e",
       "published_at": "2026-09-25T19:19:06Z",
@@ -80,33 +102,11 @@
       "matched_terms": [
         "iPhone"
       ],
-      "occurrence_id": "occ_000069",
+      "occurrence_id": "occ_000070",
       "original_url": "https://9to5mac.com/2026/09/25/testflight-now-works-in-landscape-as-apple-prepares-for-iphone-duo",
       "pipeline_item_id": "2e07099a9fbac898",
       "published_at": "2026-09-25T22:19:53Z",
       "title": "TestFlight now works in landscape as Apple prepares for iPhone Duo",
-      "topic": "Technology, software and gadgets",
-      "topic_id": "tech_software",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://www.theverge.com/tech/1000729/moment-pro-blackmagic-camera-ii-ios-app-iphone-18-pro-max-aperature-camera",
-      "feed_id": "verge",
-      "feed_ids": [
-        "verge"
-      ],
-      "feed_name": "The Verge",
-      "feed_names": [
-        "The Verge"
-      ],
-      "matched_terms": [
-        "iPhone"
-      ],
-      "occurrence_id": "occ_000070",
-      "original_url": "https://www.theverge.com/tech/1000729/moment-pro-blackmagic-camera-ii-ios-app-iphone-18-pro-max-aperature-camera",
-      "pipeline_item_id": "2f1cb0ea1ba12a23",
-      "published_at": "2026-09-25T17:23:30Z",
-      "title": "These camera apps give you more control over the iPhone 18 Pro’s aperture",
       "topic": "Technology, software and gadgets",
       "topic_id": "tech_software",
       "topic_lane": "review"

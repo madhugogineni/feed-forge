@@ -12,7 +12,7 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000059"
+        "occ_000060"
       ],
       "topic_ids": [
         "music_apps"
@@ -54,7 +54,7 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000075"
+        "occ_000074"
       ],
       "topic_ids": [
         "tech_software"
@@ -63,27 +63,6 @@
         "Technology, software and gadgets"
       ],
       "url_id": "url_000003"
-    },
-    {
-      "canonical_url": "https://9to5google.com/2026/09/25/google-health-5-09-release-notes",
-      "domain": "9to5google.com",
-      "feed_ids": [
-        "9to5google"
-      ],
-      "feed_names": [
-        "9to5Google"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000014"
-      ],
-      "topic_ids": [
-        "big_tech"
-      ],
-      "topics": [
-        "Major technology companies"
-      ],
-      "url_id": "url_000004"
     },
     {
       "canonical_url": "https://9to5mac.com/2026/09/22/apple-music-opens-new-live-music-venue-in-london",
@@ -96,13 +75,34 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000063"
+        "occ_000064"
       ],
       "topic_ids": [
         "music_apps"
       ],
       "topics": [
         "Music and streaming apps"
+      ],
+      "url_id": "url_000004"
+    },
+    {
+      "canonical_url": "https://9to5mac.com/2026/09/22/apple-working-on-whoop-style-screenless-fitness-tracker-per-report",
+      "domain": "9to5mac.com",
+      "feed_ids": [
+        "9to5mac"
+      ],
+      "feed_names": [
+        "9to5Mac"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000041"
+      ],
+      "topic_ids": [
+        "fitness_ergonomics"
+      ],
+      "topics": [
+        "Fitness and ergonomics"
       ],
       "url_id": "url_000005"
     }

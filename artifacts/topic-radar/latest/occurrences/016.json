@@ -2,7 +2,30 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://telanganatoday.com/telangana-primary-teachers-demand-amendments-to-go-ms-no-25",
+      "canonical_url": "https://www.androidauthority.com/ios-apps-i-want-on-android-2026-3713705",
+      "feed_id": "android_authority",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_name": "Android Authority",
+      "feed_names": [
+        "Android Authority"
+      ],
+      "matched_terms": [
+        "Android",
+        "iOS"
+      ],
+      "occurrence_id": "occ_000076",
+      "original_url": "https://www.androidauthority.com/ios-apps-i-want-on-android-2026-3713705",
+      "pipeline_item_id": "f61e0470da7a06d5",
+      "published_at": "2026-09-26T11:00:45Z",
+      "title": "9 excellent iOS apps I wish would come to Android (but probably never will)",
+      "topic": "Technology, software and gadgets",
+      "topic_id": "tech_software",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/telangana-among-locations-as-centre-plans-central-licensing-for-sterile-drugs",
       "feed_id": "telangana_today",
       "feed_ids": [
         "telangana_today"
@@ -14,17 +37,39 @@
       "matched_terms": [
         "Telangana"
       ],
-      "occurrence_id": "occ_000076",
-      "original_url": "https://telanganatoday.com/telangana-primary-teachers-demand-amendments-to-go-ms-no-25",
-      "pipeline_item_id": "02adceaecd2b52be",
-      "published_at": "2026-09-25T19:05:40Z",
-      "title": "Telangana primary teachers demand amendments to GO Ms No. 25",
+      "occurrence_id": "occ_000077",
+      "original_url": "https://telanganatoday.com/telangana-among-locations-as-centre-plans-central-licensing-for-sterile-drugs",
+      "pipeline_item_id": "031b9595a51ed654",
+      "published_at": "2026-09-26T10:41:38Z",
+      "title": "Telangana among locations as Centre plans central licensing for sterile drugs",
       "topic": "Telangana and Hyderabad developments",
       "topic_id": "telangana_hyderabad",
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://telanganatoday.com/traffic-restrictions-to-continue-in-hyderabad-on-major-ganesh-immersion-routes-on-saturday",
+      "canonical_url": "https://telanganatoday.com/telangana-tet-2026-15749-in-service-teachers-qualify-another-special-exam-in-november",
+      "feed_id": "telangana_today",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_name": "Telangana Today",
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "matched_terms": [
+        "Telangana"
+      ],
+      "occurrence_id": "occ_000078",
+      "original_url": "https://telanganatoday.com/telangana-tet-2026-15749-in-service-teachers-qualify-another-special-exam-in-november",
+      "pipeline_item_id": "16f04f2fd86f2848",
+      "published_at": "2026-09-26T08:05:23Z",
+      "title": "Telangana TET 2026: 15,749 in-service teachers qualify, another special exam in November",
+      "topic": "Telangana and Hyderabad developments",
+      "topic_id": "telangana_hyderabad",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/sheraton-hyderabad-to-host-malaysian-food-showcase-on-september-26-27",
       "feed_id": "telangana_today",
       "feed_ids": [
         "telangana_today"
@@ -36,82 +81,33 @@
       "matched_terms": [
         "Hyderabad"
       ],
-      "occurrence_id": "occ_000077",
-      "original_url": "https://telanganatoday.com/traffic-restrictions-to-continue-in-hyderabad-on-major-ganesh-immersion-routes-on-saturday",
-      "pipeline_item_id": "36216204d354b34e",
-      "published_at": "2026-09-26T02:50:32Z",
-      "title": "Traffic restrictions to continue in Hyderabad on major Ganesh immersion routes on Saturday",
-      "topic": "Telangana and Hyderabad developments",
-      "topic_id": "telangana_hyderabad",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://www.thehindu.com/life-and-style/homes-and-gardens/inside-south-indias-bars-how-design-and-architecture-are-changing-the-drinking-experience/article71508514.ece",
-      "feed_id": "hindu_hyderabad",
-      "feed_ids": [
-        "hindu_hyderabad"
-      ],
-      "feed_name": "The Hindu Hyderabad",
-      "feed_names": [
-        "The Hindu Hyderabad"
-      ],
-      "matched_terms": [
-        "source:hindu_hyderabad"
-      ],
-      "occurrence_id": "occ_000078",
-      "original_url": "https://www.thehindu.com/life-and-style/homes-and-gardens/inside-south-indias-bars-how-design-and-architecture-are-changing-the-drinking-experience/article71508514.ece",
-      "pipeline_item_id": "4dec2e9696ce3df3",
-      "published_at": "2026-09-26T02:05:53Z",
-      "title": "Inside South India’s bars: How design and architecture are changing the drinking experience",
-      "topic": "Telangana and Hyderabad developments",
-      "topic_id": "telangana_hyderabad",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://www.thehindu.com/news/national/telangana/telangana-sir-over-60-sir-notices-issued-in-hyderabad-periphery-below-35-in-hyderabad-district/article71508405.ece",
-      "feed_id": "hindu_telangana",
-      "feed_ids": [
-        "hindu_telangana"
-      ],
-      "feed_name": "The Hindu Telangana",
-      "feed_names": [
-        "The Hindu Telangana"
-      ],
-      "matched_terms": [
-        "Hyderabad",
-        "Telangana",
-        "source:hindu_telangana"
-      ],
       "occurrence_id": "occ_000079",
-      "original_url": "https://www.thehindu.com/news/national/telangana/telangana-sir-over-60-sir-notices-issued-in-hyderabad-periphery-below-35-in-hyderabad-district/article71508405.ece",
-      "pipeline_item_id": "56d15868bb2d898e",
-      "published_at": "2026-09-26T02:54:54Z",
-      "title": "Telangana SIR: Over 60% SIR notices issued in Hyderabad periphery, below 35% in Hyderabad district",
+      "original_url": "https://telanganatoday.com/sheraton-hyderabad-to-host-malaysian-food-showcase-on-september-26-27",
+      "pipeline_item_id": "4b04ecdadd3bc819",
+      "published_at": "2026-09-26T08:05:30Z",
+      "title": "Sheraton Hyderabad to host Malaysian food showcase on September 26, 27",
       "topic": "Telangana and Hyderabad developments",
       "topic_id": "telangana_hyderabad",
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://www.thehindu.com/news/national/telangana/a-laddu-mirroring-the-changing-fortunes-of-balapur/article71509261.ece",
-      "feed_id": "hindu_hyderabad",
+      "canonical_url": "https://telanganatoday.com/hyderabad-kalapathar-police-buy-ganesh-laddu-for-rs-33000-at-mochi-colony-auction",
+      "feed_id": "telangana_today",
       "feed_ids": [
-        "hindu_hyderabad",
-        "hindu_telangana"
+        "telangana_today"
       ],
-      "feed_name": "The Hindu Hyderabad",
+      "feed_name": "Telangana Today",
       "feed_names": [
-        "The Hindu Hyderabad",
-        "The Hindu Telangana"
+        "Telangana Today"
       ],
       "matched_terms": [
-        "source:hindu_hyderabad",
-        "source:hindu_telangana"
+        "Hyderabad"
       ],
       "occurrence_id": "occ_000080",
-      "original_url": "https://www.thehindu.com/news/national/telangana/a-laddu-mirroring-the-changing-fortunes-of-balapur/article71509261.ece",
-      "pipeline_item_id": "5eef4670edc23eea",
-      "published_at": "2026-09-25T19:31:27Z",
-      "title": "A laddu mirroring the changing fortunes of Balapur",
+      "original_url": "https://telanganatoday.com/hyderabad-kalapathar-police-buy-ganesh-laddu-for-rs-33000-at-mochi-colony-auction",
+      "pipeline_item_id": "7b62adda89b1f816",
+      "published_at": "2026-09-26T06:27:27Z",
+      "title": "Hyderabad: Kalapathar police buy Ganesh laddu for Rs 33,000 at Mochi Colony auction",
       "topic": "Telangana and Hyderabad developments",
       "topic_id": "telangana_hyderabad",
       "topic_lane": "review"

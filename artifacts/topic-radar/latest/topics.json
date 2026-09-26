@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T05:17:12.928759Z",
+  "generated_at": "2026-09-26T11:39:54.140994Z",
   "schema_version": "feed-forge/editorial-input/v1",
   "topics": [
     {
@@ -19,7 +19,7 @@
       "selected_item_count": 8,
       "selection": "newest_first",
       "term_counts": null,
-      "total_recent": 51
+      "total_recent": 50
     },
     {
       "id": "big_tech",
@@ -38,7 +38,7 @@
       "selected_item_count": 8,
       "selection": "newest_first",
       "term_counts": null,
-      "total_recent": 233
+      "total_recent": 226
     },
     {
       "id": "consumer_safety",
@@ -70,7 +70,7 @@
       "selected_item_count": 8,
       "selection": "newest_first",
       "term_counts": null,
-      "total_recent": 16
+      "total_recent": 15
     },
     {
       "id": "crime",
@@ -102,26 +102,27 @@
         "occ_000038",
         "occ_000039",
         "occ_000040",
-        "occ_000041"
+        "occ_000041",
+        "occ_000042"
       ],
-      "selected_item_count": 7,
+      "selected_item_count": 8,
       "selection": "newest_first",
       "term_counts": null,
-      "total_recent": 7
+      "total_recent": 8
     },
     {
       "id": "india_developments",
       "label": "India developments",
       "lane": "review",
       "occurrence_ids": [
-        "occ_000042",
         "occ_000043",
         "occ_000044",
         "occ_000045",
         "occ_000046",
         "occ_000047",
         "occ_000048",
-        "occ_000049"
+        "occ_000049",
+        "occ_000050"
       ],
       "selected_item_count": 8,
       "selection": "newest_first",
@@ -133,7 +134,7 @@
       "label": "India-related geopolitics",
       "lane": "context_only",
       "occurrence_ids": [
-        "occ_000050"
+        "occ_000051"
       ],
       "selected_item_count": 1,
       "selection": "newest_first",
@@ -145,43 +146,43 @@
       "label": "Indian consumer brands and products",
       "lane": "review",
       "occurrence_ids": [
-        "occ_000051",
         "occ_000052",
         "occ_000053",
         "occ_000054",
         "occ_000055",
         "occ_000056",
         "occ_000057",
-        "occ_000058"
+        "occ_000058",
+        "occ_000059"
       ],
       "selected_item_count": 8,
       "selection": "new_terms_first",
       "term_counts": {
-        "Ather": 10,
+        "Ather": 12,
         "Atomberg": 2,
         "Be Minimalist": 0,
-        "Blinkit": 9,
+        "Blinkit": 7,
         "CRED": 0,
         "Frido": 0,
-        "Lenskart": 27,
+        "Lenskart": 25,
         "Mamaearth": 0,
         "Minimalist skincare": 0,
         "Mokobara": 0,
         "Noise earbuds": 0,
         "Noise smartwatch": 0,
         "Noise wearables": 0,
-        "Nykaa": 33,
-        "Ola Electric": 15,
-        "Swiggy": 32,
+        "Nykaa": 32,
+        "Ola Electric": 14,
+        "Swiggy": 31,
         "The Sleep Company": 11,
         "The Souled Store": 0,
         "Urban Company": 3,
         "Wakefit": 2,
-        "Zepto": 23,
+        "Zepto": 21,
         "Zomato": 4,
         "boAt": 2
       },
-      "total_recent": 160
+      "total_recent": 152
     },
     {
       "id": "local_practical",
@@ -198,12 +199,12 @@
       "label": "Music and streaming apps",
       "lane": "review",
       "occurrence_ids": [
-        "occ_000059",
         "occ_000060",
         "occ_000061",
         "occ_000062",
         "occ_000063",
-        "occ_000064"
+        "occ_000064",
+        "occ_000065"
       ],
       "selected_item_count": 6,
       "selection": "newest_first",
@@ -215,9 +216,9 @@
       "label": "Personal finance and investing",
       "lane": "review",
       "occurrence_ids": [
-        "occ_000065",
         "occ_000066",
-        "occ_000067"
+        "occ_000067",
+        "occ_000068"
       ],
       "selected_item_count": 3,
       "selection": "newest_first",
@@ -229,53 +230,52 @@
       "label": "Technology, software and gadgets",
       "lane": "review",
       "occurrence_ids": [
-        "occ_000068",
         "occ_000069",
         "occ_000070",
         "occ_000071",
         "occ_000072",
         "occ_000073",
         "occ_000074",
-        "occ_000075"
+        "occ_000075",
+        "occ_000076"
       ],
       "selected_item_count": 8,
       "selection": "newest_first",
       "term_counts": null,
-      "total_recent": 94
+      "total_recent": 96
     },
     {
       "id": "telangana_hyderabad",
       "label": "Telangana and Hyderabad developments",
       "lane": "review",
       "occurrence_ids": [
-        "occ_000076",
         "occ_000077",
         "occ_000078",
         "occ_000079",
         "occ_000080",
         "occ_000081",
         "occ_000082",
-        "occ_000083"
+        "occ_000083",
+        "occ_000084"
       ],
       "selected_item_count": 8,
       "selection": "newest_first",
       "term_counts": null,
-      "total_recent": 126
+      "total_recent": 120
     },
     {
       "id": "travel_lifestyle",
       "label": "Travel and lifestyle",
       "lane": "review",
       "occurrence_ids": [
-        "occ_000084",
         "occ_000085",
         "occ_000086",
         "occ_000087"
       ],
-      "selected_item_count": 4,
+      "selected_item_count": 3,
       "selection": "newest_first",
       "term_counts": null,
-      "total_recent": 4
+      "total_recent": 3
     }
   ]
 }

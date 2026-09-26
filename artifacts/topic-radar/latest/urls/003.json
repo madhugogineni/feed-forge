@@ -2,27 +2,6 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://9to5mac.com/2026/09/24/happy-hour-609",
-      "domain": "9to5mac.com",
-      "feed_ids": [
-        "9to5mac"
-      ],
-      "feed_names": [
-        "9to5Mac"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000039"
-      ],
-      "topic_ids": [
-        "fitness_ergonomics"
-      ],
-      "topics": [
-        "Fitness and ergonomics"
-      ],
-      "url_id": "url_000011"
-    },
-    {
       "canonical_url": "https://9to5mac.com/2026/09/25/apple-card-adds-new-feature-in-ios-27-that-every-card-should-have",
       "domain": "9to5mac.com",
       "feed_ids": [
@@ -33,7 +12,7 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000068"
+        "occ_000069"
       ],
       "topic_ids": [
         "tech_software"
@@ -41,7 +20,7 @@
       "topics": [
         "Technology, software and gadgets"
       ],
-      "url_id": "url_000012"
+      "url_id": "url_000011"
     },
     {
       "canonical_url": "https://9to5mac.com/2026/09/25/apple-faces-class-action-over-apple-pay-fees-charged-to-card-issuers",
@@ -62,7 +41,7 @@
       "topics": [
         "Major technology companies"
       ],
-      "url_id": "url_000013"
+      "url_id": "url_000012"
     },
     {
       "canonical_url": "https://9to5mac.com/2026/09/25/apple-music-hall-confirms-first-eight-shows-starting-with-elton-john",
@@ -75,7 +54,7 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000061"
+        "occ_000062"
       ],
       "topic_ids": [
         "music_apps"
@@ -83,7 +62,7 @@
       "topics": [
         "Music and streaming apps"
       ],
-      "url_id": "url_000014"
+      "url_id": "url_000013"
     },
     {
       "canonical_url": "https://9to5mac.com/2026/09/25/apples-dimensional-drawings-offer-a-fascinating-look-at-its-product-designs",
@@ -97,6 +76,27 @@
       "occurrence_count": 1,
       "occurrence_ids": [
         "occ_000010"
+      ],
+      "topic_ids": [
+        "big_tech"
+      ],
+      "topics": [
+        "Major technology companies"
+      ],
+      "url_id": "url_000014"
+    },
+    {
+      "canonical_url": "https://9to5mac.com/2026/09/25/macos-27-adds-new-apple-intelligence-features-to-your-favorite-apps",
+      "domain": "9to5mac.com",
+      "feed_ids": [
+        "9to5mac"
+      ],
+      "feed_names": [
+        "9to5Mac"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000012"
       ],
       "topic_ids": [
         "big_tech"

@@ -69,6 +69,28 @@
       "topic_lane": "review"
     },
     {
+      "canonical_url": "https://telanganatoday.com/thrive-pain-clinic-opens-new-wellness-and-pain-management-centre-in-jubilee-hills",
+      "feed_id": "telangana_today",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_name": "Telangana Today",
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "matched_terms": [
+        "wellness"
+      ],
+      "occurrence_id": "occ_000039",
+      "original_url": "https://telanganatoday.com/thrive-pain-clinic-opens-new-wellness-and-pain-management-centre-in-jubilee-hills",
+      "pipeline_item_id": "87bc97fcca57469f",
+      "published_at": "2026-09-26T11:10:36Z",
+      "title": "Thrive Pain Clinic opens new wellness and pain management centre in Jubilee Hills",
+      "topic": "Fitness and ergonomics",
+      "topic_id": "fitness_ergonomics",
+      "topic_lane": "review"
+    },
+    {
       "canonical_url": "https://9to5mac.com/2026/09/24/happy-hour-609",
       "feed_id": "9to5mac",
       "feed_ids": [
@@ -81,33 +103,11 @@
       "matched_terms": [
         "fitness"
       ],
-      "occurrence_id": "occ_000039",
+      "occurrence_id": "occ_000040",
       "original_url": "https://9to5mac.com/2026/09/24/happy-hour-609",
       "pipeline_item_id": "916b715f63c46b60",
       "published_at": "2026-09-24T20:43:14Z",
       "title": "M6 Mac mini review, Apple fitness band rumors, Apple AI servers",
-      "topic": "Fitness and ergonomics",
-      "topic_id": "fitness_ergonomics",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://telanganatoday.com/hyderabad-marathons-15-year-journey-comes-alive-through-photographs",
-      "feed_id": "telangana_today",
-      "feed_ids": [
-        "telangana_today"
-      ],
-      "feed_name": "Telangana Today",
-      "feed_names": [
-        "Telangana Today"
-      ],
-      "matched_terms": [
-        "marathon"
-      ],
-      "occurrence_id": "occ_000040",
-      "original_url": "https://telanganatoday.com/hyderabad-marathons-15-year-journey-comes-alive-through-photographs",
-      "pipeline_item_id": "c4eb7c4c872b3985",
-      "published_at": "2026-09-24T14:43:42Z",
-      "title": "Hyderabad Marathon’s 15-year journey comes alive through photographs",
       "topic": "Fitness and ergonomics",
       "topic_id": "fitness_ergonomics",
       "topic_lane": "review"

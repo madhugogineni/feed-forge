@@ -2,46 +2,71 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://www.thehindu.com/news/national/telangana/telangana-sir-over-60-sir-notices-issued-in-hyderabad-periphery-below-35-in-hyderabad-district/article71508405.ece",
+      "canonical_url": "https://www.thehindu.com/entertainment/movies/anumana-pakshi-movie-review-a-cluttered-exhausting-crime-comedy/article71507980.ece",
       "domain": "www.thehindu.com",
       "feed_ids": [
-        "hindu_telangana"
+        "hindu_hyderabad"
       ],
       "feed_names": [
-        "The Hindu Telangana"
+        "The Hindu Hyderabad"
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000079"
+        "occ_000032"
       ],
       "topic_ids": [
-        "telangana_hyderabad"
+        "crime"
       ],
       "topics": [
-        "Telangana and Hyderabad developments"
+        "Crime news"
       ],
       "url_id": "url_000076"
     },
     {
-      "canonical_url": "https://www.theverge.com/tech/1000729/moment-pro-blackmagic-camera-ii-ios-app-iphone-18-pro-max-aperature-camera",
-      "domain": "www.theverge.com",
+      "canonical_url": "https://www.thehindu.com/news/cities/Hyderabad/engineering-students-suicide-turns-out-to-be-murder-two-arrested/article71502595.ece",
+      "domain": "www.thehindu.com",
       "feed_ids": [
-        "verge"
+        "hindu_hyderabad",
+        "hindu_telangana"
       ],
       "feed_names": [
-        "The Verge"
+        "The Hindu Hyderabad",
+        "The Hindu Telangana"
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000070"
+        "occ_000030"
       ],
       "topic_ids": [
-        "tech_software"
+        "crime"
       ],
       "topics": [
-        "Technology, software and gadgets"
+        "Crime news"
       ],
       "url_id": "url_000077"
+    },
+    {
+      "canonical_url": "https://www.thehindu.com/news/national/telangana/pranay-murder-case-convict-dies-after-complaining-of-chest-pain-in-cherlapally-jail/article71505605.ece",
+      "domain": "www.thehindu.com",
+      "feed_ids": [
+        "hindu_hyderabad",
+        "hindu_telangana"
+      ],
+      "feed_names": [
+        "The Hindu Hyderabad",
+        "The Hindu Telangana"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000027"
+      ],
+      "topic_ids": [
+        "crime"
+      ],
+      "topics": [
+        "Crime news"
+      ],
+      "url_id": "url_000078"
     },
     {
       "canonical_url": "https://yourstory.com/2026/09/akamai-lands-116b-cloud-computing-deal-with-anthropic",
@@ -61,27 +86,6 @@
       ],
       "topics": [
         "AI development and products"
-      ],
-      "url_id": "url_000078"
-    },
-    {
-      "canonical_url": "https://yourstory.com/2026/09/indias-shooting-stars-win-gold-at-asian-games",
-      "domain": "yourstory.com",
-      "feed_ids": [
-        "yourstory"
-      ],
-      "feed_names": [
-        "YourStory"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000045"
-      ],
-      "topic_ids": [
-        "india_developments"
-      ],
-      "topics": [
-        "India developments"
       ],
       "url_id": "url_000079"
     },

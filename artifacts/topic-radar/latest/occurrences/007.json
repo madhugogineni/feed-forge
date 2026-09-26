@@ -47,14 +47,12 @@
     },
     {
       "canonical_url": "https://telanganatoday.com/opinion-from-encounters-to-custodial-deaths-is-india-finding-new-ways-to-hide-extrajudicial-killings",
-      "feed_id": "telangana_today",
+      "feed_id": "telangana_today_crime",
       "feed_ids": [
-        "telangana_today",
         "telangana_today_crime"
       ],
-      "feed_name": "Telangana Today",
+      "feed_name": "Telangana Today Crime",
       "feed_names": [
-        "Telangana Today",
         "Telangana Today Crime"
       ],
       "matched_terms": [

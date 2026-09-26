@@ -2,117 +2,110 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://www.thehindu.com/news/cities/Hyderabad/engineering-students-suicide-turns-out-to-be-murder-two-arrested/article71502595.ece",
-      "domain": "www.thehindu.com",
+      "canonical_url": "https://www.androidauthority.com/pixel-11-pro-favorite-feature-face-unlock-why-3713749",
+      "domain": "www.androidauthority.com",
       "feed_ids": [
-        "hindu_hyderabad",
-        "hindu_telangana"
+        "android_authority"
       ],
       "feed_names": [
-        "The Hindu Hyderabad",
-        "The Hindu Telangana"
+        "Android Authority"
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000030"
+        "occ_000075"
       ],
       "topic_ids": [
-        "crime"
+        "tech_software"
       ],
       "topics": [
-        "Crime news"
+        "Technology, software and gadgets"
       ],
       "url_id": "url_000071"
     },
     {
-      "canonical_url": "https://www.thehindu.com/news/national/telangana/a-laddu-mirroring-the-changing-fortunes-of-balapur/article71509261.ece",
-      "domain": "www.thehindu.com",
+      "canonical_url": "https://www.androidauthority.com/spotify-meta-muse-integration-3714958",
+      "domain": "www.androidauthority.com",
       "feed_ids": [
-        "hindu_hyderabad",
-        "hindu_telangana"
+        "android_authority"
       ],
       "feed_names": [
-        "The Hindu Hyderabad",
-        "The Hindu Telangana"
+        "Android Authority"
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000080"
+        "occ_000065"
       ],
       "topic_ids": [
-        "telangana_hyderabad"
+        "music_apps"
       ],
       "topics": [
-        "Telangana and Hyderabad developments"
+        "Music and streaming apps"
       ],
       "url_id": "url_000072"
     },
     {
-      "canonical_url": "https://www.thehindu.com/news/national/telangana/hyderabad-metro-rail-phase-i-takeover-phase-ii-expansion-hit-roadblock-as-funding-search-drags-on/article71509329.ece",
-      "domain": "www.thehindu.com",
+      "canonical_url": "https://www.androidauthority.com/turned-old-pixel-into-tv-box-security-camera-worth-it-3714104",
+      "domain": "www.androidauthority.com",
       "feed_ids": [
-        "hindu_hyderabad",
-        "hindu_telangana"
+        "android_authority"
       ],
       "feed_names": [
-        "The Hindu Hyderabad",
-        "The Hindu Telangana"
+        "Android Authority"
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000082"
+        "occ_000073"
       ],
       "topic_ids": [
-        "telangana_hyderabad"
+        "tech_software"
       ],
       "topics": [
-        "Telangana and Hyderabad developments"
+        "Technology, software and gadgets"
       ],
       "url_id": "url_000073"
     },
     {
-      "canonical_url": "https://www.thehindu.com/news/national/telangana/more-than-88000-ganesh-idols-immersed-in-telangana-dgp/article71509982.ece",
-      "domain": "www.thehindu.com",
+      "canonical_url": "https://www.apple.com/in/newsroom/2026/09/apple-opens-apple-music-hall-a-state-of-the-art-live-music-venue-in-london",
+      "domain": "www.apple.com",
       "feed_ids": [
-        "hindu_hyderabad",
-        "hindu_telangana"
+        "apple_india"
       ],
       "feed_names": [
-        "The Hindu Hyderabad",
-        "The Hindu Telangana"
+        "Apple India Newsroom"
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000083"
+        "occ_000061"
       ],
       "topic_ids": [
-        "telangana_hyderabad"
+        "music_apps"
       ],
       "topics": [
-        "Telangana and Hyderabad developments"
+        "Music and streaming apps"
       ],
       "url_id": "url_000074"
     },
     {
-      "canonical_url": "https://www.thehindu.com/news/national/telangana/pranay-murder-case-convict-dies-after-complaining-of-chest-pain-in-cherlapally-jail/article71505605.ece",
-      "domain": "www.thehindu.com",
+      "canonical_url": "https://www.medianama.com/2026/09/223-npci-ai-cyber-threats-mythos-upi-mdr",
+      "domain": "www.medianama.com",
       "feed_ids": [
-        "hindu_hyderabad",
-        "hindu_telangana"
+        "medianama"
       ],
       "feed_names": [
-        "The Hindu Hyderabad",
-        "The Hindu Telangana"
+        "MediaNama"
       ],
-      "occurrence_count": 1,
+      "occurrence_count": 2,
       "occurrence_ids": [
-        "occ_000027"
+        "occ_000001",
+        "occ_000019"
       ],
       "topic_ids": [
-        "crime"
+        "ai_development",
+        "credit_cards_payments"
       ],
       "topics": [
-        "Crime news"
+        "AI development and products",
+        "Credit cards, rewards and payments"
       ],
       "url_id": "url_000075"
     }

@@ -2,48 +2,6 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://9to5mac.com/2026/09/25/daily-september-25-2026",
-      "domain": "9to5mac.com",
-      "feed_ids": [
-        "9to5mac"
-      ],
-      "feed_names": [
-        "9to5Mac"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000072"
-      ],
-      "topic_ids": [
-        "tech_software"
-      ],
-      "topics": [
-        "Technology, software and gadgets"
-      ],
-      "url_id": "url_000016"
-    },
-    {
-      "canonical_url": "https://9to5mac.com/2026/09/25/macos-27-adds-new-apple-intelligence-features-to-your-favorite-apps",
-      "domain": "9to5mac.com",
-      "feed_ids": [
-        "9to5mac"
-      ],
-      "feed_names": [
-        "9to5Mac"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000011"
-      ],
-      "topic_ids": [
-        "big_tech"
-      ],
-      "topics": [
-        "Major technology companies"
-      ],
-      "url_id": "url_000017"
-    },
-    {
       "canonical_url": "https://9to5mac.com/2026/09/25/openai-accuses-apple-of-improperly-adding-new-evidence-to-trade-secrets-case",
       "domain": "9to5mac.com",
       "feed_ids": [
@@ -65,7 +23,7 @@
         "AI development and products",
         "Major technology companies"
       ],
-      "url_id": "url_000018"
+      "url_id": "url_000016"
     },
     {
       "canonical_url": "https://9to5mac.com/2026/09/25/testflight-now-works-in-landscape-as-apple-prepares-for-iphone-duo",
@@ -79,7 +37,7 @@
       "occurrence_count": 2,
       "occurrence_ids": [
         "occ_000009",
-        "occ_000069"
+        "occ_000070"
       ],
       "topic_ids": [
         "big_tech",
@@ -89,7 +47,7 @@
         "Major technology companies",
         "Technology, software and gadgets"
       ],
-      "url_id": "url_000019"
+      "url_id": "url_000017"
     },
     {
       "canonical_url": "https://blog.google/intl/en-in/products/platforms/press-play-on-these-new-youtube-music-updates",
@@ -102,13 +60,55 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000062"
+        "occ_000063"
       ],
       "topic_ids": [
         "music_apps"
       ],
       "topics": [
         "Music and streaming apps"
+      ],
+      "url_id": "url_000018"
+    },
+    {
+      "canonical_url": "https://inc42.com/features/fy26-financial-tracker-tracking-the-financial-performance-of-indian-startups",
+      "domain": "inc42.com",
+      "feed_ids": [
+        "inc42"
+      ],
+      "feed_names": [
+        "Inc42"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000047"
+      ],
+      "topic_ids": [
+        "india_developments"
+      ],
+      "topics": [
+        "India developments"
+      ],
+      "url_id": "url_000019"
+    },
+    {
+      "canonical_url": "https://livefromalounge.com/priority-pass-is-finally-fixing-one-of-my-biggest-airport-lounge-access-gripes",
+      "domain": "livefromalounge.com",
+      "feed_ids": [
+        "livefromalounge"
+      ],
+      "feed_names": [
+        "Live from a Lounge"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000087"
+      ],
+      "topic_ids": [
+        "travel_lifestyle"
+      ],
+      "topics": [
+        "Travel and lifestyle"
       ],
       "url_id": "url_000020"
     }

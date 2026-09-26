@@ -23,7 +23,31 @@
       "url_id": "url_000056"
     },
     {
-      "canonical_url": "https://telanganatoday.com/telangana-primary-teachers-demand-amendments-to-go-ms-no-25",
+      "canonical_url": "https://telanganatoday.com/samay-raina-announces-hyderabad-shows-as-part-of-india-tour",
+      "domain": "telanganatoday.com",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "occurrence_count": 2,
+      "occurrence_ids": [
+        "occ_000049",
+        "occ_000084"
+      ],
+      "topic_ids": [
+        "india_developments",
+        "telangana_hyderabad"
+      ],
+      "topics": [
+        "India developments",
+        "Telangana and Hyderabad developments"
+      ],
+      "url_id": "url_000057"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/sheraton-hyderabad-to-host-malaysian-food-showcase-on-september-26-27",
       "domain": "telanganatoday.com",
       "feed_ids": [
         "telangana_today"
@@ -33,7 +57,7 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000076"
+        "occ_000079"
       ],
       "topic_ids": [
         "telangana_hyderabad"
@@ -41,10 +65,10 @@
       "topics": [
         "Telangana and Hyderabad developments"
       ],
-      "url_id": "url_000057"
+      "url_id": "url_000058"
     },
     {
-      "canonical_url": "https://telanganatoday.com/traffic-restrictions-to-continue-in-hyderabad-on-major-ganesh-immersion-routes-on-saturday",
+      "canonical_url": "https://telanganatoday.com/telangana-among-locations-as-centre-plans-central-licensing-for-sterile-drugs",
       "domain": "telanganatoday.com",
       "feed_ids": [
         "telangana_today"
@@ -62,10 +86,10 @@
       "topics": [
         "Telangana and Hyderabad developments"
       ],
-      "url_id": "url_000058"
+      "url_id": "url_000059"
     },
     {
-      "canonical_url": "https://telanganatoday.com/upi-mdr-is-not-a-tax-or-surcharge-says-nirmala-sitharaman",
+      "canonical_url": "https://telanganatoday.com/telangana-tet-2026-15749-in-service-teachers-qualify-another-special-exam-in-november",
       "domain": "telanganatoday.com",
       "feed_ids": [
         "telangana_today"
@@ -75,34 +99,13 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000025"
+        "occ_000078"
       ],
       "topic_ids": [
-        "credit_cards_payments"
+        "telangana_hyderabad"
       ],
       "topics": [
-        "Credit cards, rewards and payments"
-      ],
-      "url_id": "url_000059"
-    },
-    {
-      "canonical_url": "https://www.androidauthority.com/best-pixel-11-pro-alternative-poll-results-3715761",
-      "domain": "www.androidauthority.com",
-      "feed_ids": [
-        "android_authority"
-      ],
-      "feed_names": [
-        "Android Authority"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000071"
-      ],
-      "topic_ids": [
-        "tech_software"
-      ],
-      "topics": [
-        "Technology, software and gadgets"
+        "Telangana and Hyderabad developments"
       ],
       "url_id": "url_000060"
     }

@@ -2,7 +2,7 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://telanganatoday.com/hyderabad-marathons-15-year-journey-comes-alive-through-photographs",
+      "canonical_url": "https://telanganatoday.com/hyderabad-kalapathar-police-buy-ganesh-laddu-for-rs-33000-at-mochi-colony-auction",
       "domain": "telanganatoday.com",
       "feed_ids": [
         "telangana_today"
@@ -12,15 +12,36 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000040"
+        "occ_000080"
       ],
       "topic_ids": [
-        "fitness_ergonomics"
+        "telangana_hyderabad"
       ],
       "topics": [
-        "Fitness and ergonomics"
+        "Telangana and Hyderabad developments"
       ],
       "url_id": "url_000046"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/hyderabad-two-killed-after-trolley-overturns-on-orr-near-keesara",
+      "domain": "telanganatoday.com",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000081"
+      ],
+      "topic_ids": [
+        "telangana_hyderabad"
+      ],
+      "topics": [
+        "Telangana and Hyderabad developments"
+      ],
+      "url_id": "url_000047"
     },
     {
       "canonical_url": "https://telanganatoday.com/iacc-summit-highlights-indias-ai-opportunity-beyond-llms-chips-and-data-centres",
@@ -33,7 +54,7 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000050"
+        "occ_000051"
       ],
       "topic_ids": [
         "india_geopolitics"
@@ -41,7 +62,28 @@
       "topics": [
         "India-related geopolitics"
       ],
-      "url_id": "url_000047"
+      "url_id": "url_000048"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/india-bloc-parties-likely-to-meet-on-september-30-over-ec-row-sir",
+      "domain": "telanganatoday.com",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000046"
+      ],
+      "topic_ids": [
+        "india_developments"
+      ],
+      "topics": [
+        "India developments"
+      ],
+      "url_id": "url_000049"
     },
     {
       "canonical_url": "https://telanganatoday.com/india-credit-card-spending-growth-slows-in-august-as-competition-intensifies",
@@ -61,48 +103,6 @@
       ],
       "topics": [
         "Credit cards, rewards and payments"
-      ],
-      "url_id": "url_000048"
-    },
-    {
-      "canonical_url": "https://telanganatoday.com/india-russia-reaffirm-commitment-to-special-privileged-strategic-partnership",
-      "domain": "telanganatoday.com",
-      "feed_ids": [
-        "telangana_today"
-      ],
-      "feed_names": [
-        "Telangana Today"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000049"
-      ],
-      "topic_ids": [
-        "india_developments"
-      ],
-      "topics": [
-        "India developments"
-      ],
-      "url_id": "url_000049"
-    },
-    {
-      "canonical_url": "https://telanganatoday.com/india-slams-bizarre-attack-by-puppet-of-pakistans-military-at-un",
-      "domain": "telanganatoday.com",
-      "feed_ids": [
-        "telangana_today"
-      ],
-      "feed_names": [
-        "Telangana Today"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000044"
-      ],
-      "topic_ids": [
-        "india_developments"
-      ],
-      "topics": [
-        "India developments"
       ],
       "url_id": "url_000050"
     }
