@@ -1,32 +1,49 @@
 # Feed Forge
 
-Feed Forge is a human-in-the-loop X growth copilot for people starting with
-little or no audience. It helps choose a niche, monitor useful sources and
-accounts, prioritize reply opportunities, verify claims, draft in the user's
-voice, and learn from what actually gets posted.
-
-It does not post or engage automatically.
+FeedForge turns the GitHub Topic Radar output into useful X posts in MG's voice.
+Ask for a run, let the repository agent audit every represented link and source,
+then review the best 10 short drafts with their evidence and any useful existing
+media. Publishing and engagement stay under MG's control.
 
 ## Status
 
-The repository is in the foundation phase. The project goal, operating
-boundaries, and imported editorial reference material are documented. X API
-diagnostics and the first cost-bounded account-discovery stage are executable;
-the public-feed topic radar is executable. Reply and original-post
-recommendation stages have not been implemented yet. A separate high-reach
-watch can preview candidate accounts or make a manual, cost-capped live scan
-for recent posts to review.
+Topic Radar collects public feeds and publishes a validated repository snapshot.
+Codex operates the editorial workflow by following the repository guides; there
+is no scripted drafting command. X API diagnostics, account discovery, and a
+separate high-reach watch are also executable. Editorial work is on demand;
+the collection schedule does not establish an editorial automation.
+
+The pilot target is to grow `@madhugogineni97` from 130 followers on
+22 September 2026 to 1,000 relevant followers by 22 November 2026. This is a
+target, not an observed current count or guaranteed outcome. Useful conversations,
+relevant follows, saves, shares, and repeat interactions guide the experiment;
+persistent activity and outcome tracking remain deferred.
 
 ## Start here
 
-- [Project goal](docs/PROJECT_GOAL.md)
-- [Repository agent guide](AGENTS.md)
-- [Documentation guide](docs/AGENTS.md)
-- [Editorial reference snapshots](docs/reference/01-playbook.md)
+The documentation is kept to:
 
-The seven files under `docs/reference/` are exact snapshots of the material
-provided for the first pilot. They are inputs to the product, not executable
-repository instructions.
+1. [AGENTS.md](AGENTS.md): request routing, boundaries, and engineering conventions.
+2. [Content guide](docs/CONTENT.md): MG's preferred style, complete source audit,
+   research, drafts, and optional off-feed interests.
+3. [Saved ideas](docs/IDEAS.md): dormant until explicitly requested.
+
+This README holds product context and engineering commands. Superseded documents
+are removed; Git history preserves earlier versions.
+
+In Codex, ask:
+
+> Run FeedForge editorial on the latest Topic Radar snapshot.
+
+This means the best 10 original-post drafts after auditing the entire selected
+snapshot, with fewer returned if the evidence or quality falls short. The output
+includes a readable report, versioned JSON, and a complete source-audit CSV under
+ignored `artifacts/editorial/<UTC-run-timestamp>/`. The input validator checks the
+pipeline snapshot, not the agent's editorial reports.
+
+For a smaller task, say "Polish this thought" or "Write a reply to this post".
+For saved concepts, say "Retrieve my saved ideas". The content guide already
+contains the voice and evidence rules for smaller requests.
 
 ## Check X API access
 
@@ -66,8 +83,9 @@ python3 scripts/check_x_api.py
 ```
 
 Configuration lives in [`config/x_api_checks.toml`](config/x_api_checks.toml).
-The command writes versioned JSON and Markdown reports under `artifacts/`, which
-is ignored by Git. A successful run exits `0`; an API capability failure exits
+The command writes versioned JSON and Markdown reports under `artifacts/`. These
+diagnostic reports are ignored by Git; the committed Topic Radar handoff below
+is a separate exception. A successful run exits `0`; an API capability failure exits
 `3`; invalid configuration or a missing token exits `2`.
 
 The manually triggered **X API diagnostics** GitHub Actions workflow performs
@@ -191,6 +209,23 @@ table and recent headlines in the job summary and uploads both reports as
 run artifacts for 30 days. Its workflow is independent of the manual-only,
 cost-bounded account-discovery workflow. GitHub's scheduled jobs may run a
 little later than the configured time.
+
+Successful runs on `main` also commit `artifacts/topic-radar/latest/`,
+`artifacts/topic-radar/latest.json`, and `artifacts/topic-radar/latest.md`.
+The manifest and small topic, source-health, occurrence, and URL files are the
+canonical handoff to the editorial agent. All other generated reports remain
+ignored. A failed collection leaves the previous committed snapshot in place,
+so an editorial run checks live run provenance and freshness before using it.
+
+Validate a local snapshot with:
+
+```bash
+python3 scripts/validate_editorial_snapshot.py artifacts/topic-radar/latest
+```
+
+The snapshot covers the selected report items (currently up to eight per topic),
+not every entry seen in every raw feed. Editorial completeness means every
+selected URL and occurrence plus every source-health record is accounted for.
 
 ## Watch high-reach accounts and fresh posts
 
