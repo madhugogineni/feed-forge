@@ -2,110 +2,115 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://www.androidauthority.com/gemini-live-avatar-3715280",
-      "domain": "www.androidauthority.com",
+      "canonical_url": "https://www.thehindu.com/news/cities/Hyderabad/discarded-flowers-from-ganesh-immersions-find-second-life-in-cyberabad/article71513498.ece",
+      "domain": "www.thehindu.com",
       "feed_ids": [
-        "android_authority"
+        "hindu_hyderabad",
+        "hindu_telangana"
       ],
       "feed_names": [
-        "Android Authority"
+        "The Hindu Hyderabad",
+        "The Hindu Telangana"
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000005"
+        "occ_000081"
       ],
       "topic_ids": [
-        "ai_development"
+        "telangana_hyderabad"
       ],
       "topics": [
-        "AI development and products"
+        "Telangana and Hyderabad developments"
       ],
       "url_id": "url_000066"
     },
     {
-      "canonical_url": "https://www.androidauthority.com/gemini-tasks-mode-desktop-leak-3715259",
-      "domain": "www.androidauthority.com",
+      "canonical_url": "https://www.thehindu.com/news/cities/Hyderabad/engineering-students-suicide-turns-out-to-be-murder-two-arrested/article71502595.ece",
+      "domain": "www.thehindu.com",
       "feed_ids": [
-        "android_authority"
+        "hindu_hyderabad"
       ],
       "feed_names": [
-        "Android Authority"
+        "The Hindu Hyderabad"
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000006"
+        "occ_000029"
       ],
       "topic_ids": [
-        "ai_development"
+        "crime"
       ],
       "topics": [
-        "AI development and products"
+        "Crime news"
       ],
       "url_id": "url_000067"
     },
     {
-      "canonical_url": "https://www.androidauthority.com/google-health-5-09-3715801",
-      "domain": "www.androidauthority.com",
+      "canonical_url": "https://www.thehindu.com/news/cities/Hyderabad/improvement-notices-issued-to-three-restaurants-in-hyderabad-fssai-licences-of-11-eateries-suspended/article71513552.ece",
+      "domain": "www.thehindu.com",
       "feed_ids": [
-        "android_authority"
+        "hindu_hyderabad",
+        "hindu_telangana"
       ],
       "feed_names": [
-        "Android Authority"
+        "The Hindu Hyderabad",
+        "The Hindu Telangana"
       ],
-      "occurrence_count": 2,
+      "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000014",
-        "occ_000072"
+        "occ_000080"
       ],
       "topic_ids": [
-        "big_tech",
-        "tech_software"
+        "telangana_hyderabad"
       ],
       "topics": [
-        "Major technology companies",
-        "Technology, software and gadgets"
+        "Telangana and Hyderabad developments"
       ],
       "url_id": "url_000068"
     },
     {
-      "canonical_url": "https://www.androidauthority.com/ios-apps-i-want-on-android-2026-3713705",
-      "domain": "www.androidauthority.com",
+      "canonical_url": "https://www.thehindu.com/news/national/telangana/minister-launches-sheep-and-goat-insurance-scheme-in-karimnagar/article71513453.ece",
+      "domain": "www.thehindu.com",
       "feed_ids": [
-        "android_authority"
+        "hindu_hyderabad",
+        "hindu_telangana"
       ],
       "feed_names": [
-        "Android Authority"
+        "The Hindu Hyderabad",
+        "The Hindu Telangana"
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000076"
+        "occ_000077"
       ],
       "topic_ids": [
-        "tech_software"
+        "telangana_hyderabad"
       ],
       "topics": [
-        "Technology, software and gadgets"
+        "Telangana and Hyderabad developments"
       ],
       "url_id": "url_000069"
     },
     {
-      "canonical_url": "https://www.androidauthority.com/motorola-signature-27-advantage-over-other-samsung-rivals-3714695",
-      "domain": "www.androidauthority.com",
+      "canonical_url": "https://www.thehindu.com/news/national/telangana/pd-act-invoked-against-woman-for-running-illegal-belt-shop-in-borabanda/article71513555.ece",
+      "domain": "www.thehindu.com",
       "feed_ids": [
-        "android_authority"
+        "hindu_hyderabad",
+        "hindu_telangana"
       ],
       "feed_names": [
-        "Android Authority"
+        "The Hindu Hyderabad",
+        "The Hindu Telangana"
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000011"
+        "occ_000082"
       ],
       "topic_ids": [
-        "big_tech"
+        "telangana_hyderabad"
       ],
       "topics": [
-        "Major technology companies"
+        "Telangana and Hyderabad developments"
       ],
       "url_id": "url_000070"
     }

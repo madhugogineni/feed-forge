@@ -12,7 +12,7 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000086"
+        "occ_000085"
       ],
       "topic_ids": [
         "travel_lifestyle"
@@ -21,6 +21,27 @@
         "Travel and lifestyle"
       ],
       "url_id": "url_000021"
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOM21zWExQWDdYVEhJT2tqVjVPODBwb3d5OUd3LVBaZnl5aVNaLWZQRGd5elg3SDNIWDhWdXVtNnc4ZWFmNXVOYk9WU1RONE0zQVN4dG9sY1h0cVNjUU9wUG13R1hRSlNUM3BEcEd4dWI1NFNOdkZZUjY5T21iUi1VRHZBQnRLRkRmMWpLb2hEZi1TdGgtZzc2ZXN2THZnZ25GSTRnRFJJU2N0SURLdXNSVDZLMm1xaUVwV0UycDZHQTBOQTQ4SUhvQU1XVEoycXdHLVRsSUZQeXIyOGJjM1MwblhpT1lla0VtVmpiVXFxVm9lelZTN0s0V9IB_gFBVV95cUxPYlp3Y1RNdnlOXzZ6eXlTWHpPSzUyYjJPT2FzbUE5SEV0Z1MycUJXeE9UVE84WHhKUlVxMlRFMjlTRG9fYmtMMzJfVXBYZk5DNDF0aUEyU2tjSURUYXNMazRPeEZXdHFqczhNRmRMWnV2MVBLRDNoYXBzSGM0Y0RYRXU2bUV2X0l1UE1QNVVIcDFmTGJ0UGc3UVhfaTVwYVhsOU9DZTVRSXByLXlMckRza2RKbDFoaXVNdFRNRDlPbDBJb2luTFcwNjdxSzc5a04tTllaWVROU0E0akZyNGUybmg0dngyTWg3WGtQV3ZYQ3pKM2lleEdmMWxxMmpjZw?oc=5",
+      "domain": "news.google.com",
+      "feed_ids": [
+        "google_news_credit_cards"
+      ],
+      "feed_names": [
+        "Google News — Indian credit cards"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000019"
+      ],
+      "topic_ids": [
+        "credit_cards_payments"
+      ],
+      "topics": [
+        "Credit cards, rewards and payments"
+      ],
+      "url_id": "url_000022"
     },
     {
       "canonical_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPV2JsYTMzbmtwNl9CZXY0czBzRWpCWXcxNFZPcGlrQ1BkVm13X2lRVjZ0a3F6LVA5aHBfbkZnRzZtZk54ZjJiWHpvMlVTLXlOcnMwa2NQX2N6aDJOektWR05nU2doYm5wQVlYRVAwV1o2VUt5bmVkQ0xBWnpWd2dDRXVPS0EzNzAxQlo1RjR4c2lzWTIzT3B1S1o2SmpmaVdzVjJCeWtyWVd2bVdIWm5pdXhlcmdvMVFlY0Q1TnRqZFBiQTdBNmFJc2tpUkZmT1pE?oc=5",
@@ -41,16 +62,40 @@
       "topics": [
         "Credit cards, rewards and payments"
       ],
-      "url_id": "url_000022"
+      "url_id": "url_000023"
     },
     {
-      "canonical_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQR1FOaExKSE5DN1R0SFpvckxYVmdJWW1kdHVTVWpwZ09vZnFpb0tPd0ZhdjFldUJOZmhVaWZ0dDFsZGxpTURLVkRZQnJRcl9waGFhaTdJMFY4Z09ubHBGRjNGM3FvcV83TDdaYUFwb01iQVlNZ3JpVDlSWDJKVVM0TGVxRW9FZjkwbU1Wa2taX3dxZGFXTW4xTENZcU9kcWJZMGNUd0lkM3A4THdIRGt1LWlkUy1pTk1Ib01HcVROV1lFSDJUMmdzZlRTRlJIbjRhbWdGUXZVc2M?oc=5",
+      "canonical_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNMEM2T1RwYzRnd0VrOXRESTM3TlBvYm1BM2dUdGNudThDWHBoajR3Y3ZBN0NmQUVsaDRPREZKaVJyQVVHd01BRm5VQVZHR2l6bU9SZmg0VHZvVGNHU2ZBeW1CNVkwanIxUHFSTHdCdTlZTVRaTVNrWHRyRi02a1VSZkNyVkR3dVM1cEdtNTVEZ0dfYlJXXzdCSi1hQWRnMDdrcWtpcXAwZGt5dUhOcW14bW5uMW8xTzhVSHJBSFhhZkpUdGNiNXh4dm5nOEFxbjNoMXhPTVRn0gHbAUFVX3lxTE04MU5ueVlqU2sxcFFvZkNacHNUMmZseTlzbU5rT09hdTVXTnNyY004QnRqVENaQ3JmYi1LbjNsYnNrdG9KMUNwMGZpVjBLYXktdWgweDFJQVJUWlVneW42bHFHNVZBZl9tcUlTY244UUhEcUJnUVdtcEZUek4yTWQ0dkVCbE1vcDkzMGJwbjdaeUt3bXRXNzZ2YmFGQWZMdkp1Mk5la0ppbHBmTmhXS0RjS3VNUVY5RUVuWjFURmNISzB2cmtabGhyb2JNT2szZDBwZ01TQ0t6dnNBYw?oc=5",
       "domain": "news.google.com",
       "feed_ids": [
         "google_news_digital_brands"
       ],
       "feed_names": [
         "Google News — Indian digital brands"
+      ],
+      "occurrence_count": 2,
+      "occurrence_ids": [
+        "occ_000048",
+        "occ_000056"
+      ],
+      "topic_ids": [
+        "india_developments",
+        "indian_brands"
+      ],
+      "topics": [
+        "India developments",
+        "Indian consumer brands and products"
+      ],
+      "url_id": "url_000024"
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOejJnZzVMNlVQTEFzS0d3cnVFcHBnaGxpNnZMTV9KeUFzNGdWeV93bkxGSEVtOUhmT05odWxzUHVUZk9GSUlZTUVPdEd2X0ZKTV8zcEgwMmNkbDZYOWsxZENJdmIyZHRTYUZZMXliaTVrRlZsbzd6U3F1MnZBZ0VKNDE2WEtFelgwb1dVUGZWODJFOU9ibklKU29FYW1oWEJ0M1pRSV9iVDdjeXlONnFnekNjWHR6YUVxcnVpdkNvQjRUZk94SW1EQ1dHY0tUNjRINmpYRjFueEZzYl9nZWpBQVg1WUpzMU03NUxsS2dVRQ?oc=5",
+      "domain": "news.google.com",
+      "feed_ids": [
+        "google_news_consumer_brands"
+      ],
+      "feed_names": [
+        "Google News — Indian consumer brands"
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
@@ -61,48 +106,6 @@
       ],
       "topics": [
         "Indian consumer brands and products"
-      ],
-      "url_id": "url_000023"
-    },
-    {
-      "canonical_url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQOFgtbFZkZ09aRURYUVkxSjhFa2M0LU5JWG5tQmhpOU5oUmxXZEhqck03cjhSTDI0ekRrRWR2Tm91alBqQ3psM19CeFdxOW9aZHZtcGR0UnFuQldhOTNVWXFDUVRmclhRRzlBRF9kUGhDVjMtTW1iZlk2ZndJQk5iWnE1SXk4Y19Tbm9hUHRCNEtfeVVqUXVNNjFxRjNsYndOUXNMOW45MGFKX1p6NWlzdFhsSmNOWkhrUUlyRlpHNkR6Vk9lMi1pZ0xjbHByM0tYVEo1ekY4cWd6NEpVV0JfalRGUnB4VUhjaXdHXzRlVFZVaTTSAfgBQVVfeXFMUFd0YURtSU9JTmdwZTdpYklyQTBSMWwwd1dQSzI1Q2RFYjN2TFUwQVRNNDhwaXlIdDQ4UjFSYm5tc2tBOWQtQjRBTFR2WEIzalB1VlA0Um5JQXJ6Um5MeGs0a0JMRFpMc0lodlhQNmRPZDBzaVlvLUJBYXZvUWJQenpQSGJiS2ZPeUo5ZThpZzdkcFBUVTh6Q2pTTkZra2QyS2oxVHBCVjhBRnhtUzFuV0RSbmFmd2xYazAxaVNCdVIxM0dLVmNSNjk3dnVDa1NWcHdxMExDQV9zY0UxdTZxZGJCaEd1N3UwZFNsMU9MY1pMR05ReWFwVVQ?oc=5",
-      "domain": "news.google.com",
-      "feed_ids": [
-        "google_news_device_brands"
-      ],
-      "feed_names": [
-        "Google News — Indian device brands"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000055"
-      ],
-      "topic_ids": [
-        "indian_brands"
-      ],
-      "topics": [
-        "Indian consumer brands and products"
-      ],
-      "url_id": "url_000024"
-    },
-    {
-      "canonical_url": "https://news.google.com/rss/articles/CBMigwNBVV95cUxORzRzX3d1VEJQSkxqckdkOHM1LWRBWDU0ZzBnRDhrcGRkeHVNSjFzamllUkFOMGZMaFZUYzMxei1rbkJfVk1tVkx6c041THFrcHdFUUFhVGlGSERyZ2w4bjVVOEw3NnozRk9nLUNhTmNQcmo4a2NhbzJHU0VUVFdQaV9zSWVDcUc0V0tHU2tmZGhSQkdmdlQwMGFpZF9hZXp6SzR1c1gxUVB6U1VTT1psVDZLR0NZaUtpM2lrcnVEMEtsWUFrakRRNTQyRl90T2tqTGlEVzNaU0NSWTZNMEo1TERMVXJvdV9abktuZlNQU3pRV0J3eGUtUVdpblhNUE95WnRQQkR6NmtEcGNMTXNBcjBDY0tSRnczZ3daRThRVFJ1M0MxdW5iZDMtYjZXUDM3S0p1NGxiSmRRSUh2R2xlMUFIN2lhbmVmSERETDJiZ2FvR1h2eU9peElXTl9zWFJiSDRqc1hZWVg5ZV9WSHVLbEJTRWtuSU02OE9FdWNwQUxQekXSAYgDQVVfeXFMUHlKZXVGNHhkZldiSzUwODB5TFVnMl9ad2lIU3lGWDNBRFc2Z1RlUXlUQzlkdGg1NHBDejdzdnIzcWh6WkNFbVk3RkNWcTREU3pvSXQteXl5VVY2dTZvX2tPdEZRLTVkb1ZwWWFWeG95MGxyRlBRVWg4R0g3ck54Q1pib2pQUEdmV1FHQWNnN2RzODFJelhGN2wzQi1CTnZMNWFpYVpKRDhnNGwyZE5yU3lpWHVub1dmenhONVh0d2Vqc0tvOWpoOGF4YTF4UUtQNWU3dldYQW80VXpsWHVrWlFFX0RPNXhiUUhPR0R2ekdVUEloLW1ST2lEWDFXdF9uYzkxMlNhaHE5WmVwZjEyUksyMHg0UEpXcW1oVDVHYWtrZ3VUNGlEcTZER19oR1V3NGJMY01yR0FtdzlXR1ZEYUdhRDlYX3U5NzQtWjdGUm90ejJnUExuckRZN2xpR2g0U1AzckowMkVIYXdFTDB2Q1hPbjQxdWlSRzJERWJUM3FwR1E3aEVOWVY?oc=5",
-      "domain": "news.google.com",
-      "feed_ids": [
-        "google_news_credit_cards"
-      ],
-      "feed_names": [
-        "Google News — Indian credit cards"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000034"
-      ],
-      "topic_ids": [
-        "crime"
-      ],
-      "topics": [
-        "Crime news"
       ],
       "url_id": "url_000025"
     }

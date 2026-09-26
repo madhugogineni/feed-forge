@@ -12,7 +12,7 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000060"
+        "occ_000059"
       ],
       "topic_ids": [
         "music_apps"
@@ -54,7 +54,7 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000074"
+        "occ_000072"
       ],
       "topic_ids": [
         "tech_software"
@@ -63,27 +63,6 @@
         "Technology, software and gadgets"
       ],
       "url_id": "url_000003"
-    },
-    {
-      "canonical_url": "https://9to5mac.com/2026/09/22/apple-music-opens-new-live-music-venue-in-london",
-      "domain": "9to5mac.com",
-      "feed_ids": [
-        "9to5mac"
-      ],
-      "feed_names": [
-        "9to5Mac"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000064"
-      ],
-      "topic_ids": [
-        "music_apps"
-      ],
-      "topics": [
-        "Music and streaming apps"
-      ],
-      "url_id": "url_000004"
     },
     {
       "canonical_url": "https://9to5mac.com/2026/09/22/apple-working-on-whoop-style-screenless-fitness-tracker-per-report",
@@ -96,7 +75,28 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000041"
+        "occ_000040"
+      ],
+      "topic_ids": [
+        "fitness_ergonomics"
+      ],
+      "topics": [
+        "Fitness and ergonomics"
+      ],
+      "url_id": "url_000004"
+    },
+    {
+      "canonical_url": "https://9to5mac.com/2026/09/22/daily-september-22-2026",
+      "domain": "9to5mac.com",
+      "feed_ids": [
+        "9to5mac"
+      ],
+      "feed_names": [
+        "9to5Mac"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000037"
       ],
       "topic_ids": [
         "fitness_ergonomics"

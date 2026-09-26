@@ -2,70 +2,28 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://telanganatoday.com/thrive-pain-clinic-opens-new-wellness-and-pain-management-centre-in-jubilee-hills",
-      "domain": "telanganatoday.com",
+      "canonical_url": "https://www.androidauthority.com/spotify-meta-muse-integration-3714958",
+      "domain": "www.androidauthority.com",
       "feed_ids": [
-        "telangana_today"
+        "android_authority"
       ],
       "feed_names": [
-        "Telangana Today"
+        "Android Authority"
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000039"
+        "occ_000063"
       ],
       "topic_ids": [
-        "fitness_ergonomics"
+        "music_apps"
       ],
       "topics": [
-        "Fitness and ergonomics"
+        "Music and streaming apps"
       ],
       "url_id": "url_000061"
     },
     {
-      "canonical_url": "https://telanganatoday.com/upi-mdr-is-not-a-tax-or-surcharge-says-nirmala-sitharaman",
-      "domain": "telanganatoday.com",
-      "feed_ids": [
-        "telangana_today"
-      ],
-      "feed_names": [
-        "Telangana Today"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000025"
-      ],
-      "topic_ids": [
-        "credit_cards_payments"
-      ],
-      "topics": [
-        "Credit cards, rewards and payments"
-      ],
-      "url_id": "url_000062"
-    },
-    {
-      "canonical_url": "https://telanganatoday.com/virat-kohli-says-2027-world-cup-will-be-his-last-odi-world-cup-for-india",
-      "domain": "telanganatoday.com",
-      "feed_ids": [
-        "telangana_today"
-      ],
-      "feed_names": [
-        "Telangana Today"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000050"
-      ],
-      "topic_ids": [
-        "india_developments"
-      ],
-      "topics": [
-        "India developments"
-      ],
-      "url_id": "url_000063"
-    },
-    {
-      "canonical_url": "https://www.androidauthority.com/best-pixel-11-pro-alternative-poll-results-3715761",
+      "canonical_url": "https://www.androidauthority.com/turned-old-pixel-into-tv-box-security-camera-worth-it-3714104",
       "domain": "www.androidauthority.com",
       "feed_ids": [
         "android_authority"
@@ -83,26 +41,71 @@
       "topics": [
         "Technology, software and gadgets"
       ],
-      "url_id": "url_000064"
+      "url_id": "url_000062"
     },
     {
-      "canonical_url": "https://www.androidauthority.com/gemini-dark-mode-3715309",
-      "domain": "www.androidauthority.com",
+      "canonical_url": "https://www.apple.com/in/newsroom/2026/09/apple-opens-apple-music-hall-a-state-of-the-art-live-music-venue-in-london",
+      "domain": "www.apple.com",
       "feed_ids": [
-        "android_authority"
+        "apple_india"
       ],
       "feed_names": [
-        "Android Authority"
+        "Apple India Newsroom"
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000002"
+        "occ_000060"
       ],
       "topic_ids": [
-        "ai_development"
+        "music_apps"
       ],
       "topics": [
-        "AI development and products"
+        "Music and streaming apps"
+      ],
+      "url_id": "url_000063"
+    },
+    {
+      "canonical_url": "https://www.medianama.com/2026/09/223-npci-ai-cyber-threats-mythos-upi-mdr",
+      "domain": "www.medianama.com",
+      "feed_ids": [
+        "medianama"
+      ],
+      "feed_names": [
+        "MediaNama"
+      ],
+      "occurrence_count": 2,
+      "occurrence_ids": [
+        "occ_000001",
+        "occ_000018"
+      ],
+      "topic_ids": [
+        "ai_development",
+        "credit_cards_payments"
+      ],
+      "topics": [
+        "AI development and products",
+        "Credit cards, rewards and payments"
+      ],
+      "url_id": "url_000064"
+    },
+    {
+      "canonical_url": "https://www.thehindu.com/entertainment/movies/anumana-pakshi-movie-review-a-cluttered-exhausting-crime-comedy/article71507980.ece",
+      "domain": "www.thehindu.com",
+      "feed_ids": [
+        "hindu_hyderabad"
+      ],
+      "feed_names": [
+        "The Hindu Hyderabad"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000031"
+      ],
+      "topic_ids": [
+        "crime"
+      ],
+      "topics": [
+        "Crime news"
       ],
       "url_id": "url_000065"
     }

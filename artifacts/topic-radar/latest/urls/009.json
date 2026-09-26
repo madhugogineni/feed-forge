@@ -2,6 +2,48 @@
   "record_count": 5,
   "records": [
     {
+      "canonical_url": "https://telanganatoday.com/adilabad-tssp-yapalguda-battalion-inspector-booked-for-attempt-to-murder-of-colleague",
+      "domain": "telanganatoday.com",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000028"
+      ],
+      "topic_ids": [
+        "crime"
+      ],
+      "topics": [
+        "Crime news"
+      ],
+      "url_id": "url_000041"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/air-india-suspends-pilot-after-failing-breath-analyser-test-at-zurich-airport",
+      "domain": "telanganatoday.com",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000084"
+      ],
+      "topic_ids": [
+        "travel_lifestyle"
+      ],
+      "topics": [
+        "Travel and lifestyle"
+      ],
+      "url_id": "url_000042"
+    },
+    {
       "canonical_url": "https://telanganatoday.com/asian-games-2026-sawan-barwal-wins-marathon-silver-ends-indias-44-year-wait",
       "domain": "telanganatoday.com",
       "feed_ids": [
@@ -12,7 +54,7 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000042"
+        "occ_000041"
       ],
       "topic_ids": [
         "fitness_ergonomics"
@@ -20,10 +62,34 @@
       "topics": [
         "Fitness and ergonomics"
       ],
-      "url_id": "url_000041"
+      "url_id": "url_000043"
     },
     {
-      "canonical_url": "https://telanganatoday.com/asian-games-hockey-india-make-semis-with-2-0-win-against-japan",
+      "canonical_url": "https://telanganatoday.com/asian-games-twin-kabaddi-golds-marathon-silver-highlight-indias-day",
+      "domain": "telanganatoday.com",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "occurrence_count": 2,
+      "occurrence_ids": [
+        "occ_000036",
+        "occ_000043"
+      ],
+      "topic_ids": [
+        "fitness_ergonomics",
+        "india_developments"
+      ],
+      "topics": [
+        "Fitness and ergonomics",
+        "India developments"
+      ],
+      "url_id": "url_000044"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/hkmcf-india-opens-community-kitchen-to-provide-breakfast-to-29183-telangana-students",
       "domain": "telanganatoday.com",
       "feed_ids": [
         "telangana_today"
@@ -33,76 +99,13 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000044"
+        "occ_000045"
       ],
       "topic_ids": [
         "india_developments"
       ],
       "topics": [
         "India developments"
-      ],
-      "url_id": "url_000042"
-    },
-    {
-      "canonical_url": "https://telanganatoday.com/ganesh-immersion-procession-passes-off-peacefully-in-hyderabad-c-p-sajjanar",
-      "domain": "telanganatoday.com",
-      "feed_ids": [
-        "telangana_today"
-      ],
-      "feed_names": [
-        "Telangana Today"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000083"
-      ],
-      "topic_ids": [
-        "telangana_hyderabad"
-      ],
-      "topics": [
-        "Telangana and Hyderabad developments"
-      ],
-      "url_id": "url_000043"
-    },
-    {
-      "canonical_url": "https://telanganatoday.com/ganesh-immersion-two-devotees-drown-one-electrocuted-one-dies-of-cardiac-arrest",
-      "domain": "telanganatoday.com",
-      "feed_ids": [
-        "telangana_today"
-      ],
-      "feed_names": [
-        "Telangana Today"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000029"
-      ],
-      "topic_ids": [
-        "crime"
-      ],
-      "topics": [
-        "Crime news"
-      ],
-      "url_id": "url_000044"
-    },
-    {
-      "canonical_url": "https://telanganatoday.com/hyderabad-ganesh-immersion-hussain-sagar-immersion-ends-as-clean-up-begins",
-      "domain": "telanganatoday.com",
-      "feed_ids": [
-        "telangana_today"
-      ],
-      "feed_names": [
-        "Telangana Today"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000082"
-      ],
-      "topic_ids": [
-        "telangana_hyderabad"
-      ],
-      "topics": [
-        "Telangana and Hyderabad developments"
       ],
       "url_id": "url_000045"
     }

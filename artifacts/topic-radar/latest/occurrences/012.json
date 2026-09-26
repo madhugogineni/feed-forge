@@ -2,51 +2,7 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOX0pOd2xOLVhpajNZOHc2ME5uZjctbXl0RDZybDh6cWZCck9YMURGMzhVQ05heFFFb0pjQTJVN040QTduMk5pdTNiT3R5Z3EwT0lWOUNPMktGcEFRVnRWT3c1c0FJNzlqYzRXVE85eF9EWE8wUEpZS20yWlZSbFJiWUIyU1JkeXllSFZKMGVaVXg5VERtMjFyTlZuQlpqWGNjZDk5SU9ldUc5cW0wNTVrUVZVNFlNQ1k?oc=5",
-      "feed_id": "google_news_device_brands",
-      "feed_ids": [
-        "google_news_device_brands"
-      ],
-      "feed_name": "Google News — Indian device brands",
-      "feed_names": [
-        "Google News — Indian device brands"
-      ],
-      "matched_terms": [
-        "Ather"
-      ],
-      "occurrence_id": "occ_000056",
-      "original_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOX0pOd2xOLVhpajNZOHc2ME5uZjctbXl0RDZybDh6cWZCck9YMURGMzhVQ05heFFFb0pjQTJVN040QTduMk5pdTNiT3R5Z3EwT0lWOUNPMktGcEFRVnRWT3c1c0FJNzlqYzRXVE85eF9EWE8wUEpZS20yWlZSbFJiWUIyU1JkeXllSFZKMGVaVXg5VERtMjFyTlZuQlpqWGNjZDk5SU9ldUc5cW0wNTVrUVZVNFlNQ1k?oc=5",
-      "pipeline_item_id": "9f0bb438bf190f32",
-      "published_at": "2026-09-26T11:19:23Z",
-      "title": "What's new in Ather Konarc? 10 key things to know about electric scooter - Zee Business",
-      "topic": "Indian consumer brands and products",
-      "topic_id": "indian_brands",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSDlLQlZ6REhRNlNJd01nS2l0bmtOdUstQWRMMkRjYmxncG1UOVFFZDhrMmFXeDlraGlCZzRZdXQ4SHVnTVAxNm1hUFVpaHpRSmlDckVvUC13cFE0TFhodFpsdFZnS1FqSC1JaHpYX2xucjFEVUFpSk1Ib3dNVzRVbmpWc255TlkxSFVoMGhkS3E5LWh3dXJhRlB1bFN2ZG9xdG5uczJSTldubGwwR3NIY2pUTS1FNllZU1hKMm1kYWw?oc=5",
-      "feed_id": "google_news_consumer_brands",
-      "feed_ids": [
-        "google_news_consumer_brands"
-      ],
-      "feed_name": "Google News — Indian consumer brands",
-      "feed_names": [
-        "Google News — Indian consumer brands"
-      ],
-      "matched_terms": [
-        "Nykaa"
-      ],
-      "occurrence_id": "occ_000057",
-      "original_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSDlLQlZ6REhRNlNJd01nS2l0bmtOdUstQWRMMkRjYmxncG1UOVFFZDhrMmFXeDlraGlCZzRZdXQ4SHVnTVAxNm1hUFVpaHpRSmlDckVvUC13cFE0TFhodFpsdFZnS1FqSC1JaHpYX2xucjFEVUFpSk1Ib3dNVzRVbmpWc255TlkxSFVoMGhkS3E5LWh3dXJhRlB1bFN2ZG9xdG5uczJSTldubGwwR3NIY2pUTS1FNllZU1hKMm1kYWw?oc=5",
-      "pipeline_item_id": "c3830579fb0a9c43",
-      "published_at": "2026-09-26T05:07:30Z",
-      "title": "Nykaa’s ‘New At Nykaa’ campaign spotlights latest beauty launches through playful warehouse heist - MediaNews4U",
-      "topic": "Indian consumer brands and products",
-      "topic_id": "indian_brands",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPOWlhYjdBdjlabmhSYkxaVWJud1dFM19iWDRZUXFpZWNLUy1yU0FtcjBTa05xQVhJaTVzQzNtenN3eFFhZmQtal8yNm5SdkRHdHJpc1dpTXdkejdEVGxObXYyZ19CTmppdXpVUHNUN091Zi1UUXB5SWZaMkM5el9JZXBObXVWSDhmR3QzQklWd3dJZVBLZWU2TXhOQVB3T254eE5TdTBXN01fNXdPem9lZjlrZmZLU0RWNlA5dVVSVQ?oc=5",
+      "canonical_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNMEM2T1RwYzRnd0VrOXRESTM3TlBvYm1BM2dUdGNudThDWHBoajR3Y3ZBN0NmQUVsaDRPREZKaVJyQVVHd01BRm5VQVZHR2l6bU9SZmg0VHZvVGNHU2ZBeW1CNVkwanIxUHFSTHdCdTlZTVRaTVNrWHRyRi02a1VSZkNyVkR3dVM1cEdtNTVEZ0dfYlJXXzdCSi1hQWRnMDdrcWtpcXAwZGt5dUhOcW14bW5uMW8xTzhVSHJBSFhhZkpUdGNiNXh4dm5nOEFxbjNoMXhPTVRn0gHbAUFVX3lxTE04MU5ueVlqU2sxcFFvZkNacHNUMmZseTlzbU5rT09hdTVXTnNyY004QnRqVENaQ3JmYi1LbjNsYnNrdG9KMUNwMGZpVjBLYXktdWgweDFJQVJUWlVneW42bHFHNVZBZl9tcUlTY244UUhEcUJnUVdtcEZUek4yTWQ0dkVCbE1vcDkzMGJwbjdaeUt3bXRXNzZ2YmFGQWZMdkp1Mk5la0ppbHBmTmhXS0RjS3VNUVY5RUVuWjFURmNISzB2cmtabGhyb2JNT2szZDBwZ01TQ0t6dnNBYw?oc=5",
       "feed_id": "google_news_digital_brands",
       "feed_ids": [
         "google_news_digital_brands"
@@ -56,13 +12,35 @@
         "Google News — Indian digital brands"
       ],
       "matched_terms": [
-        "Urban Company"
+        "Blinkit"
       ],
-      "occurrence_id": "occ_000058",
-      "original_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPOWlhYjdBdjlabmhSYkxaVWJud1dFM19iWDRZUXFpZWNLUy1yU0FtcjBTa05xQVhJaTVzQzNtenN3eFFhZmQtal8yNm5SdkRHdHJpc1dpTXdkejdEVGxObXYyZ19CTmppdXpVUHNUN091Zi1UUXB5SWZaMkM5el9JZXBObXVWSDhmR3QzQklWd3dJZVBLZWU2TXhOQVB3T254eE5TdTBXN01fNXdPem9lZjlrZmZLU0RWNlA5dVVSVQ?oc=5",
-      "pipeline_item_id": "cd2865493cb8ccf9",
-      "published_at": "2026-09-25T14:18:47Z",
-      "title": "Bessemer India Capital cuts Urban Company stake to 3.42% after selling 2.12% - scanx.trade",
+      "occurrence_id": "occ_000056",
+      "original_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNMEM2T1RwYzRnd0VrOXRESTM3TlBvYm1BM2dUdGNudThDWHBoajR3Y3ZBN0NmQUVsaDRPREZKaVJyQVVHd01BRm5VQVZHR2l6bU9SZmg0VHZvVGNHU2ZBeW1CNVkwanIxUHFSTHdCdTlZTVRaTVNrWHRyRi02a1VSZkNyVkR3dVM1cEdtNTVEZ0dfYlJXXzdCSi1hQWRnMDdrcWtpcXAwZGt5dUhOcW14bW5uMW8xTzhVSHJBSFhhZkpUdGNiNXh4dm5nOEFxbjNoMXhPTVRn0gHbAUFVX3lxTE04MU5ueVlqU2sxcFFvZkNacHNUMmZseTlzbU5rT09hdTVXTnNyY004QnRqVENaQ3JmYi1LbjNsYnNrdG9KMUNwMGZpVjBLYXktdWgweDFJQVJUWlVneW42bHFHNVZBZl9tcUlTY244UUhEcUJnUVdtcEZUek4yTWQ0dkVCbE1vcDkzMGJwbjdaeUt3bXRXNzZ2YmFGQWZMdkp1Mk5la0ppbHBmTmhXS0RjS3VNUVY5RUVuWjFURmNISzB2cmtabGhyb2JNT2szZDBwZ01TQ0t6dnNBYw?oc=5",
+      "pipeline_item_id": "c6219732c8d4bf06",
+      "published_at": "2026-09-26T15:08:03Z",
+      "title": "Blinkit warehouse in Gujarat's Rajkot faces action after 596 kg spoiled stock found - India Today",
+      "topic": "Indian consumer brands and products",
+      "topic_id": "indian_brands",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQUWcxSkV1SUtacDN0NHRPSE9WWnJsakRSMlk1R1pqTWlHWTFVcHkxSmtXenlNYl83cWV5REZmYkhZZTV5WXRzNnVtQUZ5ckxJYlpXRkdYWnY1bDJVVGNNTWpvZjczSlJ4R3RtTVFJOEVMbkpvcU04S2pybW5Hazc4SDY2N0U3SzRnNlFZNzVjUWV4STBpNkhCb1A0aUJkZHVKaDVleTdaZXRCaXh5VktYQUkySTBjVXVWVDVQbUNNVjljclZOblZDOE93eENOeFdHWkM3ekU5SlZNRWdHQVV1YXp6eU0xNHlQMlNFMlhZaDnSAfYBQVVfeXFMUExpLVN5VjVWbHJqaTl4VS1nSUUyakltM2xHYXhwUEctTXBiMVpXVGVFczBjT2FtWFBEMVAzYWhVd2dZLUZqUWJxMkVuaFQtbWEycjExX2hTdzJESU01ekxBUjhacHhqN2RwMDVYd1BrVUxYNnpMZ1hOXzY2YmN2eTY0VFZMaF9uS3dqWHZ5S3FBcEhrVjFCM2xIWm1qdklwYkhkRGE2VWpXR3ZCTmdpM3QydUlsMFlwRmxEdEhNYjRaZDF3WGwtZldDRkVvQmJyU05nblh1Q1JTQmJvS2dYYWdMekUwQ01kS1RMaWhDUXItMHJQem13?oc=5",
+      "feed_id": "google_news_digital_brands",
+      "feed_ids": [
+        "google_news_digital_brands"
+      ],
+      "feed_name": "Google News — Indian digital brands",
+      "feed_names": [
+        "Google News — Indian digital brands"
+      ],
+      "matched_terms": [
+        "Swiggy"
+      ],
+      "occurrence_id": "occ_000057",
+      "original_url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQUWcxSkV1SUtacDN0NHRPSE9WWnJsakRSMlk1R1pqTWlHWTFVcHkxSmtXenlNYl83cWV5REZmYkhZZTV5WXRzNnVtQUZ5ckxJYlpXRkdYWnY1bDJVVGNNTWpvZjczSlJ4R3RtTVFJOEVMbkpvcU04S2pybW5Hazc4SDY2N0U3SzRnNlFZNzVjUWV4STBpNkhCb1A0aUJkZHVKaDVleTdaZXRCaXh5VktYQUkySTBjVXVWVDVQbUNNVjljclZOblZDOE93eENOeFdHWkM3ekU5SlZNRWdHQVV1YXp6eU0xNHlQMlNFMlhZaDnSAfYBQVVfeXFMUExpLVN5VjVWbHJqaTl4VS1nSUUyakltM2xHYXhwUEctTXBiMVpXVGVFczBjT2FtWFBEMVAzYWhVd2dZLUZqUWJxMkVuaFQtbWEycjExX2hTdzJESU01ekxBUjhacHhqN2RwMDVYd1BrVUxYNnpMZ1hOXzY2YmN2eTY0VFZMaF9uS3dqWHZ5S3FBcEhrVjFCM2xIWm1qdklwYkhkRGE2VWpXR3ZCTmdpM3QydUlsMFlwRmxEdEhNYjRaZDF3WGwtZldDRkVvQmJyU05nblh1Q1JTQmJvS2dYYWdMekUwQ01kS1RMaWhDUXItMHJQem13?oc=5",
+      "pipeline_item_id": "c7ea2a0c20a12089",
+      "published_at": "2026-09-26T15:54:50Z",
+      "title": "From Swiggy delivery agent to restaurant owner: Bengaluru entrepreneur shares his journey - The Economic Times",
       "topic": "Indian consumer brands and products",
       "topic_id": "indian_brands",
       "topic_lane": "review"
@@ -80,7 +58,7 @@
       "matched_terms": [
         "Zepto"
       ],
-      "occurrence_id": "occ_000059",
+      "occurrence_id": "occ_000058",
       "original_url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNOWdIdDJMeS1OcVJCUHpOYTNtYWVlOEVIcklzVlhrci1PVTdqTkdfUFdld2xsZmpQYmk3VTRnb2dMd3p4a0gycWYyOHAyZmowNFE1WmxvYXJVcWJ5bDFxSVl1ZjZlTFJXNWJka3ZRNWRWODAwOXFPR3BCZElFc2FOU1VsZEVTd3VmZmNuakdPTlc3Y2hPalZveGRUV0RhOTNSLXVOYVZ0dTZpNGZqaHkxRmVVMVJ6YlljTjhoakwxWXp4SGYzdTkwUHY4WEJkVkNCUDA2RkJ1QmpBTk4xYkNCcC1oQ1VTMlQwcmo0ejlpQW4wTXpUSnIxdHZyRzFRRlQtU0hhMtIBiwJBVV95cUxQUUJMUExkcVRmS1phVzFfMjdTVVFqOG8zRDJ2aF9nYngxY2sxN19MUUIyQmdLUkdITjctbXYxOFprX2pXcUJ2N3YzYUliTlpSYU1XdTlGR1NMbGlOOEhTdEhYdTk5MGJpWkpIYUVrMVZGWFVjcGk5LWs1S3FXUXREdEJkeDF0dXJ3QkVMaWgtSjBxM24yNWJWNk55SFpKLVRUcTk1dVRWZ1hDXzFHNHNnUVR5QzRVNGJ3ZDlNTlp4Z3B6R0lNMlJwVEpCLXNkdks2UmRBeS1kMXpRV0o2WXpfZjl4RTctQUk1WVNhM1pfRnhMZzV3bHZpbV9KeV9PaUhqWGplYjRhaUVMc00?oc=5",
       "pipeline_item_id": "f43f639749c02dca",
       "published_at": "2026-09-25T12:30:55Z",
@@ -102,11 +80,33 @@
       "matched_terms": [
         "YouTube Music"
       ],
-      "occurrence_id": "occ_000060",
+      "occurrence_id": "occ_000059",
       "original_url": "https://9to5google.com/2026/09/23/youtube-music-ask-gemini",
       "pipeline_item_id": "074dbf46b69ce181",
       "published_at": "2026-09-23T14:30:00Z",
       "title": "YouTube Music adding corner access to ‘Ask Music’ with Gemini",
+      "topic": "Music and streaming apps",
+      "topic_id": "music_apps",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://www.apple.com/in/newsroom/2026/09/apple-opens-apple-music-hall-a-state-of-the-art-live-music-venue-in-london",
+      "feed_id": "apple_india",
+      "feed_ids": [
+        "apple_india"
+      ],
+      "feed_name": "Apple India Newsroom",
+      "feed_names": [
+        "Apple India Newsroom"
+      ],
+      "matched_terms": [
+        "Apple Music"
+      ],
+      "occurrence_id": "occ_000060",
+      "original_url": "https://www.apple.com/in/newsroom/2026/09/apple-opens-apple-music-hall-a-state-of-the-art-live-music-venue-in-london",
+      "pipeline_item_id": "32cf70c135414b43",
+      "published_at": "2026-09-22T06:01:14.421000Z",
+      "title": "Apple opens Apple Music Hall, a state-of-the-art live music venue in London",
       "topic": "Music and streaming apps",
       "topic_id": "music_apps",
       "topic_lane": "review"

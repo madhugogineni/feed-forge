@@ -2,29 +2,7 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://telanganatoday.com/india-bloc-parties-likely-to-meet-on-september-30-over-ec-row-sir",
-      "feed_id": "telangana_today",
-      "feed_ids": [
-        "telangana_today"
-      ],
-      "feed_name": "Telangana Today",
-      "feed_names": [
-        "Telangana Today"
-      ],
-      "matched_terms": [
-        "India"
-      ],
-      "occurrence_id": "occ_000046",
-      "original_url": "https://telanganatoday.com/india-bloc-parties-likely-to-meet-on-september-30-over-ec-row-sir",
-      "pipeline_item_id": "48d7d989e1f770b4",
-      "published_at": "2026-09-26T08:59:09Z",
-      "title": "INDIA bloc parties likely to meet on September 30 over EC row, SIR",
-      "topic": "India developments",
-      "topic_id": "india_developments",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://inc42.com/features/fy26-financial-tracker-tracking-the-financial-performance-of-indian-startups",
+      "canonical_url": "https://inc42.com/buzz/ride-hailing-fear-inside-bharat-taxi-coercion-allegations-in-gujarat",
       "feed_id": "inc42",
       "feed_ids": [
         "inc42"
@@ -34,63 +12,85 @@
         "Inc42"
       ],
       "matched_terms": [
-        "Indian"
+        "Bharat"
       ],
-      "occurrence_id": "occ_000047",
-      "original_url": "https://inc42.com/features/fy26-financial-tracker-tracking-the-financial-performance-of-indian-startups",
-      "pipeline_item_id": "4fb4a7bbb4ce1ded",
-      "published_at": "2026-09-26T10:00:38Z",
-      "title": "FY26 Financial Tracker: Tracking The Financial Performance Of Indian Startups",
+      "occurrence_id": "occ_000046",
+      "original_url": "https://inc42.com/buzz/ride-hailing-fear-inside-bharat-taxi-coercion-allegations-in-gujarat",
+      "pipeline_item_id": "af4596bc96f88762",
+      "published_at": "2026-09-26T13:41:26Z",
+      "title": "Ride-Hailing Fear: Inside Bharat Taxi Coercion Allegations In Gujarat",
       "topic": "India developments",
       "topic_id": "india_developments",
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://telanganatoday.com/kabaddi-at-asian-games-india-complete-golden-double-with-twin-wins-over-iran",
-      "feed_id": "telangana_today",
+      "canonical_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPOTkzUURyMUdlbTFXcXI0Q21uRUt2TXhrVzA3YzN1UUF6V3ppLVZmREhaZnc2dFJBTktaTThrTFNBRWFEb0djdWxvX2lpZnNRY2Y4bldyc2F3MDVnZFowUmE4MDFQRHo2UW9IUG1xeXBfUnpQV2tFZURfa19fQ2syQTdCLUJPV1hBWEQyYzQzVUlTdEs4OGVHUnFZLV9aR2pTM19qdFo4NERObFdMeU9FY0lldXEwdUlDV1ZlQXpIYktiMnIxSzk4Y0x30gHPAUFVX3lxTE5hTU1CaXlEY1RZd2psbGk5MmIzdllYYjNjTTFGbm9qNU5UT1VzZUVpbXRESFY2Z3BWX0NRZGhyRkloV0kxY0RsWG9QaGVCYXo4U2owTU9MLUR6SHNjSi1SNTFZdFdMTU4yNXMtZ1k2dmtaaHR4NTF1dWZscW9ldFotS282NTQtV051alRfcUtpVnZnMjNXc1F3ZENnWFV3dFlxNHhrWm94aWNrWGtZcXB1VlVHc3NOWm1mWkhnNlRlV1EtVzk3V0pKX042Y0RMQQ?oc=5",
+      "feed_id": "google_news_device_brands",
       "feed_ids": [
-        "telangana_today"
+        "google_news_device_brands"
       ],
-      "feed_name": "Telangana Today",
+      "feed_name": "Google News — Indian device brands",
       "feed_names": [
-        "Telangana Today"
+        "Google News — Indian device brands"
+      ],
+      "matched_terms": [
+        "India"
+      ],
+      "occurrence_id": "occ_000047",
+      "original_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPOTkzUURyMUdlbTFXcXI0Q21uRUt2TXhrVzA3YzN1UUF6V3ppLVZmREhaZnc2dFJBTktaTThrTFNBRWFEb0djdWxvX2lpZnNRY2Y4bldyc2F3MDVnZFowUmE4MDFQRHo2UW9IUG1xeXBfUnpQV2tFZURfa19fQ2syQTdCLUJPV1hBWEQyYzQzVUlTdEs4OGVHUnFZLV9aR2pTM19qdFo4NERObFdMeU9FY0lldXEwdUlDV1ZlQXpIYktiMnIxSzk4Y0x30gHPAUFVX3lxTE5hTU1CaXlEY1RZd2psbGk5MmIzdllYYjNjTTFGbm9qNU5UT1VzZUVpbXRESFY2Z3BWX0NRZGhyRkloV0kxY0RsWG9QaGVCYXo4U2owTU9MLUR6SHNjSi1SNTFZdFdMTU4yNXMtZ1k2dmtaaHR4NTF1dWZscW9ldFotS282NTQtV051alRfcUtpVnZnMjNXc1F3ZENnWFV3dFlxNHhrWm94aWNrWGtZcXB1VlVHc3NOWm1mWkhnNlRlV1EtVzk3V0pKX042Y0RMQQ?oc=5",
+      "pipeline_item_id": "c3d833f4d8a1bb67",
+      "published_at": "2026-09-26T14:35:00Z",
+      "title": "Melpadom Chundan wins third race of Champions Boat League - The Times of India",
+      "topic": "India developments",
+      "topic_id": "india_developments",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNMEM2T1RwYzRnd0VrOXRESTM3TlBvYm1BM2dUdGNudThDWHBoajR3Y3ZBN0NmQUVsaDRPREZKaVJyQVVHd01BRm5VQVZHR2l6bU9SZmg0VHZvVGNHU2ZBeW1CNVkwanIxUHFSTHdCdTlZTVRaTVNrWHRyRi02a1VSZkNyVkR3dVM1cEdtNTVEZ0dfYlJXXzdCSi1hQWRnMDdrcWtpcXAwZGt5dUhOcW14bW5uMW8xTzhVSHJBSFhhZkpUdGNiNXh4dm5nOEFxbjNoMXhPTVRn0gHbAUFVX3lxTE04MU5ueVlqU2sxcFFvZkNacHNUMmZseTlzbU5rT09hdTVXTnNyY004QnRqVENaQ3JmYi1LbjNsYnNrdG9KMUNwMGZpVjBLYXktdWgweDFJQVJUWlVneW42bHFHNVZBZl9tcUlTY244UUhEcUJnUVdtcEZUek4yTWQ0dkVCbE1vcDkzMGJwbjdaeUt3bXRXNzZ2YmFGQWZMdkp1Mk5la0ppbHBmTmhXS0RjS3VNUVY5RUVuWjFURmNISzB2cmtabGhyb2JNT2szZDBwZ01TQ0t6dnNBYw?oc=5",
+      "feed_id": "google_news_digital_brands",
+      "feed_ids": [
+        "google_news_digital_brands"
+      ],
+      "feed_name": "Google News — Indian digital brands",
+      "feed_names": [
+        "Google News — Indian digital brands"
       ],
       "matched_terms": [
         "India"
       ],
       "occurrence_id": "occ_000048",
-      "original_url": "https://telanganatoday.com/kabaddi-at-asian-games-india-complete-golden-double-with-twin-wins-over-iran",
-      "pipeline_item_id": "8082d30386e43a40",
-      "published_at": "2026-09-26T10:34:33Z",
-      "title": "Kabaddi at Asian Games: India complete golden double with twin wins over Iran",
+      "original_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNMEM2T1RwYzRnd0VrOXRESTM3TlBvYm1BM2dUdGNudThDWHBoajR3Y3ZBN0NmQUVsaDRPREZKaVJyQVVHd01BRm5VQVZHR2l6bU9SZmg0VHZvVGNHU2ZBeW1CNVkwanIxUHFSTHdCdTlZTVRaTVNrWHRyRi02a1VSZkNyVkR3dVM1cEdtNTVEZ0dfYlJXXzdCSi1hQWRnMDdrcWtpcXAwZGt5dUhOcW14bW5uMW8xTzhVSHJBSFhhZkpUdGNiNXh4dm5nOEFxbjNoMXhPTVRn0gHbAUFVX3lxTE04MU5ueVlqU2sxcFFvZkNacHNUMmZseTlzbU5rT09hdTVXTnNyY004QnRqVENaQ3JmYi1LbjNsYnNrdG9KMUNwMGZpVjBLYXktdWgweDFJQVJUWlVneW42bHFHNVZBZl9tcUlTY244UUhEcUJnUVdtcEZUek4yTWQ0dkVCbE1vcDkzMGJwbjdaeUt3bXRXNzZ2YmFGQWZMdkp1Mk5la0ppbHBmTmhXS0RjS3VNUVY5RUVuWjFURmNISzB2cmtabGhyb2JNT2szZDBwZ01TQ0t6dnNBYw?oc=5",
+      "pipeline_item_id": "c6219732c8d4bf06",
+      "published_at": "2026-09-26T15:08:03Z",
+      "title": "Blinkit warehouse in Gujarat's Rajkot faces action after 596 kg spoiled stock found - India Today",
       "topic": "India developments",
       "topic_id": "india_developments",
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://telanganatoday.com/samay-raina-announces-hyderabad-shows-as-part-of-india-tour",
-      "feed_id": "telangana_today",
+      "canonical_url": "https://inc42.com/buzz/iit-madras-unicorn-india-ventures-mark-first-close-of-fund-i-at-%e2%82%b9450-cr",
+      "feed_id": "inc42",
       "feed_ids": [
-        "telangana_today"
+        "inc42"
       ],
-      "feed_name": "Telangana Today",
+      "feed_name": "Inc42",
       "feed_names": [
-        "Telangana Today"
+        "Inc42"
       ],
       "matched_terms": [
         "India"
       ],
       "occurrence_id": "occ_000049",
-      "original_url": "https://telanganatoday.com/samay-raina-announces-hyderabad-shows-as-part-of-india-tour",
-      "pipeline_item_id": "f13dd91a36ef5407",
-      "published_at": "2026-09-26T06:54:17Z",
-      "title": "Samay Raina announces Hyderabad shows as part of India tour",
+      "original_url": "https://inc42.com/buzz/iit-madras-unicorn-india-ventures-mark-first-close-of-fund-i-at-%e2%82%b9450-cr",
+      "pipeline_item_id": "c7806d4045cb7df8",
+      "published_at": "2026-09-26T12:18:25Z",
+      "title": "IIT Madras, Unicorn India Ventures Mark First Close Of Fund I At ₹450 Cr",
       "topic": "India developments",
       "topic_id": "india_developments",
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://telanganatoday.com/virat-kohli-says-2027-world-cup-will-be-his-last-odi-world-cup-for-india",
+      "canonical_url": "https://telanganatoday.com/iacc-summit-highlights-indias-ai-opportunity-beyond-llms-chips-and-data-centres",
       "feed_id": "telangana_today",
       "feed_ids": [
         "telangana_today"
@@ -100,16 +100,17 @@
         "Telangana Today"
       ],
       "matched_terms": [
-        "India"
+        "India",
+        "summit"
       ],
       "occurrence_id": "occ_000050",
-      "original_url": "https://telanganatoday.com/virat-kohli-says-2027-world-cup-will-be-his-last-odi-world-cup-for-india",
-      "pipeline_item_id": "f24e9f05bc319184",
-      "published_at": "2026-09-26T08:20:46Z",
-      "title": "Virat Kohli says 2027 World Cup will be his last ODI World Cup for India",
-      "topic": "India developments",
-      "topic_id": "india_developments",
-      "topic_lane": "review"
+      "original_url": "https://telanganatoday.com/iacc-summit-highlights-indias-ai-opportunity-beyond-llms-chips-and-data-centres",
+      "pipeline_item_id": "b518ebc9b525e1b5",
+      "published_at": "2026-09-25T10:48:45Z",
+      "title": "IACC Summit highlights India’s AI opportunity beyond LLMs, chips and data centres",
+      "topic": "India-related geopolitics",
+      "topic_id": "india_geopolitics",
+      "topic_lane": "context_only"
     }
   ],
   "schema_version": "feed-forge/editorial-input/v1",

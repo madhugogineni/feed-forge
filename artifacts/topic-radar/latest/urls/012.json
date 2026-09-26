@@ -2,110 +2,107 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://telanganatoday.com/russo-brothers-recall-robert-downey-jr-chris-evans-final-days-on-avengers-endgame",
-      "domain": "telanganatoday.com",
+      "canonical_url": "https://www.androidauthority.com/gemini-tasks-mode-desktop-leak-3715259",
+      "domain": "www.androidauthority.com",
       "feed_ids": [
-        "telangana_today"
+        "android_authority"
       ],
       "feed_names": [
-        "Telangana Today"
+        "Android Authority"
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000018"
+        "occ_000006"
       ],
       "topic_ids": [
-        "consumer_safety"
+        "ai_development"
       ],
       "topics": [
-        "Consumer and digital safety"
+        "AI development and products"
       ],
       "url_id": "url_000056"
     },
     {
-      "canonical_url": "https://telanganatoday.com/samay-raina-announces-hyderabad-shows-as-part-of-india-tour",
-      "domain": "telanganatoday.com",
+      "canonical_url": "https://www.androidauthority.com/google-health-5-09-3715801",
+      "domain": "www.androidauthority.com",
       "feed_ids": [
-        "telangana_today"
+        "android_authority"
       ],
       "feed_names": [
-        "Telangana Today"
+        "Android Authority"
       ],
-      "occurrence_count": 2,
+      "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000049",
-        "occ_000084"
+        "occ_000070"
       ],
       "topic_ids": [
-        "india_developments",
-        "telangana_hyderabad"
+        "tech_software"
       ],
       "topics": [
-        "India developments",
-        "Telangana and Hyderabad developments"
+        "Technology, software and gadgets"
       ],
       "url_id": "url_000057"
     },
     {
-      "canonical_url": "https://telanganatoday.com/sheraton-hyderabad-to-host-malaysian-food-showcase-on-september-26-27",
-      "domain": "telanganatoday.com",
+      "canonical_url": "https://www.androidauthority.com/ios-apps-i-want-on-android-2026-3713705",
+      "domain": "www.androidauthority.com",
       "feed_ids": [
-        "telangana_today"
+        "android_authority"
       ],
       "feed_names": [
-        "Telangana Today"
+        "Android Authority"
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000079"
+        "occ_000074"
       ],
       "topic_ids": [
-        "telangana_hyderabad"
+        "tech_software"
       ],
       "topics": [
-        "Telangana and Hyderabad developments"
+        "Technology, software and gadgets"
       ],
       "url_id": "url_000058"
     },
     {
-      "canonical_url": "https://telanganatoday.com/telangana-among-locations-as-centre-plans-central-licensing-for-sterile-drugs",
-      "domain": "telanganatoday.com",
+      "canonical_url": "https://www.androidauthority.com/motorola-signature-27-advantage-over-other-samsung-rivals-3714695",
+      "domain": "www.androidauthority.com",
       "feed_ids": [
-        "telangana_today"
+        "android_authority"
       ],
       "feed_names": [
-        "Telangana Today"
+        "Android Authority"
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000077"
+        "occ_000012"
       ],
       "topic_ids": [
-        "telangana_hyderabad"
+        "big_tech"
       ],
       "topics": [
-        "Telangana and Hyderabad developments"
+        "Major technology companies"
       ],
       "url_id": "url_000059"
     },
     {
-      "canonical_url": "https://telanganatoday.com/telangana-tet-2026-15749-in-service-teachers-qualify-another-special-exam-in-november",
-      "domain": "telanganatoday.com",
+      "canonical_url": "https://www.androidauthority.com/pixel-11-pro-favorite-feature-face-unlock-why-3713749",
+      "domain": "www.androidauthority.com",
       "feed_ids": [
-        "telangana_today"
+        "android_authority"
       ],
       "feed_names": [
-        "Telangana Today"
+        "Android Authority"
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000078"
+        "occ_000073"
       ],
       "topic_ids": [
-        "telangana_hyderabad"
+        "tech_software"
       ],
       "topics": [
-        "Telangana and Hyderabad developments"
+        "Technology, software and gadgets"
       ],
       "url_id": "url_000060"
     }

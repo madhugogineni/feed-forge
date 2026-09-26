@@ -1,7 +1,7 @@
 {
-  "artifact_name": "topic-radar-36239523566",
-  "commit_sha": "2dda918540794260b393f733d6bc098f96756ddb",
-  "generated_at": "2026-09-26T11:39:54.140994Z",
+  "artifact_name": "topic-radar-36255946860",
+  "commit_sha": "86bf3fc3d43a1a48c962678188b7deedf013e491",
+  "generated_at": "2026-09-26T16:34:41.524928Z",
   "max_age_hours": 168,
   "note": "Headlines are leads, not verified facts or publication-ready drafts. Crime and India geopolitics are context-only. No X write actions occur.",
   "schema_version": "feed-forge/topic-radar/v1",
@@ -62,7 +62,7 @@
       "items_seen": 20,
       "latest_at": "2026-09-22T13:00:15.661000Z",
       "name": "Apple India Newsroom",
-      "recent_items": 3,
+      "recent_items": 2,
       "status": "ok",
       "url": "https://www.apple.com/in/newsroom/rss-feed.rss"
     },
@@ -70,7 +70,7 @@
       "error": null,
       "id": "inc42",
       "items_seen": 24,
-      "latest_at": "2026-09-26T10:00:38Z",
+      "latest_at": "2026-09-26T13:41:26Z",
       "name": "Inc42",
       "recent_items": 24,
       "status": "ok",
@@ -80,7 +80,7 @@
       "error": null,
       "id": "yourstory",
       "items_seen": 20,
-      "latest_at": "2026-09-26T11:10:00Z",
+      "latest_at": "2026-09-26T13:46:49Z",
       "name": "YourStory",
       "recent_items": 20,
       "status": "ok",
@@ -90,7 +90,7 @@
       "error": null,
       "id": "google_news_frido",
       "items_seen": 98,
-      "latest_at": "2026-09-15T09:33:09Z",
+      "latest_at": "2026-09-11T10:50:21Z",
       "name": "Google News \u2014 Frido",
       "recent_items": 0,
       "status": "stale",
@@ -102,7 +102,7 @@
       "items_seen": 100,
       "latest_at": "2026-09-24T14:02:59Z",
       "name": "Google News \u2014 Indian home brands",
-      "recent_items": 16,
+      "recent_items": 15,
       "status": "ok",
       "url": "https://news.google.com/rss/search?q=%22Wakefit%22+OR+%22Atomberg%22+OR+%22The+Sleep+Company%22&hl=en-IN&gl=IN&ceid=IN%3Aen"
     },
@@ -110,9 +110,9 @@
       "error": null,
       "id": "google_news_consumer_brands",
       "items_seen": 100,
-      "latest_at": "2026-09-26T05:07:30Z",
+      "latest_at": "2026-09-26T09:09:05Z",
       "name": "Google News \u2014 Indian consumer brands",
-      "recent_items": 61,
+      "recent_items": 59,
       "status": "ok",
       "url": "https://news.google.com/rss/search?q=%22Lenskart%22+OR+%22Mokobara%22+OR+%22Nykaa%22+OR+%22Mamaearth%22&hl=en-IN&gl=IN&ceid=IN%3Aen"
     },
@@ -120,9 +120,9 @@
       "error": null,
       "id": "google_news_digital_brands",
       "items_seen": 100,
-      "latest_at": "2026-09-25T14:18:47Z",
+      "latest_at": "2026-09-26T15:54:50Z",
       "name": "Google News \u2014 Indian digital brands",
-      "recent_items": 64,
+      "recent_items": 67,
       "status": "ok",
       "url": "https://news.google.com/rss/search?q=%22Zepto%22+OR+%22Blinkit%22+OR+%22Swiggy%22+OR+%22Zomato%22+OR+%22CRED%22+OR+%22Urban+Company%22&hl=en-IN&gl=IN&ceid=IN%3Aen"
     },
@@ -130,7 +130,7 @@
       "error": null,
       "id": "google_news_device_brands",
       "items_seen": 100,
-      "latest_at": "2026-09-26T11:30:00Z",
+      "latest_at": "2026-09-26T16:05:15Z",
       "name": "Google News \u2014 Indian device brands",
       "recent_items": 82,
       "status": "ok",
@@ -150,7 +150,7 @@
       "error": null,
       "id": "hindu_telangana",
       "items_seen": 60,
-      "latest_at": "2026-09-26T06:07:25Z",
+      "latest_at": "2026-09-26T16:04:08Z",
       "name": "The Hindu Telangana",
       "recent_items": 60,
       "status": "ok",
@@ -160,7 +160,7 @@
       "error": null,
       "id": "hindu_hyderabad",
       "items_seen": 60,
-      "latest_at": "2026-09-26T06:07:25Z",
+      "latest_at": "2026-09-26T16:17:50Z",
       "name": "The Hindu Hyderabad",
       "recent_items": 60,
       "status": "ok",
@@ -170,7 +170,7 @@
       "error": null,
       "id": "telangana_today",
       "items_seen": 200,
-      "latest_at": "2026-09-26T11:39:04Z",
+      "latest_at": "2026-09-26T16:13:29Z",
       "name": "Telangana Today",
       "recent_items": 200,
       "status": "ok",
@@ -190,7 +190,7 @@
       "error": null,
       "id": "verge",
       "items_seen": 10,
-      "latest_at": "2026-09-26T07:00:00Z",
+      "latest_at": "2026-09-26T14:00:00Z",
       "name": "The Verge",
       "recent_items": 10,
       "status": "ok",
@@ -200,7 +200,7 @@
       "error": null,
       "id": "beebom",
       "items_seen": 10,
-      "latest_at": "2026-09-26T10:19:12Z",
+      "latest_at": "2026-09-26T12:30:00Z",
       "name": "Beebom",
       "recent_items": 10,
       "status": "ok",
@@ -222,7 +222,7 @@
       "items_seen": 100,
       "latest_at": "2026-09-25T21:45:00Z",
       "name": "9to5Google",
-      "recent_items": 75,
+      "recent_items": 74,
       "status": "ok",
       "url": "https://9to5google.com/feed/"
     },
@@ -230,7 +230,7 @@
       "error": null,
       "id": "9to5mac",
       "items_seen": 100,
-      "latest_at": "2026-09-26T01:14:20Z",
+      "latest_at": "2026-09-26T14:00:00Z",
       "name": "9to5Mac",
       "recent_items": 100,
       "status": "ok",
@@ -240,9 +240,9 @@
       "error": null,
       "id": "electrek",
       "items_seen": 100,
-      "latest_at": "2026-09-25T19:49:20Z",
+      "latest_at": "2026-09-26T12:58:45Z",
       "name": "Electrek",
-      "recent_items": 71,
+      "recent_items": 69,
       "status": "ok",
       "url": "https://electrek.co/feed/"
     },
@@ -260,7 +260,7 @@
       "error": null,
       "id": "livefromalounge",
       "items_seen": 10,
-      "latest_at": "2026-09-25T15:26:59Z",
+      "latest_at": "2026-09-26T16:28:26Z",
       "name": "Live from a Lounge",
       "recent_items": 10,
       "status": "ok",
@@ -408,6 +408,34 @@
       "id": "big_tech",
       "items": [
         {
+          "id": "9befc9e17e441669",
+          "published_at": "2026-09-26T13:00:00Z",
+          "source_ids": [
+            "9to5mac"
+          ],
+          "title": "Apple @ Work: The enterprise needs to kill the SSO tax, and it\u2019s an opportunity for Apple",
+          "topic_matches": {
+            "big_tech": [
+              "Apple"
+            ]
+          },
+          "url": "https://9to5mac.com/2026/09/26/apple-work-the-enterprise-needs-to-kill-the-sso-tax-and-its-an-opportunity-for-apple"
+        },
+        {
+          "id": "2f36f0826efbfb95",
+          "published_at": "2026-09-26T12:42:34Z",
+          "source_ids": [
+            "9to5mac"
+          ],
+          "title": "Weekend Apple deals: Beats 360, AirPods Pro 3, Mac Studio, MacBook Air, more",
+          "topic_matches": {
+            "big_tech": [
+              "Apple"
+            ]
+          },
+          "url": "https://9to5mac.com/2026/09/26/apple-deals-this-week-best"
+        },
+        {
           "id": "5607f5e4c64c53e7",
           "published_at": "2026-09-26T10:30:40Z",
           "source_ids": [
@@ -502,61 +530,75 @@
             ]
           },
           "url": "https://9to5mac.com/2026/09/25/testflight-now-works-in-landscape-as-apple-prepares-for-iphone-duo"
-        },
-        {
-          "id": "a10328151e5b2c2d",
-          "published_at": "2026-09-25T21:41:11Z",
-          "source_ids": [
-            "android_authority"
-          ],
-          "title": "Google Health 5.09 arrives with more than just your new Pixel Watch features",
-          "topic_matches": {
-            "big_tech": [
-              "Google"
-            ],
-            "tech_software": [
-              "Pixel"
-            ]
-          },
-          "url": "https://www.androidauthority.com/google-health-5-09-3715801"
-        },
-        {
-          "id": "fd33b081539e396b",
-          "published_at": "2026-09-25T21:01:42Z",
-          "source_ids": [
-            "9to5mac"
-          ],
-          "title": "Apple faces class action over Apple Pay fees charged to card issuers",
-          "topic_matches": {
-            "big_tech": [
-              "Apple"
-            ]
-          },
-          "url": "https://9to5mac.com/2026/09/25/apple-faces-class-action-over-apple-pay-fees-charged-to-card-issuers"
         }
       ],
       "label": "Major technology companies",
       "lane": "review",
       "selection": "newest_first",
       "term_counts": null,
-      "total_recent": 226
+      "total_recent": 225
     },
     {
       "id": "indian_brands",
       "items": [
         {
-          "id": "9f0bb438bf190f32",
-          "published_at": "2026-09-26T11:19:23Z",
+          "id": "c7ea2a0c20a12089",
+          "published_at": "2026-09-26T15:54:50Z",
+          "source_ids": [
+            "google_news_digital_brands"
+          ],
+          "title": "From Swiggy delivery agent to restaurant owner: Bengaluru entrepreneur shares his journey - The Economic Times",
+          "topic_matches": {
+            "indian_brands": [
+              "Swiggy"
+            ]
+          },
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQUWcxSkV1SUtacDN0NHRPSE9WWnJsakRSMlk1R1pqTWlHWTFVcHkxSmtXenlNYl83cWV5REZmYkhZZTV5WXRzNnVtQUZ5ckxJYlpXRkdYWnY1bDJVVGNNTWpvZjczSlJ4R3RtTVFJOEVMbkpvcU04S2pybW5Hazc4SDY2N0U3SzRnNlFZNzVjUWV4STBpNkhCb1A0aUJkZHVKaDVleTdaZXRCaXh5VktYQUkySTBjVXVWVDVQbUNNVjljclZOblZDOE93eENOeFdHWkM3ekU5SlZNRWdHQVV1YXp6eU0xNHlQMlNFMlhZaDnSAfYBQVVfeXFMUExpLVN5VjVWbHJqaTl4VS1nSUUyakltM2xHYXhwUEctTXBiMVpXVGVFczBjT2FtWFBEMVAzYWhVd2dZLUZqUWJxMkVuaFQtbWEycjExX2hTdzJESU01ekxBUjhacHhqN2RwMDVYd1BrVUxYNnpMZ1hOXzY2YmN2eTY0VFZMaF9uS3dqWHZ5S3FBcEhrVjFCM2xIWm1qdklwYkhkRGE2VWpXR3ZCTmdpM3QydUlsMFlwRmxEdEhNYjRaZDF3WGwtZldDRkVvQmJyU05nblh1Q1JTQmJvS2dYYWdMekUwQ01kS1RMaWhDUXItMHJQem13?oc=5"
+        },
+        {
+          "id": "c6219732c8d4bf06",
+          "published_at": "2026-09-26T15:08:03Z",
+          "source_ids": [
+            "google_news_digital_brands"
+          ],
+          "title": "Blinkit warehouse in Gujarat's Rajkot faces action after 596 kg spoiled stock found - India Today",
+          "topic_matches": {
+            "india_developments": [
+              "India"
+            ],
+            "indian_brands": [
+              "Blinkit"
+            ]
+          },
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNMEM2T1RwYzRnd0VrOXRESTM3TlBvYm1BM2dUdGNudThDWHBoajR3Y3ZBN0NmQUVsaDRPREZKaVJyQVVHd01BRm5VQVZHR2l6bU9SZmg0VHZvVGNHU2ZBeW1CNVkwanIxUHFSTHdCdTlZTVRaTVNrWHRyRi02a1VSZkNyVkR3dVM1cEdtNTVEZ0dfYlJXXzdCSi1hQWRnMDdrcWtpcXAwZGt5dUhOcW14bW5uMW8xTzhVSHJBSFhhZkpUdGNiNXh4dm5nOEFxbjNoMXhPTVRn0gHbAUFVX3lxTE04MU5ueVlqU2sxcFFvZkNacHNUMmZseTlzbU5rT09hdTVXTnNyY004QnRqVENaQ3JmYi1LbjNsYnNrdG9KMUNwMGZpVjBLYXktdWgweDFJQVJUWlVneW42bHFHNVZBZl9tcUlTY244UUhEcUJnUVdtcEZUek4yTWQ0dkVCbE1vcDkzMGJwbjdaeUt3bXRXNzZ2YmFGQWZMdkp1Mk5la0ppbHBmTmhXS0RjS3VNUVY5RUVuWjFURmNISzB2cmtabGhyb2JNT2szZDBwZ01TQ0t6dnNBYw?oc=5"
+        },
+        {
+          "id": "108b764f27bfc353",
+          "published_at": "2026-09-26T14:47:25Z",
           "source_ids": [
             "google_news_device_brands"
           ],
-          "title": "What's new in Ather Konarc? 10 key things to know about electric scooter - Zee Business",
+          "title": "EV 2Ws industry established now, can do without subsidies: Ather - BusinessLine",
           "topic_matches": {
             "indian_brands": [
               "Ather"
             ]
           },
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOX0pOd2xOLVhpajNZOHc2ME5uZjctbXl0RDZybDh6cWZCck9YMURGMzhVQ05heFFFb0pjQTJVN040QTduMk5pdTNiT3R5Z3EwT0lWOUNPMktGcEFRVnRWT3c1c0FJNzlqYzRXVE85eF9EWE8wUEpZS20yWlZSbFJiWUIyU1JkeXllSFZKMGVaVXg5VERtMjFyTlZuQlpqWGNjZDk5SU9ldUc5cW0wNTVrUVZVNFlNQ1k?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPU2ROZ0NaLXpoalRnSEtDQzhyZWpRMXdTdVhEWDgwSDNVM0FjOXlPWjlVMkhXZ09YdWtGTDBKdVJVOU1BUlVvX1JXVGpRSjlYMkNGQzVxdHdzMWxleUIzcnFMOW1HOWtScjJVQkh1cjJVblFkczA3MGNoaGFxVTFjTF9tNFVGTzNzU3JZaUFjUU5kV0VBNTBscTRjaDdfNGtXeTNZbWZCemxyTmZ5ZDk2RmJ0TDFqcU40dUhoNFpzcDBBd1dKWGxibNIBzwFBVV95cUxQbE9LVG1PekNTSjFIMlpWY212NVJNTUJXTllzTXRmb0prRFl6WEowSl9MTFpDMTlwXy0wbDhBaXhuY3RlbG9Mb0FkWjZNSnRIMGt5anhfZDFma2pWZ01rb1JGUGs3MG80aUNGUXhLUElvcHloR0UxeEVtOGdreEJzdEowQ0J4d1dHOVA5SDVtb3YzS2hKNmZNWW9kaEN0ZXppUnZzaktJd0hLQm5sQmxmOFA4QS1RXzAyVUlnWF91TnZxN3o4bzBZNFRrSjhjZmM?oc=5"
+        },
+        {
+          "id": "6200666e5e8ed993",
+          "published_at": "2026-09-26T09:09:05Z",
+          "source_ids": [
+            "google_news_consumer_brands"
+          ],
+          "title": "Lenskart Solutions - FIIs, MFs raise stakes in 10 stocks; shares gain up to 40% in 3 months - The Economic Times",
+          "topic_matches": {
+            "indian_brands": [
+              "Lenskart"
+            ]
+          },
+          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOejJnZzVMNlVQTEFzS0d3cnVFcHBnaGxpNnZMTV9KeUFzNGdWeV93bkxGSEVtOUhmT05odWxzUHVUZk9GSUlZTUVPdEd2X0ZKTV8zcEgwMmNkbDZYOWsxZENJdmIyZHRTYUZZMXliaTVrRlZsbzd6U3F1MnZBZ0VKNDE2WEtFelgwb1dVUGZWODJFOU9ibklKU29FYW1oWEJ0M1pRSV9iVDdjeXlONnFnekNjWHR6YUVxcnVpdkNvQjRUZk94SW1EQ1dHY0tUNjRINmpYRjFueEZzYl9nZWpBQVg1WUpzMU03NUxsS2dVRQ?oc=5"
         },
         {
           "id": "c3830579fb0a9c43",
@@ -573,29 +615,12 @@
           "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSDlLQlZ6REhRNlNJd01nS2l0bmtOdUstQWRMMkRjYmxncG1UOVFFZDhrMmFXeDlraGlCZzRZdXQ4SHVnTVAxNm1hUFVpaHpRSmlDckVvUC13cFE0TFhodFpsdFZnS1FqSC1JaHpYX2xucjFEVUFpSk1Ib3dNVzRVbmpWc255TlkxSFVoMGhkS3E5LWh3dXJhRlB1bFN2ZG9xdG5uczJSTldubGwwR3NIY2pUTS1FNllZU1hKMm1kYWw?oc=5"
         },
         {
-          "id": "cd2865493cb8ccf9",
-          "published_at": "2026-09-25T14:18:47Z",
-          "source_ids": [
-            "google_news_digital_brands"
-          ],
-          "title": "Bessemer India Capital cuts Urban Company stake to 3.42% after selling 2.12% - scanx.trade",
-          "topic_matches": {
-            "india_developments": [
-              "India"
-            ],
-            "indian_brands": [
-              "Urban Company"
-            ]
-          },
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPOWlhYjdBdjlabmhSYkxaVWJud1dFM19iWDRZUXFpZWNLUy1yU0FtcjBTa05xQVhJaTVzQzNtenN3eFFhZmQtal8yNm5SdkRHdHJpc1dpTXdkejdEVGxObXYyZ19CTmppdXpVUHNUN091Zi1UUXB5SWZaMkM5el9JZXBObXVWSDhmR3QzQklWd3dJZVBLZWU2TXhOQVB3T254eE5TdTBXN01fNXdPem9lZjlrZmZLU0RWNlA5dVVSVQ?oc=5"
-        },
-        {
           "id": "8dcf8fa203e5cf4d",
           "published_at": "2026-09-25T12:30:58Z",
           "source_ids": [
             "google_news_digital_brands"
           ],
-          "title": "No Swiggy. No Zomato. And for Benne founders Akhil Iyer and Shriya Narayan EMPLOYED, that\u2019s deliberate. \u2018Our product doesn't support it.\u2019 Speaking to Shereen Bhan on Young Turks Reloaded, the duo explains why the dosa brand stays off delivery platfor - LinkedIn",
+          "title": "No Swiggy. No Zomato. And for Benne founders Akhil Iyer and Shriya Narayan EMPLOYED, that\u2019s deliberate. \u2018Our product doesn't support it.\u2019 Speaking to Shereen Bhan on Young Turks Reloaded, the duo explains why the dosa brand stays off delivery platfor - linkedin.com",
           "topic_matches": {
             "indian_brands": [
               "Swiggy",
@@ -623,59 +648,31 @@
           "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNOWdIdDJMeS1OcVJCUHpOYTNtYWVlOEVIcklzVlhrci1PVTdqTkdfUFdld2xsZmpQYmk3VTRnb2dMd3p4a0gycWYyOHAyZmowNFE1WmxvYXJVcWJ5bDFxSVl1ZjZlTFJXNWJka3ZRNWRWODAwOXFPR3BCZElFc2FOU1VsZEVTd3VmZmNuakdPTlc3Y2hPalZveGRUV0RhOTNSLXVOYVZ0dTZpNGZqaHkxRmVVMVJ6YlljTjhoakwxWXp4SGYzdTkwUHY4WEJkVkNCUDA2RkJ1QmpBTk4xYkNCcC1oQ1VTMlQwcmo0ejlpQW4wTXpUSnIxdHZyRzFRRlQtU0hhMtIBiwJBVV95cUxQUUJMUExkcVRmS1phVzFfMjdTVVFqOG8zRDJ2aF9nYngxY2sxN19MUUIyQmdLUkdITjctbXYxOFprX2pXcUJ2N3YzYUliTlpSYU1XdTlGR1NMbGlOOEhTdEhYdTk5MGJpWkpIYUVrMVZGWFVjcGk5LWs1S3FXUXREdEJkeDF0dXJ3QkVMaWgtSjBxM24yNWJWNk55SFpKLVRUcTk1dVRWZ1hDXzFHNHNnUVR5QzRVNGJ3ZDlNTlp4Z3B6R0lNMlJwVEpCLXNkdks2UmRBeS1kMXpRV0o2WXpfZjl4RTctQUk1WVNhM1pfRnhMZzV3bHZpbV9KeV9PaUhqWGplYjRhaUVMc00?oc=5"
         },
         {
-          "id": "50fcf17997075dcf",
-          "published_at": "2026-09-25T09:44:44Z",
-          "source_ids": [
-            "google_news_digital_brands"
-          ],
-          "title": "Empathy not delivered via Blinkit: RJD MP on Bihar horrors - rediff.com",
-          "topic_matches": {
-            "indian_brands": [
-              "Blinkit"
-            ]
-          },
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQR1FOaExKSE5DN1R0SFpvckxYVmdJWW1kdHVTVWpwZ09vZnFpb0tPd0ZhdjFldUJOZmhVaWZ0dDFsZGxpTURLVkRZQnJRcl9waGFhaTdJMFY4Z09ubHBGRjNGM3FvcV83TDdaYUFwb01iQVlNZ3JpVDlSWDJKVVM0TGVxRW9FZjkwbU1Wa2taX3dxZGFXTW4xTENZcU9kcWJZMGNUd0lkM3A4THdIRGt1LWlkUy1pTk1Ib01HcVROV1lFSDJUMmdzZlRTRlJIbjRhbWdGUXZVc2M?oc=5"
-        },
-        {
           "id": "6859109f6916a028",
           "published_at": "2026-09-25T09:35:06Z",
           "source_ids": [
             "google_news_device_brands"
           ],
-          "title": "Party Speakers for House Parties: 4 boAt PartyPal Models to Consider | Hindustan Times - hindustantimes.com",
+          "title": "Party Speakers for House Parties: 4 boAt PartyPal Models to Consider | Hindustan Times - Hindustan Times",
           "topic_matches": {
             "indian_brands": [
               "boAt"
             ]
           },
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPc2lycXpXOFZqbE9NSXpoSkdaZVdOMjJnaVdPYmdFbUpKLWRaeDFvRzhsdmMxSmt1THpETmNxd2lBZVlXN1BwTjU4VUlBVDlQa2YwRVlvdnFSdlVnbkpMOTEySzlqS003Mmh6blZ1R3Fja293Wk9ZZHZvUXMxN1JLcjJQWVAtZFEtdWh6d0hFX0ZjRHVGSTdvbWNnaHVMN0xkVUlqajZnR1ZLa1dCTzAzNzRvY3pYem1kdDU0aDZjLXBtOGxpTHfSAcsBQVVfeXFMTWt5eHJ3WWVMcGxyWGFVRDE1RVVNLVlEdENUN1FTMzJaRTJCRlJyNk8tbFI4c3pOY3pQUFNDN2tGOUhGakdxOFA2RzV5T28zenY5Zy1QSEhROWNxNHktdFNoTXZzNUp1RFlrOWtXNGF5bkJJNTZhdk13QnNlTFdOb2ZLRG5WejcwLUVBTm1vSnBLeEJkNXRGZFpyYkxoWjNhbEtzVHRIZVJCMkhWWV91ejhaZTI5RDNrbzdtSXZadkN0LUpaajFEWE50T2c?oc=5"
-        },
-        {
-          "id": "953cc74008029f20",
-          "published_at": "2026-09-25T08:02:27Z",
-          "source_ids": [
-            "google_news_device_brands"
-          ],
-          "title": "Ola Electric shares fall up to 9%, snap 4-day run, ahead of board meeting to consider fundraise - Moneycontrol.com",
-          "topic_matches": {
-            "indian_brands": [
-              "Ola Electric"
-            ]
-          },
-          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQOFgtbFZkZ09aRURYUVkxSjhFa2M0LU5JWG5tQmhpOU5oUmxXZEhqck03cjhSTDI0ekRrRWR2Tm91alBqQ3psM19CeFdxOW9aZHZtcGR0UnFuQldhOTNVWXFDUVRmclhRRzlBRF9kUGhDVjMtTW1iZlk2ZndJQk5iWnE1SXk4Y19Tbm9hUHRCNEtfeVVqUXVNNjFxRjNsYndOUXNMOW45MGFKX1p6NWlzdFhsSmNOWkhrUUlyRlpHNkR6Vk9lMi1pZ0xjbHByM0tYVEo1ekY4cWd6NEpVV0JfalRGUnB4VUhjaXdHXzRlVFZVaTTSAfgBQVVfeXFMUFd0YURtSU9JTmdwZTdpYklyQTBSMWwwd1dQSzI1Q2RFYjN2TFUwQVRNNDhwaXlIdDQ4UjFSYm5tc2tBOWQtQjRBTFR2WEIzalB1VlA0Um5JQXJ6Um5MeGs0a0JMRFpMc0lodlhQNmRPZDBzaVlvLUJBYXZvUWJQenpQSGJiS2ZPeUo5ZThpZzdkcFBUVTh6Q2pTTkZra2QyS2oxVHBCVjhBRnhtUzFuV0RSbmFmd2xYazAxaVNCdVIxM0dLVmNSNjk3dnVDa1NWcHdxMExDQV9zY0UxdTZxZGJCaEd1N3UwZFNsMU9MY1pMR05ReWFwVVQ?oc=5"
         }
       ],
       "label": "Indian consumer brands and products",
       "lane": "review",
       "selection": "new_terms_first",
       "term_counts": {
-        "Ather": 12,
+        "Ather": 14,
         "Atomberg": 2,
         "Be Minimalist": 0,
-        "Blinkit": 7,
+        "Blinkit": 8,
         "CRED": 0,
         "Frido": 0,
-        "Lenskart": 25,
+        "Lenskart": 23,
         "Mamaearth": 0,
         "Minimalist skincare": 0,
         "Mokobara": 0,
@@ -683,11 +680,11 @@
         "Noise smartwatch": 0,
         "Noise wearables": 0,
         "Nykaa": 32,
-        "Ola Electric": 14,
-        "Swiggy": 31,
-        "The Sleep Company": 11,
+        "Ola Electric": 13,
+        "Swiggy": 33,
+        "The Sleep Company": 10,
         "The Souled Store": 0,
-        "Urban Company": 3,
+        "Urban Company": 2,
         "Wakefit": 2,
         "Zepto": 21,
         "Zomato": 4,
@@ -698,6 +695,20 @@
     {
       "id": "tech_software",
       "items": [
+        {
+          "id": "661029deb1de8079",
+          "published_at": "2026-09-26T14:00:00Z",
+          "source_ids": [
+            "9to5mac"
+          ],
+          "title": "These are my favorite iPhone 18 Pro & Pro Max cases so far [Video]",
+          "topic_matches": {
+            "tech_software": [
+              "iPhone"
+            ]
+          },
+          "url": "https://9to5mac.com/2026/09/26/these-are-my-favorite-iphone-18-pro-pro-max-cases-so-far-video"
+        },
         {
           "id": "f61e0470da7a06d5",
           "published_at": "2026-09-26T11:00:45Z",
@@ -806,30 +817,13 @@
             ]
           },
           "url": "https://9to5google.com/2026/09/25/android-dev-summit-android-18"
-        },
-        {
-          "id": "2d07dc636fe0f97e",
-          "published_at": "2026-09-25T19:19:06Z",
-          "source_ids": [
-            "9to5mac"
-          ],
-          "title": "Apple Card adds new feature in iOS 27 that every card should have",
-          "topic_matches": {
-            "big_tech": [
-              "Apple"
-            ],
-            "tech_software": [
-              "iOS"
-            ]
-          },
-          "url": "https://9to5mac.com/2026/09/25/apple-card-adds-new-feature-in-ios-27-that-every-card-should-have"
         }
       ],
       "label": "Technology, software and gadgets",
       "lane": "review",
       "selection": "newest_first",
       "term_counts": null,
-      "total_recent": 96
+      "total_recent": 94
     },
     {
       "id": "music_apps",
@@ -908,23 +902,6 @@
           "url": "https://9to5google.com/2026/09/23/youtube-music-ask-gemini"
         },
         {
-          "id": "c34b8250b585d412",
-          "published_at": "2026-09-22T07:51:30Z",
-          "source_ids": [
-            "9to5mac"
-          ],
-          "title": "Apple Music opens new live music venue in London",
-          "topic_matches": {
-            "big_tech": [
-              "Apple"
-            ],
-            "music_apps": [
-              "Apple Music"
-            ]
-          },
-          "url": "https://9to5mac.com/2026/09/22/apple-music-opens-new-live-music-venue-in-london"
-        },
-        {
           "id": "32cf70c135414b43",
           "published_at": "2026-09-22T06:01:14.421000Z",
           "source_ids": [
@@ -947,7 +924,7 @@
       "lane": "review",
       "selection": "newest_first",
       "term_counts": null,
-      "total_recent": 6
+      "total_recent": 5
     },
     {
       "id": "credit_cards_payments",
@@ -987,20 +964,6 @@
           "url": "https://yourstory.com/2026/09/proposed-upi-merchant-discount-rate-not-a-tax-cess-or-surcharge-fm"
         },
         {
-          "id": "f0372db7b3437b2f",
-          "published_at": "2026-09-25T07:48:43Z",
-          "source_ids": [
-            "telangana_today"
-          ],
-          "title": "UPI MDR is not a tax or surcharge, says Nirmala Sitharaman",
-          "topic_matches": {
-            "credit_cards_payments": [
-              "UPI"
-            ]
-          },
-          "url": "https://telanganatoday.com/upi-mdr-is-not-a-tax-or-surcharge-says-nirmala-sitharaman"
-        },
-        {
           "id": "d4865ebc70fbf893",
           "published_at": "2026-09-25T07:33:23Z",
           "source_ids": [
@@ -1019,23 +982,6 @@
             ]
           },
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQzlfekJmcW5Ca21uYWQxdG5tZ2QwTDhEazdkdEF2TUxXMkZoQXVLTmtkTVFXUzNxWXVXVENOWGJtMHpaVW9GZzljU1FIbDg2c1pjbEU2cGxJeWt3dTRaWjRvMlUzR2JFdGxzQ3F1WkxpR2ltamF0TEhCT2VCSno5c252UXplQjJwcU1GVVVLUUE3dFp3ZEwxcDNnWUUxS09DaEowWkV3?oc=5"
-        },
-        {
-          "id": "ccb5c6891772327f",
-          "published_at": "2026-09-25T07:33:23Z",
-          "source_ids": [
-            "telangana_today"
-          ],
-          "title": "India credit card spending growth slows in August as competition intensifies",
-          "topic_matches": {
-            "credit_cards_payments": [
-              "credit card"
-            ],
-            "india_developments": [
-              "India"
-            ]
-          },
-          "url": "https://telanganatoday.com/india-credit-card-spending-growth-slows-in-august-as-competition-intensifies"
         },
         {
           "id": "3687e0c267b259f4",
@@ -1084,263 +1030,315 @@
             ]
           },
           "url": "https://yourstory.com/2026/09/mdr-on-upi-payments-above-rs-2000-will-not-be-passed-on-to-consumers-govt-sources"
+        },
+        {
+          "id": "620d325a2c9bf6d7",
+          "published_at": "2026-09-25T03:45:50Z",
+          "source_ids": [
+            "google_news_credit_cards"
+          ],
+          "title": "Credit Card Spending Stays Muted In August; HSBC, Jefferies Flag Rising Competition - NDTV Profit",
+          "topic_matches": {
+            "credit_cards_payments": [
+              "credit card"
+            ]
+          },
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMVhqUGFEbWpfRHpHNnFTNnZUZV9XRTY0YW9wUXVSdWVOdlNwOXU5ZUNjMDNOV0Fua1h3Y2NCSjUyclRCWV94bFJfSkJmanh6M0J3VkJfdkhzcFVDcF9pRGlCTWJLNEJXUVIzd1NTLXFILUFfbVdOTi12Z29rcGFjRXZZdFRjVzNBLW1sVUR4RUVicW91cW9kZ2V2Z2FFSkN0a2dLY2ZBNUtYdWdjbmFWLXliWTNRNVk1b1N6dmV5aGhrNUp40gHMAUFVX3lxTE1nSTRnZFhHTjlMdWdIMUI2VGlEbE1Pd1ZIN3JXSUczZnM0VUhrNEQwbjRRYmdKWVVoTmx2dGhJSU9KQ3E2eXoyR25oR0ZORzdCQnlaZ1IxMmQtRThnSUFOeHI5TWVzRFBiMzdRdk1RM0x3MGFzVkY0QkFhckV2YkhoQzRUNWdfemtiQVdwX1pBNDVCamZxc3pDd0lNbzBxLWFnRXIwU09wd1BvWHV4bkEtcDdRVWNjbnUzTEpkUl9fUnQzbFVyZGwzdTUycg?oc=5"
+        },
+        {
+          "id": "191aa86e1811f7ec",
+          "published_at": "2026-09-25T00:27:00Z",
+          "source_ids": [
+            "google_news_credit_cards"
+          ],
+          "title": "Govt rules out MDR burden on UPI users; GST Council may review 18% tax next month - The Times of India",
+          "topic_matches": {
+            "credit_cards_payments": [
+              "UPI"
+            ],
+            "india_developments": [
+              "India"
+            ]
+          },
+          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOM21zWExQWDdYVEhJT2tqVjVPODBwb3d5OUd3LVBaZnl5aVNaLWZQRGd5elg3SDNIWDhWdXVtNnc4ZWFmNXVOYk9WU1RONE0zQVN4dG9sY1h0cVNjUU9wUG13R1hRSlNUM3BEcEd4dWI1NFNOdkZZUjY5T21iUi1VRHZBQnRLRkRmMWpLb2hEZi1TdGgtZzc2ZXN2THZnZ25GSTRnRFJJU2N0SURLdXNSVDZLMm1xaUVwV0UycDZHQTBOQTQ4SUhvQU1XVEoycXdHLVRsSUZQeXIyOGJjM1MwblhpT1lla0VtVmpiVXFxVm9lelZTN0s0V9IB_gFBVV95cUxPYlp3Y1RNdnlOXzZ6eXlTWHpPSzUyYjJPT2FzbUE5SEV0Z1MycUJXeE9UVE84WHhKUlVxMlRFMjlTRG9fYmtMMzJfVXBYZk5DNDF0aUEyU2tjSURUYXNMazRPeEZXdHFqczhNRmRMWnV2MVBLRDNoYXBzSGM0Y0RYRXU2bUV2X0l1UE1QNVVIcDFmTGJ0UGc3UVhfaTVwYVhsOU9DZTVRSXByLXlMckRza2RKbDFoaXVNdFRNRDlPbDBJb2luTFcwNjdxSzc5a04tTllaWVROU0E0akZyNGUybmg0dngyTWg3WGtQV3ZYQ3pKM2lleEdmMWxxMmpjZw?oc=5"
         }
       ],
       "label": "Credit cards, rewards and payments",
       "lane": "review",
       "selection": "newest_first",
       "term_counts": null,
-      "total_recent": 15
+      "total_recent": 13
     },
     {
       "id": "india_developments",
       "items": [
         {
-          "id": "3e033b27470cb494",
-          "published_at": "2026-09-26T11:39:04Z",
+          "id": "24353f63cb1a0c7e",
+          "published_at": "2026-09-26T15:55:15Z",
           "source_ids": [
-            "telangana_today"
+            "hindu_telangana"
           ],
-          "title": "Asian Games hockey: India make semis with 2-0 win against Japan",
+          "title": "Revanth urges Centre to confer Bharat Ratna on Manmohan Singh",
+          "topic_matches": {
+            "india_developments": [
+              "Bharat"
+            ],
+            "telangana_hyderabad": [
+              "source:hindu_telangana"
+            ]
+          },
+          "url": "https://www.thehindu.com/news/national/telangana/revanth-urges-centre-to-confer-bharat-ratna-on-manmohan-singh/article71513607.ece"
+        },
+        {
+          "id": "c6219732c8d4bf06",
+          "published_at": "2026-09-26T15:08:03Z",
+          "source_ids": [
+            "google_news_digital_brands"
+          ],
+          "title": "Blinkit warehouse in Gujarat's Rajkot faces action after 596 kg spoiled stock found - India Today",
           "topic_matches": {
             "india_developments": [
               "India"
+            ],
+            "indian_brands": [
+              "Blinkit"
             ]
           },
-          "url": "https://telanganatoday.com/asian-games-hockey-india-make-semis-with-2-0-win-against-japan"
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNMEM2T1RwYzRnd0VrOXRESTM3TlBvYm1BM2dUdGNudThDWHBoajR3Y3ZBN0NmQUVsaDRPREZKaVJyQVVHd01BRm5VQVZHR2l6bU9SZmg0VHZvVGNHU2ZBeW1CNVkwanIxUHFSTHdCdTlZTVRaTVNrWHRyRi02a1VSZkNyVkR3dVM1cEdtNTVEZ0dfYlJXXzdCSi1hQWRnMDdrcWtpcXAwZGt5dUhOcW14bW5uMW8xTzhVSHJBSFhhZkpUdGNiNXh4dm5nOEFxbjNoMXhPTVRn0gHbAUFVX3lxTE04MU5ueVlqU2sxcFFvZkNacHNUMmZseTlzbU5rT09hdTVXTnNyY004QnRqVENaQ3JmYi1LbjNsYnNrdG9KMUNwMGZpVjBLYXktdWgweDFJQVJUWlVneW42bHFHNVZBZl9tcUlTY244UUhEcUJnUVdtcEZUek4yTWQ0dkVCbE1vcDkzMGJwbjdaeUt3bXRXNzZ2YmFGQWZMdkp1Mk5la0ppbHBmTmhXS0RjS3VNUVY5RUVuWjFURmNISzB2cmtabGhyb2JNT2szZDBwZ01TQ0t6dnNBYw?oc=5"
         },
         {
-          "id": "8082d30386e43a40",
-          "published_at": "2026-09-26T10:34:33Z",
+          "id": "86a2cb81c2bd2177",
+          "published_at": "2026-09-26T15:06:22Z",
           "source_ids": [
             "telangana_today"
           ],
-          "title": "Kabaddi at Asian Games: India complete golden double with twin wins over Iran",
-          "topic_matches": {
-            "india_developments": [
-              "India"
-            ]
-          },
-          "url": "https://telanganatoday.com/kabaddi-at-asian-games-india-complete-golden-double-with-twin-wins-over-iran"
-        },
-        {
-          "id": "4fb4a7bbb4ce1ded",
-          "published_at": "2026-09-26T10:00:38Z",
-          "source_ids": [
-            "inc42"
-          ],
-          "title": "FY26 Financial Tracker: Tracking The Financial Performance Of Indian Startups",
-          "topic_matches": {
-            "india_developments": [
-              "Indian"
-            ]
-          },
-          "url": "https://inc42.com/features/fy26-financial-tracker-tracking-the-financial-performance-of-indian-startups"
-        },
-        {
-          "id": "413d4c9b241663b6",
-          "published_at": "2026-09-26T09:30:06Z",
-          "source_ids": [
-            "telangana_today"
-          ],
-          "title": "Rohit, Kohli lead the spotlight as India face West Indies",
-          "topic_matches": {
-            "india_developments": [
-              "India"
-            ]
-          },
-          "url": "https://telanganatoday.com/rohit-kohli-lead-the-spotlight-as-india-face-west-indies"
-        },
-        {
-          "id": "48d7d989e1f770b4",
-          "published_at": "2026-09-26T08:59:09Z",
-          "source_ids": [
-            "telangana_today"
-          ],
-          "title": "INDIA bloc parties likely to meet on September 30 over EC row, SIR",
-          "topic_matches": {
-            "india_developments": [
-              "India"
-            ]
-          },
-          "url": "https://telanganatoday.com/india-bloc-parties-likely-to-meet-on-september-30-over-ec-row-sir"
-        },
-        {
-          "id": "079e33c0a4a09019",
-          "published_at": "2026-09-26T08:40:11Z",
-          "source_ids": [
-            "telangana_today"
-          ],
-          "title": "Asian Games 2026: President Murmu congratulates Indian medal winners",
-          "topic_matches": {
-            "india_developments": [
-              "Indian"
-            ]
-          },
-          "url": "https://telanganatoday.com/asian-games-2026-president-murmu-congratulates-indian-medal-winners"
-        },
-        {
-          "id": "f24e9f05bc319184",
-          "published_at": "2026-09-26T08:20:46Z",
-          "source_ids": [
-            "telangana_today"
-          ],
-          "title": "Virat Kohli says 2027 World Cup will be his last ODI World Cup for India",
-          "topic_matches": {
-            "india_developments": [
-              "India"
-            ]
-          },
-          "url": "https://telanganatoday.com/virat-kohli-says-2027-world-cup-will-be-his-last-odi-world-cup-for-india"
-        },
-        {
-          "id": "f13dd91a36ef5407",
-          "published_at": "2026-09-26T06:54:17Z",
-          "source_ids": [
-            "telangana_today"
-          ],
-          "title": "Samay Raina announces Hyderabad shows as part of India tour",
+          "title": "HKMCF India opens community kitchen to provide breakfast to 29,183 Telangana students",
           "topic_matches": {
             "india_developments": [
               "India"
             ],
             "telangana_hyderabad": [
-              "Hyderabad"
+              "Telangana"
             ]
           },
-          "url": "https://telanganatoday.com/samay-raina-announces-hyderabad-shows-as-part-of-india-tour"
+          "url": "https://telanganatoday.com/hkmcf-india-opens-community-kitchen-to-provide-breakfast-to-29183-telangana-students"
+        },
+        {
+          "id": "4525b7949127a5e4",
+          "published_at": "2026-09-26T14:48:04Z",
+          "source_ids": [
+            "telangana_today"
+          ],
+          "title": "Asian Games: Twin kabaddi golds, marathon silver highlight India\u2019s day",
+          "topic_matches": {
+            "fitness_ergonomics": [
+              "marathon"
+            ],
+            "india_developments": [
+              "India"
+            ]
+          },
+          "url": "https://telanganatoday.com/asian-games-twin-kabaddi-golds-marathon-silver-highlight-indias-day"
+        },
+        {
+          "id": "c3d833f4d8a1bb67",
+          "published_at": "2026-09-26T14:35:00Z",
+          "source_ids": [
+            "google_news_device_brands"
+          ],
+          "title": "Melpadom Chundan wins third race of Champions Boat League - The Times of India",
+          "topic_matches": {
+            "india_developments": [
+              "India"
+            ]
+          },
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPOTkzUURyMUdlbTFXcXI0Q21uRUt2TXhrVzA3YzN1UUF6V3ppLVZmREhaZnc2dFJBTktaTThrTFNBRWFEb0djdWxvX2lpZnNRY2Y4bldyc2F3MDVnZFowUmE4MDFQRHo2UW9IUG1xeXBfUnpQV2tFZURfa19fQ2syQTdCLUJPV1hBWEQyYzQzVUlTdEs4OGVHUnFZLV9aR2pTM19qdFo4NERObFdMeU9FY0lldXEwdUlDV1ZlQXpIYktiMnIxSzk4Y0x30gHPAUFVX3lxTE5hTU1CaXlEY1RZd2psbGk5MmIzdllYYjNjTTFGbm9qNU5UT1VzZUVpbXRESFY2Z3BWX0NRZGhyRkloV0kxY0RsWG9QaGVCYXo4U2owTU9MLUR6SHNjSi1SNTFZdFdMTU4yNXMtZ1k2dmtaaHR4NTF1dWZscW9ldFotS282NTQtV051alRfcUtpVnZnMjNXc1F3ZENnWFV3dFlxNHhrWm94aWNrWGtZcXB1VlVHc3NOWm1mWkhnNlRlV1EtVzk3V0pKX042Y0RMQQ?oc=5"
+        },
+        {
+          "id": "af4596bc96f88762",
+          "published_at": "2026-09-26T13:41:26Z",
+          "source_ids": [
+            "inc42"
+          ],
+          "title": "Ride-Hailing Fear: Inside Bharat Taxi Coercion Allegations In Gujarat",
+          "topic_matches": {
+            "india_developments": [
+              "Bharat"
+            ]
+          },
+          "url": "https://inc42.com/buzz/ride-hailing-fear-inside-bharat-taxi-coercion-allegations-in-gujarat"
+        },
+        {
+          "id": "7c1e813291732032",
+          "published_at": "2026-09-26T13:20:28Z",
+          "source_ids": [
+            "yourstory"
+          ],
+          "title": "AI, semiconductors, quantum tech next major frontier for India: Sitharaman",
+          "topic_matches": {
+            "india_developments": [
+              "India"
+            ]
+          },
+          "url": "https://yourstory.com/2026/09/ai-semiconductors-quantum-tech-major-frontier-india-sitharaman"
+        },
+        {
+          "id": "c7806d4045cb7df8",
+          "published_at": "2026-09-26T12:18:25Z",
+          "source_ids": [
+            "inc42"
+          ],
+          "title": "IIT Madras, Unicorn India Ventures Mark First Close Of Fund I At \u20b9450 Cr",
+          "topic_matches": {
+            "india_developments": [
+              "India"
+            ]
+          },
+          "url": "https://inc42.com/buzz/iit-madras-unicorn-india-ventures-mark-first-close-of-fund-i-at-%e2%82%b9450-cr"
         }
       ],
       "label": "India developments",
       "lane": "review",
       "selection": "newest_first",
       "term_counts": null,
-      "total_recent": 125
+      "total_recent": 126
     },
     {
       "id": "telangana_hyderabad",
       "items": [
         {
-          "id": "ec60e7b7e6b927d5",
-          "published_at": "2026-09-26T11:07:19Z",
+          "id": "52942ba614515373",
+          "published_at": "2026-09-26T16:17:50Z",
           "source_ids": [
-            "telangana_today"
+            "hindu_hyderabad"
           ],
-          "title": "Ganesh immersion procession passes off peacefully in Hyderabad: C P Sajjanar",
+          "title": "Workplace equality has to be built, not announced: Charu Sinha",
           "topic_matches": {
             "telangana_hyderabad": [
-              "Hyderabad"
+              "source:hindu_hyderabad"
             ]
           },
-          "url": "https://telanganatoday.com/ganesh-immersion-procession-passes-off-peacefully-in-hyderabad-c-p-sajjanar"
+          "url": "https://www.thehindu.com/news/national/telangana/workplace-equality-has-to-be-built-not-announced-charu-sinha/article71513593.ece"
         },
         {
-          "id": "031b9595a51ed654",
-          "published_at": "2026-09-26T10:41:38Z",
+          "id": "df3557a89f03e412",
+          "published_at": "2026-09-26T16:04:08Z",
           "source_ids": [
-            "telangana_today"
+            "hindu_hyderabad",
+            "hindu_telangana"
           ],
-          "title": "Telangana among locations as Centre plans central licensing for sterile drugs",
+          "title": "PD Act invoked against woman for running belt shop in Borabanda",
           "topic_matches": {
             "telangana_hyderabad": [
-              "Telangana"
+              "source:hindu_hyderabad",
+              "source:hindu_telangana"
             ]
           },
-          "url": "https://telanganatoday.com/telangana-among-locations-as-centre-plans-central-licensing-for-sterile-drugs"
+          "url": "https://www.thehindu.com/news/national/telangana/pd-act-invoked-against-woman-for-running-illegal-belt-shop-in-borabanda/article71513555.ece"
         },
         {
-          "id": "d8df43e12792b69b",
-          "published_at": "2026-09-26T09:55:13Z",
+          "id": "24353f63cb1a0c7e",
+          "published_at": "2026-09-26T15:55:15Z",
           "source_ids": [
-            "telangana_today"
+            "hindu_telangana"
           ],
-          "title": "Hyderabad Ganesh immersion: Hussain Sagar immersion ends as clean-up begins",
-          "topic_matches": {
-            "telangana_hyderabad": [
-              "Hyderabad"
-            ]
-          },
-          "url": "https://telanganatoday.com/hyderabad-ganesh-immersion-hussain-sagar-immersion-ends-as-clean-up-begins"
-        },
-        {
-          "id": "d5542ec60fc756d4",
-          "published_at": "2026-09-26T09:40:41Z",
-          "source_ids": [
-            "telangana_today"
-          ],
-          "title": "Hyderabad: Two killed after trolley overturns on ORR near Keesara",
-          "topic_matches": {
-            "telangana_hyderabad": [
-              "Hyderabad"
-            ]
-          },
-          "url": "https://telanganatoday.com/hyderabad-two-killed-after-trolley-overturns-on-orr-near-keesara"
-        },
-        {
-          "id": "4b04ecdadd3bc819",
-          "published_at": "2026-09-26T08:05:30Z",
-          "source_ids": [
-            "telangana_today"
-          ],
-          "title": "Sheraton Hyderabad to host Malaysian food showcase on September 26, 27",
-          "topic_matches": {
-            "telangana_hyderabad": [
-              "Hyderabad"
-            ]
-          },
-          "url": "https://telanganatoday.com/sheraton-hyderabad-to-host-malaysian-food-showcase-on-september-26-27"
-        },
-        {
-          "id": "16f04f2fd86f2848",
-          "published_at": "2026-09-26T08:05:23Z",
-          "source_ids": [
-            "telangana_today"
-          ],
-          "title": "Telangana TET 2026: 15,749 in-service teachers qualify, another special exam in November",
-          "topic_matches": {
-            "telangana_hyderabad": [
-              "Telangana"
-            ]
-          },
-          "url": "https://telanganatoday.com/telangana-tet-2026-15749-in-service-teachers-qualify-another-special-exam-in-november"
-        },
-        {
-          "id": "f13dd91a36ef5407",
-          "published_at": "2026-09-26T06:54:17Z",
-          "source_ids": [
-            "telangana_today"
-          ],
-          "title": "Samay Raina announces Hyderabad shows as part of India tour",
+          "title": "Revanth urges Centre to confer Bharat Ratna on Manmohan Singh",
           "topic_matches": {
             "india_developments": [
-              "India"
+              "Bharat"
             ],
             "telangana_hyderabad": [
-              "Hyderabad"
+              "source:hindu_telangana"
             ]
           },
-          "url": "https://telanganatoday.com/samay-raina-announces-hyderabad-shows-as-part-of-india-tour"
+          "url": "https://www.thehindu.com/news/national/telangana/revanth-urges-centre-to-confer-bharat-ratna-on-manmohan-singh/article71513607.ece"
         },
         {
-          "id": "7b62adda89b1f816",
-          "published_at": "2026-09-26T06:27:27Z",
+          "id": "c7f92be0fc1bc4d2",
+          "published_at": "2026-09-26T15:53:57Z",
           "source_ids": [
-            "telangana_today"
+            "hindu_hyderabad",
+            "hindu_telangana"
           ],
-          "title": "Hyderabad: Kalapathar police buy Ganesh laddu for Rs 33,000 at Mochi Colony auction",
+          "title": "Discarded flowers from Ganesh immersions find second life in Cyberabad",
           "topic_matches": {
             "telangana_hyderabad": [
-              "Hyderabad"
+              "Cyberabad",
+              "source:hindu_hyderabad",
+              "source:hindu_telangana"
             ]
           },
-          "url": "https://telanganatoday.com/hyderabad-kalapathar-police-buy-ganesh-laddu-for-rs-33000-at-mochi-colony-auction"
+          "url": "https://www.thehindu.com/news/cities/Hyderabad/discarded-flowers-from-ganesh-immersions-find-second-life-in-cyberabad/article71513498.ece"
+        },
+        {
+          "id": "616fa4df067acbe3",
+          "published_at": "2026-09-26T15:50:05Z",
+          "source_ids": [
+            "hindu_telangana"
+          ],
+          "title": "Waste from Ganesh festival 40% more this year; 400% more from three years ago",
+          "topic_matches": {
+            "telangana_hyderabad": [
+              "source:hindu_telangana"
+            ]
+          },
+          "url": "https://www.thehindu.com/news/national/telangana/waste-from-ganesh-festival-40-more-this-year-400-more-from-three-years-ago/article71513521.ece"
+        },
+        {
+          "id": "4289cec1753d3d49",
+          "published_at": "2026-09-26T15:48:05Z",
+          "source_ids": [
+            "hindu_hyderabad",
+            "hindu_telangana"
+          ],
+          "title": "PR&RD Minister directs officials to prepare for summer drinking water needs",
+          "topic_matches": {
+            "telangana_hyderabad": [
+              "source:hindu_hyderabad",
+              "source:hindu_telangana"
+            ]
+          },
+          "url": "https://www.thehindu.com/news/national/telangana/prrd-minister-directs-officials-to-prepare-for-summer-drinking-water-needs/article71513291.ece"
+        },
+        {
+          "id": "a93f329b82541586",
+          "published_at": "2026-09-26T15:45:51Z",
+          "source_ids": [
+            "hindu_hyderabad",
+            "hindu_telangana"
+          ],
+          "title": "Improvement notices issued to three restaurants in Hyderabad; FSSAI licences of 11 eateries suspended",
+          "topic_matches": {
+            "telangana_hyderabad": [
+              "Hyderabad",
+              "source:hindu_hyderabad",
+              "source:hindu_telangana"
+            ]
+          },
+          "url": "https://www.thehindu.com/news/cities/Hyderabad/improvement-notices-issued-to-three-restaurants-in-hyderabad-fssai-licences-of-11-eateries-suspended/article71513552.ece"
+        },
+        {
+          "id": "4d3c93b25f8bb637",
+          "published_at": "2026-09-26T15:44:48Z",
+          "source_ids": [
+            "hindu_hyderabad",
+            "hindu_telangana"
+          ],
+          "title": "Minister launches sheep and goat insurance scheme in Karimnagar",
+          "topic_matches": {
+            "telangana_hyderabad": [
+              "source:hindu_hyderabad",
+              "source:hindu_telangana"
+            ]
+          },
+          "url": "https://www.thehindu.com/news/national/telangana/minister-launches-sheep-and-goat-insurance-scheme-in-karimnagar/article71513453.ece"
         }
       ],
       "label": "Telangana and Hyderabad developments",
       "lane": "review",
       "selection": "newest_first",
       "term_counts": null,
-      "total_recent": 120
+      "total_recent": 122
     },
     {
       "id": "local_practical",
@@ -1414,20 +1412,6 @@
           "url": "https://www.thehindu.com/entertainment/movies/anumana-pakshi-movie-review-a-cluttered-exhausting-crime-comedy/article71507980.ece"
         },
         {
-          "id": "941cf7e55b342b21",
-          "published_at": "2026-09-25T09:05:12Z",
-          "source_ids": [
-            "telangana_today"
-          ],
-          "title": "Ganesh immersion: Two devotees drown, one electrocuted, one dies of cardiac arrest",
-          "topic_matches": {
-            "crime": [
-              "arrest"
-            ]
-          },
-          "url": "https://telanganatoday.com/ganesh-immersion-two-devotees-drown-one-electrocuted-one-dies-of-cardiac-arrest"
-        },
-        {
           "id": "68a86036e9f2f5e4",
           "published_at": "2026-09-24T18:17:59Z",
           "source_ids": [
@@ -1467,8 +1451,7 @@
           "id": "9d52a28b20107949",
           "published_at": "2026-09-24T15:27:51Z",
           "source_ids": [
-            "hindu_hyderabad",
-            "hindu_telangana"
+            "hindu_hyderabad"
           ],
           "title": "Engineering student\u2019s \u2018suicide\u2019 turns out to be murder; two arrested",
           "topic_matches": {
@@ -1476,8 +1459,7 @@
               "murder"
             ],
             "telangana_hyderabad": [
-              "source:hindu_hyderabad",
-              "source:hindu_telangana"
+              "source:hindu_hyderabad"
             ]
           },
           "url": "https://www.thehindu.com/news/cities/Hyderabad/engineering-students-suicide-turns-out-to-be-murder-two-arrested/article71502595.ece"
@@ -1515,13 +1497,30 @@
             ]
           },
           "url": "https://news.google.com/rss/articles/CBMigwNBVV95cUxORzRzX3d1VEJQSkxqckdkOHM1LWRBWDU0ZzBnRDhrcGRkeHVNSjFzamllUkFOMGZMaFZUYzMxei1rbkJfVk1tVkx6c041THFrcHdFUUFhVGlGSERyZ2w4bjVVOEw3NnozRk9nLUNhTmNQcmo4a2NhbzJHU0VUVFdQaV9zSWVDcUc0V0tHU2tmZGhSQkdmdlQwMGFpZF9hZXp6SzR1c1gxUVB6U1VTT1psVDZLR0NZaUtpM2lrcnVEMEtsWUFrakRRNTQyRl90T2tqTGlEVzNaU0NSWTZNMEo1TERMVXJvdV9abktuZlNQU3pRV0J3eGUtUVdpblhNUE95WnRQQkR6NmtEcGNMTXNBcjBDY0tSRnczZ3daRThRVFJ1M0MxdW5iZDMtYjZXUDM3S0p1NGxiSmRRSUh2R2xlMUFIN2lhbmVmSERETDJiZ2FvR1h2eU9peElXTl9zWFJiSDRqc1hZWVg5ZV9WSHVLbEJTRWtuSU02OE9FdWNwQUxQekXSAYgDQVVfeXFMUHlKZXVGNHhkZldiSzUwODB5TFVnMl9ad2lIU3lGWDNBRFc2Z1RlUXlUQzlkdGg1NHBDejdzdnIzcWh6WkNFbVk3RkNWcTREU3pvSXQteXl5VVY2dTZvX2tPdEZRLTVkb1ZwWWFWeG95MGxyRlBRVWg4R0g3ck54Q1pib2pQUEdmV1FHQWNnN2RzODFJelhGN2wzQi1CTnZMNWFpYVpKRDhnNGwyZE5yU3lpWHVub1dmenhONVh0d2Vqc0tvOWpoOGF4YTF4UUtQNWU3dldYQW80VXpsWHVrWlFFX0RPNXhiUUhPR0R2ekdVUEloLW1ST2lEWDFXdF9uYzkxMlNhaHE5WmVwZjEyUksyMHg0UEpXcW1oVDVHYWtrZ3VUNGlEcTZER19oR1V3NGJMY01yR0FtdzlXR1ZEYUdhRDlYX3U5NzQtWjdGUm90ejJnUExuckRZN2xpR2g0U1AzckowMkVIYXdFTDB2Q1hPbjQxdWlSRzJERWJUM3FwR1E3aEVOWVY?oc=5"
+        },
+        {
+          "id": "03032bc0ab8c02ab",
+          "published_at": "2026-09-24T06:57:56Z",
+          "source_ids": [
+            "telangana_today_crime"
+          ],
+          "title": "Sangareddy: Miscreants kill 75-year-old woman flee with jewellery",
+          "topic_matches": {
+            "crime": [
+              "source:telangana_today_crime"
+            ],
+            "telangana_hyderabad": [
+              "Sangareddy"
+            ]
+          },
+          "url": "https://telanganatoday.com/sangareddy-miscreants-kill-75-year-old-woman-flee-with-jewellery"
         }
       ],
       "label": "Crime news",
       "lane": "context_only",
       "selection": "newest_first",
       "term_counts": null,
-      "total_recent": 18
+      "total_recent": 16
     },
     {
       "id": "consumer_safety",
@@ -1539,34 +1538,31 @@
             ]
           },
           "url": "https://telanganatoday.com/russo-brothers-recall-robert-downey-jr-chris-evans-final-days-on-avengers-endgame"
-        },
-        {
-          "id": "a2ddcc2a93d00134",
-          "published_at": "2026-09-22T10:00:00Z",
-          "source_ids": [
-            "9to5mac"
-          ],
-          "title": "Apple @ Work Podcast: Phishing simulations for the AI era",
-          "topic_matches": {
-            "big_tech": [
-              "Apple"
-            ],
-            "consumer_safety": [
-              "phishing"
-            ]
-          },
-          "url": "https://9to5mac.com/2026/09/22/phishing-simulations-for-the-ai-era"
         }
       ],
       "label": "Consumer and digital safety",
       "lane": "review",
       "selection": "newest_first",
       "term_counts": null,
-      "total_recent": 2
+      "total_recent": 1
     },
     {
       "id": "travel_lifestyle",
       "items": [
+        {
+          "id": "1bf98b7979d38c4b",
+          "published_at": "2026-09-26T14:33:52Z",
+          "source_ids": [
+            "telangana_today"
+          ],
+          "title": "Newly created districts have no dedicated tourism officers",
+          "topic_matches": {
+            "travel_lifestyle": [
+              "tourism"
+            ]
+          },
+          "url": "https://telanganatoday.com/newly-created-districts-have-no-dedicated-tourism-officers"
+        },
         {
           "id": "c1d30a81004d14d7",
           "published_at": "2026-09-25T10:15:39Z",
@@ -1621,11 +1617,28 @@
       "lane": "review",
       "selection": "newest_first",
       "term_counts": null,
-      "total_recent": 3
+      "total_recent": 4
     },
     {
       "id": "fitness_ergonomics",
       "items": [
+        {
+          "id": "4525b7949127a5e4",
+          "published_at": "2026-09-26T14:48:04Z",
+          "source_ids": [
+            "telangana_today"
+          ],
+          "title": "Asian Games: Twin kabaddi golds, marathon silver highlight India\u2019s day",
+          "topic_matches": {
+            "fitness_ergonomics": [
+              "marathon"
+            ],
+            "india_developments": [
+              "India"
+            ]
+          },
+          "url": "https://telanganatoday.com/asian-games-twin-kabaddi-golds-marathon-silver-highlight-indias-day"
+        },
         {
           "id": "87bc97fcca57469f",
           "published_at": "2026-09-26T11:10:36Z",
@@ -1671,20 +1684,6 @@
             ]
           },
           "url": "https://telanganatoday.com/kareena-kapoor-shares-glimpse-of-latest-workout-routine-fitness-chart"
-        },
-        {
-          "id": "5f0f853e94a3ea2b",
-          "published_at": "2026-09-25T08:18:21Z",
-          "source_ids": [
-            "telangana_today"
-          ],
-          "title": "Pregnant Samantha Ruth Prabhu shares glimpse of workout routine: \u2018Strong till the very end\u2019",
-          "topic_matches": {
-            "fitness_ergonomics": [
-              "workout"
-            ]
-          },
-          "url": "https://telanganatoday.com/pregnant-samantha-ruth-prabhu-shares-glimpse-of-workout-routine-strong-till-the-very-end"
         },
         {
           "id": "916b715f63c46b60",
@@ -1823,6 +1822,6 @@
       "total_recent": 3
     }
   ],
-  "unique_matched_stories": 648,
-  "workflow_run_id": 36239523566
+  "unique_matched_stories": 643,
+  "workflow_run_id": 36255946860
 }

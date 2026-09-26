@@ -2,49 +2,7 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://telanganatoday.com/kabaddi-at-asian-games-india-complete-golden-double-with-twin-wins-over-iran",
-      "domain": "telanganatoday.com",
-      "feed_ids": [
-        "telangana_today"
-      ],
-      "feed_names": [
-        "Telangana Today"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000048"
-      ],
-      "topic_ids": [
-        "india_developments"
-      ],
-      "topics": [
-        "India developments"
-      ],
-      "url_id": "url_000051"
-    },
-    {
-      "canonical_url": "https://telanganatoday.com/kareena-kapoor-shares-glimpse-of-latest-workout-routine-fitness-chart",
-      "domain": "telanganatoday.com",
-      "feed_ids": [
-        "telangana_today"
-      ],
-      "feed_names": [
-        "Telangana Today"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000036"
-      ],
-      "topic_ids": [
-        "fitness_ergonomics"
-      ],
-      "topics": [
-        "Fitness and ergonomics"
-      ],
-      "url_id": "url_000052"
-    },
-    {
-      "canonical_url": "https://telanganatoday.com/opinion-from-encounters-to-custodial-deaths-is-india-finding-new-ways-to-hide-extrajudicial-killings",
+      "canonical_url": "https://telanganatoday.com/sangareddy-miscreants-kill-75-year-old-woman-flee-with-jewellery",
       "domain": "telanganatoday.com",
       "feed_ids": [
         "telangana_today_crime"
@@ -54,7 +12,7 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000033"
+        "occ_000026"
       ],
       "topic_ids": [
         "crime"
@@ -62,10 +20,10 @@
       "topics": [
         "Crime news"
       ],
-      "url_id": "url_000053"
+      "url_id": "url_000051"
     },
     {
-      "canonical_url": "https://telanganatoday.com/pregnant-samantha-ruth-prabhu-shares-glimpse-of-workout-routine-strong-till-the-very-end",
+      "canonical_url": "https://telanganatoday.com/thrive-pain-clinic-opens-new-wellness-and-pain-management-centre-in-jubilee-hills",
       "domain": "telanganatoday.com",
       "feed_ids": [
         "telangana_today"
@@ -83,26 +41,68 @@
       "topics": [
         "Fitness and ergonomics"
       ],
-      "url_id": "url_000054"
+      "url_id": "url_000052"
     },
     {
-      "canonical_url": "https://telanganatoday.com/rohit-kohli-lead-the-spotlight-as-india-face-west-indies",
-      "domain": "telanganatoday.com",
+      "canonical_url": "https://www.androidauthority.com/best-pixel-11-pro-alternative-poll-results-3715761",
+      "domain": "www.androidauthority.com",
       "feed_ids": [
-        "telangana_today"
+        "android_authority"
       ],
       "feed_names": [
-        "Telangana Today"
+        "Android Authority"
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000045"
+        "occ_000069"
       ],
       "topic_ids": [
-        "india_developments"
+        "tech_software"
       ],
       "topics": [
-        "India developments"
+        "Technology, software and gadgets"
+      ],
+      "url_id": "url_000053"
+    },
+    {
+      "canonical_url": "https://www.androidauthority.com/gemini-dark-mode-3715309",
+      "domain": "www.androidauthority.com",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_names": [
+        "Android Authority"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000002"
+      ],
+      "topic_ids": [
+        "ai_development"
+      ],
+      "topics": [
+        "AI development and products"
+      ],
+      "url_id": "url_000054"
+    },
+    {
+      "canonical_url": "https://www.androidauthority.com/gemini-live-avatar-3715280",
+      "domain": "www.androidauthority.com",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_names": [
+        "Android Authority"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000005"
+      ],
+      "topic_ids": [
+        "ai_development"
+      ],
+      "topics": [
+        "AI development and products"
       ],
       "url_id": "url_000055"
     }

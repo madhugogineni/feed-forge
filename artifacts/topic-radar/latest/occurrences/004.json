@@ -2,7 +2,7 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://9to5mac.com/2026/09/25/apple-faces-class-action-over-apple-pay-fees-charged-to-card-issuers",
+      "canonical_url": "https://9to5mac.com/2026/09/25/openai-accuses-apple-of-improperly-adding-new-evidence-to-trade-secrets-case",
       "feed_id": "9to5mac",
       "feed_ids": [
         "9to5mac"
@@ -15,34 +15,12 @@
         "Apple"
       ],
       "occurrence_id": "occ_000016",
-      "original_url": "https://9to5mac.com/2026/09/25/apple-faces-class-action-over-apple-pay-fees-charged-to-card-issuers",
-      "pipeline_item_id": "fd33b081539e396b",
-      "published_at": "2026-09-25T21:01:42Z",
-      "title": "Apple faces class action over Apple Pay fees charged to card issuers",
+      "original_url": "https://9to5mac.com/2026/09/25/openai-accuses-apple-of-improperly-adding-new-evidence-to-trade-secrets-case",
+      "pipeline_item_id": "f75051082e2b467d",
+      "published_at": "2026-09-26T01:14:20Z",
+      "title": "OpenAI accuses Apple of improperly adding new evidence to trade secrets case",
       "topic": "Major technology companies",
       "topic_id": "big_tech",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://9to5mac.com/2026/09/22/phishing-simulations-for-the-ai-era",
-      "feed_id": "9to5mac",
-      "feed_ids": [
-        "9to5mac"
-      ],
-      "feed_name": "9to5Mac",
-      "feed_names": [
-        "9to5Mac"
-      ],
-      "matched_terms": [
-        "phishing"
-      ],
-      "occurrence_id": "occ_000017",
-      "original_url": "https://9to5mac.com/2026/09/22/phishing-simulations-for-the-ai-era",
-      "pipeline_item_id": "a2ddcc2a93d00134",
-      "published_at": "2026-09-22T10:00:00Z",
-      "title": "Apple @ Work Podcast: Phishing simulations for the AI era",
-      "topic": "Consumer and digital safety",
-      "topic_id": "consumer_safety",
       "topic_lane": "review"
     },
     {
@@ -58,7 +36,7 @@
       "matched_terms": [
         "recall"
       ],
-      "occurrence_id": "occ_000018",
+      "occurrence_id": "occ_000017",
       "original_url": "https://telanganatoday.com/russo-brothers-recall-robert-downey-jr-chris-evans-final-days-on-avengers-endgame",
       "pipeline_item_id": "c80404b6052c0e77",
       "published_at": "2026-09-25T09:34:02Z",
@@ -80,11 +58,33 @@
       "matched_terms": [
         "UPI"
       ],
-      "occurrence_id": "occ_000019",
+      "occurrence_id": "occ_000018",
       "original_url": "https://www.medianama.com/2026/09/223-npci-ai-cyber-threats-mythos-upi-mdr",
       "pipeline_item_id": "054834731c0ccb98",
       "published_at": "2026-09-25T06:08:02Z",
       "title": "NPCI chief Dilip Asbe cites AI cyber threats, including Claude Mythos, to defend UPI MDR",
+      "topic": "Credit cards, rewards and payments",
+      "topic_id": "credit_cards_payments",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOM21zWExQWDdYVEhJT2tqVjVPODBwb3d5OUd3LVBaZnl5aVNaLWZQRGd5elg3SDNIWDhWdXVtNnc4ZWFmNXVOYk9WU1RONE0zQVN4dG9sY1h0cVNjUU9wUG13R1hRSlNUM3BEcEd4dWI1NFNOdkZZUjY5T21iUi1VRHZBQnRLRkRmMWpLb2hEZi1TdGgtZzc2ZXN2THZnZ25GSTRnRFJJU2N0SURLdXNSVDZLMm1xaUVwV0UycDZHQTBOQTQ4SUhvQU1XVEoycXdHLVRsSUZQeXIyOGJjM1MwblhpT1lla0VtVmpiVXFxVm9lelZTN0s0V9IB_gFBVV95cUxPYlp3Y1RNdnlOXzZ6eXlTWHpPSzUyYjJPT2FzbUE5SEV0Z1MycUJXeE9UVE84WHhKUlVxMlRFMjlTRG9fYmtMMzJfVXBYZk5DNDF0aUEyU2tjSURUYXNMazRPeEZXdHFqczhNRmRMWnV2MVBLRDNoYXBzSGM0Y0RYRXU2bUV2X0l1UE1QNVVIcDFmTGJ0UGc3UVhfaTVwYVhsOU9DZTVRSXByLXlMckRza2RKbDFoaXVNdFRNRDlPbDBJb2luTFcwNjdxSzc5a04tTllaWVROU0E0akZyNGUybmg0dngyTWg3WGtQV3ZYQ3pKM2lleEdmMWxxMmpjZw?oc=5",
+      "feed_id": "google_news_credit_cards",
+      "feed_ids": [
+        "google_news_credit_cards"
+      ],
+      "feed_name": "Google News — Indian credit cards",
+      "feed_names": [
+        "Google News — Indian credit cards"
+      ],
+      "matched_terms": [
+        "UPI"
+      ],
+      "occurrence_id": "occ_000019",
+      "original_url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOM21zWExQWDdYVEhJT2tqVjVPODBwb3d5OUd3LVBaZnl5aVNaLWZQRGd5elg3SDNIWDhWdXVtNnc4ZWFmNXVOYk9WU1RONE0zQVN4dG9sY1h0cVNjUU9wUG13R1hRSlNUM3BEcEd4dWI1NFNOdkZZUjY5T21iUi1VRHZBQnRLRkRmMWpLb2hEZi1TdGgtZzc2ZXN2THZnZ25GSTRnRFJJU2N0SURLdXNSVDZLMm1xaUVwV0UycDZHQTBOQTQ4SUhvQU1XVEoycXdHLVRsSUZQeXIyOGJjM1MwblhpT1lla0VtVmpiVXFxVm9lelZTN0s0V9IB_gFBVV95cUxPYlp3Y1RNdnlOXzZ6eXlTWHpPSzUyYjJPT2FzbUE5SEV0Z1MycUJXeE9UVE84WHhKUlVxMlRFMjlTRG9fYmtMMzJfVXBYZk5DNDF0aUEyU2tjSURUYXNMazRPeEZXdHFqczhNRmRMWnV2MVBLRDNoYXBzSGM0Y0RYRXU2bUV2X0l1UE1QNVVIcDFmTGJ0UGc3UVhfaTVwYVhsOU9DZTVRSXByLXlMckRza2RKbDFoaXVNdFRNRDlPbDBJb2luTFcwNjdxSzc5a04tTllaWVROU0E0akZyNGUybmg0dngyTWg3WGtQV3ZYQ3pKM2lleEdmMWxxMmpjZw?oc=5",
+      "pipeline_item_id": "191aa86e1811f7ec",
+      "published_at": "2026-09-25T00:27:00Z",
+      "title": "Govt rules out MDR burden on UPI users; GST Council may review 18% tax next month - The Times of India",
       "topic": "Credit cards, rewards and payments",
       "topic_id": "credit_cards_payments",
       "topic_lane": "review"

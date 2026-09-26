@@ -2,7 +2,7 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://9to5mac.com/2026/09/25/apple-card-adds-new-feature-in-ios-27-that-every-card-should-have",
+      "canonical_url": "https://9to5mac.com/2026/09/25/macos-27-adds-new-apple-intelligence-features-to-your-favorite-apps",
       "domain": "9to5mac.com",
       "feed_ids": [
         "9to5mac"
@@ -12,28 +12,7 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000069"
-      ],
-      "topic_ids": [
-        "tech_software"
-      ],
-      "topics": [
-        "Technology, software and gadgets"
-      ],
-      "url_id": "url_000011"
-    },
-    {
-      "canonical_url": "https://9to5mac.com/2026/09/25/apple-faces-class-action-over-apple-pay-fees-charged-to-card-issuers",
-      "domain": "9to5mac.com",
-      "feed_ids": [
-        "9to5mac"
-      ],
-      "feed_names": [
-        "9to5Mac"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000016"
+        "occ_000013"
       ],
       "topic_ids": [
         "big_tech"
@@ -41,10 +20,10 @@
       "topics": [
         "Major technology companies"
       ],
-      "url_id": "url_000012"
+      "url_id": "url_000011"
     },
     {
-      "canonical_url": "https://9to5mac.com/2026/09/25/apple-music-hall-confirms-first-eight-shows-starting-with-elton-john",
+      "canonical_url": "https://9to5mac.com/2026/09/25/openai-accuses-apple-of-improperly-adding-new-evidence-to-trade-secrets-case",
       "domain": "9to5mac.com",
       "feed_ids": [
         "9to5mac"
@@ -52,20 +31,47 @@
       "feed_names": [
         "9to5Mac"
       ],
-      "occurrence_count": 1,
+      "occurrence_count": 2,
       "occurrence_ids": [
-        "occ_000062"
+        "occ_000008",
+        "occ_000016"
       ],
       "topic_ids": [
-        "music_apps"
+        "ai_development",
+        "big_tech"
       ],
       "topics": [
-        "Music and streaming apps"
+        "AI development and products",
+        "Major technology companies"
+      ],
+      "url_id": "url_000012"
+    },
+    {
+      "canonical_url": "https://9to5mac.com/2026/09/25/testflight-now-works-in-landscape-as-apple-prepares-for-iphone-duo",
+      "domain": "9to5mac.com",
+      "feed_ids": [
+        "9to5mac"
+      ],
+      "feed_names": [
+        "9to5Mac"
+      ],
+      "occurrence_count": 2,
+      "occurrence_ids": [
+        "occ_000009",
+        "occ_000067"
+      ],
+      "topic_ids": [
+        "big_tech",
+        "tech_software"
+      ],
+      "topics": [
+        "Major technology companies",
+        "Technology, software and gadgets"
       ],
       "url_id": "url_000013"
     },
     {
-      "canonical_url": "https://9to5mac.com/2026/09/25/apples-dimensional-drawings-offer-a-fascinating-look-at-its-product-designs",
+      "canonical_url": "https://9to5mac.com/2026/09/26/apple-deals-this-week-best",
       "domain": "9to5mac.com",
       "feed_ids": [
         "9to5mac"
@@ -86,7 +92,7 @@
       "url_id": "url_000014"
     },
     {
-      "canonical_url": "https://9to5mac.com/2026/09/25/macos-27-adds-new-apple-intelligence-features-to-your-favorite-apps",
+      "canonical_url": "https://9to5mac.com/2026/09/26/apple-work-the-enterprise-needs-to-kill-the-sso-tax-and-its-an-opportunity-for-apple",
       "domain": "9to5mac.com",
       "feed_ids": [
         "9to5mac"
@@ -96,7 +102,7 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000012"
+        "occ_000015"
       ],
       "topic_ids": [
         "big_tech"

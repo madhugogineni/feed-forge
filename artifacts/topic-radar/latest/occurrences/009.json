@@ -2,28 +2,6 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://9to5mac.com/2026/09/22/apple-working-on-whoop-style-screenless-fitness-tracker-per-report",
-      "feed_id": "9to5mac",
-      "feed_ids": [
-        "9to5mac"
-      ],
-      "feed_name": "9to5Mac",
-      "feed_names": [
-        "9to5Mac"
-      ],
-      "matched_terms": [
-        "fitness"
-      ],
-      "occurrence_id": "occ_000041",
-      "original_url": "https://9to5mac.com/2026/09/22/apple-working-on-whoop-style-screenless-fitness-tracker-per-report",
-      "pipeline_item_id": "d9aadd6c0a975a28",
-      "published_at": "2026-09-22T16:46:27Z",
-      "title": "Apple working on Whoop-style screenless fitness tracker, per report",
-      "topic": "Fitness and ergonomics",
-      "topic_id": "fitness_ergonomics",
-      "topic_lane": "review"
-    },
-    {
       "canonical_url": "https://telanganatoday.com/asian-games-2026-sawan-barwal-wins-marathon-silver-ends-indias-44-year-wait",
       "feed_id": "telangana_today",
       "feed_ids": [
@@ -36,7 +14,7 @@
       "matched_terms": [
         "marathon"
       ],
-      "occurrence_id": "occ_000042",
+      "occurrence_id": "occ_000041",
       "original_url": "https://telanganatoday.com/asian-games-2026-sawan-barwal-wins-marathon-silver-ends-indias-44-year-wait",
       "pipeline_item_id": "e81d8e9bf338d139",
       "published_at": "2026-09-26T06:19:45Z",
@@ -46,29 +24,29 @@
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://telanganatoday.com/asian-games-2026-president-murmu-congratulates-indian-medal-winners",
-      "feed_id": "telangana_today",
+      "canonical_url": "https://www.thehindu.com/news/national/telangana/revanth-urges-centre-to-confer-bharat-ratna-on-manmohan-singh/article71513607.ece",
+      "feed_id": "hindu_telangana",
       "feed_ids": [
-        "telangana_today"
+        "hindu_telangana"
       ],
-      "feed_name": "Telangana Today",
+      "feed_name": "The Hindu Telangana",
       "feed_names": [
-        "Telangana Today"
+        "The Hindu Telangana"
       ],
       "matched_terms": [
-        "Indian"
+        "Bharat"
       ],
-      "occurrence_id": "occ_000043",
-      "original_url": "https://telanganatoday.com/asian-games-2026-president-murmu-congratulates-indian-medal-winners",
-      "pipeline_item_id": "079e33c0a4a09019",
-      "published_at": "2026-09-26T08:40:11Z",
-      "title": "Asian Games 2026: President Murmu congratulates Indian medal winners",
+      "occurrence_id": "occ_000042",
+      "original_url": "https://www.thehindu.com/news/national/telangana/revanth-urges-centre-to-confer-bharat-ratna-on-manmohan-singh/article71513607.ece",
+      "pipeline_item_id": "24353f63cb1a0c7e",
+      "published_at": "2026-09-26T15:55:15Z",
+      "title": "Revanth urges Centre to confer Bharat Ratna on Manmohan Singh",
       "topic": "India developments",
       "topic_id": "india_developments",
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://telanganatoday.com/asian-games-hockey-india-make-semis-with-2-0-win-against-japan",
+      "canonical_url": "https://telanganatoday.com/asian-games-twin-kabaddi-golds-marathon-silver-highlight-indias-day",
       "feed_id": "telangana_today",
       "feed_ids": [
         "telangana_today"
@@ -80,17 +58,39 @@
       "matched_terms": [
         "India"
       ],
-      "occurrence_id": "occ_000044",
-      "original_url": "https://telanganatoday.com/asian-games-hockey-india-make-semis-with-2-0-win-against-japan",
-      "pipeline_item_id": "3e033b27470cb494",
-      "published_at": "2026-09-26T11:39:04Z",
-      "title": "Asian Games hockey: India make semis with 2-0 win against Japan",
+      "occurrence_id": "occ_000043",
+      "original_url": "https://telanganatoday.com/asian-games-twin-kabaddi-golds-marathon-silver-highlight-indias-day",
+      "pipeline_item_id": "4525b7949127a5e4",
+      "published_at": "2026-09-26T14:48:04Z",
+      "title": "Asian Games: Twin kabaddi golds, marathon silver highlight India’s day",
       "topic": "India developments",
       "topic_id": "india_developments",
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://telanganatoday.com/rohit-kohli-lead-the-spotlight-as-india-face-west-indies",
+      "canonical_url": "https://yourstory.com/2026/09/ai-semiconductors-quantum-tech-major-frontier-india-sitharaman",
+      "feed_id": "yourstory",
+      "feed_ids": [
+        "yourstory"
+      ],
+      "feed_name": "YourStory",
+      "feed_names": [
+        "YourStory"
+      ],
+      "matched_terms": [
+        "India"
+      ],
+      "occurrence_id": "occ_000044",
+      "original_url": "https://yourstory.com/2026/09/ai-semiconductors-quantum-tech-major-frontier-india-sitharaman",
+      "pipeline_item_id": "7c1e813291732032",
+      "published_at": "2026-09-26T13:20:28Z",
+      "title": "AI, semiconductors, quantum tech next major frontier for India: Sitharaman",
+      "topic": "India developments",
+      "topic_id": "india_developments",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/hkmcf-india-opens-community-kitchen-to-provide-breakfast-to-29183-telangana-students",
       "feed_id": "telangana_today",
       "feed_ids": [
         "telangana_today"
@@ -103,10 +103,10 @@
         "India"
       ],
       "occurrence_id": "occ_000045",
-      "original_url": "https://telanganatoday.com/rohit-kohli-lead-the-spotlight-as-india-face-west-indies",
-      "pipeline_item_id": "413d4c9b241663b6",
-      "published_at": "2026-09-26T09:30:06Z",
-      "title": "Rohit, Kohli lead the spotlight as India face West Indies",
+      "original_url": "https://telanganatoday.com/hkmcf-india-opens-community-kitchen-to-provide-breakfast-to-29183-telangana-students",
+      "pipeline_item_id": "86a2cb81c2bd2177",
+      "published_at": "2026-09-26T15:06:22Z",
+      "title": "HKMCF India opens community kitchen to provide breakfast to 29,183 Telangana students",
       "topic": "India developments",
       "topic_id": "india_developments",
       "topic_lane": "review"

@@ -2,7 +2,7 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://9to5mac.com/2026/09/25/openai-accuses-apple-of-improperly-adding-new-evidence-to-trade-secrets-case",
+      "canonical_url": "https://9to5mac.com/2026/09/26/these-are-my-favorite-iphone-18-pro-pro-max-cases-so-far-video",
       "domain": "9to5mac.com",
       "feed_ids": [
         "9to5mac"
@@ -10,44 +10,17 @@
       "feed_names": [
         "9to5Mac"
       ],
-      "occurrence_count": 2,
+      "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000008",
-        "occ_000015"
+        "occ_000068"
       ],
       "topic_ids": [
-        "ai_development",
-        "big_tech"
-      ],
-      "topics": [
-        "AI development and products",
-        "Major technology companies"
-      ],
-      "url_id": "url_000016"
-    },
-    {
-      "canonical_url": "https://9to5mac.com/2026/09/25/testflight-now-works-in-landscape-as-apple-prepares-for-iphone-duo",
-      "domain": "9to5mac.com",
-      "feed_ids": [
-        "9to5mac"
-      ],
-      "feed_names": [
-        "9to5Mac"
-      ],
-      "occurrence_count": 2,
-      "occurrence_ids": [
-        "occ_000009",
-        "occ_000070"
-      ],
-      "topic_ids": [
-        "big_tech",
         "tech_software"
       ],
       "topics": [
-        "Major technology companies",
         "Technology, software and gadgets"
       ],
-      "url_id": "url_000017"
+      "url_id": "url_000016"
     },
     {
       "canonical_url": "https://blog.google/intl/en-in/products/platforms/press-play-on-these-new-youtube-music-updates",
@@ -60,7 +33,7 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000063"
+        "occ_000062"
       ],
       "topic_ids": [
         "music_apps"
@@ -68,10 +41,10 @@
       "topics": [
         "Music and streaming apps"
       ],
-      "url_id": "url_000018"
+      "url_id": "url_000017"
     },
     {
-      "canonical_url": "https://inc42.com/features/fy26-financial-tracker-tracking-the-financial-performance-of-indian-startups",
+      "canonical_url": "https://inc42.com/buzz/iit-madras-unicorn-india-ventures-mark-first-close-of-fund-i-at-%e2%82%b9450-cr",
       "domain": "inc42.com",
       "feed_ids": [
         "inc42"
@@ -81,7 +54,28 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000047"
+        "occ_000049"
+      ],
+      "topic_ids": [
+        "india_developments"
+      ],
+      "topics": [
+        "India developments"
+      ],
+      "url_id": "url_000018"
+    },
+    {
+      "canonical_url": "https://inc42.com/buzz/ride-hailing-fear-inside-bharat-taxi-coercion-allegations-in-gujarat",
+      "domain": "inc42.com",
+      "feed_ids": [
+        "inc42"
+      ],
+      "feed_names": [
+        "Inc42"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000046"
       ],
       "topic_ids": [
         "india_developments"
@@ -102,7 +96,7 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000087"
+        "occ_000086"
       ],
       "topic_ids": [
         "travel_lifestyle"

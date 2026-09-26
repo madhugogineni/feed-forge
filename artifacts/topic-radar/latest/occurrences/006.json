@@ -2,26 +2,26 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://yourstory.com/2026/09/proposed-upi-merchant-discount-rate-not-a-tax-cess-or-surcharge-fm",
-      "feed_id": "yourstory",
+      "canonical_url": "https://telanganatoday.com/sangareddy-miscreants-kill-75-year-old-woman-flee-with-jewellery",
+      "feed_id": "telangana_today_crime",
       "feed_ids": [
-        "yourstory"
+        "telangana_today_crime"
       ],
-      "feed_name": "YourStory",
+      "feed_name": "Telangana Today Crime",
       "feed_names": [
-        "YourStory"
+        "Telangana Today Crime"
       ],
       "matched_terms": [
-        "UPI"
+        "source:telangana_today_crime"
       ],
       "occurrence_id": "occ_000026",
-      "original_url": "https://yourstory.com/2026/09/proposed-upi-merchant-discount-rate-not-a-tax-cess-or-surcharge-fm",
-      "pipeline_item_id": "f689ac3fed75c7b8",
-      "published_at": "2026-09-25T09:16:42Z",
-      "title": "Proposed UPI Merchant Discount Rate not a tax, cess or surcharge; will not burden consumers: FM",
-      "topic": "Credit cards, rewards and payments",
-      "topic_id": "credit_cards_payments",
-      "topic_lane": "review"
+      "original_url": "https://telanganatoday.com/sangareddy-miscreants-kill-75-year-old-woman-flee-with-jewellery",
+      "pipeline_item_id": "03032bc0ab8c02ab",
+      "published_at": "2026-09-24T06:57:56Z",
+      "title": "Sangareddy: Miscreants kill 75-year-old woman flee with jewellery",
+      "topic": "Crime news",
+      "topic_id": "crime",
+      "topic_lane": "context_only"
     },
     {
       "canonical_url": "https://www.thehindu.com/news/national/telangana/pranay-murder-case-convict-dies-after-complaining-of-chest-pain-in-cherlapally-jail/article71505605.ece",
@@ -70,47 +70,45 @@
       "topic_lane": "context_only"
     },
     {
-      "canonical_url": "https://telanganatoday.com/ganesh-immersion-two-devotees-drown-one-electrocuted-one-dies-of-cardiac-arrest",
-      "feed_id": "telangana_today",
+      "canonical_url": "https://www.thehindu.com/news/cities/Hyderabad/engineering-students-suicide-turns-out-to-be-murder-two-arrested/article71502595.ece",
+      "feed_id": "hindu_hyderabad",
       "feed_ids": [
-        "telangana_today"
+        "hindu_hyderabad"
       ],
-      "feed_name": "Telangana Today",
+      "feed_name": "The Hindu Hyderabad",
       "feed_names": [
-        "Telangana Today"
+        "The Hindu Hyderabad"
       ],
       "matched_terms": [
-        "arrest"
+        "murder"
       ],
       "occurrence_id": "occ_000029",
-      "original_url": "https://telanganatoday.com/ganesh-immersion-two-devotees-drown-one-electrocuted-one-dies-of-cardiac-arrest",
-      "pipeline_item_id": "941cf7e55b342b21",
-      "published_at": "2026-09-25T09:05:12Z",
-      "title": "Ganesh immersion: Two devotees drown, one electrocuted, one dies of cardiac arrest",
+      "original_url": "https://www.thehindu.com/news/cities/Hyderabad/engineering-students-suicide-turns-out-to-be-murder-two-arrested/article71502595.ece",
+      "pipeline_item_id": "9d52a28b20107949",
+      "published_at": "2026-09-24T15:27:51Z",
+      "title": "Engineering student’s ‘suicide’ turns out to be murder; two arrested",
       "topic": "Crime news",
       "topic_id": "crime",
       "topic_lane": "context_only"
     },
     {
-      "canonical_url": "https://www.thehindu.com/news/cities/Hyderabad/engineering-students-suicide-turns-out-to-be-murder-two-arrested/article71502595.ece",
-      "feed_id": "hindu_hyderabad",
+      "canonical_url": "https://9to5mac.com/2026/09/24/apple-tv-reveals-new-series-with-hugh-laurie-as-organized-crime-boss",
+      "feed_id": "9to5mac",
       "feed_ids": [
-        "hindu_hyderabad",
-        "hindu_telangana"
+        "9to5mac"
       ],
-      "feed_name": "The Hindu Hyderabad",
+      "feed_name": "9to5Mac",
       "feed_names": [
-        "The Hindu Hyderabad",
-        "The Hindu Telangana"
+        "9to5Mac"
       ],
       "matched_terms": [
-        "murder"
+        "crime"
       ],
       "occurrence_id": "occ_000030",
-      "original_url": "https://www.thehindu.com/news/cities/Hyderabad/engineering-students-suicide-turns-out-to-be-murder-two-arrested/article71502595.ece",
-      "pipeline_item_id": "9d52a28b20107949",
-      "published_at": "2026-09-24T15:27:51Z",
-      "title": "Engineering student’s ‘suicide’ turns out to be murder; two arrested",
+      "original_url": "https://9to5mac.com/2026/09/24/apple-tv-reveals-new-series-with-hugh-laurie-as-organized-crime-boss",
+      "pipeline_item_id": "a291fd65f4edf467",
+      "published_at": "2026-09-24T13:29:47Z",
+      "title": "Apple TV reveals new series with Hugh Laurie as organized crime boss",
       "topic": "Crime news",
       "topic_id": "crime",
       "topic_lane": "context_only"

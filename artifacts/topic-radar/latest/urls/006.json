@@ -2,6 +2,48 @@
   "record_count": 5,
   "records": [
     {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQUWcxSkV1SUtacDN0NHRPSE9WWnJsakRSMlk1R1pqTWlHWTFVcHkxSmtXenlNYl83cWV5REZmYkhZZTV5WXRzNnVtQUZ5ckxJYlpXRkdYWnY1bDJVVGNNTWpvZjczSlJ4R3RtTVFJOEVMbkpvcU04S2pybW5Hazc4SDY2N0U3SzRnNlFZNzVjUWV4STBpNkhCb1A0aUJkZHVKaDVleTdaZXRCaXh5VktYQUkySTBjVXVWVDVQbUNNVjljclZOblZDOE93eENOeFdHWkM3ekU5SlZNRWdHQVV1YXp6eU0xNHlQMlNFMlhZaDnSAfYBQVVfeXFMUExpLVN5VjVWbHJqaTl4VS1nSUUyakltM2xHYXhwUEctTXBiMVpXVGVFczBjT2FtWFBEMVAzYWhVd2dZLUZqUWJxMkVuaFQtbWEycjExX2hTdzJESU01ekxBUjhacHhqN2RwMDVYd1BrVUxYNnpMZ1hOXzY2YmN2eTY0VFZMaF9uS3dqWHZ5S3FBcEhrVjFCM2xIWm1qdklwYkhkRGE2VWpXR3ZCTmdpM3QydUlsMFlwRmxEdEhNYjRaZDF3WGwtZldDRkVvQmJyU05nblh1Q1JTQmJvS2dYYWdMekUwQ01kS1RMaWhDUXItMHJQem13?oc=5",
+      "domain": "news.google.com",
+      "feed_ids": [
+        "google_news_digital_brands"
+      ],
+      "feed_names": [
+        "Google News — Indian digital brands"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000057"
+      ],
+      "topic_ids": [
+        "indian_brands"
+      ],
+      "topics": [
+        "Indian consumer brands and products"
+      ],
+      "url_id": "url_000026"
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMigwNBVV95cUxORzRzX3d1VEJQSkxqckdkOHM1LWRBWDU0ZzBnRDhrcGRkeHVNSjFzamllUkFOMGZMaFZUYzMxei1rbkJfVk1tVkx6c041THFrcHdFUUFhVGlGSERyZ2w4bjVVOEw3NnozRk9nLUNhTmNQcmo4a2NhbzJHU0VUVFdQaV9zSWVDcUc0V0tHU2tmZGhSQkdmdlQwMGFpZF9hZXp6SzR1c1gxUVB6U1VTT1psVDZLR0NZaUtpM2lrcnVEMEtsWUFrakRRNTQyRl90T2tqTGlEVzNaU0NSWTZNMEo1TERMVXJvdV9abktuZlNQU3pRV0J3eGUtUVdpblhNUE95WnRQQkR6NmtEcGNMTXNBcjBDY0tSRnczZ3daRThRVFJ1M0MxdW5iZDMtYjZXUDM3S0p1NGxiSmRRSUh2R2xlMUFIN2lhbmVmSERETDJiZ2FvR1h2eU9peElXTl9zWFJiSDRqc1hZWVg5ZV9WSHVLbEJTRWtuSU02OE9FdWNwQUxQekXSAYgDQVVfeXFMUHlKZXVGNHhkZldiSzUwODB5TFVnMl9ad2lIU3lGWDNBRFc2Z1RlUXlUQzlkdGg1NHBDejdzdnIzcWh6WkNFbVk3RkNWcTREU3pvSXQteXl5VVY2dTZvX2tPdEZRLTVkb1ZwWWFWeG95MGxyRlBRVWg4R0g3ck54Q1pib2pQUEdmV1FHQWNnN2RzODFJelhGN2wzQi1CTnZMNWFpYVpKRDhnNGwyZE5yU3lpWHVub1dmenhONVh0d2Vqc0tvOWpoOGF4YTF4UUtQNWU3dldYQW80VXpsWHVrWlFFX0RPNXhiUUhPR0R2ekdVUEloLW1ST2lEWDFXdF9uYzkxMlNhaHE5WmVwZjEyUksyMHg0UEpXcW1oVDVHYWtrZ3VUNGlEcTZER19oR1V3NGJMY01yR0FtdzlXR1ZEYUdhRDlYX3U5NzQtWjdGUm90ejJnUExuckRZN2xpR2g0U1AzckowMkVIYXdFTDB2Q1hPbjQxdWlSRzJERWJUM3FwR1E3aEVOWVY?oc=5",
+      "domain": "news.google.com",
+      "feed_ids": [
+        "google_news_credit_cards"
+      ],
+      "feed_names": [
+        "Google News — Indian credit cards"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000033"
+      ],
+      "topic_ids": [
+        "crime"
+      ],
+      "topics": [
+        "Crime news"
+      ],
+      "url_id": "url_000027"
+    },
+    {
       "canonical_url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNOWdIdDJMeS1OcVJCUHpOYTNtYWVlOEVIcklzVlhrci1PVTdqTkdfUFdld2xsZmpQYmk3VTRnb2dMd3p4a0gycWYyOHAyZmowNFE1WmxvYXJVcWJ5bDFxSVl1ZjZlTFJXNWJka3ZRNWRWODAwOXFPR3BCZElFc2FOU1VsZEVTd3VmZmNuakdPTlc3Y2hPalZveGRUV0RhOTNSLXVOYVZ0dTZpNGZqaHkxRmVVMVJ6YlljTjhoakwxWXp4SGYzdTkwUHY4WEJkVkNCUDA2RkJ1QmpBTk4xYkNCcC1oQ1VTMlQwcmo0ejlpQW4wTXpUSnIxdHZyRzFRRlQtU0hhMtIBiwJBVV95cUxQUUJMUExkcVRmS1phVzFfMjdTVVFqOG8zRDJ2aF9nYngxY2sxN19MUUIyQmdLUkdITjctbXYxOFprX2pXcUJ2N3YzYUliTlpSYU1XdTlGR1NMbGlOOEhTdEhYdTk5MGJpWkpIYUVrMVZGWFVjcGk5LWs1S3FXUXREdEJkeDF0dXJ3QkVMaWgtSjBxM24yNWJWNk55SFpKLVRUcTk1dVRWZ1hDXzFHNHNnUVR5QzRVNGJ3ZDlNTlp4Z3B6R0lNMlJwVEpCLXNkdks2UmRBeS1kMXpRV0o2WXpfZjl4RTctQUk1WVNhM1pfRnhMZzV3bHZpbV9KeV9PaUhqWGplYjRhaUVMc00?oc=5",
       "domain": "news.google.com",
       "feed_ids": [
@@ -12,7 +54,7 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000059"
+        "occ_000058"
       ],
       "topic_ids": [
         "indian_brands"
@@ -20,7 +62,7 @@
       "topics": [
         "Indian consumer brands and products"
       ],
-      "url_id": "url_000026"
+      "url_id": "url_000028"
     },
     {
       "canonical_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdzB4X1B3MnZQRGZkRXJ1ZDZWOXJuRkN5Zlhlc3M1X1N2bk1sNGUwUTgzdUFZb01CZGRPYnBnNkpvUHlRTW15MVltdmhGUG5UZFpSY1llZHdudHdFRlRld2Zsb0p1X3g2ejFkV28zSW56U2NBcC1rZURYRV8wZkFla1hhUkE5ZVQ3bWdoc3lrSQ?oc=5",
@@ -33,8 +75,8 @@
       ],
       "occurrence_count": 2,
       "occurrence_ids": [
-        "occ_000013",
-        "occ_000021"
+        "occ_000014",
+        "occ_000022"
       ],
       "topic_ids": [
         "big_tech",
@@ -44,7 +86,7 @@
         "Credit cards, rewards and payments",
         "Major technology companies"
       ],
-      "url_id": "url_000027"
+      "url_id": "url_000029"
     },
     {
       "canonical_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQzlfekJmcW5Ca21uYWQxdG5tZ2QwTDhEazdkdEF2TUxXMkZoQXVLTmtkTVFXUzNxWXVXVENOWGJtMHpaVW9GZzljU1FIbDg2c1pjbEU2cGxJeWt3dTRaWjRvMlUzR2JFdGxzQ3F1WkxpR2ltamF0TEhCT2VCSno5c252UXplQjJwcU1GVVVLUUE3dFp3ZEwxcDNnWUUxS09DaEowWkV3?oc=5",
@@ -64,48 +106,6 @@
       ],
       "topics": [
         "Credit cards, rewards and payments"
-      ],
-      "url_id": "url_000028"
-    },
-    {
-      "canonical_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNS0h4cm93MmR3VFhUMWVOV2VzelJLQ3hRSnpLZzFKWDQyV1pIVGZyeS1VZmtiNTAzZUszV09lLVNlZmhGX1ZTXzFnenJUM0lNTUl0MnFDUU5HbUdTZlk1Q0FPZjI2ektiUmRWRVlKT1c1UV94akpBbnBfeEhOTTZPN0UxUjQxT3o5MFFESTRVaTNiNDJwa0w3cjd5SGtZaVE2MWpIZjgtb0EzTkJx?oc=5",
-      "domain": "news.google.com",
-      "feed_ids": [
-        "google_news_consumer_brands"
-      ],
-      "feed_names": [
-        "Google News — Indian consumer brands"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000035"
-      ],
-      "topic_ids": [
-        "fitness_ergonomics"
-      ],
-      "topics": [
-        "Fitness and ergonomics"
-      ],
-      "url_id": "url_000029"
-    },
-    {
-      "canonical_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbktnRWpmNVhKbmpxTHdwMlNnWVI1YTNaSjNDcFJTNjU4aFNsZ0FDa0ZvUkFDY2xyLWtnMC0xRXFESFFUQ3puc3JSeXA5b3VZdkczbUxtMzg0M0JQRHo2ZDBnZzRhd3FUdkZjRTBLWXlCMHVjT2o1NHMwN0ZxZVVwcHdLSkZweGZlN0xTT005bUwzdzFKaDFBU1BQTDczZnJmelBSSkRKM2dIbjhXMnZvVm9FV3M?oc=5",
-      "domain": "news.google.com",
-      "feed_ids": [
-        "google_news_device_brands"
-      ],
-      "feed_names": [
-        "Google News — Indian device brands"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000066"
-      ],
-      "topic_ids": [
-        "personal_finance"
-      ],
-      "topics": [
-        "Personal finance and investing"
       ],
       "url_id": "url_000030"
     }

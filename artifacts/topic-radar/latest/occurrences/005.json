@@ -2,6 +2,28 @@
   "record_count": 5,
   "records": [
     {
+      "canonical_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMVhqUGFEbWpfRHpHNnFTNnZUZV9XRTY0YW9wUXVSdWVOdlNwOXU5ZUNjMDNOV0Fua1h3Y2NCSjUyclRCWV94bFJfSkJmanh6M0J3VkJfdkhzcFVDcF9pRGlCTWJLNEJXUVIzd1NTLXFILUFfbVdOTi12Z29rcGFjRXZZdFRjVzNBLW1sVUR4RUVicW91cW9kZ2V2Z2FFSkN0a2dLY2ZBNUtYdWdjbmFWLXliWTNRNVk1b1N6dmV5aGhrNUp40gHMAUFVX3lxTE1nSTRnZFhHTjlMdWdIMUI2VGlEbE1Pd1ZIN3JXSUczZnM0VUhrNEQwbjRRYmdKWVVoTmx2dGhJSU9KQ3E2eXoyR25oR0ZORzdCQnlaZ1IxMmQtRThnSUFOeHI5TWVzRFBiMzdRdk1RM0x3MGFzVkY0QkFhckV2YkhoQzRUNWdfemtiQVdwX1pBNDVCamZxc3pDd0lNbzBxLWFnRXIwU09wd1BvWHV4bkEtcDdRVWNjbnUzTEpkUl9fUnQzbFVyZGwzdTUycg?oc=5",
+      "feed_id": "google_news_credit_cards",
+      "feed_ids": [
+        "google_news_credit_cards"
+      ],
+      "feed_name": "Google News — Indian credit cards",
+      "feed_names": [
+        "Google News — Indian credit cards"
+      ],
+      "matched_terms": [
+        "credit card"
+      ],
+      "occurrence_id": "occ_000021",
+      "original_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMVhqUGFEbWpfRHpHNnFTNnZUZV9XRTY0YW9wUXVSdWVOdlNwOXU5ZUNjMDNOV0Fua1h3Y2NCSjUyclRCWV94bFJfSkJmanh6M0J3VkJfdkhzcFVDcF9pRGlCTWJLNEJXUVIzd1NTLXFILUFfbVdOTi12Z29rcGFjRXZZdFRjVzNBLW1sVUR4RUVicW91cW9kZ2V2Z2FFSkN0a2dLY2ZBNUtYdWdjbmFWLXliWTNRNVk1b1N6dmV5aGhrNUp40gHMAUFVX3lxTE1nSTRnZFhHTjlMdWdIMUI2VGlEbE1Pd1ZIN3JXSUczZnM0VUhrNEQwbjRRYmdKWVVoTmx2dGhJSU9KQ3E2eXoyR25oR0ZORzdCQnlaZ1IxMmQtRThnSUFOeHI5TWVzRFBiMzdRdk1RM0x3MGFzVkY0QkFhckV2YkhoQzRUNWdfemtiQVdwX1pBNDVCamZxc3pDd0lNbzBxLWFnRXIwU09wd1BvWHV4bkEtcDdRVWNjbnUzTEpkUl9fUnQzbFVyZGwzdTUycg?oc=5",
+      "pipeline_item_id": "620d325a2c9bf6d7",
+      "published_at": "2026-09-25T03:45:50Z",
+      "title": "Credit Card Spending Stays Muted In August; HSBC, Jefferies Flag Rising Competition - NDTV Profit",
+      "topic": "Credit cards, rewards and payments",
+      "topic_id": "credit_cards_payments",
+      "topic_lane": "review"
+    },
+    {
       "canonical_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdzB4X1B3MnZQRGZkRXJ1ZDZWOXJuRkN5Zlhlc3M1X1N2bk1sNGUwUTgzdUFZb01CZGRPYnBnNkpvUHlRTW15MVltdmhGUG5UZFpSY1llZHdudHdFRlRld2Zsb0p1X3g2ejFkV28zSW56U2NBcC1rZURYRV8wZkFla1hhUkE5ZVQ3bWdoc3lrSQ?oc=5",
       "feed_id": "google_news_credit_cards",
       "feed_ids": [
@@ -14,33 +36,11 @@
       "matched_terms": [
         "UPI"
       ],
-      "occurrence_id": "occ_000021",
+      "occurrence_id": "occ_000022",
       "original_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdzB4X1B3MnZQRGZkRXJ1ZDZWOXJuRkN5Zlhlc3M1X1N2bk1sNGUwUTgzdUFZb01CZGRPYnBnNkpvUHlRTW15MVltdmhGUG5UZFpSY1llZHdudHdFRlRld2Zsb0p1X3g2ejFkV28zSW56U2NBcC1rZURYRV8wZkFla1hhUkE5ZVQ3bWdoc3lrSQ?oc=5",
       "pipeline_item_id": "95d63cc27d62e979",
       "published_at": "2026-09-26T00:56:00Z",
       "title": "Apple (AAPL) Eyes an Apple Pay Launch in India. How Much can it Grow Without UPI? - Yahoo Finance",
-      "topic": "Credit cards, rewards and payments",
-      "topic_id": "credit_cards_payments",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://telanganatoday.com/india-credit-card-spending-growth-slows-in-august-as-competition-intensifies",
-      "feed_id": "telangana_today",
-      "feed_ids": [
-        "telangana_today"
-      ],
-      "feed_name": "Telangana Today",
-      "feed_names": [
-        "Telangana Today"
-      ],
-      "matched_terms": [
-        "credit card"
-      ],
-      "occurrence_id": "occ_000022",
-      "original_url": "https://telanganatoday.com/india-credit-card-spending-growth-slows-in-august-as-competition-intensifies",
-      "pipeline_item_id": "ccb5c6891772327f",
-      "published_at": "2026-09-25T07:33:23Z",
-      "title": "India credit card spending growth slows in August as competition intensifies",
       "topic": "Credit cards, rewards and payments",
       "topic_id": "credit_cards_payments",
       "topic_lane": "review"
@@ -90,23 +90,23 @@
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://telanganatoday.com/upi-mdr-is-not-a-tax-or-surcharge-says-nirmala-sitharaman",
-      "feed_id": "telangana_today",
+      "canonical_url": "https://yourstory.com/2026/09/proposed-upi-merchant-discount-rate-not-a-tax-cess-or-surcharge-fm",
+      "feed_id": "yourstory",
       "feed_ids": [
-        "telangana_today"
+        "yourstory"
       ],
-      "feed_name": "Telangana Today",
+      "feed_name": "YourStory",
       "feed_names": [
-        "Telangana Today"
+        "YourStory"
       ],
       "matched_terms": [
         "UPI"
       ],
       "occurrence_id": "occ_000025",
-      "original_url": "https://telanganatoday.com/upi-mdr-is-not-a-tax-or-surcharge-says-nirmala-sitharaman",
-      "pipeline_item_id": "f0372db7b3437b2f",
-      "published_at": "2026-09-25T07:48:43Z",
-      "title": "UPI MDR is not a tax or surcharge, says Nirmala Sitharaman",
+      "original_url": "https://yourstory.com/2026/09/proposed-upi-merchant-discount-rate-not-a-tax-cess-or-surcharge-fm",
+      "pipeline_item_id": "f689ac3fed75c7b8",
+      "published_at": "2026-09-25T09:16:42Z",
+      "title": "Proposed UPI Merchant Discount Rate not a tax, cess or surcharge; will not burden consumers: FM",
       "topic": "Credit cards, rewards and payments",
       "topic_id": "credit_cards_payments",
       "topic_lane": "review"

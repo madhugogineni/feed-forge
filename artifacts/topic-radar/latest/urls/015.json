@@ -2,110 +2,114 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://www.androidauthority.com/pixel-11-pro-favorite-feature-face-unlock-why-3713749",
-      "domain": "www.androidauthority.com",
+      "canonical_url": "https://www.thehindu.com/news/national/telangana/pranay-murder-case-convict-dies-after-complaining-of-chest-pain-in-cherlapally-jail/article71505605.ece",
+      "domain": "www.thehindu.com",
       "feed_ids": [
-        "android_authority"
+        "hindu_hyderabad",
+        "hindu_telangana"
       ],
       "feed_names": [
-        "Android Authority"
+        "The Hindu Hyderabad",
+        "The Hindu Telangana"
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000075"
+        "occ_000027"
       ],
       "topic_ids": [
-        "tech_software"
+        "crime"
       ],
       "topics": [
-        "Technology, software and gadgets"
+        "Crime news"
       ],
       "url_id": "url_000071"
     },
     {
-      "canonical_url": "https://www.androidauthority.com/spotify-meta-muse-integration-3714958",
-      "domain": "www.androidauthority.com",
+      "canonical_url": "https://www.thehindu.com/news/national/telangana/prrd-minister-directs-officials-to-prepare-for-summer-drinking-water-needs/article71513291.ece",
+      "domain": "www.thehindu.com",
       "feed_ids": [
-        "android_authority"
+        "hindu_hyderabad",
+        "hindu_telangana"
       ],
       "feed_names": [
-        "Android Authority"
+        "The Hindu Hyderabad",
+        "The Hindu Telangana"
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000065"
+        "occ_000076"
       ],
       "topic_ids": [
-        "music_apps"
+        "telangana_hyderabad"
       ],
       "topics": [
-        "Music and streaming apps"
+        "Telangana and Hyderabad developments"
       ],
       "url_id": "url_000072"
     },
     {
-      "canonical_url": "https://www.androidauthority.com/turned-old-pixel-into-tv-box-security-camera-worth-it-3714104",
-      "domain": "www.androidauthority.com",
+      "canonical_url": "https://www.thehindu.com/news/national/telangana/revanth-urges-centre-to-confer-bharat-ratna-on-manmohan-singh/article71513607.ece",
+      "domain": "www.thehindu.com",
       "feed_ids": [
-        "android_authority"
+        "hindu_telangana"
       ],
       "feed_names": [
-        "Android Authority"
+        "The Hindu Telangana"
       ],
-      "occurrence_count": 1,
+      "occurrence_count": 2,
       "occurrence_ids": [
-        "occ_000073"
+        "occ_000042",
+        "occ_000075"
       ],
       "topic_ids": [
-        "tech_software"
+        "india_developments",
+        "telangana_hyderabad"
       ],
       "topics": [
-        "Technology, software and gadgets"
+        "India developments",
+        "Telangana and Hyderabad developments"
       ],
       "url_id": "url_000073"
     },
     {
-      "canonical_url": "https://www.apple.com/in/newsroom/2026/09/apple-opens-apple-music-hall-a-state-of-the-art-live-music-venue-in-london",
-      "domain": "www.apple.com",
+      "canonical_url": "https://www.thehindu.com/news/national/telangana/waste-from-ganesh-festival-40-more-this-year-400-more-from-three-years-ago/article71513521.ece",
+      "domain": "www.thehindu.com",
       "feed_ids": [
-        "apple_india"
+        "hindu_telangana"
       ],
       "feed_names": [
-        "Apple India Newsroom"
+        "The Hindu Telangana"
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000061"
+        "occ_000079"
       ],
       "topic_ids": [
-        "music_apps"
+        "telangana_hyderabad"
       ],
       "topics": [
-        "Music and streaming apps"
+        "Telangana and Hyderabad developments"
       ],
       "url_id": "url_000074"
     },
     {
-      "canonical_url": "https://www.medianama.com/2026/09/223-npci-ai-cyber-threats-mythos-upi-mdr",
-      "domain": "www.medianama.com",
+      "canonical_url": "https://www.thehindu.com/news/national/telangana/workplace-equality-has-to-be-built-not-announced-charu-sinha/article71513593.ece",
+      "domain": "www.thehindu.com",
       "feed_ids": [
-        "medianama"
+        "hindu_hyderabad"
       ],
       "feed_names": [
-        "MediaNama"
+        "The Hindu Hyderabad"
       ],
-      "occurrence_count": 2,
+      "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000001",
-        "occ_000019"
+        "occ_000078"
       ],
       "topic_ids": [
-        "ai_development",
-        "credit_cards_payments"
+        "telangana_hyderabad"
       ],
       "topics": [
-        "AI development and products",
-        "Credit cards, rewards and payments"
+        "Telangana and Hyderabad developments"
       ],
       "url_id": "url_000075"
     }

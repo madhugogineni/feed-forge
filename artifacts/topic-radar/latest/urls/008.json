@@ -2,6 +2,27 @@
   "record_count": 5,
   "records": [
     {
+      "canonical_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPc2lycXpXOFZqbE9NSXpoSkdaZVdOMjJnaVdPYmdFbUpKLWRaeDFvRzhsdmMxSmt1THpETmNxd2lBZVlXN1BwTjU4VUlBVDlQa2YwRVlvdnFSdlVnbkpMOTEySzlqS003Mmh6blZ1R3Fja293Wk9ZZHZvUXMxN1JLcjJQWVAtZFEtdWh6d0hFX0ZjRHVGSTdvbWNnaHVMN0xkVUlqajZnR1ZLa1dCTzAzNzRvY3pYem1kdDU0aDZjLXBtOGxpTHfSAcsBQVVfeXFMTWt5eHJ3WWVMcGxyWGFVRDE1RVVNLVlEdENUN1FTMzJaRTJCRlJyNk8tbFI4c3pOY3pQUFNDN2tGOUhGakdxOFA2RzV5T28zenY5Zy1QSEhROWNxNHktdFNoTXZzNUp1RFlrOWtXNGF5bkJJNTZhdk13QnNlTFdOb2ZLRG5WejcwLUVBTm1vSnBLeEJkNXRGZFpyYkxoWjNhbEtzVHRIZVJCMkhWWV91ejhaZTI5RDNrbzdtSXZadkN0LUpaajFEWE50T2c?oc=5",
+      "domain": "news.google.com",
+      "feed_ids": [
+        "google_news_device_brands"
+      ],
+      "feed_names": [
+        "Google News — Indian device brands"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000053"
+      ],
+      "topic_ids": [
+        "indian_brands"
+      ],
+      "topics": [
+        "Indian consumer brands and products"
+      ],
+      "url_id": "url_000036"
+    },
+    {
       "canonical_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNaTZ6THFmYnl1Y3Z2U052QjJsUjNqcEdUUnljYTA4N0k3bFpqMmlWNk5ST0F3VXpDclU3Z01IMTJsTXBtMXB0ZE1sUE5iZzNwV0dVSC1nRjJ4VktGVTVhRjBORGF3aFpqc1BEUXJ1MUQ4elM2dWRQQ2hKVUY0TU5hMlprRVlTTkE4Mm9tdVVEaUpQMEZwcHQ0RDdGUXdzWm5pOFUyeEZ3dnlzSEstWTJsWnVQVHJ6LXBhaDltb0Ywam1GSjR2ekd0bg?oc=5",
       "domain": "news.google.com",
       "feed_ids": [
@@ -12,7 +33,7 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000068"
+        "occ_000066"
       ],
       "topic_ids": [
         "personal_finance"
@@ -20,7 +41,49 @@
       "topics": [
         "Personal finance and investing"
       ],
-      "url_id": "url_000036"
+      "url_id": "url_000037"
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPU2ROZ0NaLXpoalRnSEtDQzhyZWpRMXdTdVhEWDgwSDNVM0FjOXlPWjlVMkhXZ09YdWtGTDBKdVJVOU1BUlVvX1JXVGpRSjlYMkNGQzVxdHdzMWxleUIzcnFMOW1HOWtScjJVQkh1cjJVblFkczA3MGNoaGFxVTFjTF9tNFVGTzNzU3JZaUFjUU5kV0VBNTBscTRjaDdfNGtXeTNZbWZCemxyTmZ5ZDk2RmJ0TDFqcU40dUhoNFpzcDBBd1dKWGxibNIBzwFBVV95cUxQbE9LVG1PekNTSjFIMlpWY212NVJNTUJXTllzTXRmb0prRFl6WEowSl9MTFpDMTlwXy0wbDhBaXhuY3RlbG9Mb0FkWjZNSnRIMGt5anhfZDFma2pWZ01rb1JGUGs3MG80aUNGUXhLUElvcHloR0UxeEVtOGdreEJzdEowQ0J4d1dHOVA5SDVtb3YzS2hKNmZNWW9kaEN0ZXppUnZzaktJd0hLQm5sQmxmOFA4QS1RXzAyVUlnWF91TnZxN3o4bzBZNFRrSjhjZmM?oc=5",
+      "domain": "news.google.com",
+      "feed_ids": [
+        "google_news_device_brands"
+      ],
+      "feed_names": [
+        "Google News — Indian device brands"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000051"
+      ],
+      "topic_ids": [
+        "indian_brands"
+      ],
+      "topics": [
+        "Indian consumer brands and products"
+      ],
+      "url_id": "url_000038"
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPOTkzUURyMUdlbTFXcXI0Q21uRUt2TXhrVzA3YzN1UUF6V3ppLVZmREhaZnc2dFJBTktaTThrTFNBRWFEb0djdWxvX2lpZnNRY2Y4bldyc2F3MDVnZFowUmE4MDFQRHo2UW9IUG1xeXBfUnpQV2tFZURfa19fQ2syQTdCLUJPV1hBWEQyYzQzVUlTdEs4OGVHUnFZLV9aR2pTM19qdFo4NERObFdMeU9FY0lldXEwdUlDV1ZlQXpIYktiMnIxSzk4Y0x30gHPAUFVX3lxTE5hTU1CaXlEY1RZd2psbGk5MmIzdllYYjNjTTFGbm9qNU5UT1VzZUVpbXRESFY2Z3BWX0NRZGhyRkloV0kxY0RsWG9QaGVCYXo4U2owTU9MLUR6SHNjSi1SNTFZdFdMTU4yNXMtZ1k2dmtaaHR4NTF1dWZscW9ldFotS282NTQtV051alRfcUtpVnZnMjNXc1F3ZENnWFV3dFlxNHhrWm94aWNrWGtZcXB1VlVHc3NOWm1mWkhnNlRlV1EtVzk3V0pKX042Y0RMQQ?oc=5",
+      "domain": "news.google.com",
+      "feed_ids": [
+        "google_news_device_brands"
+      ],
+      "feed_names": [
+        "Google News — Indian device brands"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000047"
+      ],
+      "topic_ids": [
+        "india_developments"
+      ],
+      "topics": [
+        "India developments"
+      ],
+      "url_id": "url_000039"
     },
     {
       "canonical_url": "https://openai.com/index/proaction",
@@ -40,69 +103,6 @@
       ],
       "topics": [
         "AI development and products"
-      ],
-      "url_id": "url_000037"
-    },
-    {
-      "canonical_url": "https://telanganatoday.com/adilabad-tssp-yapalguda-battalion-inspector-booked-for-attempt-to-murder-of-colleague",
-      "domain": "telanganatoday.com",
-      "feed_ids": [
-        "telangana_today"
-      ],
-      "feed_names": [
-        "Telangana Today"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000028"
-      ],
-      "topic_ids": [
-        "crime"
-      ],
-      "topics": [
-        "Crime news"
-      ],
-      "url_id": "url_000038"
-    },
-    {
-      "canonical_url": "https://telanganatoday.com/air-india-suspends-pilot-after-failing-breath-analyser-test-at-zurich-airport",
-      "domain": "telanganatoday.com",
-      "feed_ids": [
-        "telangana_today"
-      ],
-      "feed_names": [
-        "Telangana Today"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000085"
-      ],
-      "topic_ids": [
-        "travel_lifestyle"
-      ],
-      "topics": [
-        "Travel and lifestyle"
-      ],
-      "url_id": "url_000039"
-    },
-    {
-      "canonical_url": "https://telanganatoday.com/asian-games-2026-president-murmu-congratulates-indian-medal-winners",
-      "domain": "telanganatoday.com",
-      "feed_ids": [
-        "telangana_today"
-      ],
-      "feed_names": [
-        "Telangana Today"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000043"
-      ],
-      "topic_ids": [
-        "india_developments"
-      ],
-      "topics": [
-        "India developments"
       ],
       "url_id": "url_000040"
     }

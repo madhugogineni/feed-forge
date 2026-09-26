@@ -2,28 +2,6 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://9to5mac.com/2026/09/24/apple-tv-reveals-new-series-with-hugh-laurie-as-organized-crime-boss",
-      "feed_id": "9to5mac",
-      "feed_ids": [
-        "9to5mac"
-      ],
-      "feed_name": "9to5Mac",
-      "feed_names": [
-        "9to5Mac"
-      ],
-      "matched_terms": [
-        "crime"
-      ],
-      "occurrence_id": "occ_000031",
-      "original_url": "https://9to5mac.com/2026/09/24/apple-tv-reveals-new-series-with-hugh-laurie-as-organized-crime-boss",
-      "pipeline_item_id": "a291fd65f4edf467",
-      "published_at": "2026-09-24T13:29:47Z",
-      "title": "Apple TV reveals new series with Hugh Laurie as organized crime boss",
-      "topic": "Crime news",
-      "topic_id": "crime",
-      "topic_lane": "context_only"
-    },
-    {
       "canonical_url": "https://www.thehindu.com/entertainment/movies/anumana-pakshi-movie-review-a-cluttered-exhausting-crime-comedy/article71507980.ece",
       "feed_id": "hindu_hyderabad",
       "feed_ids": [
@@ -36,7 +14,7 @@
       "matched_terms": [
         "crime"
       ],
-      "occurrence_id": "occ_000032",
+      "occurrence_id": "occ_000031",
       "original_url": "https://www.thehindu.com/entertainment/movies/anumana-pakshi-movie-review-a-cluttered-exhausting-crime-comedy/article71507980.ece",
       "pipeline_item_id": "c380234f556db26d",
       "published_at": "2026-09-25T10:26:03Z",
@@ -58,7 +36,7 @@
       "matched_terms": [
         "source:telangana_today_crime"
       ],
-      "occurrence_id": "occ_000033",
+      "occurrence_id": "occ_000032",
       "original_url": "https://telanganatoday.com/opinion-from-encounters-to-custodial-deaths-is-india-finding-new-ways-to-hide-extrajudicial-killings",
       "pipeline_item_id": "da968958e5f83f6f",
       "published_at": "2026-09-24T17:50:17Z",
@@ -80,7 +58,7 @@
       "matched_terms": [
         "fraud"
       ],
-      "occurrence_id": "occ_000034",
+      "occurrence_id": "occ_000033",
       "original_url": "https://news.google.com/rss/articles/CBMigwNBVV95cUxORzRzX3d1VEJQSkxqckdkOHM1LWRBWDU0ZzBnRDhrcGRkeHVNSjFzamllUkFOMGZMaFZUYzMxei1rbkJfVk1tVkx6c041THFrcHdFUUFhVGlGSERyZ2w4bjVVOEw3NnozRk9nLUNhTmNQcmo4a2NhbzJHU0VUVFdQaV9zSWVDcUc0V0tHU2tmZGhSQkdmdlQwMGFpZF9hZXp6SzR1c1gxUVB6U1VTT1psVDZLR0NZaUtpM2lrcnVEMEtsWUFrakRRNTQyRl90T2tqTGlEVzNaU0NSWTZNMEo1TERMVXJvdV9abktuZlNQU3pRV0J3eGUtUVdpblhNUE95WnRQQkR6NmtEcGNMTXNBcjBDY0tSRnczZ3daRThRVFJ1M0MxdW5iZDMtYjZXUDM3S0p1NGxiSmRRSUh2R2xlMUFIN2lhbmVmSERETDJiZ2FvR1h2eU9peElXTl9zWFJiSDRqc1hZWVg5ZV9WSHVLbEJTRWtuSU02OE9FdWNwQUxQekXSAYgDQVVfeXFMUHlKZXVGNHhkZldiSzUwODB5TFVnMl9ad2lIU3lGWDNBRFc2Z1RlUXlUQzlkdGg1NHBDejdzdnIzcWh6WkNFbVk3RkNWcTREU3pvSXQteXl5VVY2dTZvX2tPdEZRLTVkb1ZwWWFWeG95MGxyRlBRVWg4R0g3ck54Q1pib2pQUEdmV1FHQWNnN2RzODFJelhGN2wzQi1CTnZMNWFpYVpKRDhnNGwyZE5yU3lpWHVub1dmenhONVh0d2Vqc0tvOWpoOGF4YTF4UUtQNWU3dldYQW80VXpsWHVrWlFFX0RPNXhiUUhPR0R2ekdVUEloLW1ST2lEWDFXdF9uYzkxMlNhaHE5WmVwZjEyUksyMHg0UEpXcW1oVDVHYWtrZ3VUNGlEcTZER19oR1V3NGJMY01yR0FtdzlXR1ZEYUdhRDlYX3U5NzQtWjdGUm90ejJnUExuckRZN2xpR2g0U1AzckowMkVIYXdFTDB2Q1hPbjQxdWlSRzJERWJUM3FwR1E3aEVOWVY?oc=5",
       "pipeline_item_id": "ec24d7ad3a19b86c",
       "published_at": "2026-09-24T11:25:00Z",
@@ -102,11 +80,34 @@
       "matched_terms": [
         "wellness"
       ],
-      "occurrence_id": "occ_000035",
+      "occurrence_id": "occ_000034",
       "original_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNS0h4cm93MmR3VFhUMWVOV2VzelJLQ3hRSnpLZzFKWDQyV1pIVGZyeS1VZmtiNTAzZUszV09lLVNlZmhGX1ZTXzFnenJUM0lNTUl0MnFDUU5HbUdTZlk1Q0FPZjI2ektiUmRWRVlKT1c1UV94akpBbnBfeEhOTTZPN0UxUjQxT3o5MFFESTRVaTNiNDJwa0w3cjd5SGtZaVE2MWpIZjgtb0EzTkJx?oc=5",
       "pipeline_item_id": "0b8a624610a5438e",
       "published_at": "2026-09-24T12:16:31Z",
       "title": "Nykaa completes acquisition of 51% stake in Aminu Wellness - scanx.trade",
+      "topic": "Fitness and ergonomics",
+      "topic_id": "fitness_ergonomics",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://telanganatoday.com/kareena-kapoor-shares-glimpse-of-latest-workout-routine-fitness-chart",
+      "feed_id": "telangana_today",
+      "feed_ids": [
+        "telangana_today"
+      ],
+      "feed_name": "Telangana Today",
+      "feed_names": [
+        "Telangana Today"
+      ],
+      "matched_terms": [
+        "fitness",
+        "workout"
+      ],
+      "occurrence_id": "occ_000035",
+      "original_url": "https://telanganatoday.com/kareena-kapoor-shares-glimpse-of-latest-workout-routine-fitness-chart",
+      "pipeline_item_id": "425d3df1eef1405e",
+      "published_at": "2026-09-25T10:55:15Z",
+      "title": "Kareena Kapoor shares glimpse of latest workout routine, fitness chart",
       "topic": "Fitness and ergonomics",
       "topic_id": "fitness_ergonomics",
       "topic_lane": "review"

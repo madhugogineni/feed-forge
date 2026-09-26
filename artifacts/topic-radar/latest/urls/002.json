@@ -2,48 +2,6 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://9to5mac.com/2026/09/22/daily-september-22-2026",
-      "domain": "9to5mac.com",
-      "feed_ids": [
-        "9to5mac"
-      ],
-      "feed_names": [
-        "9to5Mac"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000037"
-      ],
-      "topic_ids": [
-        "fitness_ergonomics"
-      ],
-      "topics": [
-        "Fitness and ergonomics"
-      ],
-      "url_id": "url_000006"
-    },
-    {
-      "canonical_url": "https://9to5mac.com/2026/09/22/phishing-simulations-for-the-ai-era",
-      "domain": "9to5mac.com",
-      "feed_ids": [
-        "9to5mac"
-      ],
-      "feed_names": [
-        "9to5Mac"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000017"
-      ],
-      "topic_ids": [
-        "consumer_safety"
-      ],
-      "topics": [
-        "Consumer and digital safety"
-      ],
-      "url_id": "url_000007"
-    },
-    {
       "canonical_url": "https://9to5mac.com/2026/09/23/apple-increases-interest-rate-for-apple-card-savings-account",
       "domain": "9to5mac.com",
       "feed_ids": [
@@ -54,7 +12,7 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000067"
+        "occ_000065"
       ],
       "topic_ids": [
         "personal_finance"
@@ -62,7 +20,7 @@
       "topics": [
         "Personal finance and investing"
       ],
-      "url_id": "url_000008"
+      "url_id": "url_000006"
     },
     {
       "canonical_url": "https://9to5mac.com/2026/09/24/apple-tv-reveals-new-series-with-hugh-laurie-as-organized-crime-boss",
@@ -75,7 +33,7 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000031"
+        "occ_000030"
       ],
       "topic_ids": [
         "crime"
@@ -83,7 +41,7 @@
       "topics": [
         "Crime news"
       ],
-      "url_id": "url_000009"
+      "url_id": "url_000007"
     },
     {
       "canonical_url": "https://9to5mac.com/2026/09/24/happy-hour-609",
@@ -96,13 +54,55 @@
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000040"
+        "occ_000039"
       ],
       "topic_ids": [
         "fitness_ergonomics"
       ],
       "topics": [
         "Fitness and ergonomics"
+      ],
+      "url_id": "url_000008"
+    },
+    {
+      "canonical_url": "https://9to5mac.com/2026/09/25/apple-music-hall-confirms-first-eight-shows-starting-with-elton-john",
+      "domain": "9to5mac.com",
+      "feed_ids": [
+        "9to5mac"
+      ],
+      "feed_names": [
+        "9to5Mac"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000061"
+      ],
+      "topic_ids": [
+        "music_apps"
+      ],
+      "topics": [
+        "Music and streaming apps"
+      ],
+      "url_id": "url_000009"
+    },
+    {
+      "canonical_url": "https://9to5mac.com/2026/09/25/apples-dimensional-drawings-offer-a-fascinating-look-at-its-product-designs",
+      "domain": "9to5mac.com",
+      "feed_ids": [
+        "9to5mac"
+      ],
+      "feed_names": [
+        "9to5Mac"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000011"
+      ],
+      "topic_ids": [
+        "big_tech"
+      ],
+      "topics": [
+        "Major technology companies"
       ],
       "url_id": "url_000010"
     }

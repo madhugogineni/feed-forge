@@ -2,50 +2,6 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://www.androidauthority.com/best-pixel-11-pro-alternative-poll-results-3715761",
-      "feed_id": "android_authority",
-      "feed_ids": [
-        "android_authority"
-      ],
-      "feed_name": "Android Authority",
-      "feed_names": [
-        "Android Authority"
-      ],
-      "matched_terms": [
-        "Pixel"
-      ],
-      "occurrence_id": "occ_000071",
-      "original_url": "https://www.androidauthority.com/best-pixel-11-pro-alternative-poll-results-3715761",
-      "pipeline_item_id": "6cac5001df9cca3d",
-      "published_at": "2026-09-25T21:19:35Z",
-      "title": "You told us your favorite Pixel 11 Pro alternative, and it’s not another Pixel",
-      "topic": "Technology, software and gadgets",
-      "topic_id": "tech_software",
-      "topic_lane": "review"
-    },
-    {
-      "canonical_url": "https://www.androidauthority.com/google-health-5-09-3715801",
-      "feed_id": "android_authority",
-      "feed_ids": [
-        "android_authority"
-      ],
-      "feed_name": "Android Authority",
-      "feed_names": [
-        "Android Authority"
-      ],
-      "matched_terms": [
-        "Pixel"
-      ],
-      "occurrence_id": "occ_000072",
-      "original_url": "https://www.androidauthority.com/google-health-5-09-3715801",
-      "pipeline_item_id": "a10328151e5b2c2d",
-      "published_at": "2026-09-25T21:41:11Z",
-      "title": "Google Health 5.09 arrives with more than just your new Pixel Watch features",
-      "topic": "Technology, software and gadgets",
-      "topic_id": "tech_software",
-      "topic_lane": "review"
-    },
-    {
       "canonical_url": "https://www.androidauthority.com/turned-old-pixel-into-tv-box-security-camera-worth-it-3714104",
       "feed_id": "android_authority",
       "feed_ids": [
@@ -58,7 +14,7 @@
       "matched_terms": [
         "Pixel"
       ],
-      "occurrence_id": "occ_000073",
+      "occurrence_id": "occ_000071",
       "original_url": "https://www.androidauthority.com/turned-old-pixel-into-tv-box-security-camera-worth-it-3714104",
       "pipeline_item_id": "d6b817eb77354232",
       "published_at": "2026-09-26T09:00:32Z",
@@ -80,7 +36,7 @@
       "matched_terms": [
         "Android"
       ],
-      "occurrence_id": "occ_000074",
+      "occurrence_id": "occ_000072",
       "original_url": "https://9to5google.com/2026/09/25/android-dev-summit-android-18",
       "pipeline_item_id": "e0ec51bd87cb22a5",
       "published_at": "2026-09-25T19:40:55Z",
@@ -103,13 +59,58 @@
         "Android",
         "Pixel"
       ],
-      "occurrence_id": "occ_000075",
+      "occurrence_id": "occ_000073",
       "original_url": "https://www.androidauthority.com/pixel-11-pro-favorite-feature-face-unlock-why-3713749",
       "pipeline_item_id": "ead8573aa201566b",
       "published_at": "2026-09-26T10:00:42Z",
       "title": "My favorite Pixel 11 Pro feature is something no other Android phone can match",
       "topic": "Technology, software and gadgets",
       "topic_id": "tech_software",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://www.androidauthority.com/ios-apps-i-want-on-android-2026-3713705",
+      "feed_id": "android_authority",
+      "feed_ids": [
+        "android_authority"
+      ],
+      "feed_name": "Android Authority",
+      "feed_names": [
+        "Android Authority"
+      ],
+      "matched_terms": [
+        "Android",
+        "iOS"
+      ],
+      "occurrence_id": "occ_000074",
+      "original_url": "https://www.androidauthority.com/ios-apps-i-want-on-android-2026-3713705",
+      "pipeline_item_id": "f61e0470da7a06d5",
+      "published_at": "2026-09-26T11:00:45Z",
+      "title": "9 excellent iOS apps I wish would come to Android (but probably never will)",
+      "topic": "Technology, software and gadgets",
+      "topic_id": "tech_software",
+      "topic_lane": "review"
+    },
+    {
+      "canonical_url": "https://www.thehindu.com/news/national/telangana/revanth-urges-centre-to-confer-bharat-ratna-on-manmohan-singh/article71513607.ece",
+      "feed_id": "hindu_telangana",
+      "feed_ids": [
+        "hindu_telangana"
+      ],
+      "feed_name": "The Hindu Telangana",
+      "feed_names": [
+        "The Hindu Telangana"
+      ],
+      "matched_terms": [
+        "source:hindu_telangana"
+      ],
+      "occurrence_id": "occ_000075",
+      "original_url": "https://www.thehindu.com/news/national/telangana/revanth-urges-centre-to-confer-bharat-ratna-on-manmohan-singh/article71513607.ece",
+      "pipeline_item_id": "24353f63cb1a0c7e",
+      "published_at": "2026-09-26T15:55:15Z",
+      "title": "Revanth urges Centre to confer Bharat Ratna on Manmohan Singh",
+      "topic": "Telangana and Hyderabad developments",
+      "topic_id": "telangana_hyderabad",
       "topic_lane": "review"
     }
   ],

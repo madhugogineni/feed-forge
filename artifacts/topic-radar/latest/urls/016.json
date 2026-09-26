@@ -1,72 +1,26 @@
 {
-  "record_count": 5,
+  "record_count": 4,
   "records": [
     {
-      "canonical_url": "https://www.thehindu.com/entertainment/movies/anumana-pakshi-movie-review-a-cluttered-exhausting-crime-comedy/article71507980.ece",
-      "domain": "www.thehindu.com",
+      "canonical_url": "https://yourstory.com/2026/09/ai-semiconductors-quantum-tech-major-frontier-india-sitharaman",
+      "domain": "yourstory.com",
       "feed_ids": [
-        "hindu_hyderabad"
+        "yourstory"
       ],
       "feed_names": [
-        "The Hindu Hyderabad"
+        "YourStory"
       ],
       "occurrence_count": 1,
       "occurrence_ids": [
-        "occ_000032"
+        "occ_000044"
       ],
       "topic_ids": [
-        "crime"
+        "india_developments"
       ],
       "topics": [
-        "Crime news"
+        "India developments"
       ],
       "url_id": "url_000076"
-    },
-    {
-      "canonical_url": "https://www.thehindu.com/news/cities/Hyderabad/engineering-students-suicide-turns-out-to-be-murder-two-arrested/article71502595.ece",
-      "domain": "www.thehindu.com",
-      "feed_ids": [
-        "hindu_hyderabad",
-        "hindu_telangana"
-      ],
-      "feed_names": [
-        "The Hindu Hyderabad",
-        "The Hindu Telangana"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000030"
-      ],
-      "topic_ids": [
-        "crime"
-      ],
-      "topics": [
-        "Crime news"
-      ],
-      "url_id": "url_000077"
-    },
-    {
-      "canonical_url": "https://www.thehindu.com/news/national/telangana/pranay-murder-case-convict-dies-after-complaining-of-chest-pain-in-cherlapally-jail/article71505605.ece",
-      "domain": "www.thehindu.com",
-      "feed_ids": [
-        "hindu_hyderabad",
-        "hindu_telangana"
-      ],
-      "feed_names": [
-        "The Hindu Hyderabad",
-        "The Hindu Telangana"
-      ],
-      "occurrence_count": 1,
-      "occurrence_ids": [
-        "occ_000027"
-      ],
-      "topic_ids": [
-        "crime"
-      ],
-      "topics": [
-        "Crime news"
-      ],
-      "url_id": "url_000078"
     },
     {
       "canonical_url": "https://yourstory.com/2026/09/akamai-lands-116b-cloud-computing-deal-with-anthropic",
@@ -87,7 +41,7 @@
       "topics": [
         "AI development and products"
       ],
-      "url_id": "url_000079"
+      "url_id": "url_000077"
     },
     {
       "canonical_url": "https://yourstory.com/2026/09/mdr-on-upi-payments-above-rs-2000-will-not-be-passed-on-to-consumers-govt-sources",
@@ -108,7 +62,28 @@
       "topics": [
         "Credit cards, rewards and payments"
       ],
-      "url_id": "url_000080"
+      "url_id": "url_000078"
+    },
+    {
+      "canonical_url": "https://yourstory.com/2026/09/proposed-upi-merchant-discount-rate-not-a-tax-cess-or-surcharge-fm",
+      "domain": "yourstory.com",
+      "feed_ids": [
+        "yourstory"
+      ],
+      "feed_names": [
+        "YourStory"
+      ],
+      "occurrence_count": 1,
+      "occurrence_ids": [
+        "occ_000025"
+      ],
+      "topic_ids": [
+        "credit_cards_payments"
+      ],
+      "topics": [
+        "Credit cards, rewards and payments"
+      ],
+      "url_id": "url_000079"
     }
   ],
   "schema_version": "feed-forge/editorial-input/v1",

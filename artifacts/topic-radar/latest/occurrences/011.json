@@ -2,46 +2,45 @@
   "record_count": 5,
   "records": [
     {
-      "canonical_url": "https://telanganatoday.com/iacc-summit-highlights-indias-ai-opportunity-beyond-llms-chips-and-data-centres",
-      "feed_id": "telangana_today",
+      "canonical_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPU2ROZ0NaLXpoalRnSEtDQzhyZWpRMXdTdVhEWDgwSDNVM0FjOXlPWjlVMkhXZ09YdWtGTDBKdVJVOU1BUlVvX1JXVGpRSjlYMkNGQzVxdHdzMWxleUIzcnFMOW1HOWtScjJVQkh1cjJVblFkczA3MGNoaGFxVTFjTF9tNFVGTzNzU3JZaUFjUU5kV0VBNTBscTRjaDdfNGtXeTNZbWZCemxyTmZ5ZDk2RmJ0TDFqcU40dUhoNFpzcDBBd1dKWGxibNIBzwFBVV95cUxQbE9LVG1PekNTSjFIMlpWY212NVJNTUJXTllzTXRmb0prRFl6WEowSl9MTFpDMTlwXy0wbDhBaXhuY3RlbG9Mb0FkWjZNSnRIMGt5anhfZDFma2pWZ01rb1JGUGs3MG80aUNGUXhLUElvcHloR0UxeEVtOGdreEJzdEowQ0J4d1dHOVA5SDVtb3YzS2hKNmZNWW9kaEN0ZXppUnZzaktJd0hLQm5sQmxmOFA4QS1RXzAyVUlnWF91TnZxN3o4bzBZNFRrSjhjZmM?oc=5",
+      "feed_id": "google_news_device_brands",
       "feed_ids": [
-        "telangana_today"
+        "google_news_device_brands"
       ],
-      "feed_name": "Telangana Today",
+      "feed_name": "Google News — Indian device brands",
       "feed_names": [
-        "Telangana Today"
+        "Google News — Indian device brands"
       ],
       "matched_terms": [
-        "India",
-        "summit"
+        "Ather"
       ],
       "occurrence_id": "occ_000051",
-      "original_url": "https://telanganatoday.com/iacc-summit-highlights-indias-ai-opportunity-beyond-llms-chips-and-data-centres",
-      "pipeline_item_id": "b518ebc9b525e1b5",
-      "published_at": "2026-09-25T10:48:45Z",
-      "title": "IACC Summit highlights India’s AI opportunity beyond LLMs, chips and data centres",
-      "topic": "India-related geopolitics",
-      "topic_id": "india_geopolitics",
-      "topic_lane": "context_only"
+      "original_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPU2ROZ0NaLXpoalRnSEtDQzhyZWpRMXdTdVhEWDgwSDNVM0FjOXlPWjlVMkhXZ09YdWtGTDBKdVJVOU1BUlVvX1JXVGpRSjlYMkNGQzVxdHdzMWxleUIzcnFMOW1HOWtScjJVQkh1cjJVblFkczA3MGNoaGFxVTFjTF9tNFVGTzNzU3JZaUFjUU5kV0VBNTBscTRjaDdfNGtXeTNZbWZCemxyTmZ5ZDk2RmJ0TDFqcU40dUhoNFpzcDBBd1dKWGxibNIBzwFBVV95cUxQbE9LVG1PekNTSjFIMlpWY212NVJNTUJXTllzTXRmb0prRFl6WEowSl9MTFpDMTlwXy0wbDhBaXhuY3RlbG9Mb0FkWjZNSnRIMGt5anhfZDFma2pWZ01rb1JGUGs3MG80aUNGUXhLUElvcHloR0UxeEVtOGdreEJzdEowQ0J4d1dHOVA5SDVtb3YzS2hKNmZNWW9kaEN0ZXppUnZzaktJd0hLQm5sQmxmOFA4QS1RXzAyVUlnWF91TnZxN3o4bzBZNFRrSjhjZmM?oc=5",
+      "pipeline_item_id": "108b764f27bfc353",
+      "published_at": "2026-09-26T14:47:25Z",
+      "title": "EV 2Ws industry established now, can do without subsidies: Ather - BusinessLine",
+      "topic": "Indian consumer brands and products",
+      "topic_id": "indian_brands",
+      "topic_lane": "review"
     },
     {
-      "canonical_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQR1FOaExKSE5DN1R0SFpvckxYVmdJWW1kdHVTVWpwZ09vZnFpb0tPd0ZhdjFldUJOZmhVaWZ0dDFsZGxpTURLVkRZQnJRcl9waGFhaTdJMFY4Z09ubHBGRjNGM3FvcV83TDdaYUFwb01iQVlNZ3JpVDlSWDJKVVM0TGVxRW9FZjkwbU1Wa2taX3dxZGFXTW4xTENZcU9kcWJZMGNUd0lkM3A4THdIRGt1LWlkUy1pTk1Ib01HcVROV1lFSDJUMmdzZlRTRlJIbjRhbWdGUXZVc2M?oc=5",
-      "feed_id": "google_news_digital_brands",
+      "canonical_url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOejJnZzVMNlVQTEFzS0d3cnVFcHBnaGxpNnZMTV9KeUFzNGdWeV93bkxGSEVtOUhmT05odWxzUHVUZk9GSUlZTUVPdEd2X0ZKTV8zcEgwMmNkbDZYOWsxZENJdmIyZHRTYUZZMXliaTVrRlZsbzd6U3F1MnZBZ0VKNDE2WEtFelgwb1dVUGZWODJFOU9ibklKU29FYW1oWEJ0M1pRSV9iVDdjeXlONnFnekNjWHR6YUVxcnVpdkNvQjRUZk94SW1EQ1dHY0tUNjRINmpYRjFueEZzYl9nZWpBQVg1WUpzMU03NUxsS2dVRQ?oc=5",
+      "feed_id": "google_news_consumer_brands",
       "feed_ids": [
-        "google_news_digital_brands"
+        "google_news_consumer_brands"
       ],
-      "feed_name": "Google News — Indian digital brands",
+      "feed_name": "Google News — Indian consumer brands",
       "feed_names": [
-        "Google News — Indian digital brands"
+        "Google News — Indian consumer brands"
       ],
       "matched_terms": [
-        "Blinkit"
+        "Lenskart"
       ],
       "occurrence_id": "occ_000052",
-      "original_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQR1FOaExKSE5DN1R0SFpvckxYVmdJWW1kdHVTVWpwZ09vZnFpb0tPd0ZhdjFldUJOZmhVaWZ0dDFsZGxpTURLVkRZQnJRcl9waGFhaTdJMFY4Z09ubHBGRjNGM3FvcV83TDdaYUFwb01iQVlNZ3JpVDlSWDJKVVM0TGVxRW9FZjkwbU1Wa2taX3dxZGFXTW4xTENZcU9kcWJZMGNUd0lkM3A4THdIRGt1LWlkUy1pTk1Ib01HcVROV1lFSDJUMmdzZlRTRlJIbjRhbWdGUXZVc2M?oc=5",
-      "pipeline_item_id": "50fcf17997075dcf",
-      "published_at": "2026-09-25T09:44:44Z",
-      "title": "Empathy not delivered via Blinkit: RJD MP on Bihar horrors - rediff.com",
+      "original_url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOejJnZzVMNlVQTEFzS0d3cnVFcHBnaGxpNnZMTV9KeUFzNGdWeV93bkxGSEVtOUhmT05odWxzUHVUZk9GSUlZTUVPdEd2X0ZKTV8zcEgwMmNkbDZYOWsxZENJdmIyZHRTYUZZMXliaTVrRlZsbzd6U3F1MnZBZ0VKNDE2WEtFelgwb1dVUGZWODJFOU9ibklKU29FYW1oWEJ0M1pRSV9iVDdjeXlONnFnekNjWHR6YUVxcnVpdkNvQjRUZk94SW1EQ1dHY0tUNjRINmpYRjFueEZzYl9nZWpBQVg1WUpzMU03NUxsS2dVRQ?oc=5",
+      "pipeline_item_id": "6200666e5e8ed993",
+      "published_at": "2026-09-26T09:09:05Z",
+      "title": "Lenskart Solutions - FIIs, MFs raise stakes in 10 stocks; shares gain up to 40% in 3 months - The Economic Times",
       "topic": "Indian consumer brands and products",
       "topic_id": "indian_brands",
       "topic_lane": "review"
@@ -63,7 +62,7 @@
       "original_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPc2lycXpXOFZqbE9NSXpoSkdaZVdOMjJnaVdPYmdFbUpKLWRaeDFvRzhsdmMxSmt1THpETmNxd2lBZVlXN1BwTjU4VUlBVDlQa2YwRVlvdnFSdlVnbkpMOTEySzlqS003Mmh6blZ1R3Fja293Wk9ZZHZvUXMxN1JLcjJQWVAtZFEtdWh6d0hFX0ZjRHVGSTdvbWNnaHVMN0xkVUlqajZnR1ZLa1dCTzAzNzRvY3pYem1kdDU0aDZjLXBtOGxpTHfSAcsBQVVfeXFMTWt5eHJ3WWVMcGxyWGFVRDE1RVVNLVlEdENUN1FTMzJaRTJCRlJyNk8tbFI4c3pOY3pQUFNDN2tGOUhGakdxOFA2RzV5T28zenY5Zy1QSEhROWNxNHktdFNoTXZzNUp1RFlrOWtXNGF5bkJJNTZhdk13QnNlTFdOb2ZLRG5WejcwLUVBTm1vSnBLeEJkNXRGZFpyYkxoWjNhbEtzVHRIZVJCMkhWWV91ejhaZTI5RDNrbzdtSXZadkN0LUpaajFEWE50T2c?oc=5",
       "pipeline_item_id": "6859109f6916a028",
       "published_at": "2026-09-25T09:35:06Z",
-      "title": "Party Speakers for House Parties: 4 boAt PartyPal Models to Consider | Hindustan Times - hindustantimes.com",
+      "title": "Party Speakers for House Parties: 4 boAt PartyPal Models to Consider | Hindustan Times - Hindustan Times",
       "topic": "Indian consumer brands and products",
       "topic_id": "indian_brands",
       "topic_lane": "review"
@@ -86,29 +85,29 @@
       "original_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbHVGX3ZBTm50am53X0pJbHdOWjQ0QXpHbHRzOFZBd0ltd0ZDRW9XNGxHSDJrWHpvTUdmSDd3RHo3b1F5cGtadkY2VC02VXhUQ2t4VUtCdG5kX1VZZGNmcERQWkpSQl9JcG44SzgtUk40TkhlMTE3dDkwTVRkam56MS1QdlFHVlRNMFNRb0szaGRYUXdfcU5oSjN5eHFQMkVoakxKRmtVM0FkOWlIc0RoU1MxSS04bmsz?oc=5",
       "pipeline_item_id": "8dcf8fa203e5cf4d",
       "published_at": "2026-09-25T12:30:58Z",
-      "title": "No Swiggy. No Zomato. And for Benne founders Akhil Iyer and Shriya Narayan EMPLOYED, that’s deliberate. ‘Our product doesn't support it.’ Speaking to Shereen Bhan on Young Turks Reloaded, the duo explains why the dosa brand stays off delivery platfor - LinkedIn",
+      "title": "No Swiggy. No Zomato. And for Benne founders Akhil Iyer and Shriya Narayan EMPLOYED, that’s deliberate. ‘Our product doesn't support it.’ Speaking to Shereen Bhan on Young Turks Reloaded, the duo explains why the dosa brand stays off delivery platfor - linkedin.com",
       "topic": "Indian consumer brands and products",
       "topic_id": "indian_brands",
       "topic_lane": "review"
     },
     {
-      "canonical_url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQOFgtbFZkZ09aRURYUVkxSjhFa2M0LU5JWG5tQmhpOU5oUmxXZEhqck03cjhSTDI0ekRrRWR2Tm91alBqQ3psM19CeFdxOW9aZHZtcGR0UnFuQldhOTNVWXFDUVRmclhRRzlBRF9kUGhDVjMtTW1iZlk2ZndJQk5iWnE1SXk4Y19Tbm9hUHRCNEtfeVVqUXVNNjFxRjNsYndOUXNMOW45MGFKX1p6NWlzdFhsSmNOWkhrUUlyRlpHNkR6Vk9lMi1pZ0xjbHByM0tYVEo1ekY4cWd6NEpVV0JfalRGUnB4VUhjaXdHXzRlVFZVaTTSAfgBQVVfeXFMUFd0YURtSU9JTmdwZTdpYklyQTBSMWwwd1dQSzI1Q2RFYjN2TFUwQVRNNDhwaXlIdDQ4UjFSYm5tc2tBOWQtQjRBTFR2WEIzalB1VlA0Um5JQXJ6Um5MeGs0a0JMRFpMc0lodlhQNmRPZDBzaVlvLUJBYXZvUWJQenpQSGJiS2ZPeUo5ZThpZzdkcFBUVTh6Q2pTTkZra2QyS2oxVHBCVjhBRnhtUzFuV0RSbmFmd2xYazAxaVNCdVIxM0dLVmNSNjk3dnVDa1NWcHdxMExDQV9zY0UxdTZxZGJCaEd1N3UwZFNsMU9MY1pMR05ReWFwVVQ?oc=5",
-      "feed_id": "google_news_device_brands",
+      "canonical_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSDlLQlZ6REhRNlNJd01nS2l0bmtOdUstQWRMMkRjYmxncG1UOVFFZDhrMmFXeDlraGlCZzRZdXQ4SHVnTVAxNm1hUFVpaHpRSmlDckVvUC13cFE0TFhodFpsdFZnS1FqSC1JaHpYX2xucjFEVUFpSk1Ib3dNVzRVbmpWc255TlkxSFVoMGhkS3E5LWh3dXJhRlB1bFN2ZG9xdG5uczJSTldubGwwR3NIY2pUTS1FNllZU1hKMm1kYWw?oc=5",
+      "feed_id": "google_news_consumer_brands",
       "feed_ids": [
-        "google_news_device_brands"
+        "google_news_consumer_brands"
       ],
-      "feed_name": "Google News — Indian device brands",
+      "feed_name": "Google News — Indian consumer brands",
       "feed_names": [
-        "Google News — Indian device brands"
+        "Google News — Indian consumer brands"
       ],
       "matched_terms": [
-        "Ola Electric"
+        "Nykaa"
       ],
       "occurrence_id": "occ_000055",
-      "original_url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQOFgtbFZkZ09aRURYUVkxSjhFa2M0LU5JWG5tQmhpOU5oUmxXZEhqck03cjhSTDI0ekRrRWR2Tm91alBqQ3psM19CeFdxOW9aZHZtcGR0UnFuQldhOTNVWXFDUVRmclhRRzlBRF9kUGhDVjMtTW1iZlk2ZndJQk5iWnE1SXk4Y19Tbm9hUHRCNEtfeVVqUXVNNjFxRjNsYndOUXNMOW45MGFKX1p6NWlzdFhsSmNOWkhrUUlyRlpHNkR6Vk9lMi1pZ0xjbHByM0tYVEo1ekY4cWd6NEpVV0JfalRGUnB4VUhjaXdHXzRlVFZVaTTSAfgBQVVfeXFMUFd0YURtSU9JTmdwZTdpYklyQTBSMWwwd1dQSzI1Q2RFYjN2TFUwQVRNNDhwaXlIdDQ4UjFSYm5tc2tBOWQtQjRBTFR2WEIzalB1VlA0Um5JQXJ6Um5MeGs0a0JMRFpMc0lodlhQNmRPZDBzaVlvLUJBYXZvUWJQenpQSGJiS2ZPeUo5ZThpZzdkcFBUVTh6Q2pTTkZra2QyS2oxVHBCVjhBRnhtUzFuV0RSbmFmd2xYazAxaVNCdVIxM0dLVmNSNjk3dnVDa1NWcHdxMExDQV9zY0UxdTZxZGJCaEd1N3UwZFNsMU9MY1pMR05ReWFwVVQ?oc=5",
-      "pipeline_item_id": "953cc74008029f20",
-      "published_at": "2026-09-25T08:02:27Z",
-      "title": "Ola Electric shares fall up to 9%, snap 4-day run, ahead of board meeting to consider fundraise - Moneycontrol.com",
+      "original_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSDlLQlZ6REhRNlNJd01nS2l0bmtOdUstQWRMMkRjYmxncG1UOVFFZDhrMmFXeDlraGlCZzRZdXQ4SHVnTVAxNm1hUFVpaHpRSmlDckVvUC13cFE0TFhodFpsdFZnS1FqSC1JaHpYX2xucjFEVUFpSk1Ib3dNVzRVbmpWc255TlkxSFVoMGhkS3E5LWh3dXJhRlB1bFN2ZG9xdG5uczJSTldubGwwR3NIY2pUTS1FNllZU1hKMm1kYWw?oc=5",
+      "pipeline_item_id": "c3830579fb0a9c43",
+      "published_at": "2026-09-26T05:07:30Z",
+      "title": "Nykaa’s ‘New At Nykaa’ campaign spotlights latest beauty launches through playful warehouse heist - MediaNews4U",
       "topic": "Indian consumer brands and products",
       "topic_id": "indian_brands",
       "topic_lane": "review"
